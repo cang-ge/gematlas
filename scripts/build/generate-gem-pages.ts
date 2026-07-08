@@ -163,5 +163,68 @@ for (const file of fs.readdirSync(GEM_DIR).filter(f => f.endsWith('.yaml'))) {
   console.log(`  ✓ ${gem.id} → gems/{en,zh}/${gem.id}.md`)
 }
 
-console.log(`\nGenerated ${ok} gem pages (${ok * 2} files, en+zh)`)
+/* ─── Crystal system pages ────────────────────────────────── */
+
+type CrystalSystemRow = {
+  id: string
+  name_zh: string
+  name_en: string
+  examples?: string[]
+  symmetry?: string
+}
+
+/** Load crystal systems from shared YAML. */
+function loadCrystalSystems(): CrystalSystemRow[] {
+  const raw = yaml.load(fs.readFileSync('data/shared/crystal-systems.yaml', 'utf8')) as { systems: CrystalSystemRow[] }
+  return raw.systems
+}
+
+function crystalPage(sys: CrystalSystemRow, locale: 'en' | 'zh'): string {
+  const name = locale === 'en' ? sys.name_en : sys.name_zh
+  const examples = (sys.examples || []).join(', ')
+  if (locale === 'en') {
+    return `---
+title: ${sys.name_en}
+crystalSystem: ${sys.id}
+---
+
+# ${sys.name_en}
+
+| Property | Value |
+|---|---|
+| Symmetry | ${sys.symmetry || '—'} |
+| Example Gems | ${examples || '—'} |
+
+*See the [classification overview](../intro) for all crystal systems.*
+`
+  }
+  return `---
+title: ${sys.name_zh}
+crystalSystem: ${sys.id}
+---
+
+# ${sys.name_zh}
+
+| 属性 | 值 |
+|---|---|
+| 对称性 | ${sys.symmetry || '—'} |
+| 示例宝石 | ${examples || '—'} |
+
+*详见[分类总览](../intro)。*
+`
+}
+
+const CRYSTAL_EN = 'docs/en/classification/crystal-systems'
+const CRYSTAL_ZH = 'docs/zh/classification/crystal-systems'
+let csOk = 0
+for (const sys of loadCrystalSystems()) {
+  fs.mkdirSync(CRYSTAL_EN, { recursive: true })
+  fs.mkdirSync(CRYSTAL_ZH, { recursive: true })
+  fs.writeFileSync(path.join(CRYSTAL_EN, `${sys.id}.md`), crystalPage(sys, 'en'), 'utf8')
+  fs.writeFileSync(path.join(CRYSTAL_ZH, `${sys.id}.md`), crystalPage(sys, 'zh'), 'utf8')
+  csOk++
+  console.log(`  ✓ ${sys.id} → crystal-systems/{en,zh}/${sys.id}.md`)
+}
+
+console.log(`\nGenerated ${ok} gem pages (${ok * 2} files) + ${csOk} crystal system pages (${csOk * 2} files)`)
 process.exit(ok > 0 ? 0 : 1)

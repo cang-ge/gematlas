@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 /**
  * GemAtlas — VitePress configuration
@@ -7,7 +8,7 @@ import { defineConfig } from 'vitepress'
  * Visual: deep ink background + brass accent + serif display.
  * i18n routing: automatic (/foo → /zh/foo) via default VitePress behavior.
  */
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: 'GemAtlas',
   // Title prefix; ':title' is replaced by per-page title.
   // Bare title on '/' (no suffix) reads cleanly — no leading colon.
@@ -86,7 +87,7 @@ export default defineConfig({
 
     docFooter: { prev: 'Previous', next: 'Next' },
   },
-})
+}))
 
 // ─── Navigation ─────────────────────────────────────────────────────
 
@@ -114,7 +115,18 @@ function navZh() {
 
 function sidebarEn() {
   return {
-    '/classification/': [{ text: 'Classification', items: [{ text: 'Overview', link: 'intro' }] }],
+    '/classification/': [{ text: 'Classification', items: [
+      { text: 'Overview', link: 'intro' },
+      { text: 'Crystal Systems', items: [
+        { text: 'Cubic (Isometric)', link: 'crystal-systems/cubic' },
+        { text: 'Tetragonal', link: 'crystal-systems/tetragonal' },
+        { text: 'Orthorhombic', link: 'crystal-systems/orthorhombic' },
+        { text: 'Hexagonal', link: 'crystal-systems/hexagonal' },
+        { text: 'Trigonal', link: 'crystal-systems/trigonal' },
+        { text: 'Monoclinic', link: 'crystal-systems/monoclinic' },
+        { text: 'Triclinic', link: 'crystal-systems/triclinic' },
+      ] },
+    ] }],
     '/identification/': [{ text: 'Identification', items: [{ text: 'Overview', link: 'intro' }] }],
     '/cutting/':         [{ text: 'Cutting',         items: [{ text: 'Overview', link: 'intro' }] }],
     '/grading/':         [{ text: 'Grading',         items: [{ text: 'Overview', link: 'intro' }] }],
@@ -124,7 +136,18 @@ function sidebarEn() {
 
 function sidebarZh() {
   return {
-    '/zh/classification/': [{ text: '分类', items: [{ text: '总览', link: 'intro' }] }],
+    '/zh/classification/': [{ text: '分类', items: [
+      { text: '总览', link: 'intro' },
+      { text: '晶系', items: [
+        { text: '等轴晶系', link: 'crystal-systems/cubic' },
+        { text: '四方晶系', link: 'crystal-systems/tetragonal' },
+        { text: '斜方晶系', link: 'crystal-systems/orthorhombic' },
+        { text: '六方晶系', link: 'crystal-systems/hexagonal' },
+        { text: '三方晶系', link: 'crystal-systems/trigonal' },
+        { text: '单斜晶系', link: 'crystal-systems/monoclinic' },
+        { text: '三斜晶系', link: 'crystal-systems/triclinic' },
+      ] },
+    ] }],
     '/zh/identification/': [{ text: '鉴定', items: [{ text: '总览', link: 'intro' }] }],
     '/zh/cutting/':        [{ text: '切割', items: [{ text: '总览', link: 'intro' }] }],
     '/zh/grading/':        [{ text: '分级', items: [{ text: '总览', link: 'intro' }] }],
