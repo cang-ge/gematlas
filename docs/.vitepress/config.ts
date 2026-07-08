@@ -18,6 +18,9 @@ export default defineConfig({
   lastUpdated: true,
   ignoreDeadLinks: true,
 
+  // Dark mode is the only mode for now (the brand demands it)
+  appearance: 'dark',
+
   // ─── Head: webfonts + favicon ───────────────────────────────────
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
@@ -79,12 +82,9 @@ export default defineConfig({
       },
     },
 
-    outline: { level: [2, 3], label: { en: 'On this page', zh: '本页大纲' } },
+    outline: { level: [2, 3], label: 'On this page' },
 
     docFooter: { prev: 'Previous', next: 'Next' },
-
-    // Dark mode is the only mode for now (the brand demands it)
-    appearance: 'dark',
   },
 })
 

@@ -19,7 +19,9 @@
   },
   "include": [
     "docs/.vitepress/**/*.ts",
-    "docs/.vitepress/**/*.vue"
+    "docs/.vitepress/**/*.vue",
+    "scripts/**/*.ts",
+    "tests/**/*.ts"
   ],
   "exclude": ["node_modules", "docs/.vitepress/dist", "docs/.vitepress/cache"]
 }

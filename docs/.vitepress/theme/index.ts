@@ -12,7 +12,8 @@ import './custom.css'
  */
 export default {
   extends: DefaultTheme,
-  enhanceApp({ app }) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  enhanceApp({ app }: { app: any }) {
     // Global components registered here in later phases.
   },
 }
