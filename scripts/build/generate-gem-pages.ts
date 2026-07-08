@@ -7,7 +7,7 @@
 import yaml from 'js-yaml'
 import fs from 'node:fs'
 import path from 'node:path'
-import { GemSchema } from './schema'
+import { GemSchema, CrystalSystemsFile } from './schema'
 
 const GEM_DIR = 'data/gems/v1'
 const OUT_EN   = 'docs/en/gems'
@@ -150,36 +150,36 @@ function pageBody(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'):
 /* ─── Main ──────────────────────────────────────────────────── */
 
 let ok = 0
+if (!fs.existsSync(GEM_DIR)) {
+  console.error(`  ✗ gem directory not found: ${GEM_DIR}`)
+}
 for (const file of fs.readdirSync(GEM_DIR).filter(f => f.endsWith('.yaml'))) {
-  const raw = yaml.load(fs.readFileSync(path.join(GEM_DIR, file), 'utf8'))
-  const gem = GemSchema.parse(raw)
+  try {
+    const raw = yaml.load(fs.readFileSync(path.join(GEM_DIR, file), 'utf8'))
+    const gem = GemSchema.parse(raw)
 
-  // ponytail: mkdirSync every time = idempotent, no check needed
-  fs.mkdirSync(OUT_EN, { recursive: true })
-  fs.mkdirSync(OUT_ZH, { recursive: true })
-  fs.writeFileSync(path.join(OUT_EN, `${gem.id}.md`), pageBody(gem, 'en'), 'utf8')
-  fs.writeFileSync(path.join(OUT_ZH, `${gem.id}.md`), pageBody(gem, 'zh'), 'utf8')
-  ok++
-  console.log(`  ✓ ${gem.id} → gems/{en,zh}/${gem.id}.md`)
+    // ponytail: mkdirSync every time = idempotent, no check needed
+    fs.mkdirSync(OUT_EN, { recursive: true })
+    fs.mkdirSync(OUT_ZH, { recursive: true })
+    fs.writeFileSync(path.join(OUT_EN, `${gem.id}.md`), pageBody(gem, 'en'), 'utf8')
+    fs.writeFileSync(path.join(OUT_ZH, `${gem.id}.md`), pageBody(gem, 'zh'), 'utf8')
+    ok++
+    console.log(`  ✓ ${gem.id} → gems/{en,zh}/${gem.id}.md`)
+  } catch (e) {
+    console.error(`  ✗ ${file}: ${(e as Error).message}`)
+  }
 }
 
 /* ─── Crystal system pages ────────────────────────────────── */
 
-type CrystalSystemRow = {
-  id: string
-  name_zh: string
-  name_en: string
-  examples?: string[]
-  symmetry?: string
+/** Load crystal systems from shared YAML with Zod validation. */
+function loadCrystalSystems() {
+  const raw = yaml.load(fs.readFileSync('data/shared/crystal-systems.yaml', 'utf8'))
+  const parsed = CrystalSystemsFile.parse(raw)
+  return parsed.systems
 }
 
-/** Load crystal systems from shared YAML. */
-function loadCrystalSystems(): CrystalSystemRow[] {
-  const raw = yaml.load(fs.readFileSync('data/shared/crystal-systems.yaml', 'utf8')) as { systems: CrystalSystemRow[] }
-  return raw.systems
-}
-
-function crystalPage(sys: CrystalSystemRow, locale: 'en' | 'zh'): string {
+function crystalPage(sys: ReturnType<typeof loadCrystalSystems>[number], locale: 'en' | 'zh'): string {
   const name = locale === 'en' ? sys.name_en : sys.name_zh
   const examples = (sys.examples || []).join(', ')
   if (locale === 'en') {
@@ -217,14 +217,18 @@ crystalSystem: ${sys.id}
 const CRYSTAL_EN = 'docs/en/classification/crystal-systems'
 const CRYSTAL_ZH = 'docs/zh/classification/crystal-systems'
 let csOk = 0
-for (const sys of loadCrystalSystems()) {
-  fs.mkdirSync(CRYSTAL_EN, { recursive: true })
-  fs.mkdirSync(CRYSTAL_ZH, { recursive: true })
-  fs.writeFileSync(path.join(CRYSTAL_EN, `${sys.id}.md`), crystalPage(sys, 'en'), 'utf8')
-  fs.writeFileSync(path.join(CRYSTAL_ZH, `${sys.id}.md`), crystalPage(sys, 'zh'), 'utf8')
-  csOk++
-  console.log(`  ✓ ${sys.id} → crystal-systems/{en,zh}/${sys.id}.md`)
+try {
+  for (const sys of loadCrystalSystems()) {
+    fs.mkdirSync(CRYSTAL_EN, { recursive: true })
+    fs.mkdirSync(CRYSTAL_ZH, { recursive: true })
+    fs.writeFileSync(path.join(CRYSTAL_EN, `${sys.id}.md`), crystalPage(sys, 'en'), 'utf8')
+    fs.writeFileSync(path.join(CRYSTAL_ZH, `${sys.id}.md`), crystalPage(sys, 'zh'), 'utf8')
+    csOk++
+    console.log(`  ✓ ${sys.id} → crystal-systems/{en,zh}/${sys.id}.md`)
+  }
+} catch (e) {
+  console.error(`  ✗ crystal-systems: ${(e as Error).message}`)
 }
 
 console.log(`\nGenerated ${ok} gem pages (${ok * 2} files) + ${csOk} crystal system pages (${csOk * 2} files)`)
-process.exit(ok > 0 ? 0 : 1)
+process.exit(ok > 0 && csOk > 0 ? 0 : 1)
