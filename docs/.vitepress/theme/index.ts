@@ -3,6 +3,8 @@ import GemCard from './components/GemCard.vue'
 import MohsScale from './components/MohsScale.vue'
 import CrystalDiagram from './components/CrystalDiagram.vue'
 import PropertyTable from './components/PropertyTable.vue'
+import FacetDiagram from './components/FacetDiagram.vue'
+import FancyCutGrid from './components/FancyCutGrid.vue'
 import './custom.css'
 
 /**
@@ -20,5 +22,7 @@ export default {
     app.component('MohsScale', MohsScale)
     app.component('CrystalDiagram', CrystalDiagram)
     app.component('PropertyTable', PropertyTable)
+    app.component('FacetDiagram', FacetDiagram)
+    app.component('FancyCutGrid', FancyCutGrid)
   },
 }
