@@ -1,0 +1,30 @@
+# Ruby (corundum family). Source: GIA Encyclopedia + Schumann (2009).
+id: ruby
+names:
+  zh: 红宝石
+  en: Ruby
+category:
+  mineral_zh: 刚玉族
+  mineral_en: Corundum
+  chemical_formula: Al₂O₃
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 9
+  hardness_note_zh: 仅次于钻石
+  hardness_note_en: Second only to diamond
+  specific_gravity: 4.00
+  refractive_index: 1.762-1.770
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 鸽血红, en: Pigeon Blood }
+    - { zh: 樱桃红, en: Cherry Red }
+    - { zh: 玫瑰红, en: Rose Red }
+  color_causes_zh: Cr³⁺ 离子致色
+  color_causes_en: Chromium (Cr³⁺) trace ions
+treatments:
+  common:
+    - heat-treatment
+  disclosure_required: true
+  note_zh: 绝大多数商业红宝石经过热处理，市场可接受；无处理溢价显著
+  note_en: Most commercial rubies are heat-treated; untreated stones command significant premiums
