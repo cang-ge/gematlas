@@ -4,7 +4,7 @@
 
 **Goal:** Build the typed data layer (10 gem YAMLs + 2 shared YAMLs + Zod schema + validate script + vitest test) that all later modules consume.
 
-**Architecture:** Single source of truth = `data/gemstones/v1/*.yaml` (one file per gem, core 5 modules). Shared taxonomies (crystal systems + Mohs scale) live in `data/shared/*.yaml`. A single Zod schema (`scripts/build/schema.ts`) is the runtime + compile-time contract. `scripts/build/validate-data.ts` reads YAMLs and validates against the schema; the same schema is re-exported as a vitest test in `tests/data-validation.test.ts`.
+**Architecture:** Single source of truth = `data/gems/v1/*.yaml` (one file per gem, core 5 modules). Shared taxonomies (crystal systems + Mohs scale) live in `data/shared/*.yaml`. A single Zod schema (`scripts/build/schema.ts`) is the runtime + compile-time contract. `scripts/build/validate-data.ts` reads YAMLs and validates against the schema; the same schema is re-exported as a vitest test in `tests/data-validation.test.ts`.
 
 **Tech Stack:** Zod 3.x, js-yaml 4.x, tsx 4.x (script runner), vitest 2.x (test runner), TypeScript 5.x.
 
@@ -271,7 +271,7 @@ export const MohsScaleFile = z.object({
   scale: z.array(MohsEntry).length(10),
 })
 
-/* ─── Gem (data/gemstones/v1/*.yaml) — core 5 modules ───────── */
+/* ─── Gem (data/gems/v1/*.yaml) — core 5 modules ───────── */
 
 /** Each gem's mineralogical / chemical identity. */
 export const GemCategory = z.object({
@@ -328,7 +328,7 @@ Expected: exit 0.
 ## Task 5: Write the first gem YAML (ruby.yaml) — and verify with the schema
 
 **Files:**
-- Create: `data/gemstones/v1/ruby.yaml`
+- Create: `data/gems/v1/ruby.yaml`
 
 **Interfaces:**
 - Produces: A gem YAML that passes `GemSchema.parse(...)`.
@@ -379,7 +379,7 @@ cd D:\Study\gematlas && pnpm exec tsx -e "
 import yaml from 'js-yaml';
 import fs from 'node:fs';
 import { GemSchema } from './scripts/build/schema';
-const raw = yaml.load(fs.readFileSync('data/gemstones/v1/ruby.yaml','utf8'));
+const raw = yaml.load(fs.readFileSync('data/gems/v1/ruby.yaml','utf8'));
 const parsed = GemSchema.parse(raw);
 console.log('OK:', parsed.names.en, '— hardness', parsed.physical.hardness_mohs);
 "
@@ -392,7 +392,7 @@ Expected: `OK: Ruby — hardness 9` and exit 0. If exit non-zero: read the Zod e
 ## Task 6: Write remaining 9 gem YAMLs (one schema validation per file)
 
 **Files:**
-- Create: `data/gemstones/v1/sapphire.yaml`, `emerald.yaml`, `diamond.yaml`, `spinel.yaml`, `tanzanite.yaml`, `alexandrite.yaml`, `paraiba-tourmaline.yaml`, `tsavorite-garnet.yaml`, `opal.yaml`
+- Create: `data/gems/v1/sapphire.yaml`, `emerald.yaml`, `diamond.yaml`, `spinel.yaml`, `tanzanite.yaml`, `alexandrite.yaml`, `paraiba-tourmaline.yaml`, `tsavorite-garnet.yaml`, `opal.yaml`
 
 **Interfaces:**
 - Each must parse cleanly via `GemSchema.parse(yaml.load(fs.readFileSync(...)))`.
@@ -675,7 +675,7 @@ In `scripts/build/schema.ts`, replace the `id: z.enum([...])` block under `Cryst
 
 - [ ] **Step 2: Write all 9 remaining gem YAMLs**
 
-Write each block above to its corresponding file at `data/gemstones/v1/<id>.yaml`.
+Write each block above to its corresponding file at `data/gems/v1/<id>.yaml`.
 
 - [ ] **Step 3: Validate all 10 gem YAMLs at once**
 
@@ -687,7 +687,7 @@ import yaml from 'js-yaml';
 import fs from 'node:fs';
 import path from 'node:path';
 import { GemSchema } from './scripts/build/schema';
-const dir = 'data/gemstones/v1';
+const dir = 'data/gems/v1';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.yaml'));
 let ok = 0, bad = 0;
 for (const f of files) {
@@ -727,7 +727,7 @@ Write `D:\Study\gematlas\scripts\build\validate-data.ts`:
 /**
  * validate-data — schema validation for GemAtlas YAML data layer.
  *
- * Validates every YAML under data/gemstones/v1/ against GemSchema,
+ * Validates every YAML under data/gems/v1/ against GemSchema,
  * and data/shared/*.yaml against their respective schemas.
  * Exits 0 if everything passes; 1 if anything fails.
  *
@@ -742,7 +742,7 @@ import {
   MohsScaleFile,
 } from './schema'
 
-const GEM_DIR = 'data/gemstones/v1'
+const GEM_DIR = 'data/gems/v1'
 const SHARED_DIR = 'data/shared'
 
 let pass = 0
@@ -805,7 +805,7 @@ import {
   MohsScaleFile,
 } from '../scripts/build/schema'
 
-const GEM_DIR = 'data/gemstones/v1'
+const GEM_DIR = 'data/gems/v1'
 const SHARED_DIR = 'data/shared'
 
 describe('Gem YAML validation', () => {
