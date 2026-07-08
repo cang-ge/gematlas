@@ -5,6 +5,9 @@ import CrystalDiagram from './components/CrystalDiagram.vue'
 import PropertyTable from './components/PropertyTable.vue'
 import FacetDiagram from './components/FacetDiagram.vue'
 import FancyCutGrid from './components/FancyCutGrid.vue'
+import ColorGradeTable from './components/ColorGradeTable.vue'
+import ClarityScale from './components/ClarityScale.vue'
+import ColorWheel from './components/ColorWheel.vue'
 import './custom.css'
 
 /**
@@ -24,5 +27,8 @@ export default {
     app.component('PropertyTable', PropertyTable)
     app.component('FacetDiagram', FacetDiagram)
     app.component('FancyCutGrid', FancyCutGrid)
+    app.component('ColorGradeTable', ColorGradeTable)
+    app.component('ClarityScale', ClarityScale)
+    app.component('ColorWheel', ColorWheel)
   },
 }
