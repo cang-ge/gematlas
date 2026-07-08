@@ -7,6 +7,7 @@ export const CrystalSystemEntry = z.object({
   id: z.enum([
     'cubic', 'tetragonal', 'orthorhombic',
     'hexagonal', 'trigonal', 'monoclinic', 'triclinic',
+    'amorphous', // opal, obsidian, amber
   ]),
   name_zh: z.string().min(1),
   name_en: z.string().min(1),
@@ -59,6 +60,12 @@ export const GemTreatments = z.object({
   disclosure_required: z.boolean(),
   note_zh: z.string().optional(),
   note_en: z.string().optional(),
+})
+
+/** Combined shared taxonomy file shapes (for validate-data.ts) */
+export const SharedSchema = z.object({
+  crystal_systems: CrystalSystemsFile,
+  mohs_scale: MohsScaleFile,
 })
 
 /** The full Gem YAML shape. */
