@@ -1,0 +1,25 @@
+id: paraiba-tourmaline
+names: { zh: 帕拉伊巴碧玺, en: Paraíba Tourmaline }
+category:
+  mineral_zh: 电气石族
+  mineral_en: Tourmaline
+  chemical_formula: Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7.5
+  specific_gravity: 3.06
+  refractive_index: 1.614-1.666
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 电光蓝, en: Neon Blue }
+    - { zh: 蓝绿, en: Blue-Green }
+    - { zh: 紫罗兰, en: Violet }
+  color_causes_zh: Cu²⁺ 离子致霓虹色（核心产地溢价根源）
+  color_causes_en: Cu²⁺ trace ions cause neon hues (origin premium driver)
+treatments:
+  common:
+    - heat-treatment
+  disclosure_required: true
+  note_zh: 巴西 Paraiba 州原产稀缺，莫桑比克产替代但溢价低
+  note_en: Original Brazilian Paraíba is scarce; Mozambique material trades at lower premium

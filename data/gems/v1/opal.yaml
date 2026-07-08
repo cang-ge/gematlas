@@ -1,0 +1,26 @@
+id: opal
+names: { zh: 欧泊, en: Opal }
+category:
+  mineral_zh: 蛋白石
+  mineral_en: Opal
+  chemical_formula: SiO₂·nH₂O
+  crystal_system: amorphous
+physical:
+  hardness_mohs: 5.5
+  hardness_note_zh: 含水，避免高温与脱水
+  hardness_note_en: Hydrated; avoid heat and dehydration
+  specific_gravity: 2.10
+  refractive_index: 1.370-1.470
+optical:
+  typical_colors:
+    - { zh: 黑欧泊, en: Black Opal }
+    - { zh: 白欧泊, en: White Opal }
+    - { zh: 火欧泊, en: Fire Opal }
+  color_causes_zh: 二氧化硅球粒衍射光栅产生变彩
+  color_causes_en: Silica sphere diffraction grating produces play-of-color
+treatments:
+  common:
+    - sugar-acid-treatment
+  disclosure_required: true
+  note_zh: 糖酸处理用于仿黑欧泊，需披露
+  note_en: Sugar-acid treatment simulates black opal; must be disclosed

@@ -1,0 +1,22 @@
+id: tsavorite-garnet
+names: { zh: 沙弗莱石榴石, en: Tsavorite Garnet }
+category:
+  mineral_zh: 石榴石族
+  mineral_en: Garnet
+  chemical_formula: Ca₃Al₂(SiO₄)₃
+  crystal_system: cubic
+physical:
+  hardness_mohs: 7.25
+  specific_gravity: 3.61
+  refractive_index: 1.739-1.744
+optical:
+  typical_colors:
+    - { zh: 森林绿, en: Forest Green }
+    - { zh: 草绿, en: Grass Green }
+  color_causes_zh: V³⁺ 与 Cr³⁺ 离子致色
+  color_causes_en: V³⁺ and Cr³⁺ trace ions
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 无处理需求；稀缺性来自肯尼亚/坦桑尼亚小矿脉
+  note_en: No treatment needed; scarcity from small Kenya/Tanzania veins

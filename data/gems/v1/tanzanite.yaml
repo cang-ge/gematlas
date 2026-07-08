@@ -1,0 +1,26 @@
+id: tanzanite
+names: { zh: 坦桑石, en: Tanzanite }
+category:
+  mineral_zh: 黝帘石族
+  mineral_en: Zoisite
+  chemical_formula: Ca₂Al₃(SiO₄)₃(OH)
+  crystal_system: orthorhombic
+physical:
+  hardness_mohs: 6.5
+  hardness_note_zh: 性较脆，注意避免撞击
+  hardness_note_en: Relatively brittle
+  specific_gravity: 3.35
+  refractive_index: 1.691-1.700
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 蓝紫, en: Blue-Violet }
+    - { zh: 紫罗兰, en: Violet-Blue }
+  color_causes_zh: V³⁺ 离子致色
+  color_causes_en: Vanadium (V³⁺) trace ions
+treatments:
+  common:
+    - heat-treatment
+  disclosure_required: true
+  note_zh: 几乎所有坦桑石均经热处理以增强蓝紫调
+  note_en: Almost all tanzanite is heat-treated to enhance blue-violet

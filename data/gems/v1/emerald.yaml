@@ -1,0 +1,26 @@
+id: emerald
+names: { zh: 祖母绿, en: Emerald }
+category:
+  mineral_zh: 绿柱石族
+  mineral_en: Beryl
+  chemical_formula: Be₃Al₂Si₆O₁₈
+  crystal_system: hexagonal
+physical:
+  hardness_mohs: 7.75
+  hardness_note_zh: 性脆，避免撞击
+  hardness_note_en: Brittle; avoid impact
+  specific_gravity: 2.72
+  refractive_index: 1.577-1.583
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 木佐绿, en: Muzo Green }
+    - { zh: 哥伦比亚绿, en: Colombian Green }
+  color_causes_zh: Cr³⁺ 与 V³⁺ 离子致色
+  color_causes_en: Chromium and/or vanadium trace ions
+treatments:
+  common:
+    - cedar-oil-filling
+  disclosure_required: true
+  note_zh: 注油（雪松油）属行业可接受处理；无油溢价显著
+  note_en: Cedar-oil filling is industry standard; "no oil" commands significant premiums

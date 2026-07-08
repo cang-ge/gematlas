@@ -1,0 +1,21 @@
+id: spinel
+names: { zh: 尖晶石, en: Spinel }
+category:
+  mineral_zh: 尖晶石族
+  mineral_en: Spinel
+  chemical_formula: MgAl₂O₄
+  crystal_system: cubic
+physical:
+  hardness_mohs: 8
+  specific_gravity: 3.60
+  refractive_index: 1.712-1.762
+optical:
+  typical_colors:
+    - { zh: 绝地武士红, en: Jedi Red }
+    - { zh: 钴蓝, en: Cobalt Blue }
+    - { zh: 薰衣草紫, en: Lavender }
+  color_causes_zh: Cr³⁺ 致红；Fe²⁺ 致蓝；V 致多种色调
+  color_causes_en: Cr³⁺ (red); Fe²⁺ (blue); V (varied)
+treatments:
+  common: []
+  disclosure_required: false

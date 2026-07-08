@@ -1,0 +1,25 @@
+id: diamond
+names: { zh: 钻石, en: Diamond }
+category:
+  mineral_zh: 金刚石
+  mineral_en: Diamond
+  chemical_formula: C
+  crystal_system: cubic
+physical:
+  hardness_mohs: 10
+  hardness_note_zh: 自然界最硬
+  hardness_note_en: Hardest natural material
+  specific_gravity: 3.52
+  refractive_index: 2.417-2.419
+optical:
+  typical_colors:
+    - { zh: 无色, en: Colorless }
+    - { zh: 彩黄, en: Fancy Yellow }
+  color_causes_zh: 无色纯净；黄色由 N 原子致色
+  color_causes_en: Pure (colorless); N atoms cause yellow
+treatments:
+  common:
+    - high-pressure-high-temperature
+  disclosure_required: true
+  note_zh: HPHT 处理需披露；天然与合成需激光刻印区分
+  note_en: HPHT treatment must be disclosed; natural vs. synthetic distinguished by laser inscription

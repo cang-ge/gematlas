@@ -1,0 +1,27 @@
+id: sapphire
+names: { zh: 蓝宝石, en: Sapphire }
+category:
+  mineral_zh: 刚玉族
+  mineral_en: Corundum
+  chemical_formula: Al₂O₃
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 9
+  hardness_note_zh: 仅次于钻石
+  hardness_note_en: Second only to diamond
+  specific_gravity: 4.00
+  refractive_index: 1.762-1.770
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 矢车菊蓝, en: Cornflower Blue }
+    - { zh: 皇家蓝, en: Royal Blue }
+    - { zh: 帕帕拉恰, en: Padparadscha }
+  color_causes_zh: Fe²⁺/Ti⁴⁺ 离子致色（蓝色）；Cr³⁺ 致粉橙（帕帕拉恰）
+  color_causes_en: Fe²⁺/Ti⁴⁺ (blue); Cr³⁺ (Padparadscha)
+treatments:
+  common:
+    - heat-treatment
+  disclosure_required: true
+  note_zh: 热处理普遍，无处理稀少
+  note_en: Heat treatment is industry standard; untreated is rare
