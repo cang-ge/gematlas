@@ -14,6 +14,7 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "validate:data": "tsx scripts/build/validate-data.ts",
+    "generate:pages": "tsx scripts/build/generate-gem-pages.ts",
     "test": "vitest run"
   },
   "devDependencies": {
