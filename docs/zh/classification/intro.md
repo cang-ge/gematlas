@@ -71,7 +71,7 @@ graph TD
 - **三斜晶系** — 蓝晶石、绿松石
 - **非晶质** — 欧泊、黑曜石、琥珀
 
-*详见各[晶系统](crystal-systems/cubic)页面。*
+*详见各[晶系](crystal-systems/cubic)页面。*
 
 ## 按光学效应分类
 
@@ -102,7 +102,7 @@ graph TD
 
 每颗宝石在本书中都有一页独立页面，展示其物理性质、光学特征、处理方式与参考文献。从以下推荐宝石开始探索，或使用上方导航浏览各模块。
 
-<GemCard id="ruby" nameZh="红宝石" nameEn="Ruby" mineral="刚玉族" :hardness="9" />
-<GemCard id="sapphire" nameZh="蓝宝石" nameEn="Sapphire" mineral="刚玉族" :hardness="9" />
-<GemCard id="emerald" nameZh="祖母绿" nameEn="Emerald" mineral="绿柱石族" :hardness="7.75" />
-<GemCard id="diamond" nameZh="钻石" nameEn="Diamond" mineral="金刚石" :hardness="10" />
+<GemCard id="ruby" nameZh="红宝石" nameEn="Ruby" mineral="刚玉族" :hardness="9" locale="zh" />
+<GemCard id="sapphire" nameZh="蓝宝石" nameEn="Sapphire" mineral="刚玉族" :hardness="9" locale="zh" />
+<GemCard id="emerald" nameZh="祖母绿" nameEn="Emerald" mineral="绿柱石族" :hardness="7.75" locale="zh" />
+<GemCard id="diamond" nameZh="钻石" nameEn="Diamond" mineral="金刚石" :hardness="10" locale="zh" />

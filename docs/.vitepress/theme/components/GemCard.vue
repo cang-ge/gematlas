@@ -2,17 +2,18 @@
 GemCard — A clickable gemstone card used on the home page and classification page.
 
 Props:
-  id        — gem identifier (kebab-case), used for link: /gems/{id}
+  id        — gem identifier (kebab-case), used for link: /gems/{id} or /zh/gems/{id}
   nameZh    — Chinese name
   nameEn    — English name
   mineral   — mineral family (e.g. "Corundum")
   hardness  — Mohs hardness number
+  locale    — 'en' or 'zh' (default 'en')
 
 Design: dark surface + brass border + hover glow.
 Matching the module-card pattern in custom.css.
 
 Usage:
-  <GemCard id="ruby" nameZh="红宝石" nameEn="Ruby" mineral="Corundum" :hardness="9" />
+  <GemCard id="ruby" nameZh="红宝石" nameEn="Ruby" mineral="Corundum" :hardness="9" locale="en" />
 -->
 <script setup lang="ts">
 defineProps<{
@@ -21,11 +22,12 @@ defineProps<{
   nameEn: string
   mineral: string
   hardness: number
+  locale?: 'en' | 'zh'
 }>()
 </script>
 
 <template>
-  <a :href="`/gems/${id}`" class="gem-card" lang="en">
+  <a :href="`/${locale === 'zh' ? 'zh/' : ''}gems/${id}`" :lang="locale || 'en'" class="gem-card">
     <div class="gem-card__hardness">{{ hardness }}</div>
     <h3 class="gem-card__name">
       <span class="gem-card__name--en">{{ nameEn }}</span>
@@ -48,7 +50,7 @@ defineProps<{
   transition: border-color 0.3s ease, transform 0.3s ease;
 }
 .gem-card:hover {
-  border-color: rgba(184, 146, 75, 0.18);
+  border-color: rgba(184, 146, 75, 0.40);
   transform: translateY(-2px);
 }
 

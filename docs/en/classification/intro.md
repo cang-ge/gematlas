@@ -71,7 +71,7 @@ There are seven crystal systems (plus amorphous). Each gem crystallizes in one:
 - **Triclinic** — Kyanite, Turquoise
 - **Amorphous** — Opal, Obsidian, Amber
 
-*See detailed pages for each [crystal system](crystal-systems/cubic).*
+*Begin with the [cubic (isometric) system](crystal-systems/cubic).*
 
 ## Classification by Optical Phenomena
 

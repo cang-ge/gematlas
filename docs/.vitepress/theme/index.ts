@@ -1,5 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
 import GemCard from './components/GemCard.vue'
+import MohsScale from './components/MohsScale.vue'
+import CrystalDiagram from './components/CrystalDiagram.vue'
+import PropertyTable from './components/PropertyTable.vue'
 import './custom.css'
 
 /**
@@ -14,5 +17,8 @@ export default {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   enhanceApp({ app }: { app: any }) {
     app.component('GemCard', GemCard)
+    app.component('MohsScale', MohsScale)
+    app.component('CrystalDiagram', CrystalDiagram)
+    app.component('PropertyTable', PropertyTable)
   },
 }
