@@ -8,6 +8,7 @@ import FancyCutGrid from './components/FancyCutGrid.vue'
 import ColorGradeTable from './components/ColorGradeTable.vue'
 import ClarityScale from './components/ClarityScale.vue'
 import ColorWheel from './components/ColorWheel.vue'
+import GalleryGrid from './components/GalleryGrid.vue'
 import './custom.css'
 
 /**
@@ -30,5 +31,6 @@ export default {
     app.component('ColorGradeTable', ColorGradeTable)
     app.component('ClarityScale', ClarityScale)
     app.component('ColorWheel', ColorWheel)
+    app.component('GalleryGrid', GalleryGrid)
   },
 }
