@@ -1,0 +1,32 @@
+# 7 crystal systems (IUCr classification). Consumed by the
+# Classification module (P3) and by each gem's `crystal_system` field.
+systems:
+  - id: cubic
+    name_zh: 等轴晶系
+    name_en: Cubic (Isometric)
+    examples: [Diamond, Garnet, Spinel]
+    symmetry: highest
+  - id: tetragonal
+    name_zh: 四方晶系
+    name_en: Tetragonal
+    examples: [Zircon, Rutile]
+  - id: orthorhombic
+    name_zh: 斜方晶系
+    name_en: Orthorhombic
+    examples: [Topaz, Tanzanite, Alexandrite]
+  - id: hexagonal
+    name_zh: 六方晶系
+    name_en: Hexagonal
+    examples: [Beryl, Apatite]
+  - id: trigonal
+    name_zh: 三方晶系
+    name_en: Trigonal
+    examples: [Ruby, Sapphire, Quartz, Tourmaline]
+  - id: monoclinic
+    name_zh: 单斜晶系
+    name_en: Monoclinic
+    examples: [Orthoclase, Spodumene, Diopside]
+  - id: triclinic
+    name_zh: 三斜晶系
+    name_en: Triclinic
+    examples: [Kyanite, Turquoise, Rhodonite]

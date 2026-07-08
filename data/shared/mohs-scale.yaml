@@ -1,0 +1,14 @@
+# Mohs hardness scale (1–10) reference minerals. Consumed by the
+# Identification module (P2) and by each gem's `hardness_mohs` field.
+# Reference: Friedrich Mohs, 1812.
+scale:
+  - { hardness: 1, mineral_zh: 滑石, mineral_en: Talc }
+  - { hardness: 2, mineral_zh: 石膏, mineral_en: Gypsum }
+  - { hardness: 3, mineral_zh: 方解石, mineral_en: Calcite }
+  - { hardness: 4, mineral_zh: 萤石, mineral_en: Fluorite }
+  - { hardness: 5, mineral_zh: 磷灰石, mineral_en: Apatite }
+  - { hardness: 6, mineral_zh: 正长石, mineral_en: Orthoclase }
+  - { hardness: 7, mineral_zh: 石英, mineral_en: Quartz }
+  - { hardness: 8, mineral_zh: 黄玉, mineral_en: Topaz }
+  - { hardness: 9, mineral_zh: 刚玉, mineral_en: Corundum }
+  - { hardness: 10, mineral_zh: 金刚石, mineral_en: Diamond }
