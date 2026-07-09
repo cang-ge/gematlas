@@ -8,6 +8,7 @@ import { defineConfig } from 'vitepress'
  * i18n routing: automatic (/foo → /zh/foo) via default VitePress behavior.
  */
 export default defineConfig({
+  base: '/gematlas/',
   title: 'GemAtlas',
   // Title prefix; ':title' is replaced by per-page title.
   // Bare title on '/' (no suffix) reads cleanly — no leading colon.
