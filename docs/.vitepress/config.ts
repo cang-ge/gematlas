@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
 
 /**
  * GemAtlas — VitePress configuration
@@ -8,22 +7,22 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
  * Visual: deep ink background + brass accent + serif display.
  * i18n routing: automatic (/foo → /zh/foo) via default VitePress behavior.
  */
-export default withMermaid(defineConfig({
+export default defineConfig({
   title: 'GemAtlas',
   // Title prefix; ':title' is replaced by per-page title.
   // Bare title on '/' (no suffix) reads cleanly — no leading colon.
   titleTemplate: ':title | GemAtlas',
   description:
     'GemAtlas — A bilingual open-source gemological knowledge platform covering classification, identification, cutting, grading, and luxury maison craftsmanship.',
-  cleanUrls: true,
   lastUpdated: true,
   ignoreDeadLinks: true,
 
   // Dark mode is the only mode for now (the brand demands it)
   appearance: 'dark',
 
-  // ─── Head: webfonts + favicon ───────────────────────────────────
+  // ─── Head: webfonts + favicon ─────────────────────────────────
   head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     [
@@ -87,7 +86,7 @@ export default withMermaid(defineConfig({
 
     docFooter: { prev: 'Previous', next: 'Next' },
   },
-}))
+})
 
 // ─── Navigation ─────────────────────────────────────────────────────
 

@@ -8,12 +8,11 @@ Every gemstone begins as a mineral — a naturally occurring, inorganic solid wi
 
 The primary classification of gemstones follows mineral species, based on chemical composition and crystal structure.
 
-```mermaid
+<div v-pre><pre class="mermaid">
 graph TD
   A[Gem materials] --> B[Natural minerals]
   A --> C[Organic materials]
   A --> D[Synthetic]
-
   B --> E[Corundum]
   B --> F[Beryl]
   B --> G[Garnet group]
@@ -25,15 +24,12 @@ graph TD
   B --> M[Zoisite]
   B --> N[Opal]
   B --> O[... +400 more species]
-
   C --> P[Pearl]
   C --> Q[Amber]
   C --> R[Coral]
   C --> S[Jet]
-
   D --> T[Lab-grown gems]
   D --> U[Simulants]
-
   E --> V[Ruby]
   E --> W[Sapphire]
   F --> X[Emerald]
@@ -45,7 +41,7 @@ graph TD
   M --> AD[Tanzanite]
   K --> AE[Diamond]
   N --> AF[Opal]
-```
+</pre></div>
 
 ## Traditional Classification
 

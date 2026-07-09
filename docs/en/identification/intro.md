@@ -82,7 +82,7 @@ Inclusions are nature's fingerprints — internal features that identify a gem's
 
 ## Identification Flowchart
 
-```mermaid
+<div v-pre><pre class="mermaid">
 flowchart TD
   A[Unknown gem] --> B{Measure RI}
   B --> C{RI > 1.80?}
@@ -90,20 +90,17 @@ flowchart TD
   D --> E{Check SG}
   E -->|3.52| F[Diamond]
   E -->|5.65+ / 3.22| G[CZ / Moissanite]
-  
   C -->|No| H{Check SG}
   H -->|> 4.0| I[Corundum family]
   H -->|3.5–4.0| J[Spinel / Garnet / Chrysoberyl]
   H -->|2.6–3.5| K[Beryl / Quartz / Tourmaline / Topaz]
-  
   I --> L{Check color}
   L -->|Red| M[Ruby]
   L -->|Blue| N[Sapphire]
-  
   K --> O{Check pleochroism}
   O -->|Strong| P[Tanzanite / Tourmaline / Alexandrite]
   O -->|Weak / None| Q[Beryl / Quartz / Opal]
-```
+</pre></div>
 
 ## Crystal System Reference
 
