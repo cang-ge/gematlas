@@ -6,6 +6,11 @@ on:
   push:
   pull_request:
 
+# ponytail: explicit permissions are needed — GITHUB_TOKEN defaults to read on
+# `contents`, which blocks peaceiris/actions-gh-pages from pushing gh-pages.
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
