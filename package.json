@@ -4,6 +4,7 @@
   "private": true,
   "description": "GemAtlas — open-source gemological knowledge platform (bilingual EN/ZH). Data-layer deps (zod, js-yaml, tsx, vitest) and chart deps (echarts, mermaid) are added in their respective phases, not pre-installed.",
   "type": "module",
+  "packageManager": "pnpm@9.15.0",
   "license": "MIT",
   "engines": {
     "node": ">=20.0.0",
