@@ -9,7 +9,7 @@ gem: alexandrite
 > 金绿宝石族
 
 <!-- language switcher hint -->
-English: [Alexandrite](/en/gems/alexandrite)
+English: [Alexandrite](/gems/alexandrite)
 
 ---
 

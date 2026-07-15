@@ -9,7 +9,7 @@ gem: spinel
 > 尖晶石族
 
 <!-- language switcher hint -->
-English: [Spinel](/en/gems/spinel)
+English: [Spinel](/gems/spinel)
 
 ---
 
@@ -43,4 +43,4 @@ English: [Spinel](/en/gems/spinel)
 |---------|------|
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
-| 备注 | — |
+| 备注 | 尖晶石通常无处理；合成尖晶石多见于珠宝，需专业仪器鉴别 |

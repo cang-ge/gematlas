@@ -9,7 +9,7 @@ gem: ruby
 > 刚玉族
 
 <!-- language switcher hint -->
-English: [Ruby](/en/gems/ruby)
+English: [Ruby](/gems/ruby)
 
 ---
 

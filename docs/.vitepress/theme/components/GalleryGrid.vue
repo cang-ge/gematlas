@@ -10,7 +10,7 @@ Usage:
 ponytail: hardcoded 18 pieces, plain filter(), no computed.
 -->
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 defineProps<{ locale?: 'en' | 'zh' }>()
 
@@ -46,31 +46,26 @@ const pieces = [
 const brands = [...new Set(pieces.map(p => p.brand))]
 const filterBrand = ref<string>('')
 const filterGem = ref<string>('')
-const filteredPieces = ref(pieces)
-
-function applyFilter() {
-  filteredPieces.value = pieces.filter(p => {
-    if (filterBrand.value && p.brand !== filterBrand.value) return false
-    if (filterGem.value && !p.gemType.includes(filterGem.value)) return false
-    return true
-  })
-}
+const filteredPieces = computed(() => pieces.filter(p => {
+  if (filterBrand.value && p.brand !== filterBrand.value) return false
+  if (filterGem.value && !p.gemType.split(',').includes(filterGem.value)) return false
+  return true
+}))
+// ponytail: derive filterable gem types from data rather than hardcoding.
+const gemTypes = computed(() => [...new Set(pieces.flatMap(p => p.gemType.split(',')))])
 </script>
 
 <template>
   <div class="gallery-grid" :lang="locale || 'en'">
     <!-- Filters -->
     <div class="gallery-grid__filters">
-      <select v-model="filterBrand" @change="applyFilter">
+      <select v-model="filterBrand">
         <option value="">{{ locale === 'zh' ? '全部品牌' : 'All Brands' }}</option>
         <option v-for="b in brands" :key="b" :value="b">{{ b }}</option>
       </select>
-      <select v-model="filterGem" @change="applyFilter">
+      <select v-model="filterGem">
         <option value="">{{ locale === 'zh' ? '全部宝石' : 'All Gems' }}</option>
-        <option value="Diamond">{{ locale === 'zh' ? '钻石' : 'Diamond' }}</option>
-        <option value="Ruby">Ruby / {{ locale === 'zh' ? '红宝石' : '' }}</option>
-        <option value="Sapphire">Sapphire / {{ locale === 'zh' ? '蓝宝石' : '' }}</option>
-        <option value="Emerald">Emerald / {{ locale === 'zh' ? '祖母绿' : '' }}</option>
+        <option v-for="t in gemTypes" :key="t" :value="t">{{ t }}</option>
       </select>
     </div>
 

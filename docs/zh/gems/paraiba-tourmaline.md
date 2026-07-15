@@ -9,7 +9,7 @@ gem: paraiba-tourmaline
 > 电气石族
 
 <!-- language switcher hint -->
-English: [Paraíba Tourmaline](/en/gems/paraiba-tourmaline)
+English: [Paraíba Tourmaline](/gems/paraiba-tourmaline)
 
 ---
 

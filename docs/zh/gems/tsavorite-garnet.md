@@ -9,7 +9,7 @@ gem: tsavorite-garnet
 > 石榴石族
 
 <!-- language switcher hint -->
-English: [Tsavorite Garnet](/en/gems/tsavorite-garnet)
+English: [Tsavorite Garnet](/gems/tsavorite-garnet)
 
 ---
 

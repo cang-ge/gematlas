@@ -14,21 +14,9 @@ importers:
       '@types/node':
         specifier: ^26.1.0
         version: 26.1.0
-      '@vitejs/plugin-vue':
-        specifier: ^6.0.7
-        version: 6.0.7(vite@5.4.21(@types/node@26.1.0))(vue@3.5.39(typescript@5.9.3))
       '@vue/tsconfig':
         specifier: ^0.5.1
         version: 0.5.1
-      cytoscape:
-        specifier: ^3.34.0
-        version: 3.34.0
-      cytoscape-cose-bilkent:
-        specifier: ^4.1.0
-        version: 4.1.0(cytoscape@3.34.0)
-      debug:
-        specifier: ^4.4.3
-        version: 4.4.3
       js-yaml:
         specifier: ^4.1.0
         version: 4.3.0
@@ -490,9 +478,6 @@ packages:
   '@mermaid-js/parser@1.2.0':
     resolution: {integrity: sha512-oYPyv8A4As1yH5Bx+04iQEQxXuIQDe0GKCNSRgao6z8AM9jixXIfP0vsppRLvGf+nKIOb9/LdpWA4YuJiVvESA==}
 
-  '@rolldown/pluginutils@1.0.1':
-    resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
-
   '@rollup/rollup-android-arm-eabi@4.62.2':
     resolution: {integrity: sha512-6o7ZLZK+BeenkZCFNDXqpbjw9bD6nuWonvS/lwQJp7NoVVxm6p3qE7qQ5jGuBjiFsgvqjD8mZAU5oWxTmbOeOg==}
     cpu: [arm]
@@ -782,13 +767,6 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0 || ^6.0.0
-      vue: ^3.2.25
-
-  '@vitejs/plugin-vue@6.0.7':
-    resolution: {integrity: sha512-km+p+XdSz9Sxm5rqUbqcSfZYaAniKxWBj1KURl+Jr7UaPvvX7BmaWMdP69I5rrFDeQGyxAG7NXdc57vz+snhWg==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    peerDependencies:
-      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
       vue: ^3.2.25
 
   '@vitest/expect@2.1.9':
@@ -1894,8 +1872,6 @@ snapshots:
     dependencies:
       '@chevrotain/types': 11.1.2
 
-  '@rolldown/pluginutils@1.0.1': {}
-
   '@rollup/rollup-android-arm-eabi@4.62.2':
     optional: true
 
@@ -2171,12 +2147,6 @@ snapshots:
 
   '@vitejs/plugin-vue@5.2.4(vite@5.4.21(@types/node@26.1.0))(vue@3.5.39(typescript@5.9.3))':
     dependencies:
-      vite: 5.4.21(@types/node@26.1.0)
-      vue: 3.5.39(typescript@5.9.3)
-
-  '@vitejs/plugin-vue@6.0.7(vite@5.4.21(@types/node@26.1.0))(vue@3.5.39(typescript@5.9.3))':
-    dependencies:
-      '@rolldown/pluginutils': 1.0.1
       vite: 5.4.21(@types/node@26.1.0)
       vue: 3.5.39(typescript@5.9.3)
 

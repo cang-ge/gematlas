@@ -10,7 +10,7 @@ import path from 'node:path'
 import { GemSchema, CrystalSystemsFile } from './schema'
 
 const GEM_DIR = 'data/gems/v1'
-const OUT_EN   = 'docs/en/gems'
+const OUT_EN   = 'docs/gems'
 const OUT_ZH   = 'docs/zh/gems'
 
 /* ─── Template helpers ─────────────────────────────────────── */
@@ -118,7 +118,7 @@ function pageBody(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'):
     '',
 
     '<!-- language switcher hint -->',
-    `${locale === 'en' ? '中文' : 'English'}: [${otherName}](/${locale === 'en' ? 'zh' : 'en'}/gems/${gem.id})`,
+    `${locale === 'en' ? '中文' : 'English'}: [${otherName}](${locale === 'en' ? '/zh/gems/' : '/gems/'}${gem.id})`,
     '',
 
     '---',
@@ -149,11 +149,12 @@ function pageBody(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'):
 
 /* ─── Main ──────────────────────────────────────────────────── */
 
+const allGems = fs.existsSync(GEM_DIR) ? fs.readdirSync(GEM_DIR).filter(f => f.endsWith('.yaml')) : []
 let ok = 0
-if (!fs.existsSync(GEM_DIR)) {
-  console.error(`  ✗ gem directory not found: ${GEM_DIR}`)
+if (allGems.length === 0) {
+  console.error(`  ✗ no YAML files found in ${GEM_DIR}`)
 }
-for (const file of fs.readdirSync(GEM_DIR).filter(f => f.endsWith('.yaml'))) {
+for (const file of allGems) {
   try {
     const raw = yaml.load(fs.readFileSync(path.join(GEM_DIR, file), 'utf8'))
     const gem = GemSchema.parse(raw)
@@ -164,7 +165,7 @@ for (const file of fs.readdirSync(GEM_DIR).filter(f => f.endsWith('.yaml'))) {
     fs.writeFileSync(path.join(OUT_EN, `${gem.id}.md`), pageBody(gem, 'en'), 'utf8')
     fs.writeFileSync(path.join(OUT_ZH, `${gem.id}.md`), pageBody(gem, 'zh'), 'utf8')
     ok++
-    console.log(`  ✓ ${gem.id} → gems/{en,zh}/${gem.id}.md`)
+    console.log(`  ✓ ${gem.id} → gems/{root,zh}/${gem.id}.md`)
   } catch (e) {
     console.error(`  ✗ ${file}: ${(e as Error).message}`)
   }
@@ -214,21 +215,24 @@ crystalSystem: ${sys.id}
 `
 }
 
-const CRYSTAL_EN = 'docs/en/classification/crystal-systems'
+const CRYSTAL_EN = 'docs/classification/crystal-systems'
 const CRYSTAL_ZH = 'docs/zh/classification/crystal-systems'
+const allSystems = loadCrystalSystems()
 let csOk = 0
 try {
-  for (const sys of loadCrystalSystems()) {
+  for (const sys of allSystems) {
     fs.mkdirSync(CRYSTAL_EN, { recursive: true })
     fs.mkdirSync(CRYSTAL_ZH, { recursive: true })
     fs.writeFileSync(path.join(CRYSTAL_EN, `${sys.id}.md`), crystalPage(sys, 'en'), 'utf8')
     fs.writeFileSync(path.join(CRYSTAL_ZH, `${sys.id}.md`), crystalPage(sys, 'zh'), 'utf8')
     csOk++
-    console.log(`  ✓ ${sys.id} → crystal-systems/{en,zh}/${sys.id}.md`)
+    console.log(`  ✓ ${sys.id} → crystal-systems/{root,zh}/${sys.id}.md`)
   }
 } catch (e) {
   console.error(`  ✗ crystal-systems: ${(e as Error).message}`)
 }
 
-console.log(`\nGenerated ${ok} gem pages (${ok * 2} files) + ${csOk} crystal system pages (${csOk * 2} files)`)
-process.exit(ok > 0 && csOk > 0 ? 0 : 1)
+const gemOk = ok === allGems.length
+const csOkFlag = csOk === allSystems.length
+console.log(`\nGenerated ${ok}/${allGems.length} gem pages + ${csOk}/${allSystems.length} crystal system pages`)
+process.exit(gemOk && csOkFlag ? 0 : 1)

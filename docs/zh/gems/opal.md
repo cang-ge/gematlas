@@ -9,7 +9,7 @@ gem: opal
 > 蛋白石
 
 <!-- language switcher hint -->
-English: [Opal](/en/gems/opal)
+English: [Opal](/gems/opal)
 
 ---
 

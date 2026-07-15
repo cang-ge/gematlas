@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const ROOT = path.resolve(__dirname, '..', '..')
-const EN = path.join(ROOT, 'docs', 'en')
+const EN = path.join(ROOT, 'docs')
 const ZH = path.join(ROOT, 'docs', 'zh')
 
 export type I18nError =
@@ -24,12 +24,11 @@ function listMd(dir: string): Set<string> {
   const out = new Set<string>()
   const walk = (abs: string, rel: string): void => {
     if (!fs.existsSync(abs)) return
-    for (const name of fs.readdirSync(abs)) {
-      const a = path.join(abs, name)
-      const r = rel ? `${rel}/${name}` : name
-      const stat = fs.statSync(a)
-      if (stat.isDirectory()) walk(a, r)
-      else if (stat.isFile() && name.endsWith('.md')) out.add(r)
+    for (const entry of fs.readdirSync(abs, { withFileTypes: true })) {
+      if (entry.name.startsWith('.')) continue // skip hidden dirs
+      const r = rel ? `${rel}/${entry.name}` : entry.name
+      if (entry.isDirectory()) walk(path.join(abs, entry.name), r)
+      else if (entry.isFile() && entry.name.endsWith('.md')) out.add(r)
     }
   }
   walk(dir, '')
@@ -69,7 +68,8 @@ const SHARED_FM_KEYS = ['gem', 'crystalSystem'] as const
 
 export function findErrors(): I18nError[] {
   const errors: I18nError[] = []
-  const enFiles = listMd(EN)
+  // ponytail: EN root is now docs/ (not docs/en/) — exclude zh/ and framework dirs
+  const enFiles = new Set([...listMd(EN)].filter(r => !r.startsWith('zh/') && !r.startsWith('.vitepress/') && !r.startsWith('public/')))
   const zhFiles = listMd(ZH)
   const all = new Set<string>([...enFiles, ...zhFiles])
 
@@ -88,7 +88,7 @@ export function findErrors(): I18nError[] {
     for (const key of SHARED_FM_KEYS) {
       const enVal = en.fm[key]
       const zhVal = zh.fm[key]
-      if (enVal !== undefined && zhVal !== undefined && enVal !== zhVal) {
+      if ((enVal ?? '') !== (zhVal ?? '')) {
         errors.push({
           kind: 'FRONTMATTER', rel, key,
           en: enVal || '(empty)',

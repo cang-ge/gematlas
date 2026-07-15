@@ -16,6 +16,8 @@ Usage:
   <GemCard id="ruby" nameZh="红宝石" nameEn="Ruby" mineral="Corundum" :hardness="9" locale="en" />
 -->
 <script setup lang="ts">
+import { withBase } from 'vitepress'
+
 defineProps<{
   id: string
   nameZh: string
@@ -24,10 +26,15 @@ defineProps<{
   hardness: number
   locale?: 'en' | 'zh'
 }>()
+
+function gemLink(id: string, locale?: string): string {
+  const prefix = locale === 'zh' ? '/zh' : ''
+  return withBase(`${prefix}/gems/${id}.html`)
+}
 </script>
 
 <template>
-  <a :href="`/${locale === 'zh' ? 'zh/' : ''}gems/${id}`" :lang="locale || 'en'" class="gem-card">
+  <a :href="gemLink(id, locale)" :lang="locale || 'en'" class="gem-card">
     <div class="gem-card__hardness">{{ hardness }}</div>
     <h3 class="gem-card__name">
       <span class="gem-card__name--en">{{ nameEn }}</span>

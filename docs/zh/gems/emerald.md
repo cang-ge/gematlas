@@ -9,7 +9,7 @@ gem: emerald
 > 绿柱石族
 
 <!-- language switcher hint -->
-English: [Emerald](/en/gems/emerald)
+English: [Emerald](/gems/emerald)
 
 ---
 

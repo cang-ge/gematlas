@@ -43,4 +43,4 @@ gem: spinel
 |-----------|---------|
 | Common Methods | None / Typically untreated |
 | Disclosure Required | No |
-| Note | — |
+| Note | Spinel is typically untreated; synthetic spinel is common in jewelry and requires lab identification |

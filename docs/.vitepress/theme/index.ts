@@ -25,17 +25,12 @@ export default {
   extends: DefaultTheme,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   enhanceApp({ app, router }: { app: any; router: any }) {
-    app.component('GemCard', GemCard)
-    app.component('MohsScale', MohsScale)
-    app.component('CrystalDiagram', CrystalDiagram)
-    app.component('PropertyTable', PropertyTable)
-    app.component('FacetDiagram', FacetDiagram)
-    app.component('FancyCutGrid', FancyCutGrid)
-    app.component('ColorGradeTable', ColorGradeTable)
-    app.component('ClarityScale', ClarityScale)
-    app.component('ColorWheel', ColorWheel)
-    app.component('GalleryGrid', GalleryGrid)
-    app.component('ModuleGrid', ModuleGrid)
+    for (const [name, comp] of Object.entries({
+      GemCard, MohsScale, CrystalDiagram, PropertyTable, FacetDiagram,
+      FancyCutGrid, ColorGradeTable, ClarityScale, ColorWheel, GalleryGrid, ModuleGrid,
+    })) {
+      app.component(name, comp)
+    }
 
     // Init mermaid on client only — dynamic import to avoid
     // polluting Vite dev server's module graph.

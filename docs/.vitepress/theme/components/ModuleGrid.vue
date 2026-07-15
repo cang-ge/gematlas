@@ -8,7 +8,14 @@ Usage:
   <ModuleGrid locale="en" />
 -->
 <script setup lang="ts">
-defineProps<{ locale?: 'en' | 'zh' }>()
+import { withBase } from 'vitepress'
+
+const props = defineProps<{ locale?: 'en' | 'zh' }>()
+
+function moduleLink(m: (typeof MODULES)[number]): string {
+  const prefix = props.locale === 'zh' ? '/zh' : ''
+  return withBase(`${prefix}${m.link}.html`)
+}
 
 const MODULES = [
   { index: '01', titleEn: 'Classification', titleZh: '分类', descEn: 'Mineralogy, optical phenomena, color trees, crystal systems.', descZh: '矿物学、光学效应、颜色树、晶系。', link: '/classification/intro' },
@@ -23,7 +30,7 @@ const MODULES = [
   <section class="gem-modules" :lang="locale || 'en'">
     <div class="gem-modules__heading">{{ locale === 'zh' ? '模块' : 'Modules' }}</div>
     <div class="gem-modules__grid">
-      <a v-for="m in MODULES" :key="m.index" class="gem-module" :href="m.link">
+      <a v-for="m in MODULES" :key="m.index" class="gem-module" :href="moduleLink(m)">
         <div class="gem-module__index">{{ m.index }}</div>
         <h3 class="gem-module__title">{{ locale === 'zh' ? m.titleZh : m.titleEn }}</h3>
         <p class="gem-module__desc">{{ locale === 'zh' ? m.descZh : m.descEn }}</p>

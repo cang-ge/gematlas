@@ -9,7 +9,7 @@ gem: tanzanite
 > 黝帘石族
 
 <!-- language switcher hint -->
-English: [Tanzanite](/en/gems/tanzanite)
+English: [Tanzanite](/gems/tanzanite)
 
 ---
 

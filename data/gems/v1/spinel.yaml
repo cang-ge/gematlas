@@ -19,3 +19,5 @@ optical:
 treatments:
   common: []
   disclosure_required: false
+  note_zh: 尖晶石通常无处理；合成尖晶石多见于珠宝，需专业仪器鉴别
+  note_en: Spinel is typically untreated; synthetic spinel is common in jewelry and requires lab identification

@@ -9,7 +9,7 @@ gem: sapphire
 > 刚玉族
 
 <!-- language switcher hint -->
-English: [Sapphire](/en/gems/sapphire)
+English: [Sapphire](/gems/sapphire)
 
 ---
 

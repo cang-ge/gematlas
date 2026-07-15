@@ -9,7 +9,7 @@ gem: diamond
 > 金刚石
 
 <!-- language switcher hint -->
-English: [Diamond](/en/gems/diamond)
+English: [Diamond](/gems/diamond)
 
 ---
 
