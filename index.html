@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GemAtlas — The Open Gemological Compendium</title>
+  <meta http-equiv="refresh" content="0; url=/gematlas/en/">
+  <link rel="canonical" href="/gematlas/en/">
+  <style>
+    body {
+      background: #0d0c0a;
+      color: #ece4d2;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1rem;
+      text-align: center;
+    }
+    .wrap { max-width: 32rem; }
+    h1 { font-size: 2.5rem; font-weight: 500; color: #b8924b; margin: 0 0 1rem; letter-spacing: -0.02em; }
+    p  { color: #d6cdb8; line-height: 1.6; margin: 0.75rem 0; }
+    a  { color: #c8a868; text-decoration: none; border-bottom: 1px solid currentColor; }
+    a:hover { color: #d8c08a; }
+    .lang { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>💎 GemAtlas</h1>
+    <p>Redirecting to the English edition…</p>
+    <noscript>
+      <p>JavaScript is disabled. Choose your language:</p>
+      <div class="lang">
+        <a href="/gematlas/en/">English</a>
+        <a href="/gematlas/zh/">中文</a>
+      </div>
+    </noscript>
+    <script>
+      // Prefer browser language; fall back to English.
+      var target = (navigator.language || '').toLowerCase().startsWith('zh')
+        ? '/gematlas/zh/'
+        : '/gematlas/en/';
+      window.location.replace(target);
+    </script>
+  </div>
+</body>
+</html>
