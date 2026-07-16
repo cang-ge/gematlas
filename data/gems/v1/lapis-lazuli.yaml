@@ -1,0 +1,24 @@
+id: lapis-lazuli
+names: { zh: 青金石, en: 'Lapis Lazuli' }
+category:
+  mineral_zh: 青金石族（岩石）
+  mineral_en: Lazurite (rock)
+  chemical_formula: (Na,Ca)₈(AlSiO₄)₆(S,SO₄,Cl)₂
+  crystal_system: cubic
+physical:
+  hardness_mohs: 5.5
+  specific_gravity: 2.85
+  refractive_index: 1.500-1.500
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 深蓝色（帝王蓝）, en: 'Deep blue (imperial)' }
+    - { zh: 天蓝色, en: 'Sky blue' }
+    - { zh: 蓝紫色, en: 'Violet-blue' }
+  color_causes_zh: 硫离子 S₃⁻ 色心致深蓝色
+  color_causes_en: S₃⁻ sulfur radical color centers produce deep blue
+treatments:
+  common: [wax-impregnation, dyeing]
+  disclosure_required: true
+  note_zh: 优质品含少量金色黄铁矿斑点（"星辉"）；阿富汗为最著名产地
+  note_en: Fine quality contains small golden pyrite specks ("stardust"); Afghanistan is the most famous source

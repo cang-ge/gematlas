@@ -1,0 +1,26 @@
+id: zircon
+names: { zh: 锆石, en: Zircon }
+category:
+  mineral_zh: 锆石族
+  mineral_en: Zircon
+  chemical_formula: ZrSiO₄
+  crystal_system: tetragonal
+physical:
+  hardness_mohs: 7.25
+  specific_gravity: 4.65
+  refractive_index: 1.810-2.024
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 蓝色（加热）, en: 'Blue (heated)' }
+    - { zh: 金黄色, en: 'Golden yellow' }
+    - { zh: 无色, en: Colorless }
+    - { zh: 蜂蜜色, en: 'Honey' }
+    - { zh: 红色, en: Red }
+  color_causes_zh: U/Th 放射性损伤 + 过渡金属致色；天然蓝色稀少需加热
+  color_causes_en: U/Th radiation damage + transition metal coloration; natural blue is rare and typically requires heating
+treatments:
+  common: [heat-treatment]
+  disclosure_required: true
+  note_zh: 商业蓝色锆石多为褐黄色原石加热产物；与立方氧化锆（cz）完全不同
+  note_en: Commercial blue zircon is usually heat-treated brown-yellow rough; not to be confused with cubic zirconia (CZ)

@@ -1,0 +1,24 @@
+id: garnet-pyrope
+names: { zh: 镁铝榴石, en: 'Pyrope (Garnet)' }
+category:
+  mineral_zh: 石榴石族
+  mineral_en: Garnet (Pyrope)
+  chemical_formula: Mg₃Al₂(SiO₄)₃
+  crystal_system: cubic
+physical:
+  hardness_mohs: 7.25
+  specific_gravity: 3.78
+  refractive_index: 1.714-1.940
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 深红色, en: 'Deep red' }
+    - { zh: 紫红色, en: 'Purplish red' }
+    - { zh: 玫瑰红, en: 'Rose red' }
+  color_causes_zh: Fe²⁺ 微量致深红（无 Fe 几乎无色）
+  color_causes_en: Trace Fe²⁺ produces deep red (without Fe, almost colorless)
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 著名"波西米亚石榴石"多为镁铝-铁铝榴石混合体
+  note_en: Famous "Bohemian garnets" are mostly pyrope-almandine mixes

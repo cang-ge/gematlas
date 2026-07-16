@@ -1,0 +1,26 @@
+id: topaz
+names: { zh: 黄玉, en: Topaz }
+category:
+  mineral_zh: 黄玉族
+  mineral_en: Topaz
+  chemical_formula: Al₂SiO₄(F,OH)₂
+  crystal_system: orthorhombic
+physical:
+  hardness_mohs: 8
+  specific_gravity: 3.54
+  refractive_index: 1.609-1.643
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 帝国黄, en: 'Imperial (golden yellow)' }
+    - { zh: 蓝色, en: Blue }
+    - { zh: 粉色, en: Pink }
+    - { zh: 无色, en: Colorless }
+    - { zh: 雪莉酒色, en: 'Sherry' }
+  color_causes_zh: 黄色：色心；蓝色 / 粉色：色心 + 辐照
+  color_causes_en: Yellow color center; blue / pink color center + irradiation
+treatments:
+  common: [heat-treatment, irradiation]
+  disclosure_required: true
+  note_zh: 市售蓝色托帕石多为辐照 + 加热处理
+  note_en: Commercial blue topaz is typically irradiated + heat treated

@@ -1,0 +1,24 @@
+id: aquamarine
+names: { zh: 海蓝宝, en: Aquamarine }
+category:
+  mineral_zh: 绿柱石族
+  mineral_en: Beryl
+  chemical_formula: Be₃Al₂Si₆O₁₈
+  crystal_system: hexagonal
+physical:
+  hardness_mohs: 7.75
+  specific_gravity: 2.68
+  refractive_index: 1.564-1.596
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 浅蓝色, en: 'Sky blue' }
+    - { zh: 海蓝色, en: 'Sea blue' }
+    - { zh: 绿蓝色, en: 'Greenish blue' }
+  color_causes_zh: Fe²⁺ 离子吸收红黄光 → 透射蓝绿色
+  color_causes_en: Fe²⁺ ion absorbs red-yellow light → transmitted blue-green
+treatments:
+  common: [heat-treatment]
+  disclosure_required: true
+  note_zh: 加热可使绿色调转为稳定的蓝色
+  note_en: Heat treatment can convert greenish hues to stable blue

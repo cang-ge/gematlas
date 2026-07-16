@@ -1,0 +1,24 @@
+id: sugilite
+names: { zh: 苏纪石, en: Sugilite }
+category:
+  mineral_zh: 硅酸盐
+  mineral_en: Cyclosilicate
+  chemical_formula: KNa₂(Fe,Mn,Al)₂Li₃Si₁₂O₃₀
+  crystal_system: hexagonal
+physical:
+  hardness_mohs: 6.5
+  specific_gravity: 2.74
+  refractive_index: 1.607-1.638
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 紫红色, en: 'Purple-red' }
+    - { zh: 紫罗兰, en: Violet }
+    - { zh: 粉紫色, en: 'Pink-purple' }
+  color_causes_zh: Mn²⁺/Fe³⁺ 致紫红色
+  color_causes_en: Mn²⁺/Fe³⁺ produces purple-red
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 南非北开普省为最重要产地（1973 年发现）
+  note_en: Northern Cape, South Africa is the most important source (discovered 1973)

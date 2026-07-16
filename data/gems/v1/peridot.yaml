@@ -1,0 +1,24 @@
+id: peridot
+names: { zh: 橄榄石, en: Peridot }
+category:
+  mineral_zh: 橄榄石族
+  mineral_en: Olivine
+  chemical_formula: (Mg,Fe)₂SiO₄
+  crystal_system: orthorhombic
+physical:
+  hardness_mohs: 6.75
+  specific_gravity: 3.28
+  refractive_index: 1.635-1.690
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 橄榄绿, en: 'Olive green' }
+    - { zh: 黄绿色, en: 'Yellowish green' }
+    - { zh: 褐绿色, en: 'Brownish green' }
+  color_causes_zh: Fe²⁺ 致黄绿至橄榄绿
+  color_causes_en: Fe²⁺ produces yellow-green to olive-green
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 橄榄石通常无处理；稀有陨石来源橄榄石价值更高
+  note_en: Peridot is typically untreated; rare meteoritic origin commands premium prices

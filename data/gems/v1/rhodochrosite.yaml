@@ -1,0 +1,24 @@
+id: rhodochrosite
+names: { zh: 菱锰矿, en: Rhodochrosite }
+category:
+  mineral_zh: 碳酸盐
+  mineral_en: Carbonate
+  chemical_formula: MnCO₃
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 4
+  specific_gravity: 3.70
+  refractive_index: 1.600-1.820
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 玫瑰红, en: 'Rose red' }
+    - { zh: 粉红色, en: Pink }
+    - { zh: 红白条带, en: 'Pink-white banding' }
+  color_causes_zh: Mn²⁺ 致玫瑰红色
+  color_causes_en: Mn²⁺ produces rose-red color
+treatments:
+  common: [wax-impregnation]
+  disclosure_required: true
+  note_zh: 阿根廷"印加玫瑰"为最著名品种，具同心圆条带
+  note_en: Argentina's "Inca Rose" is the most famous variety with concentric banding

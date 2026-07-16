@@ -1,0 +1,26 @@
+id: nephrite
+names: { zh: 软玉, en: 'Nephrite (Hetian Jade)' }
+category:
+  mineral_zh: 角闪石族
+  mineral_en: Nephrite (Amphibole)
+  chemical_formula: Ca₂(Mg,Fe)₅Si₈O₂₂(OH)₂
+  crystal_system: monoclinic
+physical:
+  hardness_mohs: 6.25
+  specific_gravity: 2.96
+  refractive_index: 1.606-1.632
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 羊脂白, en: 'Mutton-fat white' }
+    - { zh: 青白, en: 'Greenish white' }
+    - { zh: 碧绿, en: 'Spinach green' }
+    - { zh: 黄玉色, en: 'Topaz yellow' }
+    - { zh: 糖色, en: 'Brown (sugar)' }
+  color_causes_zh: Fe²⁺ 致绿色，Fe³⁺ 致褐黄色
+  color_causes_en: Fe²⁺ green, Fe³⁺ brown-yellow
+treatments:
+  common: [wax-impregnation, dyeing]
+  disclosure_required: true
+  note_zh: 与翡翠（硬玉）属不同矿物种；新疆和田为最著名产地
+  note_en: Different mineral species from jadeite (pyroxene); Xinjiang Hetian is the most famous source

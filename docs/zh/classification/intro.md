@@ -108,7 +108,15 @@ graph TD
 
 每颗宝石在本书中都有一页独立页面，展示其物理性质、光学特征、处理方式与参考文献。从以下推荐宝石开始探索，或使用上方导航浏览各模块。
 
+## V1.0 核心宝石（10 种）
+
 <GemCard id="ruby" nameZh="红宝石" nameEn="Ruby" mineral="刚玉族" :hardness="9" locale="zh" />
 <GemCard id="sapphire" nameZh="蓝宝石" nameEn="Sapphire" mineral="刚玉族" :hardness="9" locale="zh" />
 <GemCard id="emerald" nameZh="祖母绿" nameEn="Emerald" mineral="绿柱石族" :hardness="7.75" locale="zh" />
 <GemCard id="diamond" nameZh="钻石" nameEn="Diamond" mineral="金刚石" :hardness="10" locale="zh" />
+<GemCard id="alexandrite" nameZh="亚历山大石" nameEn="Alexandrite" mineral="金绿宝石族" :hardness="8.5" locale="zh" />
+<GemCard id="spinel" nameZh="尖晶石" nameEn="Spinel" mineral="尖晶石族" :hardness="8" locale="zh" />
+<GemCard id="tanzanite" nameZh="坦桑石" nameEn="Tanzanite" mineral="黝帘石族" :hardness="6.75" locale="zh" />
+<GemCard id="tsavorite-garnet" nameZh="沙弗莱" nameEn="Tsavorite" mineral="石榴石族" :hardness="7.25" locale="zh" />
+<GemCard id="paraiba-tourmaline" nameZh="帕拉伊巴碧玺" nameEn="Paraíba Tourmaline" mineral="碧玺族" :hardness="7.25" locale="zh" />
+<GemCard id="opal" nameZh="欧泊" nameEn="Opal" mineral="非晶质" :hardness="6" locale="zh" />

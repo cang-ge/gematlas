@@ -1,0 +1,26 @@
+id: tourmaline
+names: { zh: 碧玺, en: Tourmaline }
+category:
+  mineral_zh: 电气石族
+  mineral_en: Elbaite (tourmaline group)
+  chemical_formula: Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7.25
+  specific_gravity: 3.06
+  refractive_index: 1.614-1.666
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 粉红, en: Pink }
+    - { zh: 绿色, en: Green }
+    - { zh: 蓝色, en: Blue }
+    - { zh: 双色（西瓜碧玺）, en: 'Bi-color (watermelon)' }
+    - { zh: 黑色, en: Black }
+  color_causes_zh: Fe/Mn/Ti/Cu 等过渡金属多色致色
+  color_causes_en: Transition metals (Fe, Mn, Ti, Cu) produce diverse colors
+treatments:
+  common: [heat-treatment, irradiation]
+  disclosure_required: true
+  note_zh: 加热可改善颜色；辐照可加深浅色品种
+  note_en: Heat improves color; irradiation deepens light varieties

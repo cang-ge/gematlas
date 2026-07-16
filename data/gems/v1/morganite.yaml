@@ -1,0 +1,24 @@
+id: morganite
+names: { zh: 摩根石, en: Morganite }
+category:
+  mineral_zh: 绿柱石族
+  mineral_en: Beryl
+  chemical_formula: Be₃Al₂Si₆O₁₈
+  crystal_system: hexagonal
+physical:
+  hardness_mohs: 7.75
+  specific_gravity: 2.71
+  refractive_index: 1.560-1.600
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 粉色, en: Pink }
+    - { zh: 桃粉色, en: Peach pink }
+    - { zh: 紫粉色, en: Purplish pink }
+  color_causes_zh: Mn²⁺ 致粉红色
+  color_causes_en: Mn²⁺ produces pink color
+treatments:
+  common: [heat-treatment, irradiation]
+  disclosure_required: true
+  note_zh: 加热或辐照可增强黄色或粉色饱和度
+  note_en: Heat or irradiation can intensify yellow or pink saturation

@@ -108,9 +108,33 @@ Gems are often classified by their primary color for practical identification:
 
 ## How gems are organized in GemAtlas
 
-Each gem in this collection has a dedicated page with its physical properties, optical characteristics, treatments, and references. Start with one of the featured gems below, or browse by module using the navigation above.
+Each gem in this collection has a dedicated page with its physical properties, optical characteristics, treatments, and references. Browse the full list below, or use the sidebar to explore by mineral group, crystal system, or optical phenomenon.
+
+## Featured Gems — V1.0 (10 Core)
 
 <GemCard id="ruby" nameZh="红宝石" nameEn="Ruby" mineral="Corundum" :hardness="9" />
 <GemCard id="sapphire" nameZh="蓝宝石" nameEn="Sapphire" mineral="Corundum" :hardness="9" />
 <GemCard id="emerald" nameZh="祖母绿" nameEn="Emerald" mineral="Beryl" :hardness="7.75" />
 <GemCard id="diamond" nameZh="钻石" nameEn="Diamond" mineral="Diamond" :hardness="10" />
+<GemCard id="alexandrite" nameZh="亚历山大石" nameEn="Alexandrite" mineral="Chrysoberyl" :hardness="8.5" />
+<GemCard id="spinel" nameZh="尖晶石" nameEn="Spinel" mineral="Spinel" :hardness="8" />
+<GemCard id="tanzanite" nameZh="坦桑石" nameEn="Tanzanite" mineral="Zoisite" :hardness="6.75" />
+<GemCard id="tsavorite-garnet" nameZh="沙弗莱" nameEn="Tsavorite" mineral="Garnet" :hardness="7.25" />
+<GemCard id="paraiba-tourmaline" nameZh="帕拉伊巴碧玺" nameEn="Paraíba Tourmaline" mineral="Tourmaline" :hardness="7.25" />
+<GemCard id="opal" nameZh="欧泊" nameEn="Opal" mineral="Opal" :hardness="6" />
+
+---
+
+## V1.1 Expansion Gems (Additional 25)
+
+The V1.1 update will add deeper coverage with these species across the major mineral groups:
+
+| Mineral Group | Additional Gems | Total V1.1 |
+|---|---|---|
+| **Beryl** | Aquamarine, Morganite, Heliodor | 4 |
+| **Quartz** | Amethyst, Citrine | 3 |
+| **Garnet** | Almandine, Pyrope, Spessartine, Demantoid | 6 |
+| **Feldspar / Silicate** | Andesine, Moonstone, Labradorite, Iolite | 4 |
+| **Pyroxene / Amphibole** | Jadeite, Nephrite, Diopside | 3 |
+| **Carbonate** | Malachite, Rhodochrosite, Smithsonite | 3 |
+| **Other** | Topaz, Peridot, Zircon, Sugilite, Charoite, Lapis Lazuli, Sphene, Prehnite | 8 |

@@ -1,0 +1,26 @@
+id: jadeite
+names: { zh: 翡翠, en: 'Jadeite (Burmese Jade)' }
+category:
+  mineral_zh: 辉石族
+  mineral_en: Jadeite (Pyroxene)
+  chemical_formula: NaAlSi₂O₆
+  crystal_system: monoclinic
+physical:
+  hardness_mohs: 7
+  specific_gravity: 3.34
+  refractive_index: 1.660-1.680
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 翠绿, en: 'Imperial green' }
+    - { zh: 苹果绿, en: 'Apple green' }
+    - { zh: 紫罗兰, en: 'Lavender' }
+    - { zh: 红翡, en: Red }
+    - { zh: 无色, en: Colorless }
+  color_causes_zh: Cr³⁺ 致绿；Fe³⁺ 致紫；Fe³⁺ 致红（次生色）
+  color_causes_en: Cr³⁺ green; Fe³⁺ purple; Fe³⁺ red (secondary)
+treatments:
+  common: [wax-impregnation, polymer-impregnation, heat-treatment, dyeing]
+  disclosure_required: true
+  note_zh: 'B+C 货为强酸浸泡 + 树脂填充；需严格披露'
+  note_en: 'B+C jade uses acid-bleaching + polymer filling; strict disclosure required'

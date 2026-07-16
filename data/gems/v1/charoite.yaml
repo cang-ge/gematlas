@@ -1,0 +1,24 @@
+id: charoite
+names: { zh: 紫硅碱钙石, en: Charoite }
+category:
+  mineral_zh: 硅酸盐
+  mineral_en: Inosilicate
+  chemical_formula: (K,Sr,Ba,Na)₁₅₋₁₆(Ca,Na)₃₂[Si₆O₁₁(O,OH)₆]₂[Si₈O₂₂]₂(OH,F)₄·~1.5H₂O
+  crystal_system: monoclinic
+physical:
+  hardness_mohs: 5.5
+  specific_gravity: 2.54
+  refractive_index: 1.550-1.559
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 紫罗兰, en: Violet }
+    - { zh: 紫色（带丝绢光泽）, en: 'Purple (with silky luster)' }
+    - { zh: 淡紫色, en: 'Pale lavender' }
+  color_causes_zh: Mn²⁺/Fe³⁺ 致紫罗兰色；纤维结构产生丝绢光泽
+  color_causes_en: Mn²⁺/Fe³⁺ violet; fibrous structure produces silky luster
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 仅产于俄罗斯萨哈共和国（Sakha Republic）恰拉河畔
+  note_en: Only found at the Chara River, Sakha Republic, Russia

@@ -1,0 +1,23 @@
+id: garnet-demantoid
+names: { zh: 翠榴石, en: 'Demantoid (Garnet)' }
+category:
+  mineral_zh: 石榴石族
+  mineral_en: Garnet (Andradite)
+  chemical_formula: Ca₃Fe₂(SiO₄)₃
+  crystal_system: cubic
+physical:
+  hardness_mohs: 6.5
+  specific_gravity: 3.85
+  refractive_index: 1.880-1.940
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 翠绿色, en: 'Vivid green' }
+    - { zh: 黄绿色, en: 'Yellowish green' }
+  color_causes_zh: Cr³⁺ 致鲜绿色；色散极高（0.057，接近钻石）
+  color_causes_en: Cr³⁺ produces vivid green; very high dispersion (0.057, near diamond)
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 俄罗斯乌拉尔山为最著名产地；马尾状包体为特征
+  note_en: Russian Ural Mountains are the most famous source; "horsetail" inclusions are characteristic

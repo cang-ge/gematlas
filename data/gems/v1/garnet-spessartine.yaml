@@ -1,0 +1,24 @@
+id: garnet-spessartine
+names: { zh: 锰铝榴石, en: 'Spessartine (Garnet)' }
+category:
+  mineral_zh: 石榴石族
+  mineral_en: Garnet (Spessartine)
+  chemical_formula: Mn₃Al₂(SiO₄)₃
+  crystal_system: cubic
+physical:
+  hardness_mohs: 7.25
+  specific_gravity: 4.16
+  refractive_index: 1.790-1.820
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 橙黄色, en: 'Orange yellow' }
+    - { zh: 橘红色, en: 'Tangerine' }
+    - { zh: 芬达色, en: 'Fanta orange' }
+  color_causes_zh: Mn²⁺ 致橙黄至橘红
+  color_causes_en: Mn²⁺ produces orange-yellow to tangerine red
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 著名"芬达石"为含 Fe 的锰铝榴石
+  note_en: 'Fanta garnet is Fe-bearing spessartine'

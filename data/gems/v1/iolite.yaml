@@ -1,0 +1,24 @@
+id: iolite
+names: { zh: 堇青石, en: Iolite }
+category:
+  mineral_zh: 堇青石族
+  mineral_en: Cordierite
+  chemical_formula: Mg₂Al₄Si₅O₁₈
+  crystal_system: orthorhombic
+physical:
+  hardness_mohs: 7.25
+  specific_gravity: 2.60
+  refractive_index: 1.522-1.578
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 紫蓝色, en: 'Violet blue' }
+    - { zh: 蓝紫色, en: 'Blue-purple' }
+    - { zh: 灰蓝色, en: 'Smoky blue' }
+  color_causes_zh: Fe²⁺ 致色，强三色性（不同方向显示不同色）
+  color_causes_en: Fe²⁺ coloration, strong trichroism (different colors from different axes)
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 无已知优化处理；维京人曾用作偏振导航仪
+  note_en: No known treatments; Vikings used it as a polarization navigation aid

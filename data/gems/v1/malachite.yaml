@@ -1,0 +1,24 @@
+id: malachite
+names: { zh: 孔雀石, en: Malachite }
+category:
+  mineral_zh: 碳酸盐
+  mineral_en: Carbonate
+  chemical_formula: Cu₂CO₃(OH)₂
+  crystal_system: monoclinic
+physical:
+  hardness_mohs: 4
+  specific_gravity: 3.80
+  refractive_index: 1.655-1.909
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 翠绿色, en: 'Bright green' }
+    - { zh: 深绿色, en: 'Dark green' }
+    - { zh: 孔雀绿, en: 'Peacock green' }
+  color_causes_zh: Cu²⁺ 致蓝绿至翠绿
+  color_causes_en: Cu²⁺ produces blue-green to bright green
+treatments:
+  common: [wax-impregnation, surface-coating]
+  disclosure_required: true
+  note_zh: 韧性较差，雕刻品多以低硬度保护蜡处理
+  note_en: Low toughness; carved pieces typically treated with protective wax

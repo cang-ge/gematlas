@@ -1,0 +1,24 @@
+id: amethyst
+names: { zh: 紫晶, en: Amethyst }
+category:
+  mineral_zh: 石英族
+  mineral_en: Quartz
+  chemical_formula: SiO₂
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.65
+  refractive_index: 1.544-1.553
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 紫罗兰, en: Violet }
+    - { zh: 深紫, en: Deep purple }
+    - { zh: 淡紫, en: 'Lavender' }
+  color_causes_zh: Fe⁴⁺ 色心 + Fe²⁺ → Fe⁴⁺ 电荷转移
+  color_causes_en: Fe⁴⁺ color center + Fe²⁺ → Fe⁴⁺ charge transfer
+treatments:
+  common: [heat-treatment]
+  disclosure_required: true
+  note_zh: 加热可转为黄色（黄水晶）或绿色（绿水晶）
+  note_en: Heat can convert to citrine (yellow) or prasiolite (green)

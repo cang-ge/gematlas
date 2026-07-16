@@ -1,0 +1,24 @@
+id: citrine
+names: { zh: 黄水晶, en: Citrine }
+category:
+  mineral_zh: 石英族
+  mineral_en: Quartz
+  chemical_formula: SiO₂
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.65
+  refractive_index: 1.544-1.553
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 淡黄色, en: 'Pale yellow' }
+    - { zh: 蜂蜜黄, en: 'Honey yellow' }
+    - { zh: 烟褐色, en: 'Smoky brown' }
+  color_causes_zh: Fe³⁺ 色心致色
+  color_causes_en: Fe³⁺ color-center coloration
+treatments:
+  common: [heat-treatment]
+  disclosure_required: true
+  note_zh: 市售黄水晶多数为紫水晶加热产物
+  note_en: Most commercial citrine is heat-treated amethyst
