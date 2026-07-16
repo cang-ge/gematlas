@@ -1,0 +1,134 @@
+# Cause-of-color taxonomy for gems.
+# Three primary mechanisms cover ~95% of natural gem colors:
+# transition-metal ions, color centers, and charge transfer.
+# Reference: Nassau K. (1983) *The Physics and Chemistry of Color*,
+#            GIA gemology articles, Schumann W. *Gemstones of the World*.
+causes:
+  # ─── 1. Transition-metal ions ───────────────────────────────
+  - id: transition-metal
+    name_zh: 过渡金属离子致色
+    name_en: Transition-Metal Ion Coloration
+    summary_zh: |
+      过渡金属离子（如 Cr、Fe、Mn、Co、Ni、V、Cu、Ti）含有未填满的 d
+      或 f 电子层。当这些离子进入晶格取代主晶格中的位置（如 Al、Si、
+      Mg）时，其能级被晶场劈裂为多组 d-d 跃迁。吸收可见光特定波段后，
+      透射或反射光中残留的颜色即为我们看到的颜色。这是宝石界最重要
+      的致色机制，约 70% 的有色宝石属此类。
+    summary_en: |
+      Transition-metal ions (Cr, Fe, Mn, Co, Ni, V, Cu, Ti) have
+      partially filled d or f orbitals. When substituted into a host
+      lattice, crystal-field splitting creates d-d absorption bands
+      in the visible spectrum. The unabsorbed wavelengths produce
+      the gem's color. This is the dominant cause of color in
+      gemstones — roughly 70% of colored gems owe their hue to it.
+    mechanism_zh: |
+      **晶场理论**：过渡金属离子周围配位阴离子（O²⁻、OH⁻、F⁻）产生
+      静电场，使简并的 d 轨道分裂为不同能级。电子在这些分裂能级之间
+      跃迁吸收特定波长光子。配位几何（八面体 vs 四面体）、键长、键角
+      决定能级差，从而决定吸收波长与最终颜色。
+    mechanism_en: |
+      **Crystal-field theory**: electrostatic field from coordinating
+      anions (O²⁻, OH⁻, F⁻) lifts the degeneracy of the d-orbitals.
+      Transitions between split levels absorb specific photon
+      wavelengths. Coordination geometry (octahedral vs tetrahedral),
+      bond length, and bond angles determine the energy gap and
+      therefore the absorbed wavelength and resulting color.
+    examples:
+      - { gem: 'Ruby / 红宝石',  element: 'Cr³⁺', host: 'Al₂O₃',  color: 'red' }
+      - { gem: 'Emerald / 祖母绿', element: 'Cr³⁺ / V³⁺', host: 'Be₃Al₂Si₆O₁₈', color: 'green' }
+      - { gem: 'Sapphire (blue) / 蓝宝石', element: 'Fe²⁺–Ti⁴⁺', host: 'Al₂O₃', color: 'blue' }
+      - { gem: 'Aquamarine / 海蓝宝', element: 'Fe²⁺', host: 'Be₃Al₂Si₆O₁₈', color: 'blue' }
+      - { gem: 'Peridot / 橄榄石', element: 'Fe²⁺', host: '(Mg,Fe)₂SiO₄', color: 'olive-green' }
+      - { gem: 'Tsavorite / 沙弗莱', element: 'V³⁺ / Cr³⁺', host: 'Ca₃Al₂Si₃O₁₂', color: 'green' }
+      - { gem: 'Alexandrite / 亚历山大石', element: 'Cr³⁺', host: 'BeAl₂O₄', color: 'green / red (color-change)' }
+      - { gem: 'Rhodonite / 蔷薇辉石', element: 'Mn²⁺', host: 'MnSiO₃', color: 'pink' }
+      - { gem: 'Rhodochrosite / 菱锰矿', element: 'Mn²⁺', host: 'MnCO₃', color: 'rose-pink' }
+
+  # ─── 2. Color centers ──────────────────────────────────────
+  - id: color-centers
+    name_zh: 色心致色
+    name_en: Color Centers
+    summary_zh: |
+      色心是晶格中能选择性吸收可见光的点缺陷。当晶格缺少某个离子
+      （空位）、多出一个离子（间隙），或含有杂质离子改变局部电荷平衡
+      时，邻近的电子或空穴被束缚在缺陷处形成"色心"，其能级刚好落在
+      可见光波段。色心可通过天然辐射或人工辐照（如加热后辐照）产生，
+      也可能因日晒褪色，这是检测优化处理的关键判断点。
+    summary_en: |
+      Color centers are point defects in a crystal lattice that
+      selectively absorb visible light. When an ion is missing
+      (vacancy), extra (interstitial), or substituted by an impurity,
+      nearby electrons or holes become trapped. Their energy levels
+      often fall in the visible range, producing color. Color centers
+      form naturally via radiation, or via artificial irradiation
+      (which may fade with sunlight exposure — a key tell for
+      treated material).
+    mechanism_zh: |
+      常见色心类型：
+      - **F 心**（阴离子空位捕获电子）：常见于萤石、紫色石盐
+      - **V 心**（阳离子空位捕获空穴）：紫色石英（紫晶）
+      - **杂质色心**：杂质离子周围电子空位，如紫晶的 Fe⁴⁺ 色心
+      色心可在实验室通过辐照加速形成，但天然色心通常经过数百万年辐
+      射积累。辐照处理宝石的检测常依赖色心在短波紫外下的发光特征。
+    mechanism_en: |
+      Common color-center types:
+      - **F-centers** (anion vacancy trapping an electron): typical
+        in fluorite and halite (rock salt)
+      - **V-centers** (cation vacancy trapping a hole): purple
+        quartz (amethyst)
+      - **Impurity centers**: vacancy adjacent to a dopant ion,
+        e.g. Fe⁴⁺ in amethyst
+      Color centers can form rapidly under laboratory irradiation,
+      but natural color centers accumulate over millions of years.
+      Detection of irradiated gems often relies on characteristic
+      short-wave UV luminescence signatures.
+    examples:
+      - { gem: 'Amethyst / 紫晶',       defect: 'Fe⁴⁺ color center',  host: 'SiO₂',           color: 'violet' }
+      - { gem: 'Smoky Quartz / 烟晶',     defect: 'Al impurity + e⁻',   host: 'SiO₂',           color: 'brown' }
+      - { gem: 'Citrine / 黄水晶',       defect: 'Fe³⁺ color center',   host: 'SiO₂',           color: 'yellow' }
+      - { gem: 'Fluorite / 萤石',         defect: 'F-center (vacancy)', host: 'CaF₂',           color: 'purple / blue' }
+      - { gem: 'Yellow Diamond / 黄钻',  defect: 'N + vacancy (H3)',   host: 'C (diamond)',     color: 'yellow' }
+      - { gem: 'Pink Diamond / 粉钻',     defect: 'N + plastic deformation', host: 'C (diamond)', color: 'pink' }
+
+  # ─── 3. Charge transfer ────────────────────────────────────
+  - id: charge-transfer
+    name_zh: 电荷转移
+    name_en: Charge Transfer
+    summary_zh: |
+      电荷转移是电子在相邻离子或同一离子的不同能级之间跳跃吸收光子
+      的过程。与 d-d 跃迁相比，电荷转移的吸收强度通常高 10²–10⁴ 倍，
+      因此即使致色离子浓度很低也能产生饱和浓艳的颜色。常见类型：
+      **金属-金属电荷转移（MMCT）**、**氧-金属电荷转移（OMCT）**、
+      **金属-配体电荷转移（MLCT）**。
+    summary_en: |
+      Charge transfer involves an electron hopping between adjacent
+      ions or between different energy states of the same ion, driven
+      by absorbed photons. Compared to d-d transitions, charge-
+      transfer absorption is typically 10²–10⁴ times stronger, so
+      even trace concentrations of the relevant elements can produce
+      saturated, vivid colors. Subtypes include metal–metal (MMCT),
+      oxygen–metal (OMCT), and metal–ligand (MLCT).
+    mechanism_zh: |
+      **金属-金属电荷转移 (MMCT)**：相邻两个金属离子之间电子转移。
+      经典案例：蓝宝石的 Fe²⁺–Ti⁴⁺，一个电子从 Fe 跃迁到 Ti，吸收
+      黄红光 → 透射蓝光。
+      **氧-金属电荷转移 (OMCT)**：O²⁻ → 金属离子（如 Fe³⁺、Mn⁴⁺）
+      电子转移。常见于蓝宝石（Fe²⁺–O–Ti⁴⁺）和黄绿色蓝宝石。
+      **金属-配体电荷转移 (MLCT)**：常见于有机宝石（如珍珠质）。
+    mechanism_en: |
+      **Metal–metal CT (MMCT)**: electron transfer between two
+      adjacent metal ions. Classic example: Fe²⁺–Ti⁴⁺ in blue
+      sapphire. Electron jumps from Fe to Ti, absorbing yellow-red
+      light; transmitted light appears blue.
+      **Oxygen–metal CT (OMCT)**: O²⁻ → metal ion (Fe³⁺, Mn⁴⁺,
+      etc.). Often contributes alongside MMCT in blue and yellow
+      sapphires.
+      **Metal–ligand CT (MLCT)**: common in organic gem materials
+      (e.g. pearl conchiolin).
+    examples:
+      - { gem: 'Blue Sapphire / 蓝宝石',  pair: 'Fe²⁺–Ti⁴⁺',          host: 'Al₂O₃',     color: 'blue' }
+      - { gem: 'Amethyst / 紫晶',          pair: 'Fe²⁺ → Fe⁴⁺ (via O²⁻)', host: 'SiO₂',    color: 'violet' }
+      - { gem: 'Yellow Sapphire / 黄宝石', pair: 'Fe³⁺–O²⁻',            host: 'Al₂O₃',     color: 'yellow' }
+      - { gem: 'Aquamarine (deep) / 海蓝宝', pair: 'Fe²⁺–Fe³⁺',           host: 'Be₃Al₂Si₆O₁₈', color: 'deep blue' }
+      - { gem: 'Hematite / 赤铁矿',        pair: 'Fe²⁺–Fe³⁺',           host: 'Fe₂O₃',     color: 'red-brown' }
+      - { gem: 'Kunzite / 孔赛石',         pair: 'Mn²⁺ → Mn⁴⁺',         host: 'LiAlSi₂O₆', color: 'pink (fades with light)' }

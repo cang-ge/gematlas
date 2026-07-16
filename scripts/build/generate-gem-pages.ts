@@ -182,36 +182,89 @@ function loadCrystalSystems() {
 
 function crystalPage(sys: ReturnType<typeof loadCrystalSystems>[number], locale: 'en' | 'zh'): string {
   const name = locale === 'en' ? sys.name_en : sys.name_zh
-  const examples = (sys.examples || []).join(', ')
-  if (locale === 'en') {
-    return `---
-title: ${sys.name_en}
-crystalSystem: ${sys.id}
----
+  const description = locale === 'en' ? sys.description_en : sys.description_zh
+  const habit = locale === 'en' ? sys.habit_en : sys.habit_zh
+  const isZh = locale === 'zh'
 
-# ${sys.name_en}
+  // Helper: convert YAML string to "—" placeholder when missing
+  const v = (x?: string) => x || '—'
 
-| Property | Value |
-|---|---|
-| Symmetry | ${sys.symmetry || '—'} |
-| Example Gems | ${examples || '—'} |
+  const headerLabels = isZh
+    ? ['属性', '值']
+    : ['Property', 'Value']
 
-*See the [classification overview](../intro) for all crystal systems.*
-`
-  }
+  const labels: Array<[string, string]> = isZh
+    ? [
+        ['晶轴',           sys.axial_lengths || '—'],
+        ['夹角',           sys.angles || '—'],
+        ['对称性等级',      v(sys.symmetry)],
+        ['光学分类',        sys.optical_class || '—'],
+        ['光性',           sys.optic_sign || '—'],
+        ['双折射率范围',    sys.birefringence || '—'],
+        ['解理',           sys.cleavage || '—'],
+        ['常见晶形',        habit || '—'],
+      ]
+    : [
+        ['Axial lengths',   sys.axial_lengths || '—'],
+        ['Interaxial angles', sys.angles || '—'],
+        ['Symmetry tier',   v(sys.symmetry)],
+        ['Optical class',   sys.optical_class || '—'],
+        ['Optic sign',      sys.optic_sign || '—'],
+        ['Birefringence',   sys.birefringence || '—'],
+        ['Cleavage',        sys.cleavage || '—'],
+        ['Habit',           habit || '—'],
+      ]
+
+  const headerRow = `| ${headerLabels[0]} | ${headerLabels[1]} |`
+  const separatorRow = '|---|---|'
+  const paramRows = labels.map(([k, vv]) => `| ${k} | ${vv} |`).join('\n')
+
+  // Notable gems table (skip if not provided)
+  const gemsTable = sys.notable_gems && sys.notable_gems.length > 0
+    ? (() => {
+        if (isZh) {
+          return [
+            '## 主要宝石',
+            '',
+            '| 宝石 | 折射率 | 比重 |',
+            '|---|---|---|',
+            ...sys.notable_gems.map(g => `| ${g.name} | ${g.ri} | ${g.sg} |`),
+            '',
+          ].join('\n')
+        }
+        return [
+          '## Notable Gem Species',
+          '',
+          '| Gem | Refractive Index | Specific Gravity |',
+          '|---|---|---|',
+          ...sys.notable_gems.map(g => `| ${g.name} | ${g.ri} | ${g.sg} |`),
+          '',
+        ].join('\n')
+      })()
+    : ''
+
+  const overviewHeading = isZh ? '## 概述' : '## Overview'
+  const paramsHeading = isZh ? '## 晶体学参数' : '## Crystallographic Parameters'
+  const backRef = isZh ? '*详见[分类总览](../intro)。*' : '*See the [classification overview](../intro) for all crystal systems.*'
+
   return `---
-title: ${sys.name_zh}
+title: ${name}
 crystalSystem: ${sys.id}
 ---
 
-# ${sys.name_zh}
+# ${name}
 
-| 属性 | 值 |
-|---|---|
-| 对称性 | ${sys.symmetry || '—'} |
-| 示例宝石 | ${examples || '—'} |
+${overviewHeading}
 
-*详见[分类总览](../intro)。*
+${description || ''}
+
+${paramsHeading}
+
+${headerRow}
+${separatorRow}
+${paramRows}
+
+${gemsTable}${backRef}
 `
 }
 

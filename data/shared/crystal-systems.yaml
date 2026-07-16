@@ -1,32 +1,215 @@
-# 7 crystal systems (IUCr classification). Consumed by the
-# Classification module (P3) and by each gem's `crystal_system` field.
+# 7 crystal systems (IUCr classification).
+# Consumed by the Classification module (P3 + Phase A) and by each gem's
+# `crystal_system` field. Expanded fields: axial parameters, optical
+# classification, crystal habits, descriptive prose, and notable gem tables.
+#
+# Reference: Schumann W. (2009) *Gemstones of the World* (5th ed.),
+#            IUCr crystallography tables, GIA gemology references,
+#            Webmineral / Mindat mineralogical databases.
 systems:
   - id: cubic
     name_zh: 等轴晶系
     name_en: Cubic (Isometric)
-    examples: [Diamond, Garnet, Spinel]
     symmetry: highest
+    axial_lengths: a = b = c
+    angles: α = β = γ = 90°
+    optical_class: isotropic
+    optic_sign: none
+    birefringence: none
+    cleavage: variable by species
+    habit_en: Cubes, octahedra, dodecahedra, granular masses
+    habit_zh: 立方体、八面体、十二面体、粒状集合体
+    description_en: |
+      The cubic (also called isometric) system has the highest symmetry
+      of the seven crystal systems. Three axes of equal length intersect
+      at right angles. Cubic crystals are optically isotropic — light
+      travels at the same velocity in every direction, producing no
+      birefringence and no pleochroism. Identification therefore relies
+      on refractive index, specific gravity, and spectroscopic tests.
+    description_zh: |
+      等轴晶系（又称立方晶系）具有七大晶系中最高的对称性。三条等长
+      晶轴两两正交。等轴晶体在光学上均为均质体——光在各方向传播速度
+      相同，故无双折射亦无多色性。鉴别主要依靠折射率、比重与光谱测试。
+    notable_gems:
+      - { name: Diamond, ri: '2.417', sg: '3.52' }
+      - { name: Spinel, ri: '1.712–1.762', sg: '3.58–3.65' }
+      - { name: Garnet — Almandine, ri: '1.770–1.820', sg: '3.95–4.20' }
+      - { name: Garnet — Pyrope, ri: '1.714–1.940', sg: '3.50–3.90' }
+      - { name: Sodalite, ri: '1.483', sg: '2.18–2.30' }
+      - { name: Fluorite, ri: '1.434', sg: '3.18' }
+
   - id: tetragonal
     name_zh: 四方晶系
     name_en: Tetragonal
-    examples: [Zircon, Rutile]
+    symmetry: medium-high
+    axial_lengths: a = b ≠ c
+    angles: α = β = γ = 90°
+    optical_class: uniaxial
+    optic_sign: '+'
+    birefringence: '0.040–0.300'
+    cleavage: parallel to base (001)
+    habit_en: Square prisms, four-sided bipyramids, tabular
+    habit_zh: 四方柱、四方双锥、板状
+    description_en: |
+      The tetragonal system has two equal horizontal axes and one
+      longer or shorter vertical axis. Crystals are optically uniaxial
+      with a single optic axis parallel to the c-axis; the optic sign
+      is positive in most gem species (negative in a few). The c-axis
+      is the "extraordinary" refractive index direction.
+    description_zh: |
+      四方晶系具有两条等长的水平轴与一条不等长的纵向轴。晶体光学上
+      为一轴晶，光轴平行于 c 轴；多数宝石为正光性，少数为负光性。
+      c 轴方向为非寻常光折射率方向。
+    notable_gems:
+      - { name: Zircon, ri: '1.810–2.024', sg: '4.60–4.80' }
+      - { name: Rutile, ri: '2.616–2.903', sg: '4.20–5.20' }
+      - { name: Idocrase (Vesuvianite), ri: '1.700–1.732', sg: '3.32–3.42' }
+      - { name: Scapolite, ri: '1.540–1.579', sg: '2.57–2.78' }
+
   - id: orthorhombic
     name_zh: 斜方晶系
     name_en: Orthorhombic
-    examples: [Topaz, Tanzanite, Alexandrite]
+    symmetry: medium
+    axial_lengths: a ≠ b ≠ c
+    angles: α = β = γ = 90°
+    optical_class: biaxial
+    optic_sign: '+ or −'
+    birefringence: '0.040–0.180'
+    cleavage: good parallel to one or two pinacoids
+    habit_en: Rhombic prisms, dipyramids, tabular
+    habit_zh: 斜方柱、斜方双锥、板状
+    description_en: |
+      The orthorhombic system has three mutually perpendicular but
+      unequal axes. Crystals are biaxial with two optic axes; the optic
+      sign (positive or negative) varies by species. Many gem species,
+      including the chrysoberyl and olivine groups, belong here.
+    description_zh: |
+      斜方晶系三条晶轴两两正交但长度互不相等。晶体为二轴晶，具两条
+      光轴；正负光性因品种而异。本晶系涵盖金绿宝石族、橄榄石族等
+      多个宝石族系。
+    notable_gems:
+      - { name: Topaz, ri: '1.609–1.643', sg: '3.49–3.57' }
+      - { name: Tanzanite (Zoisite), ri: '1.685–1.735', sg: '3.15–3.38' }
+      - { name: Alexandrite / Chrysoberyl, ri: '1.745–1.755', sg: '3.71–3.75' }
+      - { name: Peridot (Olivine), ri: '1.635–1.690', sg: '3.28–3.48' }
+      - { name: Iolite (Cordierite), ri: '1.522–1.578', sg: '2.57–2.66' }
+      - { name: Danburite, ri: '1.630–1.636', sg: '2.97–3.03' }
+
   - id: hexagonal
     name_zh: 六方晶系
     name_en: Hexagonal
-    examples: [Beryl, Apatite]
+    symmetry: medium-high
+    axial_lengths: a₁ = a₂ = a₃ ≠ c (4-index notation)
+    angles: 120° / 120° / 120° between lateral axes, 90° vertical
+    optical_class: uniaxial
+    optic_sign: '+ or −'
+    birefringence: '0.000–0.180'
+    cleavage: poor / none
+    habit_en: Hexagonal prisms, bipyramids
+    habit_zh: 六方柱、六方双锥
+    description_en: |
+      The hexagonal system (in strict 4-index notation) has three equal
+      horizontal axes 120° apart and one perpendicular c-axis. Crystals
+      are uniaxial. Beryl, with its iconic six-sided prismatic habit,
+      is the flagship species. Note: many references group trigonal
+      with hexagonal as a single 6-fold system.
+    description_zh: |
+      六方晶系（严格按四轴米勒指数）三条水平轴等长、互成 120°，纵向
+      c 轴与水平轴正交。晶体为一轴晶。绿柱石族以典型六方柱晶形为其
+      代表。注意：部分参考资料将三方晶系归入六方晶系之下。
+    notable_gems:
+      - { name: Emerald (Beryl), ri: '1.565–1.602', sg: '2.67–2.78' }
+      - { name: Aquamarine, ri: '1.564–1.596', sg: '2.66–2.80' }
+      - { name: Morganite, ri: '1.560–1.600', sg: '2.71–2.90' }
+      - { name: Heliodor, ri: '1.564–1.595', sg: '2.68' }
+      - { name: Apatite, ri: '1.628–1.650', sg: '3.16–3.22' }
+      - { name: Sugilite, ri: '1.607–1.638', sg: '2.74' }
+
   - id: trigonal
     name_zh: 三方晶系
     name_en: Trigonal
-    examples: [Ruby, Sapphire, Quartz, Tourmaline]
+    symmetry: medium-high
+    axial_lengths: a₁ = a₂ = a₃ ≠ c (rhombohedral subtype)
+    angles: as hexagonal
+    optical_class: uniaxial
+    optic_sign: '+ or − (varies)'
+    birefringence: '0.000–0.116'
+    cleavage: variable
+    habit_en: Rhombohedra, scalenohedra, prismatic with striations
+    habit_zh: 菱面体、复三方偏三角面体、柱状（带纵纹）
+    description_en: |
+      The trigonal system has a 3-fold rather than 6-fold principal
+      axis (no horizontal mirror plane perpendicular to it). Crystals
+      are uniaxial. Corundum, quartz, and tourmaline are the most
+      important gem families. Twinning is very common and useful for
+      identification (e.g., Dauphiné / Japan law in quartz).
+    description_zh: |
+      三方晶系主轴为三重对称（非六重），c 轴垂直方向不存在水平镜面。
+      晶体为一轴晶。刚玉、石英、电气石是本系最重要的宝石族。晶体双
+      晶现象普遍，对鉴定有重要价值（如石英的道芬双晶 / 日本双晶）。
+    notable_gems:
+      - { name: Ruby (Corundum), ri: '1.762–1.770', sg: '3.97–4.05' }
+      - { name: Sapphire (Corundum), ri: '1.762–1.778', sg: '3.95–4.03' }
+      - { name: Quartz (Crystalline), ri: '1.544–1.553', sg: '2.65' }
+      - { name: Amethyst / Citrine, ri: '1.544–1.553', sg: '2.65' }
+      - { name: Tourmaline, ri: '1.614–1.666', sg: '3.06–3.20' }
+      - { name: Rhodochrosite, ri: '1.600–1.820', sg: '3.45–3.70' }
+      - { name: Phenakite, ri: '1.650–1.670', sg: '2.93–2.97' }
+
   - id: monoclinic
     name_zh: 单斜晶系
     name_en: Monoclinic
-    examples: [Orthoclase, Spodumene, Diopside]
+    symmetry: low-medium
+    axial_lengths: a ≠ b ≠ c
+    angles: α = γ = 90°, β ≠ 90°
+    optical_class: biaxial
+    optic_sign: '+ or −'
+    birefringence: '0.015–0.105'
+    cleavage: pinacoidal (single good cleavage)
+    habit_en: Oblique prisms, tabular, often twinned
+    habit_zh: 斜柱状、板状，常出现双晶
+    description_en: |
+      The monoclinic system has three unequal axes with two meeting at
+      right angles and the third (b-axis) inclined. Crystals are
+      biaxial. The dominant cleavage is parallel to the (010)
+      pinacoid. Jade (nephrite) and most feldspars fall here.
+    description_zh: |
+      单斜晶系三条不等长轴，其中两条正交，第三条 b 轴倾斜。晶体为
+      二轴晶。主要解理平行于 (010) 轴面。软玉（透闪石质）、大多数
+      长石族矿物属此晶系。
+    notable_gems:
+      - { name: Nephrite (Jade), ri: '1.606–1.632', sg: '2.93–3.18' }
+      - { name: Orthoclase, ri: '1.518–1.526', sg: '2.55–2.63' }
+      - { name: Moonstone (Feldspar), ri: '1.518–1.530', sg: '2.55–2.58' }
+      - { name: Spodumene (Kunzite/Hiddenite), ri: '1.660–1.681', sg: '3.17–3.19' }
+      - { name: Diopside, ri: '1.664–1.730', sg: '3.22–3.38' }
+      - { name: Malachite, ri: '1.655–1.909', sg: '3.25–4.10' }
+      - { name: Sphene (Titanite), ri: '1.843–2.110', sg: '3.52–3.54' }
+
   - id: triclinic
     name_zh: 三斜晶系
     name_en: Triclinic
-    examples: [Kyanite, Turquoise, Rhodonite]
+    symmetry: lowest
+    axial_lengths: a ≠ b ≠ c
+    angles: α ≠ β ≠ γ ≠ 90°
+    optical_class: biaxial
+    optic_sign: '+ or −'
+    birefringence: '0.025–0.190'
+    cleavage: variable / poor
+    habit_en: Irregular, rarely well-formed
+    habit_zh: 形态不规则，罕见完好晶形
+    description_en: |
+      The triclinic system has the lowest symmetry: no axis is
+      perpendicular to any other, and no angles are 90°. Crystals are
+      biaxial. Kyanite's distinctive hardness anisotropy (4–5 across vs.
+      6–7 along) is a textbook example of triclinic structural anisotropy.
+    description_zh: |
+      三斜晶系对称性最低：所有轴两两不垂直，所有角均不为 90°。晶体
+      为二轴晶。蓝晶石的硬度各向异性（横纹方向 4–5，轴向 6–7）是
+      三斜结构异性的经典例证。
+    notable_gems:
+      - { name: Kyanite, ri: '1.712–1.734', sg: '3.53–3.70' }
+      - { name: Turquoise, ri: '1.610–1.650', sg: '2.30–2.74' }
+      - { name: Rhodonite, ri: '1.716–1.752', sg: '3.40–3.74' }
+      - { name: Labradorite, ri: '1.560–1.572', sg: '2.65–2.78' }
+      - { name: Amblygonite, ri: '1.611–1.643', sg: '2.98–3.11' }

@@ -1,0 +1,245 @@
+# Optical phenomena taxonomy for gems.
+# Six distinct phenomena that go beyond base color: structural
+# effects of internal geometry, inclusions, or layering.
+# Reference: Schumann W. *Gemstones of the World*, Nassau K. *The Physics
+#            and Chemistry of Color*, GIA gemology articles.
+phenomena:
+  # ─── 1. Asterism ────────────────────────────────────────
+  - id: asterism
+    name_zh: 星光效应
+    name_en: Asterism (Star Effect)
+    short_zh: 平行针状包裹体反射光线形成星芒
+    short_en: Parallel needle inclusions reflect light into star rays
+    summary_zh: |
+      当宝石内部含有沿特定结晶方向平行排列的针状或管状包裹体时，
+      弧面切割下可见光从这些包裹体反射形成 4 射或 6 射星芒。最著名的
+      是 6 射星光红宝石/蓝宝石（刚玉族）；透辉石可呈 4 射星。星光
+      通常需要单点光源直射下观察最清晰，漫射光下会变得模糊。
+    summary_en: |
+      When a gem contains needle- or tube-shaped inclusions aligned
+      along specific crystallographic directions, light reflecting
+      from these structures forms a 4-rayed or 6-rayed star on a
+      cabochon cut. The classic example is 6-rayed star ruby/sapphire
+      (corundum family); diopside can show a 4-rayed star. Asterism
+      is most visible under a single point light source; diffuse
+      light blurs the effect.
+    mechanism_zh: |
+      包体反射：针状金红石（TiO₂）按刚玉三方晶系的 c 轴 60°/120°
+      角相交排列。弧面切割的穹顶结构将反射光按出射方向引导，在视觉
+      上叠加为 6 道星线。星线交点位于宝石顶部圆顶最高点。
+    mechanism_en: |
+      Inclusion reflection: rutile (TiO₂) needles intersect at 60° /
+      120° angles aligned with the trigonal corundum c-axis. The
+      cabochon's domed shape guides reflections outward, optically
+      combining into six rays meeting at the apex.
+    examples:
+      - { gem: 'Star Ruby / 星光红宝',     rays: 6, host: 'Corundum',  needles: 'rutile (TiO₂)' }
+      - { gem: 'Star Sapphire / 星光蓝宝',  rays: 6, host: 'Corundum',  needles: 'rutile (TiO₂)' }
+      - { gem: 'Star Diopside / 星光透辉石', rays: 4, host: 'Diopside',  needles: 'magnetite' }
+      - { gem: 'Star Rose Quartz / 星光芙蓉石', rays: 6, host: 'Quartz', needles: 'rutile' }
+      - { gem: 'Star Garnet / 星光石榴石',  rays: 4, host: 'Garnet',   needles: 'rutile / apatite' }
+
+  # ─── 2. Chatoyancy ───────────────────────────────────────
+  - id: chatoyancy
+    name_zh: 猫眼效应
+    name_en: Chatoyancy (Cat's-Eye Effect)
+    short_zh: 平行纤维或管状包裹体形成一道亮带
+    short_en: Parallel fibers or tubes form a single bright band
+    summary_zh: |
+      猫眼效应是当宝石内含大量平行排列的纤维状包裹体、空洞或管状
+      结构时，弧面切割下垂直于包裹体走向的弧顶呈现一道明亮游动的
+      光带，类似猫的眼睛。最著名的"金绿猫眼"（cymophane）是该效应
+      的命名来源。其他如碧玺猫眼、磷灰石猫眼、月光石（虽为不同机
+      制但视觉相似）。
+    summary_en: |
+      Chatoyancy appears when a gem contains densely packed parallel
+      fibers, channels, or tubes. On a cabochon cut perpendicular to
+      the inclusions, a single bright band slides across the dome —
+      the "cat's eye." The namesake is chrysoberyl (cymophane); the
+      same effect occurs in tourmaline, apatite, and others. Moonstone
+      produces a visually similar floating sheen via a different
+      mechanism (see adularescence).
+    mechanism_zh: |
+      单向反射：所有包裹体沿同一方向延展（如金绿宝石中沿 c 轴的
+      空管）。从顶部观察，每根管子都把垂直方向的光反射到眼睛中。
+      整个包裹体群反射的光被几何约束成一道垂直于走向的窄光带。包
+      括包裹体越多、越细、越平行，效果越强。
+    mechanism_en: |
+      Single-direction reflection: all inclusions align along one
+      direction (e.g., hollow tubes parallel to the c-axis in
+      chrysoberyl). From above, each tube reflects perpendicular light
+      to the viewer. The collective reflection is geometrically
+      constrained to a narrow band perpendicular to the inclusion
+      direction. Effect strength scales with inclusion density, fineness,
+      and parallelism.
+    examples:
+      - { gem: "Chrysoberyl Cat's-eye / 金绿猫眼",         tubes: 'hollow tubes along c-axis',    host: 'Chrysoberyl' }
+      - { gem: "Tourmaline Cat's-eye / 碧玺猫眼",          tubes: 'parallel hollow channels',     host: 'Elbaite' }
+      - { gem: "Apatite Cat's-eye / 磷灰石猫眼",           tubes: 'fibrous inclusions',           host: 'Apatite' }
+      - { gem: "Hawk's-eye / 鹰眼石",                      tubes: 'crocidolite fibers',           host: 'Quartz (pseudomorph)' }
+      - { gem: "Tiger's-eye / 虎眼石",                     tubes: 'crocidolite fibers (oxidized)', host: 'Quartz (pseudomorph)' }
+
+  # ─── 3. Color change ────────────────────────────────────
+  - id: color-change
+    name_zh: 变色效应
+    name_en: Color Change
+    short_zh: 不同光源下呈现明显不同颜色
+    short_en: Gem shows distinctly different colors under different light sources
+    summary_zh: |
+      某些宝石在日光（含较多蓝绿光）与白炽灯（含较多红黄光）下呈现
+      明显不同颜色。最著名的是亚历山大石（变石），日光下绿色，白炽
+      灯下红色。其他含 Cr³⁺ / V³⁺ 的宝石（蓝宝石、镁铝榴石、尖晶石
+      变种）也可表现该效应。机制与变石的 Cr³⁺ 双重吸收带有关。
+    summary_en: |
+      A few gems exhibit distinctly different hues under daylight
+      (rich in blue-green) versus incandescent light (rich in red-
+      yellow). The classic case is alexandrite, green in daylight
+      and red in candlelight. Other Cr³⁺ / V³⁺-bearing species
+      (sapphire, pyrope, certain spinels) can show similar effects.
+      Mechanism: dual absorption bands of Cr³⁺ centered in the
+      yellow and blue-green ranges.
+    mechanism_zh: |
+      Cr³⁺ 离子具有两个主吸收带：一个在黄光区（约 580 nm），一个在
+      蓝光区（约 425 nm）。当日光（蓝绿富）照射时，黄色透射为主 →
+      视觉为绿色；当白炽灯（红黄富）照射时，黄光被吸收，蓝色透射
+      主导，与红色环境光共同呈现红/紫色效果。绿色与红色的对比越强，
+      变石效应评级越高。
+    mechanism_en: |
+      Cr³⁺ exhibits two principal absorption bands: one in the yellow
+      (~580 nm) and one in the blue (~425 nm). Under daylight (blue-
+      green rich), yellow light is transmitted → green appearance.
+      Under incandescent light (red-yellow rich), yellow is absorbed
+      and blue transmission dominates, combining with the red ambient
+      to yield red/purple. The greater the green-vs-red contrast, the
+      higher the alexandrite rating.
+    examples:
+      - { gem: 'Alexandrite / 亚历山大石',  day: 'green / teal',   incandescent: 'red / raspberry' }
+      - { gem: 'Color-change Sapphire / 变色蓝宝',  day: 'blue',    incandescent: 'purple' }
+      - { gem: 'Color-change Garnet / 变色石榴石',  day: 'blue-green', incandescent: 'red-purple' }
+      - { gem: 'Color-change Spinel / 变色尖晶石',  day: 'blue',    incandescent: 'violet' }
+      - { gem: 'Color-change Fluorite / 变色萤石',  day: 'blue',    incandescent: 'purple' }
+
+  # ─── 4. Adularescence ──────────────────────────────────
+  - id: adularescence
+    name_zh: 月光效应
+    name_en: Adularescence (Moonstone Sheen)
+    short_zh: 内部层状结构产生柔和漂浮的蓝色光晕
+    short_en: Layered internal structure produces soft, floating blue sheen
+    summary_zh: |
+      月光石（长石族）的标志性效应。在弧面切割下，宝石内部呈现一片
+      柔和、漂浮的蓝色至白色光晕，仿佛月光在水面游动。机制是正长石
+      与钠长石薄层交替（每层 ~100–300 nm），层间折射率差产生光的散射
+      与干涉。这是结构引起的光学现象，与色心、致色元素无关。
+    summary_en: |
+      The signature effect of moonstone (feldspar family). On a
+      cabochon cut, the gem displays a soft, floating blue-to-white
+      sheen that seems to drift as the stone is rotated — like
+      moonlight on water. Mechanism: alternating thin lamellae of
+      orthoclase and albite (~100–300 nm each). The refractive-index
+      mismatch between layers scatters and interferes with light.
+      This is a structural optical effect, not related to color
+      centers or chromophore elements.
+    mechanism_zh: |
+      层状散射 + 干涉：交替生长的 KAlSi₃O₈（正长石）与 NaAlSi₃O₈
+      （钠长石）薄层厚度恰好与可见光波长同数量级。当光波通过层间
+      时发生相干散射，蓝光（短波长）相位匹配产生建设性干涉 → 形成
+      蓝/银色漂浮光晕。橙色与红色因波长更长而干涉相消，因此月光
+      总是蓝白色调。
+    mechanism_en: |
+      Lamellar scattering + interference: alternating KAlSi₃O₈
+      (orthoclase) and NaAlSi₃O₈ (albite) lamellae with thickness on
+      the order of visible light wavelengths. Light scattered across
+      layers interferes coherently; blue light (shorter wavelength)
+      matches the layer spacing for constructive interference, producing
+      the blue/silver sheen. Orange and red (longer wavelengths)
+      interfere destructively, so the effect is always blue-white.
+    examples:
+      - { gem: 'Blue Moonstone / 蓝月光石',   layers: 'orthoclase + albite',           base: 'feldspar' }
+      - { gem: 'Rainbow Moonstone / 彩虹月光石', layers: 'fine alternating (rainbow CT interference)', base: 'feldspar' }
+      - { gem: 'White Moonstone / 白月光石', layers: 'orthoclase + albite (coarser)', base: 'feldspar' }
+      - { gem: "Cat's-eye Moonstone / 猫眼月光石", layers: 'orthoclase + albite + oriented needles', base: 'feldspar' }
+
+  # ─── 5. Labradorescence ────────────────────────────────
+  - id: labradorescence
+    name_zh: 拉长晕彩
+    name_en: Labradorescence (Spectrolite)
+    short_zh: 内部层状结构产生强烈金属光泽的彩色闪烁
+    short_en: Layered internal structure produces vivid metallic iridescence
+    summary_zh: |
+      拉长石（钙钠长石族）的标志性效应。弧面切割下，内部层状结构
+      中的纳米级包体或成分交替层对入射光产生反射与干涉，形成强烈
+      金属感的蓝色、绿色、橙色、金色闪烁，颜色随观察角度连续变化
+      （即"全息"质感）。与月光石机制相似，但层厚变化更大且层间反
+      射率差更大，因此效果更鲜艳。最著名的例子是芬兰光谱石
+      （Spectrolite）。
+    summary_en: |
+      The signature effect of labradorite (plagioclase feldspar
+      series). On a cabochon cut, alternating nanoscale layers or
+      compositional striations reflect and interfere with light,
+      producing vivid flashes of blue, green, orange, and gold with
+      a metallic sheen. The colors shift continuously with viewing
+      angle — a holographic quality. The mechanism is similar to
+      adularescence but with greater compositional variation and
+      refractive-index contrast between layers, producing more
+      saturated colors. The most famous example is Finnish Spectrolite.
+    mechanism_zh: |
+      成分层状结构：拉长石的钙长石（CaAl₂Si₂O₈）与钠长石
+      （NaAlSi₃O₈）亚层交替生长，层厚 ~50–250 nm。层间折射率差异
+      在 0.005–0.012 范围，恰好在可见光干涉条件下产生强烈选择反射。
+      因视角变化，反射波长发生偏移 → 形成角度依赖的色彩变化。
+    mechanism_en: |
+      Compositional lamellar structure: labradorite's anorthite
+      (CaAl₂Si₂O₈) and albite (NaAlSi₃O₈) sub-layers alternate with
+      thicknesses of ~50–250 nm. Refractive-index contrasts between
+      layers (typically 0.005–0.012) fall in the range needed for
+      strong selective interference with visible light. As viewing
+      angle changes, the reflected wavelength shifts, producing
+      angle-dependent color variation.
+    examples:
+      - { gem: 'Labradorite / 拉长石',          host: 'Plagioclase',  colors: 'blue-green dominant' }
+      - { gem: 'Spectrolite / 光谱石',           host: 'Plagioclase',  colors: 'full spectrum (Finland origin)' }
+      - { gem: 'Andesine-Labradorite / 安山-拉长石', host: 'Plagioclase', colors: 'green to red' }
+      - { gem: 'Spectrolite (Madagascar)', host: 'Plagioclase', colors: 'vivid blue-green' }
+
+  # ─── 6. Aventurescence ─────────────────────────────────
+  - id: aventurescence
+    name_zh: 砂金效应
+    name_en: Aventurescence (Sunstone Glitter)
+    short_zh: 金属片状包裹体在宝石内部闪烁
+    short_en: Metallic platelets cause sparkly reflections inside the gem
+    summary_zh: |
+      砂金效应是当宝石内部含有大量小而平的金属矿物薄片（最常见为赤
+      铁矿 / 铜片）时，光从这些薄片反射形成闪烁的金属光泽。最著名的
+      是：
+      - **日光石 (Sunstone)** —— 长石族中含赤铁矿 / 针铁矿薄片
+      - **砂金石 (Aventurine)** —— 石英中含铬云母 / 赤铁矿薄片（绿色、棕色变种）
+      - **东陵玉** —— 与砂金石同类，绿色最常见
+      薄片越大、越反光，效果越明显。
+    summary_en: |
+      Aventurescence appears when a gem contains numerous small flat
+      metallic platelets (most commonly hematite, copper, or goethite).
+      Light reflecting off these platelets produces a sparkly metallic
+      sheen. The classic examples are:
+      - **Sunstone** — feldspar with hematite / goethite platelets
+      - **Aventurine** — quartz with chrome-mica or hematite platelets
+        (green and brown varieties)
+      - **Imperial Porphyry** — feldspar variant
+      Larger, more reflective platelets produce a stronger effect.
+    mechanism_zh: |
+      薄片反射：宝石结晶过程中赤铁矿（Fe₂O₃）或针铁矿（FeO(OH)）
+      沿特定方向析出为细小六边形或圆形薄片，每片尺寸约 0.1–1 mm。
+      当光从不同方向入射，各薄片依次闪烁形成"星光"般的金属闪烁
+      效果。绿色砂金石中的铬云母反射绿色光，红/棕色来自赤铁矿。
+    mechanism_en: |
+      Platelet reflection: during crystallization, hematite (Fe₂O₃)
+      or goethite (FeO(OH)) precipitate as small hexagonal or round
+      platelets ~0.1–1 mm in size, oriented along specific crystal
+      planes. As light hits from varying angles, each platelet
+      sparkles in turn, producing a metallic sun-fleck effect.
+      Chrome-mica platelets in green aventurine reflect green light;
+      red/brown variants reflect from hematite.
+    examples:
+      - { gem: 'Sunstone (Oregon) / 日光石',         plates: 'copper / hematite', host: 'Feldspar (oligoclase / labradorite)' }
+      - { gem: 'Aventurine Quartz (green) / 砂金石', plates: 'chrome-mica / fuchsite', host: 'Quartz' }
+      - { gem: 'Aventurine Quartz (red-brown) / 砂金石', plates: 'hematite', host: 'Quartz' }
+      - { gem: 'Imperial Sunstone / 帝王日光石',     plates: 'large copper platelets', host: 'Feldspar' }

@@ -16,7 +16,7 @@
     "preview": "vitepress preview docs",
     "validate:data": "tsx scripts/build/validate-data.ts",
     "sync:content": "tsx scripts/build/sync-content.ts",
-    "generate:pages": "tsx scripts/build/generate-gem-pages.ts",
+    "generate:pages": "tsx scripts/build/generate-gem-pages.ts && tsx scripts/build/generate-color-causes-pages.ts && tsx scripts/build/generate-optical-phenomena-pages.ts && tsx scripts/build/generate-mineral-groups-pages.ts",
     "test": "vitest run"
   },
   "devDependencies": {

@@ -69,6 +69,14 @@ There are seven crystal systems (plus amorphous). Each gem crystallizes in one:
 
 *Begin with the [cubic (isometric) system](crystal-systems/cubic).*
 
+## Classification by Mineral Group
+
+For a chemistry-structured view, see [**Mineral Groups**](mineral-groups/intro) — eight families covering native elements, oxides, three silicate subclasses, plus phosphates, carbonates, sulfides, and halides.
+
+## Classification by Optical Phenomena
+
+Beyond the catalog of phenomena below, see [**Optical Phenomena**](optical-phenomena/intro) — detailed pages on six observable effects (star, cat's-eye, color change, moonstone sheen, labradorite schiller, sunstone glitter).
+
 ## Classification by Optical Phenomena
 
 | Phenomenon | Description | Examples |
@@ -81,6 +89,8 @@ There are seven crystal systems (plus amorphous). Each gem crystallizes in one:
 | **Adularescence** | Blue-white floating glow | Moonstone |
 | **Labradorescence** | Metallic schiller | Labradorite |
 | **Aventurescence** | Sparkly metallic inclusions | Aventurine, Sunstone |
+
+For the underlying **physical causes of color**, see [**Color Cause**](color-causes/intro) — transition-metal ions, color centers, and charge transfer.
 
 ## Classification by Color
 

@@ -1,0 +1,339 @@
+# Mineral group taxonomy for gems.
+# Eight groups, structured by chemistry + structure (Strunz classification,
+# simplified). Each entry provides composition, key gem species, and
+# representative examples.
+# Reference: Strunz H. (1970) *Mineralogical Tables*, Schumann W.
+#            *Gemstones of the World*, Mindat / Webmineral databases.
+groups:
+  # ─── 1. Native elements ──────────────────────────────────
+  - id: native-elements
+    name_zh: 单质（原生元素）
+    name_en: Native Elements
+    formula_class: 单原子或同种原子
+    formula_class_en: Single-element composition
+    structural_zh: |
+      原子在三维空间按特定几何方式排列形成晶格；金属类（如金、银）
+      为面心立方结构；非金属（如金刚石）为共价四面体网络。
+    structural_en: |
+      Atoms occupy lattice positions in characteristic geometries;
+      metallic native elements (gold, silver) form face-centered
+      cubic structures, while non-metals (diamond) form covalent
+      tetrahedral networks.
+    summary_zh: |
+      单质矿物为同种元素原子在自然界结晶形成。宝石界最重要的单质矿
+      物是金刚石（碳），由 sp³ 杂化的碳原子以四面体共价键形成，是
+      自然中已知最硬的物质。其他单质宝石（如黄金、白银）多以工艺
+      品而非刻面宝石出现。
+    summary_en: |
+      Native-element minerals are crystals of a single element. In
+      gemology, the most important native element is diamond (carbon),
+      formed by sp³-hybridized carbon atoms in a tetrahedral covalent
+      network — the hardest known natural material. Other native
+      elements (gold, silver, platinum) are typically used as
+      ornamental or precious-metal work rather than faceted gems.
+    gems:
+      - { name: 'Diamond / 金刚石',   formula: 'C',         subgroup: 'non-metal' }
+      - { name: 'Gold / 自然金',     formula: 'Au',        subgroup: 'metal' }
+      - { name: 'Silver / 自然银',    formula: 'Ag',        subgroup: 'metal' }
+      - { name: 'Platinum / 自然铂',  formula: 'Pt',        subgroup: 'metal' }
+      - { name: 'Copper / 自然铜',    formula: 'Cu',        subgroup: 'metal' }
+
+  # ─── 2. Oxides ───────────────────────────────────────────
+  - id: oxides
+    name_zh: 氧化物
+    name_en: Oxides
+    formula_class: M₂O₃ / MO₂ / MO
+    formula_class_en: 'M₂O₃ / MO₂ / MO'
+    structural_zh: |
+      氧离子（O²⁻）构成六方最密堆积或立方最密堆积骨架，金属阳离子
+      填充八面体或四面体间隙位置。刚玉族为三方晶系，尖晶石族为等轴
+      晶系。
+    structural_en: |
+      Oxide (O²⁻) anions form hexagonal close-packed or cubic
+      close-packed frameworks; metal cations occupy octahedral or
+      tetrahedral interstices. Corundum subgroup: trigonal; spinel
+      subgroup: cubic.
+    summary_zh: |
+      氧化物类是宝石学最重要类之一，涵盖刚玉族（红宝石、蓝宝石）、
+      尖晶石族、金红石族、水铝矿等。致色元素以过渡金属为主
+      （Cr、Fe、Ti、V）。因晶格中化学键强（离子键 + 部分共价性），
+      氧化物硬度普遍较高（Mohs 7–9），是良好的耐久性宝石。
+    summary_en: |
+      Oxides form one of the most important gem families, including
+      corundum (ruby, sapphire), spinel, rutile, and diaspore.
+      Coloring elements are predominantly transition metals (Cr, Fe,
+      Ti, V). Strong ionic + covalent bonding makes oxides hard
+      (Mohs 7–9) and durable for everyday wear.
+    gems:
+      - { name: 'Ruby / 红宝石',                  formula: 'Al₂O₃ + Cr', subgroup: 'corundum' }
+      - { name: 'Sapphire (blue) / 蓝宝石',       formula: 'Al₂O₃ + Fe,Ti', subgroup: 'corundum' }
+      - { name: 'Yellow Sapphire / 黄宝石',       formula: 'Al₂O₃ + Fe', subgroup: 'corundum' }
+      - { name: 'Padparadscha / 帕帕拉恰',        formula: 'Al₂O₃ + Cr,Fe', subgroup: 'corundum' }
+      - { name: 'Spinel / 尖晶石',                 formula: 'MgAl₂O₄', subgroup: 'spinel' }
+      - { name: 'Hematite / 赤铁矿',               formula: 'Fe₂O₃', subgroup: 'hematite' }
+      - { name: 'Rutile / 金红石',                 formula: 'TiO₂', subgroup: 'rutile' }
+      - { name: 'Diaspore / 水铝石',               formula: 'AlO(OH)', subgroup: 'boehmite' }
+      - { name: 'Cassiterite / 锡石',              formula: 'SnO₂', subgroup: 'rutile' }
+      - { name: 'Spinel (cobalt-blue) / 钴蓝尖晶石', formula: 'CoAl₂O₄', subgroup: 'spinel' }
+
+  # ─── 3a. Silicates: framework (tectosilicates) ─────────
+  - id: silicates-framework
+    name_zh: 硅酸盐 · 架状（网状）
+    name_en: Silicates — Framework (Tectosilicates)
+    formula_class: 'M(Al,Si)₄O₈'
+    formula_class_en: 'M(Al,Si)₄O₈'
+    structural_zh: |
+      [SiO₄]⁴⁻ 四面体每个顶角与其他四面体共享，形成三维无限架状
+      结构。长石族中 Si⁴⁺ 与 Al³⁺ 在四面体位置有序替代，碱/碱土金
+      属阳离子充填结构空隙。Si/Al 比与阳离子类型决定矿物种属。
+    structural_en: |
+      [SiO₄]⁴⁻ tetrahedra share all four oxygens, forming a 3D
+      infinite framework. In feldspars, Si⁴⁺ / Al³⁺ substitution
+      occurs at tetrahedral sites; alkali / alkaline-earth cations
+      fill structural cavities. The Si/Al ratio and cation type
+      determine the species.
+    summary_zh: |
+      架状硅酸盐 SiO₂ 与 Al₂O₃ 摩尔比约为 3:1–6:1。最重要的宝石
+      矿物族是长石族（月光石 / 拉长石 / 太阳石 / 天河石 / 拉布拉多
+      拉长石）；次要族为沸石族（不常作宝石）。长石占地球地壳矿物
+      总重量的约 60%。
+    summary_en: |
+      Framework silicates have a SiO₂ / Al₂O₃ molar ratio around
+      3:1–6:1. The most important gem-bearing family is the feldspar
+      group (moonstone, labradorite, sunstone, amazonite); zeolites
+      are occasionally cut. Feldspars account for ~60% of Earth's
+      crustal mineral volume.
+    gems:
+      - { name: 'Moonstone / 月光石',         formula: '(K,Na)AlSi₃O₈', subgroup: 'orthoclase' }
+      - { name: 'Labradorite / 拉长石',       formula: '(Ca,Na)(Si,Al)₄O₈', subgroup: 'plagioclase' }
+      - { name: 'Sunstone / 日光石',           formula: '(Na,Ca)(Si,Al)₄O₈ + Cu/Fe', subgroup: 'plagioclase' }
+      - { name: 'Amazonite / 天河石',         formula: 'KAlSi₃O₈', subgroup: 'microcline' }
+      - { name: 'Spectrolite / 光谱石',       formula: '(Ca,Na)(Si,Al)₄O₈', subgroup: 'plagioclase' }
+      - { name: 'Orthoclase / 正长石',         formula: 'KAlSi₃O₈', subgroup: 'orthoclase' }
+
+  # ─── 3b. Silicates: chain/band (inosilicates) ──────────
+  - id: silicates-chain
+    name_zh: 硅酸盐 · 链状 / 带状
+    name_en: Silicates — Chain / Band (Inosilicates)
+    formula_class: 'M·SiO₃ / M₇Si₈O₂₂(OH)₂'
+    formula_class_en: 'M·SiO₃ / M₇Si₈O₂₂(OH)₂'
+    structural_zh: |
+      [SiO₄] 四面体通过共享两个顶角氧连接为单链（辉石）或共享两
+      个加一个为双链（角闪石）。链间由金属阳离子（如 Ca、Mg、Fe）
+      和 OH⁻ 桥接。链结构沿 c 轴延伸，使晶体常呈柱状或纤维状习性。
+    structural_en: |
+      [SiO₄] tetrahedra share two oxygens to form single chains
+      (pyroxenes) or 2:1 double chains (amphiboles). Chains are
+      bridged by metal cations (Ca, Mg, Fe) and OH⁻ groups. Chain
+      structure running along the c-axis produces characteristic
+      prismatic or fibrous crystal habits.
+    summary_zh: |
+      链状硅酸盐包含两个重要宝石族：
+      - **辉石族（单链）**：硬玉（翡翠）、透辉石、蔷薇辉石（部分属
+        此）、锂辉石（孔赛石）
+      - **角闪石族（双链）**：软玉（和田玉）、阳起石、透闪石
+      翡翠（硬玉）与软玉（透闪石）是中国传统"玉"的两大来源，但
+      化学与晶体结构完全不同。
+    summary_en: |
+      Chain silicates encompass two major gem-bearing families:
+      - **Pyroxenes (single chain)**: jadeite, diopside, spodumene
+        (kunzite, hiddenite)
+      - **Amphiboles (double chain)**: nephrite, actinolite, tremolite
+      "Jade" includes both jadeite (a pyroxene) and nephrite (an
+      amphibole) — chemically and structurally distinct despite
+      shared cultural identity.
+    gems:
+      - { name: 'Jadeite (Burmese Jade) / 翡翠', formula: 'NaAlSi₂O₆', subgroup: 'pyroxene' }
+      - { name: 'Nephrite / 软玉',                  formula: 'Ca₂(Mg,Fe)₅Si₈O₂₂(OH)₂', subgroup: 'amphibole' }
+      - { name: 'Spodumene (Kunzite) / 孔赛石',      formula: 'LiAlSi₂O₆', subgroup: 'pyroxene' }
+      - { name: 'Spodumene (Hiddenite) / 翠绿锂辉石', formula: 'LiAlSi₂O₆ + Cr', subgroup: 'pyroxene' }
+      - { name: 'Diopside / 透辉石',                formula: 'CaMgSi₂O₆', subgroup: 'pyroxene' }
+      - { name: 'Rhodonite / 蔷薇辉石',              formula: 'MnSiO₃', subgroup: 'pyroxenoid' }
+      - { name: 'Actinolite / 阳起石',              formula: 'Ca₂(Mg,Fe)₅Si₈O₂₂(OH)₂', subgroup: 'amphibole' }
+
+  # ─── 3c. Silicates: isolated/ring (nesosilicates / cyclosilicates) ──
+  - id: silicates-isolated
+    name_zh: 硅酸盐 · 孤立四面体 / 环状
+    name_en: Silicates — Isolated Tetrahedra / Rings
+    formula_class: 'M₃Al₂(SiO₄)₃ / M₃(SiO₄) + Si₃O₉'
+    formula_class_en: 'M₃Al₂(SiO₄)₃ / M₃(SiO₄) + Si₃O₉'
+    structural_zh: |
+      孤立硅酸盐中 [SiO₄]⁴⁻ 四面体不与其他四面体共享氧原子，由
+      阳离子（M²⁺、M³⁺）在结构空隙中桥接。环状硅酸盐中，3 个
+      或 6 个 [SiO₄] 四面体首尾连接形成 [Si₃O₉]⁶⁻ 或 [Si₆O₁₈]¹²⁻
+      环。
+    structural_en: |
+      In nesosilicates, [SiO₄]⁴⁻ tetrahedra are isolated (no oxygen
+      sharing); cations (M²⁺, M³⁺) bridge the structure at interstices.
+      Cyclosilicates contain [Si₃O₉]⁶⁻ (three-member) or [Si₆O₁₈]¹²⁻
+      (six-member) rings formed by tetrahedra linked corner-to-corner.
+    summary_zh: |
+      孤立四面体结构（橄榄石型 + 石榴石型 + 锆石型）涵盖多数高折射率
+      宝石：
+      - **石榴石族**：铁铝榴石、镁铝榴石、锰铝榴石、钙铝榴石、钙
+        铁榴石、翠榴石、变色石榴石
+      - **橄榄石族**：橄榄石（含镁橄榄石与贵橄榄石）
+      - **锆石族**：蓝锆石（含天然 U/Th 衰变放射性衰变）
+      环状硅酸盐中重要宝石：电气石（碧玺）、堇青石（Iolite）。
+    summary_en: |
+      Isolated-tetrahedra structures (garnet, olivine, zircon type)
+      host many high-refractive-index gems:
+      - **Garnet group**: almandine, pyrope, spessartine, grossular,
+        andradite, demantoid, tsavorite, color-change varieties
+      - **Olivine group**: peridot (forsterite–fayalite series)
+      - **Zircon group**: includes natural radiation damage over time
+      Important ring silicates include tourmaline and cordierite
+      (iolite).
+    gems:
+      - { name: 'Almandine / 铁铝榴石',             formula: 'Fe₃Al₂(SiO₄)₃', subgroup: 'garnet (Al)' }
+      - { name: 'Pyrope / 镁铝榴石',                formula: 'Mg₃Al₂(SiO₄)₃', subgroup: 'garnet (Al)' }
+      - { name: 'Spessartine / 锰铝榴石',           formula: 'Mn₃Al₂(SiO₄)₃', subgroup: 'garnet (Al)' }
+      - { name: 'Grossular / 钙铝榴石',             formula: 'Ca₃Al₂(SiO₄)₃', subgroup: 'garnet (Al)' }
+      - { name: 'Tsavorite / 沙弗莱',                formula: 'Ca₃Al₂(SiO₄)₃ + V,Cr', subgroup: 'grossular' }
+      - { name: 'Demantoid / 翠榴石',                formula: 'Ca₃Fe₂(SiO₄)₃ + Cr', subgroup: 'garnet (Fe)' }
+      - { name: 'Peridot / 橄榄石',                  formula: '(Mg,Fe)₂SiO₄', subgroup: 'olivine' }
+      - { name: 'Zircon / 锆石',                     formula: 'ZrSiO₄', subgroup: 'zircon' }
+      - { name: 'Topaz / 黄玉',                      formula: 'Al₂SiO₄(F,OH)₂', subgroup: 'topaz' }
+      - { name: 'Chrysoberyl / 金绿宝石',            formula: 'BeAl₂O₄', subgroup: 'chrysoberyl' }
+      - { name: 'Tourmaline (Elbaite) / 碧玺',       formula: 'Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃', subgroup: 'cyclosilicate' }
+      - { name: 'Iolite (Cordierite) / 堇青石',     formula: 'Mg₂Al₄Si₅O₁₈', subgroup: 'cyclosilicate' }
+
+  # ─── 4. Phosphates ──────────────────────────────────────
+  - id: phosphates
+    name_zh: 磷酸盐
+    name_en: Phosphates
+    formula_class: 'PO₄³⁻ 基团 + 金属阳离子'
+    formula_class_en: 'PO₄³⁻ group + metal cations'
+    structural_zh: |
+      [PO₄]³⁻ 四面体独立或与其他四面体（[OH]⁻、[F]⁻）共顶点连接。金
+      属阳离子（Ca、Fe、Mn、Al、Li、Be、Cu）与 P 形成稳定配位。
+      磷灰石族为六方晶系，绿松石为三斜晶系。
+    structural_en: |
+      [PO₄]³⁻ tetrahedra are isolated or link via shared corners
+      with [OH]⁻ or [F]⁻. Metal cations (Ca, Fe, Mn, Al, Li, Be, Cu)
+      coordinate with P. Apatite group is hexagonal; turquoise is
+      triclinic.
+    summary_zh: |
+      磷酸盐类是玉石与生物质宝石的主要来源：
+      - **磷灰石族**：含羟基磷灰石、氟磷灰石、氯磷灰石、磷氯铅矿
+      - **绿松石**：铜铝磷酸盐，多孔结构（土耳其石的核心致色机理）
+      - **天蓝石**：与绿松石共生的蓝色磷酸盐矿物
+      - **磷铝石（巴西石）**
+      - **独居石、磷钇矿**（含放射性元素）
+    summary_en: |
+      Phosphates are major sources of jade-like and bio-derived gems:
+      - **Apatite group**: hydroxyl-, fluor-, and chlor-apatite, plus
+        pyromorphite (Pb)
+      - **Turquoise**: copper-aluminum phosphate, porous structure
+      - **Lazulite**: blue phosphate often associated with turquoise
+      - **Brazilianite**
+      - **Monazite, xenotime** (radioactive Th, U, Y)
+    gems:
+      - { name: 'Apatite / 磷灰石',         formula: 'Ca₅(PO₄)₃(F,OH,Cl)', subgroup: 'apatite' }
+      - { name: 'Turquoise / 绿松石',        formula: 'CuAl₆(PO₄)₄(OH)₈·4H₂O', subgroup: 'turquoise' }
+      - { name: 'Lazulite / 天蓝石',          formula: '(Mg,Fe)Al₂(PO₄)₂(OH)₂', subgroup: 'lazulite' }
+      - { name: 'Brazilianite / 磷铝石',     formula: 'NaAl₃(PO₄)₂(OH)₄', subgroup: 'brazilianite' }
+
+  # ─── 5. Carbonates ──────────────────────────────────────
+  - id: carbonates
+    name_zh: 碳酸盐
+    name_en: Carbonates
+    formula_class: 'CO₃²⁻ + 二价金属阳离子'
+    formula_class_en: 'CO₃²⁻ + divalent metal cations'
+    structural_zh: |
+      [CO₃]²⁻ 平面三角形基团与二价金属阳离子（Ca、Mg、Mn、Fe、Cu、
+      Zn、Ba、Sr）配位。方解石型为三方晶系；文石型为斜方晶系。
+    structural_en: |
+      Planar [CO₃]²⁻ triangular groups coordinate with divalent metal
+      cations (Ca, Mg, Mn, Fe, Cu, Zn, Ba, Sr). Calcite subgroup:
+      trigonal; aragonite subgroup: orthorhombic.
+    summary_zh: |
+      碳酸盐类涵盖宝石界多个富有特色的品种：
+      - **方解石族**：方解石（含冰洲石）、菱锰矿、菱镁矿、菱铁矿、
+        蓝纹石（含 Sr 的蓝色方解石变种）
+      - **文石族**：文石（霰石）、珍珠母（生物成因）、珊瑚
+      - **白云石、孔雀石、蓝铜矿**：含水或铜的复杂碳酸盐
+      碳酸盐普遍硬度较低（Mohs 3–4），多为玉石或有机宝石原料。
+    summary_en: |
+      Carbonates include several distinctive gem families:
+      - **Calcite subgroup**: calcite (incl. Iceland spar),
+        rhodochrosite, magnesite, siderite
+      - **Aragonite subgroup**: aragonite, pearl mother-of-pearl,
+        coral
+      - **Dolomite, malachite, azurite**: complex hydrated or
+        copper-bearing carbonates
+      Most carbonates are soft (Mohs 3–4) and used as carving or
+      ornamental material.
+    gems:
+      - { name: 'Calcite / 方解石',         formula: 'CaCO₃', subgroup: 'calcite' }
+      - { name: 'Rhodochrosite / 菱锰矿',   formula: 'MnCO₃', subgroup: 'calcite' }
+      - { name: 'Magnesite / 菱镁矿',       formula: 'MgCO₃', subgroup: 'calcite' }
+      - { name: 'Aragonite / 文石',         formula: 'CaCO₃', subgroup: 'aragonite' }
+      - { name: 'Malachite / 孔雀石',       formula: 'Cu₂CO₃(OH)₂', subgroup: 'malachite' }
+      - { name: 'Azurite / 蓝铜矿',         formula: 'Cu₃(CO₃)₂(OH)₂', subgroup: 'azurite' }
+      - { name: 'Smithsonite / 菱锌矿',     formula: 'ZnCO₃', subgroup: 'calcite' }
+
+  # ─── 6. Sulfides ─────────────────────────────────────────
+  - id: sulfides
+    name_zh: 硫化物
+    name_en: Sulfides
+    formula_class: 'M_xS_y (含 S²⁻)'
+    formula_class_en: 'M_xS_y (with S²⁻)'
+    structural_zh: |
+      金属阳离子与 S²⁻ 形成离子键或共价键。常见结构包括 NaCl 型
+      （方铅矿）、闪锌矿型（ZnS 四面体配位）、黄铁矿型（FeS₂ 哑
+      铃状 S₂²⁻）。
+    structural_en: |
+      Metal cations bond with S²⁻ via ionic or covalent interactions.
+      Common structures: NaCl-type (galena), sphalerite-type (ZnS
+      tetrahedral coordination), pyrite-type (FeS₂ with dumbbell
+      S₂²⁻ units).
+    summary_zh: |
+      硫化物类宝石以光学效应与金属光泽著称：
+      - **黄铁矿**：FeS₂，"愚人金"，立方晶系，常用于装饰品
+      - **闪锌矿**：ZnS，色散极高（0.156），超过钻石
+      - **方铅矿**：PbS，重且软（Mohs 2.5），少见作宝石
+      - **辰砂（朱砂）**：HgS，红色，矿物学重要
+    summary_en: |
+      Sulfides are notable for their optical effects and metallic
+      luster:
+      - **Pyrite** (FeS₂): "fool's gold," cubic, often used ornamentally
+      - **Sphalerite** (ZnS): very high dispersion (0.156), exceeds
+        diamond
+      - **Galena** (PbS): heavy and soft (Mohs 2.5), rarely gem-quality
+      - **Cinnabar** (HgS): deep red, mineralogically important
+    gems:
+      - { name: 'Pyrite / 黄铁矿',       formula: 'FeS₂', subgroup: 'pyrite' }
+      - { name: 'Sphalerite / 闪锌矿',   formula: 'ZnS', subgroup: 'sphalerite' }
+
+  # ─── 7. Halides ──────────────────────────────────────────
+  - id: halides
+    name_zh: 卤化物
+    name_en: Halides
+    formula_class: 'MX (X = F, Cl, Br, I)'
+    formula_class_en: 'MX (X = F, Cl, Br, I)'
+    structural_zh: |
+      卤素阴离子（F⁻、Cl⁻）与金属阳离子形成离子键。典型结构：萤
+      石型（CaF₂ 立方）、岩盐型（NaCl 立方）。硬度低、解理完全，
+      是宝石学的"易碎类"。
+    structural_en: |
+      Halide anions (F⁻, Cl⁻) bond with metal cations through ionic
+      interactions. Typical structures: fluorite-type (CaF₂ cubic),
+      halite-type (NaCl cubic). Low hardness and perfect cleavage
+      make halides among the most delicate gem materials.
+    summary_zh: |
+      卤化物在宝石学中以颜色中心（色心）现象著称：
+      - **萤石（CaF₂）**：可见色心致色的多种颜色（蓝、紫、绿），
+        是色心理论的经典研究对象
+      - **岩盐（NaCl）**：紫色变种称"紫岩盐"，色心致色
+      - **氟铝石**：罕见的氟铝酸盐宝石
+    summary_en: |
+      Halides are noted in gemology for color-center phenomena:
+      - **Fluorite** (CaF₂): exhibits multiple color-center hues
+        (blue, purple, green) — the classical subject of color-center
+        theory
+      - **Halite** (NaCl): purple variety "purple rock salt" is color-
+        center produced
+      - **Cryolite**: rare fluoride gem
+    gems:
+      - { name: 'Fluorite / 萤石',        formula: 'CaF₂', subgroup: 'fluorite' }

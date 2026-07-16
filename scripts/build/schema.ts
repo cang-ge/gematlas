@@ -13,6 +13,22 @@ export const CrystalSystemEntry = z.object({
   name_en: z.string().min(1),
   examples: z.array(z.string()).optional(),
   symmetry: z.string().optional(),
+  // Phase A: expanded fields for crystal-system reference pages.
+  axial_lengths: z.string().optional(),
+  angles: z.string().optional(),
+  optical_class: z.string().optional(),
+  optic_sign: z.string().optional(),
+  birefringence: z.string().optional(),
+  cleavage: z.string().optional(),
+  habit_en: z.string().optional(),
+  habit_zh: z.string().optional(),
+  description_en: z.string().optional(),
+  description_zh: z.string().optional(),
+  notable_gems: z.array(z.object({
+    name: z.string(),
+    ri: z.string(),
+    sg: z.string(),
+  })).optional(),
 })
 export const CrystalSystemsFile = z.object({
   systems: z.array(CrystalSystemEntry).length(7),
@@ -25,6 +41,80 @@ export const MohsEntry = z.object({
 })
 export const MohsScaleFile = z.object({
   scale: z.array(MohsEntry).length(10),
+})
+
+// Phase D: cause-of-color taxonomy
+export const ColorCauseEntry = z.object({
+  id: z.enum(['transition-metal', 'color-centers', 'charge-transfer']),
+  name_zh: z.string().min(1),
+  name_en: z.string().min(1),
+  summary_zh: z.string().optional(),
+  summary_en: z.string().optional(),
+  mechanism_zh: z.string().optional(),
+  mechanism_en: z.string().optional(),
+  examples: z.array(z.object({
+    gem: z.string(),
+    // examples use different field names per cause; validate flexibly
+    element: z.string().optional(),
+    defect: z.string().optional(),
+    pair: z.string().optional(),
+    host: z.string(),
+    color: z.string(),
+  })).optional(),
+})
+export const ColorCausesFile = z.object({
+  causes: z.array(ColorCauseEntry).min(1),
+})
+
+// Phase C: optical phenomena taxonomy
+export const OpticalPhenomenonEntry = z.object({
+  id: z.string().min(1),
+  name_zh: z.string().min(1),
+  name_en: z.string().min(1),
+  short_zh: z.string().optional(),
+  short_en: z.string().optional(),
+  summary_zh: z.string().optional(),
+  summary_en: z.string().optional(),
+  mechanism_zh: z.string().optional(),
+  mechanism_en: z.string().optional(),
+  // flex-schema examples: vary by phenomenon
+  examples: z.array(z.object({
+    gem: z.string(),
+    host: z.string().optional(),
+    needles: z.string().optional(),
+    tubes: z.string().optional(),
+    layers: z.string().optional(),
+    plates: z.string().optional(),
+    rays: z.number().optional(),
+    day: z.string().optional(),
+    incandescent: z.string().optional(),
+    base: z.string().optional(),
+    colors: z.string().optional(),
+  })).optional(),
+})
+export const OpticalPhenomenaFile = z.object({
+  phenomena: z.array(OpticalPhenomenonEntry).min(1),
+})
+
+// Phase B: mineral group taxonomy (chemistry-based, Strunz)
+export const MineralGroupEntry = z.object({
+  id: z.string().min(1),
+  name_zh: z.string().min(1),
+  name_en: z.string().min(1),
+  formula_class: z.string().optional(),
+  formula_class_en: z.string().optional(),
+  structural_zh: z.string().optional(),
+  structural_en: z.string().optional(),
+  summary_zh: z.string().optional(),
+  summary_en: z.string().optional(),
+  gems: z.array(z.object({
+    name: z.string(),
+    formula: z.string(),
+    subgroup: z.string().optional(),
+  })).optional(),
+})
+export const MineralGroupsFile = z.object({
+  groups: z.array(MineralGroupEntry).min(1),
 })
 
 /* ─── Gem (data/gemstones/v1/*.yaml) — core 5 modules ───────── */
@@ -66,6 +156,9 @@ export const GemTreatments = z.object({
 export const SharedSchema = z.object({
   crystal_systems: CrystalSystemsFile,
   mohs_scale: MohsScaleFile,
+  color_causes: ColorCausesFile.optional(),
+  optical_phenomena: OpticalPhenomenaFile.optional(),
+  mineral_groups: MineralGroupsFile.optional(),
 })
 
 /** The full Gem YAML shape. */

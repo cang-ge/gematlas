@@ -15,6 +15,9 @@ import {
   GemSchema,
   CrystalSystemsFile,
   MohsScaleFile,
+  ColorCausesFile,
+  OpticalPhenomenaFile,
+  MineralGroupsFile,
 } from './schema'
 
 const GEM_DIR = 'data/gems/v1'
@@ -45,6 +48,18 @@ for (const f of fs.readdirSync(GEM_DIR).filter(x => x.endsWith('.yaml'))) {
 // 2 shared
 validate(path.join(SHARED_DIR, 'crystal-systems.yaml'), CrystalSystemsFile, 'shared: crystal-systems.yaml')
 validate(path.join(SHARED_DIR, 'mohs-scale.yaml'),       MohsScaleFile,       'shared: mohs-scale.yaml')
+const colorCausesPath = path.join(SHARED_DIR, 'color-causes.yaml')
+if (fs.existsSync(colorCausesPath)) {
+  validate(colorCausesPath, ColorCausesFile, 'shared: color-causes.yaml')
+}
+const opticalPhenomenaPath = path.join(SHARED_DIR, 'optical-phenomena.yaml')
+if (fs.existsSync(opticalPhenomenaPath)) {
+  validate(opticalPhenomenaPath, OpticalPhenomenaFile, 'shared: optical-phenomena.yaml')
+}
+const mineralGroupsPath = path.join(SHARED_DIR, 'mineral-groups.yaml')
+if (fs.existsSync(mineralGroupsPath)) {
+  validate(mineralGroupsPath, MineralGroupsFile, 'shared: mineral-groups.yaml')
+}
 
 console.log(`\nResult: ${pass}/${pass + fail} files valid`)
 process.exit(fail === 0 ? 0 : 1)
