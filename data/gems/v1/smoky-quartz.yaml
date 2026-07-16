@@ -1,0 +1,24 @@
+id: smoky-quartz
+names: { zh: 烟晶, en: Smoky Quartz }
+category:
+  mineral_zh: 石英族
+  mineral_en: Quartz
+  chemical_formula: SiO₂
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.65
+  refractive_index: 1.544-1.553
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 烟灰色, en: 'Smoky gray' }
+    - { zh: 棕褐色, en: 'Brown' }
+    - { zh: 黑色（墨晶）, en: 'Black' }
+  color_causes_zh: Al 杂质 + 天然辐射形成的色心
+  color_causes_en: Al impurity + natural radiation form color center
+treatments:
+  common: [irradiation]
+  disclosure_required: true
+  note_zh: 天然烟晶由放射性矿物辐照形成；人工辐照也可产生
+  note_en: Natural smoky quartz forms from nearby radioactive minerals; artificial irradiation can replicate the effect

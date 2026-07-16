@@ -1,0 +1,24 @@
+id: tigers-eye
+names: { zh: 虎眼石, en: "Tiger's Eye" }
+category:
+  mineral_zh: 石英族（假象）
+  mineral_en: Quartz (pseudomorph)
+  chemical_formula: SiO₂ (pseudomorph after crocidolite)
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.64
+  refractive_index: 1.544-1.553
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 金棕色（虎眼）, en: 'Golden brown' }
+    - { zh: 蓝灰色（鹰眼）, en: 'Blue-gray (Hawk-eye)' }
+    - { zh: 红棕色, en: 'Red-brown' }
+  color_causes_zh: 青石棉纤维氧化为针铁矿呈金棕色；未氧化呈蓝灰色
+  color_causes_en: Oxidized crocidolite fibers produce golden brown; unoxidized remains blue-gray
+treatments:
+  common: [heat-treatment, dyeing]
+  disclosure_required: true
+  note_zh: 加热可增强红棕色；鹰眼石为未氧化变种
+  note_en: Heat treatment can enhance red-brown; Hawk-eye is the unoxidized variety

@@ -1,0 +1,24 @@
+id: aventurine-quartz
+names: { zh: 东陵石 / 砂金石, en: Aventurine Quartz }
+category:
+  mineral_zh: 石英族
+  mineral_en: Quartz (microcrystalline)
+  chemical_formula: SiO₂ + Cr-mica / hematite
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.64
+  refractive_index: 1.544-1.553
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 绿色, en: Green }
+    - { zh: 红棕色, en: 'Red-brown' }
+    - { zh: 蓝色, en: 'Blue' }
+  color_causes_zh: 绿色：铬云母包裹体；红棕色：赤铁矿包裹体
+  color_causes_en: Green from fuchsite (chrome mica) inclusions; red-brown from hematite
+treatments:
+  common: [dyeing]
+  disclosure_required: true
+  note_zh: '商业蓝色变种多为染色产物；绿色最常见，源自印度市场'
+  note_en: Commercial blue varieties are often dyed; green is the most common natural color, sourced mainly from India

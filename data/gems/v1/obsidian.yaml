@@ -1,0 +1,25 @@
+id: obsidian
+names: { zh: 黑曜石, en: Obsidian }
+category:
+  mineral_zh: 火山玻璃
+  mineral_en: Volcanic glass
+  chemical_formula: SiO₂ (amorphous)
+  crystal_system: amorphous
+physical:
+  hardness_mohs: 5.5
+  specific_gravity: 2.40
+  refractive_index: 1.48-1.51
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 黑色, en: 'Black' }
+    - { zh: 棕色（马胡卡）, en: 'Brown (mahogany)' }
+    - { zh: 银色/金色（银曜/金曜）, en: 'Silver/gold sheen' }
+    - { zh: 彩虹色, en: 'Rainbow (iridescent)' }
+  color_causes_zh: 微量 Fe/Mg 致黑；气泡/微晶层致虹彩
+  color_causes_en: Trace Fe/Mg produces black; gas bubbles / crystallites produce iridescence
+treatments:
+  common: [heat-treatment]
+  disclosure_required: false
+  note_zh: 天然玻璃，非矿物晶体；加热可改善银曜/金曜效果
+  note_en: Natural glass, not a crystalline mineral; heat treatment can enhance silver/gold sheen

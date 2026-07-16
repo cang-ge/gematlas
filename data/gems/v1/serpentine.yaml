@@ -1,0 +1,25 @@
+id: serpentine
+names: { zh: 蛇纹石, en: Serpentine }
+category:
+  mineral_zh: 蛇纹石族
+  mineral_en: Serpentine group
+  chemical_formula: Mg₃Si₂O₅(OH)₄
+  crystal_system: monoclinic
+physical:
+  hardness_mohs: 4.5
+  specific_gravity: 2.55
+  refractive_index: 1.560-1.590
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 黄绿色, en: 'Yellow-green' }
+    - { zh: 深绿色（岫玉）, en: 'Dark green (Xiuyan jade)' }
+    - { zh: 蓝绿色, en: 'Blue-green' }
+    - { zh: 白色带纹理, en: 'White with veining' }
+  color_causes_zh: Fe²⁺ 致绿；含铁量变化产生不同色调
+  color_causes_en: Fe²⁺ produces green; varying iron content yields different shades
+treatments:
+  common: [wax-impregnation, dyeing]
+  disclosure_required: true
+  note_zh: 中国岫玉（蛇纹石玉）有数千年开采史；与和田玉不同矿物
+  note_en: Xiuyan jade (serpentine jade) from China has been mined for thousands of years; distinct mineral from nephrite

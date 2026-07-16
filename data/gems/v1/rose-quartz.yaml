@@ -1,0 +1,24 @@
+id: rose-quartz
+names: { zh: 粉晶, en: Rose Quartz }
+category:
+  mineral_zh: 石英族
+  mineral_en: Quartz
+  chemical_formula: SiO₂
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.65
+  refractive_index: 1.544-1.553
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 粉红色, en: Pink }
+    - { zh: 桃粉色, en: Peach pink }
+    - { zh: 紫粉色, en: Lavender pink }
+  color_causes_zh: Ti³⁺ 或 Al + P 色心致粉红
+  color_causes_en: Ti³⁺ or Al+P color center produces pink
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 通常无处理；大量用于雕刻与首饰；少有完好晶形
+  note_en: Typically untreated; widely used in carvings and jewelry; well-formed crystals are rare
