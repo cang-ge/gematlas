@@ -5,6 +5,11 @@ gem: spinel
 
 
 # Spinel
+<img src="../images/gems/spinel/spinel-gallery-2.jpg" alt="Spinel" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Spinel
 
@@ -44,3 +49,9 @@ gem: spinel
 | Common Methods | None / Typically untreated |
 | Disclosure Required | No |
 | Note | Spinel is typically untreated; synthetic spinel is common in jewelry and requires lab identification |
+
+## Gallery
+
+<img src="../images/gems/spinel/spinel-gallery-3.jpg" alt="Spinel" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/spinel/spinel.jpg" alt="Spinel" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/spinel/spinel-gallery-1.png" alt="Spinel" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

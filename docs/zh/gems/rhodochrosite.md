@@ -5,6 +5,11 @@ gem: rhodochrosite
 
 
 # 菱锰矿
+<img src="../../images/gems/rhodochrosite/rhodochrosite.jpg" alt="菱锰矿" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 碳酸盐
 
@@ -44,3 +49,9 @@ English: [Rhodochrosite](/gems/rhodochrosite)
 | 常见方法 | wax-impregnation |
 | 需披露 | 是 |
 | 备注 | 阿根廷"印加玫瑰"为最著名品种，具同心圆条带 |
+
+## 图库
+
+<img src="../../images/gems/rhodochrosite/rhodochrosite-gallery-1.png" alt="菱锰矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/rhodochrosite/rhodochrosite-gallery-2.jpg" alt="菱锰矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/rhodochrosite/rhodochrosite-gallery-3.jpg" alt="菱锰矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

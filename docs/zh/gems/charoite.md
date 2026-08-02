@@ -5,6 +5,11 @@ gem: charoite
 
 
 # 紫硅碱钙石
+<img src="../../images/gems/charoite/charoite-gallery-1.jpg" alt="紫硅碱钙石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 硅酸盐
 
@@ -44,3 +49,9 @@ English: [Charoite](/gems/charoite)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 仅产于俄罗斯萨哈共和国（Sakha Republic）恰拉河畔 |
+
+## 图库
+
+<img src="../../images/gems/charoite/charoite-gallery-2.jpg" alt="紫硅碱钙石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/charoite/charoite-gallery-3.jpg" alt="紫硅碱钙石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/charoite/charoite.jpg" alt="紫硅碱钙石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

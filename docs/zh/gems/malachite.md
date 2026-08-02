@@ -5,6 +5,11 @@ gem: malachite
 
 
 # 孔雀石
+<img src="../../images/gems/malachite/malachite.jpg" alt="孔雀石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 碳酸盐
 
@@ -44,3 +49,9 @@ English: [Malachite](/gems/malachite)
 | 常见方法 | wax-impregnation, surface-coating |
 | 需披露 | 是 |
 | 备注 | 韧性较差，雕刻品多以低硬度保护蜡处理 |
+
+## 图库
+
+<img src="../../images/gems/malachite/malachite-gallery-1.jpg" alt="孔雀石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/malachite/malachite-gallery-2.jpg" alt="孔雀石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/malachite/malachite-gallery-3.jpg" alt="孔雀石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

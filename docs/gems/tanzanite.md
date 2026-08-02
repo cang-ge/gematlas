@@ -5,6 +5,11 @@ gem: tanzanite
 
 
 # Tanzanite
+<img src="../images/gems/tanzanite/tanzanite.jpg" alt="Tanzanite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Zoisite
 
@@ -44,3 +49,9 @@ gem: tanzanite
 | Common Methods | heat-treatment |
 | Disclosure Required | Yes |
 | Note | Almost all tanzanite is heat-treated to enhance blue-violet |
+
+## Gallery
+
+<img src="../images/gems/tanzanite/tanzanite-gallery-1.jpg" alt="Tanzanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/tanzanite/tanzanite-gallery-2.jpg" alt="Tanzanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/tanzanite/tanzanite-gallery-3.jpg" alt="Tanzanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

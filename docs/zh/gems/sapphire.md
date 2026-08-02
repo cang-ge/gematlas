@@ -5,6 +5,11 @@ gem: sapphire
 
 
 # 蓝宝石
+<img src="../../images/gems/sapphire/sapphire.jpg" alt="蓝宝石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 刚玉族
 
@@ -44,3 +49,9 @@ English: [Sapphire](/gems/sapphire)
 | 常见方法 | heat-treatment |
 | 需披露 | 是 |
 | 备注 | 热处理普遍，无处理稀少 |
+
+## 图库
+
+<img src="../../images/gems/sapphire/sapphire-gallery-1.jpg" alt="蓝宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/sapphire/sapphire-gallery-2.jpg" alt="蓝宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/sapphire/sapphire-gallery-3.jpg" alt="蓝宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

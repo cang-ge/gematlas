@@ -5,6 +5,11 @@ gem: emerald
 
 
 # 祖母绿
+<img src="../../images/gems/emerald/emerald-gallery-3.jpg" alt="祖母绿" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 绿柱石族
 
@@ -44,3 +49,9 @@ English: [Emerald](/gems/emerald)
 | 常见方法 | cedar-oil-filling |
 | 需披露 | 是 |
 | 备注 | 注油（雪松油）属行业可接受处理；无油溢价显著 |
+
+## 图库
+
+<img src="../../images/gems/emerald/emerald.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/emerald/emerald-gallery-1.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/emerald/emerald-gallery-2.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

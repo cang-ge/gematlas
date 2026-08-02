@@ -5,6 +5,11 @@ gem: aquamarine
 
 
 # 海蓝宝
+<img src="../../images/gems/aquamarine/aquamarine-gallery-1.jpg" alt="海蓝宝" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 绿柱石族
 
@@ -44,3 +49,9 @@ English: [Aquamarine](/gems/aquamarine)
 | 常见方法 | heat-treatment |
 | 需披露 | 是 |
 | 备注 | 加热可使绿色调转为稳定的蓝色 |
+
+## 图库
+
+<img src="../../images/gems/aquamarine/aquamarine-gallery-2.jpg" alt="海蓝宝" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/aquamarine/aquamarine.jpg" alt="海蓝宝" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/aquamarine/aquamarine-gallery-3.jpg" alt="海蓝宝" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

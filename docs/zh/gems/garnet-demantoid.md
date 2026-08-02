@@ -5,6 +5,11 @@ gem: garnet-demantoid
 
 
 # 翠榴石
+<img src="../../images/gems/garnet-demantoid/garnet-demantoid-gallery-1.jpg" alt="翠榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 石榴石族
 
@@ -44,3 +49,9 @@ English: [Demantoid (Garnet)](/gems/garnet-demantoid)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 俄罗斯乌拉尔山为最著名产地；马尾状包体为特征 |
+
+## 图库
+
+<img src="../../images/gems/garnet-demantoid/garnet-demantoid.jpg" alt="翠榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-demantoid/garnet-demantoid-gallery-2.jpg" alt="翠榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-demantoid/garnet-demantoid-gallery-3.jpg" alt="翠榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

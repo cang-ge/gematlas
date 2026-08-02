@@ -5,6 +5,11 @@ gem: paraiba-tourmaline
 
 
 # Paraíba Tourmaline
+<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline.jpg" alt="Paraíba Tourmaline" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Tourmaline
 
@@ -44,3 +49,9 @@ gem: paraiba-tourmaline
 | Common Methods | heat-treatment |
 | Disclosure Required | Yes |
 | Note | Original Brazilian Paraíba is scarce; Mozambique material trades at lower premium |
+
+## Gallery
+
+<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-1.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-2.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-3.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

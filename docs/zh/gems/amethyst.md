@@ -5,6 +5,11 @@ gem: amethyst
 
 
 # 紫晶
+<img src="../../images/gems/amethyst/amethyst-gallery-2.jpg" alt="紫晶" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 石英族
 
@@ -44,3 +49,9 @@ English: [Amethyst](/gems/amethyst)
 | 常见方法 | heat-treatment |
 | 需披露 | 是 |
 | 备注 | 加热可转为黄色（黄水晶）或绿色（绿水晶） |
+
+## 图库
+
+<img src="../../images/gems/amethyst/amethyst-gallery-3.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/amethyst/amethyst.svg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/amethyst/amethyst-gallery-1.svg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

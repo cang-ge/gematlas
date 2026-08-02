@@ -6,7 +6,7 @@
 
 ---
 
-V1.0 MVP — 5 modules · 10 gems · 7 crystal systems · 18 maison pieces.
+V1.0 — 5 modules · 50 gem species · 7 crystal systems · 18 maison pieces.
 
 **Tech:** VitePress 1.6 · Vue 3 · TypeScript · pnpm
 

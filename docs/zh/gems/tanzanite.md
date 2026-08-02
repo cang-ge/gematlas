@@ -5,6 +5,11 @@ gem: tanzanite
 
 
 # 坦桑石
+<img src="../../images/gems/tanzanite/tanzanite.jpg" alt="坦桑石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 黝帘石族
 
@@ -44,3 +49,9 @@ English: [Tanzanite](/gems/tanzanite)
 | 常见方法 | heat-treatment |
 | 需披露 | 是 |
 | 备注 | 几乎所有坦桑石均经热处理以增强蓝紫调 |
+
+## 图库
+
+<img src="../../images/gems/tanzanite/tanzanite-gallery-1.jpg" alt="坦桑石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/tanzanite/tanzanite-gallery-2.jpg" alt="坦桑石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/tanzanite/tanzanite-gallery-3.jpg" alt="坦桑石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,6 +5,11 @@ gem: ruby
 
 
 # 红宝石
+<img src="../../images/gems/ruby/ruby.jpg" alt="红宝石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 刚玉族
 
@@ -44,3 +49,9 @@ English: [Ruby](/gems/ruby)
 | 常见方法 | heat-treatment |
 | 需披露 | 是 |
 | 备注 | 绝大多数商业红宝石经过热处理，市场可接受；无处理溢价显著 |
+
+## 图库
+
+<img src="../../images/gems/ruby/ruby-gallery-1.png" alt="红宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/ruby/ruby-gallery-2.jpg" alt="红宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/ruby/ruby-gallery-3.jpg" alt="红宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

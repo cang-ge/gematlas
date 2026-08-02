@@ -5,6 +5,11 @@ gem: topaz
 
 
 # Topaz
+<img src="../images/gems/topaz/topaz-gallery-1.jpg" alt="Topaz" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Topaz
 
@@ -44,3 +49,9 @@ gem: topaz
 | Common Methods | heat-treatment, irradiation |
 | Disclosure Required | Yes |
 | Note | Commercial blue topaz is typically irradiated + heat treated |
+
+## Gallery
+
+<img src="../images/gems/topaz/topaz.jpg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/topaz/topaz-gallery-2.jpg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/topaz/topaz-gallery-3.jpg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

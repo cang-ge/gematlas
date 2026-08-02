@@ -5,6 +5,11 @@ gem: garnet-almandine
 
 
 # Almandine (Garnet)
+<img src="../images/gems/garnet-almandine/garnet-almandine-gallery-1.jpg" alt="Almandine (Garnet)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Garnet (Almandine)
 
@@ -44,3 +49,9 @@ gem: garnet-almandine
 | Common Methods | None / Typically untreated |
 | Disclosure Required | No |
 | Note | Most common commercial garnet, typically untreated |
+
+## Gallery
+
+<img src="../images/gems/garnet-almandine/garnet-almandine-gallery-2.jpg" alt="Almandine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/garnet-almandine/garnet-almandine.jpg" alt="Almandine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/garnet-almandine/garnet-almandine-gallery-3.jpg" alt="Almandine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

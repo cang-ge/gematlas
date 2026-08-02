@@ -5,6 +5,11 @@ gem: garnet-almandine
 
 
 # 铁铝榴石
+<img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-1.jpg" alt="铁铝榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 石榴石族
 
@@ -44,3 +49,9 @@ English: [Almandine (Garnet)](/gems/garnet-almandine)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 商业最常见石榴石，通常无处理 |
+
+## 图库
+
+<img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-2.jpg" alt="铁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-almandine/garnet-almandine.jpg" alt="铁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-3.jpg" alt="铁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

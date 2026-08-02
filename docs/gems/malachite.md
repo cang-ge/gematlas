@@ -5,6 +5,11 @@ gem: malachite
 
 
 # Malachite
+<img src="../images/gems/malachite/malachite.jpg" alt="Malachite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Carbonate
 
@@ -44,3 +49,9 @@ gem: malachite
 | Common Methods | wax-impregnation, surface-coating |
 | Disclosure Required | Yes |
 | Note | Low toughness; carved pieces typically treated with protective wax |
+
+## Gallery
+
+<img src="../images/gems/malachite/malachite-gallery-1.jpg" alt="Malachite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/malachite/malachite-gallery-2.jpg" alt="Malachite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/malachite/malachite-gallery-3.jpg" alt="Malachite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

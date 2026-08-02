@@ -5,6 +5,11 @@ gem: opal
 
 
 # 欧泊
+<img src="../../images/gems/opal/opal-gallery-1.jpg" alt="欧泊" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 蛋白石
 
@@ -44,3 +49,9 @@ English: [Opal](/gems/opal)
 | 常见方法 | sugar-acid-treatment |
 | 需披露 | 是 |
 | 备注 | 糖酸处理用于仿黑欧泊，需披露 |
+
+## 图库
+
+<img src="../../images/gems/opal/opal-gallery-2.jpg" alt="欧泊" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/opal/opal.jpg" alt="欧泊" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/opal/opal-gallery-3.jpg" alt="欧泊" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

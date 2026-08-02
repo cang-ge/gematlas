@@ -5,6 +5,11 @@ gem: peridot
 
 
 # 橄榄石
+<img src="../../images/gems/peridot/peridot-gallery-3.jpg" alt="橄榄石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 橄榄石族
 
@@ -44,3 +49,9 @@ English: [Peridot](/gems/peridot)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 橄榄石通常无处理；稀有陨石来源橄榄石价值更高 |
+
+## 图库
+
+<img src="../../images/gems/peridot/peridot.jpg" alt="橄榄石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/peridot/peridot-gallery-1.jpg" alt="橄榄石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/peridot/peridot-gallery-2.jpg" alt="橄榄石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,6 +5,11 @@ gem: diamond
 
 
 # 钻石
+<img src="../../images/gems/diamond/diamond-gallery-2.png" alt="钻石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 金刚石
 
@@ -44,3 +49,9 @@ English: [Diamond](/gems/diamond)
 | 常见方法 | high-pressure-high-temperature |
 | 需披露 | 是 |
 | 备注 | HPHT 处理需披露；天然与合成需激光刻印区分 |
+
+## 图库
+
+<img src="../../images/gems/diamond/diamond.png" alt="钻石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/diamond/diamond-gallery-1.png" alt="钻石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/diamond/diamond-gallery-3.jpg" alt="钻石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

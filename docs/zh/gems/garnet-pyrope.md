@@ -5,6 +5,11 @@ gem: garnet-pyrope
 
 
 # 镁铝榴石
+<img src="../../images/gems/garnet-pyrope/garnet-pyrope-gallery-1.jpg" alt="镁铝榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 石榴石族
 
@@ -44,3 +49,9 @@ English: [Pyrope (Garnet)](/gems/garnet-pyrope)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 著名"波西米亚石榴石"多为镁铝-铁铝榴石混合体 |
+
+## 图库
+
+<img src="../../images/gems/garnet-pyrope/garnet-pyrope-gallery-2.jpg" alt="镁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-pyrope/garnet-pyrope.jpg" alt="镁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-pyrope/garnet-pyrope-gallery-3.jpg" alt="镁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

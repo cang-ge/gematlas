@@ -5,6 +5,11 @@ gem: garnet-spessartine
 
 
 # 锰铝榴石
+<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-1.jpg" alt="锰铝榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 石榴石族
 
@@ -44,3 +49,9 @@ English: [Spessartine (Garnet)](/gems/garnet-spessartine)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 著名"芬达石"为含 Fe 的锰铝榴石 |
+
+## 图库
+
+<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-3.jpg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-spessartine/garnet-spessartine.jpg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-2.jpg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

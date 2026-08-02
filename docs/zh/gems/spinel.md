@@ -5,6 +5,11 @@ gem: spinel
 
 
 # 尖晶石
+<img src="../../images/gems/spinel/spinel-gallery-2.jpg" alt="尖晶石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 尖晶石族
 
@@ -44,3 +49,9 @@ English: [Spinel](/gems/spinel)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 尖晶石通常无处理；合成尖晶石多见于珠宝，需专业仪器鉴别 |
+
+## 图库
+
+<img src="../../images/gems/spinel/spinel-gallery-3.jpg" alt="尖晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/spinel/spinel.jpg" alt="尖晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/spinel/spinel-gallery-1.png" alt="尖晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

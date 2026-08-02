@@ -5,6 +5,11 @@ gem: charoite
 
 
 # Charoite
+<img src="../images/gems/charoite/charoite-gallery-1.jpg" alt="Charoite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Inosilicate
 
@@ -44,3 +49,9 @@ gem: charoite
 | Common Methods | None / Typically untreated |
 | Disclosure Required | No |
 | Note | Only found at the Chara River, Sakha Republic, Russia |
+
+## Gallery
+
+<img src="../images/gems/charoite/charoite-gallery-2.jpg" alt="Charoite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/charoite/charoite-gallery-3.jpg" alt="Charoite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/charoite/charoite.jpg" alt="Charoite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,6 +5,11 @@ gem: jadeite
 
 
 # Jadeite (Burmese Jade)
+<img src="../images/gems/jadeite/jadeite-gallery-1.jpg" alt="Jadeite (Burmese Jade)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Jadeite (Pyroxene)
 
@@ -44,3 +49,9 @@ gem: jadeite
 | Common Methods | wax-impregnation, polymer-impregnation, heat-treatment, dyeing |
 | Disclosure Required | Yes |
 | Note | B+C jade uses acid-bleaching + polymer filling; strict disclosure required |
+
+## Gallery
+
+<img src="../images/gems/jadeite/jadeite.jpg" alt="Jadeite (Burmese Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/jadeite/jadeite-gallery-2.jpg" alt="Jadeite (Burmese Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/jadeite/jadeite-gallery-3.jpg" alt="Jadeite (Burmese Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

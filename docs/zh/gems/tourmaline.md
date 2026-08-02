@@ -5,6 +5,11 @@ gem: tourmaline
 
 
 # 碧玺
+<img src="../../images/gems/tourmaline/tourmaline-gallery-3.jpg" alt="碧玺" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 电气石族
 
@@ -44,3 +49,9 @@ English: [Tourmaline](/gems/tourmaline)
 | 常见方法 | heat-treatment, irradiation |
 | 需披露 | 是 |
 | 备注 | 加热可改善颜色；辐照可加深浅色品种 |
+
+## 图库
+
+<img src="../../images/gems/tourmaline/tourmaline.jpg" alt="碧玺" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/tourmaline/tourmaline-gallery-1.jpg" alt="碧玺" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/tourmaline/tourmaline-gallery-2.jpg" alt="碧玺" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

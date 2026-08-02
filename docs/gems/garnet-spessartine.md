@@ -5,6 +5,11 @@ gem: garnet-spessartine
 
 
 # Spessartine (Garnet)
+<img src="../images/gems/garnet-spessartine/garnet-spessartine-gallery-1.jpg" alt="Spessartine (Garnet)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Garnet (Spessartine)
 
@@ -44,3 +49,9 @@ gem: garnet-spessartine
 | Common Methods | None / Typically untreated |
 | Disclosure Required | No |
 | Note | Fanta garnet is Fe-bearing spessartine |
+
+## Gallery
+
+<img src="../images/gems/garnet-spessartine/garnet-spessartine-gallery-3.jpg" alt="Spessartine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/garnet-spessartine/garnet-spessartine.jpg" alt="Spessartine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/garnet-spessartine/garnet-spessartine-gallery-2.jpg" alt="Spessartine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

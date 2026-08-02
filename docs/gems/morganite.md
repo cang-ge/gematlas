@@ -5,6 +5,11 @@ gem: morganite
 
 
 # Morganite
+<img src="../images/gems/morganite/morganite-gallery-1.jpg" alt="Morganite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Beryl
 
@@ -44,3 +49,9 @@ gem: morganite
 | Common Methods | heat-treatment, irradiation |
 | Disclosure Required | Yes |
 | Note | Heat or irradiation can intensify yellow or pink saturation |
+
+## Gallery
+
+<img src="../images/gems/morganite/morganite-gallery-2.png" alt="Morganite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/morganite/morganite.png" alt="Morganite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/morganite/morganite-gallery-3.svg" alt="Morganite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

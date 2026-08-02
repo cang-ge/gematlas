@@ -5,6 +5,11 @@ gem: morganite
 
 
 # 摩根石
+<img src="../../images/gems/morganite/morganite-gallery-1.jpg" alt="摩根石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 绿柱石族
 
@@ -44,3 +49,9 @@ English: [Morganite](/gems/morganite)
 | 常见方法 | heat-treatment, irradiation |
 | 需披露 | 是 |
 | 备注 | 加热或辐照可增强黄色或粉色饱和度 |
+
+## 图库
+
+<img src="../../images/gems/morganite/morganite-gallery-2.png" alt="摩根石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/morganite/morganite.png" alt="摩根石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/morganite/morganite-gallery-3.svg" alt="摩根石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

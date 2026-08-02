@@ -2,7 +2,7 @@
 
 > A bilingual open-source gemstone knowledge platform, covering the full vertical of gemology — from mineralogy and identification to cutting, grading, and luxury maison craftsmanship.
 
-![V1.0 MVP](https://img.shields.io/badge/status-V1.0%20MVP-9b7e3b)
+![Status](https://img.shields.io/badge/status-50%20gem%20species-9b7e3b)
 ![License: MIT](https://img.shields.io/badge/license-MIT-0d0c0a)
 ![i18n](https://img.shields.io/badge/i18n-EN%20%2F%20%E4%B8%AD%E6%96%87-1a1814)
 
@@ -10,7 +10,7 @@
 
 ---
 
-## ✨ What's inside (V1.0 MVP)
+## ✨ What's inside
 
 | # | Module | Coverage |
 |---|--------|----------|
@@ -20,7 +20,7 @@
 | ④ | **Grading** | GIA 4Cs · fancy color grading · treatment disclosure · origin premiums |
 | ⑥ | **Gallery** | 18 signature pieces from 7 leading maisons |
 
-**10 cornerstone gems:** Ruby · Sapphire · Emerald · Diamond · Spinel · Tanzanite · Alexandrite · Paraíba Tourmaline · Tsavorite Garnet · Opal.
+**50 gem species** across all major mineral families — from Diamond to Chrysoprase.
 
 ---
 
@@ -86,8 +86,8 @@ We welcome issues and pull requests. See **[CONTRIBUTING.md](./CONTRIBUTING.md)*
 
 | Phase | Scope |
 |-------|-------|
-| **V1.0** *(this)* | 10 gems · 5 modules · bilingual · CI/CD |
-| **V1.1** | Expand to 30 gems · price reference · references module · AI assistant |
+| **Current** | 50 gems · 5 modules · bilingual · CI/CD |
+| **V1.1** | Expand to 100+ gems · price reference · references module · AI assistant |
 
 ---
 

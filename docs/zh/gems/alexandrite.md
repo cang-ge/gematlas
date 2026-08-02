@@ -5,6 +5,11 @@ gem: alexandrite
 
 
 # 亚历山大石
+<img src="../../images/gems/alexandrite/alexandrite.jpg" alt="亚历山大石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 金绿宝石族
 
@@ -44,3 +49,9 @@ English: [Alexandrite](/gems/alexandrite)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 几乎无处理；产地溢价显著（俄罗斯/巴西/斯里兰卡） |
+
+## 图库
+
+<img src="../../images/gems/alexandrite/alexandrite-gallery-1.jpg" alt="亚历山大石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/alexandrite/alexandrite-gallery-2.jpg" alt="亚历山大石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/alexandrite/alexandrite-gallery-3.jpg" alt="亚历山大石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,6 +5,11 @@ gem: citrine
 
 
 # 黄水晶
+<img src="../../images/gems/citrine/citrine.jpg" alt="黄水晶" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 石英族
 
@@ -44,3 +49,9 @@ English: [Citrine](/gems/citrine)
 | 常见方法 | heat-treatment |
 | 需披露 | 是 |
 | 备注 | 市售黄水晶多数为紫水晶加热产物 |
+
+## 图库
+
+<img src="../../images/gems/citrine/citrine-gallery-1.jpg" alt="黄水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/citrine/citrine-gallery-2.jpg" alt="黄水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/citrine/citrine-gallery-3.png" alt="黄水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,6 +5,11 @@ gem: sugilite
 
 
 # 苏纪石
+<img src="../../images/gems/sugilite/sugilite-gallery-1.png" alt="苏纪石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > 硅酸盐
 
@@ -44,3 +49,9 @@ English: [Sugilite](/gems/sugilite)
 | 常见方法 | 无 / 通常无处理 |
 | 需披露 | 否 |
 | 备注 | 南非北开普省为最重要产地（1973 年发现） |
+
+## 图库
+
+<img src="../../images/gems/sugilite/sugilite-gallery-2.jpg" alt="苏纪石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/sugilite/sugilite.jpg" alt="苏纪石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/sugilite/sugilite-gallery-3.jpg" alt="苏纪石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

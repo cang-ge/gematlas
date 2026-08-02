@@ -5,6 +5,11 @@ gem: emerald
 
 
 # Emerald
+<img src="../images/gems/emerald/emerald-gallery-3.jpg" alt="Emerald" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+
+
+
+
 
 > Beryl
 
@@ -44,3 +49,9 @@ gem: emerald
 | Common Methods | cedar-oil-filling |
 | Disclosure Required | Yes |
 | Note | Cedar-oil filling is industry standard; "no oil" commands significant premiums |
+
+## Gallery
+
+<img src="../images/gems/emerald/emerald.jpg" alt="Emerald" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/emerald/emerald-gallery-1.jpg" alt="Emerald" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/emerald/emerald-gallery-2.jpg" alt="Emerald" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
