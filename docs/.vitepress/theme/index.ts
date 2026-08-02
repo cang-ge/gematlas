@@ -12,6 +12,7 @@ import ColorGradeTable from './components/ColorGradeTable.vue'
 import ClarityScale from './components/ClarityScale.vue'
 import ColorWheel from './components/ColorWheel.vue'
 import GalleryGrid from './components/GalleryGrid.vue'
+import GemGallery from './components/GemGallery.vue'
 import ModuleGrid from './components/ModuleGrid.vue'
 import './custom.css'
 
@@ -27,7 +28,8 @@ export default {
   enhanceApp({ app, router }: { app: any; router: any }) {
     for (const [name, comp] of Object.entries({
       GemCard, MohsScale, CrystalDiagram, PropertyTable, FacetDiagram,
-      FancyCutGrid, ColorGradeTable, ClarityScale, ColorWheel, GalleryGrid, ModuleGrid,
+      FancyCutGrid, ColorGradeTable, ClarityScale, ColorWheel, GalleryGrid,
+      GemGallery, ModuleGrid,
     })) {
       app.component(name, comp)
     }

@@ -111,7 +111,7 @@ function navZh() {
   ]
 }
 
-// ─── Sidebar (V1.0 stub; expanded when module pages land in P3–P7) ──
+// ─── Sidebar ────────────────────────────────────────────────────────
 
 function sidebarEn() {
   return {

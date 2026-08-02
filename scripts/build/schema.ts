@@ -162,6 +162,12 @@ export const SharedSchema = z.object({
 })
 
 /** The full Gem YAML shape. */
+/** Gem image references. Paths relative to docs/public/images/gems/{id}/ */
+export const GemImages = z.object({
+  main: z.string().optional(),
+  gallery: z.array(z.string()).optional(),
+}).optional()
+
 export const GemSchema = z.object({
   id: z.string().regex(/^[a-z][a-z0-9-]*$/, 'kebab-case id'),
   names: BilingualName,
@@ -169,5 +175,6 @@ export const GemSchema = z.object({
   physical: GemPhysical,
   optical: GemOptical,
   treatments: GemTreatments,
+  images: GemImages,
 })
 export type Gem = z.infer<typeof GemSchema>

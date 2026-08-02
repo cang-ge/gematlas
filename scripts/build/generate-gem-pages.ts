@@ -107,11 +107,21 @@ function mdTreatments(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'z
 function pageBody(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
   const name = locale === 'en' ? gem.names.en : gem.names.zh
   const otherName = locale === 'en' ? gem.names.zh : gem.names.en
+
+  // Main hero image (if YAML specifies images.main). Image files stored at
+  // docs/images/gems/{id}/*.png, accessed via locale-aware relative path.
+  const imgRel = locale === 'en' ? `../images/gems/${gem.id}` : `../../images/gems/${gem.id}`
+  const heroSection = gem.images?.main
+    ? `<img src="${imgRel}/${gem.images.main}" alt="${name}" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">\n\n`
+    : ''
+
   const lines: string[] = [
     mdFrontmatter(gem.id, name),
     '',
-
-    `# ${name}`,
+    heroSection ? `# ${name}` : '',
+    heroSection || '',
+    '',
+    !heroSection ? `# ${name}` : '',
     '',
 
     `> ${locale === 'en' ? gem.category.mineral_en : gem.category.mineral_zh}`,
@@ -144,6 +154,18 @@ function pageBody(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'):
     mdTreatments(gem, locale),
     '',
   ]
+
+  // Append gallery section if YAML has images.gallery
+  if (gem.images?.gallery && gem.images.gallery.length > 0) {
+    const imgRel = locale === 'en' ? `../images/gems/${gem.id}` : `../../images/gems/${gem.id}`
+    lines.push(
+      `## ${locale === 'en' ? 'Gallery' : '图库'}`,
+      '',
+      ...gem.images.gallery.map(f => `<img src="${imgRel}/${f}" alt="${name}" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">`),
+      '',
+    )
+  }
+
   return lines.join('\n')
 }
 
