@@ -1,0 +1,26 @@
+id: dioptase
+names: { zh: 透视石, en: Dioptase }
+category:
+  mineral_zh: 硅酸盐（环状）
+  mineral_en: Cyclosilicate
+  chemical_formula: CuSiO₂(OH)₂  [Cu₆Si₆O₁₈·6H₂O]
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 5.5
+  specific_gravity: 3.30
+  refractive_index: 1.644-1.709
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 翠绿色，极高饱和度, en: 'Vivid emerald-green, very saturated' }
+    - { zh: 蓝绿色, en: 'Blue-green' }
+  color_causes_zh: Cu²⁺ 致鲜艳翠绿
+  color_causes_en: Cu²⁺ produces vivid emerald-green
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 颜色与祖母绿相似但更艳；硬度较低（5.5），不适合日常佩戴
+  note_en: Color rivals emerald but is even more saturated; lower hardness (5.5) limits everyday wear
+images:
+  main: dioptase.svg
+  gallery: [dioptase-gallery-1.svg, dioptase-gallery-2.svg, dioptase-gallery-3.svg]

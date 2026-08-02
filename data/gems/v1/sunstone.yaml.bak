@@ -1,0 +1,27 @@
+id: sunstone
+names: { zh: 太阳石, en: Sunstone }
+category:
+  mineral_zh: 长石族
+  mineral_en: Feldspar (Oligoclase / Labradorite)
+  chemical_formula: (Na,Ca)(Si,Al)₄O₈ + Cu/Fe platelets
+  crystal_system: triclinic
+physical:
+  hardness_mohs: 6.25
+  specific_gravity: 2.64
+  refractive_index: 1.537-1.547
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 橙红色带金色闪, en: 'Red-orange with golden shimmer' }
+    - { zh: 桃红色, en: 'Peach' }
+    - { zh: 黄绿色, en: 'Yellow-green' }
+  color_causes_zh: 含铜/赤铁矿薄片产生砂金效应（见光学现象-砂金效应）
+  color_causes_en: Copper/hematite platelets produce aventurescence (see Optical Phenomena — Aventurescence)
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 美国俄勒冈太阳石以含天然铜片（无需优化）而闻名
+  note_en: Oregon sunstone is famous for natural copper platelets that need no enhancement
+images:
+  main: sunstone.svg
+  gallery: [sunstone-gallery-1.svg, sunstone-gallery-2.svg, sunstone-gallery-3.svg]

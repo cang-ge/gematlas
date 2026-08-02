@@ -1,0 +1,27 @@
+id: chrysoprase
+names: { zh: 绿玉髓, en: Chrysoprase }
+category:
+  mineral_zh: 石英族（隐晶质）
+  mineral_en: Quartz (microcrystalline chalcedony)
+  chemical_formula: SiO₂ + Ni
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.60
+  refractive_index: 1.530-1.543
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 苹果绿, en: 'Apple green' }
+    - { zh: 翠绿色, en: 'Bright green' }
+    - { zh: 薄荷绿, en: 'Mint green' }
+  color_causes_zh: Ni²⁺ 包裹体或 Ni 替代 Si 致绿色
+  color_causes_en: Ni²⁺ inclusions or Ni substituting for Si produce green
+treatments:
+  common: [wax-impregnation]
+  disclosure_required: true
+  note_zh: 颜色在长时间日晒下可能褪色；与染色绿玛瑙不同
+  note_en: Color may fade under prolonged sunlight; distinct from dyed green agate
+images:
+  main: chrysoprase.svg
+  gallery: [chrysoprase-gallery-1.svg, chrysoprase-gallery-2.svg, chrysoprase-gallery-3.svg]

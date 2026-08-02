@@ -1,0 +1,27 @@
+id: sodalite
+names: { zh: 方钠石, en: Sodalite }
+category:
+  mineral_zh: 方钠石族
+  mineral_en: Sodalite (Feldspathoid)
+  chemical_formula: Na₈(AlSiO₄)₆Cl₂
+  crystal_system: cubic
+physical:
+  hardness_mohs: 6
+  specific_gravity: 2.28
+  refractive_index: 1.483-1.490
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 深蓝色, en: 'Deep blue' }
+    - { zh: 浅蓝色带白纹, en: 'Light blue with white veining' }
+    - { zh: 紫蓝色, en: 'Violet-blue' }
+  color_causes_zh: S₃⁻ 色心致蓝色（与青金石同机制）
+  color_causes_en: S₃⁻ color-center produces blue (same mechanism as lapis lazuli)
+treatments:
+  common: [wax-impregnation, dyeing]
+  disclosure_required: true
+  note_zh: 常被误认为青金石；方钠石白纹更多、黄铁矿斑更少
+  note_en: Often mistaken for lapis lazuli; sodalite has more white veining and less pyrite
+images:
+  main: sodalite.svg
+  gallery: [sodalite-gallery-1.svg, sodalite-gallery-2.svg, sodalite-gallery-3.svg]

@@ -24,3 +24,6 @@ treatments:
   disclosure_required: true
   note_zh: 市售蓝色托帕石多为辐照 + 加热处理
   note_en: Commercial blue topaz is typically irradiated + heat treated
+images:
+  main: topaz-gallery-1.jpg
+  gallery: [topaz.jpg, topaz-gallery-2.jpg, topaz-gallery-3.jpg]

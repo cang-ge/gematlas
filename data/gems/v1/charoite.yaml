@@ -22,3 +22,6 @@ treatments:
   disclosure_required: false
   note_zh: 仅产于俄罗斯萨哈共和国（Sakha Republic）恰拉河畔
   note_en: Only found at the Chara River, Sakha Republic, Russia
+images:
+  main: charoite-gallery-1.jpg
+  gallery: [charoite-gallery-2.jpg, charoite-gallery-3.jpg, charoite.jpg]

@@ -1,0 +1,27 @@
+id: chrysoberyl
+names: { zh: 金绿宝石, en: Chrysoberyl }
+category:
+  mineral_zh: 金绿宝石族
+  mineral_en: Chrysoberyl
+  chemical_formula: BeAl₂O₄
+  crystal_system: orthorhombic
+physical:
+  hardness_mohs: 8.5
+  specific_gravity: 3.72
+  refractive_index: 1.745-1.755
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 淡黄色, en: 'Pale yellow' }
+    - { zh: 蜜黄色, en: 'Honey yellow' }
+    - { zh: 绿黄色（金绿）, en: 'Greenish yellow' }
+  color_causes_zh: Fe³⁺ 致黄绿色
+  color_causes_en: Fe³⁺ produces yellow-green
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 与亚历山大石（同矿物—变石）为同一矿物种；金绿猫眼为王牌变种
+  note_en: Same mineral species as alexandrite; cymophane (cat's-eye) is the prized variety
+images:
+  main: chrysoberyl.svg
+  gallery: [chrysoberyl-gallery-1.svg, chrysoberyl-gallery-2.svg, chrysoberyl-gallery-3.svg]

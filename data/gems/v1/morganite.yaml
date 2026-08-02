@@ -22,3 +22,6 @@ treatments:
   disclosure_required: true
   note_zh: 加热或辐照可增强黄色或粉色饱和度
   note_en: Heat or irradiation can intensify yellow or pink saturation
+images:
+  main: morganite-gallery-1.jpg
+  gallery: [morganite-gallery-2.png, morganite.png, morganite-gallery-3.svg]

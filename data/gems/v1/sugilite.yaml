@@ -22,3 +22,6 @@ treatments:
   disclosure_required: false
   note_zh: 南非北开普省为最重要产地（1973 年发现）
   note_en: Northern Cape, South Africa is the most important source (discovered 1973)
+images:
+  main: sugilite-gallery-1.png
+  gallery: [sugilite-gallery-2.jpg, sugilite.jpg, sugilite-gallery-3.jpg]

@@ -1,0 +1,29 @@
+id: chalcedony
+names: { zh: 玉髓 / 玛瑙, en: Chalcedony / Agate }
+category:
+  mineral_zh: 石英族（隐晶质）
+  mineral_en: Quartz (microcrystalline)
+  chemical_formula: SiO₂
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.60
+  refractive_index: 1.530-1.543
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 多种颜色（带状玛瑙）, en: 'Multi-color banded (agate)' }
+    - { zh: 蓝色（蓝玉髓）, en: 'Blue (blue chalcedony)' }
+    - { zh: 黑色（缟玛瑙）, en: 'Black (onyx)' }
+    - { zh: 白色（白玉髓）, en: 'White' }
+    - { zh: 红色（红玉髓/光玉髓）, en: 'Red (carnelian / sard)' }
+  color_causes_zh: 杂质/包裹体致色；染色工艺常见
+  color_causes_en: Impurity / inclusion coloration; dyeing is very common in commercial material
+treatments:
+  common: [dyeing, heat-treatment]
+  disclosure_required: true
+  note_zh: 玛瑙的染色技术已有数千年历史；几乎市场上的所有黑玛瑙和蓝玛瑙都是染色产物
+  note_en: Agate dyeing techniques are thousands of years old; nearly all black and blue agate on the market is dyed
+images:
+  main: chalcedony.svg
+  gallery: [chalcedony-gallery-1.svg, chalcedony-gallery-2.svg, chalcedony-gallery-3.svg]

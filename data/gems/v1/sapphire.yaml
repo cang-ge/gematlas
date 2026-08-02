@@ -25,3 +25,6 @@ treatments:
   disclosure_required: true
   note_zh: 热处理普遍，无处理稀少
   note_en: Heat treatment is industry standard; untreated is rare
+images:
+  main: sapphire.jpg
+  gallery: [sapphire-gallery-1.jpg, sapphire-gallery-2.jpg, sapphire-gallery-3.jpg]

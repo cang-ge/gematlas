@@ -22,3 +22,6 @@ treatments:
   disclosure_required: true
   note_zh: 加热可转为黄色（黄水晶）或绿色（绿水晶）
   note_en: Heat can convert to citrine (yellow) or prasiolite (green)
+images:
+  main: amethyst-gallery-2.jpg
+  gallery: [amethyst-gallery-3.jpg, amethyst.svg, amethyst-gallery-1.svg]

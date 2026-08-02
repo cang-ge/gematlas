@@ -1,0 +1,25 @@
+id: pyrite
+names: { zh: 黄铁矿, en: Pyrite }
+category:
+  mineral_zh: 硫化物
+  mineral_en: Sulfide
+  chemical_formula: FeS₂
+  crystal_system: cubic
+physical:
+  hardness_mohs: 6.5
+  specific_gravity: 5.01
+  refractive_index: 1.810-2.024
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 黄铜色至金棕色, en: 'Brass-yellow to golden brown' }
+  color_causes_zh: Fe-S 电荷转移致金黄色金属光泽
+  color_causes_en: Fe-S charge transfer produces golden-yellow metallic luster
+treatments:
+  common: [surface-coating]
+  disclosure_required: true
+  note_zh: 别名"愚人金"，易与真金混淆；常作为装饰材料
+  note_en: Known as "fool's gold," often confused with real gold; widely used in decorative jewelry
+images:
+  main: pyrite.svg
+  gallery: [pyrite-gallery-1.svg, pyrite-gallery-2.svg, pyrite-gallery-3.svg]

@@ -21,3 +21,6 @@ treatments:
   disclosure_required: false
   note_zh: 几乎无处理；产地溢价显著（俄罗斯/巴西/斯里兰卡）
   note_en: Virtually untreated; origin commands significant premium
+images:
+  main: alexandrite.jpg
+  gallery: [alexandrite-gallery-1.jpg, alexandrite-gallery-2.jpg, alexandrite-gallery-3.jpg]

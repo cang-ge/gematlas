@@ -1,0 +1,27 @@
+id: prehnite
+names: { zh: 葡萄石, en: Prehnite }
+category:
+  mineral_zh: 硅酸盐（层状）
+  mineral_en: Phyllosilicate
+  chemical_formula: Ca₂Al(AlSi₃O₁₀)(OH)₂
+  crystal_system: orthorhombic
+physical:
+  hardness_mohs: 6.25
+  specific_gravity: 2.90
+  refractive_index: 1.611-1.672
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 浅绿色（葡萄绿）, en: 'Pale green' }
+    - { zh: 黄绿色, en: 'Yellow-green' }
+    - { zh: 无色至白色, en: 'Colorless to white' }
+  color_causes_zh: Fe³⁺ 致浅绿至黄绿
+  color_causes_en: Fe³⁺ produces pale to yellow-green
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: 常与葡萄状晶形关联；镶嵌以吊坠/雕刻为主
+  note_en: Named for its botryoidal (grape-like) habit; primarily used in pendants and carvings
+images:
+  main: prehnite.svg
+  gallery: [prehnite-gallery-1.svg, prehnite-gallery-2.svg, prehnite-gallery-3.svg]

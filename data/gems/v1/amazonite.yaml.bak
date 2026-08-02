@@ -1,0 +1,27 @@
+id: amazonite
+names: { zh: 天河石, en: Amazonite }
+category:
+  mineral_zh: 长石族
+  mineral_en: Feldspar (Microcline)
+  chemical_formula: KAlSi₃O₈
+  crystal_system: triclinic
+physical:
+  hardness_mohs: 6.25
+  specific_gravity: 2.56
+  refractive_index: 1.518-1.530
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 蓝绿色, en: 'Blue-green' }
+    - { zh: 翠绿色, en: 'Teal green' }
+    - { zh: 淡蓝色, en: 'Pale blue' }
+  color_causes_zh: Pb²⁺ 取代 K⁺ 致蓝绿色；含 Rb/Cs
+  color_causes_en: Pb²⁺ substituting for K⁺ produces blue-green; contains trace Rb and Cs
+treatments:
+  common: [wax-impregnation, dyeing]
+  disclosure_required: true
+  note_zh: 以俄羅斯米阿斯（Miass）和美国派克斯峰（Pikes Peak）著名
+  note_en: Famous sources include Miass (Russia) and Pikes Peak (USA)
+images:
+  main: amazonite.svg
+  gallery: [amazonite-gallery-1.svg, amazonite-gallery-2.svg, amazonite-gallery-3.svg]

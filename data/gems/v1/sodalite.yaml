@@ -22,3 +22,6 @@ treatments:
   disclosure_required: true
   note_zh: 常被误认为青金石；方钠石白纹更多、黄铁矿斑更少
   note_en: Often mistaken for lapis lazuli; sodalite has more white veining and less pyrite
+images:
+  main: sodalite-gallery-1.jpg
+  gallery: [sodalite-gallery-2.jpg, sodalite.jpg, sodalite-gallery-3.jpg]

@@ -28,3 +28,6 @@ treatments:
   disclosure_required: true
   note_zh: 绝大多数商业红宝石经过热处理，市场可接受；无处理溢价显著
   note_en: Most commercial rubies are heat-treated; untreated stones command significant premiums
+images:
+  main: ruby.jpg
+  gallery: [ruby-gallery-1.png, ruby-gallery-2.jpg, ruby-gallery-3.jpg]

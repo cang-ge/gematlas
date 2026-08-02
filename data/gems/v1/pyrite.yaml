@@ -20,3 +20,6 @@ treatments:
   disclosure_required: true
   note_zh: 别名"愚人金"，易与真金混淆；常作为装饰材料
   note_en: Known as "fool's gold," often confused with real gold; widely used in decorative jewelry
+images:
+  main: pyrite-gallery-1.jpg
+  gallery: [pyrite.jpg, pyrite-gallery-2.jpg, pyrite-gallery-3.jpg]

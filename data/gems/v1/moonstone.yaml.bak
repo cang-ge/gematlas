@@ -1,0 +1,27 @@
+id: moonstone
+names: { zh: 月光石, en: Moonstone }
+category:
+  mineral_zh: 长石族
+  mineral_en: Feldspar (Orthoclase)
+  chemical_formula: (K,Na)AlSi₃O₈ (with albite lamellae)
+  crystal_system: monoclinic
+physical:
+  hardness_mohs: 6.25
+  specific_gravity: 2.57
+  refractive_index: 1.518-1.530
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 白色带蓝光, en: 'White with blue sheen' }
+    - { zh: 白色带银光, en: 'White with silver sheen' }
+    - { zh: 白色带彩光, en: 'White with rainbow sheen' }
+  color_causes_zh: 钠长石/正长石层状散射（见光学现象-月光效应）
+  color_causes_en: Albite/orthoclase lamellar scattering (see Optical Phenomena — Adularescence)
+treatments:
+  common: [wax-impregnation, surface-coating]
+  disclosure_required: true
+  note_zh: 薄层间隙充填可改善月光效应
+  note_en: Impregnation can enhance the adularescent sheen
+images:
+  main: moonstone.svg
+  gallery: [moonstone-gallery-1.svg, moonstone-gallery-2.svg, moonstone-gallery-3.svg]

@@ -1,0 +1,27 @@
+id: quartz-catseye
+names: { zh: 石英猫眼, en: Quartz Cat's-eye }
+category:
+  mineral_zh: 石英族
+  mineral_en: Quartz
+  chemical_formula: SiO2 + crocidolite fibers
+  crystal_system: trigonal
+physical:
+  hardness_mohs: 7
+  specific_gravity: 2.65
+  refractive_index: 1.544-1.553
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 黄绿色带猫眼, en: Yellow-green with cats-eye }
+    - { zh: 灰绿色, en: Olive green }
+    - { zh: 棕色, en: Brown }
+  color_causes_zh: 石棉纤维包裹体产生猫眼效应
+  color_causes_en: Crocidolite asbestos fiber inclusions produce cat's-eye effect
+treatments:
+  common: [heat-treatment]
+  disclosure_required: true
+  note_zh: 与金绿猫眼不同，石英猫眼的猫眼带较宽、效果较弱
+  note_en: Distinct from chrysoberyl cat's-eye; quartz cat's-eye has a wider, less distinct eye
+images:
+  main: quartz-catseye.svg
+  gallery: [quartz-catseye-gallery-1.svg, quartz-catseye-gallery-2.svg, quartz-catseye-gallery-3.svg]

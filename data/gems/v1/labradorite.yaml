@@ -22,3 +22,6 @@ treatments:
   disclosure_required: true
   note_zh: 拉长石的晕彩是结构效应，不可人造优化
   note_en: Labradorescence is a structural effect and cannot be artificially enhanced; surface coating sometimes used to add color
+images:
+  main: labradorite-gallery-1.jpg
+  gallery: [labradorite.jpg, labradorite-gallery-2.jpg, labradorite-gallery-3.jpg]

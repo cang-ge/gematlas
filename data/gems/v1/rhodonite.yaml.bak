@@ -1,0 +1,27 @@
+id: rhodonite
+names: { zh: 蔷薇辉石, en: Rhodonite }
+category:
+  mineral_zh: 辉石族（紫苏辉石型）
+  mineral_en: Pyroxenoid
+  chemical_formula: MnSiO₃
+  crystal_system: triclinic
+physical:
+  hardness_mohs: 6.25
+  specific_gravity: 3.68
+  refractive_index: 1.716-1.752
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 玫瑰红色，带黑色氧化锰纹, en: 'Rose-red with black Mn-oxide veining' }
+    - { zh: 粉红色, en: 'Pink' }
+    - { zh: 红褐色, en: 'Reddish-brown' }
+  color_causes_zh: Mn²⁺ 致粉红至玫瑰红
+  color_causes_en: Mn²⁺ produces pink to rose-red
+treatments:
+  common: [wax-impregnation]
+  disclosure_required: true
+  note_zh: 俄罗斯"苏联石"（Rhodonite）是最著名产地品种
+  note_en: Russian "Rhodonite" from the Ural Mountains is the most famous source variety
+images:
+  main: rhodonite.svg
+  gallery: [rhodonite-gallery-1.svg, rhodonite-gallery-2.svg, rhodonite-gallery-3.svg]

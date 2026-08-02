@@ -22,3 +22,6 @@ treatments:
   disclosure_required: false
   note_zh: 著名"芬达石"为含 Fe 的锰铝榴石
   note_en: 'Fanta garnet is Fe-bearing spessartine'
+images:
+  main: garnet-spessartine-gallery-1.jpg
+  gallery: [garnet-spessartine-gallery-3.jpg, garnet-spessartine.jpg, garnet-spessartine-gallery-2.jpg]

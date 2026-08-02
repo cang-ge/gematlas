@@ -1,0 +1,27 @@
+id: labradorite
+names: { zh: 拉长石, en: Labradorite }
+category:
+  mineral_zh: 长石族
+  mineral_en: Feldspar (Plagioclase)
+  chemical_formula: (Ca,Na)(Si,Al)₄O₈
+  crystal_system: triclinic
+physical:
+  hardness_mohs: 6.25
+  specific_gravity: 2.70
+  refractive_index: 1.560-1.572
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 灰蓝色带晕彩, en: 'Gray-blue with labradorescence' }
+    - { zh: 暗灰色带蓝/绿闪, en: 'Dark gray with blue-green flash' }
+    - { zh: 光谱色, en: 'Full spectrum (Spectrolite)' }
+  color_causes_zh: 纳米级成分层状结构产生干涉色（见光学现象-拉长晕彩）
+  color_causes_en: Nanoscale compositional striations produce interference colors (see Optical Phenomena — Labradorescence)
+treatments:
+  common: [surface-coating]
+  disclosure_required: true
+  note_zh: 拉长石的晕彩是结构效应，不可人造优化
+  note_en: Labradorescence is a structural effect and cannot be artificially enhanced; surface coating sometimes used to add color
+images:
+  main: labradorite.svg
+  gallery: [labradorite-gallery-1.svg, labradorite-gallery-2.svg, labradorite-gallery-3.svg]
