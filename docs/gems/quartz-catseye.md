@@ -53,5 +53,5 @@ gem: quartz-catseye
 ## Gallery
 
 <img src="../images/gems/quartz-catseye/quartz-catseye-gallery-1.jpg" alt="Quartz Cat's-eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/quartz-catseye/quartz-catseye-gallery-2.svg" alt="Quartz Cat's-eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/quartz-catseye/quartz-catseye-gallery-2.jpg" alt="Quartz Cat's-eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/quartz-catseye/quartz-catseye-gallery-3.svg" alt="Quartz Cat's-eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

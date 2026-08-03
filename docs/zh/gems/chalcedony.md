@@ -5,7 +5,7 @@ gem: chalcedony
 
 
 # 玉髓 / 玛瑙
-<img src="../../images/gems/chalcedony/chalcedony-gallery-3.jpg" alt="玉髓 / 玛瑙" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/chalcedony/chalcedony.jpg" alt="玉髓 / 玛瑙" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Chalcedony / Agate](/gems/chalcedony)
 
 ## 图库
 
-<img src="../../images/gems/chalcedony/chalcedony-gallery-1.svg" alt="玉髓 / 玛瑙" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/chalcedony/chalcedony-gallery-2.svg" alt="玉髓 / 玛瑙" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/chalcedony/chalcedony-gallery-3.svg" alt="玉髓 / 玛瑙" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/chalcedony/chalcedony-gallery-1.jpg" alt="玉髓 / 玛瑙" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/chalcedony/chalcedony-gallery-2.jpg" alt="玉髓 / 玛瑙" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/chalcedony/chalcedony-gallery-3.jpg" alt="玉髓 / 玛瑙" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,7 +5,7 @@ gem: garnet-almandine
 
 
 # 铁铝榴石
-<img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-1.jpg" alt="铁铝榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-3.jpg" alt="铁铝榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Almandine (Garnet)](/gems/garnet-almandine)
 
 ## 图库
 
+<img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-1.jpg" alt="铁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-2.jpg" alt="铁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/garnet-almandine/garnet-almandine.jpg" alt="铁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-3.svg" alt="铁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

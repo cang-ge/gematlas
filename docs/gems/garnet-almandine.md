@@ -5,7 +5,7 @@ gem: garnet-almandine
 
 
 # Almandine (Garnet)
-<img src="../images/gems/garnet-almandine/garnet-almandine-gallery-1.jpg" alt="Almandine (Garnet)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/garnet-almandine/garnet-almandine-gallery-3.jpg" alt="Almandine (Garnet)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ gem: garnet-almandine
 
 ## Gallery
 
+<img src="../images/gems/garnet-almandine/garnet-almandine-gallery-1.jpg" alt="Almandine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/garnet-almandine/garnet-almandine-gallery-2.jpg" alt="Almandine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/garnet-almandine/garnet-almandine.jpg" alt="Almandine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/garnet-almandine/garnet-almandine-gallery-3.svg" alt="Almandine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
