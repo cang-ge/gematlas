@@ -177,8 +177,16 @@ def main():
         print("Set VISION_API_KEY first.")
         print("  VISION_PROVIDER=openai VISION_API_KEY=sk-... python scripts/classify-images.py")
         sys.exit(1)
+    # Load previous report for incremental mode (skip already-classified).
+    report_path = BASE / "docs" / "vision-report.json"
+    prev = {}
+    if report_path.exists():
+        try:
+            prev = json.loads(report_path.read_text(encoding="utf-8"))
+        except Exception:
+            prev = {}
     print("Provider: {}".format(PROVIDER))
-    print("Classifying all real images under docs/images/gems/...\n")
+    print("Classifying real images under docs/images/gems/ (incremental)...\n")
 
     results = {}  # gem -> {path: verdict}
     total = 0
@@ -191,6 +199,11 @@ def main():
                 continue
             if f.stat().st_size <= 1024:
                 continue
+            # Skip if already classified with a real verdict
+            existing = prev.get(gd.name, {}).get(f.name, "")
+            if existing in ("MAIN", "GALLERY", "REJECT"):
+                results.setdefault(gd.name, {})[f.name] = existing
+                continue
             total += 1
             try:
                 v = classify(gem, f)
@@ -200,10 +213,12 @@ def main():
             print("{:18s} {:32s} {}".format(gd.name, f.name, v))
             time.sleep(0.3)
 
-    # Write a machine-readable report for the cleanup script.
-    out = BASE / "docs" / "vision-report.json"
+    # Merge with previous report so cleanup sees all verdicts.
+    for gid, files in prev.items():
+        results.setdefault(gid, {}).update(files)
+    out = report_path
     out.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
-    print("\nClassified {} images. Report -> {}".format(total, out))
+    print("\nClassified {} new images. Report -> {}".format(total, out))
 
 
 if __name__ == "__main__":

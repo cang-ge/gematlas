@@ -5,7 +5,7 @@ gem: rock-crystal
 
 
 # 水晶
-<img src="../../images/gems/rock-crystal/rock-crystal.jpg" alt="水晶" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/rock-crystal/rock-crystal-gallery-2.jpg" alt="水晶" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Rock Crystal](/gems/rock-crystal)
 
 ## 图库
 
-<img src="../../images/gems/rock-crystal/rock-crystal-gallery-1.svg" alt="水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/rock-crystal/rock-crystal.jpg" alt="水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/rock-crystal/rock-crystal-gallery-2.svg" alt="水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/rock-crystal/rock-crystal-gallery-3.svg" alt="水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
