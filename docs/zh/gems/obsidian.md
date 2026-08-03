@@ -5,7 +5,7 @@ gem: obsidian
 
 
 # 黑曜石
-<img src="../../images/gems/obsidian/obsidian-gallery-1.jpg" alt="黑曜石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/obsidian/obsidian-gallery-3.jpg" alt="黑曜石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Obsidian](/gems/obsidian)
 
 ## 图库
 
-<img src="../../images/gems/obsidian/obsidian-gallery-1.svg" alt="黑曜石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/obsidian/obsidian-gallery-1.jpg" alt="黑曜石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/obsidian/obsidian-gallery-2.svg" alt="黑曜石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/obsidian/obsidian-gallery-3.svg" alt="黑曜石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

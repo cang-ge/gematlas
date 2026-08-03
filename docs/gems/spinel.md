@@ -5,7 +5,7 @@ gem: spinel
 
 
 # Spinel
-<img src="../images/gems/spinel/spinel.jpg" alt="Spinel" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/spinel/spinel-gallery-1.jpg" alt="Spinel" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ gem: spinel
 
 ## Gallery
 
-<img src="../images/gems/spinel/spinel-gallery-1.jpg" alt="Spinel" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/spinel/spinel-gallery-2.jpg" alt="Spinel" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/spinel/spinel-gallery-3.jpg" alt="Spinel" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/spinel/spinel.jpg" alt="Spinel" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,7 +5,7 @@ gem: garnet-pyrope
 
 
 # Pyrope (Garnet)
-<img src="../images/gems/garnet-pyrope/garnet-pyrope-gallery-1.jpg" alt="Pyrope (Garnet)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/garnet-pyrope/garnet-pyrope.jpg" alt="Pyrope (Garnet)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ gem: garnet-pyrope
 
 ## Gallery
 
+<img src="../images/gems/garnet-pyrope/garnet-pyrope-gallery-1.jpg" alt="Pyrope (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/garnet-pyrope/garnet-pyrope-gallery-2.jpg" alt="Pyrope (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/garnet-pyrope/garnet-pyrope.jpg" alt="Pyrope (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/garnet-pyrope/garnet-pyrope-gallery-3.svg" alt="Pyrope (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -69,25 +69,9 @@ GEMS = {
     "prehnite": ("Prehnite", "葡萄石", 6.25, "#A8D8A8"),
 }
 
-# Retry verdicts from the timeout re-classification run
-RETRY = {
-    "alexandrite/alexandrite.jpg": "MAIN",
-    "chalcedony/chalcedony.jpg": "REJECT",
-    "citrine/citrine-gallery-2.jpg": "MAIN",
-    "malachite/malachite-gallery-3.jpg": "REJECT",
-    "paraiba-tourmaline/paraiba-tourmaline.jpg": "MAIN",
-    "rhodonite/rhodonite.jpg": "MAIN",
-    "smoky-quartz/smoky-quartz-gallery-2.jpg": "MAIN",
-    "sunstone/sunstone-gallery-1.png": "REJECT",
-    # Round-2 download pass verdicts
-    "amazonite/amazonite-gallery-1.png": "GALLERY",
-    "amazonite/amazonite-gallery-2.jpg": "REJECT",
-    "aquamarine/aquamarine-gallery-3.jpg": "GALLERY",
-    "chrysoprase/chrysoprase-gallery-2.jpg": "GALLERY",
-    "lapis-lazuli/lapis-lazuli-gallery-1.jpg": "REJECT",
-    "ruby/ruby-gallery-3.jpg": "GALLERY",
-    "zircon/zircon-gallery-3.jpg": "MAIN",
-}
+# Retry verdicts — empty: full re-classification with the new 4-way taxonomy
+# (JEWELRY/CUT/MINERAL/REJECT) now happens first, so no old-category overrides.
+RETRY = {}
 
 # SVG placeholder content (colored radial gradient + gem name)
 def svg_placeholder(gd: Path, en: str, zh: str, hardness: float, color: str, slot_name: str):
@@ -157,34 +141,36 @@ def main():
                 if p.exists():
                     p.unlink()
                     deleted += 1
-        # 2. Collect surviving real images (MAIN / GALLERY), keep only real files on disk
+        # 2. Collect surviving real images (JEWELRY / CUT / MINERAL), keep only real files
         keeps = {}
         for fname, verdict in verdicts.items():
-            if verdict in ("MAIN", "GALLERY"):
+            if verdict in ("JEWELRY", "CUT", "MINERAL"):
                 p = gd / fname
                 if p.exists() and p.stat().st_size > 1024:
                     keeps[fname] = verdict
-        # Also scan for real images not in report (missed files)
+        # Also scan for real images not in report (missed files → default MINERAL)
         for p in gd.iterdir():
             if p.suffix.lower() in (".jpg", ".png", ".webp") and p.stat().st_size > 1024:
-                keeps.setdefault(p.name, "MAIN")
-        # 3. Choose hero: prefer MAIN, else any keep, else None
-        mains = [f for f, v in keeps.items() if v == "MAIN"]
-        others = [f for f, v in keeps.items() if v == "GALLERY" and f not in mains]
-        hero = mains[0] if mains else (keeps and sorted(keeps)[0] or None)
-        # Prefer non-gallery filename for hero (i.e. "{gid}.jpg" over "{gid}-gallery-*.jpg")
-        if not hero:
-            for f in sorted(keeps):
-                if "-gallery-" not in f:
-                    hero = f
-                    break
-            if not hero and keeps:
-                hero = sorted(keeps)[0]
-        # 4. Build gallery list (up to 3): remaining MAINs then GALLERYs
+                keeps.setdefault(p.name, "MINERAL")
+        # 3. Choose hero: prefer CUT (clean loose stone), then JEWELRY, then MINERAL
+        hero = None
+        for pref in ("CUT", "JEWELRY", "MINERAL"):
+            cands = [f for f, v in keeps.items() if v == pref]
+            if cands:
+                # Prefer non-gallery filename within the same verdict
+                hero = next((f for f in sorted(cands) if "-gallery-" not in f), sorted(cands)[0])
+                break
+        if not hero and keeps:
+            hero = sorted(keeps)[0]
+        # 4. Build gallery (up to 3): JEWELRY first (finished mountings — user priority),
+        #    then CUT, then MINERAL
         gallery = []
-        for f in mains + others:
-            if f != hero and f not in gallery:
-                gallery.append(f)
+        for pref in ("JEWELRY", "CUT", "MINERAL"):
+            for f in sorted(keeps):
+                if keeps[f] == pref and f != hero and f not in gallery:
+                    gallery.append(f)
+                if len(gallery) >= 3:
+                    break
             if len(gallery) >= 3:
                 break
         # 5. Pad with SVG placeholders

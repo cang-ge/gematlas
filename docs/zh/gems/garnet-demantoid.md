@@ -5,7 +5,7 @@ gem: garnet-demantoid
 
 
 # 翠榴石
-<img src="../../images/gems/garnet-demantoid/garnet-demantoid-gallery-1.jpg" alt="翠榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/garnet-demantoid/garnet-demantoid.jpg" alt="翠榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Demantoid (Garnet)](/gems/garnet-demantoid)
 
 ## 图库
 
-<img src="../../images/gems/garnet-demantoid/garnet-demantoid.jpg" alt="翠榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-demantoid/garnet-demantoid-gallery-1.jpg" alt="翠榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/garnet-demantoid/garnet-demantoid-gallery-2.svg" alt="翠榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/garnet-demantoid/garnet-demantoid-gallery-3.svg" alt="翠榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

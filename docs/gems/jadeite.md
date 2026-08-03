@@ -5,7 +5,7 @@ gem: jadeite
 
 
 # Jadeite (Burmese Jade)
-<img src="../images/gems/jadeite/jadeite-gallery-3.jpg" alt="Jadeite (Burmese Jade)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/jadeite/jadeite.jpg" alt="Jadeite (Burmese Jade)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ gem: jadeite
 
 ## Gallery
 
-<img src="../images/gems/jadeite/jadeite.jpg" alt="Jadeite (Burmese Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/jadeite/jadeite-gallery-3.jpg" alt="Jadeite (Burmese Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/jadeite/jadeite-gallery-2.svg" alt="Jadeite (Burmese Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/jadeite/jadeite-gallery-3.svg" alt="Jadeite (Burmese Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

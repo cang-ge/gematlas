@@ -5,7 +5,7 @@ gem: sodalite
 
 
 # Sodalite
-<img src="../images/gems/sodalite/sodalite-gallery-1.jpg" alt="Sodalite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/sodalite/sodalite.jpg" alt="Sodalite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ gem: sodalite
 
 ## Gallery
 
-<img src="../images/gems/sodalite/sodalite.jpg" alt="Sodalite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/sodalite/sodalite-gallery-2.svg" alt="Sodalite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/sodalite/sodalite-gallery-3.svg" alt="Sodalite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/sodalite/sodalite-gallery-1.jpg" alt="Sodalite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/sodalite/sodalite-gallery-2.jpg" alt="Sodalite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/sodalite/sodalite-gallery-3.jpg" alt="Sodalite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

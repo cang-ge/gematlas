@@ -23,5 +23,5 @@ treatments:
   note_zh: 加热可使绿色调转为稳定的蓝色
   note_en: Heat treatment can convert greenish hues to stable blue
 images:
-  main: aquamarine-gallery-1.jpg
-  gallery: [aquamarine-gallery-2.jpg, aquamarine-gallery-3.jpg, aquamarine.jpg]
+  main: aquamarine.jpg
+  gallery: [aquamarine-gallery-2.jpg, aquamarine-gallery-3.jpg, aquamarine-gallery-1.jpg]

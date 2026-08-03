@@ -52,6 +52,6 @@ English: [Smoky Quartz](/gems/smoky-quartz)
 
 ## 图库
 
-<img src="../../images/gems/smoky-quartz/smoky-quartz.jpg" alt="烟晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/smoky-quartz/smoky-quartz-gallery-1.jpg" alt="烟晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/smoky-quartz/smoky-quartz.jpg" alt="烟晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/smoky-quartz/smoky-quartz-gallery-3.svg" alt="烟晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

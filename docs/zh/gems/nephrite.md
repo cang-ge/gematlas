@@ -5,7 +5,7 @@ gem: nephrite
 
 
 # 软玉
-<img src="../../images/gems/nephrite/nephrite-gallery-1.jpg" alt="软玉" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/nephrite/nephrite.jpg" alt="软玉" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Nephrite (Hetian Jade)](/gems/nephrite)
 
 ## 图库
 
-<img src="../../images/gems/nephrite/nephrite.jpg" alt="软玉" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/nephrite/nephrite-gallery-1.jpg" alt="软玉" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/nephrite/nephrite-gallery-2.svg" alt="软玉" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/nephrite/nephrite-gallery-3.svg" alt="软玉" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

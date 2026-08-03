@@ -22,8 +22,8 @@ IMG = BASE / "docs" / "images" / "gems"
 
 PROVIDER = os.environ.get("VISION_PROVIDER", "").strip()
 KEY = os.environ.get("VISION_API_KEY", "").strip()
-# DashScope model id — default qwen3.7-flash (vision-capable)
-MODEL_NAME = os.environ.get("VISION_MODEL", "qwen3.7-flash").strip()
+# DashScope model id — qwen3-vl-plus (vision-capable; qwen3.7-max is text-only)
+MODEL_NAME = os.environ.get("VISION_MODEL", "qwen3-vl-plus").strip()
 
 # gem id -> canonical English name + zh
 GEMS = {
@@ -59,14 +59,16 @@ import requests
 PROMPT_TMPL = (
     "You are auditing gemstone encyclopedia photos. The image is supposed to be "
     "{gem_en} ({gem_zh}, {gem_id}).\n"
-    "Look at the image carefully and answer with EXACTLY one word:\n"
-    "- MAIN if it shows the gemstone itself (faceted loose stone, rough crystal, "
-    "cabochon) as the main subject\n"
-    "- GALLERY if it shows the gemstone mounted in finished jewelry (ring, pendant, "
-    "earrings, necklace, bracelet) or a related close-up\n"
-    "- REJECT if it is NOT the gemstone — a person, animal, place, building, "
-    "vehicle, software, other mineral, or anything unrelated.\n"
-    "Answer one word only: MAIN / GALLERY / REJECT"
+    "Look at the image carefully. First decide whether it shows THIS gemstone at all. "
+    "If it is NOT this gemstone (a person, animal, place, building, vehicle, software, "
+    "a different mineral, or anything unrelated), answer REJECT.\n"
+    "If it IS this gemstone, classify its state with EXACTLY one word:\n"
+    "- JEWELRY  if it is MOUNTED in finished jewelry — a ring, pendant, necklace, "
+    "earrings, bracelet, brooch, cufflinks, or other finished product\n"
+    "- CUT      if it is a LOOSE cut/faceted stone or cabochon NOT yet mounted\n"
+    "- MINERAL  if it is a rough mineral specimen — crystal, cluster, geode, ore, "
+    "or uncut rough\n"
+    "Answer exactly one word: JEWELRY / CUT / MINERAL / REJECT"
 )
 
 
@@ -201,7 +203,7 @@ def main():
                 continue
             # Skip if already classified with a real verdict
             existing = prev.get(gd.name, {}).get(f.name, "")
-            if existing in ("MAIN", "GALLERY", "REJECT"):
+            if existing in ("JEWELRY", "CUT", "MINERAL", "REJECT"):
                 results.setdefault(gd.name, {})[f.name] = existing
                 continue
             total += 1

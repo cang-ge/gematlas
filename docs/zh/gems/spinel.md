@@ -5,7 +5,7 @@ gem: spinel
 
 
 # 尖晶石
-<img src="../../images/gems/spinel/spinel.jpg" alt="尖晶石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/spinel/spinel-gallery-1.jpg" alt="尖晶石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Spinel](/gems/spinel)
 
 ## 图库
 
-<img src="../../images/gems/spinel/spinel-gallery-1.jpg" alt="尖晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/spinel/spinel-gallery-2.jpg" alt="尖晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/spinel/spinel-gallery-3.jpg" alt="尖晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/spinel/spinel.jpg" alt="尖晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

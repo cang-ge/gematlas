@@ -5,7 +5,7 @@ gem: serpentine
 
 
 # 蛇纹石
-<img src="../../images/gems/serpentine/serpentine.svg" alt="蛇纹石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/serpentine/serpentine-gallery-1.jpg" alt="蛇纹石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 

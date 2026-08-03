@@ -5,7 +5,7 @@ gem: lapis-lazuli
 
 
 # 青金石
-<img src="../../images/gems/lapis-lazuli/lapis-lazuli-gallery-2.jpg" alt="青金石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/lapis-lazuli/lapis-lazuli.jpg" alt="青金石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Lapis Lazuli](/gems/lapis-lazuli)
 
 ## 图库
 
+<img src="../../images/gems/lapis-lazuli/lapis-lazuli-gallery-2.jpg" alt="青金石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/lapis-lazuli/lapis-lazuli-gallery-3.jpg" alt="青金石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/lapis-lazuli/lapis-lazuli.jpg" alt="青金石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/lapis-lazuli/lapis-lazuli-gallery-3.svg" alt="青金石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

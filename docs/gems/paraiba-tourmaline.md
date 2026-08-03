@@ -54,4 +54,4 @@ gem: paraiba-tourmaline
 
 <img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-2.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-3.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-3.svg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

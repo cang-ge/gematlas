@@ -5,7 +5,7 @@ gem: amazonite
 
 
 # 天河石
-<img src="../../images/gems/amazonite/amazonite-gallery-3.png" alt="天河石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/amazonite/amazonite.jpg" alt="天河石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Amazonite](/gems/amazonite)
 
 ## 图库
 
-<img src="../../images/gems/amazonite/amazonite.jpg" alt="天河石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/amazonite/amazonite-gallery-1.png" alt="天河石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/amazonite/amazonite-gallery-3.png" alt="天河石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/amazonite/amazonite-gallery-2.svg" alt="天河石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/amazonite/amazonite-gallery-3.svg" alt="天河石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

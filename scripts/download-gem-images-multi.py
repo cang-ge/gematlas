@@ -257,7 +257,28 @@ def pixabay_search(gid: str, query: str, limit: int = 6):
         print("  pixabay err: {}".format(e))
         return []
 
-# ─── Source 3 / 4: placeholders for future use ─────────────────
+# ─── Source 3: Openverse (aggregates Flickr/Wikimedia CC images) ──
+def openverse_search(gid: str, query: str, limit: int = 6):
+    """Openverse free API — CC-licensed images from Flickr, Wikimedia, etc."""
+    out = []
+    try:
+        r = S.get("https://api.openverse.org/v1/images/", params={
+            "q": query + " gemstone",
+            "license_type": "commercial",
+            "page_size": limit,
+            "mature": "false",
+        }, timeout=10)
+        r.raise_for_status()
+        for item in r.json().get("results", []):
+            url = item.get("url") or item.get("thumbnail")
+            if url:
+                out.append({"url": url, "title": item.get("title", "")})
+    except Exception as e:
+        print("  openverse err: {}".format(e))
+        return []
+    return out
+
+# ─── Source 4 / 5: placeholders for future use ─────────────────
 def smithsonian_search(gid: str, query: str, limit: int = 4):
     """Placeholder — Smithsonian has no public search API."""
     return []
@@ -269,6 +290,7 @@ def mindat_search(gid: str, query: str, limit: int = 4):
 SOURCES = [
     ("Wikimedia-Cat", wiki_category),  # safer: curated categories
     ("Wikimedia",     wiki_search),    # fallback: full-text search
+    ("Openverse",     openverse_search),
     ("Pixabay",       pixabay_search),
     ("Smithsonian",   smithsonian_search),
     ("Mindat",        mindat_search),
