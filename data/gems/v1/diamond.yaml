@@ -24,5 +24,5 @@ treatments:
   note_zh: HPHT 处理需披露；天然与合成需激光刻印区分
   note_en: HPHT treatment must be disclosed; natural vs. synthetic distinguished by laser inscription
 images:
-  main: diamond-gallery-2.png
-  gallery: [diamond.png, diamond-gallery-1.png, diamond-gallery-3.jpg]
+  main: diamond.png
+  gallery: [diamond-gallery-1.svg, diamond-gallery-2.svg, diamond-gallery-3.svg]

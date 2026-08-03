@@ -5,7 +5,7 @@ gem: moonstone
 
 
 # 月光石
-<img src="../../images/gems/moonstone/moonstone-gallery-3.png" alt="月光石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/moonstone/moonstone-gallery-1.jpg" alt="月光石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Moonstone](/gems/moonstone)
 
 ## 图库
 
-<img src="../../images/gems/moonstone/moonstone.png" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/moonstone/moonstone-gallery-1.jpg" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/moonstone/moonstone-gallery-2.jpg" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/moonstone/moonstone.png" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/moonstone/moonstone-gallery-3.svg" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

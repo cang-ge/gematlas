@@ -5,7 +5,7 @@ gem: sugilite
 
 
 # Sugilite
-<img src="../images/gems/sugilite/sugilite-gallery-1.png" alt="Sugilite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/sugilite/sugilite.jpg" alt="Sugilite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ gem: sugilite
 
 ## Gallery
 
-<img src="../images/gems/sugilite/sugilite-gallery-2.jpg" alt="Sugilite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/sugilite/sugilite.jpg" alt="Sugilite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/sugilite/sugilite-gallery-3.jpg" alt="Sugilite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/sugilite/sugilite-gallery-1.svg" alt="Sugilite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/sugilite/sugilite-gallery-2.svg" alt="Sugilite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/sugilite/sugilite-gallery-3.svg" alt="Sugilite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

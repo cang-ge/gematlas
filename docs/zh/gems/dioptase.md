@@ -52,6 +52,6 @@ English: [Dioptase](/gems/dioptase)
 
 ## 图库
 
-<img src="../../images/gems/dioptase/dioptase-gallery-2.jpg" alt="透视石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/dioptase/dioptase.jpg" alt="透视石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/dioptase/dioptase-gallery-3.jpg" alt="透视石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/dioptase/dioptase-gallery-2.svg" alt="透视石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/dioptase/dioptase-gallery-3.svg" alt="透视石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

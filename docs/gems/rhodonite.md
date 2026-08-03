@@ -53,5 +53,5 @@ gem: rhodonite
 ## Gallery
 
 <img src="../images/gems/rhodonite/rhodonite-gallery-2.jpg" alt="Rhodonite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/rhodonite/rhodonite-gallery-3.jpg" alt="Rhodonite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/rhodonite/rhodonite.jpg" alt="Rhodonite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/rhodonite/rhodonite-gallery-3.svg" alt="Rhodonite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,7 +5,7 @@ gem: labradorite
 
 
 # Labradorite
-<img src="../images/gems/labradorite/labradorite-gallery-1.jpg" alt="Labradorite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/labradorite/labradorite-gallery-3.jpg" alt="Labradorite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -53,5 +53,5 @@ gem: labradorite
 ## Gallery
 
 <img src="../images/gems/labradorite/labradorite.jpg" alt="Labradorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/labradorite/labradorite-gallery-2.jpg" alt="Labradorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/labradorite/labradorite-gallery-3.jpg" alt="Labradorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/labradorite/labradorite-gallery-2.svg" alt="Labradorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/labradorite/labradorite-gallery-3.svg" alt="Labradorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

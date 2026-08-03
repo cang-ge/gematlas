@@ -25,5 +25,5 @@ treatments:
   note_zh: 糖酸处理用于仿黑欧泊，需披露
   note_en: Sugar-acid treatment simulates black opal; must be disclosed
 images:
-  main: opal-gallery-1.jpg
-  gallery: [opal-gallery-2.jpg, opal.jpg, opal-gallery-3.jpg]
+  main: opal.svg
+  gallery: [opal-gallery-1.svg, opal-gallery-2.svg, opal-gallery-3.svg]

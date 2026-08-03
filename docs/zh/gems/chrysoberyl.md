@@ -52,6 +52,6 @@ English: [Chrysoberyl](/gems/chrysoberyl)
 
 ## 图库
 
+<img src="../../images/gems/chrysoberyl/chrysoberyl-gallery-3.jpg" alt="金绿宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/chrysoberyl/chrysoberyl.jpg" alt="金绿宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/chrysoberyl/chrysoberyl-gallery-2.jpg" alt="金绿宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/chrysoberyl/chrysoberyl-gallery-3.jpg" alt="金绿宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

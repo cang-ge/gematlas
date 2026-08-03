@@ -5,7 +5,7 @@ gem: alexandrite
 
 
 # 亚历山大石
-<img src="../../images/gems/alexandrite/alexandrite.jpg" alt="亚历山大石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/alexandrite/alexandrite-gallery-1.jpg" alt="亚历山大石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Alexandrite](/gems/alexandrite)
 
 ## 图库
 
-<img src="../../images/gems/alexandrite/alexandrite-gallery-1.jpg" alt="亚历山大石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/alexandrite/alexandrite-gallery-2.jpg" alt="亚历山大石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/alexandrite/alexandrite-gallery-3.jpg" alt="亚历山大石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/alexandrite/alexandrite.jpg" alt="亚历山大石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

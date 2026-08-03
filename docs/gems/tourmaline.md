@@ -5,7 +5,7 @@ gem: tourmaline
 
 
 # Tourmaline
-<img src="../images/gems/tourmaline/tourmaline-gallery-3.jpg" alt="Tourmaline" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/tourmaline/tourmaline-gallery-1.jpg" alt="Tourmaline" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ gem: tourmaline
 
 ## Gallery
 
-<img src="../images/gems/tourmaline/tourmaline.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/tourmaline/tourmaline-gallery-1.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/tourmaline/tourmaline-gallery-2.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/tourmaline/tourmaline-gallery-3.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/tourmaline/tourmaline.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

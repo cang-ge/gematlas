@@ -52,6 +52,6 @@ gem: nephrite
 
 ## Gallery
 
-<img src="../images/gems/nephrite/nephrite-gallery-3.jpg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/nephrite/nephrite.jpg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/nephrite/nephrite-gallery-2.jpg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/nephrite/nephrite-gallery-2.svg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/nephrite/nephrite-gallery-3.svg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

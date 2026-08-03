@@ -5,7 +5,7 @@ gem: garnet-spessartine
 
 
 # 锰铝榴石
-<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-1.jpg" alt="锰铝榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/garnet-spessartine/garnet-spessartine.jpg" alt="锰铝榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ English: [Spessartine (Garnet)](/gems/garnet-spessartine)
 
 ## 图库
 
-<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-3.jpg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/garnet-spessartine/garnet-spessartine.jpg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-2.jpg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-1.svg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-2.svg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-3.svg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
