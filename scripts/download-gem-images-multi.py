@@ -99,6 +99,11 @@ ALT_QUERIES = {
     "quartz-catseye":  ["Quartz cat's eye gemstone", "Cat's eye quartz cabochon", "Chrysoberyl cat eye"],
 }
 
+# Jewelry product terms — tried ONLY in the fallback pass, after standard
+# gemstone queries fail to fill a slot. Biases replacement images toward
+# finished jewelry (rings / pendants / earrings) instead of rough specimens.
+JEWELRY_TERMS = ["ring", "pendant", "jewelry", "earrings"]
+
 # ─── HTTP session ──────────────────────────────────────────────
 S = requests.Session()
 S.headers.update({
@@ -166,6 +171,72 @@ def wiki_search(gid: str, query: str, limit: int = 6):
             pass
     return out
 
+# ─── Source 1b: Wikimedia Commons (Category API) ────────────────
+# Categories are curated — every file inside is a known gem image.
+# This is FAR safer than full-text srsearch, which returns ruby-the-programmer
+# or sapphire-the-vintage-car.
+# Priority order: finished-jewelry categories first (user wants mounting shots),
+# then mineral/gemstone categories, then broad gem categories.
+def wiki_category(gid: str, query: str, limit: int = 8):
+    """Returns image URLs from curated Wikimedia categories.
+    Tries finished-jewelry categories first (rings / jewellery), then
+    gemstone categories, then broad Gemstones / Faceted gems.
+    """
+    out = []
+    en = GEMS[gid][0]  # clean English name for category construction
+    last = _last_429_per_gem.get(gid, 0)
+    if time.time() - last < 30:
+        return []
+    # Jewelry-first category order — mounting / finished-product shots.
+    cats = [
+        "Category:{} in jewellery".format(en),
+        "Category:{} jewellery".format(en),
+        "Category:{} rings".format(en),
+        "Category:{} (gemstone)".format(en),
+        "Category:{}".format(en),
+        "Category:Gemstones",
+        "Category:Faceted gems",
+    ]
+    for cat in cats:
+        try:
+            r = S.get("https://commons.wikimedia.org/w/api.php", params={
+                "action": "query", "list": "categorymembers",
+                "cmtitle": cat, "cmtype": "file",
+                "cmlimit": limit, "format": "json",
+            }, timeout=6)
+            if r.status_code == 429:
+                _last_429_per_gem[gid] = time.time()
+                print("  429 on category ({})".format(gid))
+                return []
+            r.raise_for_status()
+            members = r.json().get("query", {}).get("categorymembers", [])
+        except Exception as e:
+            members = []
+        if not members:
+            continue
+        for m in members[:limit]:
+            title = m.get("title", "").replace("File:", "")
+            try:
+                r2 = S.get("https://commons.wikimedia.org/w/api.php", params={
+                    "action": "query", "titles": "File:" + title,
+                    "prop": "imageinfo", "iiprop": "url",
+                    "iiurlwidth": 800, "format": "json",
+                }, timeout=4)
+                if r2.status_code == 429:
+                    _last_429_per_gem[gid] = time.time()
+                    continue
+                for p in r2.json().get("query", {}).get("pages", {}).values():
+                    info = p.get("imageinfo", [])
+                    if info:
+                        url = info[0].get("thumburl") or info[0].get("url")
+                        if url:
+                            out.append({"url": url, "title": title})
+            except Exception:
+                pass
+        if out:
+            break  # found images in this category
+    return out
+
 # ─── Source 2: Pixabay ─────────────────────────────────────────
 def pixabay_search(gid: str, query: str, limit: int = 6):
     if not PIXABAY_KEY:
@@ -196,10 +267,11 @@ def mindat_search(gid: str, query: str, limit: int = 4):
     return []
 
 SOURCES = [
-    ("Wikimedia", wiki_search),
-    ("Pixabay",   pixabay_search),
-    ("Smithsonian", smithsonian_search),
-    ("Mindat",    mindat_search),
+    ("Wikimedia-Cat", wiki_category),  # safer: curated categories
+    ("Wikimedia",     wiki_search),    # fallback: full-text search
+    ("Pixabay",       pixabay_search),
+    ("Smithsonian",   smithsonian_search),
+    ("Mindat",        mindat_search),
 ]
 
 # ─── File I/O helpers ──────────────────────────────────────────
@@ -259,6 +331,28 @@ def dload(url: str, dest: Path) -> bool:
                 ext = ".svg"
             # Replace suffix to match detected content
             correct_dest = dest.with_suffix(ext)
+            # Perceptual-hash dedup: skip if visually identical to existing
+            # image in the same directory.
+            if ext in (".jpg", ".png", ".webp", ".gif"):
+                try:
+                    from imagehash import phash
+                    from PIL import Image
+                    new_hash = phash(Image.open(__import__("io").BytesIO(bytes(raw))))
+                    dest_dir = correct_dest.parent
+                    for existing in dest_dir.iterdir():
+                        if (existing == correct_dest
+                            or not existing.is_file()
+                            or existing.suffix.lower() not in (".jpg", ".png", ".webp", ".gif")):
+                            continue
+                        try:
+                            eh = phash(Image.open(existing))
+                            if new_hash - eh <= 5:
+                                # Duplicate — discard the download
+                                return False
+                        except Exception:
+                            pass
+                except Exception:
+                    pass  # dedup is best-effort
             correct_dest.write_bytes(bytes(raw))
             if correct_dest.stat().st_size > 1024:
                 # If a stale wrong-suffix file exists at `dest`, remove it
@@ -370,6 +464,9 @@ def fetch_gem(gid: str) -> bool:
     if gid in ALT_QUERIES:
         queries.extend(ALT_QUERIES[gid])
     queries.append(en)
+    # Jewelry-product queries only in the fallback pass (after standard ones
+    # fail). Biases replacement images toward finished jewelry.
+    fallback_queries = queries + [en + " " + t for t in JEWELRY_TERMS]
 
     # Pool of candidate URLs from all sources (tried in order).
     candidate_urls = []
@@ -409,7 +506,7 @@ def fetch_gem(gid: str) -> bool:
             time.sleep(0.3)
         if not found:
             for src_name, fn in SOURCES:
-                for q in queries:
+                for q in fallback_queries:
                     try:
                         extra = fn(gid, q, SKIP_N)
                     except Exception:
