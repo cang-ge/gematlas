@@ -117,6 +117,29 @@ export const MineralGroupsFile = z.object({
   groups: z.array(MineralGroupEntry).min(1),
 })
 
+// Phase E: grading taxonomy (4Cs + colored-stone model + disclosure)
+export const GradingExample = z.object({
+  gem: z.string().min(1),
+  grade: z.string().min(1),
+  note_zh: z.string().optional(),
+  note_en: z.string().optional(),
+})
+export const GradingTopicEntry = z.object({
+  id: z.string().min(1),
+  name_zh: z.string().min(1),
+  name_en: z.string().min(1),
+  summary_zh: z.string().min(1),
+  summary_en: z.string().min(1),
+  principles_zh: z.union([z.array(z.string()), z.string()]).optional(),
+  principles_en: z.union([z.array(z.string()), z.string()]).optional(),
+  examples: z.array(GradingExample).optional(),
+})
+export const GradingTopicsFile = z.object({
+  overview_zh: z.string().min(1),
+  overview_en: z.string().min(1),
+  topics: z.array(GradingTopicEntry).min(1),
+})
+
 /* ─── Gem (data/gemstones/v1/*.yaml) — core 5 modules ───────── */
 
 /** Each gem's mineralogical / chemical identity. */
@@ -159,6 +182,7 @@ export const SharedSchema = z.object({
   color_causes: ColorCausesFile.optional(),
   optical_phenomena: OpticalPhenomenaFile.optional(),
   mineral_groups: MineralGroupsFile.optional(),
+  grading_topics: GradingTopicsFile.optional(),
 })
 
 /** The full Gem YAML shape. */

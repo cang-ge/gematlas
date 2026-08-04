@@ -18,6 +18,7 @@ import {
   ColorCausesFile,
   OpticalPhenomenaFile,
   MineralGroupsFile,
+  GradingTopicsFile,
 } from './schema'
 
 const GEM_DIR = 'data/gems/v1'
@@ -59,6 +60,10 @@ if (fs.existsSync(opticalPhenomenaPath)) {
 const mineralGroupsPath = path.join(SHARED_DIR, 'mineral-groups.yaml')
 if (fs.existsSync(mineralGroupsPath)) {
   validate(mineralGroupsPath, MineralGroupsFile, 'shared: mineral-groups.yaml')
+}
+const gradingPath = path.join(SHARED_DIR, 'grading.yaml')
+if (fs.existsSync(gradingPath)) {
+  validate(gradingPath, GradingTopicsFile, 'shared: grading.yaml')
 }
 
 console.log(`\nResult: ${pass}/${pass + fail} files valid`)

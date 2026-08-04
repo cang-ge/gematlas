@@ -6,6 +6,7 @@ import {
   GemSchema,
   CrystalSystemsFile,
   MohsScaleFile,
+  GradingTopicsFile,
 } from '../scripts/build/schema'
 
 const GEM_DIR = 'data/gems/v1'
@@ -31,5 +32,25 @@ describe('Shared YAML validation', () => {
     const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'mohs-scale.yaml'), 'utf8'))
     const parsed = MohsScaleFile.parse(raw)
     expect(parsed.scale).toHaveLength(10)
+  })
+
+  it('grading.yaml parses (4 grading topics)', () => {
+    const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'grading.yaml'), 'utf8'))
+    const parsed = GradingTopicsFile.parse(raw)
+    expect(parsed.topics).toHaveLength(4)
+    // every topic has an EN+ZH name and summary
+    for (const t of parsed.topics) {
+      expect(t.name_en.length).toBeGreaterThan(0)
+      expect(t.name_zh.length).toBeGreaterThan(0)
+      expect(t.summary_en.length).toBeGreaterThan(0)
+      expect(t.summary_zh.length).toBeGreaterThan(0)
+    }
+  })
+
+  it('grading.yaml topics have unique ids', () => {
+    const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'grading.yaml'), 'utf8'))
+    const parsed = GradingTopicsFile.parse(raw)
+    const ids = parsed.topics.map(t => t.id)
+    expect(new Set(ids).size).toBe(ids.length)
   })
 })

@@ -1,0 +1,125 @@
+# Gem grading taxonomy — 4Cs and colored-stone frameworks.
+#
+# Each entry describes a grading topic. Generator emits one bilingual subpage
+# per entry plus an overview index. IDs are kebab-case and stable.
+#
+# References: GIA Diamond Grading Manual; GIA Colored Stone Grading; CIBJO
+# Diamond, Precious Metals and Gemstones commissions; ICA coloured gemstone
+# guidelines; AGTA disclosure standards.
+
+overview_zh: |
+  分级是把宝石的价格、外观、保真性量化成可比较数字的行业惯例。
+  本模块讲解 GIA 4C 钻石分级框架（Carat / Color / Clarity / Cut），
+  以及彩色宝石独立的 hue-tone-saturation 模型，
+  并列出每类瑕疵 / 处理 / 产地披露的规范。
+overview_en: |
+  Grading turns the stone's weight, appearance, and authenticity into
+  standardized numbers that traders and labs can compare across regions.
+  This module covers the GIA 4C diamond framework (Carat / Color / Clarity /
+  Cut), the hue-tone-saturation model for coloured gems, and the disclosure
+  norms for clarity types, treatments, and origin reports.
+
+topics:
+  - id: diamond-4cs
+    name_zh: GIA 4C 钻石分级
+    name_en: GIA 4Cs (Diamond)
+    summary_zh: |
+      GIA 于 1953 年确立的全球通用钻石分级标准。四要素——克拉、颜色、
+      净度、切工——相互独立又联合决定钻石价格。
+    summary_en: |
+      The world standard for diamond grading, established by GIA in 1953.
+      Four independent measurements—carat, color, clarity, cut—jointly
+      determine a polished diamond's market value.
+    principles_zh: |
+      - 克拉 (ct)：1 ct = 0.2 g；1 point = 0.01 ct。重量越大稀有度指数级上升。
+      - 颜色：D–Z 色级，仅指黄/棕色调，从完全无色到浅黄/浅棕。
+      - 净度：FL–I3 十级，10× 放大镜下内含物数量与位置决定。
+      - 切工：Excellent / Very Good / Good / Fair / Poor 五级，比例决定火彩。
+    principles_en: |
+      - Carat (ct): 1 ct = 0.2 g; 1 point = 0.01 ct. Rarity rises exponentially.
+      - Color: D–Z scale, only the yellow/brown tint. D = colorless; Z = light.
+      - Clarity: FL–I3 scale under 10×. Inclusions and blemishes determine grade.
+      - Cut: Excellent → Poor. Proportions, symmetry, polish drive brilliance.
+    examples:
+      - { gem: "diamond", grade: "D/IF/Excellent", note_zh: "拍卖级", note_en: "auction-grade" }
+      - { gem: "sapphire", grade: "Cornflower Blue / Excellent", note_zh: "彩色宝石单看颜色+切工", note_en: "colored gems use colour + cut" }
+
+  - id: colored-stones
+    name_zh: 彩色宝石分级（hue / tone / saturation）
+    name_en: Coloured-Stone Grading
+    summary_zh: |
+      彩色宝石不像钻石有标准化 4C，而是用三维度描述颜色——hue（色相）、tone
+      （色调明暗）、saturation（饱和度）。GIA / AGL / Gübelin 等实验室都
+      采用此模型。
+    summary_en: |
+      Coloured gems lack a single 4C scheme. Instead, colour is graded on
+      three axes—hue (position on the colour wheel), tone (lightness), and
+      saturation (intensity). GIA, AGL, and Gübelin all use this model.
+    principles_zh: |
+      - hue：色相在色环上的位置；理想宝石色通常纯度高（无偏色）。
+      - tone：色调明暗，从 very light 到 very dark 六档；最佳宝石色多在 medium-light 到 medium。
+      - saturation：色彩饱和度，灰/棕色调降级；vivid / strong 最佳。
+      - 切工与净度评估独立，但权重低——颜色才是彩色宝石价格主驱动。
+    principles_en: |
+      - Hue: position on the colour wheel. Top stones are close to a pure hue.
+      - Tone: lightness in 6 grades (very light → very dark); best in medium / medium-light.
+      - Saturation: vividness. Browns and greys depress value; vivid / strong is best.
+      - Cut & clarity still matter, but colour dominates price for coloured gems.
+    examples:
+      - { gem: "ruby", grade: "vivid red, medium tone", note_zh: "鸽血红", note_en: "pigeon-blood red" }
+      - { gem: "emerald", grade: "vivid green, slightly bluish", note_en: "top Muzo / Chivor" }
+      - { gem: "sapphire", grade: "vivid blue, medium-dark", note_en: "royal / cornflower" }
+
+  - id: clarity-types
+    name_zh: 净度瑕疵类型 (inclusion / blemish)
+    name_en: Clarity Inclusion Types
+    summary_zh: |
+      宝石内含物 (inclusion) 与表面瑕疵 (blemish) 的种类、位置、数量、
+      可见性共同决定净度等级。同种瑕疵在不同宝石中影响不同——
+      祖母绿中的"花园"是常态，钻石中却致命。
+    summary_en: |
+      The type, position, quantity, and visibility of inclusions and blemishes
+      determine the clarity grade. The same feature matters differently in
+      different gems—a "jardin" is normal in emerald but critical in diamond.
+    principles_zh: |
+      - feather：羽状裂隙，最影响耐久性。
+      - cloud：云状包体，密集时影响透明度。
+      - crystal / mineral：结晶包裹体（金红石、锆石、方解石）。
+      - needle：金红石针状——蓝宝石"丝绒感"的关键。
+      - blemish / chip / scratch：表面瑕疵。
+      - 位置比类型更关键——亭部深处 vs 台面正中可见，影响差几倍。
+    principles_en: |
+      - Feather: fracture; worst for durability.
+      - Cloud: hazy cluster; degrades transparency if dense.
+      - Crystal / mineral: trapped inclusions (rutile, zircon, calcite).
+      - Needle: rutile silk; gives sapphire its velvety look.
+      - Blemish: surface chip / scratch / pit.
+      - Location dominates type—a feather under the table is much worse than one in the pavilion.
+    examples:
+      - { gem: "emerald", grade: "jardin (3-phase)", note_zh: "公认美感一部分", note_en: "accepted aesthetic feature" }
+      - { gem: "ruby", grade: "silk (rutile needles)", note_zh: "星光效应来源", note_en: "source of asterism" }
+
+  - id: origin-disclosure
+    name_zh: 产地 / 处理披露
+    name_en: Origin & Treatment Disclosure
+    summary_zh: |
+      行业规范 (CIBJO / FTC / AGTA) 要求销售方明示宝石是否经过处理以及是否
+      经过产地判定。常见处理类型依价格影响分级。
+    summary_en: |
+      Trade rules (CIBJO Blue Books; FTC Guides; AGTA Disclosure) require
+      sellers to declare treatments and, when claimed, geographic origin.
+      Common treatments are tier-ranked by their impact on value.
+    principles_zh: |
+      - 无处理 (untreated / "no indication")：价格最高，须出具权威实验室证书。
+      - 一般处理 (常规)：如红/蓝宝石热处理，行业普遍接受，**必须披露**。
+      - 优化处理 (enhancement)：如浸油 (emerald) / 染色 / 填充——价值显著降低。
+      - 产地判定 (origin)：基于包裹体组合 + 微量元素图谱，权威实验室分级。
+    principles_en: |
+      - Untreated ("No Indications of Treatment"): top tier; requires a respected lab report.
+      - Routine (e.g. heat on sapphire / ruby): widely accepted; **must be disclosed**.
+      - Enhancement (oil/resin in emerald, dye, fracture filling): large value hit.
+      - Origin opinion: based on inclusion suite + trace chemistry; only reputable labs.
+    examples:
+      - { gem: "ruby", grade: "heated (H)", note_zh: "常规 — 价格上限定", note_en: "routine — caps price" }
+      - { gem: "emerald", grade: "minor oil (Cedarwood)", note_en: "accepted with disclosure" }
+      - { gem: "sapphire", grade: "unheated, Kashmir", note_zh: "价格 5–10× 热处理", note_en: "5–10× price of heated" }

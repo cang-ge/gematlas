@@ -156,7 +156,13 @@ function sidebarEn() {
     ] }],
     '/identification/': [{ text: 'Identification', items: [{ text: 'Overview', link: 'intro' }] }],
     '/cutting/':         [{ text: 'Cutting',         items: [{ text: 'Overview', link: 'intro' }] }],
-    '/grading/':         [{ text: 'Grading',         items: [{ text: 'Overview', link: 'intro' }] }],
+    '/grading/':         [{ text: 'Grading', items: [
+      { text: 'Overview', link: 'intro' },
+      { text: 'GIA 4Cs (Diamond)', link: 'diamond-4cs' },
+      { text: 'Coloured-Stone Grading', link: 'colored-stones' },
+      { text: 'Clarity Inclusion Types', link: 'clarity-types' },
+      { text: 'Origin & Treatment Disclosure', link: 'origin-disclosure' },
+    ] }],
     '/gallery/':         [{ text: 'Gallery',         items: [{ text: 'Overview', link: 'intro' }] }],
   }
 }
@@ -204,7 +210,13 @@ function sidebarZh() {
     ] }],
     '/zh/identification/': [{ text: '鉴定', items: [{ text: '总览', link: 'intro' }] }],
     '/zh/cutting/':        [{ text: '切割', items: [{ text: '总览', link: 'intro' }] }],
-    '/zh/grading/':        [{ text: '分级', items: [{ text: '总览', link: 'intro' }] }],
+    '/zh/grading/':        [{ text: '分级', items: [
+      { text: '总览', link: 'intro' },
+      { text: 'GIA 4C 钻石分级', link: 'diamond-4cs' },
+      { text: '彩色宝石分级', link: 'colored-stones' },
+      { text: '净度瑕疵类型', link: 'clarity-types' },
+      { text: '产地与处理披露', link: 'origin-disclosure' },
+    ] }],
     '/zh/gallery/':        [{ text: '画廊', items: [{ text: '总览', link: 'intro' }] }],
   }
 }
