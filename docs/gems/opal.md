@@ -50,6 +50,19 @@ gem: opal
 | Disclosure Required | Yes |
 | Note | Sugar-acid treatment simulates black opal; must be disclosed |
 
+## Origin
+
+| Region |
+|---|
+| Andamooka / Lightning Ridge, Australia |
+| Ethiopia |
+| Mexico |
+
+## History & Lore
+
+Australia supplies ~95% of precious opal. Mexican fire opal and Lightning Ridge black opal are most prized; Rome ranked opal above all.
+
+
 ## Gallery
 
 <img src="../images/gems/opal/opal.jpg" alt="Opal" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

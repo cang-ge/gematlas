@@ -23,3 +23,12 @@ treatments:
 images:
   main: pyrite-gallery-1.jpg
   gallery: [pyrite-gallery-2.jpg, pyrite-gallery-3.jpg, pyrite.jpg]
+
+origin:
+  - { zh: "西班牙", en: "Spain" }
+  - { zh: "秘鲁", en: "Peru" }
+  - { zh: "美国伊利诺伊", en: "Illinois, USA" }
+history_zh: |
+  黄铁矿"愚人金"常被误认为黄金。印加文明用之制镜，阿兹特克饰之。
+history_en: |
+  Pyrite 'fool's gold' mimics gold. The Inca made mirrors from it; Aztecs adorned themselves with it.

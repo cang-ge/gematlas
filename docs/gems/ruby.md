@@ -50,6 +50,19 @@ gem: ruby
 | Disclosure Required | Yes |
 | Note | Most commercial rubies are heat-treated; untreated stones command significant premiums |
 
+## Origin
+
+| Region |
+|---|
+| Mogok, Myanmar |
+| Mozambique |
+| Thailand |
+
+## History & Lore
+
+Ruby is the king of coloured gems; Mogok (Myanmar) 'pigeon-blood' stones set the benchmark. Revered in India as the 'lord of gems', it reached Europe along the Silk Road.
+
+
 ## Gallery
 
 <img src="../images/gems/ruby/ruby-gallery-2.jpg" alt="Ruby" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

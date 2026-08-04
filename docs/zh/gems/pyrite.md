@@ -50,6 +50,19 @@ English: [Pyrite](/gems/pyrite)
 | 需披露 | 是 |
 | 备注 | 别名"愚人金"，易与真金混淆；常作为装饰材料 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 西班牙 |
+| 秘鲁 |
+| 美国伊利诺伊 |
+
+## 历史与传说
+
+黄铁矿"愚人金"常被误认为黄金。印加文明用之制镜，阿兹特克饰之。
+
+
 ## 图库
 
 <img src="../../images/gems/pyrite/pyrite-gallery-2.jpg" alt="黄铁矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -25,3 +25,13 @@ treatments:
 images:
   main: garnet-spessartine-gallery-1.jpg
   gallery: [garnet-spessartine-gallery-2.jpg, garnet-spessartine.jpg, garnet-spessartine-gallery-3.svg]
+
+origin:
+  - { zh: "中国新疆", en: "Xinjiang, China" }
+  - { zh: "纳米比亚", en: "Namibia" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "美国", en: "USA" }
+history_zh: |
+  锰铝榴石（芬达石）呈亮橙色，近年因独特荧光橙而受热捧。
+history_en: |
+  Spessartine (mandarin garnet) glows orange; its vivid tone has surged in demand.

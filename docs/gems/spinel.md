@@ -50,6 +50,19 @@ gem: spinel
 | Disclosure Required | No |
 | Note | Spinel is typically untreated; synthetic spinel is common in jewelry and requires lab identification |
 
+## Origin
+
+| Region |
+|---|
+| Myanmar |
+| Pamir, Tajikistan |
+| Vietnam |
+
+## History & Lore
+
+Red spinel was long confused with ruby — Britain's 'Black Prince's Ruby' and 'Timur Ruby' are both spinels. Myanmar's Man Sin yields fine stones.
+
+
 ## Gallery
 
 <img src="../images/gems/spinel/spinel-gallery-2.jpg" alt="Spinel" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

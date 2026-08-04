@@ -25,3 +25,12 @@ treatments:
 images:
   main: quartz-catseye-gallery-1.jpg
   gallery: [quartz-catseye-gallery-2.jpg, quartz-catseye.jpg, quartz-catseye-gallery-3.svg]
+
+origin:
+  - { zh: "斯里兰卡", en: "Sri Lanka" }
+  - { zh: "印度", en: "India" }
+  - { zh: "巴西", en: "Brazil" }
+history_zh: |
+  石英猫眼含平行针状包体产生猫眼效应，比金绿猫眼便宜但同样迷人。
+history_en: |
+  Quartz cat's-eye's chatoyancy comes from parallel needles; cheaper than chrysoberyl but equally charming.

@@ -50,6 +50,19 @@ gem: sodalite
 | Disclosure Required | Yes |
 | Note | Often mistaken for lapis lazuli; sodalite has more white veining and less pyrite |
 
+## Origin
+
+| Region |
+|---|
+| Canada |
+| Brazil |
+| Kola Peninsula, Russia |
+
+## History & Lore
+
+Sodalite's blue-and-white makes it a budget lapis. Ontario's Bancroft is a leading source.
+
+
 ## Gallery
 
 <img src="../images/gems/sodalite/sodalite-gallery-2.jpg" alt="Sodalite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

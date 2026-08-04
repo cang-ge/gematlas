@@ -50,6 +50,20 @@ gem: topaz
 | Disclosure Required | Yes |
 | Note | Commercial blue topaz is typically irradiated + heat treated |
 
+## Origin
+
+| Region |
+|---|
+| Minas Gerais, Brazil |
+| Urals |
+| Utah, USA |
+| Nigeria |
+
+## History & Lore
+
+Imperial topaz (yellow-orange) is most prized; ancient Egyptians mythologised its sun-island origin. Blue topaz is usually irradiated.
+
+
 ## Gallery
 
 <img src="../images/gems/topaz/topaz.jpg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

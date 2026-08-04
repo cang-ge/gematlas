@@ -50,6 +50,19 @@ English: [Opal](/gems/opal)
 | 需披露 | 是 |
 | 备注 | 糖酸处理用于仿黑欧泊，需披露 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 澳大利亚（南澳） |
+| 埃塞俄比亚 |
+| 墨西哥 |
+
+## 历史与传说
+
+澳大利亚供应全球约95%的珍贵欧泊。火欧泊与黑欧泊（闪电岭）尤为珍贵，古罗马视欧泊为最珍贵宝石。
+
+
 ## 图库
 
 <img src="../../images/gems/opal/opal.jpg" alt="欧泊" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

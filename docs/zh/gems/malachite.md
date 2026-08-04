@@ -50,6 +50,20 @@ English: [Malachite](/gems/malachite)
 | 需披露 | 是 |
 | 备注 | 韧性较差，雕刻品多以低硬度保护蜡处理 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 刚果（金） |
+| 赞比亚 |
+| 俄罗斯乌拉尔 |
+| 澳大利亚 |
+
+## 历史与传说
+
+孔雀石自古用于颜料与装饰，俄罗斯圣彼得堡冬宫孔雀石厅为其巅峰。
+
+
 ## 图库
 
 <img src="../../images/gems/malachite/malachite.jpg" alt="孔雀石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

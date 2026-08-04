@@ -50,6 +50,20 @@ gem: diamond
 | Disclosure Required | Yes |
 | Note | HPHT treatment must be disclosed; natural vs. synthetic distinguished by laser inscription |
 
+## Origin
+
+| Region |
+|---|
+| Golconda, India |
+| South Africa |
+| Yakutia, Russia |
+| Botswana |
+
+## History & Lore
+
+Diamond's 'eternal' symbolism stems from its hardness. Golconda yielded the great legends (Hope, Regent); Kimberley (1866) transformed supply.
+
+
 ## Gallery
 
 <img src="../images/gems/diamond/diamond-gallery-1.jpg" alt="Diamond" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

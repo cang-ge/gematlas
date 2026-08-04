@@ -50,6 +50,17 @@ English: [Charoite](/gems/charoite)
 | 需披露 | 否 |
 | 备注 | 仅产于俄罗斯萨哈共和国（Sakha Republic）恰拉河畔 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 俄罗斯西伯利亚 |
+
+## 历史与传说
+
+紫硅碱钙石仅产自俄罗斯恰拉河，20世纪70年代才被确认，紫色丝绢光泽独特。
+
+
 ## 图库
 
 <img src="../../images/gems/charoite/charoite-gallery-2.jpg" alt="紫硅碱钙石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

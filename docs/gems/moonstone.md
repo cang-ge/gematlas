@@ -50,6 +50,19 @@ gem: moonstone
 | Disclosure Required | Yes |
 | Note | Impregnation can enhance the adularescent sheen |
 
+## Origin
+
+| Region |
+|---|
+| Sri Lanka |
+| India |
+| Madagascar |
+
+## History & Lore
+
+Moonstone's adularescence comes from feldspar lamellar scattering; Romans believed it was frozen moonlight.
+
+
 ## Gallery
 
 <img src="../images/gems/moonstone/moonstone-gallery-1.jpg" alt="Moonstone" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -50,6 +50,20 @@ gem: peridot
 | Disclosure Required | No |
 | Note | Peridot is typically untreated; rare meteoritic origin commands premium prices |
 
+## Origin
+
+| Region |
+|---|
+| St. John's Island, Egypt |
+| China |
+| Pakistan |
+| Arizona, USA |
+
+## History & Lore
+
+Among the oldest gemstones, peridot was Egypt's 'gem of the sun'. China and Pakistan now lead supply.
+
+
 ## Gallery
 
 <img src="../images/gems/peridot/peridot-gallery-3.jpg" alt="Peridot" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

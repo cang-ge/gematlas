@@ -50,6 +50,19 @@ English: [Chrysoprase](/gems/chrysoprase)
 | 需披露 | 是 |
 | 备注 | 颜色在长时间日晒下可能褪色；与染色绿玛瑙不同 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 澳大利亚昆士兰 |
+| 波兰 |
+| 美国加州 |
+
+## 历史与传说
+
+绿玉髓的苹果绿由镍致色，是半透明石英中最珍贵者，普鲁士腓特烈大帝曾收藏。
+
+
 ## 图库
 
 <img src="../../images/gems/chrysoprase/chrysoprase.jpg" alt="绿玉髓" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

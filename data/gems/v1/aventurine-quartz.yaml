@@ -25,3 +25,12 @@ treatments:
 images:
   main: aventurine-quartz-gallery-1.jpg
   gallery: [aventurine-quartz-gallery-2.jpg, aventurine-quartz-gallery-3.jpg, aventurine-quartz.jpg]
+
+origin:
+  - { zh: "印度", en: "India" }
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "西班牙", en: "Spain" }
+history_zh: |
+  东陵石的闪金效应（aventurescence）由云母/赤铁矿包体产生，名称源自意大利"偶然"（per avventura）。
+history_en: |
+  Aventurine's sparkle comes from mica/hematite inclusions; the name stems from Italian 'per avventura' (by chance).

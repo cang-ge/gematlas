@@ -50,6 +50,19 @@ English: [Moonstone](/gems/moonstone)
 | 需披露 | 是 |
 | 备注 | 薄层间隙充填可改善月光效应 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 斯里兰卡 |
+| 印度 |
+| 马达加斯加 |
+
+## 历史与传说
+
+月光石月光效应来自长石层状结构散射，古罗马人认为其凝结了月光。
+
+
 ## 图库
 
 <img src="../../images/gems/moonstone/moonstone-gallery-1.jpg" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

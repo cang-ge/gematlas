@@ -50,6 +50,19 @@ gem: pyrite
 | Disclosure Required | Yes |
 | Note | Known as "fool's gold," often confused with real gold; widely used in decorative jewelry |
 
+## Origin
+
+| Region |
+|---|
+| Spain |
+| Peru |
+| Illinois, USA |
+
+## History & Lore
+
+Pyrite 'fool's gold' mimics gold. The Inca made mirrors from it; Aztecs adorned themselves with it.
+
+
 ## Gallery
 
 <img src="../images/gems/pyrite/pyrite-gallery-2.jpg" alt="Pyrite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -50,6 +50,18 @@ gem: tsavorite-garnet
 | Disclosure Required | No |
 | Note | No treatment needed; scarcity from small Kenya/Tanzania veins |
 
+## Origin
+
+| Region |
+|---|
+| Kenya |
+| Tanzania |
+
+## History & Lore
+
+Discovered in Kenya in 1967 by Campbell Bridges; named by Tiffany for Tsavo National Park. Green rivaling emerald with better durability.
+
+
 ## Gallery
 
 <img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-2.jpg" alt="Tsavorite Garnet" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

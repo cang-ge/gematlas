@@ -50,6 +50,19 @@ gem: labradorite
 | Disclosure Required | Yes |
 | Note | Labradorescence is a structural effect and cannot be artificially enhanced; surface coating sometimes used to add color |
 
+## Origin
+
+| Region |
+|---|
+| Labrador, Canada |
+| Madagascar |
+| Finland |
+
+## History & Lore
+
+Labradorite's iridescence (labradorescence) stems from lamellar twinning; the Finnish variety is 'spectrolite'.
+
+
 ## Gallery
 
 <img src="../images/gems/labradorite/labradorite-gallery-2.jpg" alt="Labradorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

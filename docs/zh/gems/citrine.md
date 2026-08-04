@@ -50,6 +50,19 @@ English: [Citrine](/gems/citrine)
 | 需披露 | 是 |
 | 备注 | 市售黄水晶多数为紫水晶加热产物 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 西班牙 |
+| 苏格兰 |
+
+## 历史与传说
+
+黄水晶多为紫晶加热产物。名称源于法文"柠檬"；苏格兰曾盛产天然黄晶。
+
+
 ## 图库
 
 <img src="../../images/gems/citrine/citrine-gallery-2.jpg" alt="黄水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

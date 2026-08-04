@@ -27,3 +27,13 @@ treatments:
 images:
   main: chalcedony-gallery-1.jpg
   gallery: [chalcedony-gallery-2.jpg, chalcedony-gallery-3.jpg, chalcedony.jpg]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "印度", en: "India" }
+  - { zh: "美国俄勒冈", en: "Oregon, USA" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+history_zh: |
+  玉髓是微晶石英总称，含玛瑙、红玉髓、蓝玉髓等。古罗马用以制作印章。
+history_en: |
+  Chalcedony is the microcrystalline quartz family (agate, carnelian, blue chalcedony). Rome used it for intaglio seals.

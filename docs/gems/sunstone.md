@@ -50,6 +50,19 @@ gem: sunstone
 | Disclosure Required | No |
 | Note | Oregon sunstone is famous for natural copper platelets that need no enhancement |
 
+## Origin
+
+| Region |
+|---|
+| Oregon, USA |
+| India |
+| Norway |
+
+## History & Lore
+
+Sunstone's golden flash (aventurescence) comes from hematite/copper platelets; Oregon copper sunstone is celebrated.
+
+
 ## Gallery
 
 <img src="../images/gems/sunstone/sunstone.jpg" alt="Sunstone" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

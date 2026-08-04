@@ -50,6 +50,20 @@ gem: malachite
 | Disclosure Required | Yes |
 | Note | Low toughness; carved pieces typically treated with protective wax |
 
+## Origin
+
+| Region |
+|---|
+| DR Congo |
+| Zambia |
+| Urals, Russia |
+| Australia |
+
+## History & Lore
+
+Malachite has coloured paints and palaces since antiquity; St Petersburg's Malachite Hall is its zenith.
+
+
 ## Gallery
 
 <img src="../images/gems/malachite/malachite.jpg" alt="Malachite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

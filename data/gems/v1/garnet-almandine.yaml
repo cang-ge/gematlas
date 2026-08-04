@@ -25,3 +25,13 @@ treatments:
 images:
   main: garnet-almandine-gallery-3.jpg
   gallery: [garnet-almandine-gallery-1.jpg, garnet-almandine-gallery-2.jpg, garnet-almandine.jpg]
+
+origin:
+  - { zh: "印度", en: "India" }
+  - { zh: "斯里兰卡", en: "Sri Lanka" }
+  - { zh: "美国", en: "USA" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+history_zh: |
+  铁铝榴石是最常见的红色石榴石，中世纪宝石商称其为"石榴石"（石榴籽）。
+history_en: |
+  Almandine is the common red garnet; medieval lapidaries coined 'garnet' from pomegranate seeds.

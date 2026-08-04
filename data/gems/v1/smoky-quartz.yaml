@@ -25,3 +25,13 @@ treatments:
 images:
   main: smoky-quartz-gallery-2.jpg
   gallery: [smoky-quartz-gallery-1.jpg, smoky-quartz.jpg, smoky-quartz-gallery-3.svg]
+
+origin:
+  - { zh: "瑞士阿尔卑斯", en: "Swiss Alps" }
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "美国科罗拉多", en: "Colorado, USA" }
+  - { zh: "苏格兰凯恩戈姆", en: "Cairngorm, Scotland" }
+history_zh: |
+  烟晶因辐射致色，苏格兰凯恩戈姆是传统产地，维多利亚时代用于哀悼珠宝。
+history_en: |
+  Smoky quartz's colour comes from natural radiation; Scotland's Cairngorm was traditional, used in Victorian mourning jewelry.

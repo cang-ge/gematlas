@@ -50,6 +50,20 @@ English: [Almandine (Garnet)](/gems/garnet-almandine)
 | 需披露 | 否 |
 | 备注 | 商业最常见石榴石，通常无处理 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 印度 |
+| 斯里兰卡 |
+| 美国 |
+| 马达加斯加 |
+
+## 历史与传说
+
+铁铝榴石是最常见的红色石榴石，中世纪宝石商称其为"石榴石"（石榴籽）。
+
+
 ## 图库
 
 <img src="../../images/gems/garnet-almandine/garnet-almandine-gallery-1.jpg" alt="铁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

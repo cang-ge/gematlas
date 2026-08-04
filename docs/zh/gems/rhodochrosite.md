@@ -50,6 +50,19 @@ English: [Rhodochrosite](/gems/rhodochrosite)
 | 需披露 | 是 |
 | 备注 | 阿根廷"印加玫瑰"为最著名品种，具同心圆条带 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 阿根廷卡皮利亚 |
+| 南非 |
+| 美国科罗拉多 |
+
+## 历史与传说
+
+菱锰矿"印加玫瑰"是阿根廷国石，带状粉色纹理似玫瑰花瓣。
+
+
 ## 图库
 
 <img src="../../images/gems/rhodochrosite/rhodochrosite-gallery-2.jpg" alt="菱锰矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

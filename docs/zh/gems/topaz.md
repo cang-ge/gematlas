@@ -50,6 +50,20 @@ English: [Topaz](/gems/topaz)
 | 需披露 | 是 |
 | 备注 | 市售蓝色托帕石多为辐照 + 加热处理 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西米纳斯吉拉斯 |
+| 俄罗斯乌拉尔 |
+| 美国犹他 |
+| 尼日利亚 |
+
+## 历史与传说
+
+帝王托帕石（黄橙）最珍贵，古埃及传说源于太阳岛。蓝托帕石多经辐照改色。
+
+
 ## 图库
 
 <img src="../../images/gems/topaz/topaz.jpg" alt="黄玉" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

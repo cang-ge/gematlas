@@ -25,3 +25,12 @@ treatments:
 images:
   main: chrysoprase-gallery-1.jpg
   gallery: [chrysoprase.jpg, chrysoprase-gallery-2.jpg, chrysoprase-gallery-3.jpg]
+
+origin:
+  - { zh: "澳大利亚昆士兰", en: "Queensland, Australia" }
+  - { zh: "波兰", en: "Poland" }
+  - { zh: "美国加州", en: "California, USA" }
+history_zh: |
+  绿玉髓的苹果绿由镍致色，是半透明石英中最珍贵者，普鲁士腓特烈大帝曾收藏。
+history_en: |
+  Chrysoprase's apple-green comes from nickel; it is the most precious translucent quartz, collected by Frederick the Great.

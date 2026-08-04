@@ -25,3 +25,13 @@ treatments:
 images:
   main: tigers-eye-gallery-1.jpg
   gallery: [tigers-eye-gallery-2.jpg, tigers-eye.jpg, tigers-eye-gallery-3.jpg]
+
+origin:
+  - { zh: "南非", en: "South Africa" }
+  - { zh: "澳大利亚", en: "Australia" }
+  - { zh: "印度", en: "India" }
+  - { zh: "巴西", en: "Brazil" }
+history_zh: |
+  虎眼石是硅化青石棉，鹰眼/牛眼为其变种。古罗马武士用作护身符。
+history_en: |
+  Tiger's-eye is silicified crocidolite; hawk's-eye and bull's-eye are variants. Roman soldiers wore it as a talisman.

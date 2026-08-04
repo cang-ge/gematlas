@@ -50,6 +50,20 @@ gem: chalcedony
 | Disclosure Required | Yes |
 | Note | Agate dyeing techniques are thousands of years old; nearly all black and blue agate on the market is dyed |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| India |
+| Oregon, USA |
+| Madagascar |
+
+## History & Lore
+
+Chalcedony is the microcrystalline quartz family (agate, carnelian, blue chalcedony). Rome used it for intaglio seals.
+
+
 ## Gallery
 
 <img src="../images/gems/chalcedony/chalcedony-gallery-2.jpg" alt="Chalcedony / Agate" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

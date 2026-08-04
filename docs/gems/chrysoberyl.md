@@ -50,6 +50,20 @@ gem: chrysoberyl
 | Disclosure Required | No |
 | Note | Same mineral species as alexandrite; cymophane (cat's-eye) is the prized variety |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| Sri Lanka |
+| Madagascar |
+| Urals, Russia |
+
+## History & Lore
+
+Chrysoberyl is famous for cat's-eye (cymophane) and alexandrite; it ranks a hard 8.5.
+
+
 ## Gallery
 
 <img src="../images/gems/chrysoberyl/chrysoberyl-gallery-1.jpg" alt="Chrysoberyl" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

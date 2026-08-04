@@ -50,6 +50,19 @@ English: [Aquamarine](/gems/aquamarine)
 | 需披露 | 是 |
 | 备注 | 加热可使绿色调转为稳定的蓝色 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西米纳斯吉拉斯 |
+| 马达加斯加 |
+| 巴基斯坦 |
+
+## 历史与传说
+
+与祖母绿同属绿柱石族。巴西米纳斯吉拉斯产出品质最佳的海蓝宝，常用作航海护身符。
+
+
 ## 图库
 
 <img src="../../images/gems/aquamarine/aquamarine-gallery-3.jpg" alt="海蓝宝" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

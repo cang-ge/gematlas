@@ -50,6 +50,19 @@ English: [Emerald](/gems/emerald)
 | 需披露 | 是 |
 | 备注 | 注油（雪松油）属行业可接受处理；无油溢价显著 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 哥伦比亚（木佐/契沃尔） |
+| 赞比亚 |
+| 巴西 |
+
+## 历史与传说
+
+哥伦比亚木佐（Muzo）祖母绿绿中带蓝最受珍视，西班牙殖民者16世纪即开始开采。埃及克利奥帕特拉矿是已知最早产地。
+
+
 ## 图库
 
 <img src="../../images/gems/emerald/emerald-gallery-3.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

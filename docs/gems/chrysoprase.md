@@ -50,6 +50,19 @@ gem: chrysoprase
 | Disclosure Required | Yes |
 | Note | Color may fade under prolonged sunlight; distinct from dyed green agate |
 
+## Origin
+
+| Region |
+|---|
+| Queensland, Australia |
+| Poland |
+| California, USA |
+
+## History & Lore
+
+Chrysoprase's apple-green comes from nickel; it is the most precious translucent quartz, collected by Frederick the Great.
+
+
 ## Gallery
 
 <img src="../images/gems/chrysoprase/chrysoprase.jpg" alt="Chrysoprase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

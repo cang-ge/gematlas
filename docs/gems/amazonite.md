@@ -50,6 +50,20 @@ gem: amazonite
 | Disclosure Required | Yes |
 | Note | Famous sources include Miass (Russia) and Pikes Peak (USA) |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| Colorado, USA |
+| Russia |
+| Madagascar |
+
+## History & Lore
+
+Amazonite is named for the Amazon (erroneously); its blue-green checkerboard is distinctive. Used in ancient Egypt.
+
+
 ## Gallery
 
 <img src="../images/gems/amazonite/amazonite-gallery-2.jpg" alt="Amazonite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

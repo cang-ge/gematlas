@@ -50,6 +50,19 @@ gem: paraiba-tourmaline
 | Disclosure Required | Yes |
 | Note | Original Brazilian Paraíba is scarce; Mozambique material trades at lower premium |
 
+## Origin
+
+| Region |
+|---|
+| Paraíba, Brazil |
+| Nigeria |
+| Mozambique |
+
+## History & Lore
+
+Discovered in Paraíba (Brazil) in 1989; copper gives its electric neon blue. Instantly iconic and among the priciest tourmalines.
+
+
 ## Gallery
 
 <img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-2.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

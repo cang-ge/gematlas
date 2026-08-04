@@ -104,6 +104,21 @@ function mdTreatments(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'z
 | 备注 | ${t.note_zh || '—'} |`
 }
 
+function mdOrigin(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+  if (!gem.origin || gem.origin.length === 0) return ''
+  const title = locale === 'en' ? '## Origin' : '## 主要产地'
+  const col = locale === 'en' ? '| Region |' : '| 产地 |'
+  const rows = gem.origin.map(o => `| ${locale === 'en' ? o.en : o.zh} |`).join('\n')
+  return [title, '', col, '|---|', rows, ''].join('\n')
+}
+
+function mdHistory(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+  const text = locale === 'en' ? gem.history_en : gem.history_zh
+  if (!text) return ''
+  const title = locale === 'en' ? '## History & Lore' : '## 历史与传说'
+  return [title, '', text, ''].join('\n')
+}
+
 function pageBody(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
   const name = locale === 'en' ? gem.names.en : gem.names.zh
   const otherName = locale === 'en' ? gem.names.zh : gem.names.en
@@ -153,6 +168,8 @@ function pageBody(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'):
     '',
     mdTreatments(gem, locale),
     '',
+    mdOrigin(gem, locale),
+    mdHistory(gem, locale),
   ]
 
   // Append gallery section if YAML has images.gallery

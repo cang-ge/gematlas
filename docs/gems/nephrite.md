@@ -50,6 +50,19 @@ gem: nephrite
 | Disclosure Required | Yes |
 | Note | Different mineral species from jadeite (pyroxene); Xinjiang Hetian is the most famous source |
 
+## Origin
+
+| Region |
+|---|
+| Hetian, Xinjiang, China |
+| British Columbia, Canada |
+| Russia |
+
+## History & Lore
+
+Nephrite anchors 8,000 years of Chinese jade culture; Hetian white jade was the imperial standard ('virtue like jade').
+
+
 ## Gallery
 
 <img src="../images/gems/nephrite/nephrite-gallery-3.jpg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

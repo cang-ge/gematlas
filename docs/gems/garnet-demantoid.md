@@ -50,6 +50,18 @@ gem: garnet-demantoid
 | Disclosure Required | No |
 | Note | Russian Ural Mountains are the most famous source; "horsetail" inclusions are characteristic |
 
+## Origin
+
+| Region |
+|---|
+| Urals, Russia |
+| Namibia |
+
+## History & Lore
+
+Demantoid is the green garnet king with dispersion exceeding diamond; beloved in Russian imperial jewelry.
+
+
 ## Gallery
 
 <img src="../images/gems/garnet-demantoid/garnet-demantoid-gallery-2.jpg" alt="Demantoid (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

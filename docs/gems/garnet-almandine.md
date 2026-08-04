@@ -50,6 +50,20 @@ gem: garnet-almandine
 | Disclosure Required | No |
 | Note | Most common commercial garnet, typically untreated |
 
+## Origin
+
+| Region |
+|---|
+| India |
+| Sri Lanka |
+| USA |
+| Madagascar |
+
+## History & Lore
+
+Almandine is the common red garnet; medieval lapidaries coined 'garnet' from pomegranate seeds.
+
+
 ## Gallery
 
 <img src="../images/gems/garnet-almandine/garnet-almandine-gallery-1.jpg" alt="Almandine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

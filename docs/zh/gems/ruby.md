@@ -50,6 +50,19 @@ English: [Ruby](/gems/ruby)
 | 需披露 | 是 |
 | 备注 | 绝大多数商业红宝石经过热处理，市场可接受；无处理溢价显著 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 缅甸莫谷 |
+| 莫桑比克 |
+| 泰国 |
+
+## 历史与传说
+
+红宝石是五大名宝之首，缅甸莫谷（Mogok）产出的"鸽血红"最负盛名。古印度称其为"宝石之王"，早期贸易沿丝绸之路西传。
+
+
 ## 图库
 
 <img src="../../images/gems/ruby/ruby-gallery-2.jpg" alt="红宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

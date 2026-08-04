@@ -50,6 +50,18 @@ English: [Tsavorite Garnet](/gems/tsavorite-garnet)
 | 需披露 | 否 |
 | 备注 | 无处理需求；稀缺性来自肯尼亚/坦桑尼亚小矿脉 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 肯尼亚 |
+| 坦桑尼亚 |
+
+## 历史与传说
+
+1967年由苏格兰宝石学家坎贝尔·布里奇斯在肯尼亚发现，蒂芙尼以肯尼亚沙弗国家公园命名。翠绿不输祖母绿且更耐久。
+
+
 ## 图库
 
 <img src="../../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-2.jpg" alt="沙弗莱石榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -50,6 +50,20 @@ gem: tigers-eye
 | Disclosure Required | Yes |
 | Note | Heat treatment can enhance red-brown; Hawk-eye is the unoxidized variety |
 
+## Origin
+
+| Region |
+|---|
+| South Africa |
+| Australia |
+| India |
+| Brazil |
+
+## History & Lore
+
+Tiger's-eye is silicified crocidolite; hawk's-eye and bull's-eye are variants. Roman soldiers wore it as a talisman.
+
+
 ## Gallery
 
 <img src="../images/gems/tigers-eye/tigers-eye-gallery-2.jpg" alt="Tiger's Eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

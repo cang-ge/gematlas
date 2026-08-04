@@ -50,6 +50,17 @@ English: [Tanzanite](/gems/tanzanite)
 | 需披露 | 是 |
 | 备注 | 几乎所有坦桑石均经热处理以增强蓝紫调 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 坦桑尼亚（梅雷拉尼山） |
+
+## 历史与传说
+
+1967年在坦桑尼亚阿鲁沙附近发现，由蒂芙尼命名推广。全世界仅此一处产地，稀有度极高。
+
+
 ## 图库
 
 <img src="../../images/gems/tanzanite/tanzanite-gallery-2.jpg" alt="坦桑石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

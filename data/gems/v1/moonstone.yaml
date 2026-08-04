@@ -25,3 +25,12 @@ treatments:
 images:
   main: moonstone-gallery-2.jpg
   gallery: [moonstone-gallery-1.jpg, moonstone-gallery-3.jpg, moonstone.png]
+
+origin:
+  - { zh: "斯里兰卡", en: "Sri Lanka" }
+  - { zh: "印度", en: "India" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+history_zh: |
+  月光石月光效应来自长石层状结构散射，古罗马人认为其凝结了月光。
+history_en: |
+  Moonstone's adularescence comes from feldspar lamellar scattering; Romans believed it was frozen moonlight.

@@ -50,6 +50,20 @@ English: [Serpentine](/gems/serpentine)
 | 需披露 | 是 |
 | 备注 | 中国岫玉（蛇纹石玉）有数千年开采史；与和田玉不同矿物 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 中国 |
+| 南非 |
+| 美国加州 |
+| 英国康沃尔 |
+
+## 历史与传说
+
+蛇纹石"新山玉"常仿翡翠，因表面蛇皮状光泽得名。加州州石。
+
+
 ## 图库
 
 <img src="../../images/gems/serpentine/serpentine-gallery-3.jpg" alt="蛇纹石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

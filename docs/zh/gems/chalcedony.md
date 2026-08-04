@@ -50,6 +50,20 @@ English: [Chalcedony / Agate](/gems/chalcedony)
 | 需披露 | 是 |
 | 备注 | 玛瑙的染色技术已有数千年历史；几乎市场上的所有黑玛瑙和蓝玛瑙都是染色产物 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 印度 |
+| 美国俄勒冈 |
+| 马达加斯加 |
+
+## 历史与传说
+
+玉髓是微晶石英总称，含玛瑙、红玉髓、蓝玉髓等。古罗马用以制作印章。
+
+
 ## 图库
 
 <img src="../../images/gems/chalcedony/chalcedony-gallery-2.jpg" alt="玉髓 / 玛瑙" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

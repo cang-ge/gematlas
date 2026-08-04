@@ -50,6 +50,20 @@ English: [Tourmaline](/gems/tourmaline)
 | 需披露 | 是 |
 | 备注 | 加热可改善颜色；辐照可加深浅色品种 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 阿富汗 |
+| 莫桑比克 |
+| 美国缅因/加州 |
+
+## 历史与传说
+
+碧玺颜色之多居宝石之首，"西瓜碧玺"双色共生尤为珍奇。古锡兰语意为"彩色宝石"。
+
+
 ## 图库
 
 <img src="../../images/gems/tourmaline/tourmaline-gallery-2.jpg" alt="碧玺" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

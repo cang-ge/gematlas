@@ -24,3 +24,12 @@ treatments:
 images:
   main: alexandrite-gallery-1.jpg
   gallery: [alexandrite-gallery-2.jpg, alexandrite-gallery-3.jpg, alexandrite.jpg]
+
+origin:
+  - { zh: "俄罗斯乌拉尔", en: "Ural Mountains, Russia" }
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "斯里兰卡", en: "Sri Lanka" }
+history_zh: |
+  1830年首次发现于俄罗斯乌拉尔，以沙皇亚历山大二世命名。日光下绿、灯光下红的变色效应使其极为罕见珍贵。
+history_en: |
+  Discovered in the Urals in 1830 and named for Tsar Alexander II. Its green-to-red colour change makes it among the rarest gems.

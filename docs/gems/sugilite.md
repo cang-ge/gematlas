@@ -50,6 +50,19 @@ gem: sugilite
 | Disclosure Required | No |
 | Note | Northern Cape, South Africa is the most important source (discovered 1973) |
 
+## Origin
+
+| Region |
+|---|
+| Wessels, South Africa |
+| Japan |
+| Canada |
+
+## History & Lore
+
+Sugilite was first found in quantity at Wessels (South Africa) in the 1970s; its royal purple is called the 'love stone'.
+
+
 ## Gallery
 
 <img src="../images/gems/sugilite/sugilite-gallery-2.jpg" alt="Sugilite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -50,6 +50,20 @@ English: [Tiger's Eye](/gems/tigers-eye)
 | 需披露 | 是 |
 | 备注 | 加热可增强红棕色；鹰眼石为未氧化变种 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 南非 |
+| 澳大利亚 |
+| 印度 |
+| 巴西 |
+
+## 历史与传说
+
+虎眼石是硅化青石棉，鹰眼/牛眼为其变种。古罗马武士用作护身符。
+
+
 ## 图库
 
 <img src="../../images/gems/tigers-eye/tigers-eye-gallery-2.jpg" alt="虎眼石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -25,3 +25,13 @@ treatments:
 images:
   main: amazonite-gallery-1.jpg
   gallery: [amazonite-gallery-2.jpg, amazonite-gallery-3.jpg, amazonite-gallery-3.png]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "美国科罗拉多", en: "Colorado, USA" }
+  - { zh: "俄罗斯", en: "Russia" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+history_zh: |
+  天河石以亚马孙河命名（实为讹传），蓝绿棋盘格纹独特，古埃及用作饰品。
+history_en: |
+  Amazonite is named for the Amazon (erroneously); its blue-green checkerboard is distinctive. Used in ancient Egypt.

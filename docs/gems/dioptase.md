@@ -50,6 +50,19 @@ gem: dioptase
 | Disclosure Required | No |
 | Note | Color rivals emerald but is even more saturated; lower hardness (5.5) limits everyday wear |
 
+## Origin
+
+| Region |
+|---|
+| Namibia |
+| DR Congo |
+| Russia |
+
+## History & Lore
+
+Dioptase's intense emerald-green crystals are stunning but soft; it is mostly a mineral specimen.
+
+
 ## Gallery
 
 <img src="../images/gems/dioptase/dioptase-gallery-2.jpg" alt="Dioptase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

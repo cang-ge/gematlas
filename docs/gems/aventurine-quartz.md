@@ -50,6 +50,19 @@ gem: aventurine-quartz
 | Disclosure Required | Yes |
 | Note | Commercial blue varieties are often dyed; green is the most common natural color, sourced mainly from India |
 
+## Origin
+
+| Region |
+|---|
+| India |
+| Brazil |
+| Spain |
+
+## History & Lore
+
+Aventurine's sparkle comes from mica/hematite inclusions; the name stems from Italian 'per avventura' (by chance).
+
+
 ## Gallery
 
 <img src="../images/gems/aventurine-quartz/aventurine-quartz-gallery-2.jpg" alt="Aventurine Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

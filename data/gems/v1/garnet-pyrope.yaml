@@ -25,3 +25,12 @@ treatments:
 images:
   main: garnet-pyrope-gallery-3.jpg
   gallery: [garnet-pyrope-gallery-1.jpg, garnet-pyrope-gallery-2.jpg, garnet-pyrope.jpg]
+
+origin:
+  - { zh: "捷克波西米亚", en: "Bohemia, Czech Republic" }
+  - { zh: "南非", en: "South Africa" }
+  - { zh: "坦桑尼亚", en: "Tanzania" }
+history_zh: |
+  镁铝榴石深红近黑，波西米亚自古开采，欧洲古墓中常见其珠饰。
+history_en: |
+  Pyrope's deep red nears black; Bohemia mined it since antiquity and it appears in ancient European tombs.

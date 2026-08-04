@@ -50,6 +50,20 @@ gem: amethyst
 | Disclosure Required | Yes |
 | Note | Heat can convert to citrine (yellow) or prasiolite (green) |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| Uruguay |
+| Zambia |
+| Russia |
+
+## History & Lore
+
+Amethyst has symbolised royalty and sobriety since antiquity (Greek 'not drunk'). Uruguay deep-purple stones are most sought.
+
+
 ## Gallery
 
 <img src="../images/gems/amethyst/amethyst-gallery-3.jpg" alt="Amethyst" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

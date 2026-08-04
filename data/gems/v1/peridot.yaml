@@ -25,3 +25,13 @@ treatments:
 images:
   main: peridot-gallery-2.jpg
   gallery: [peridot-gallery-3.jpg, peridot.jpg, peridot-gallery-1.jpg]
+
+origin:
+  - { zh: "埃及圣约翰岛", en: "St. John's Island, Egypt" }
+  - { zh: "中国", en: "China" }
+  - { zh: "巴基斯坦", en: "Pakistan" }
+  - { zh: "美国亚利桑那", en: "Arizona, USA" }
+history_zh: |
+  橄榄石是最古老宝石之一，古埃及称为"太阳之石"。中国与巴基斯坦现为主要供应地。
+history_en: |
+  Among the oldest gemstones, peridot was Egypt's 'gem of the sun'. China and Pakistan now lead supply.

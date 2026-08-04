@@ -50,6 +50,20 @@ gem: prehnite
 | Disclosure Required | No |
 | Note | Named for its botryoidal (grape-like) habit; primarily used in pendants and carvings |
 
+## Origin
+
+| Region |
+|---|
+| South Africa |
+| Australia |
+| China |
+| New Jersey, USA |
+
+## History & Lore
+
+Prehnite was named for Dutch colonist Hendrik von Prehn — the first mineral named after a person.
+
+
 ## Gallery
 
 <img src="../images/gems/prehnite/prehnite-gallery-2.jpg" alt="Prehnite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

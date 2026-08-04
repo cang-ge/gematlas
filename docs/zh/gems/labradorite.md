@@ -50,6 +50,19 @@ English: [Labradorite](/gems/labradorite)
 | 需披露 | 是 |
 | 备注 | 拉长石的晕彩是结构效应，不可人造优化 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 加拿大拉布拉多 |
+| 马达加斯加 |
+| 芬兰 |
+
+## 历史与传说
+
+拉长石拉长光（labradorescence）由层状双晶干涉产生。芬兰变种称"光谱石"。
+
+
 ## 图库
 
 <img src="../../images/gems/labradorite/labradorite-gallery-2.jpg" alt="拉长石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

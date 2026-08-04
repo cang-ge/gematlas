@@ -50,6 +50,19 @@ gem: morganite
 | Disclosure Required | Yes |
 | Note | Heat or irradiation can intensify yellow or pink saturation |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| Madagascar |
+| Afghanistan |
+
+## History & Lore
+
+Pink beryl named in 1910 for banker J.P. Morgan, a noted gem collector.
+
+
 ## Gallery
 
 <img src="../images/gems/morganite/morganite-gallery-3.jpg" alt="Morganite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

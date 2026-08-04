@@ -50,6 +50,20 @@ English: [Prehnite](/gems/prehnite)
 | 需披露 | 否 |
 | 备注 | 常与葡萄状晶形关联；镶嵌以吊坠/雕刻为主 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 南非 |
+| 澳大利亚 |
+| 中国 |
+| 美国新泽西 |
+
+## 历史与传说
+
+葡萄石以荷兰殖民者Hendrik von Prehn命名，是首个以人名命名的矿物。
+
+
 ## 图库
 
 <img src="../../images/gems/prehnite/prehnite-gallery-2.jpg" alt="葡萄石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

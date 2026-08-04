@@ -50,6 +50,20 @@ English: [Iolite](/gems/iolite)
 | 需披露 | 否 |
 | 备注 | 无已知优化处理；维京人曾用作偏振导航仪 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 印度 |
+| 斯里兰卡 |
+| 马达加斯加 |
+| 坦桑尼亚 |
+
+## 历史与传说
+
+堇青石因强三色性被维京航海家用作偏振罗盘，又称"水蓝宝石"。
+
+
 ## 图库
 
 <img src="../../images/gems/iolite/iolite.jpg" alt="堇青石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

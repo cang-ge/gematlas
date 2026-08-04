@@ -27,3 +27,13 @@ treatments:
 images:
   main: tourmaline-gallery-1.jpg
   gallery: [tourmaline-gallery-2.jpg, tourmaline-gallery-3.jpg, tourmaline.jpg]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "阿富汗", en: "Afghanistan" }
+  - { zh: "莫桑比克", en: "Mozambique" }
+  - { zh: "美国缅因/加州", en: "Maine / California, USA" }
+history_zh: |
+  碧玺颜色之多居宝石之首，"西瓜碧玺"双色共生尤为珍奇。古锡兰语意为"彩色宝石"。
+history_en: |
+  Tourmaline shows the widest colour range of any gem; watermelon bicolour is prized. Sinhalese for 'mixed coloured stone'.

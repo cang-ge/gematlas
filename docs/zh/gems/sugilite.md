@@ -50,6 +50,19 @@ English: [Sugilite](/gems/sugilite)
 | 需披露 | 否 |
 | 备注 | 南非北开普省为最重要产地（1973 年发现） |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 南非温贝 |
+| 日本 |
+| 加拿大 |
+
+## 历史与传说
+
+苏纪石1970年代在南非温贝矿首次大量发现，浓郁紫色被昵称"爱情石"。
+
+
 ## 图库
 
 <img src="../../images/gems/sugilite/sugilite-gallery-2.jpg" alt="苏纪石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

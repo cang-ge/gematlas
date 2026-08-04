@@ -25,3 +25,12 @@ treatments:
 images:
   main: sodalite-gallery-1.jpg
   gallery: [sodalite-gallery-2.jpg, sodalite-gallery-3.jpg, sodalite.jpg]
+
+origin:
+  - { zh: "加拿大", en: "Canada" }
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "俄罗斯科拉半岛", en: "Kola Peninsula, Russia" }
+history_zh: |
+  方钠石蓝白相间，是青金石的平价替代。加拿大安大略班克罗夫特盛产。
+history_en: |
+  Sodalite's blue-and-white makes it a budget lapis. Ontario's Bancroft is a leading source.

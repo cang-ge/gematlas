@@ -50,6 +50,20 @@ gem: rock-crystal
 | Disclosure Required | No |
 | Note | The most common natural gem material, distributed worldwide; includes rutilated quartz and enhydro varieties |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| China |
+| Madagascar |
+| Arkansas, USA |
+
+## History & Lore
+
+Rock crystal was long thought to be frozen ice (Greek 'krystallos'). Distributed worldwide.
+
+
 ## Gallery
 
 <img src="../images/gems/rock-crystal/rock-crystal-gallery-1.svg" alt="Rock Crystal" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

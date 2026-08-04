@@ -50,6 +50,19 @@ gem: lapis-lazuli
 | Disclosure Required | Yes |
 | Note | Fine quality contains small golden pyrite specks ("stardust"); Afghanistan is the most famous source |
 
+## Origin
+
+| Region |
+|---|
+| Badakhshan, Afghanistan |
+| Chile |
+| Lake Baikal, Russia |
+
+## History & Lore
+
+Lapis lazuli supplied the pharaohs and Renaissance ultramarine. Afghanistan's Sar-e-Sang mine has run for 6,000 years.
+
+
 ## Gallery
 
 <img src="../images/gems/lapis-lazuli/lapis-lazuli-gallery-3.jpg" alt="Lapis Lazuli" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

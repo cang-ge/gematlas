@@ -50,6 +50,19 @@ English: [Quartz Cat's-eye](/gems/quartz-catseye)
 | 需披露 | 是 |
 | 备注 | 与金绿猫眼不同，石英猫眼的猫眼带较宽、效果较弱 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 斯里兰卡 |
+| 印度 |
+| 巴西 |
+
+## 历史与传说
+
+石英猫眼含平行针状包体产生猫眼效应，比金绿猫眼便宜但同样迷人。
+
+
 ## 图库
 
 <img src="../../images/gems/quartz-catseye/quartz-catseye-gallery-2.jpg" alt="石英猫眼" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

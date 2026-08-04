@@ -50,6 +50,19 @@ gem: rose-quartz
 | Disclosure Required | No |
 | Note | Typically untreated; widely used in carvings and jewelry; well-formed crystals are rare |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| Madagascar |
+| South Africa |
+
+## History & Lore
+
+Rose quartz is the love stone; Egypt and Rome ground it for cosmetics. Large clean crystals are rare.
+
+
 ## Gallery
 
 <img src="../images/gems/rose-quartz/rose-quartz-gallery-2.jpg" alt="Rose Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

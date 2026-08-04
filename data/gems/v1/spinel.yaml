@@ -24,3 +24,12 @@ treatments:
 images:
   main: spinel-gallery-1.jpg
   gallery: [spinel-gallery-2.jpg, spinel-gallery-3.jpg, spinel.jpg]
+
+origin:
+  - { zh: "缅甸", en: "Myanmar" }
+  - { zh: "塔吉克斯坦（帕米尔）", en: "Pamir, Tajikistan" }
+  - { zh: "越南", en: "Vietnam" }
+history_zh: |
+  红尖晶石长期与红宝石混名——英国"黑王子红宝石"和"铁木尔红宝石"实为尖晶石。缅甸曼辛是高品质产地。
+history_en: |
+  Red spinel was long confused with ruby — Britain's 'Black Prince's Ruby' and 'Timur Ruby' are both spinels. Myanmar's Man Sin yields fine stones.

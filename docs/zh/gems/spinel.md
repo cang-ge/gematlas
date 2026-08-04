@@ -50,6 +50,19 @@ English: [Spinel](/gems/spinel)
 | 需披露 | 否 |
 | 备注 | 尖晶石通常无处理；合成尖晶石多见于珠宝，需专业仪器鉴别 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 缅甸 |
+| 塔吉克斯坦（帕米尔） |
+| 越南 |
+
+## 历史与传说
+
+红尖晶石长期与红宝石混名——英国"黑王子红宝石"和"铁木尔红宝石"实为尖晶石。缅甸曼辛是高品质产地。
+
+
 ## 图库
 
 <img src="../../images/gems/spinel/spinel-gallery-2.jpg" alt="尖晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

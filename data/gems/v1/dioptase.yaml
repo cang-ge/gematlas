@@ -24,3 +24,12 @@ treatments:
 images:
   main: dioptase-gallery-1.jpg
   gallery: [dioptase-gallery-2.jpg, dioptase-gallery-3.jpg, dioptase.jpg]
+
+origin:
+  - { zh: "纳米比亚", en: "Namibia" }
+  - { zh: "刚果（金）", en: "DR Congo" }
+  - { zh: "俄罗斯", en: "Russia" }
+history_zh: |
+  透视石翠绿色晶体极美但硬度低，多作矿物标本而非宝石。
+history_en: |
+  Dioptase's intense emerald-green crystals are stunning but soft; it is mostly a mineral specimen.

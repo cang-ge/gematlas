@@ -25,3 +25,12 @@ treatments:
 images:
   main: labradorite.jpg
   gallery: [labradorite-gallery-2.jpg, labradorite-gallery-3.jpg, labradorite-gallery-1.jpg]
+
+origin:
+  - { zh: "加拿大拉布拉多", en: "Labrador, Canada" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "芬兰", en: "Finland" }
+history_zh: |
+  拉长石拉长光（labradorescence）由层状双晶干涉产生。芬兰变种称"光谱石"。
+history_en: |
+  Labradorite's iridescence (labradorescence) stems from lamellar twinning; the Finnish variety is 'spectrolite'.

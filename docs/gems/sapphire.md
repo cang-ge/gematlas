@@ -50,6 +50,20 @@ gem: sapphire
 | Disclosure Required | Yes |
 | Note | Heat treatment is industry standard; untreated is rare |
 
+## Origin
+
+| Region |
+|---|
+| Kashmir |
+| Sri Lanka |
+| Madagascar |
+| Myanmar |
+
+## History & Lore
+
+Kashmir cornflower blue is the apex of sapphire colour; Sri Lanka is famed for star sapphires. Kate Middleton's sapphire engagement ring reignited global demand.
+
+
 ## Gallery
 
 <img src="../images/gems/sapphire/sapphire-gallery-2.jpg" alt="Sapphire" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

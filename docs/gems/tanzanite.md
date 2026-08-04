@@ -50,6 +50,17 @@ gem: tanzanite
 | Disclosure Required | Yes |
 | Note | Almost all tanzanite is heat-treated to enhance blue-violet |
 
+## Origin
+
+| Region |
+|---|
+| Merelani Hills, Tanzania |
+
+## History & Lore
+
+Found near Arusha in 1967 and promoted by Tiffany. With a single source worldwide, it is exceptionally rare.
+
+
 ## Gallery
 
 <img src="../images/gems/tanzanite/tanzanite-gallery-2.jpg" alt="Tanzanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

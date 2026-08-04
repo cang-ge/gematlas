@@ -50,6 +50,20 @@ English: [Rhodonite](/gems/rhodonite)
 | 需披露 | 是 |
 | 备注 | 俄罗斯"苏联石"（Rhodonite）是最著名产地品种 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 俄罗斯乌拉尔 |
+| 瑞典 |
+| 澳大利亚 |
+| 美国马萨诸塞 |
+
+## 历史与传说
+
+蔷薇辉石粉色含黑色锰氧化物网纹，俄罗斯以之制巨型装饰，马萨诸塞州石。
+
+
 ## 图库
 
 <img src="../../images/gems/rhodonite/rhodonite-gallery-2.jpg" alt="蔷薇辉石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

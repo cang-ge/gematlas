@@ -26,3 +26,13 @@ treatments:
 images:
   main: obsidian-gallery-3.jpg
   gallery: [obsidian-gallery-1.jpg, obsidian.jpg, obsidian-gallery-3.svg]
+
+origin:
+  - { zh: "美国俄勒冈", en: "Oregon, USA" }
+  - { zh: "墨西哥", en: "Mexico" }
+  - { zh: "冰岛", en: "Iceland" }
+  - { zh: "日本北海道", en: "Hokkaido, Japan" }
+history_zh: |
+  黑曜石是火山玻璃，阿兹特克文明用之制刃与镜。彩虹/银曜为特殊变种。
+history_en: |
+  Obsidian is volcanic glass; the Aztecs made blades and mirrors from it. Rainbow and silver sheen are prized variants.

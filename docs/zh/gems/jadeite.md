@@ -50,6 +50,19 @@ English: [Jadeite (Burmese Jade)](/gems/jadeite)
 | 需披露 | 是 |
 | 备注 | B+C 货为强酸浸泡 + 树脂填充；需严格披露 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 缅甸 |
+| 危地马拉 |
+| 日本 |
+
+## 历史与传说
+
+翡翠（硬玉）明清传入中国后成为"玉中之王"，帝王绿最珍贵。缅甸是唯一商业级来源。
+
+
 ## 图库
 
 <img src="../../images/gems/jadeite/jadeite-gallery-1.jpg" alt="翡翠" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

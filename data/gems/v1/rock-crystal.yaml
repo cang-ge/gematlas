@@ -23,3 +23,13 @@ treatments:
 images:
   main: rock-crystal.jpg
   gallery: [rock-crystal-gallery-1.svg, rock-crystal-gallery-2.svg, rock-crystal-gallery-3.svg]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "中国", en: "China" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "美国阿肯色", en: "Arkansas, USA" }
+history_zh: |
+  水晶自古被视为冰之凝晶，希腊语"krystallos"即冰。全球广泛分布。
+history_en: |
+  Rock crystal was long thought to be frozen ice (Greek 'krystallos'). Distributed worldwide.

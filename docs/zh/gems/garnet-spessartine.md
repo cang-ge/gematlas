@@ -50,6 +50,20 @@ English: [Spessartine (Garnet)](/gems/garnet-spessartine)
 | 需披露 | 否 |
 | 备注 | 著名"芬达石"为含 Fe 的锰铝榴石 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 中国新疆 |
+| 纳米比亚 |
+| 马达加斯加 |
+| 美国 |
+
+## 历史与传说
+
+锰铝榴石（芬达石）呈亮橙色，近年因独特荧光橙而受热捧。
+
+
 ## 图库
 
 <img src="../../images/gems/garnet-spessartine/garnet-spessartine-gallery-2.jpg" alt="锰铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

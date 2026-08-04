@@ -27,3 +27,12 @@ treatments:
 images:
   main: jadeite.jpg
   gallery: [jadeite-gallery-1.jpg, jadeite-gallery-3.jpg, jadeite-gallery-3.svg]
+
+origin:
+  - { zh: "缅甸", en: "Myanmar" }
+  - { zh: "危地马拉", en: "Guatemala" }
+  - { zh: "日本", en: "Japan" }
+history_zh: |
+  翡翠（硬玉）明清传入中国后成为"玉中之王"，帝王绿最珍贵。缅甸是唯一商业级来源。
+history_en: |
+  Jadeite became China's 'king of jade' after the Ming dynasty; imperial green is most valued. Myanmar is the only commercial source.

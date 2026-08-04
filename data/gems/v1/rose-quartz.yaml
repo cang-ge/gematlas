@@ -25,3 +25,12 @@ treatments:
 images:
   main: rose-quartz-gallery-1.jpg
   gallery: [rose-quartz-gallery-2.jpg, rose-quartz-gallery-3.jpg, rose-quartz.jpg]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "南非", en: "South Africa" }
+history_zh: |
+  粉晶象征爱情，古埃及与罗马用作美容面霜原料；高品质大晶体稀有。
+history_en: |
+  Rose quartz is the love stone; Egypt and Rome ground it for cosmetics. Large clean crystals are rare.

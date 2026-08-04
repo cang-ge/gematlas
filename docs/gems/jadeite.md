@@ -50,6 +50,19 @@ gem: jadeite
 | Disclosure Required | Yes |
 | Note | B+C jade uses acid-bleaching + polymer filling; strict disclosure required |
 
+## Origin
+
+| Region |
+|---|
+| Myanmar |
+| Guatemala |
+| Japan |
+
+## History & Lore
+
+Jadeite became China's 'king of jade' after the Ming dynasty; imperial green is most valued. Myanmar is the only commercial source.
+
+
 ## Gallery
 
 <img src="../images/gems/jadeite/jadeite-gallery-1.jpg" alt="Jadeite (Burmese Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

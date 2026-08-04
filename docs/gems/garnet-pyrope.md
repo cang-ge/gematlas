@@ -50,6 +50,19 @@ gem: garnet-pyrope
 | Disclosure Required | No |
 | Note | Famous "Bohemian garnets" are mostly pyrope-almandine mixes |
 
+## Origin
+
+| Region |
+|---|
+| Bohemia, Czech Republic |
+| South Africa |
+| Tanzania |
+
+## History & Lore
+
+Pyrope's deep red nears black; Bohemia mined it since antiquity and it appears in ancient European tombs.
+
+
 ## Gallery
 
 <img src="../images/gems/garnet-pyrope/garnet-pyrope-gallery-1.jpg" alt="Pyrope (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

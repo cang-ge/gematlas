@@ -50,6 +50,20 @@ gem: serpentine
 | Disclosure Required | Yes |
 | Note | Xiuyan jade (serpentine jade) from China has been mined for thousands of years; distinct mineral from nephrite |
 
+## Origin
+
+| Region |
+|---|
+| China |
+| South Africa |
+| California, USA |
+| Cornwall, UK |
+
+## History & Lore
+
+Serpentine is a jade substitute ('new jade'); named for its snake-skin sheen. California state stone.
+
+
 ## Gallery
 
 <img src="../images/gems/serpentine/serpentine-gallery-3.jpg" alt="Serpentine" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

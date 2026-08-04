@@ -50,6 +50,19 @@ English: [Aventurine Quartz](/gems/aventurine-quartz)
 | 需披露 | 是 |
 | 备注 | 商业蓝色变种多为染色产物；绿色最常见，源自印度市场 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 印度 |
+| 巴西 |
+| 西班牙 |
+
+## 历史与传说
+
+东陵石的闪金效应（aventurescence）由云母/赤铁矿包体产生，名称源自意大利"偶然"（per avventura）。
+
+
 ## 图库
 
 <img src="../../images/gems/aventurine-quartz/aventurine-quartz-gallery-2.jpg" alt="东陵石 / 砂金石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

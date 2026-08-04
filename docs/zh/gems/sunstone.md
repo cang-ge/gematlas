@@ -50,6 +50,19 @@ English: [Sunstone](/gems/sunstone)
 | 需披露 | 否 |
 | 备注 | 美国俄勒冈太阳石以含天然铜片（无需优化）而闻名 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 美国俄勒冈 |
+| 印度 |
+| 挪威 |
+
+## 历史与传说
+
+太阳石含赤铁矿/铜片产生金黄闪光（aventurescence），俄勒冈铜太阳石尤为著名。
+
+
 ## 图库
 
 <img src="../../images/gems/sunstone/sunstone.jpg" alt="太阳石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

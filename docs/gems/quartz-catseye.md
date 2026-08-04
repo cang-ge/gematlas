@@ -50,6 +50,19 @@ gem: quartz-catseye
 | Disclosure Required | Yes |
 | Note | Distinct from chrysoberyl cat's-eye; quartz cat's-eye has a wider, less distinct eye |
 
+## Origin
+
+| Region |
+|---|
+| Sri Lanka |
+| India |
+| Brazil |
+
+## History & Lore
+
+Quartz cat's-eye's chatoyancy comes from parallel needles; cheaper than chrysoberyl but equally charming.
+
+
 ## Gallery
 
 <img src="../images/gems/quartz-catseye/quartz-catseye-gallery-2.jpg" alt="Quartz Cat's-eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

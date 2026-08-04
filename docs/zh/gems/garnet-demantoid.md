@@ -50,6 +50,18 @@ English: [Demantoid (Garnet)](/gems/garnet-demantoid)
 | 需披露 | 否 |
 | 备注 | 俄罗斯乌拉尔山为最著名产地；马尾状包体为特征 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 俄罗斯乌拉尔 |
+| 纳米比亚 |
+
+## 历史与传说
+
+翠榴石是绿色石榴石之王，色散超过钻石，俄罗斯沙皇珠宝常用之。
+
+
 ## 图库
 
 <img src="../../images/gems/garnet-demantoid/garnet-demantoid-gallery-2.jpg" alt="翠榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

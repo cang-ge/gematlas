@@ -26,3 +26,13 @@ treatments:
 images:
   main: serpentine-gallery-1.jpg
   gallery: [serpentine-gallery-3.jpg, serpentine-gallery-2.jpg, serpentine.jpg]
+
+origin:
+  - { zh: "中国", en: "China" }
+  - { zh: "南非", en: "South Africa" }
+  - { zh: "美国加州", en: "California, USA" }
+  - { zh: "英国康沃尔", en: "Cornwall, UK" }
+history_zh: |
+  蛇纹石"新山玉"常仿翡翠，因表面蛇皮状光泽得名。加州州石。
+history_en: |
+  Serpentine is a jade substitute ('new jade'); named for its snake-skin sheen. California state stone.

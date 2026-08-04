@@ -25,3 +25,12 @@ treatments:
 images:
   main: citrine-gallery-1.jpg
   gallery: [citrine-gallery-2.jpg, citrine.jpg, citrine-gallery-3.png]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "西班牙", en: "Spain" }
+  - { zh: "苏格兰", en: "Scotland" }
+history_zh: |
+  黄水晶多为紫晶加热产物。名称源于法文"柠檬"；苏格兰曾盛产天然黄晶。
+history_en: |
+  Most citrine is heat-treated amethyst. The name derives from French 'citron' (lemon); Scotland once produced natural stones.

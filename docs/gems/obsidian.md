@@ -50,6 +50,20 @@ gem: obsidian
 | Disclosure Required | No |
 | Note | Natural glass, not a crystalline mineral; heat treatment can enhance silver/gold sheen |
 
+## Origin
+
+| Region |
+|---|
+| Oregon, USA |
+| Mexico |
+| Iceland |
+| Hokkaido, Japan |
+
+## History & Lore
+
+Obsidian is volcanic glass; the Aztecs made blades and mirrors from it. Rainbow and silver sheen are prized variants.
+
+
 ## Gallery
 
 <img src="../images/gems/obsidian/obsidian-gallery-1.jpg" alt="Obsidian" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -25,3 +25,12 @@ treatments:
 images:
   main: morganite-gallery-2.jpg
   gallery: [morganite-gallery-3.jpg, morganite-gallery-1.jpg, morganite.png]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "阿富汗", en: "Afghanistan" }
+history_zh: |
+  粉色绿柱石，1910年以金融家J.P.摩根本人命名（其收藏了大量标本）。
+history_en: |
+  Pink beryl named in 1910 for banker J.P. Morgan, a noted gem collector.

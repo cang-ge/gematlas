@@ -50,6 +50,19 @@ English: [Paraíba Tourmaline](/gems/paraiba-tourmaline)
 | 需披露 | 是 |
 | 备注 | 巴西 Paraiba 州原产稀缺，莫桑比克产替代但溢价低 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西帕拉伊巴州 |
+| 尼日利亚 |
+| 莫桑比克 |
+
+## 历史与传说
+
+1989年在巴西帕拉伊巴州发现，电光蓝/霓虹绿由铜元素致色，一经问世即震撼业界，成为最贵碧玺。
+
+
 ## 图库
 
 <img src="../../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-2.jpg" alt="帕拉伊巴碧玺" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

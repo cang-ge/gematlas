@@ -50,6 +50,20 @@ English: [Amazonite](/gems/amazonite)
 | 需披露 | 是 |
 | 备注 | 以俄羅斯米阿斯（Miass）和美国派克斯峰（Pikes Peak）著名 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 美国科罗拉多 |
+| 俄罗斯 |
+| 马达加斯加 |
+
+## 历史与传说
+
+天河石以亚马孙河命名（实为讹传），蓝绿棋盘格纹独特，古埃及用作饰品。
+
+
 ## 图库
 
 <img src="../../images/gems/amazonite/amazonite-gallery-2.jpg" alt="天河石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

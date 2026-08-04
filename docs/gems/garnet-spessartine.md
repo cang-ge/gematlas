@@ -50,6 +50,20 @@ gem: garnet-spessartine
 | Disclosure Required | No |
 | Note | Fanta garnet is Fe-bearing spessartine |
 
+## Origin
+
+| Region |
+|---|
+| Xinjiang, China |
+| Namibia |
+| Madagascar |
+| USA |
+
+## History & Lore
+
+Spessartine (mandarin garnet) glows orange; its vivid tone has surged in demand.
+
+
 ## Gallery
 
 <img src="../images/gems/garnet-spessartine/garnet-spessartine-gallery-2.jpg" alt="Spessartine (Garnet)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

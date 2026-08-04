@@ -50,6 +50,19 @@ gem: rhodochrosite
 | Disclosure Required | Yes |
 | Note | Argentina's "Inca Rose" is the most famous variety with concentric banding |
 
+## Origin
+
+| Region |
+|---|
+| Capillitas, Argentina |
+| South Africa |
+| Colorado, USA |
+
+## History & Lore
+
+Rhodochrosite 'Inca Rose' is Argentina's national stone, its banded pink echoing rose petals.
+
+
 ## Gallery
 
 <img src="../images/gems/rhodochrosite/rhodochrosite-gallery-2.jpg" alt="Rhodochrosite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

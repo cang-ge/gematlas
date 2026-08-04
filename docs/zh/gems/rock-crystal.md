@@ -50,6 +50,20 @@ English: [Rock Crystal](/gems/rock-crystal)
 | 需披露 | 否 |
 | 备注 | 最常见天然宝石原料，全球广泛分布；含发晶、水胆水晶等变种 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 中国 |
+| 马达加斯加 |
+| 美国阿肯色 |
+
+## 历史与传说
+
+水晶自古被视为冰之凝晶，希腊语"krystallos"即冰。全球广泛分布。
+
+
 ## 图库
 
 <img src="../../images/gems/rock-crystal/rock-crystal-gallery-1.svg" alt="水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

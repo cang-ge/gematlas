@@ -50,6 +50,19 @@ English: [Sodalite](/gems/sodalite)
 | 需披露 | 是 |
 | 备注 | 常被误认为青金石；方钠石白纹更多、黄铁矿斑更少 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 加拿大 |
+| 巴西 |
+| 俄罗斯科拉半岛 |
+
+## 历史与传说
+
+方钠石蓝白相间，是青金石的平价替代。加拿大安大略班克罗夫特盛产。
+
+
 ## 图库
 
 <img src="../../images/gems/sodalite/sodalite-gallery-2.jpg" alt="方钠石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

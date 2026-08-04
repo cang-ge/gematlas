@@ -50,6 +50,19 @@ English: [Morganite](/gems/morganite)
 | 需披露 | 是 |
 | 备注 | 加热或辐照可增强黄色或粉色饱和度 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 马达加斯加 |
+| 阿富汗 |
+
+## 历史与传说
+
+粉色绿柱石，1910年以金融家J.P.摩根本人命名（其收藏了大量标本）。
+
+
 ## 图库
 
 <img src="../../images/gems/morganite/morganite-gallery-3.jpg" alt="摩根石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

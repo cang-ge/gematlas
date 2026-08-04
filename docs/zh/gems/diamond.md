@@ -50,6 +50,20 @@ English: [Diamond](/gems/diamond)
 | 需披露 | 是 |
 | 备注 | HPHT 处理需披露；天然与合成需激光刻印区分 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 印度（戈尔康达） |
+| 南非 |
+| 俄罗斯（雅库特） |
+| 博茨瓦纳 |
+
+## 历史与传说
+
+钻石之名的"永恒"意象源于其硬度。戈尔康达矿区出产无数传奇名钻（Hope、Regent）；1866年南非金伯利发现改变了供应格局。
+
+
 ## 图库
 
 <img src="../../images/gems/diamond/diamond-gallery-1.jpg" alt="钻石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -50,6 +50,20 @@ English: [Chrysoberyl](/gems/chrysoberyl)
 | 需披露 | 否 |
 | 备注 | 与亚历山大石（同矿物—变石）为同一矿物种；金绿猫眼为王牌变种 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 斯里兰卡 |
+| 马达加斯加 |
+| 俄罗斯乌拉尔 |
+
+## 历史与传说
+
+金绿宝石以金绿猫眼（cymophane）与变石（alexandrite）闻名，硬达8.5。
+
+
 ## 图库
 
 <img src="../../images/gems/chrysoberyl/chrysoberyl-gallery-1.jpg" alt="金绿宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

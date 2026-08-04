@@ -27,3 +27,12 @@ treatments:
 images:
   main: nephrite-gallery-1.jpg
   gallery: [nephrite-gallery-3.jpg, nephrite.jpg, nephrite-gallery-2.jpg]
+
+origin:
+  - { zh: "中国新疆和田", en: "Hetian, Xinjiang, China" }
+  - { zh: "加拿大不列颠哥伦比亚", en: "British Columbia, Canada" }
+  - { zh: "俄罗斯", en: "Russia" }
+history_zh: |
+  软玉是中国八千年玉文化的核心，和田玉自古为宫廷所重，"君子比德于玉"。
+history_en: |
+  Nephrite anchors 8,000 years of Chinese jade culture; Hetian white jade was the imperial standard ('virtue like jade').

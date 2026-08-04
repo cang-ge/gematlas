@@ -50,6 +50,19 @@ gem: emerald
 | Disclosure Required | Yes |
 | Note | Cedar-oil filling is industry standard; "no oil" commands significant premiums |
 
+## Origin
+
+| Region |
+|---|
+| Muzo / Chivor, Colombia |
+| Zambia |
+| Brazil |
+
+## History & Lore
+
+Colombian Muzo greens with a blue cast are most prized; Spanish colonists mined them from the 1500s. Cleopatra's Egyptian mines are the oldest known source.
+
+
 ## Gallery
 
 <img src="../images/gems/emerald/emerald-gallery-3.jpg" alt="Emerald" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

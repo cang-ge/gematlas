@@ -50,6 +50,19 @@ English: [Dioptase](/gems/dioptase)
 | 需披露 | 否 |
 | 备注 | 颜色与祖母绿相似但更艳；硬度较低（5.5），不适合日常佩戴 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 纳米比亚 |
+| 刚果（金） |
+| 俄罗斯 |
+
+## 历史与传说
+
+透视石翠绿色晶体极美但硬度低，多作矿物标本而非宝石。
+
+
 ## 图库
 
 <img src="../../images/gems/dioptase/dioptase-gallery-2.jpg" alt="透视石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

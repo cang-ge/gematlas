@@ -50,6 +50,19 @@ gem: citrine
 | Disclosure Required | Yes |
 | Note | Most commercial citrine is heat-treated amethyst |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| Spain |
+| Scotland |
+
+## History & Lore
+
+Most citrine is heat-treated amethyst. The name derives from French 'citron' (lemon); Scotland once produced natural stones.
+
+
 ## Gallery
 
 <img src="../images/gems/citrine/citrine-gallery-2.jpg" alt="Citrine" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

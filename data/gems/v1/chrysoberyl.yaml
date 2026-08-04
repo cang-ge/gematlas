@@ -25,3 +25,13 @@ treatments:
 images:
   main: chrysoberyl-gallery-2.jpg
   gallery: [chrysoberyl-gallery-1.jpg, chrysoberyl-gallery-3.jpg, chrysoberyl.jpg]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "斯里兰卡", en: "Sri Lanka" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "俄罗斯乌拉尔", en: "Urals, Russia" }
+history_zh: |
+  金绿宝石以金绿猫眼（cymophane）与变石（alexandrite）闻名，硬达8.5。
+history_en: |
+  Chrysoberyl is famous for cat's-eye (cymophane) and alexandrite; it ranks a hard 8.5.

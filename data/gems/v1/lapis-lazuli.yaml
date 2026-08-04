@@ -25,3 +25,12 @@ treatments:
 images:
   main: lapis-lazuli-gallery-2.jpg
   gallery: [lapis-lazuli-gallery-3.jpg, lapis-lazuli.jpg, lapis-lazuli-gallery-1.jpg]
+
+origin:
+  - { zh: "阿富汗巴达赫尚", en: "Badakhshan, Afghanistan" }
+  - { zh: "智利", en: "Chile" }
+  - { zh: "俄罗斯贝加尔", en: "Lake Baikal, Russia" }
+history_zh: |
+  青金石是法老与文艺复兴画家的"群青"来源。阿富汗萨雷桑矿已开采六千年。
+history_en: |
+  Lapis lazuli supplied the pharaohs and Renaissance ultramarine. Afghanistan's Sar-e-Sang mine has run for 6,000 years.

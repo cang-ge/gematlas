@@ -50,6 +50,19 @@ gem: aquamarine
 | Disclosure Required | Yes |
 | Note | Heat treatment can convert greenish hues to stable blue |
 
+## Origin
+
+| Region |
+|---|
+| Minas Gerais, Brazil |
+| Madagascar |
+| Pakistan |
+
+## History & Lore
+
+Beryl cousin of emerald. Brazil's Minas Gerais yields the finest aquamarine, long a sailor's talisman.
+
+
 ## Gallery
 
 <img src="../images/gems/aquamarine/aquamarine-gallery-3.jpg" alt="Aquamarine" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

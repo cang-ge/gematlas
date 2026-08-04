@@ -27,3 +27,13 @@ treatments:
 images:
   main: topaz-gallery-1.jpg
   gallery: [topaz.jpg, topaz-gallery-2.svg, topaz-gallery-3.svg]
+
+origin:
+  - { zh: "巴西米纳斯吉拉斯", en: "Minas Gerais, Brazil" }
+  - { zh: "俄罗斯乌拉尔", en: "Urals" }
+  - { zh: "美国犹他", en: "Utah, USA" }
+  - { zh: "尼日利亚", en: "Nigeria" }
+history_zh: |
+  帝王托帕石（黄橙）最珍贵，古埃及传说源于太阳岛。蓝托帕石多经辐照改色。
+history_en: |
+  Imperial topaz (yellow-orange) is most prized; ancient Egyptians mythologised its sun-island origin. Blue topaz is usually irradiated.

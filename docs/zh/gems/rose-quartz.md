@@ -50,6 +50,19 @@ English: [Rose Quartz](/gems/rose-quartz)
 | 需披露 | 否 |
 | 备注 | 通常无处理；大量用于雕刻与首饰；少有完好晶形 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 马达加斯加 |
+| 南非 |
+
+## 历史与传说
+
+粉晶象征爱情，古埃及与罗马用作美容面霜原料；高品质大晶体稀有。
+
+
 ## 图库
 
 <img src="../../images/gems/rose-quartz/rose-quartz-gallery-2.jpg" alt="粉晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

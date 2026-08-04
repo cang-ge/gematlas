@@ -25,3 +25,12 @@ treatments:
 images:
   main: sugilite-gallery-1.jpg
   gallery: [sugilite-gallery-2.jpg, sugilite-gallery-3.jpg, sugilite.jpg]
+
+origin:
+  - { zh: "南非温贝", en: "Wessels, South Africa" }
+  - { zh: "日本", en: "Japan" }
+  - { zh: "加拿大", en: "Canada" }
+history_zh: |
+  苏纪石1970年代在南非温贝矿首次大量发现，浓郁紫色被昵称"爱情石"。
+history_en: |
+  Sugilite was first found in quantity at Wessels (South Africa) in the 1970s; its royal purple is called the 'love stone'.

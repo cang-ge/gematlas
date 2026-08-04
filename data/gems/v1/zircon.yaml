@@ -27,3 +27,13 @@ treatments:
 images:
   main: zircon-gallery-2.jpg
   gallery: [zircon-gallery-1.jpg, zircon-gallery-3.jpg, zircon.jpg]
+
+origin:
+  - { zh: "柬埔寨", en: "Cambodia" }
+  - { zh: "斯里兰卡", en: "Sri Lanka" }
+  - { zh: "泰国", en: "Thailand" }
+  - { zh: "澳大利亚", en: "Australia" }
+history_zh: |
+  锆石是地球最古老矿物之一，含铀可测4亿年历史。蓝色热处理锆石曾风靡维多利亚时代。
+history_en: |
+  Zircon is among Earth's oldest minerals (uranium dating). Heat-treated blue zircon was a Victorian favourite.

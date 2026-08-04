@@ -50,6 +50,20 @@ gem: tourmaline
 | Disclosure Required | Yes |
 | Note | Heat improves color; irradiation deepens light varieties |
 
+## Origin
+
+| Region |
+|---|
+| Brazil |
+| Afghanistan |
+| Mozambique |
+| Maine / California, USA |
+
+## History & Lore
+
+Tourmaline shows the widest colour range of any gem; watermelon bicolour is prized. Sinhalese for 'mixed coloured stone'.
+
+
 ## Gallery
 
 <img src="../images/gems/tourmaline/tourmaline-gallery-2.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

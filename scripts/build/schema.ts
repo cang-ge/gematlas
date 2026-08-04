@@ -214,5 +214,9 @@ export const GemSchema = z.object({
   optical: GemOptical,
   treatments: GemTreatments,
   images: GemImages,
+  // Phase I: provenance & lore (optional)
+  origin: z.array(BilingualName).optional(),
+  history_zh: z.string().optional(),
+  history_en: z.string().optional(),
 })
 export type Gem = z.infer<typeof GemSchema>

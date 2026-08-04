@@ -50,6 +50,20 @@ gem: iolite
 | Disclosure Required | No |
 | Note | No known treatments; Vikings used it as a polarization navigation aid |
 
+## Origin
+
+| Region |
+|---|
+| India |
+| Sri Lanka |
+| Madagascar |
+| Tanzania |
+
+## History & Lore
+
+Iolite's strong trichroism let Viking navigators use it as a polarizing compass — the 'water sapphire'.
+
+
 ## Gallery
 
 <img src="../images/gems/iolite/iolite.jpg" alt="Iolite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

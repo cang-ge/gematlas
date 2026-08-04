@@ -50,6 +50,20 @@ English: [Amethyst](/gems/amethyst)
 | 需披露 | 是 |
 | 备注 | 加热可转为黄色（黄水晶）或绿色（绿水晶） |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 巴西 |
+| 乌拉圭 |
+| 赞比亚 |
+| 俄罗斯 |
+
+## 历史与传说
+
+紫晶自古象征王权与清醒，希腊语意为"不醉"。圣路易斯安那曾是重要产地；乌拉圭深紫最受追捧。
+
+
 ## 图库
 
 <img src="../../images/gems/amethyst/amethyst-gallery-3.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -25,3 +25,12 @@ treatments:
 images:
   main: aquamarine-gallery-2.jpg
   gallery: [aquamarine-gallery-3.jpg, aquamarine.jpg, aquamarine-gallery-1.jpg]
+
+origin:
+  - { zh: "巴西米纳斯吉拉斯", en: "Minas Gerais, Brazil" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "巴基斯坦", en: "Pakistan" }
+history_zh: |
+  与祖母绿同属绿柱石族。巴西米纳斯吉拉斯产出品质最佳的海蓝宝，常用作航海护身符。
+history_en: |
+  Beryl cousin of emerald. Brazil's Minas Gerais yields the finest aquamarine, long a sailor's talisman.

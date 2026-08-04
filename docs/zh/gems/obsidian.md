@@ -50,6 +50,20 @@ English: [Obsidian](/gems/obsidian)
 | 需披露 | 否 |
 | 备注 | 天然玻璃，非矿物晶体；加热可改善银曜/金曜效果 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 美国俄勒冈 |
+| 墨西哥 |
+| 冰岛 |
+| 日本北海道 |
+
+## 历史与传说
+
+黑曜石是火山玻璃，阿兹特克文明用之制刃与镜。彩虹/银曜为特殊变种。
+
+
 ## 图库
 
 <img src="../../images/gems/obsidian/obsidian-gallery-1.jpg" alt="黑曜石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

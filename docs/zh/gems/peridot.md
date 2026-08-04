@@ -50,6 +50,20 @@ English: [Peridot](/gems/peridot)
 | 需披露 | 否 |
 | 备注 | 橄榄石通常无处理；稀有陨石来源橄榄石价值更高 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 埃及圣约翰岛 |
+| 中国 |
+| 巴基斯坦 |
+| 美国亚利桑那 |
+
+## 历史与传说
+
+橄榄石是最古老宝石之一，古埃及称为"太阳之石"。中国与巴基斯坦现为主要供应地。
+
+
 ## 图库
 
 <img src="../../images/gems/peridot/peridot-gallery-3.jpg" alt="橄榄石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

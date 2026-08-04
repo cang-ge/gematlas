@@ -26,3 +26,13 @@ treatments:
 images:
   main: diamond.png
   gallery: [diamond-gallery-1.jpg, diamond.jpg, diamond-gallery-3.svg]
+
+origin:
+  - { zh: "印度（戈尔康达）", en: "Golconda, India" }
+  - { zh: "南非", en: "South Africa" }
+  - { zh: "俄罗斯（雅库特）", en: "Yakutia, Russia" }
+  - { zh: "博茨瓦纳", en: "Botswana" }
+history_zh: |
+  钻石之名的"永恒"意象源于其硬度。戈尔康达矿区出产无数传奇名钻（Hope、Regent）；1866年南非金伯利发现改变了供应格局。
+history_en: |
+  Diamond's 'eternal' symbolism stems from its hardness. Golconda yielded the great legends (Hope, Regent); Kimberley (1866) transformed supply.

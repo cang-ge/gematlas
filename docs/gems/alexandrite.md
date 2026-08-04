@@ -50,6 +50,19 @@ gem: alexandrite
 | Disclosure Required | No |
 | Note | Virtually untreated; origin commands significant premium |
 
+## Origin
+
+| Region |
+|---|
+| Ural Mountains, Russia |
+| Brazil |
+| Sri Lanka |
+
+## History & Lore
+
+Discovered in the Urals in 1830 and named for Tsar Alexander II. Its green-to-red colour change makes it among the rarest gems.
+
+
 ## Gallery
 
 <img src="../images/gems/alexandrite/alexandrite-gallery-2.jpg" alt="Alexandrite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

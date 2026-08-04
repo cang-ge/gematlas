@@ -25,3 +25,13 @@ treatments:
 images:
   main: malachite-gallery-1.jpg
   gallery: [malachite.jpg, malachite-gallery-2.jpg, malachite-gallery-3.svg]
+
+origin:
+  - { zh: "刚果（金）", en: "DR Congo" }
+  - { zh: "赞比亚", en: "Zambia" }
+  - { zh: "俄罗斯乌拉尔", en: "Urals, Russia" }
+  - { zh: "澳大利亚", en: "Australia" }
+history_zh: |
+  孔雀石自古用于颜料与装饰，俄罗斯圣彼得堡冬宫孔雀石厅为其巅峰。
+history_en: |
+  Malachite has coloured paints and palaces since antiquity; St Petersburg's Malachite Hall is its zenith.

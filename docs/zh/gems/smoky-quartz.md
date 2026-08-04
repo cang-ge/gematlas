@@ -50,6 +50,20 @@ English: [Smoky Quartz](/gems/smoky-quartz)
 | 需披露 | 是 |
 | 备注 | 天然烟晶由放射性矿物辐照形成；人工辐照也可产生 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 瑞士阿尔卑斯 |
+| 巴西 |
+| 美国科罗拉多 |
+| 苏格兰凯恩戈姆 |
+
+## 历史与传说
+
+烟晶因辐射致色，苏格兰凯恩戈姆是传统产地，维多利亚时代用于哀悼珠宝。
+
+
 ## 图库
 
 <img src="../../images/gems/smoky-quartz/smoky-quartz-gallery-1.jpg" alt="烟晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

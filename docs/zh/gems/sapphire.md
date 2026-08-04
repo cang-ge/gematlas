@@ -50,6 +50,20 @@ English: [Sapphire](/gems/sapphire)
 | 需披露 | 是 |
 | 备注 | 热处理普遍，无处理稀少 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 克什米尔 |
+| 斯里兰卡 |
+| 马达加斯加 |
+| 缅甸 |
+
+## 历史与传说
+
+克什米尔蓝宝石的矢车菊蓝被誉为蓝宝石顶峰；斯里兰卡以星光蓝宝石闻名。英国王室蓝宝石订婚戒（凯特王妃）使其人气再攀。
+
+
 ## 图库
 
 <img src="../../images/gems/sapphire/sapphire-gallery-2.jpg" alt="蓝宝石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

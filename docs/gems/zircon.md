@@ -50,6 +50,20 @@ gem: zircon
 | Disclosure Required | Yes |
 | Note | Commercial blue zircon is usually heat-treated brown-yellow rough; not to be confused with cubic zirconia (CZ) |
 
+## Origin
+
+| Region |
+|---|
+| Cambodia |
+| Sri Lanka |
+| Thailand |
+| Australia |
+
+## History & Lore
+
+Zircon is among Earth's oldest minerals (uranium dating). Heat-treated blue zircon was a Victorian favourite.
+
+
 ## Gallery
 
 <img src="../images/gems/zircon/zircon-gallery-1.jpg" alt="Zircon" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

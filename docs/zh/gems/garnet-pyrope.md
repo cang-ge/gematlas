@@ -50,6 +50,19 @@ English: [Pyrope (Garnet)](/gems/garnet-pyrope)
 | 需披露 | 否 |
 | 备注 | 著名"波西米亚石榴石"多为镁铝-铁铝榴石混合体 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 捷克波西米亚 |
+| 南非 |
+| 坦桑尼亚 |
+
+## 历史与传说
+
+镁铝榴石深红近黑，波西米亚自古开采，欧洲古墓中常见其珠饰。
+
+
 ## 图库
 
 <img src="../../images/gems/garnet-pyrope/garnet-pyrope-gallery-1.jpg" alt="镁铝榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

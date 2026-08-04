@@ -50,6 +50,19 @@ English: [Alexandrite](/gems/alexandrite)
 | 需披露 | 否 |
 | 备注 | 几乎无处理；产地溢价显著（俄罗斯/巴西/斯里兰卡） |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 俄罗斯乌拉尔 |
+| 巴西 |
+| 斯里兰卡 |
+
+## 历史与传说
+
+1830年首次发现于俄罗斯乌拉尔，以沙皇亚历山大二世命名。日光下绿、灯光下红的变色效应使其极为罕见珍贵。
+
+
 ## 图库
 
 <img src="../../images/gems/alexandrite/alexandrite-gallery-2.jpg" alt="亚历山大石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

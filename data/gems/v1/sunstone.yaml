@@ -25,3 +25,12 @@ treatments:
 images:
   main: sunstone-gallery-1.jpg
   gallery: [sunstone.jpg, sunstone-gallery-2.jpg, sunstone-gallery-3.svg]
+
+origin:
+  - { zh: "美国俄勒冈", en: "Oregon, USA" }
+  - { zh: "印度", en: "India" }
+  - { zh: "挪威", en: "Norway" }
+history_zh: |
+  太阳石含赤铁矿/铜片产生金黄闪光（aventurescence），俄勒冈铜太阳石尤为著名。
+history_en: |
+  Sunstone's golden flash (aventurescence) comes from hematite/copper platelets; Oregon copper sunstone is celebrated.

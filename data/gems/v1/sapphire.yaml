@@ -28,3 +28,13 @@ treatments:
 images:
   main: sapphire-gallery-3.jpg
   gallery: [sapphire-gallery-2.jpg, sapphire-gallery-1.jpg, sapphire.jpg]
+
+origin:
+  - { zh: "克什米尔", en: "Kashmir" }
+  - { zh: "斯里兰卡", en: "Sri Lanka" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "缅甸", en: "Myanmar" }
+history_zh: |
+  克什米尔蓝宝石的矢车菊蓝被誉为蓝宝石顶峰；斯里兰卡以星光蓝宝石闻名。英国王室蓝宝石订婚戒（凯特王妃）使其人气再攀。
+history_en: |
+  Kashmir cornflower blue is the apex of sapphire colour; Sri Lanka is famed for star sapphires. Kate Middleton's sapphire engagement ring reignited global demand.

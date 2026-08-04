@@ -50,6 +50,20 @@ gem: rhodonite
 | Disclosure Required | Yes |
 | Note | Russian "Rhodonite" from the Ural Mountains is the most famous source variety |
 
+## Origin
+
+| Region |
+|---|
+| Urals, Russia |
+| Sweden |
+| Australia |
+| Massachusetts, USA |
+
+## History & Lore
+
+Rhodonite's pink carries black manganese veining; Russia made grand ornaments and it is the Massachusetts state stone.
+
+
 ## Gallery
 
 <img src="../images/gems/rhodonite/rhodonite-gallery-2.jpg" alt="Rhodonite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

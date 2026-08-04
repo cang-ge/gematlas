@@ -25,3 +25,13 @@ treatments:
 images:
   main: iolite-gallery-2.jpg
   gallery: [iolite.jpg, iolite-gallery-1.jpg, iolite-gallery-3.jpg]
+
+origin:
+  - { zh: "印度", en: "India" }
+  - { zh: "斯里兰卡", en: "Sri Lanka" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "坦桑尼亚", en: "Tanzania" }
+history_zh: |
+  堇青石因强三色性被维京航海家用作偏振罗盘，又称"水蓝宝石"。
+history_en: |
+  Iolite's strong trichroism let Viking navigators use it as a polarizing compass — the 'water sapphire'.

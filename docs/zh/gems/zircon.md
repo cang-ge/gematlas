@@ -50,6 +50,20 @@ English: [Zircon](/gems/zircon)
 | 需披露 | 是 |
 | 备注 | 商业蓝色锆石多为褐黄色原石加热产物；与立方氧化锆（cz）完全不同 |
 
+## 主要产地
+
+| 产地 |
+|---|
+| 柬埔寨 |
+| 斯里兰卡 |
+| 泰国 |
+| 澳大利亚 |
+
+## 历史与传说
+
+锆石是地球最古老矿物之一，含铀可测4亿年历史。蓝色热处理锆石曾风靡维多利亚时代。
+
+
 ## 图库
 
 <img src="../../images/gems/zircon/zircon-gallery-1.jpg" alt="锆石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
