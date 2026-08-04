@@ -26,6 +26,7 @@ const GROUPS = [
       { id: 'spinel',            en: 'Spinel',        zh: '尖晶石',      mineral: 'Spinel', h: 8 },
       { id: 'tanzanite',         en: 'Tanzanite',     zh: '坦桑石',      mineral: 'Zoisite', h: 6.75 },
       { id: 'opal',              en: 'Opal',          zh: '欧泊',        mineral: 'Opal', h: 6 },
+      { id: 'pearl',             en: 'Pearl',         zh: '珍珠',        mineral: 'Organic', h: 2.5 },
     ],
   },
   {
@@ -52,6 +53,7 @@ const GROUPS = [
     gems: [
       { id: 'aquamarine',        en: 'Aquamarine',    zh: '海蓝宝',      mineral: 'Beryl', h: 7.75 },
       { id: 'morganite',         en: 'Morganite',     zh: '摩根石',      mineral: 'Beryl', h: 7.75 },
+      { id: 'heliodor',          en: 'Heliodor',      zh: '金绿柱石',    mineral: 'Beryl', h: 7.75 },
       { id: 'tsavorite-garnet',  en: 'Tsavorite',     zh: '沙弗莱',      mineral: 'Garnet', h: 7.25 },
       { id: 'garnet-almandine',  en: 'Almandine',     zh: '铁铝榴石',    mineral: 'Garnet', h: 7.25 },
       { id: 'garnet-pyrope',     en: 'Pyrope',        zh: '镁铝榴石',    mineral: 'Garnet', h: 7.25 },
@@ -90,6 +92,10 @@ const GROUPS = [
       { id: 'charoite',          en: 'Charoite',      zh: '紫硅碱钙石',  mineral: 'Charoite', h: 5.5 },
       { id: 'lapis-lazuli',      en: 'Lapis Lazuli',  zh: '青金石',      mineral: 'Lazurite', h: 5.5 },
       { id: 'sodalite',          en: 'Sodalite',      zh: '方钠石',      mineral: 'Sodalite', h: 6 },
+      { id: 'turquoise',         en: 'Turquoise',     zh: '绿松石',      mineral: 'Turquoise', h: 6 },
+      { id: 'kunzite',           en: 'Kunzite',       zh: '紫锂辉石',    mineral: 'Spodumene', h: 7 },
+      { id: 'kyanite',           en: 'Kyanite',       zh: '蓝晶石',      mineral: 'Kyanite', h: 5.5 },
+      { id: 'apatite',           en: 'Apatite',       zh: '磷灰石',      mineral: 'Apatite', h: 5 },
     ],
   },
   {
@@ -103,6 +109,10 @@ const GROUPS = [
       { id: 'dioptase',          en: 'Dioptase',      zh: '透视石',      mineral: 'Dioptase', h: 5.5 },
       { id: 'pyrite',            en: 'Pyrite',        zh: '黄铁矿',      mineral: 'Pyrite', h: 6.5 },
       { id: 'obsidian',          en: 'Obsidian',      zh: '黑曜石',      mineral: 'Obsidian', h: 5.5 },
+      { id: 'amber',             en: 'Amber',         zh: '琥珀',        mineral: 'Organic resin', h: 2.5 },
+      { id: 'coral',             en: 'Coral',         zh: '珊瑚',        mineral: 'Organic', h: 3.5 },
+      { id: 'fluorite',          en: 'Fluorite',      zh: '萤石',        mineral: 'Fluorite', h: 4 },
+      { id: 'sphalerite',        en: 'Sphalerite',    zh: '闪锌矿',      mineral: 'Sphalerite', h: 3.5 },
     ],
   },
 ]
