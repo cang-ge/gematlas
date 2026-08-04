@@ -67,10 +67,10 @@ describe('Shared YAML validation', () => {
     }
   })
 
-  it('identification.yaml parses (3 identification topics)', () => {
+  it('identification.yaml parses (4 identification topics)', () => {
     const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'identification.yaml'), 'utf8'))
     const parsed = IdentificationTopicsFile.parse(raw)
-    expect(parsed.topics).toHaveLength(3)
+    expect(parsed.topics).toHaveLength(4)
     for (const t of parsed.topics) {
       expect(t.name_en.length).toBeGreaterThan(0)
       expect(t.name_zh.length).toBeGreaterThan(0)

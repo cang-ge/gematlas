@@ -26,4 +26,4 @@ identification: synthetic-and-imitation
 | diamond | CZ (cubic zirconia) | — |
 | emerald | hydrothermal | — |
 
-*详见[切割总览](intro)。*
+*详见[鉴定总览](intro)。*

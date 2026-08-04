@@ -89,9 +89,11 @@ function detailPage(topic: ReturnType<typeof TopicFile.parse>['topics'][number],
   const name = isZh ? topic.name_zh : topic.name_en
   const summary = isZh ? topic.summary_zh : topic.summary_en
   const principles = isZh ? topic.principles_zh : topic.principles_en
+  const mermaid = isZh ? topic.mermaid_zh : topic.mermaid_en
   const principlesTitle = isZh ? '## 核心要点' : '## Core Principles'
   const overviewTitle = isZh ? '## 概述' : '## Overview'
   const examplesTitle = isZh ? '## 示例' : '## Examples'
+  const diagramTitle = isZh ? '## 判别流程' : '## Decision Tree'
   const seeAlso = isZh ? cfg.seeAlsoZH(topic.id) : cfg.seeAlsoEN(topic.id)
   return [
     '---',
@@ -105,6 +107,7 @@ function detailPage(topic: ReturnType<typeof TopicFile.parse>['topics'][number],
     '',
     summary,
     '',
+    ...(mermaid ? [diagramTitle, '', `<div v-pre><pre class="mermaid">\n${mermaid}\n</pre></div>`, ''] : []),
     principlesTitle,
     '',
     mdList(principles),

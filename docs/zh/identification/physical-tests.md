@@ -25,4 +25,4 @@ identification: physical-tests
 | diamond | RI 2.42, SG 3.52 | — |
 | ruby | RI 1.76, SG 4.00 | — |
 
-*详见[切割总览](intro)。*
+*详见[鉴定总览](intro)。*

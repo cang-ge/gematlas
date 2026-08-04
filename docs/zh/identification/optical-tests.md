@@ -25,4 +25,4 @@ identification: optical-tests
 | zircon | DR 0.059 | — |
 | iolite | strong trichroism | — |
 
-*详见[切割总览](intro)。*
+*详见[鉴定总览](intro)。*

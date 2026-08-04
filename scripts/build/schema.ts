@@ -135,6 +135,9 @@ export const TopicEntry = z.object({
   principles_zh: z.union([z.array(z.string()), z.string()]).optional(),
   principles_en: z.union([z.array(z.string()), z.string()]).optional(),
   examples: z.array(TopicExample).optional(),
+  // Optional mermaid decision-tree / diagram (rendered as a fenced block)
+  mermaid_zh: z.string().optional(),
+  mermaid_en: z.string().optional(),
 })
 export const TopicFile = z.object({
   overview_zh: z.string().min(1),

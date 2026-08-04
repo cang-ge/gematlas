@@ -89,3 +89,54 @@ topics:
     examples:
       - { gem: "diamond", value: "CZ (cubic zirconia)", note_en: "SG 5.65 vs 3.52" }
       - { gem: "emerald", value: "hydrothermal", note_en: "needs lab verification" }
+
+  - id: same-color-gems
+    name_zh: 同色宝石判别
+    name_en: Same-Colour Gems
+    summary_zh: |
+      同一种颜色可能对应多种宝石——红色可能是红宝石、尖晶石、石榴石或玻璃。
+      结合 RI / SG / 多色性 / 包裹体，可把同色宝石逐一排除。以下流程图
+      覆盖红色、蓝色、绿色三大最易混淆家族。
+    summary_en: |
+      One colour can hide many species — red may be ruby, spinel, garnet,
+      or glass. Combining RI / SG / pleochroism / inclusions eliminates
+      candidates one by one. The trees below cover the three most confusing
+      families: red, blue, and green.
+    mermaid_zh: |
+      flowchart TD
+        A[红色宝石] --> B{折射率 RI}
+        B -->|1.76| C[刚玉族]
+        C --> D{紫外荧光}
+        D -->|强红| E[红宝石 Ruby]
+        D -->|弱| F[需光谱确认]
+        B -->|1.71-1.72| G[尖晶石 Spinel]
+        B -->|1.74-1.89| H[石榴石 Garnet]
+        B -->|1.5-1.7 玻璃感| I{气泡/流动纹?}
+        I -->|有| J[玻璃仿品]
+        I -->|无| K[复查折射仪]
+    mermaid_en: |
+      flowchart TD
+        A[Red stone] --> B{Refractive index}
+        B -->|1.76| C[Corundum]
+        C --> D{UV fluorescence}
+        D -->|strong red| E[Ruby]
+        D -->|weak| F[needs spectrum]
+        B -->|1.71-1.72| G[Spinel]
+        B -->|1.74-1.89| H[Garnet]
+        B -->|1.5-1.7 glassy| I{bubbles / swirls?}
+        I -->|yes| J[Glass imitation]
+        I -->|no| K[re-check refractometer]
+    principles_zh: |
+      - 红：红宝石 RI 1.76 + 强红荧光；尖晶石 1.71–1.72 无荧光；石榴石 1.74–1.89。
+      - 蓝：蓝宝石 1.76 无多色性二色；坦桑石 1.69–1.70 强三色性；堇青石 1.54 三色性极强。
+      - 绿：祖母绿 1.57–1.58（浸油裂隙）；翠榴石 1.89 高色散；橄榄石 1.65–1.69（双影）。
+      - 荧光是筛分关键：天然红宝石 LW 强红，合成焰熔法常更强且带白色调。
+    principles_en: |
+      - Red: ruby RI 1.76 + strong red fluor.; spinel 1.71–1.72 none; garnet 1.74–1.89.
+      - Blue: sapphire 1.76 dichroic blue/green; tanzanite 1.69–1.70 strongly trichroic; iolite 1.54 trichroism extreme.
+      - Green: emerald 1.57–1.58 (oiled fissures); tsavorite 1.89 high dispersion; peridot 1.65–1.69 (doubling).
+      - Fluorescence is the fast screen: natural ruby strong LW red; flame-fusion synthetic often stronger and whitish.
+    examples:
+      - { gem: "ruby", value: "RI 1.76 + red fluor.", note_en: "vs spinel 1.72" }
+      - { gem: "sapphire", value: "RI 1.76, no pleochroism", note_en: "vs tanzanite 1.69 trichroic" }
+      - { gem: "emerald", value: "RI 1.57 + oil fissures", note_en: "vs tsavorite 1.89" }

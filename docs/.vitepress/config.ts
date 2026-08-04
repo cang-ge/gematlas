@@ -159,6 +159,7 @@ function sidebarEn() {
       { text: 'Physical Tests', link: 'physical-tests' },
       { text: 'Optical Tests', link: 'optical-tests' },
       { text: 'Synthetics & Imitations', link: 'synthetic-and-imitation' },
+      { text: 'Same-Colour Gems', link: 'same-color-gems' },
     ] }],
     '/cutting/':         [{ text: 'Cutting', items: [
       { text: 'Overview', link: 'intro' },
@@ -228,6 +229,7 @@ function sidebarZh() {
       { text: '物理性质测试', link: 'physical-tests' },
       { text: '光学测试', link: 'optical-tests' },
       { text: '合成品与仿品鉴别', link: 'synthetic-and-imitation' },
+      { text: '同色宝石判别', link: 'same-color-gems' },
     ] }],
     '/zh/cutting/':        [{ text: '切割', items: [
       { text: '总览', link: 'intro' },
