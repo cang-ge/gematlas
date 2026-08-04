@@ -1,0 +1,43 @@
+# Pearl (有机宝石（碳酸钙）).
+id: pearl
+names:
+  zh: 珍珠
+  en: Pearl
+category:
+  mineral_zh: 有机宝石（碳酸钙）
+  mineral_en: Organic (calcium carbonate)
+  chemical_formula: CaCO₃ (aragonite + conchiolin)
+  crystal_system: amorphous
+physical:
+  hardness_mohs: 2.5
+  hardness_note_zh: '软——需佩戴呵护'
+  hardness_note_en: 'Soft — needs careful wear'
+  specific_gravity: 2.7
+  refractive_index: 1.52-1.69
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 白色, en: White }
+    - { zh: 奶油色, en: Cream }
+    - { zh: 金色, en: Golden }
+    - { zh: 黑色（大溪地）, en: Black (Tahitian) }
+  color_causes_zh: 珍珠层 (nacre) 的干涉与散射
+  color_causes_en: Nacre interference and scattering
+treatments:
+  common: [bleaching, dyeing]
+  disclosure_required: true
+  note_zh: '天然 vs 养殖需 X 光或专业检测；仿品为玻璃/塑料珠'
+  note_en: 'Natural vs cultured needs X-ray; imitations are glass/plastic beads'
+images:
+  main: pearl.svg
+  gallery: [pearl-gallery-1.svg, pearl-gallery-2.svg, pearl-gallery-3.svg]
+
+origin:
+  - { zh: "波斯湾", en: "Persian Gulf" }
+  - { zh: "大溪地", en: "Tahiti" }
+  - { zh: "日本", en: "Japan" }
+  - { zh: "澳大利亚", en: "Australia" }
+history_zh: |
+  珍珠是唯一由生物体产生的宝石，数千年来象征纯洁。波斯湾天然珍珠与日本御木本养殖珍珠开创现代产业。
+history_en: |
+  Pearl is the only gem produced by a living creature, symbolising purity for millennia. Persian Gulf naturals and Kokichi Mikimoto's cultured pearls built the modern industry.

@@ -1,0 +1,44 @@
+# Fluorite (卤化物（氟化钙）).
+id: fluorite
+names:
+  zh: 萤石
+  en: Fluorite
+category:
+  mineral_zh: 卤化物（氟化钙）
+  mineral_en: Halide (calcium fluoride)
+  chemical_formula: CaF₂
+  crystal_system: cubic
+physical:
+  hardness_mohs: 4
+  hardness_note_zh: '软——作雕件或刻面收藏'
+  hardness_note_en: 'Soft — carvings or collector facets'
+  specific_gravity: 3.18
+  refractive_index: '1.43'
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 紫, en: Purple }
+    - { zh: 绿, en: Green }
+    - { zh: 黄, en: Yellow }
+    - { zh: 蓝, en: Blue }
+    - { zh: 彩虹, en: Rainbow }
+  color_causes_zh: 稀土与色心
+  color_causes_en: Rare-earth and colour centres
+treatments:
+  common: [irradiation]
+  disclosure_required: false
+  note_zh: '"彩虹萤石"具强荧光；玻璃仿品常见'
+  note_en: '''Rainbow'' fluorite fluoresces; glass imitations common'
+images:
+  main: fluorite.svg
+  gallery: [fluorite-gallery-1.svg, fluorite-gallery-2.svg, fluorite-gallery-3.svg]
+
+origin:
+  - { zh: "中国", en: "China" }
+  - { zh: "墨西哥", en: "Mexico" }
+  - { zh: "南非", en: "South Africa" }
+  - { zh: "英国德比郡", en: "Derbyshire, UK" }
+history_zh: |
+  萤石因荧光现象得名（最早被记录荧光的矿物），色彩之丰居矿物之冠。
+history_en: |
+  Fluorite gave its name to fluorescence itself; its colour range rivals any mineral.

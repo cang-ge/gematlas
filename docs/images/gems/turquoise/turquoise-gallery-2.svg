@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="40%" r="60%">
+      <stop offset="0%"  stop-color="#888888" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#888888" stop-opacity="0.45"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#1a1814"/>
+  <ellipse cx="400" cy="300" rx="280" ry="200" fill="url(#g)"/>
+  <text x="400" y="300" text-anchor="middle" font-family="Cormorant Garamond, serif"
+        font-size="64" font-weight="600" fill="#fff8e7">Turquoise</text>
+  <text x="400" y="380" text-anchor="middle" font-family="Noto Serif SC, serif"
+        font-size="36" fill="#d6cdb8">绿松石</text>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, sans-serif"
+        font-size="22" fill="#a89e8a">Mohs 6 · placeholder</text>
+</svg>

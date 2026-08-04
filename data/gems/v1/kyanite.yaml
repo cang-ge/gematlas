@@ -1,0 +1,42 @@
+# Kyanite (硅酸盐（蓝晶石）).
+id: kyanite
+names:
+  zh: 蓝晶石
+  en: Kyanite
+category:
+  mineral_zh: 硅酸盐（蓝晶石）
+  mineral_en: Silicate (disthene)
+  chemical_formula: Al₂SiO₅
+  crystal_system: triclinic
+physical:
+  hardness_mohs: 5.5
+  hardness_note_zh: '硬度方向性：长度 4.5 / 横截面 7'
+  hardness_note_en: 'Directional hardness: 4.5 length, 7 across'
+  specific_gravity: 3.68
+  refractive_index: 1.71-1.73
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 湛蓝, en: Deep blue }
+    - { zh: 蓝黑, en: Blue-black }
+    - { zh: 绿, en: Green }
+  color_causes_zh: Fe/Ti 致蓝色
+  color_causes_en: Fe/Ti blue
+treatments:
+  common: [heating]
+  disclosure_required: false
+  note_zh: '硬度各向异性极罕见；橙色蓝晶石（锰致色）更贵'
+  note_en: 'Rarely anisotropic hardness; orange kyanite (Mn) pricier'
+images:
+  main: kyanite.svg
+  gallery: [kyanite-gallery-1.svg, kyanite-gallery-2.svg, kyanite-gallery-3.svg]
+
+origin:
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "尼泊尔", en: "Nepal" }
+  - { zh: "缅甸", en: "Myanmar" }
+  - { zh: "美国北卡罗来纳", en: "North Carolina, USA" }
+history_zh: |
+  蓝晶石得名于希腊"蓝色"，其各向异性硬度（横纵差异）在宝石界独一无二。
+history_en: |
+  Kyanite means 'blue' in Greek; its direction-dependent hardness is unique among gems.

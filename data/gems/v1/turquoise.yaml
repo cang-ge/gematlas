@@ -1,0 +1,40 @@
+# Turquoise (含水铜铝磷酸盐).
+id: turquoise
+names:
+  zh: 绿松石
+  en: Turquoise
+category:
+  mineral_zh: 含水铜铝磷酸盐
+  mineral_en: Hydrous copper aluminium phosphate
+  chemical_formula: CuAl₆(PO₄)₄(OH)₈·4H₂O
+  crystal_system: triclinic
+physical:
+  hardness_mohs: 6
+  specific_gravity: 2.7
+  refractive_index: 1.61-1.65
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 天空蓝, en: Sky blue }
+    - { zh: 蓝绿, en: Blue-green }
+    - { zh: 绿, en: Green }
+  color_causes_zh: 铜致蓝、铁致绿
+  color_causes_en: Cu blue, Fe green
+treatments:
+  common: [stabilisation, dyeing]
+  disclosure_required: true
+  note_zh: '高瓷蓝（睡美人矿）最贵；稳定处理常见'
+  note_en: 'China-blue ''Sleeping Beauty'' priciest; stabilisation common'
+images:
+  main: turquoise.svg
+  gallery: [turquoise-gallery-1.svg, turquoise-gallery-2.svg, turquoise-gallery-3.svg]
+
+origin:
+  - { zh: "中国湖北", en: "Hubei, China" }
+  - { zh: "伊朗尼沙普尔", en: "Nishapur, Iran" }
+  - { zh: "美国亚利桑那", en: "Arizona, USA" }
+  - { zh: "墨西哥", en: "Mexico" }
+history_zh: |
+  绿松石是最古老宝石之一，古埃及法老、美国原住民、中国藏族均视为神圣护身符。
+history_en: |
+  Turquoise is among the oldest gems — sacred to Egyptian pharaohs, Native Americans, and Tibetan culture.

@@ -167,7 +167,7 @@ export const GemPhysical = z.object({
   hardness_note_zh: z.string().optional(),
   hardness_note_en: z.string().optional(),
   specific_gravity: z.number().positive(),
-  refractive_index: z.string().regex(/^\d+\.\d+-\d+\.\d+$/, 'Use "min-max" format e.g. "1.762-1.770"'),
+  refractive_index: z.string().regex(/^\d+\.\d+(-\d+\.\d+)?$/, 'Use "1.54" or "1.762-1.770"'),
 })
 
 /** Optical phenomena and color causes. */

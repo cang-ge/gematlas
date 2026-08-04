@@ -1,0 +1,43 @@
+# Coral (gem-grade) (有机宝石（珊瑚虫骨骼）).
+id: coral
+names:
+  zh: 珊瑚（宝石级）
+  en: Coral (gem-grade)
+category:
+  mineral_zh: 有机宝石（珊瑚虫骨骼）
+  mineral_en: Organic (coral skeleton)
+  chemical_formula: CaCO₃ (calcite)
+  crystal_system: amorphous
+physical:
+  hardness_mohs: 3.5
+  hardness_note_zh: '软'
+  hardness_note_en: 'Soft'
+  specific_gravity: 2.65
+  refractive_index: 1.49-1.66
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 血红（阿卡）, en: Deep red (aka) }
+    - { zh: 粉色（momo）, en: Pink (momo) }
+    - { zh: 白色, en: White }
+    - { zh: 天使皮, en: Angel skin }
+  color_causes_zh: 铁/有机色素
+  color_causes_en: Iron / organic pigments
+treatments:
+  common: [waxing, dyeing]
+  disclosure_required: true
+  note_zh: '深血红日本阿卡珊瑚最贵；忌酸与高温'
+  note_en: 'Japanese aka deep-red priciest; avoid acid and heat'
+images:
+  main: coral.svg
+  gallery: [coral-gallery-1.svg, coral-gallery-2.svg, coral-gallery-3.svg]
+
+origin:
+  - { zh: "日本", en: "Japan" }
+  - { zh: "地中海", en: "Mediterranean" }
+  - { zh: "中国台湾", en: "Taiwan" }
+  - { zh: "夏威夷", en: "Hawaii" }
+history_zh: |
+  珊瑚自古用于宗教与王室饰品，古罗马称其可避雷。日本阿卡珊瑚在明清中国极受追捧。
+history_en: |
+  Coral has adorned religions and royals since antiquity; Rome prized it as lightning-proof. Japanese aka coral was treasured in Ming-Qing China.
