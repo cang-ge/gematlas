@@ -38,8 +38,8 @@ topics:
       - Girdle must balance durability against weight retention.
       - Brilliance depends on precise proportions; errors create "windows" of light leakage.
     examples:
-      - { gem: "diamond", cut: "Round Brilliant, 57f", note_en: "auction standard" }
-      - { gem: "zircon", cut: "Round Brilliant", note_en: "high dispersion" }
+      - { gem: "diamond", value: "Round Brilliant, 57f", note_en: "auction standard" }
+      - { gem: "zircon", value: "Round Brilliant", note_en: "high dispersion" }
 
   - id: fancy-cuts
     name_zh: 花式切工
@@ -63,8 +63,8 @@ topics:
       - Pear / marquise / heart: elongated silhouettes; need symmetric crown-pavilion to avoid bow-tie.
       - Fancy cuts often price lower per carat than rounds (cutting waste + demand).
     examples:
-      - { gem: "diamond", cut: "Emerald step cut", note_en: "historic, elegant" }
-      - { gem: "diamond", cut: "Princess", note_en: "most popular modern square" }
+      - { gem: "diamond", value: "Emerald step cut", note_en: "historic, elegant" }
+      - { gem: "diamond", value: "Princess", note_en: "most popular modern square" }
 
   - id: cabochon-and-carving
     name_zh: 蛋面与雕刻
@@ -87,6 +87,6 @@ topics:
       - Chatoyancy likewise: needle inclusions must align to the dome axis.
       - Jade carving (jadeite, nephrite, turquoise) exploits texture and colour zoning.
     examples:
-      - { gem: "ruby", cut: "Star cabochon", note_en: "6-ray asterism" }
-      - { gem: "tigers-eye", cut: "Cat's-eye cabochon", note_en: "chatoyancy" }
-      - { gem: "jadeite", cut: "Carved pendant", note_en: "imperial jade" }
+      - { gem: "ruby", value: "Star cabochon", note_en: "6-ray asterism" }
+      - { gem: "tigers-eye", value: "Cat's-eye cabochon", note_en: "chatoyancy" }
+      - { gem: "jadeite", value: "Carved pendant", note_en: "imperial jade" }

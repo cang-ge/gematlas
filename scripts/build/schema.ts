@@ -117,60 +117,16 @@ export const MineralGroupsFile = z.object({
   groups: z.array(MineralGroupEntry).min(1),
 })
 
-// Phase E: grading taxonomy (4Cs + colored-stone model + disclosure)
-export const GradingExample = z.object({
-  gem: z.string().min(1),
-  grade: z.string().min(1),
-  note_zh: z.string().optional(),
-  note_en: z.string().optional(),
-})
-export const GradingTopicEntry = z.object({
-  id: z.string().min(1),
-  name_zh: z.string().min(1),
-  name_en: z.string().min(1),
-  summary_zh: z.string().min(1),
-  summary_en: z.string().min(1),
-  principles_zh: z.union([z.array(z.string()), z.string()]).optional(),
-  principles_en: z.union([z.array(z.string()), z.string()]).optional(),
-  examples: z.array(GradingExample).optional(),
-})
-export const GradingTopicsFile = z.object({
-  overview_zh: z.string().min(1),
-  overview_en: z.string().min(1),
-  topics: z.array(GradingTopicEntry).min(1),
-})
-
-// Phase F: cutting taxonomy (brilliant / fancy / cabochon-carving)
-export const CuttingExample = z.object({
-  gem: z.string().min(1),
-  cut: z.string().min(1),
-  note_zh: z.string().optional(),
-  note_en: z.string().optional(),
-})
-export const CuttingTopicEntry = z.object({
-  id: z.string().min(1),
-  name_zh: z.string().min(1),
-  name_en: z.string().min(1),
-  summary_zh: z.string().min(1),
-  summary_en: z.string().min(1),
-  principles_zh: z.union([z.array(z.string()), z.string()]).optional(),
-  principles_en: z.union([z.array(z.string()), z.string()]).optional(),
-  examples: z.array(CuttingExample).optional(),
-})
-export const CuttingTopicsFile = z.object({
-  overview_zh: z.string().min(1),
-  overview_en: z.string().min(1),
-  topics: z.array(CuttingTopicEntry).min(1),
-})
-
-// Phase G: identification taxonomy (physical / optical / synthetic-imitation)
-export const IdentificationExample = z.object({
+// Phase E–H: module topic taxonomy (grading / cutting / identification /
+// gallery). All four share the same generic shape (overview + topics +
+// optional examples per topic) so one schema + one generator cover them.
+export const TopicExample = z.object({
   gem: z.string().min(1),
   value: z.string().min(1),
   note_zh: z.string().optional(),
   note_en: z.string().optional(),
 })
-export const IdentificationTopicEntry = z.object({
+export const TopicEntry = z.object({
   id: z.string().min(1),
   name_zh: z.string().min(1),
   name_en: z.string().min(1),
@@ -178,20 +134,19 @@ export const IdentificationTopicEntry = z.object({
   summary_en: z.string().min(1),
   principles_zh: z.union([z.array(z.string()), z.string()]).optional(),
   principles_en: z.union([z.array(z.string()), z.string()]).optional(),
-  examples: z.array(IdentificationExample).optional(),
+  examples: z.array(TopicExample).optional(),
 })
-export const IdentificationTopicsFile = z.object({
+export const TopicFile = z.object({
   overview_zh: z.string().min(1),
   overview_en: z.string().min(1),
-  topics: z.array(IdentificationTopicEntry).min(1),
+  topics: z.array(TopicEntry).min(1),
 })
 
-// Phase H: gallery taxonomy (maisons / style eras / legendary stones)
-export const GalleryTopicsFile = z.object({
-  overview_zh: z.string().min(1),
-  overview_en: z.string().min(1),
-  topics: z.array(IdentificationTopicEntry).min(1),
-})
+// Back-compat aliases — generators and tests still reference these names.
+export const GradingTopicsFile = TopicFile
+export const CuttingTopicsFile = TopicFile
+export const IdentificationTopicsFile = TopicFile
+export const GalleryTopicsFile = TopicFile
 
 /* ─── Gem (data/gemstones/v1/*.yaml) — core 5 modules ───────── */
 

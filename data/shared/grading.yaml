@@ -41,8 +41,8 @@ topics:
       - Clarity: FL–I3 scale under 10×. Inclusions and blemishes determine grade.
       - Cut: Excellent → Poor. Proportions, symmetry, polish drive brilliance.
     examples:
-      - { gem: "diamond", grade: "D/IF/Excellent", note_zh: "拍卖级", note_en: "auction-grade" }
-      - { gem: "sapphire", grade: "Cornflower Blue / Excellent", note_zh: "彩色宝石单看颜色+切工", note_en: "colored gems use colour + cut" }
+      - { gem: "diamond", value: "D/IF/Excellent", note_zh: "拍卖级", note_en: "auction-grade" }
+      - { gem: "sapphire", value: "Cornflower Blue / Excellent", note_zh: "彩色宝石单看颜色+切工", note_en: "colored gems use colour + cut" }
 
   - id: colored-stones
     name_zh: 彩色宝石分级（hue / tone / saturation）
@@ -66,9 +66,9 @@ topics:
       - Saturation: vividness. Browns and greys depress value; vivid / strong is best.
       - Cut & clarity still matter, but colour dominates price for coloured gems.
     examples:
-      - { gem: "ruby", grade: "vivid red, medium tone", note_zh: "鸽血红", note_en: "pigeon-blood red" }
-      - { gem: "emerald", grade: "vivid green, slightly bluish", note_en: "top Muzo / Chivor" }
-      - { gem: "sapphire", grade: "vivid blue, medium-dark", note_en: "royal / cornflower" }
+      - { gem: "ruby", value: "vivid red, medium tone", note_zh: "鸽血红", note_en: "pigeon-blood red" }
+      - { gem: "emerald", value: "vivid green, slightly bluish", note_en: "top Muzo / Chivor" }
+      - { gem: "sapphire", value: "vivid blue, medium-dark", note_en: "royal / cornflower" }
 
   - id: clarity-types
     name_zh: 净度瑕疵类型 (inclusion / blemish)
@@ -96,8 +96,8 @@ topics:
       - Blemish: surface chip / scratch / pit.
       - Location dominates type—a feather under the table is much worse than one in the pavilion.
     examples:
-      - { gem: "emerald", grade: "jardin (3-phase)", note_zh: "公认美感一部分", note_en: "accepted aesthetic feature" }
-      - { gem: "ruby", grade: "silk (rutile needles)", note_zh: "星光效应来源", note_en: "source of asterism" }
+      - { gem: "emerald", value: "jardin (3-phase)", note_zh: "公认美感一部分", note_en: "accepted aesthetic feature" }
+      - { gem: "ruby", value: "silk (rutile needles)", note_zh: "星光效应来源", note_en: "source of asterism" }
 
   - id: origin-disclosure
     name_zh: 产地 / 处理披露
@@ -120,6 +120,6 @@ topics:
       - Enhancement (oil/resin in emerald, dye, fracture filling): large value hit.
       - Origin opinion: based on inclusion suite + trace chemistry; only reputable labs.
     examples:
-      - { gem: "ruby", grade: "heated (H)", note_zh: "常规 — 价格上限定", note_en: "routine — caps price" }
-      - { gem: "emerald", grade: "minor oil (Cedarwood)", note_en: "accepted with disclosure" }
-      - { gem: "sapphire", grade: "unheated, Kashmir", note_zh: "价格 5–10× 热处理", note_en: "5–10× price of heated" }
+      - { gem: "ruby", value: "heated (H)", note_zh: "常规 — 价格上限定", note_en: "routine — caps price" }
+      - { gem: "emerald", value: "minor oil (Cedarwood)", note_en: "accepted with disclosure" }
+      - { gem: "sapphire", value: "unheated, Kashmir", note_zh: "价格 5–10× 热处理", note_en: "5–10× price of heated" }
