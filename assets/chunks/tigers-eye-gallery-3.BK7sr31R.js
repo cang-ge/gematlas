@@ -1,0 +1,1 @@
+const s="/gematlas/assets/tigers-eye-gallery-1.DVSzVzsz.jpg",e="/gematlas/assets/tigers-eye-gallery-2.Ddyj5aY7.jpg",a="/gematlas/assets/tigers-eye.DsRkyijs.jpg",t="/gematlas/assets/tigers-eye-gallery-3.627Cq6ZP.jpg";export{s as _,e as a,a as b,t as c};

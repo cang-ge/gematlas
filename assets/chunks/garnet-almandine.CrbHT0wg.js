@@ -1,0 +1,1 @@
+const a="/gematlas/assets/rose-quartz.CDHcY8yl.jpg",s="/gematlas/assets/garnet-almandine-gallery-1.CKfhTY5j.jpg",t="/gematlas/assets/garnet-almandine-gallery-2.BASwJ5PZ.jpg",e="/gematlas/assets/garnet-almandine.B_irxyQ3.jpg";export{a as _,s as a,t as b,e as c};

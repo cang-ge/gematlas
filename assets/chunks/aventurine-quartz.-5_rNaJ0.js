@@ -1,0 +1,1 @@
+const s="/gematlas/assets/rose-quartz.CDHcY8yl.jpg",a="/gematlas/assets/rose-quartz.CDHcY8yl.jpg",t="/gematlas/assets/aventurine-quartz-gallery-3.gyonHovO.jpg",e="/gematlas/assets/rose-quartz.CDHcY8yl.jpg";export{s as _,a,t as b,e as c};

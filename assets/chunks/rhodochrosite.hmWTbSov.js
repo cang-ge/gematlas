@@ -1,0 +1,1 @@
+const s="/gematlas/assets/rhodochrosite-gallery-1.gcBLzgPe.png",t="/gematlas/assets/rhodochrosite-gallery-2.gR-UB8f9.jpg",o="/gematlas/assets/rhodochrosite-gallery-3.BUWPetQK.jpg",a="/gematlas/assets/rhodochrosite.w9jrqJCP.jpg";export{s as _,t as a,o as b,a as c};

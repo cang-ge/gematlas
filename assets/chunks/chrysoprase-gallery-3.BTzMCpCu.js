@@ -1,0 +1,1 @@
+const s="/gematlas/assets/chrysoprase-gallery-1.DoJxK4vi.jpg",a="/gematlas/assets/chrysoprase.Bpvdv9Eg.jpg",e="/gematlas/assets/chrysoprase-gallery-2.DPJbNkzn.jpg",t="/gematlas/assets/chrysoprase-gallery-3.CTQYegnE.jpg";export{s as _,a,e as b,t as c};
