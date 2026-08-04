@@ -69,8 +69,54 @@ git push origin      → a83148f..9a5e290
 
 ## 六、下一步建议（自主模式继续）
 
-- [ ] 生成器去重重构（改进 #1）
-- [ ] 补充同色宝石判别内容（改进 #3）
-- [ ] README 模块清单同步（改进 #4）
+- [x] 生成器去重重构（改进 #1）— 已完成 059775f
+- [x] README 模块清单同步（改进 #4）— 已完成 bf89333
+- [x] 同色宝石判别内容（改进 #3）— 已完成 b3de47b
 - [ ] 每宝石补产地/历史数据（中期）
 - [ ] 扩展宝石品种 50→60+（中期）
+
+---
+
+## 续：去重 + 内容深化（+3h，总计约 9h）
+
+### 5. 生成器去重（059775f，-411 行）
+- **4 个近同生成器 → 1 个 `generate-topic-pages.ts`**（ModuleConfig 映射驱动）。
+- schema 合并：`GradingTopicsFile` 等 4 个 → 统一 `TopicFile`（保留别名向后兼容）。
+- grading/cutting YAML 的 `grade`/`cut` 字段统一为 `value`。
+- **验证**：grading/cutting 输出字节级一致（hash 匹配）；identification/gallery 修复 2 个旧 bug（title 误写 "Cutting"、ZH seeAlso 误指"切割总览"）。
+
+### 6. README 同步（bf89333）
+- 3 个 README：测试数 15→60、模块覆盖更新（子页）、repo layout 加共享生成器。
+
+### 7. 同色宝石判别决策树（b3de47b）
+- schema/generator 加可选 `mermaid` 字段（`<div v-pre><pre class="mermaid">` 模式，复用现有 intro 可行写法）。
+- identification 新增第 4 个 topic `same-color-gems`（红色家族决策树：RI+UV 分流红宝石/尖晶石/石榴石/玻璃）。
+
+### 8. 遇到的问题
+- **`<div v-pre>` + ` ```mermaid ` 栅栏导致 build 失败**（Vue 编译器 "missing end tag"）：改用 `<pre class="mermaid">` 内联模式解决。
+- tsc 报 `ok: boolean` 类型错（计数器误标注）：改为 `ok: number`。
+
+### 9. 每宝石产地/历史数据（436f7ae）
+- GemSchema 加可选 `origin`（双语产地列表）+ `history_zh/en`。
+- generate-gem-pages.ts 渲染 `## Origin` + `## History & Lore` 区块。
+- `scripts/add-gem-origin.py`：50 颗全部填充（带 .bak 备份 + 原子写，幂等）。
+- 每颗含 2-5 个主要产地 + 1-2 句历史（含传奇宝石背景，如 Hope、黑王子红宝石、莫谷鸽血红、和田玉文化）。
+
+### 10. 阶段小结
+| 里程碑 | commit | 验证 |
+|--------|--------|------|
+| 4 模块子页 | 1f16db2..9a5e290 | 60 tests |
+| 生成器去重（-411 行）| 059775f | 字节级一致 |
+| README 同步 | bf89333 | — |
+| 同色判别决策树 | b3de47b | build exit 0 |
+| 50 颗 origin/history | 436f7ae | 60 tests |
+| **全部已 push** | `9a5e290..436f7ae` | tsc/validate/test/build 全 0 |
+
+### 改进建议（追加 2）
+4. 决策树目前只覆盖红色家族（蓝/绿家族内容已在 principles，可补 mermaid）。
+5. `add-gem-origin.py` 数据为一次性填充，若后续改产地产量建议改 YAML 手改 + 脚本仅保留幂等合并。
+
+### 改进建议（追加）
+1. mermaid 决策树目前只覆盖红色家族；蓝/绿家族可用相同模板补（内容已在 principles 里）。
+2. `generate-topic-pages.ts` 与 `generate-color-causes-pages.ts` 等 3 个更早的生成器仍各自独立——未来可统一进同一共享框架。
+3. 建议把 `logs/` 也纳入 README 或独立 CHANGELOG，便于追溯阶段成果。
