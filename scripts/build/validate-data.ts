@@ -20,6 +20,7 @@ import {
   MineralGroupsFile,
   GradingTopicsFile,
   CuttingTopicsFile,
+  IdentificationTopicsFile,
 } from './schema'
 
 const GEM_DIR = 'data/gems/v1'
@@ -69,6 +70,10 @@ if (fs.existsSync(gradingPath)) {
 const cuttingPath = path.join(SHARED_DIR, 'cutting.yaml')
 if (fs.existsSync(cuttingPath)) {
   validate(cuttingPath, CuttingTopicsFile, 'shared: cutting.yaml')
+}
+const identificationPath = path.join(SHARED_DIR, 'identification.yaml')
+if (fs.existsSync(identificationPath)) {
+  validate(identificationPath, IdentificationTopicsFile, 'shared: identification.yaml')
 }
 
 console.log(`\nResult: ${pass}/${pass + fail} files valid`)

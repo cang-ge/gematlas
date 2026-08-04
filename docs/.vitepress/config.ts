@@ -154,7 +154,12 @@ function sidebarEn() {
         { text: 'Charge Transfer', link: 'color-causes/charge-transfer' },
       ] },
     ] }],
-    '/identification/': [{ text: 'Identification', items: [{ text: 'Overview', link: 'intro' }] }],
+    '/identification/': [{ text: 'Identification', items: [
+      { text: 'Overview', link: 'intro' },
+      { text: 'Physical Tests', link: 'physical-tests' },
+      { text: 'Optical Tests', link: 'optical-tests' },
+      { text: 'Synthetics & Imitations', link: 'synthetic-and-imitation' },
+    ] }],
     '/cutting/':         [{ text: 'Cutting', items: [
       { text: 'Overview', link: 'intro' },
       { text: 'Round Brilliant Cut', link: 'brilliant-cut' },
@@ -213,7 +218,12 @@ function sidebarZh() {
         { text: '电荷转移', link: 'color-causes/charge-transfer' },
       ] },
     ] }],
-    '/zh/identification/': [{ text: '鉴定', items: [{ text: '总览', link: 'intro' }] }],
+    '/zh/identification/': [{ text: '鉴定', items: [
+      { text: '总览', link: 'intro' },
+      { text: '物理性质测试', link: 'physical-tests' },
+      { text: '光学测试', link: 'optical-tests' },
+      { text: '合成品与仿品鉴别', link: 'synthetic-and-imitation' },
+    ] }],
     '/zh/cutting/':        [{ text: '切割', items: [
       { text: '总览', link: 'intro' },
       { text: '圆明亮式切工', link: 'brilliant-cut' },

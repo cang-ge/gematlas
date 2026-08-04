@@ -1,0 +1,91 @@
+# Gem identification taxonomy — tests that tell one stone from another.
+#
+# Each entry is one identification topic. Generator emits a bilingual subpage
+# per entry plus the overview. References: GIA Gem Identification;
+# Schumann, *Gemstones of the World*; Nassau, *Gemstone Enhancement*;
+# AGL / GIA / SSEF identification procedures.
+
+overview_zh: |
+  鉴定是一门测量物理与光学性质来区分天然宝石、合成品与仿品的学科。
+  本模块介绍三大类测试——物理性质测试（RI / SG / 硬度 / 解理）、
+  光学测试（双折射 / 多色性 / 紫外荧光）、以及合成品与仿品的鉴别要点。
+overview_en: |
+  Identification measures physical and optical properties to separate
+  natural gems, synthetics, and imitations. This module covers three test
+  groups — physical tests (RI / SG / hardness / cleavage), optical tests
+  (birefringence / pleochroism / UV fluorescence), and distinguishing
+  synthetics and imitations.
+
+topics:
+  - id: physical-tests
+    name_zh: 物理性质测试
+    name_en: Physical Tests
+    summary_zh: |
+      折射率 (RI)、比重 (SG)、硬度、解理是最基础的鉴定手段——它们由
+      矿物化学成分与晶体结构决定，同一矿物种的值恒定可重复。
+    summary_en: |
+      Refractive index, specific gravity, hardness, and cleavage are the
+      most basic identification tools — fixed by chemistry and crystal
+      structure, so each species has a characteristic, repeatable value.
+    principles_zh: |
+      - 折射率 (RI)：折射仪读数，钻石 2.42、刚玉 1.76、石英 1.54 等。
+      - 比重 (SG)：空气中与水中称重比，可区分同色不同种宝石。
+      - 硬度：莫氏 1–10，划痕测试是破坏性的，只在必要时用。
+      - 解理：沿原子面断裂的倾向，钻石八面体解理、宝石级可见。
+    principles_en: |
+      - Refractive index: refractometer reading; diamond 2.42, corundum 1.76, quartz 1.54.
+      - Specific gravity: weigh in air vs water; separates same-colour species.
+      - Hardness: Mohs 1–10; scratch tests are destructive — use only when needed.
+      - Cleavage: tendency to break along atomic planes; octahedral in diamond.
+    examples:
+      - { gem: "diamond", value: "RI 2.42, SG 3.52", note_en: "highest RI of gems" }
+      - { gem: "ruby", value: "RI 1.76, SG 4.00", note_en: "corundum signature" }
+
+  - id: optical-tests
+    name_zh: 光学测试
+    name_en: Optical Tests
+    summary_zh: |
+      双折射（偏光镜）、多色性（二色镜）、紫外荧光（紫外灯）揭示宝石的
+      光学对称性与化学成分信息，是快速筛分品种与检测处理的关键。
+    summary_en: |
+      Birefringence (polariscope), pleochroism (dichroscope), and UV
+      fluorescence (UV lamp) reveal optical symmetry and chemistry —
+      fast screens for species and treatments.
+    principles_zh: |
+      - 双折射：光在非均质宝石中分裂，值越高（如锆石 0.059）越易识别。
+      - 多色性：二色镜观察，堇青石三色性强、红宝石紫红/橙红。
+      - 紫外荧光：LW/SW 紫外灯下反应，帮助区分天然 vs 合成、产地线索。
+      - 光谱 (spectroscope)：吸收谱带是"指纹"，鉴定变色宝石与产地。
+    principles_en: |
+      - Birefringence: light splits in anisotropic gems; zircon 0.059 is distinctive.
+      - Pleochroism: dichroscope shows colour variation; iolite strongly trichroic.
+      - UV fluorescence: LW/SW lamp reaction helps separate natural vs synthetic.
+      - Spectroscope: absorption bands are a fingerprint for species and origin.
+    examples:
+      - { gem: "zircon", value: "DR 0.059", note_en: "double image visible" }
+      - { gem: "iolite", value: "strong trichroism", note_en: "blue/violet/yellow" }
+
+  - id: synthetic-and-imitation
+    name_zh: 合成品与仿品鉴别
+    name_en: Synthetics & Imitations
+    summary_zh: |
+      合成宝石（同化学成分，如焰熔法红宝石、水热法祖母绿、CVD 钻石）与
+      仿品（不同成分，如玻璃、立方氧化锆、仿祖母绿双层石）需要不同的
+      鉴别路径。
+    summary_en: |
+      Synthetics (same chemistry — flux ruby, hydrothermal emerald, CVD
+      diamond) and imitations (different chemistry — glass, cubic zirconia,
+      doublets) demand different identification routes.
+    principles_zh: |
+      - 合成红/蓝宝石：焰熔法曲线生长纹、气泡；水热法含铂片/不规则包裹体。
+      - CVD/HPHT 钻石：与天然钻石同为碳，需紫外荧光分带 + 光谱仪判断。
+      - 立方氧化锆 (CZ)：SG 5.65、异常色散、棱角锋利——与钻石区别明显。
+      - 玻璃仿品：气泡、旋涡纹、流动纹；折射率常在 1.5–1.7 区间。
+    principles_en: |
+      - Synthetic ruby/sapphire: flux curved striae and bubbles; hydrothermal has platinum flakes.
+      - CVD/HPHT diamond: chemically identical to natural — needs UV banding + spectroscopy.
+      - Cubic zirconia: SG 5.65, excessive dispersion, sharp facet edges — clearly not diamond.
+      - Glass imitations: bubbles, swirls, flow lines; RI usually 1.5–1.7.
+    examples:
+      - { gem: "diamond", value: "CZ (cubic zirconia)", note_en: "SG 5.65 vs 3.52" }
+      - { gem: "emerald", value: "hydrothermal", note_en: "needs lab verification" }

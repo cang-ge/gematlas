@@ -163,6 +163,29 @@ export const CuttingTopicsFile = z.object({
   topics: z.array(CuttingTopicEntry).min(1),
 })
 
+// Phase G: identification taxonomy (physical / optical / synthetic-imitation)
+export const IdentificationExample = z.object({
+  gem: z.string().min(1),
+  value: z.string().min(1),
+  note_zh: z.string().optional(),
+  note_en: z.string().optional(),
+})
+export const IdentificationTopicEntry = z.object({
+  id: z.string().min(1),
+  name_zh: z.string().min(1),
+  name_en: z.string().min(1),
+  summary_zh: z.string().min(1),
+  summary_en: z.string().min(1),
+  principles_zh: z.union([z.array(z.string()), z.string()]).optional(),
+  principles_en: z.union([z.array(z.string()), z.string()]).optional(),
+  examples: z.array(IdentificationExample).optional(),
+})
+export const IdentificationTopicsFile = z.object({
+  overview_zh: z.string().min(1),
+  overview_en: z.string().min(1),
+  topics: z.array(IdentificationTopicEntry).min(1),
+})
+
 /* ─── Gem (data/gemstones/v1/*.yaml) — core 5 modules ───────── */
 
 /** Each gem's mineralogical / chemical identity. */
@@ -207,6 +230,7 @@ export const SharedSchema = z.object({
   mineral_groups: MineralGroupsFile.optional(),
   grading_topics: GradingTopicsFile.optional(),
   cutting_topics: CuttingTopicsFile.optional(),
+  identification_topics: IdentificationTopicsFile.optional(),
 })
 
 /** The full Gem YAML shape. */
