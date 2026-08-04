@@ -186,6 +186,13 @@ export const IdentificationTopicsFile = z.object({
   topics: z.array(IdentificationTopicEntry).min(1),
 })
 
+// Phase H: gallery taxonomy (maisons / style eras / legendary stones)
+export const GalleryTopicsFile = z.object({
+  overview_zh: z.string().min(1),
+  overview_en: z.string().min(1),
+  topics: z.array(IdentificationTopicEntry).min(1),
+})
+
 /* ─── Gem (data/gemstones/v1/*.yaml) — core 5 modules ───────── */
 
 /** Each gem's mineralogical / chemical identity. */
@@ -231,6 +238,7 @@ export const SharedSchema = z.object({
   grading_topics: GradingTopicsFile.optional(),
   cutting_topics: CuttingTopicsFile.optional(),
   identification_topics: IdentificationTopicsFile.optional(),
+  gallery_topics: GalleryTopicsFile.optional(),
 })
 
 /** The full Gem YAML shape. */

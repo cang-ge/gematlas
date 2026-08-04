@@ -21,6 +21,7 @@ import {
   GradingTopicsFile,
   CuttingTopicsFile,
   IdentificationTopicsFile,
+  GalleryTopicsFile,
 } from './schema'
 
 const GEM_DIR = 'data/gems/v1'
@@ -74,6 +75,10 @@ if (fs.existsSync(cuttingPath)) {
 const identificationPath = path.join(SHARED_DIR, 'identification.yaml')
 if (fs.existsSync(identificationPath)) {
   validate(identificationPath, IdentificationTopicsFile, 'shared: identification.yaml')
+}
+const galleryPath = path.join(SHARED_DIR, 'gallery.yaml')
+if (fs.existsSync(galleryPath)) {
+  validate(galleryPath, GalleryTopicsFile, 'shared: gallery.yaml')
 }
 
 console.log(`\nResult: ${pass}/${pass + fail} files valid`)

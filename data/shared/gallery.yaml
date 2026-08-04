@@ -1,0 +1,103 @@
+# Gem gallery taxonomy — maisons, styles, and legendary stones.
+#
+# Each entry is one gallery topic. Generator emits a bilingual subpage per
+# entry plus the overview. References: House monographs (Cartier, VCA,
+# Boucheron, Chaumet, Tiffany, Harry Winston, Graff); Christie's & Sotheby's
+# archive catalogues; the famous-stone literature (Evalyn Walsh McLean,
+# Hope; the Cullinan and Koh-i-Noor records).
+
+overview_zh: |
+  画廊模块把成品珠宝按三种维度展示——顶级珠宝工坊（maison）、
+  设计风格史（style era）、以及传奇宝石（legendary stones）。
+  配合 GalleryGrid 的 18 件代表作品，形成从工坊到名钻的完整叙事。
+overview_en: |
+  The gallery views finished jewelry through three lenses — the great
+  maisons, the style eras that shaped design, and the legendary stones
+  whose fame outlived their owners. Together with the GalleryGrid's
+  18 signature pieces, this forms a narrative from workshop to icon.
+
+topics:
+  - id: by-house
+    name_zh: 顶级珠宝工坊
+    name_en: By Maison
+    summary_zh: |
+      七家传奇珠宝工坊——Cartier、Van Cleef & Arpels、Boucheron、Tiffany、
+      Harry Winston、Graff、Chaumet——各自以独特工艺与美学定义了一个时代。
+    summary_en: |
+      Seven legendary maisons — Cartier, Van Cleef & Arpels, Boucheron,
+      Tiffany, Harry Winston, Graff, Chaumet — each defined an era with
+      signature craftsmanship and aesthetics.
+    principles_zh: |
+      - Cartier (1847)：Art Deco 雕刻宝石套装、猎豹图腾、Love 手镯。
+      - Van Cleef & Arpels (1906)：Mystery Set 隐密式镶嵌、Alhambra 四叶草。
+      - Boucheron (1858)：问号项链、孔雀羽毛系列——自然主义先驱。
+      - Tiffany & Co. (1837)：六爪镶嵌钻戒开创者、Blue Book 高珠年册。
+      - Harry Winston (1932)：Cluster 锦簇镶嵌、"钻石之王"。
+      - Graff (1960)：超大彩钻切割记录（Graff Venus、Lesedi La Rona）。
+      - Chaumet (1780)：拿破仑宫廷珠宝、Joséphine 皇冠、Liens 连结。
+    principles_en: |
+      - Cartier (1847): Art Deco carved-gem suites, panther motif, Love bracelet.
+      - Van Cleef & Arpels (1906): Mystery Set invisible setting, Alhambra.
+      - Boucheron (1858): Question Mark necklace, Plume de Paon — nature pioneer.
+      - Tiffany & Co. (1837): invented the six-prong ring, Blue Book high jewelry.
+      - Harry Winston (1932): Cluster setting, the "King of Diamonds".
+      - Graff (1960): record fancy-colour diamond cutting (Venus, Lesedi La Rona).
+      - Chaumet (1780): Napoleonic court jewelry, Joséphine tiara, Liens.
+    examples:
+      - { gem: "Cartier", value: "Tutti Frutti Bracelet (1928)", note_en: "Art Deco carved gems" }
+      - { gem: "VCA", value: "Mystery Set Brooch (1933)", note_en: "invisible setting" }
+      - { gem: "Tiffany", value: "Six-Prong Engagement (1886)", note_en: "setting standard" }
+
+  - id: by-style
+    name_zh: 设计风格史
+    name_en: By Style Era
+    summary_zh: |
+      从 19 世纪浪漫主义到 21 世纪高珠——Art Nouveau 的自然曲线、
+      Art Deco 的几何对称、Modernist 的极简，每个风格都反映其时代精神。
+    summary_en: |
+      From 19th-century romanticism to contemporary high jewelry — Art
+      Nouveau's organic curves, Art Deco's geometry, Modernist restraint —
+      each style mirrors its era.
+    principles_zh: |
+      - 浪漫主义 (Pre-1900)：自然花叶、浮雕、珍珠——维多利亚与爱德华时代。
+      - Art Nouveau (1890–1910)：新艺术曲线、蜻蜓发饰、麦浪。
+      - Art Deco (1920–1935)：几何对称、黑玛瑙/钻石对比、雕刻宝石。
+      - Mid-Century (1950–1980)：立体主义、异域题材（印度/中国元素）。
+      - Contemporary (2000+)：创新镶嵌、有机造型、彩色宝石高珠。
+    principles_en: |
+      - Romanticism (Pre-1900): floral carving, cameos, pearls — Victorian & Edwardian.
+      - Art Nouveau (1890–1910): whiplash curves, dragonfly tiaras, wheat motifs.
+      - Art Deco (1920–1935): geometry, black-onyx/diamond contrast, carved gems.
+      - Mid-Century (1950–1980): Cubism, exotic themes (Indian/Chinese motifs).
+      - Contemporary (2000+): innovative settings, organic forms, colour high jewelry.
+    examples:
+      - { gem: "Art Deco", value: "Boucheron 'Chimère' Belt (1920s)", note_en: "mystery-set motif" }
+      - { gem: "Art Nouveau", value: "René Lalique Dragonfly", note_en: "enamel + gem" }
+      - { gem: "Contemporary", value: "VCA 'Ludo' zip necklace (1951)", note_en: "zips into bracelet" }
+
+  - id: legendary-stones
+    name_zh: 传奇宝石
+    name_en: Legendary Stones
+    summary_zh: |
+      少数宝石因尺寸、颜色或历史而名垂青史——Hope 蓝钻、Koh-i-Noor、
+      Cullinan 系列、Regent 钻石、Star of India。它们的故事与它们本身一样珍贵。
+    summary_en: |
+      A few stones outlive their owners through size, colour, or history —
+      the Hope blue diamond, Koh-i-Noor, the Cullinans, the Regent, the Star
+      of India. Their stories are as precious as the gems themselves.
+    principles_zh: |
+      - Hope 蓝钻 (45.52 ct)：世界最著名蓝钻，切磨自法国王室蓝钻，现藏史密森尼。
+      - Koh-i-Noor (105.6 ct)：莫卧儿"光之山"，现为英国王冠上石。
+      - Cullinan I (530.2 ct)：最大顶级切割钻石，"非洲之星"，镶嵌英王权杖。
+      - Regent 钻石 (140.6 ct)：曾镶路易十五王冠，现存卢浮宫。
+      - Star of India (563 ct)：世界最大星光蓝宝石，现藏美国自然史博物馆。
+    principles_en: |
+      - Hope (45.52 ct): the most famous blue diamond; cut from the French Blue; Smithsonian.
+      - Koh-i-Noor (105.6 ct): the Mughal "Mountain of Light"; crown of the UK.
+      - Cullinan I (530.2 ct): largest top-quality cut diamond, the "Great Star of Africa", in the Sovereign's Sceptre.
+      - Regent (140.6 ct): set in Louis XV's crown; now in the Louvre.
+      - Star of India (563 ct): largest star sapphire; American Museum of Natural History.
+    examples:
+      - { gem: "Hope Diamond", value: "45.52 ct, blue", note_en: "Smithsonian, ex-French Blue" }
+      - { gem: "Cullinan I", value: "530.2 ct, D colour", note_en: "Sovereign's Sceptre" }
+      - { gem: "Star of India", value: "563 ct, star sapphire", note_en: "NY Natural History" }

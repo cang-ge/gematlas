@@ -1,23 +1,19 @@
-# Gallery
+---
+title: Cutting
+---
 
-> *A working library of the houses that defined the art.*
+# Cutting
 
-Seven legendary maisons have shaped the history of fine jewelry. Each has its own design language, technical innovations, and defining masterpieces.
+The gallery views finished jewelry through three lenses — the great
+maisons, the style eras that shaped design, and the legendary stones
+whose fame outlived their owners. Together with the GalleryGrid's
+18 signature pieces, this forms a narrative from workshop to icon.
 
-Use the filters below to explore by brand or gem type.
 
-<GalleryGrid locale="en" />
+## Cutting Topics
 
-## The Maisons
-
-| Brand | Founded | Known For |
-|-------|---------|-----------|
-| **Cartier** | 1847 | "King of Jewellers" — Art Deco, Panthere, Love |
-| **Van Cleef & Arpels** | 1906 | Mystery Set, Alhambra, fairy-inspired designs |
-| **Boucheron** | 1858 | Nature-inspired, Question Mark necklace |
-| **Tiffany & Co.** | 1837 | Six-prong setting, Blue Book, American luxury |
-| **Harry Winston** | 1932 | "King of Diamonds" — Cluster setting, Hope Diamond |
-| **Graff** | 1960 | Extraordinary large diamonds, record-breaking gems |
-| **Chaumet** | 1780 | Napoleonic crown jewels, Joséphine tiaras, Liens |
-
-Each piece in this gallery represents a milestone in jewelry craftsmanship — whether through technical innovation (Mystery Set, six-prong setting), design influence (Alhambra, Panthere), or the scale and rarity of the gems themselves (Hope Diamond, Lesedi La Rona).
+| Topic | Summary |
+|---|---|
+| [By Maison](by-house) | Seven legendary maisons — Cartier, Van Cleef & Arpels, Boucheron, |
+| [By Style Era](by-style) | From 19th-century romanticism to contemporary high jewelry — Art |
+| [Legendary Stones](legendary-stones) | A few stones outlive their owners through size, colour, or history — |

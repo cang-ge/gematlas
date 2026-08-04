@@ -173,7 +173,12 @@ function sidebarEn() {
       { text: 'Clarity Inclusion Types', link: 'clarity-types' },
       { text: 'Origin & Treatment Disclosure', link: 'origin-disclosure' },
     ] }],
-    '/gallery/':         [{ text: 'Gallery',         items: [{ text: 'Overview', link: 'intro' }] }],
+    '/gallery/':         [{ text: 'Gallery', items: [
+      { text: 'Overview', link: 'intro' },
+      { text: 'By Maison', link: 'by-house' },
+      { text: 'By Style Era', link: 'by-style' },
+      { text: 'Legendary Stones', link: 'legendary-stones' },
+    ] }],
   }
 }
 
@@ -237,6 +242,11 @@ function sidebarZh() {
       { text: '净度瑕疵类型', link: 'clarity-types' },
       { text: '产地与处理披露', link: 'origin-disclosure' },
     ] }],
-    '/zh/gallery/':        [{ text: '画廊', items: [{ text: '总览', link: 'intro' }] }],
+    '/zh/gallery/':        [{ text: '画廊', items: [
+      { text: '总览', link: 'intro' },
+      { text: '顶级珠宝工坊', link: 'by-house' },
+      { text: '设计风格史', link: 'by-style' },
+      { text: '传奇宝石', link: 'legendary-stones' },
+    ] }],
   }
 }
