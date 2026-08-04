@@ -22,9 +22,7 @@ treatments:
   disclosure_required: false
   note_zh: 与亚历山大石（同矿物—变石）为同一矿物种；金绿猫眼为王牌变种
   note_en: Same mineral species as alexandrite; cymophane (cat's-eye) is the prized variety
-images:
-  main: chrysoberyl-gallery-2.jpg
-  gallery: [chrysoberyl-gallery-1.jpg, chrysoberyl-gallery-3.jpg, chrysoberyl.jpg]
+
 
 origin:
   - { zh: "巴西", en: "Brazil" }
@@ -35,3 +33,6 @@ history_zh: |
   金绿宝石以金绿猫眼（cymophane）与变石（alexandrite）闻名，硬达8.5。
 history_en: |
   Chrysoberyl is famous for cat's-eye (cymophane) and alexandrite; it ranks a hard 8.5.
+images:
+  main: chrysoberyl-gallery-2.jpg
+  gallery: [chrysoberyl-gallery-1.jpg, chrysoberyl-gallery-3.jpg, chrysoberyl.jpg]

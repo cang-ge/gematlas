@@ -1,0 +1,42 @@
+# Amber (有机宝石（树脂化石）).
+id: amber
+names:
+  zh: 琥珀
+  en: Amber
+category:
+  mineral_zh: 有机宝石（树脂化石）
+  mineral_en: Organic (fossil resin)
+  chemical_formula: C₁₀H₁₆O (polymerised resin)
+  crystal_system: amorphous
+physical:
+  hardness_mohs: 2.5
+  hardness_note_zh: '软'
+  hardness_note_en: 'Soft'
+  specific_gravity: 1.08
+  refractive_index: '1.54'
+optical:
+  pleochroism: none
+  typical_colors:
+    - { zh: 蜂蜜色, en: Honey }
+    - { zh: 深红, en: Deep red }
+    - { zh: 蓝色（多米尼加）, en: Blue (Dominican) }
+  color_causes_zh: 树脂氧化与微量硫/铁
+  color_causes_en: Resin oxidation, trace S/Fe
+treatments:
+  common: [heating]
+  disclosure_required: true
+  note_zh: '波罗的海琥珀最常见；含昆虫内含物最珍贵'
+  note_en: 'Baltic amber most common; insect inclusions most prized'
+images:
+  main: amber.svg
+  gallery: [amber-gallery-1.svg, amber-gallery-2.svg, amber-gallery-3.svg]
+
+origin:
+  - { zh: "波罗的海", en: "Baltic Sea" }
+  - { zh: "缅甸", en: "Myanmar" }
+  - { zh: "多米尼加", en: "Dominican Republic" }
+  - { zh: "墨西哥", en: "Mexico" }
+history_zh: |
+  琥珀是数百万年前的树脂化石，能封存昆虫与植物。波罗的海琥珀自古贸易至罗马与中国。
+history_en: |
+  Amber fossilises ancient resin, preserving insects and plants. Baltic amber was traded to Rome and China since antiquity.

@@ -27,9 +27,6 @@ treatments:
   disclosure_required: false
   note_zh: '硬度各向异性极罕见；橙色蓝晶石（锰致色）更贵'
   note_en: 'Rarely anisotropic hardness; orange kyanite (Mn) pricier'
-images:
-  main: kyanite.svg
-  gallery: [kyanite-gallery-1.svg, kyanite-gallery-2.svg, kyanite-gallery-3.svg]
 
 origin:
   - { zh: "巴西", en: "Brazil" }
@@ -40,3 +37,7 @@ history_zh: |
   蓝晶石得名于希腊"蓝色"，其各向异性硬度（横纵差异）在宝石界独一无二。
 history_en: |
   Kyanite means 'blue' in Greek; its direction-dependent hardness is unique among gems.
+
+images:
+  main: kyanite.svg
+  gallery: [kyanite-gallery-1.svg, kyanite-gallery-2.svg, kyanite-gallery-3.svg]

@@ -66,6 +66,6 @@ Kashmir cornflower blue is the apex of sapphire colour; Sri Lanka is famed for s
 
 ## Gallery
 
-<img src="../images/gems/sapphire/sapphire-gallery-2.jpg" alt="Sapphire" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/sapphire/sapphire-gallery-1.jpg" alt="Sapphire" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/sapphire/sapphire-gallery-2.jpg" alt="Sapphire" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/sapphire/sapphire.jpg" alt="Sapphire" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

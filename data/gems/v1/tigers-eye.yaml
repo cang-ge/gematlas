@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 加热可增强红棕色；鹰眼石为未氧化变种
   note_en: Heat treatment can enhance red-brown; Hawk-eye is the unoxidized variety
-images:
-  main: tigers-eye-gallery-1.jpg
-  gallery: [tigers-eye-gallery-2.jpg, tigers-eye.jpg, tigers-eye-gallery-3.jpg]
+
 
 origin:
   - { zh: "南非", en: "South Africa" }
@@ -35,3 +33,6 @@ history_zh: |
   虎眼石是硅化青石棉，鹰眼/牛眼为其变种。古罗马武士用作护身符。
 history_en: |
   Tiger's-eye is silicified crocidolite; hawk's-eye and bull's-eye are variants. Roman soldiers wore it as a talisman.
+images:
+  main: tigers-eye.jpg
+  gallery: [tigers-eye-gallery-1.jpg, tigers-eye-gallery-2.jpg, tigers-eye-gallery-3.jpg]

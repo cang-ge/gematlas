@@ -67,4 +67,4 @@ Ruby is the king of coloured gems; Mogok (Myanmar) 'pigeon-blood' stones set the
 
 <img src="../images/gems/ruby/ruby-gallery-2.jpg" alt="Ruby" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/ruby/ruby.jpg" alt="Ruby" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/ruby/ruby-gallery-1.jpg" alt="Ruby" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/ruby/ruby-gallery-3.svg" alt="Ruby" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

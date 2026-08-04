@@ -1,0 +1,42 @@
+# Apatite (磷酸盐).
+id: apatite
+names:
+  zh: 磷灰石
+  en: Apatite
+category:
+  mineral_zh: 磷酸盐
+  mineral_en: Phosphate
+  chemical_formula: Ca₅(PO₄)₃(F,OH,Cl)
+  crystal_system: hexagonal
+physical:
+  hardness_mohs: 5
+  hardness_note_zh: '软——少见刻面'
+  hardness_note_en: 'Soft — rarely faceted'
+  specific_gravity: 3.17
+  refractive_index: 1.63-1.65
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 帕拉伊巴蓝, en: Paraíba-blue }
+    - { zh: 薄荷绿, en: Mint green }
+    - { zh: 黄, en: Yellow }
+  color_causes_zh: 稀土致帕拉伊巴蓝
+  color_causes_en: Rare-earth gives Paraíba blue
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: '产地位于缅甸的帕拉伊巴蓝磷灰石最受藏家青睐'
+  note_en: 'Burmese Paraíba-blue apatite prized by collectors'
+images:
+  main: apatite.svg
+  gallery: [apatite-gallery-1.svg, apatite-gallery-2.svg, apatite-gallery-3.svg]
+
+origin:
+  - { zh: "缅甸", en: "Myanmar" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "墨西哥", en: "Mexico" }
+history_zh: |
+  磷灰石是人体骨骼与牙齿的主要成分，因颜色酷似帕拉伊巴碧玺而受关注。
+history_en: |
+  Apatite forms human bones and teeth; gem apatite is sought for its Paraíba-like blue.

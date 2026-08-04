@@ -25,9 +25,7 @@ treatments:
   disclosure_required: true
   note_zh: 热处理普遍，无处理稀少
   note_en: Heat treatment is industry standard; untreated is rare
-images:
-  main: sapphire-gallery-3.jpg
-  gallery: [sapphire-gallery-2.jpg, sapphire-gallery-1.jpg, sapphire.jpg]
+
 
 origin:
   - { zh: "克什米尔", en: "Kashmir" }
@@ -38,3 +36,6 @@ history_zh: |
   克什米尔蓝宝石的矢车菊蓝被誉为蓝宝石顶峰；斯里兰卡以星光蓝宝石闻名。英国王室蓝宝石订婚戒（凯特王妃）使其人气再攀。
 history_en: |
   Kashmir cornflower blue is the apex of sapphire colour; Sri Lanka is famed for star sapphires. Kate Middleton's sapphire engagement ring reignited global demand.
+images:
+  main: sapphire-gallery-3.jpg
+  gallery: [sapphire-gallery-1.jpg, sapphire-gallery-2.jpg, sapphire.jpg]

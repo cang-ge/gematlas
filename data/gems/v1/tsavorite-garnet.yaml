@@ -20,9 +20,7 @@ treatments:
   disclosure_required: false
   note_zh: 无处理需求；稀缺性来自肯尼亚/坦桑尼亚小矿脉
   note_en: No treatment needed; scarcity from small Kenya/Tanzania veins
-images:
-  main: tsavorite-garnet-gallery-1.jpg
-  gallery: [tsavorite-garnet-gallery-2.jpg, tsavorite-garnet-gallery-3.jpg, tsavorite-garnet.jpg]
+
 
 origin:
   - { zh: "肯尼亚", en: "Kenya" }
@@ -31,3 +29,6 @@ history_zh: |
   1967年由苏格兰宝石学家坎贝尔·布里奇斯在肯尼亚发现，蒂芙尼以肯尼亚沙弗国家公园命名。翠绿不输祖母绿且更耐久。
 history_en: |
   Discovered in Kenya in 1967 by Campbell Bridges; named by Tiffany for Tsavo National Park. Green rivaling emerald with better durability.
+images:
+  main: tsavorite-garnet-gallery-2.jpg
+  gallery: [tsavorite-garnet-gallery-3.jpg, tsavorite-garnet-gallery-1.jpg, tsavorite-garnet.jpg]

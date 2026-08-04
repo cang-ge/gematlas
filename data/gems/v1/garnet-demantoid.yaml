@@ -21,9 +21,7 @@ treatments:
   disclosure_required: false
   note_zh: 俄罗斯乌拉尔山为最著名产地；马尾状包体为特征
   note_en: Russian Ural Mountains are the most famous source; "horsetail" inclusions are characteristic
-images:
-  main: garnet-demantoid-gallery-1.jpg
-  gallery: [garnet-demantoid-gallery-2.jpg, garnet-demantoid-gallery-3.jpg, garnet-demantoid.jpg]
+
 
 origin:
   - { zh: "俄罗斯乌拉尔", en: "Urals, Russia" }
@@ -32,3 +30,6 @@ history_zh: |
   翠榴石是绿色石榴石之王，色散超过钻石，俄罗斯沙皇珠宝常用之。
 history_en: |
   Demantoid is the green garnet king with dispersion exceeding diamond; beloved in Russian imperial jewelry.
+images:
+  main: garnet-demantoid-gallery-2.jpg
+  gallery: [garnet-demantoid-gallery-3.jpg, garnet-demantoid-gallery-1.jpg, garnet-demantoid.jpg]

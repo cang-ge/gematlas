@@ -24,9 +24,6 @@ treatments:
   disclosure_required: true
   note_zh: '1902年以宝石学家 G.F. Kunz 命名；颜色日久会褪，需避强光'
   note_en: 'Named 1902 for G.F. Kunz; colour fades in strong light'
-images:
-  main: kunzite.svg
-  gallery: [kunzite-gallery-1.svg, kunzite-gallery-2.svg, kunzite-gallery-3.svg]
 
 origin:
   - { zh: "阿富汗", en: "Afghanistan" }
@@ -37,3 +34,7 @@ history_zh: |
   紫锂辉石1902年由蒂芙尼宝石学家 Kunz 命名，粉色系宝石中的后起之秀。
 history_en: |
   Kunzite was named in 1902 by Tiffany's gemologist G.F. Kunz — a rising star among pink gems.
+
+images:
+  main: kunzite.jpg
+  gallery: [kunzite-gallery-1.jpg, kunzite-gallery-2.jpg]

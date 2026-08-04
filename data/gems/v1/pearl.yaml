@@ -28,9 +28,6 @@ treatments:
   disclosure_required: true
   note_zh: '天然 vs 养殖需 X 光或专业检测；仿品为玻璃/塑料珠'
   note_en: 'Natural vs cultured needs X-ray; imitations are glass/plastic beads'
-images:
-  main: pearl.svg
-  gallery: [pearl-gallery-1.svg, pearl-gallery-2.svg, pearl-gallery-3.svg]
 
 origin:
   - { zh: "波斯湾", en: "Persian Gulf" }
@@ -41,3 +38,7 @@ history_zh: |
   珍珠是唯一由生物体产生的宝石，数千年来象征纯洁。波斯湾天然珍珠与日本御木本养殖珍珠开创现代产业。
 history_en: |
   Pearl is the only gem produced by a living creature, symbolising purity for millennia. Persian Gulf naturals and Kokichi Mikimoto's cultured pearls built the modern industry.
+
+images:
+  main: pearl.svg
+  gallery: [pearl-gallery-1.svg, pearl-gallery-2.svg, pearl-gallery-3.svg]

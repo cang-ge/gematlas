@@ -23,9 +23,7 @@ treatments:
   disclosure_required: true
   note_zh: 中国岫玉（蛇纹石玉）有数千年开采史；与和田玉不同矿物
   note_en: Xiuyan jade (serpentine jade) from China has been mined for thousands of years; distinct mineral from nephrite
-images:
-  main: serpentine-gallery-1.jpg
-  gallery: [serpentine-gallery-3.jpg, serpentine-gallery-2.jpg, serpentine.jpg]
+
 
 origin:
   - { zh: "中国", en: "China" }
@@ -36,3 +34,6 @@ history_zh: |
   蛇纹石"新山玉"常仿翡翠，因表面蛇皮状光泽得名。加州州石。
 history_en: |
   Serpentine is a jade substitute ('new jade'); named for its snake-skin sheen. California state stone.
+images:
+  main: serpentine-gallery-1.jpg
+  gallery: [serpentine-gallery-3.jpg, serpentine-gallery-2.svg, serpentine-gallery-3.svg]

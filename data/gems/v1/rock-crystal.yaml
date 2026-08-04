@@ -20,9 +20,7 @@ treatments:
   disclosure_required: false
   note_zh: 最常见天然宝石原料，全球广泛分布；含发晶、水胆水晶等变种
   note_en: The most common natural gem material, distributed worldwide; includes rutilated quartz and enhydro varieties
-images:
-  main: rock-crystal.jpg
-  gallery: [rock-crystal-gallery-1.svg, rock-crystal-gallery-2.svg, rock-crystal-gallery-3.svg]
+
 
 origin:
   - { zh: "巴西", en: "Brazil" }
@@ -33,3 +31,6 @@ history_zh: |
   水晶自古被视为冰之凝晶，希腊语"krystallos"即冰。全球广泛分布。
 history_en: |
   Rock crystal was long thought to be frozen ice (Greek 'krystallos'). Distributed worldwide.
+images:
+  main: rock-crystal.jpg
+  gallery: [rock-crystal-gallery-1.svg, rock-crystal-gallery-2.svg, rock-crystal-gallery-3.svg]

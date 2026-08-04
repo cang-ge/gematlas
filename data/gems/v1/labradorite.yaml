@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 拉长石的晕彩是结构效应，不可人造优化
   note_en: Labradorescence is a structural effect and cannot be artificially enhanced; surface coating sometimes used to add color
-images:
-  main: labradorite.jpg
-  gallery: [labradorite-gallery-2.jpg, labradorite-gallery-3.jpg, labradorite-gallery-1.jpg]
+
 
 origin:
   - { zh: "加拿大拉布拉多", en: "Labrador, Canada" }
@@ -34,3 +32,6 @@ history_zh: |
   拉长石拉长光（labradorescence）由层状双晶干涉产生。芬兰变种称"光谱石"。
 history_en: |
   Labradorite's iridescence (labradorescence) stems from lamellar twinning; the Finnish variety is 'spectrolite'.
+images:
+  main: labradorite.jpg
+  gallery: [labradorite-gallery-2.jpg, labradorite-gallery-3.jpg, labradorite-gallery-3.svg]

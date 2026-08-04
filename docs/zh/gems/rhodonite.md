@@ -5,7 +5,7 @@ gem: rhodonite
 
 
 # 蔷薇辉石
-<img src="../../images/gems/rhodonite/rhodonite-gallery-1.jpg" alt="蔷薇辉石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/rhodonite/rhodonite.jpg" alt="蔷薇辉石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ English: [Rhodonite](/gems/rhodonite)
 
 ## 图库
 
+<img src="../../images/gems/rhodonite/rhodonite-gallery-1.jpg" alt="蔷薇辉石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/rhodonite/rhodonite-gallery-2.jpg" alt="蔷薇辉石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/rhodonite/rhodonite-gallery-3.jpg" alt="蔷薇辉石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/rhodonite/rhodonite.jpg" alt="蔷薇辉石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 俄罗斯"苏联石"（Rhodonite）是最著名产地品种
   note_en: Russian "Rhodonite" from the Ural Mountains is the most famous source variety
-images:
-  main: rhodonite-gallery-1.jpg
-  gallery: [rhodonite-gallery-2.jpg, rhodonite-gallery-3.jpg, rhodonite.jpg]
+
 
 origin:
   - { zh: "俄罗斯乌拉尔", en: "Urals, Russia" }
@@ -35,3 +33,6 @@ history_zh: |
   蔷薇辉石粉色含黑色锰氧化物网纹，俄罗斯以之制巨型装饰，马萨诸塞州石。
 history_en: |
   Rhodonite's pink carries black manganese veining; Russia made grand ornaments and it is the Massachusetts state stone.
+images:
+  main: rhodonite.jpg
+  gallery: [rhodonite-gallery-1.jpg, rhodonite-gallery-2.jpg, rhodonite-gallery-3.jpg]

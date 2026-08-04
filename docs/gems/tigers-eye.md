@@ -5,7 +5,7 @@ gem: tigers-eye
 
 
 # Tiger's Eye
-<img src="../images/gems/tigers-eye/tigers-eye-gallery-1.jpg" alt="Tiger's Eye" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/tigers-eye/tigers-eye.jpg" alt="Tiger's Eye" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ Tiger's-eye is silicified crocidolite; hawk's-eye and bull's-eye are variants. R
 
 ## Gallery
 
+<img src="../images/gems/tigers-eye/tigers-eye-gallery-1.jpg" alt="Tiger's Eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/tigers-eye/tigers-eye-gallery-2.jpg" alt="Tiger's Eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/tigers-eye/tigers-eye.jpg" alt="Tiger's Eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/tigers-eye/tigers-eye-gallery-3.jpg" alt="Tiger's Eye" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

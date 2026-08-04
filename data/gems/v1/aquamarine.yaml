@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 加热可使绿色调转为稳定的蓝色
   note_en: Heat treatment can convert greenish hues to stable blue
-images:
-  main: aquamarine-gallery-2.jpg
-  gallery: [aquamarine-gallery-3.jpg, aquamarine.jpg, aquamarine-gallery-1.jpg]
+
 
 origin:
   - { zh: "巴西米纳斯吉拉斯", en: "Minas Gerais, Brazil" }
@@ -34,3 +32,6 @@ history_zh: |
   与祖母绿同属绿柱石族。巴西米纳斯吉拉斯产出品质最佳的海蓝宝，常用作航海护身符。
 history_en: |
   Beryl cousin of emerald. Brazil's Minas Gerais yields the finest aquamarine, long a sailor's talisman.
+images:
+  main: aquamarine.jpg
+  gallery: [aquamarine-gallery-2.jpg, aquamarine-gallery-3.jpg, aquamarine-gallery-1.jpg]

@@ -23,9 +23,7 @@ treatments:
   disclosure_required: true
   note_zh: 巴西 Paraiba 州原产稀缺，莫桑比克产替代但溢价低
   note_en: Original Brazilian Paraíba is scarce; Mozambique material trades at lower premium
-images:
-  main: paraiba-tourmaline-gallery-1.jpg
-  gallery: [paraiba-tourmaline-gallery-2.jpg, paraiba-tourmaline-gallery-3.jpg, paraiba-tourmaline.jpg]
+
 
 origin:
   - { zh: "巴西帕拉伊巴州", en: "Paraíba, Brazil" }
@@ -35,3 +33,6 @@ history_zh: |
   1989年在巴西帕拉伊巴州发现，电光蓝/霓虹绿由铜元素致色，一经问世即震撼业界，成为最贵碧玺。
 history_en: |
   Discovered in Paraíba (Brazil) in 1989; copper gives its electric neon blue. Instantly iconic and among the priciest tourmalines.
+images:
+  main: paraiba-tourmaline-gallery-1.jpg
+  gallery: [paraiba-tourmaline-gallery-2.jpg, paraiba-tourmaline-gallery-3.jpg, paraiba-tourmaline-gallery-3.svg]

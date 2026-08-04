@@ -22,9 +22,7 @@ treatments:
   disclosure_required: false
   note_zh: 常与葡萄状晶形关联；镶嵌以吊坠/雕刻为主
   note_en: Named for its botryoidal (grape-like) habit; primarily used in pendants and carvings
-images:
-  main: prehnite-gallery-1.png
-  gallery: [prehnite-gallery-2.jpg, prehnite-gallery-3.jpg, prehnite.jpg]
+
 
 origin:
   - { zh: "南非", en: "South Africa" }
@@ -35,3 +33,6 @@ history_zh: |
   葡萄石以荷兰殖民者Hendrik von Prehn命名，是首个以人名命名的矿物。
 history_en: |
   Prehnite was named for Dutch colonist Hendrik von Prehn — the first mineral named after a person.
+images:
+  main: prehnite.jpg
+  gallery: [prehnite-gallery-1.png, prehnite-gallery-2.jpg, prehnite-gallery-3.jpg]

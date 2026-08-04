@@ -27,9 +27,6 @@ treatments:
   disclosure_required: true
   note_zh: '波罗的海琥珀最常见；含昆虫内含物最珍贵'
   note_en: 'Baltic amber most common; insect inclusions most prized'
-images:
-  main: amber.svg
-  gallery: [amber-gallery-1.svg, amber-gallery-2.svg, amber-gallery-3.svg]
 
 origin:
   - { zh: "波罗的海", en: "Baltic Sea" }
@@ -40,3 +37,7 @@ history_zh: |
   琥珀是数百万年前的树脂化石，能封存昆虫与植物。波罗的海琥珀自古贸易至罗马与中国。
 history_en: |
   Amber fossilises ancient resin, preserving insects and plants. Baltic amber was traded to Rome and China since antiquity.
+
+images:
+  main: amber.jpg
+  gallery: [amber-gallery-1.jpg, amber-gallery-2.jpg, amber-gallery-3.jpg]

@@ -5,7 +5,7 @@ gem: kunzite
 
 
 # Kunzite
-<img src="../images/gems/kunzite/kunzite.svg" alt="Kunzite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/kunzite/kunzite.jpg" alt="Kunzite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,5 @@ Kunzite was named in 1902 by Tiffany's gemologist G.F. Kunz — a rising star am
 
 ## Gallery
 
-<img src="../images/gems/kunzite/kunzite-gallery-1.svg" alt="Kunzite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/kunzite/kunzite-gallery-2.svg" alt="Kunzite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/kunzite/kunzite-gallery-3.svg" alt="Kunzite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/kunzite/kunzite-gallery-1.jpg" alt="Kunzite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/kunzite/kunzite-gallery-2.jpg" alt="Kunzite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

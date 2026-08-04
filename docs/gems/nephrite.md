@@ -5,7 +5,7 @@ gem: nephrite
 
 
 # Nephrite (Hetian Jade)
-<img src="../images/gems/nephrite/nephrite-gallery-1.jpg" alt="Nephrite (Hetian Jade)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/nephrite/nephrite.jpg" alt="Nephrite (Hetian Jade)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -65,6 +65,6 @@ Nephrite anchors 8,000 years of Chinese jade culture; Hetian white jade was the 
 
 ## Gallery
 
+<img src="../images/gems/nephrite/nephrite-gallery-1.jpg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/nephrite/nephrite-gallery-3.jpg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/nephrite/nephrite.jpg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/nephrite/nephrite-gallery-2.jpg" alt="Nephrite (Hetian Jade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 颜色在长时间日晒下可能褪色；与染色绿玛瑙不同
   note_en: Color may fade under prolonged sunlight; distinct from dyed green agate
-images:
-  main: chrysoprase-gallery-1.jpg
-  gallery: [chrysoprase.jpg, chrysoprase-gallery-2.jpg, chrysoprase-gallery-3.jpg]
+
 
 origin:
   - { zh: "澳大利亚昆士兰", en: "Queensland, Australia" }
@@ -34,3 +32,6 @@ history_zh: |
   绿玉髓的苹果绿由镍致色，是半透明石英中最珍贵者，普鲁士腓特烈大帝曾收藏。
 history_en: |
   Chrysoprase's apple-green comes from nickel; it is the most precious translucent quartz, collected by Frederick the Great.
+images:
+  main: chrysoprase.jpg
+  gallery: [chrysoprase-gallery-2.jpg, chrysoprase-gallery-1.jpg, chrysoprase-gallery-3.jpg]

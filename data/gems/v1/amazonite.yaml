@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 以俄羅斯米阿斯（Miass）和美国派克斯峰（Pikes Peak）著名
   note_en: Famous sources include Miass (Russia) and Pikes Peak (USA)
-images:
-  main: amazonite-gallery-1.jpg
-  gallery: [amazonite-gallery-2.jpg, amazonite-gallery-3.jpg, amazonite-gallery-3.png]
+
 
 origin:
   - { zh: "巴西", en: "Brazil" }
@@ -35,3 +33,6 @@ history_zh: |
   天河石以亚马孙河命名（实为讹传），蓝绿棋盘格纹独特，古埃及用作饰品。
 history_en: |
   Amazonite is named for the Amazon (erroneously); its blue-green checkerboard is distinctive. Used in ancient Egypt.
+images:
+  main: amazonite-gallery-1.jpg
+  gallery: [amazonite-gallery-2.jpg, amazonite-gallery-3.jpg, amazonite-gallery-3.png]

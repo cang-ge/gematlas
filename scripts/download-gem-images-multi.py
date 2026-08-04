@@ -89,6 +89,16 @@ GEMS = {
     "chrysoberyl":        ("Chrysoberyl",        "金绿宝石", 8.5, "#D4AF37"),
     "dioptase":           ("Dioptase",           "透视石",   5.5, "#16A085"),
     "prehnite":           ("Prehnite",           "葡萄石",   6.25, "#A8D8A8"),
+    "pearl":              ("Pearl",              "珍珠",     2.5, "#F5F0E6"),
+    "amber":              ("Amber",              "琥珀",     2.5, "#D9822B"),
+    "turquoise":          ("Turquoise",          "绿松石",   6, "#40C4C0"),
+    "coral":              ("Coral",              "珊瑚",     3.5, "#E34234"),
+    "kunzite":            ("Kunzite",            "紫锂辉石", 7, "#E6A8D7"),
+    "heliodor":           ("Heliodor",           "金绿柱石", 7.75, "#F5D76E"),
+    "fluorite":           ("Fluorite",           "萤石",     4, "#8E44AD"),
+    "apatite":            ("Apatite",            "磷灰石",   5, "#5DADE2"),
+    "sphalerite":         ("Sphalerite",         "闪锌矿",   3.5, "#F4A460"),
+    "kyanite":            ("Kyanite",            "蓝晶石",   5.5, "#2E86DE"),
 }
 
 # Per-gem alternative search queries for stubborn entries.
@@ -438,8 +448,8 @@ def yaml_set_images(gid: str, main: str, gallery: list):
         return False
     yaml_backup(gid)
     txt = yaml_path.read_text(encoding="utf-8")
-    # Strip any pre-existing images: block to keep idempotent
-    txt = re.sub(r"\nimages:\n  main: [^\n]+\n  gallery: \[[^\]]*\]\n*$", "\n", txt)
+    # Strip ANY pre-existing images: block (mid-file or end) to stay idempotent
+    txt = re.sub(r"\n?images:\n  main: [^\n]+\n  gallery: \[[^\]]*\]\n?", "\n", txt)
     gal_str = ", ".join(gallery)
     block = "\nimages:\n  main: {}\n  gallery: [{}]\n".format(main, gal_str)
     tmp = yaml_path.with_suffix(".yaml.tmp")

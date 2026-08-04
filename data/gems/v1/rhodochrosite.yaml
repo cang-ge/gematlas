@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 阿根廷"印加玫瑰"为最著名品种，具同心圆条带
   note_en: Argentina's "Inca Rose" is the most famous variety with concentric banding
-images:
-  main: rhodochrosite-gallery-1.png
-  gallery: [rhodochrosite-gallery-2.jpg, rhodochrosite-gallery-3.jpg, rhodochrosite.jpg]
+
 
 origin:
   - { zh: "阿根廷卡皮利亚", en: "Capillitas, Argentina" }
@@ -34,3 +32,6 @@ history_zh: |
   菱锰矿"印加玫瑰"是阿根廷国石，带状粉色纹理似玫瑰花瓣。
 history_en: |
   Rhodochrosite 'Inca Rose' is Argentina's national stone, its banded pink echoing rose petals.
+images:
+  main: rhodochrosite.jpg
+  gallery: [rhodochrosite-gallery-1.png, rhodochrosite-gallery-2.jpg, rhodochrosite-gallery-3.jpg]

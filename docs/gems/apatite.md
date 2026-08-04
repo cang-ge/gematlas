@@ -5,7 +5,7 @@ gem: apatite
 
 
 # Apatite
-<img src="../images/gems/apatite/apatite.svg" alt="Apatite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/apatite/apatite.png" alt="Apatite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,5 @@ Apatite forms human bones and teeth; gem apatite is sought for its Paraíba-like
 
 ## Gallery
 
-<img src="../images/gems/apatite/apatite-gallery-1.svg" alt="Apatite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/apatite/apatite-gallery-2.svg" alt="Apatite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/apatite/apatite-gallery-3.svg" alt="Apatite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/apatite/apatite-gallery-1.jpg" alt="Apatite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/apatite/apatite-gallery-2.jpg" alt="Apatite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

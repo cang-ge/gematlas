@@ -24,9 +24,7 @@ treatments:
   disclosure_required: true
   note_zh: 糖酸处理用于仿黑欧泊，需披露
   note_en: Sugar-acid treatment simulates black opal; must be disclosed
-images:
-  main: opal-gallery-3.jpg
-  gallery: [opal.jpg, opal-gallery-1.jpg, opal-gallery-2.jpg]
+
 
 origin:
   - { zh: "澳大利亚（南澳）", en: "Andamooka / Lightning Ridge, Australia" }
@@ -36,3 +34,6 @@ history_zh: |
   澳大利亚供应全球约95%的珍贵欧泊。火欧泊与黑欧泊（闪电岭）尤为珍贵，古罗马视欧泊为最珍贵宝石。
 history_en: |
   Australia supplies ~95% of precious opal. Mexican fire opal and Lightning Ridge black opal are most prized; Rome ranked opal above all.
+images:
+  main: opal.jpg
+  gallery: [opal-gallery-1.jpg, opal-gallery-2.jpg, opal-gallery-3.jpg]

@@ -5,7 +5,7 @@ gem: amethyst
 
 
 # 紫晶
-<img src="../../images/gems/amethyst/amethyst-gallery-1.jpg" alt="紫晶" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/amethyst/amethyst.jpg" alt="紫晶" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ English: [Amethyst](/gems/amethyst)
 
 ## 图库
 
+<img src="../../images/gems/amethyst/amethyst-gallery-1.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/amethyst/amethyst-gallery-3.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/amethyst/amethyst.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/amethyst/amethyst-gallery-2.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

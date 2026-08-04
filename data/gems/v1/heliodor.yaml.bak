@@ -1,0 +1,39 @@
+# Heliodor (golden beryl) (绿柱石族).
+id: heliodor
+names:
+  zh: 金绿柱石（金绿玉）
+  en: Heliodor (golden beryl)
+category:
+  mineral_zh: 绿柱石族
+  mineral_en: Beryl
+  chemical_formula: Be₃Al₂(SiO₃)₆
+  crystal_system: hexagonal
+physical:
+  hardness_mohs: 7.75
+  specific_gravity: 2.7
+  refractive_index: 1.57-1.58
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 金黄, en: Golden }
+    - { zh: 黄绿, en: Yellow-green }
+  color_causes_zh: Fe³⁺ 致金黄
+  color_causes_en: Fe³⁺ golden
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: '绿柱石家族的黄色成员，加热可改善色调'
+  note_en: 'Beryl''s yellow member; heat can improve tone'
+images:
+  main: heliodor.svg
+  gallery: [heliodor-gallery-1.svg, heliodor-gallery-2.svg, heliodor-gallery-3.svg]
+
+origin:
+  - { zh: "纳米比亚", en: "Namibia" }
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "乌克兰", en: "Ukraine" }
+history_zh: |
+  金绿柱石因希腊太阳神赫利俄斯得名，非洲产出的金黄晶体最受藏家欢迎。
+history_en: |
+  Heliodor takes its name from the Greek sun-god Helios; golden African crystals are collectors' favourites.

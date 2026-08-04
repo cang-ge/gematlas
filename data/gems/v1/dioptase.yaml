@@ -21,9 +21,7 @@ treatments:
   disclosure_required: false
   note_zh: 颜色与祖母绿相似但更艳；硬度较低（5.5），不适合日常佩戴
   note_en: Color rivals emerald but is even more saturated; lower hardness (5.5) limits everyday wear
-images:
-  main: dioptase-gallery-1.jpg
-  gallery: [dioptase-gallery-2.jpg, dioptase-gallery-3.jpg, dioptase.jpg]
+
 
 origin:
   - { zh: "纳米比亚", en: "Namibia" }
@@ -33,3 +31,6 @@ history_zh: |
   透视石翠绿色晶体极美但硬度低，多作矿物标本而非宝石。
 history_en: |
   Dioptase's intense emerald-green crystals are stunning but soft; it is mostly a mineral specimen.
+images:
+  main: dioptase.jpg
+  gallery: [dioptase-gallery-1.jpg, dioptase-gallery-2.jpg, dioptase-gallery-3.jpg]

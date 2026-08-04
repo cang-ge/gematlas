@@ -24,9 +24,7 @@ treatments:
   disclosure_required: true
   note_zh: 商业蓝色锆石多为褐黄色原石加热产物；与立方氧化锆（cz）完全不同
   note_en: Commercial blue zircon is usually heat-treated brown-yellow rough; not to be confused with cubic zirconia (CZ)
-images:
-  main: zircon-gallery-2.jpg
-  gallery: [zircon-gallery-1.jpg, zircon-gallery-3.jpg, zircon.jpg]
+
 
 origin:
   - { zh: "柬埔寨", en: "Cambodia" }
@@ -37,3 +35,6 @@ history_zh: |
   锆石是地球最古老矿物之一，含铀可测4亿年历史。蓝色热处理锆石曾风靡维多利亚时代。
 history_en: |
   Zircon is among Earth's oldest minerals (uranium dating). Heat-treated blue zircon was a Victorian favourite.
+images:
+  main: zircon-gallery-2.jpg
+  gallery: [zircon-gallery-1.jpg, zircon-gallery-3.jpg, zircon.jpg]

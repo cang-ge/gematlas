@@ -22,9 +22,7 @@ treatments:
   disclosure_required: false
   note_zh: 南非北开普省为最重要产地（1973 年发现）
   note_en: Northern Cape, South Africa is the most important source (discovered 1973)
-images:
-  main: sugilite-gallery-1.jpg
-  gallery: [sugilite-gallery-2.jpg, sugilite-gallery-3.jpg, sugilite.jpg]
+
 
 origin:
   - { zh: "南非温贝", en: "Wessels, South Africa" }
@@ -34,3 +32,6 @@ history_zh: |
   苏纪石1970年代在南非温贝矿首次大量发现，浓郁紫色被昵称"爱情石"。
 history_en: |
   Sugilite was first found in quantity at Wessels (South Africa) in the 1970s; its royal purple is called the 'love stone'.
+images:
+  main: sugilite-gallery-1.jpg
+  gallery: [sugilite-gallery-2.jpg, sugilite-gallery-3.jpg, sugilite.jpg]

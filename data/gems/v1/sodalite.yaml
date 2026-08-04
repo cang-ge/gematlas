@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 常被误认为青金石；方钠石白纹更多、黄铁矿斑更少
   note_en: Often mistaken for lapis lazuli; sodalite has more white veining and less pyrite
-images:
-  main: sodalite-gallery-1.jpg
-  gallery: [sodalite-gallery-2.jpg, sodalite-gallery-3.jpg, sodalite.jpg]
+
 
 origin:
   - { zh: "加拿大", en: "Canada" }
@@ -34,3 +32,6 @@ history_zh: |
   方钠石蓝白相间，是青金石的平价替代。加拿大安大略班克罗夫特盛产。
 history_en: |
   Sodalite's blue-and-white makes it a budget lapis. Ontario's Bancroft is a leading source.
+images:
+  main: sodalite.jpg
+  gallery: [sodalite-gallery-1.jpg, sodalite-gallery-2.jpg, sodalite-gallery-3.jpg]

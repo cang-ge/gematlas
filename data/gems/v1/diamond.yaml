@@ -23,9 +23,7 @@ treatments:
   disclosure_required: true
   note_zh: HPHT 处理需披露；天然与合成需激光刻印区分
   note_en: HPHT treatment must be disclosed; natural vs. synthetic distinguished by laser inscription
-images:
-  main: diamond.png
-  gallery: [diamond-gallery-1.jpg, diamond.jpg, diamond-gallery-3.svg]
+
 
 origin:
   - { zh: "印度（戈尔康达）", en: "Golconda, India" }
@@ -36,3 +34,6 @@ history_zh: |
   钻石之名的"永恒"意象源于其硬度。戈尔康达矿区出产无数传奇名钻（Hope、Regent）；1866年南非金伯利发现改变了供应格局。
 history_en: |
   Diamond's 'eternal' symbolism stems from its hardness. Golconda yielded the great legends (Hope, Regent); Kimberley (1866) transformed supply.
+images:
+  main: diamond.jpg
+  gallery: [diamond-gallery-1.jpg, diamond.png, diamond-gallery-3.svg]

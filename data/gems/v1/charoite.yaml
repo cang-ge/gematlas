@@ -22,9 +22,7 @@ treatments:
   disclosure_required: false
   note_zh: 仅产于俄罗斯萨哈共和国（Sakha Republic）恰拉河畔
   note_en: Only found at the Chara River, Sakha Republic, Russia
-images:
-  main: charoite-gallery-1.jpg
-  gallery: [charoite-gallery-2.jpg, charoite.jpg, charoite-gallery-3.svg]
+
 
 origin:
   - { zh: "俄罗斯西伯利亚", en: "Siberia, Russia" }
@@ -32,3 +30,6 @@ history_zh: |
   紫硅碱钙石仅产自俄罗斯恰拉河，20世纪70年代才被确认，紫色丝绢光泽独特。
 history_en: |
   Charoite comes only from Siberia's Chara River, confirmed in the 1970s; its purple silky chatoyancy is one-of-a-kind.
+images:
+  main: charoite.jpg
+  gallery: [charoite-gallery-1.jpg, charoite-gallery-2.jpg, charoite-gallery-3.svg]

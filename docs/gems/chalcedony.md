@@ -5,7 +5,7 @@ gem: chalcedony
 
 
 # Chalcedony / Agate
-<img src="../images/gems/chalcedony/chalcedony-gallery-1.jpg" alt="Chalcedony / Agate" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/chalcedony/chalcedony.jpg" alt="Chalcedony / Agate" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ Chalcedony is the microcrystalline quartz family (agate, carnelian, blue chalced
 
 ## Gallery
 
+<img src="../images/gems/chalcedony/chalcedony-gallery-1.jpg" alt="Chalcedony / Agate" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/chalcedony/chalcedony-gallery-2.jpg" alt="Chalcedony / Agate" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/chalcedony/chalcedony-gallery-3.jpg" alt="Chalcedony / Agate" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/chalcedony/chalcedony.jpg" alt="Chalcedony / Agate" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

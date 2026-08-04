@@ -1,0 +1,42 @@
+# Sphalerite (硫化物（闪锌矿）).
+id: sphalerite
+names:
+  zh: 闪锌矿
+  en: Sphalerite
+category:
+  mineral_zh: 硫化物（闪锌矿）
+  mineral_en: Sulfide (zinc blende)
+  chemical_formula: ZnS
+  crystal_system: cubic
+physical:
+  hardness_mohs: 3.5
+  hardness_note_zh: '软且解理发育——收藏级'
+  hardness_note_en: 'Soft, perfect cleavage — collector grade'
+  specific_gravity: 4.09
+  refractive_index: '2.37'
+optical:
+  pleochroism: weak
+  typical_colors:
+    - { zh: 橙黄, en: Orange-yellow }
+    - { zh: 红棕, en: Red-brown }
+    - { zh: 绿, en: Green }
+  color_causes_zh: 铁与色心
+  color_causes_en: Iron and colour centres
+treatments:
+  common: []
+  disclosure_required: false
+  note_zh: '色散 0.156 超过钻石——''火彩之王''；极软仅藏家'
+  note_en: 'Dispersion 0.156 exceeds diamond — ''fire king''; too soft for wear'
+images:
+  main: sphalerite.svg
+  gallery: [sphalerite-gallery-1.svg, sphalerite-gallery-2.svg, sphalerite-gallery-3.svg]
+
+origin:
+  - { zh: "西班牙", en: "Spain" }
+  - { zh: "墨西哥", en: "Mexico" }
+  - { zh: "美国", en: "USA" }
+  - { zh: "中国", en: "China" }
+history_zh: |
+  闪锌矿拥有宝石中最高的色散，橙黄晶体像凝固的火焰，但因极软只能作为收藏品。
+history_en: |
+  Sphalerite has the highest dispersion of any gem; its orange crystals look like frozen fire, but it is collector-only due to softness.

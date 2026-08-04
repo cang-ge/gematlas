@@ -27,9 +27,6 @@ treatments:
   disclosure_required: false
   note_zh: '产地位于缅甸的帕拉伊巴蓝磷灰石最受藏家青睐'
   note_en: 'Burmese Paraíba-blue apatite prized by collectors'
-images:
-  main: apatite.svg
-  gallery: [apatite-gallery-1.svg, apatite-gallery-2.svg, apatite-gallery-3.svg]
 
 origin:
   - { zh: "缅甸", en: "Myanmar" }
@@ -40,3 +37,7 @@ history_zh: |
   磷灰石是人体骨骼与牙齿的主要成分，因颜色酷似帕拉伊巴碧玺而受关注。
 history_en: |
   Apatite forms human bones and teeth; gem apatite is sought for its Paraíba-like blue.
+
+images:
+  main: apatite.png
+  gallery: [apatite-gallery-1.jpg, apatite-gallery-2.jpg]

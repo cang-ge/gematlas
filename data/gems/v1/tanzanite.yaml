@@ -24,9 +24,7 @@ treatments:
   disclosure_required: true
   note_zh: 几乎所有坦桑石均经热处理以增强蓝紫调
   note_en: Almost all tanzanite is heat-treated to enhance blue-violet
-images:
-  main: tanzanite-gallery-1.jpg
-  gallery: [tanzanite-gallery-2.jpg, tanzanite.jpg, tanzanite-gallery-3.svg]
+
 
 origin:
   - { zh: "坦桑尼亚（梅雷拉尼山）", en: "Merelani Hills, Tanzania" }
@@ -34,3 +32,6 @@ history_zh: |
   1967年在坦桑尼亚阿鲁沙附近发现，由蒂芙尼命名推广。全世界仅此一处产地，稀有度极高。
 history_en: |
   Found near Arusha in 1967 and promoted by Tiffany. With a single source worldwide, it is exceptionally rare.
+images:
+  main: tanzanite.jpg
+  gallery: [tanzanite-gallery-1.jpg, tanzanite-gallery-2.jpg, tanzanite-gallery-3.svg]

@@ -24,9 +24,7 @@ treatments:
   disclosure_required: true
   note_zh: 加热可改善颜色；辐照可加深浅色品种
   note_en: Heat improves color; irradiation deepens light varieties
-images:
-  main: tourmaline-gallery-1.jpg
-  gallery: [tourmaline-gallery-2.jpg, tourmaline-gallery-3.jpg, tourmaline.jpg]
+
 
 origin:
   - { zh: "巴西", en: "Brazil" }
@@ -37,3 +35,6 @@ history_zh: |
   碧玺颜色之多居宝石之首，"西瓜碧玺"双色共生尤为珍奇。古锡兰语意为"彩色宝石"。
 history_en: |
   Tourmaline shows the widest colour range of any gem; watermelon bicolour is prized. Sinhalese for 'mixed coloured stone'.
+images:
+  main: tourmaline.jpg
+  gallery: [tourmaline-gallery-1.jpg, tourmaline-gallery-2.jpg, tourmaline-gallery-3.jpg]

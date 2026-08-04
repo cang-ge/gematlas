@@ -23,9 +23,7 @@ treatments:
   disclosure_required: false
   note_zh: 天然玻璃，非矿物晶体；加热可改善银曜/金曜效果
   note_en: Natural glass, not a crystalline mineral; heat treatment can enhance silver/gold sheen
-images:
-  main: obsidian-gallery-3.jpg
-  gallery: [obsidian-gallery-1.jpg, obsidian.jpg, obsidian-gallery-3.svg]
+
 
 origin:
   - { zh: "美国俄勒冈", en: "Oregon, USA" }
@@ -36,3 +34,6 @@ history_zh: |
   黑曜石是火山玻璃，阿兹特克文明用之制刃与镜。彩虹/银曜为特殊变种。
 history_en: |
   Obsidian is volcanic glass; the Aztecs made blades and mirrors from it. Rainbow and silver sheen are prized variants.
+images:
+  main: obsidian-gallery-3.jpg
+  gallery: [obsidian-gallery-1.jpg, obsidian-gallery-2.svg, obsidian-gallery-3.svg]

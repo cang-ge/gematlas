@@ -5,7 +5,7 @@ gem: amber
 
 
 # 琥珀
-<img src="../../images/gems/amber/amber.svg" alt="琥珀" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/amber/amber.jpg" alt="琥珀" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ English: [Amber](/gems/amber)
 
 ## 图库
 
-<img src="../../images/gems/amber/amber-gallery-1.svg" alt="琥珀" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/amber/amber-gallery-2.svg" alt="琥珀" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/amber/amber-gallery-3.svg" alt="琥珀" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/amber/amber-gallery-1.jpg" alt="琥珀" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/amber/amber-gallery-2.jpg" alt="琥珀" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/amber/amber-gallery-3.jpg" alt="琥珀" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

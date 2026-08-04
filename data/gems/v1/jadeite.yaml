@@ -24,9 +24,7 @@ treatments:
   disclosure_required: true
   note_zh: 'B+C 货为强酸浸泡 + 树脂填充；需严格披露'
   note_en: 'B+C jade uses acid-bleaching + polymer filling; strict disclosure required'
-images:
-  main: jadeite.jpg
-  gallery: [jadeite-gallery-1.jpg, jadeite-gallery-3.jpg, jadeite-gallery-3.svg]
+
 
 origin:
   - { zh: "缅甸", en: "Myanmar" }
@@ -36,3 +34,6 @@ history_zh: |
   翡翠（硬玉）明清传入中国后成为"玉中之王"，帝王绿最珍贵。缅甸是唯一商业级来源。
 history_en: |
   Jadeite became China's 'king of jade' after the Ming dynasty; imperial green is most valued. Myanmar is the only commercial source.
+images:
+  main: jadeite-gallery-1.jpg
+  gallery: [jadeite.jpg, jadeite-gallery-2.jpg, jadeite-gallery-3.jpg]

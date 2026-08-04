@@ -22,9 +22,7 @@ treatments:
   disclosure_required: false
   note_zh: 通常无处理；大量用于雕刻与首饰；少有完好晶形
   note_en: Typically untreated; widely used in carvings and jewelry; well-formed crystals are rare
-images:
-  main: rose-quartz-gallery-1.jpg
-  gallery: [rose-quartz-gallery-2.jpg, rose-quartz-gallery-3.jpg, rose-quartz.jpg]
+
 
 origin:
   - { zh: "巴西", en: "Brazil" }
@@ -34,3 +32,6 @@ history_zh: |
   粉晶象征爱情，古埃及与罗马用作美容面霜原料；高品质大晶体稀有。
 history_en: |
   Rose quartz is the love stone; Egypt and Rome ground it for cosmetics. Large clean crystals are rare.
+images:
+  main: rose-quartz-gallery-1.jpg
+  gallery: [rose-quartz-gallery-2.jpg, rose-quartz-gallery-3.jpg, rose-quartz.jpg]

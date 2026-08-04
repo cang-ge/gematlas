@@ -28,9 +28,6 @@ treatments:
   disclosure_required: true
   note_zh: '深血红日本阿卡珊瑚最贵；忌酸与高温'
   note_en: 'Japanese aka deep-red priciest; avoid acid and heat'
-images:
-  main: coral.svg
-  gallery: [coral-gallery-1.svg, coral-gallery-2.svg, coral-gallery-3.svg]
 
 origin:
   - { zh: "日本", en: "Japan" }
@@ -41,3 +38,7 @@ history_zh: |
   珊瑚自古用于宗教与王室饰品，古罗马称其可避雷。日本阿卡珊瑚在明清中国极受追捧。
 history_en: |
   Coral has adorned religions and royals since antiquity; Rome prized it as lightning-proof. Japanese aka coral was treasured in Ming-Qing China.
+
+images:
+  main: coral.svg
+  gallery: [coral-gallery-1.svg, coral-gallery-2.svg, coral-gallery-3.svg]

@@ -1,0 +1,39 @@
+# Kunzite (锂辉石（spodumene）).
+id: kunzite
+names:
+  zh: 紫锂辉石
+  en: Kunzite
+category:
+  mineral_zh: 锂辉石（spodumene）
+  mineral_en: Spodumene
+  chemical_formula: LiAlSi₂O₆
+  crystal_system: monoclinic
+physical:
+  hardness_mohs: 7
+  specific_gravity: 3.18
+  refractive_index: 1.66-1.68
+optical:
+  pleochroism: strong
+  typical_colors:
+    - { zh: 淡紫粉, en: Pale lilac-pink }
+    - { zh: 薰衣草紫, en: Lavender }
+  color_causes_zh: Mn³⁺ 致色
+  color_causes_en: Mn³⁺
+treatments:
+  common: [irradiation]
+  disclosure_required: true
+  note_zh: '1902年以宝石学家 G.F. Kunz 命名；颜色日久会褪，需避强光'
+  note_en: 'Named 1902 for G.F. Kunz; colour fades in strong light'
+images:
+  main: kunzite.svg
+  gallery: [kunzite-gallery-1.svg, kunzite-gallery-2.svg, kunzite-gallery-3.svg]
+
+origin:
+  - { zh: "阿富汗", en: "Afghanistan" }
+  - { zh: "巴西", en: "Brazil" }
+  - { zh: "马达加斯加", en: "Madagascar" }
+  - { zh: "美国加州", en: "California, USA" }
+history_zh: |
+  紫锂辉石1902年由蒂芙尼宝石学家 Kunz 命名，粉色系宝石中的后起之秀。
+history_en: |
+  Kunzite was named in 1902 by Tiffany's gemologist G.F. Kunz — a rising star among pink gems.

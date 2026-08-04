@@ -22,9 +22,7 @@ treatments:
   disclosure_required: true
   note_zh: 加热或辐照可增强黄色或粉色饱和度
   note_en: Heat or irradiation can intensify yellow or pink saturation
-images:
-  main: morganite-gallery-2.jpg
-  gallery: [morganite-gallery-3.jpg, morganite-gallery-1.jpg, morganite.png]
+
 
 origin:
   - { zh: "巴西", en: "Brazil" }
@@ -34,3 +32,6 @@ history_zh: |
   粉色绿柱石，1910年以金融家J.P.摩根本人命名（其收藏了大量标本）。
 history_en: |
   Pink beryl named in 1910 for banker J.P. Morgan, a noted gem collector.
+images:
+  main: morganite-gallery-2.jpg
+  gallery: [morganite-gallery-3.jpg, morganite-gallery-1.jpg, morganite.png]

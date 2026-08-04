@@ -24,9 +24,7 @@ treatments:
   disclosure_required: true
   note_zh: 市售蓝色托帕石多为辐照 + 加热处理
   note_en: Commercial blue topaz is typically irradiated + heat treated
-images:
-  main: topaz-gallery-1.jpg
-  gallery: [topaz.jpg, topaz-gallery-2.svg, topaz-gallery-3.svg]
+
 
 origin:
   - { zh: "巴西米纳斯吉拉斯", en: "Minas Gerais, Brazil" }
@@ -37,3 +35,6 @@ history_zh: |
   帝王托帕石（黄橙）最珍贵，古埃及传说源于太阳岛。蓝托帕石多经辐照改色。
 history_en: |
   Imperial topaz (yellow-orange) is most prized; ancient Egyptians mythologised its sun-island origin. Blue topaz is usually irradiated.
+images:
+  main: topaz-gallery-1.jpg
+  gallery: [topaz.jpg, topaz-gallery-2.svg, topaz-gallery-3.svg]
