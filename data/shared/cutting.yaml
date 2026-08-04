@@ -1,0 +1,92 @@
+# Gem cutting taxonomy — how rough becomes a polished gem.
+#
+# Each entry is one cutting topic. Generator emits a bilingual subpage per
+# entry plus the overview. References: GIA Cutting & Faceting; AGTA Cutting
+# Guide; Schumann, *Gemstones of the World*; the gem-cutting literature on
+# proportion theory (Tolkowsky, 1919 round-brilliant proportions).
+
+overview_zh: |
+  切割是把原石转化为宝石的工艺与科学。本模块讲解三类主切割路线——
+  刻面切割（faceting，面向透明宝石）、蛋面/雕刻（cabochon & carving，
+  面向不透明或具光学效应宝石），以及花式切工的历史与参数。
+overview_en: |
+  Cutting transforms rough into a gem. This module covers the three main
+  cutting routes — faceting (for transparent stones), cabochon & carving
+  (for opaque or phenomena stones), and the history and parameters of
+  fancy cuts.
+
+topics:
+  - id: brilliant-cut
+    name_zh: 圆明亮式切工
+    name_en: Round Brilliant Cut
+    summary_zh: |
+      现代最经典的钻石切工，标准 57–58 刻面，诞生于 1919 年
+      Marcel Tolkowsky 的比例理论。台面、冠部、腰棱、亭部比例配合
+      最大化内部全反射与火彩。
+    summary_en: |
+      The classic diamond cut — standard 57–58 facets, formalised by
+      Marcel Tolkowsky's 1919 proportion theory. Table, crown, girdle,
+      and pavilion proportions maximise internal reflection and fire.
+    principles_zh: |
+      - 标准 57 面：台面 1 + 冠部 33 + 亭部 24（+ 可选 1 底尖 = 58）。
+      - 台面直径比约 53–58%；冠角 34–35°；亭角 40.75–41.2°。
+      - 腰棱厚度适中——过薄易崩，过厚浪费重量。
+      - 全反射率 (total internal reflection) 依赖比例精确；比例失调导致"漏光窗"。
+    principles_en: |
+      - Standard 57 facets: 1 table + 33 crown + 24 pavilion (+ optional culet = 58).
+      - Table diameter ~53–58%; crown angle 34–35°; pavilion angle 40.75–41.2°.
+      - Girdle must balance durability against weight retention.
+      - Brilliance depends on precise proportions; errors create "windows" of light leakage.
+    examples:
+      - { gem: "diamond", cut: "Round Brilliant, 57f", note_en: "auction standard" }
+      - { gem: "zircon", cut: "Round Brilliant", note_en: "high dispersion" }
+
+  - id: fancy-cuts
+    name_zh: 花式切工
+    name_en: Fancy Cuts
+    summary_zh: |
+      除圆明亮式外的所有切工统称花式切工——公主方、祖母绿切、梨形、
+      椭圆形、马眼形、心形、祖母绿阶梯切等。每种依原石形状、内含物
+      位置与审美偏好而选。
+    summary_en: |
+      Every non-round shape is a fancy cut — princess, emerald, pear,
+      oval, marquise, heart, and the emerald step cut among others.
+      Choice follows rough shape, inclusion placement, and aesthetic taste.
+    principles_zh: |
+      - 公主方 (princess)：方形，保留圆明亮火彩，现代婚戒主流。
+      - 祖母绿切 (emerald)：阶梯式刻面，突出净度——适合高净度大石。
+      - 梨形/马眼/心形：异形轮廓，需冠亭比例对称避免"蝴蝶结效应"。
+      - 花式切工按尺寸定价时单克拉价常低于圆明亮（切工损耗与需求差异）。
+    principles_en: |
+      - Princess: square, retains round-brilliant fire; modern bridal staple.
+      - Emerald: step facets, showcases clarity — suited to clean large stones.
+      - Pear / marquise / heart: elongated silhouettes; need symmetric crown-pavilion to avoid bow-tie.
+      - Fancy cuts often price lower per carat than rounds (cutting waste + demand).
+    examples:
+      - { gem: "diamond", cut: "Emerald step cut", note_en: "historic, elegant" }
+      - { gem: "diamond", cut: "Princess", note_en: "most popular modern square" }
+
+  - id: cabochon-and-carving
+    name_zh: 蛋面与雕刻
+    name_en: Cabochon & Carving
+    summary_zh: |
+      不透明或具特殊光学效应的宝石不适合刻面——改用蛋面（凸圆打磨）或
+      雕刻。蛋面完美呈现星光、猫眼、月光效应；玉石、玛瑙则走雕刻路线。
+    summary_en: |
+      Opaque or phenomena stones are polished en cabochon (domed) or
+      carved instead of faceted. Cabochons reveal asterism, chatoyancy,
+      and adularescence; jade and agate are carved.
+    principles_zh: |
+      - 单蛋面/双蛋面 (single/double cabochon)：决定星光与猫眼清晰度。
+      - 星光效应需定向打磨——使金红石针平行台面。
+      - 猫眼效应同理，针状包裹体需定向于弧面轴线。
+      - 玉石雕刻（翡翠、软玉、绿松石）考验材料纹理与色彩层次运用。
+    principles_en: |
+      - Single / double cabochon: height controls star and cat's-eye definition.
+      - Asterism requires oriented polishing — rutile needles parallel to the table.
+      - Chatoyancy likewise: needle inclusions must align to the dome axis.
+      - Jade carving (jadeite, nephrite, turquoise) exploits texture and colour zoning.
+    examples:
+      - { gem: "ruby", cut: "Star cabochon", note_en: "6-ray asterism" }
+      - { gem: "tigers-eye", cut: "Cat's-eye cabochon", note_en: "chatoyancy" }
+      - { gem: "jadeite", cut: "Carved pendant", note_en: "imperial jade" }

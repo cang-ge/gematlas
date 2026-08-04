@@ -7,6 +7,7 @@ import {
   CrystalSystemsFile,
   MohsScaleFile,
   GradingTopicsFile,
+  CuttingTopicsFile,
 } from '../scripts/build/schema'
 
 const GEM_DIR = 'data/gems/v1'
@@ -52,5 +53,15 @@ describe('Shared YAML validation', () => {
     const parsed = GradingTopicsFile.parse(raw)
     const ids = parsed.topics.map(t => t.id)
     expect(new Set(ids).size).toBe(ids.length)
+  })
+
+  it('cutting.yaml parses (3 cutting topics)', () => {
+    const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'cutting.yaml'), 'utf8'))
+    const parsed = CuttingTopicsFile.parse(raw)
+    expect(parsed.topics).toHaveLength(3)
+    for (const t of parsed.topics) {
+      expect(t.name_en.length).toBeGreaterThan(0)
+      expect(t.name_zh.length).toBeGreaterThan(0)
+    }
   })
 })

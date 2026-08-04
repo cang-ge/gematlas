@@ -155,7 +155,12 @@ function sidebarEn() {
       ] },
     ] }],
     '/identification/': [{ text: 'Identification', items: [{ text: 'Overview', link: 'intro' }] }],
-    '/cutting/':         [{ text: 'Cutting',         items: [{ text: 'Overview', link: 'intro' }] }],
+    '/cutting/':         [{ text: 'Cutting', items: [
+      { text: 'Overview', link: 'intro' },
+      { text: 'Round Brilliant Cut', link: 'brilliant-cut' },
+      { text: 'Fancy Cuts', link: 'fancy-cuts' },
+      { text: 'Cabochon & Carving', link: 'cabochon-and-carving' },
+    ] }],
     '/grading/':         [{ text: 'Grading', items: [
       { text: 'Overview', link: 'intro' },
       { text: 'GIA 4Cs (Diamond)', link: 'diamond-4cs' },
@@ -209,7 +214,12 @@ function sidebarZh() {
       ] },
     ] }],
     '/zh/identification/': [{ text: '鉴定', items: [{ text: '总览', link: 'intro' }] }],
-    '/zh/cutting/':        [{ text: '切割', items: [{ text: '总览', link: 'intro' }] }],
+    '/zh/cutting/':        [{ text: '切割', items: [
+      { text: '总览', link: 'intro' },
+      { text: '圆明亮式切工', link: 'brilliant-cut' },
+      { text: '花式切工', link: 'fancy-cuts' },
+      { text: '蛋面与雕刻', link: 'cabochon-and-carving' },
+    ] }],
     '/zh/grading/':        [{ text: '分级', items: [
       { text: '总览', link: 'intro' },
       { text: 'GIA 4C 钻石分级', link: 'diamond-4cs' },
