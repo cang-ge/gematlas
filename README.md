@@ -6,7 +6,7 @@
 
 ---
 
-V1.0 — 5 modules · 50 gem species · 7 crystal systems · 18 maison pieces.
+V1.0 — 5 modules · 50 gem species · 7 crystal systems · 18 maison pieces · 13 module subpages.
 
 **Tech:** VitePress 1.6 · Vue 3 · TypeScript · pnpm
 
@@ -20,7 +20,7 @@ V1.0 — 5 modules · 50 gem species · 7 crystal systems · 18 maison pieces.
 pnpm install
 pnpm dev        # → http://localhost:5173
 pnpm build      # → docs/.vitepress/dist/
-pnpm test       # 15 tests across data + i18n
+pnpm test       # 60 tests across data + i18n
 ```
 
 ## Repo layout
@@ -28,12 +28,14 @@ pnpm test       # 15 tests across data + i18n
 ```
 data/                       # Source of truth — YAML
   ├── gems/v1/*.yaml        # Per-gem data
-  └── shared/               # Crystal systems, Mohs scale
+  └── shared/               # Crystal systems, Mohs scale,
+                            # grading / cutting / identification / gallery
 
 scripts/build/              # Build & validation pipeline
   ├── schema.ts             # Zod schemas
   ├── validate-data.ts      # pnpm validate:data
   ├── generate-gem-pages.ts # Auto-generate gem MD pages
+  ├── generate-topic-pages.ts # Shared generator: 4 module stacks
   └── sync-content.ts       # Bilingual sync check (pnpm sync:content)
 
 docs/                       # VitePress site (en/ + zh/)

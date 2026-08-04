@@ -15,10 +15,10 @@
 | # | Module | Coverage |
 |---|--------|----------|
 | ① | **Classification** | Mineralogical taxonomy · optical phenomena · color trees · crystal systems |
-| ② | **Identification** | Physical properties · Mohs scale · crystal diagrams · inclusions · spectra |
-| ③ | **Cutting** | Faceting geometry · fancy cuts · cabochons · cameos · walkthroughs |
-| ④ | **Grading** | GIA 4Cs · fancy color grading · treatment disclosure · origin premiums |
-| ⑥ | **Gallery** | 18 signature pieces from 7 leading maisons |
+| ② | **Identification** | Physical properties · optical tests · synthetics & imitations |
+| ③ | **Cutting** | Round brilliant · fancy cuts · cabochon & carving |
+| ④ | **Grading** | GIA 4Cs · coloured-stone grading · clarity types · origin disclosure |
+| ⑥ | **Gallery** | 18 signature pieces · by maison · style eras · legendary stones |
 
 **50 gem species** across all major mineral families — from Diamond to Chrysoprase.
 
@@ -30,7 +30,7 @@
 pnpm install
 pnpm dev        # → http://localhost:5173
 pnpm build      # → docs/.vitepress/dist/
-pnpm test       # 15 tests across data + i18n
+pnpm test       # 60 tests across data + i18n
 ```
 
 Requires **Node 20+** and **pnpm 9+** (via corepack: `corepack enable`).
@@ -86,7 +86,7 @@ We welcome issues and pull requests. See **[CONTRIBUTING.md](./CONTRIBUTING.md)*
 
 | Phase | Scope |
 |-------|-------|
-| **Current** | 50 gems · 5 modules · bilingual · CI/CD |
+| **Current** | 50 gems · 5 modules · 13 subpages · bilingual · CI/CD |
 | **V1.1** | Expand to 100+ gems · price reference · references module · AI assistant |
 
 ---
