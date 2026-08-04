@@ -1,1 +1,0 @@
-const s="/gematlas/assets/lapis-lazuli-gallery-1.CWli8HsW.jpg",a="/gematlas/assets/lapis-lazuli-gallery-3.CdJYcH9S.jpg",l="/gematlas/assets/lapis-lazuli.CpS73V1h.jpg",t="/gematlas/assets/lapis-lazuli-gallery-1.CWli8HsW.jpg";export{s as _,a,l as b,t as c};

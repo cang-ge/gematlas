@@ -1,0 +1,1 @@
+const s="/gematlas/assets/prehnite.gGCpI1Xz.jpg",t="/gematlas/assets/prehnite-gallery-1.DXAxDLQv.png",a="/gematlas/assets/prehnite-gallery-2.C_ZYU6Of.jpg",e="/gematlas/assets/prehnite-gallery-3.BwApH9s7.jpg";export{s as _,t as a,a as b,e as c};

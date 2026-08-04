@@ -1,1 +1,0 @@
-const s="/gematlas/assets/tsavorite-garnet-gallery-1.Cqotv8oT.jpg",t="/gematlas/assets/tsavorite-garnet-gallery-2.B0_aKi2d.jpg",a="/gematlas/assets/tsavorite-garnet-gallery-3.643rGcnp.jpg",e="/gematlas/assets/tsavorite-garnet.D5q-rs5N.jpg";export{s as _,t as a,a as b,e as c};

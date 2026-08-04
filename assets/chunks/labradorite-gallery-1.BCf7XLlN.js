@@ -1,1 +1,0 @@
-const a="/gematlas/assets/labradorite.Dhl1IGnm.jpg",s="/gematlas/assets/labradorite-gallery-1.CDiCLGng.jpg",t="/gematlas/assets/labradorite-gallery-3.CtSQKIeY.jpg",e="/gematlas/assets/labradorite-gallery-1.CDiCLGng.jpg";export{a as _,s as a,t as b,e as c};

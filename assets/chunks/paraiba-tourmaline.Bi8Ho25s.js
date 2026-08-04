@@ -1,1 +1,0 @@
-const a="/gematlas/assets/paraiba-tourmaline.Ju0f2eR6.jpg",s="/gematlas/assets/paraiba-tourmaline-gallery-2.CKMibLuB.jpg",t="/gematlas/assets/paraiba-tourmaline-gallery-3.Ctnv98R1.jpg",e="/gematlas/assets/paraiba-tourmaline.Ju0f2eR6.jpg";export{a as _,s as a,t as b,e as c};
