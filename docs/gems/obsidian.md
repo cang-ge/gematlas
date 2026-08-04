@@ -53,5 +53,5 @@ gem: obsidian
 ## Gallery
 
 <img src="../images/gems/obsidian/obsidian-gallery-1.jpg" alt="Obsidian" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/obsidian/obsidian-gallery-2.svg" alt="Obsidian" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/obsidian/obsidian.jpg" alt="Obsidian" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/obsidian/obsidian-gallery-3.svg" alt="Obsidian" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

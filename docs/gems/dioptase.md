@@ -5,7 +5,7 @@ gem: dioptase
 
 
 # Dioptase
-<img src="../images/gems/dioptase/dioptase.jpg" alt="Dioptase" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/dioptase/dioptase-gallery-1.jpg" alt="Dioptase" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -52,6 +52,6 @@ gem: dioptase
 
 ## Gallery
 
-<img src="../images/gems/dioptase/dioptase-gallery-1.jpg" alt="Dioptase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/dioptase/dioptase-gallery-2.jpg" alt="Dioptase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/dioptase/dioptase-gallery-3.jpg" alt="Dioptase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/dioptase/dioptase.jpg" alt="Dioptase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

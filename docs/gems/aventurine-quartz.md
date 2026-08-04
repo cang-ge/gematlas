@@ -52,6 +52,6 @@ gem: aventurine-quartz
 
 ## Gallery
 
+<img src="../images/gems/aventurine-quartz/aventurine-quartz-gallery-2.jpg" alt="Aventurine Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/aventurine-quartz/aventurine-quartz-gallery-3.jpg" alt="Aventurine Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/aventurine-quartz/aventurine-quartz.jpg" alt="Aventurine Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/aventurine-quartz/aventurine-quartz-gallery-3.svg" alt="Aventurine Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

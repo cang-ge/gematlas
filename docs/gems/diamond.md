@@ -52,6 +52,6 @@ gem: diamond
 
 ## Gallery
 
-<img src="../images/gems/diamond/diamond-gallery-1.svg" alt="Diamond" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/diamond/diamond-gallery-2.svg" alt="Diamond" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/diamond/diamond-gallery-1.jpg" alt="Diamond" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/diamond/diamond.jpg" alt="Diamond" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/diamond/diamond-gallery-3.svg" alt="Diamond" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
