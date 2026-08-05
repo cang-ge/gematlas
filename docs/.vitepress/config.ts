@@ -116,7 +116,7 @@ function navZh() {
 function sidebarEn() {
   return {
     '/classification/': [{ text: 'Classification', items: [
-      { text: 'Overview', link: 'intro' },
+      { text: 'Overview', link: '/classification/intro' },
       { text: 'Crystal Systems', items: [
         { text: 'Cubic (Isometric)', link: '/classification/crystal-systems/cubic' },
         { text: 'Tetragonal', link: '/classification/crystal-systems/tetragonal' },
@@ -155,27 +155,27 @@ function sidebarEn() {
       ] },
     ] }],
     '/identification/': [{ text: 'Identification', items: [
-      { text: 'Overview', link: 'intro' },
+      { text: 'Overview', link: '/identification/intro' },
       { text: 'Physical Tests', link: '/identification/physical-tests' },
       { text: 'Optical Tests', link: '/identification/optical-tests' },
       { text: 'Synthetics & Imitations', link: '/identification/synthetic-and-imitation' },
       { text: 'Same-Colour Gems', link: '/identification/same-color-gems' },
     ] }],
     '/cutting/':         [{ text: 'Cutting', items: [
-      { text: 'Overview', link: 'intro' },
+      { text: 'Overview', link: '/cutting/intro' },
       { text: 'Round Brilliant Cut', link: '/cutting/brilliant-cut' },
       { text: 'Fancy Cuts', link: '/cutting/fancy-cuts' },
       { text: 'Cabochon & Carving', link: '/cutting/cabochon-and-carving' },
     ] }],
     '/grading/':         [{ text: 'Grading', items: [
-      { text: 'Overview', link: 'intro' },
+      { text: 'Overview', link: '/grading/intro' },
       { text: 'GIA 4Cs (Diamond)', link: '/grading/diamond-4cs' },
       { text: 'Coloured-Stone Grading', link: '/grading/colored-stones' },
       { text: 'Clarity Inclusion Types', link: '/grading/clarity-types' },
       { text: 'Origin & Treatment Disclosure', link: '/grading/origin-disclosure' },
     ] }],
     '/gallery/':         [{ text: 'Gallery', items: [
-      { text: 'Overview', link: 'intro' },
+      { text: 'Overview', link: '/gallery/intro' },
       { text: 'By Maison', link: '/gallery/by-house' },
       { text: 'By Style Era', link: '/gallery/by-style' },
       { text: 'Legendary Stones', link: '/gallery/legendary-stones' },
@@ -186,7 +186,7 @@ function sidebarEn() {
 function sidebarZh() {
   return {
     '/zh/classification/': [{ text: '分类', items: [
-      { text: '总览', link: 'intro' },
+      { text: '总览', link: '/zh/classification/intro' },
       { text: '晶系', items: [
         { text: '等轴晶系', link: '/zh/classification/crystal-systems/cubic' },
         { text: '四方晶系', link: '/zh/classification/crystal-systems/tetragonal' },
@@ -225,27 +225,27 @@ function sidebarZh() {
       ] },
     ] }],
     '/zh/identification/': [{ text: '鉴定', items: [
-      { text: '总览', link: 'intro' },
+      { text: '总览', link: '/zh/identification/intro' },
       { text: '物理性质测试', link: '/zh/identification/physical-tests' },
       { text: '光学测试', link: '/zh/identification/optical-tests' },
       { text: '合成品与仿品鉴别', link: '/zh/identification/synthetic-and-imitation' },
       { text: '同色宝石判别', link: '/zh/identification/same-color-gems' },
     ] }],
     '/zh/cutting/':        [{ text: '切割', items: [
-      { text: '总览', link: 'intro' },
+      { text: '总览', link: '/zh/cutting/intro' },
       { text: '圆明亮式切工', link: '/zh/cutting/brilliant-cut' },
       { text: '花式切工', link: '/zh/cutting/fancy-cuts' },
       { text: '蛋面与雕刻', link: '/zh/cutting/cabochon-and-carving' },
     ] }],
     '/zh/grading/':        [{ text: '分级', items: [
-      { text: '总览', link: 'intro' },
+      { text: '总览', link: '/zh/grading/intro' },
       { text: 'GIA 4C 钻石分级', link: '/zh/grading/diamond-4cs' },
       { text: '彩色宝石分级', link: '/zh/grading/colored-stones' },
       { text: '净度瑕疵类型', link: '/zh/grading/clarity-types' },
       { text: '产地与处理披露', link: '/zh/grading/origin-disclosure' },
     ] }],
     '/zh/gallery/':        [{ text: '画廊', items: [
-      { text: '总览', link: 'intro' },
+      { text: '总览', link: '/zh/gallery/intro' },
       { text: '顶级珠宝工坊', link: '/zh/gallery/by-house' },
       { text: '设计风格史', link: '/zh/gallery/by-style' },
       { text: '传奇宝石', link: '/zh/gallery/legendary-stones' },
