@@ -1,0 +1,1 @@
+const s="/gematlas/assets/fluorite.B3WKFo2c.jpg",t="/gematlas/assets/fluorite-gallery-1.DEAGFDYk.jpg",a="/gematlas/assets/fluorite-gallery-2.B0Cy51Qb.jpg",e="/gematlas/assets/fluorite-gallery-3._t90Lvct.jpg";export{s as _,t as a,a as b,e as c};

@@ -1,0 +1,1 @@
+const s="/gematlas/assets/coral.BxWR2BVH.jpg",a="/gematlas/assets/coral-gallery-1.kqIvY67Q.jpg",t="/gematlas/assets/coral-gallery-2.DjGDrBN9.jpg",l="/gematlas/assets/coral-gallery-3.DVusRbDX.jpg";export{s as _,a,t as b,l as c};

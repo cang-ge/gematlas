@@ -1,0 +1,1 @@
+const s="/gematlas/assets/turquoise.DwHdChga.jpg",a="/gematlas/assets/turquoise-gallery-1.-plhn0rI.jpg",t="/gematlas/assets/turquoise-gallery-2.Bfj1dusz.jpg",e="/gematlas/assets/turquoise-gallery-3.B8GvUlBG.jpg";export{s as _,a,t as b,e as c};
