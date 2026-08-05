@@ -13,22 +13,31 @@ candidates one by one. The trees below cover the three most confusing
 families: red, blue, and green.
 
 
-## Decision Tree
+## Identification Steps
 
-<div v-pre><pre class="mermaid">
-flowchart TD
-  A[Red stone] --> B{Refractive index}
-  B -->|1.76| C[Corundum]
-  C --> D{UV fluorescence}
-  D -->|strong red| E[Ruby]
-  D -->|weak| F[needs spectrum]
-  B -->|1.71-1.72| G[Spinel]
-  B -->|1.74-1.89| H[Garnet]
-  B -->|1.5-1.7 glassy| I{bubbles / swirls?}
-  I -->|yes| J[Glass imitation]
-  I -->|no| K[re-check refractometer]
+**1. Measure the refractive index (RI)** with a refractometer.
 
-</pre></div>
+| RI reading | Likely family | Next |
+|---|---|---|
+| 1.76 | Corundum (ruby / sapphire) | Step 2 |
+| 1.71–1.72 | Spinel | ✅ identified |
+| 1.74–1.89 | Garnet | ✅ identified |
+| 1.5–1.7, glassy | Possible glass | Step 3 |
+
+**2. For corundum, check UV fluorescence** under a LW lamp.
+
+| Fluorescence | Conclusion |
+|---|---|
+| Strong red | Ruby |
+| Weak or none | Needs spectroscopy |
+
+**3. For a glassy stone, look for bubbles / swirls.**
+
+| Observation | Conclusion |
+|---|---|
+| Bubbles or flow lines | Glass imitation |
+| None | Re-check the refractometer |
+
 
 ## Core Principles
 

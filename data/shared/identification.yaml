@@ -102,30 +102,52 @@ topics:
       or glass. Combining RI / SG / pleochroism / inclusions eliminates
       candidates one by one. The trees below cover the three most confusing
       families: red, blue, and green.
-    mermaid_zh: |
-      flowchart TD
-        A[红色宝石] --> B{折射率 RI}
-        B -->|1.76| C[刚玉族]
-        C --> D{紫外荧光}
-        D -->|强红| E[红宝石 Ruby]
-        D -->|弱| F[需光谱确认]
-        B -->|1.71-1.72| G[尖晶石 Spinel]
-        B -->|1.74-1.89| H[石榴石 Garnet]
-        B -->|1.5-1.7 玻璃感| I{气泡/流动纹?}
-        I -->|有| J[玻璃仿品]
-        I -->|无| K[复查折射仪]
-    mermaid_en: |
-      flowchart TD
-        A[Red stone] --> B{Refractive index}
-        B -->|1.76| C[Corundum]
-        C --> D{UV fluorescence}
-        D -->|strong red| E[Ruby]
-        D -->|weak| F[needs spectrum]
-        B -->|1.71-1.72| G[Spinel]
-        B -->|1.74-1.89| H[Garnet]
-        B -->|1.5-1.7 glassy| I{bubbles / swirls?}
-        I -->|yes| J[Glass imitation]
-        I -->|no| K[re-check refractometer]
+    steps_zh: |
+      **1. 用折射仪测量折射率（RI）**
+
+      | RI 读数 | 可能家族 | 下一步 |
+      |---|---|---|
+      | 1.76 | 刚玉（红宝石/蓝宝石）| 第 2 步 |
+      | 1.71–1.72 | 尖晶石 | ✅ 判定 |
+      | 1.74–1.89 | 石榴石 | ✅ 判定 |
+      | 1.5–1.7，玻璃感 | 疑似玻璃 | 第 3 步 |
+
+      **2. 对刚玉检测紫外荧光（LW 紫外灯）**
+
+      | 荧光 | 结论 |
+      |---|---|
+      | 强红 | 红宝石 |
+      | 弱或无 | 需光谱仪确认 |
+
+      **3. 对疑似玻璃观察气泡 / 旋涡纹**
+
+      | 观察 | 结论 |
+      |---|---|
+      | 有气泡或流动纹 | 玻璃仿品 |
+      | 无 | 复查折射仪读数 |
+    steps_en: |
+      **1. Measure the refractive index (RI)** with a refractometer.
+
+      | RI reading | Likely family | Next |
+      |---|---|---|
+      | 1.76 | Corundum (ruby / sapphire) | Step 2 |
+      | 1.71–1.72 | Spinel | ✅ identified |
+      | 1.74–1.89 | Garnet | ✅ identified |
+      | 1.5–1.7, glassy | Possible glass | Step 3 |
+
+      **2. For corundum, check UV fluorescence** under a LW lamp.
+
+      | Fluorescence | Conclusion |
+      |---|---|
+      | Strong red | Ruby |
+      | Weak or none | Needs spectroscopy |
+
+      **3. For a glassy stone, look for bubbles / swirls.**
+
+      | Observation | Conclusion |
+      |---|---|
+      | Bubbles or flow lines | Glass imitation |
+      | None | Re-check the refractometer |
     principles_zh: |
       - 红：红宝石 RI 1.76 + 强红荧光；尖晶石 1.71–1.72 无荧光；石榴石 1.74–1.89。
       - 蓝：蓝宝石 1.76 无多色性二色；坦桑石 1.69–1.70 强三色性；堇青石 1.54 三色性极强。

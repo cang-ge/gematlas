@@ -138,6 +138,10 @@ export const TopicEntry = z.object({
   // Optional mermaid decision-tree / diagram (rendered as a fenced block)
   mermaid_zh: z.string().optional(),
   mermaid_en: z.string().optional(),
+  // Optional ordered procedural steps (rendered as raw markdown — tables,
+  // numbered lists — for readable identification walkthroughs)
+  steps_zh: z.string().optional(),
+  steps_en: z.string().optional(),
 })
 export const TopicFile = z.object({
   overview_zh: z.string().min(1),
