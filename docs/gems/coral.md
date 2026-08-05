@@ -5,7 +5,7 @@ gem: coral
 
 
 # Coral (gem-grade)
-<img src="../images/gems/coral/coral.svg" alt="Coral (gem-grade)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/coral/coral.jpg" alt="Coral (gem-grade)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ Coral has adorned religions and royals since antiquity; Rome prized it as lightn
 
 ## Gallery
 
-<img src="../images/gems/coral/coral-gallery-1.svg" alt="Coral (gem-grade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/coral/coral-gallery-2.svg" alt="Coral (gem-grade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/coral/coral-gallery-3.svg" alt="Coral (gem-grade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/coral/coral-gallery-1.jpg" alt="Coral (gem-grade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/coral/coral-gallery-2.jpg" alt="Coral (gem-grade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/coral/coral-gallery-3.jpg" alt="Coral (gem-grade)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

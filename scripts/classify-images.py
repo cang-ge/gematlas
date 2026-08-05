@@ -52,6 +52,11 @@ GEMS = {
     "serpentine": ("Serpentine", "蛇纹石"), "sodalite": ("Sodalite", "方钠石"),
     "obsidian": ("Obsidian", "黑曜石"), "chrysoberyl": ("Chrysoberyl", "金绿宝石"),
     "dioptase": ("Dioptase", "透视石"), "prehnite": ("Prehnite", "葡萄石"),
+    "pearl": ("Pearl", "珍珠"), "amber": ("Amber", "琥珀"),
+    "turquoise": ("Turquoise", "绿松石"), "coral": ("Coral", "珊瑚"),
+    "kunzite": ("Kunzite", "紫锂辉石"), "heliodor": ("Heliodor", "金绿柱石"),
+    "fluorite": ("Fluorite", "萤石"), "apatite": ("Apatite", "磷灰石"),
+    "sphalerite": ("Sphalerite", "闪锌矿"), "kyanite": ("Kyanite", "蓝晶石"),
 }
 
 import requests

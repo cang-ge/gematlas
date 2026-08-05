@@ -5,7 +5,7 @@ gem: sphalerite
 
 
 # 闪锌矿
-<img src="../../images/gems/sphalerite/sphalerite.svg" alt="闪锌矿" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/sphalerite/sphalerite.jpg" alt="闪锌矿" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ English: [Sphalerite](/gems/sphalerite)
 
 ## 图库
 
-<img src="../../images/gems/sphalerite/sphalerite-gallery-1.svg" alt="闪锌矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/sphalerite/sphalerite-gallery-2.svg" alt="闪锌矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/sphalerite/sphalerite-gallery-1.jpg" alt="闪锌矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/sphalerite/sphalerite-gallery-2.jpg" alt="闪锌矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/sphalerite/sphalerite-gallery-3.svg" alt="闪锌矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -5,7 +5,7 @@ gem: heliodor
 
 
 # 金绿柱石（金绿玉）
-<img src="../../images/gems/heliodor/heliodor.svg" alt="金绿柱石（金绿玉）" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/heliodor/heliodor.jpg" alt="金绿柱石（金绿玉）" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ English: [Heliodor (golden beryl)](/gems/heliodor)
 
 ## 图库
 
-<img src="../../images/gems/heliodor/heliodor-gallery-1.svg" alt="金绿柱石（金绿玉）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/heliodor/heliodor-gallery-2.svg" alt="金绿柱石（金绿玉）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/heliodor/heliodor-gallery-3.svg" alt="金绿柱石（金绿玉）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/heliodor/heliodor-gallery-1.jpg" alt="金绿柱石（金绿玉）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/heliodor/heliodor-gallery-2.jpg" alt="金绿柱石（金绿玉）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/heliodor/heliodor-gallery-3.jpg" alt="金绿柱石（金绿玉）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

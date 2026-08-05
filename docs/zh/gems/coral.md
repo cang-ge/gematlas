@@ -5,7 +5,7 @@ gem: coral
 
 
 # 珊瑚（宝石级）
-<img src="../../images/gems/coral/coral.svg" alt="珊瑚（宝石级）" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/coral/coral.jpg" alt="珊瑚（宝石级）" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ English: [Coral (gem-grade)](/gems/coral)
 
 ## 图库
 
-<img src="../../images/gems/coral/coral-gallery-1.svg" alt="珊瑚（宝石级）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/coral/coral-gallery-2.svg" alt="珊瑚（宝石级）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/coral/coral-gallery-3.svg" alt="珊瑚（宝石级）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/coral/coral-gallery-1.jpg" alt="珊瑚（宝石级）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/coral/coral-gallery-2.jpg" alt="珊瑚（宝石级）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/coral/coral-gallery-3.jpg" alt="珊瑚（宝石级）" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

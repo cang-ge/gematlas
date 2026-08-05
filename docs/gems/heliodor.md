@@ -5,7 +5,7 @@ gem: heliodor
 
 
 # Heliodor (golden beryl)
-<img src="../images/gems/heliodor/heliodor.svg" alt="Heliodor (golden beryl)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/heliodor/heliodor.jpg" alt="Heliodor (golden beryl)" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ Heliodor takes its name from the Greek sun-god Helios; golden African crystals a
 
 ## Gallery
 
-<img src="../images/gems/heliodor/heliodor-gallery-1.svg" alt="Heliodor (golden beryl)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/heliodor/heliodor-gallery-2.svg" alt="Heliodor (golden beryl)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/heliodor/heliodor-gallery-3.svg" alt="Heliodor (golden beryl)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/heliodor/heliodor-gallery-1.jpg" alt="Heliodor (golden beryl)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/heliodor/heliodor-gallery-2.jpg" alt="Heliodor (golden beryl)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/heliodor/heliodor-gallery-3.jpg" alt="Heliodor (golden beryl)" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

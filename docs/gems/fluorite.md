@@ -5,7 +5,7 @@ gem: fluorite
 
 
 # Fluorite
-<img src="../images/gems/fluorite/fluorite.svg" alt="Fluorite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/fluorite/fluorite.jpg" alt="Fluorite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ Fluorite gave its name to fluorescence itself; its colour range rivals any miner
 
 ## Gallery
 
-<img src="../images/gems/fluorite/fluorite-gallery-1.svg" alt="Fluorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/fluorite/fluorite-gallery-2.svg" alt="Fluorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/fluorite/fluorite-gallery-3.svg" alt="Fluorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/fluorite/fluorite-gallery-1.jpg" alt="Fluorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/fluorite/fluorite-gallery-2.jpg" alt="Fluorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/fluorite/fluorite-gallery-3.jpg" alt="Fluorite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
