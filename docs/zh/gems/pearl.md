@@ -5,7 +5,7 @@ gem: pearl
 
 
 # 珍珠
-<img src="../../images/gems/pearl/pearl.svg" alt="珍珠" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/pearl/pearl.jpg" alt="珍珠" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,6 @@ English: [Pearl](/gems/pearl)
 
 ## 图库
 
-<img src="../../images/gems/pearl/pearl-gallery-1.svg" alt="珍珠" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/pearl/pearl-gallery-2.svg" alt="珍珠" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/pearl/pearl-gallery-1.jpg" alt="珍珠" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/pearl/pearl-gallery-2.jpg" alt="珍珠" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/pearl/pearl-gallery-3.svg" alt="珍珠" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

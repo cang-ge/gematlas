@@ -107,6 +107,13 @@ ALT_QUERIES = {
     "citrine":         ["Citrine quartz gem", "Yellow quartz crystal", "Citrine gemstone faceted"],
     "prehnite":        ["Prehnite gemstone", "Prehnite mineral green", "Prehnite cabochon"],
     "quartz-catseye":  ["Quartz cat's eye gemstone", "Cat's eye quartz cabochon", "Chrysoberyl cat eye"],
+    "pearl":           ["Pearl necklace", "Pearl jewelry", "Pearl strand"],
+    "turquoise":       ["Turquoise jewelry", "Turquoise stone", "Turquoise necklace"],
+    "coral":           ["Coral bead necklace", "Coral jewelry", "Coral cabochon"],
+    "heliodor":        ["Heliodor beryl", "Golden beryl crystal", "Heliodor gem"],
+    "fluorite":        ["Fluorite crystal", "Fluorite octahedron", "Fluorite gemstone"],
+    "sphalerite":      ["Sphalerite crystal", "Sphalerite gem", "Zinc blende crystal"],
+    "kyanite":         ["Kyanite crystal", "Kyanite gemstone", "Blue kyanite"],
 }
 
 # Jewelry product terms — tried ONLY in the fallback pass, after standard
