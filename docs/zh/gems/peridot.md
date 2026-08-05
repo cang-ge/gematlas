@@ -63,9 +63,3 @@ English: [Peridot](/gems/peridot)
 
 橄榄石是最古老宝石之一，古埃及称为"太阳之石"。中国与巴基斯坦现为主要供应地。
 
-
-## 图库
-
-<img src="../../images/gems/peridot/peridot-gallery-2.jpg" alt="橄榄石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/peridot/peridot-gallery-3.jpg" alt="橄榄石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/peridot/peridot-gallery-1.jpg" alt="橄榄石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

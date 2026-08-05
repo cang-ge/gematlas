@@ -62,9 +62,3 @@ gem: lapis-lazuli
 
 Lapis lazuli supplied the pharaohs and Renaissance ultramarine. Afghanistan's Sar-e-Sang mine has run for 6,000 years.
 
-
-## Gallery
-
-<img src="../images/gems/lapis-lazuli/lapis-lazuli-gallery-2.jpg" alt="Lapis Lazuli" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/lapis-lazuli/lapis-lazuli-gallery-3.jpg" alt="Lapis Lazuli" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/lapis-lazuli/lapis-lazuli-gallery-3.svg" alt="Lapis Lazuli" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -67,5 +67,3 @@ Kyanite means 'blue' in Greek; its direction-dependent hardness is unique among 
 ## Gallery
 
 <img src="../images/gems/kyanite/kyanite-gallery-1.jpg" alt="Kyanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/kyanite/kyanite-gallery-2.svg" alt="Kyanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/kyanite/kyanite-gallery-3.svg" alt="Kyanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

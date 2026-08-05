@@ -5,7 +5,7 @@ gem: topaz
 
 
 # Topaz
-<img src="../images/gems/topaz/topaz-gallery-1.jpg" alt="Topaz" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/topaz/topaz.jpg" alt="Topaz" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,5 @@ Imperial topaz (yellow-orange) is most prized; ancient Egyptians mythologised it
 
 ## Gallery
 
-<img src="../images/gems/topaz/topaz.jpg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/topaz/topaz-gallery-2.svg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/topaz/topaz-gallery-3.svg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/topaz/topaz-gallery-1.jpg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/topaz/topaz-gallery-2.jpg" alt="Topaz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -67,4 +67,3 @@ Dioptase's intense emerald-green crystals are stunning but soft; it is mostly a 
 
 <img src="../images/gems/dioptase/dioptase-gallery-1.jpg" alt="Dioptase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/dioptase/dioptase-gallery-2.jpg" alt="Dioptase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/dioptase/dioptase-gallery-3.jpg" alt="Dioptase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

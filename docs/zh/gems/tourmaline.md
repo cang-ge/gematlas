@@ -63,9 +63,3 @@ English: [Tourmaline](/gems/tourmaline)
 
 碧玺颜色之多居宝石之首，"西瓜碧玺"双色共生尤为珍奇。古锡兰语意为"彩色宝石"。
 
-
-## 图库
-
-<img src="../../images/gems/tourmaline/tourmaline-gallery-1.jpg" alt="碧玺" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/tourmaline/tourmaline-gallery-2.jpg" alt="碧玺" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/tourmaline/tourmaline-gallery-3.jpg" alt="碧玺" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

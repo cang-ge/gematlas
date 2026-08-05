@@ -5,7 +5,7 @@ gem: apatite
 
 
 # 磷灰石
-<img src="../../images/gems/apatite/apatite-gallery-1.jpg" alt="磷灰石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/apatite/apatite.png" alt="磷灰石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,5 @@ English: [Apatite](/gems/apatite)
 
 ## 图库
 
+<img src="../../images/gems/apatite/apatite-gallery-1.jpg" alt="磷灰石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/apatite/apatite-gallery-2.jpg" alt="磷灰石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/apatite/apatite.png" alt="磷灰石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/apatite/apatite-gallery-3.svg" alt="磷灰石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

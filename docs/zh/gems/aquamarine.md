@@ -62,9 +62,3 @@ English: [Aquamarine](/gems/aquamarine)
 
 与祖母绿同属绿柱石族。巴西米纳斯吉拉斯产出品质最佳的海蓝宝，常用作航海护身符。
 
-
-## 图库
-
-<img src="../../images/gems/aquamarine/aquamarine-gallery-2.jpg" alt="海蓝宝" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/aquamarine/aquamarine-gallery-3.jpg" alt="海蓝宝" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/aquamarine/aquamarine-gallery-1.jpg" alt="海蓝宝" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

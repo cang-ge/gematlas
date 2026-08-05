@@ -68,4 +68,3 @@ Malachite has coloured paints and palaces since antiquity; St Petersburg's Malac
 
 <img src="../images/gems/malachite/malachite-gallery-1.jpg" alt="Malachite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/malachite/malachite-gallery-2.jpg" alt="Malachite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/malachite/malachite-gallery-3.svg" alt="Malachite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

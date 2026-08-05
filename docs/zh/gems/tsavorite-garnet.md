@@ -5,7 +5,7 @@ gem: tsavorite-garnet
 
 
 # 沙弗莱石榴石
-<img src="../../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-2.jpg" alt="沙弗莱石榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/tsavorite-garnet/tsavorite-garnet.jpg" alt="沙弗莱石榴石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -64,6 +64,6 @@ English: [Tsavorite Garnet](/gems/tsavorite-garnet)
 
 ## 图库
 
-<img src="../../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-3.jpg" alt="沙弗莱石榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-1.jpg" alt="沙弗莱石榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/tsavorite-garnet/tsavorite-garnet.jpg" alt="沙弗莱石榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-2.jpg" alt="沙弗莱石榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-3.jpg" alt="沙弗莱石榴石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

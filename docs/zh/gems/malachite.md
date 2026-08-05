@@ -68,4 +68,3 @@ English: [Malachite](/gems/malachite)
 
 <img src="../../images/gems/malachite/malachite-gallery-1.jpg" alt="孔雀石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/malachite/malachite-gallery-2.jpg" alt="孔雀石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/malachite/malachite-gallery-3.svg" alt="孔雀石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

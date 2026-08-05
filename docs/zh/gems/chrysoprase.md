@@ -62,9 +62,3 @@ English: [Chrysoprase](/gems/chrysoprase)
 
 绿玉髓的苹果绿由镍致色，是半透明石英中最珍贵者，普鲁士腓特烈大帝曾收藏。
 
-
-## 图库
-
-<img src="../../images/gems/chrysoprase/chrysoprase-gallery-2.jpg" alt="绿玉髓" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/chrysoprase/chrysoprase-gallery-1.jpg" alt="绿玉髓" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/chrysoprase/chrysoprase-gallery-3.jpg" alt="绿玉髓" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

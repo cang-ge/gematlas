@@ -9,38 +9,22 @@ Every gemstone begins as a mineral — a naturally occurring, inorganic solid wi
 The primary classification of gemstones follows mineral species, based on chemical composition and crystal structure.
 
 <div v-pre><pre class="mermaid">
+%%{init: {'theme':'base', 'themeVariables': {'fontSize': '18px'}}}%%
 graph TD
   A[Gem materials] --> B[Natural minerals]
   A --> C[Organic materials]
   A --> D[Synthetic]
-  B --> E[Corundum]
-  B --> F[Beryl]
-  B --> G[Garnet group]
-  B --> H[Quartz]
-  B --> I[Tourmaline]
+  B --> E[Corundum — Ruby · Sapphire]
+  B --> F[Beryl — Emerald · Aquamarine]
+  B --> G[Quartz — Amethyst · Citrine]
+  B --> H[Garnet — Tsavorite · Demantoid]
+  B --> I[Tourmaline — Paraíba]
   B --> J[Spinel]
   B --> K[Diamond]
-  B --> L[Chrysoberyl]
-  B --> M[Zoisite]
-  B --> N[Opal]
-  B --> O[... +400 more species]
-  C --> P[Pearl]
-  C --> Q[Amber]
-  C --> R[Coral]
-  C --> S[Jet]
-  D --> T[Lab-grown gems]
-  D --> U[Simulants]
-  E --> V[Ruby]
-  E --> W[Sapphire]
-  F --> X[Emerald]
-  F --> Y[Other beryls]
-  I --> Z[Paraíba Tourmaline]
-  G --> AA[Tsavorite Garnet]
-  L --> AB[Alexandrite]
-  J --> AC[Spinel]
-  M --> AD[Tanzanite]
-  K --> AE[Diamond]
-  N --> AF[Opal]
+  B --> L[Feldspar — Moonstone · Labradorite]
+  B --> M[Opal]
+  C --> N[Pearl · Amber · Coral]
+  D --> O[Lab-grown · Simulants]
 </pre></div>
 
 ## Traditional Classification

@@ -60,9 +60,3 @@ English: [Charoite](/gems/charoite)
 
 紫硅碱钙石仅产自俄罗斯恰拉河，20世纪70年代才被确认，紫色丝绢光泽独特。
 
-
-## 图库
-
-<img src="../../images/gems/charoite/charoite-gallery-1.jpg" alt="紫硅碱钙石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/charoite/charoite-gallery-2.jpg" alt="紫硅碱钙石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/charoite/charoite-gallery-3.svg" alt="紫硅碱钙石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

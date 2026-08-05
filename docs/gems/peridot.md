@@ -63,9 +63,3 @@ gem: peridot
 
 Among the oldest gemstones, peridot was Egypt's 'gem of the sun'. China and Pakistan now lead supply.
 
-
-## Gallery
-
-<img src="../images/gems/peridot/peridot-gallery-2.jpg" alt="Peridot" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/peridot/peridot-gallery-3.jpg" alt="Peridot" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/peridot/peridot-gallery-1.jpg" alt="Peridot" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

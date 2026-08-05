@@ -62,9 +62,3 @@ gem: chrysoprase
 
 Chrysoprase's apple-green comes from nickel; it is the most precious translucent quartz, collected by Frederick the Great.
 
-
-## Gallery
-
-<img src="../images/gems/chrysoprase/chrysoprase-gallery-2.jpg" alt="Chrysoprase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/chrysoprase/chrysoprase-gallery-1.jpg" alt="Chrysoprase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/chrysoprase/chrysoprase-gallery-3.jpg" alt="Chrysoprase" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

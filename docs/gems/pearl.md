@@ -68,4 +68,3 @@ Pearl is the only gem produced by a living creature, symbolising purity for mill
 
 <img src="../images/gems/pearl/pearl-gallery-1.jpg" alt="Pearl" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/pearl/pearl-gallery-2.jpg" alt="Pearl" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/pearl/pearl-gallery-3.svg" alt="Pearl" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

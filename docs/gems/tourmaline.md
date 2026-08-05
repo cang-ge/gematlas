@@ -63,9 +63,3 @@ gem: tourmaline
 
 Tourmaline shows the widest colour range of any gem; watermelon bicolour is prized. Sinhalese for 'mixed coloured stone'.
 
-
-## Gallery
-
-<img src="../images/gems/tourmaline/tourmaline-gallery-1.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/tourmaline/tourmaline-gallery-2.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/tourmaline/tourmaline-gallery-3.jpg" alt="Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

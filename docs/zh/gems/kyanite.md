@@ -67,5 +67,3 @@ English: [Kyanite](/gems/kyanite)
 ## 图库
 
 <img src="../../images/gems/kyanite/kyanite-gallery-1.jpg" alt="蓝晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/kyanite/kyanite-gallery-2.svg" alt="蓝晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/kyanite/kyanite-gallery-3.svg" alt="蓝晶石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

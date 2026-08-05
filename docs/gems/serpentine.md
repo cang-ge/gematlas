@@ -5,7 +5,7 @@ gem: serpentine
 
 
 # Serpentine
-<img src="../images/gems/serpentine/serpentine-gallery-1.jpg" alt="Serpentine" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/serpentine/serpentine.jpg" alt="Serpentine" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -66,6 +66,5 @@ Serpentine is a jade substitute ('new jade'); named for its snake-skin sheen. Ca
 
 ## Gallery
 
-<img src="../images/gems/serpentine/serpentine-gallery-3.jpg" alt="Serpentine" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/serpentine/serpentine-gallery-2.svg" alt="Serpentine" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/serpentine/serpentine-gallery-3.svg" alt="Serpentine" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/serpentine/serpentine-gallery-1.jpg" alt="Serpentine" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/serpentine/serpentine-gallery-2.jpg" alt="Serpentine" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

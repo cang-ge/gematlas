@@ -68,4 +68,3 @@ Sphalerite has the highest dispersion of any gem; its orange crystals look like 
 
 <img src="../images/gems/sphalerite/sphalerite-gallery-1.jpg" alt="Sphalerite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/sphalerite/sphalerite-gallery-2.jpg" alt="Sphalerite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/sphalerite/sphalerite-gallery-3.svg" alt="Sphalerite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

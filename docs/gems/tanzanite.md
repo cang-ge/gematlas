@@ -65,4 +65,3 @@ Found near Arusha in 1967 and promoted by Tiffany. With a single source worldwid
 
 <img src="../images/gems/tanzanite/tanzanite-gallery-1.jpg" alt="Tanzanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/tanzanite/tanzanite-gallery-2.jpg" alt="Tanzanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/tanzanite/tanzanite-gallery-3.svg" alt="Tanzanite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

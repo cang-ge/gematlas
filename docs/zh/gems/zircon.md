@@ -5,7 +5,7 @@ gem: zircon
 
 
 # 锆石
-<img src="../../images/gems/zircon/zircon-gallery-2.jpg" alt="锆石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../../images/gems/zircon/zircon.jpg" alt="锆石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -67,5 +67,5 @@ English: [Zircon](/gems/zircon)
 ## 图库
 
 <img src="../../images/gems/zircon/zircon-gallery-1.jpg" alt="锆石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/zircon/zircon-gallery-2.jpg" alt="锆石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../../images/gems/zircon/zircon-gallery-3.jpg" alt="锆石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/zircon/zircon.jpg" alt="锆石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

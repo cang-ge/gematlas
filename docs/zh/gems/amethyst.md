@@ -63,9 +63,3 @@ English: [Amethyst](/gems/amethyst)
 
 紫晶自古象征王权与清醒，希腊语意为"不醉"。圣路易斯安那曾是重要产地；乌拉圭深紫最受追捧。
 
-
-## 图库
-
-<img src="../../images/gems/amethyst/amethyst-gallery-1.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/amethyst/amethyst-gallery-3.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/amethyst/amethyst-gallery-2.jpg" alt="紫晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

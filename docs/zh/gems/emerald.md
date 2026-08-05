@@ -65,6 +65,5 @@ English: [Emerald](/gems/emerald)
 
 ## 图库
 
-<img src="../../images/gems/emerald/emerald-gallery-3.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/emerald/emerald-gallery-2.svg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/emerald/emerald-gallery-3.svg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/emerald/emerald-gallery-1.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../../images/gems/emerald/emerald-gallery-2.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

@@ -62,9 +62,3 @@ English: [Lapis Lazuli](/gems/lapis-lazuli)
 
 青金石是法老与文艺复兴画家的"群青"来源。阿富汗萨雷桑矿已开采六千年。
 
-
-## 图库
-
-<img src="../../images/gems/lapis-lazuli/lapis-lazuli-gallery-2.jpg" alt="青金石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/lapis-lazuli/lapis-lazuli-gallery-3.jpg" alt="青金石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/lapis-lazuli/lapis-lazuli-gallery-3.svg" alt="青金石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

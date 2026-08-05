@@ -5,7 +5,7 @@ gem: rose-quartz
 
 
 # Rose Quartz
-<img src="../images/gems/rose-quartz/rose-quartz-gallery-1.jpg" alt="Rose Quartz" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/rose-quartz/rose-quartz.jpg" alt="Rose Quartz" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -62,9 +62,3 @@ gem: rose-quartz
 
 Rose quartz is the love stone; Egypt and Rome ground it for cosmetics. Large clean crystals are rare.
 
-
-## Gallery
-
-<img src="../images/gems/rose-quartz/rose-quartz-gallery-2.jpg" alt="Rose Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/rose-quartz/rose-quartz-gallery-3.jpg" alt="Rose Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/rose-quartz/rose-quartz.jpg" alt="Rose Quartz" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

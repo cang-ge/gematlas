@@ -62,9 +62,3 @@ English: [Pyrite](/gems/pyrite)
 
 黄铁矿"愚人金"常被误认为黄金。印加文明用之制镜，阿兹特克饰之。
 
-
-## 图库
-
-<img src="../../images/gems/pyrite/pyrite-gallery-1.jpg" alt="黄铁矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/pyrite/pyrite-gallery-2.jpg" alt="黄铁矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/pyrite/pyrite-gallery-3.jpg" alt="黄铁矿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

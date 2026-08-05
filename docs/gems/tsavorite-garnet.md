@@ -5,7 +5,7 @@ gem: tsavorite-garnet
 
 
 # Tsavorite Garnet
-<img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-2.jpg" alt="Tsavorite Garnet" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
+<img src="../images/gems/tsavorite-garnet/tsavorite-garnet.jpg" alt="Tsavorite Garnet" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
 
 
 
@@ -64,6 +64,6 @@ Discovered in Kenya in 1967 by Campbell Bridges; named by Tiffany for Tsavo Nati
 
 ## Gallery
 
-<img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-3.jpg" alt="Tsavorite Garnet" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
 <img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-1.jpg" alt="Tsavorite Garnet" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/tsavorite-garnet/tsavorite-garnet.jpg" alt="Tsavorite Garnet" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-2.jpg" alt="Tsavorite Garnet" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-3.jpg" alt="Tsavorite Garnet" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

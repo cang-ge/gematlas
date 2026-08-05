@@ -39,5 +39,5 @@ history_zh: |
 history_en: |
   Ruby is the king of coloured gems; Mogok (Myanmar) 'pigeon-blood' stones set the benchmark. Revered in India as the 'lord of gems', it reached Europe along the Silk Road.
 images:
-  main: ruby-gallery-3.jpg
-  gallery: [ruby-gallery-2.jpg, ruby.jpg, ruby-gallery-3.svg]
+  main: ruby.jpg
+  gallery: [ruby-gallery-1.jpg, ruby-gallery-2.jpg]

@@ -60,9 +60,3 @@ gem: charoite
 
 Charoite comes only from Siberia's Chara River, confirmed in the 1970s; its purple silky chatoyancy is one-of-a-kind.
 
-
-## Gallery
-
-<img src="../images/gems/charoite/charoite-gallery-1.jpg" alt="Charoite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/charoite/charoite-gallery-2.jpg" alt="Charoite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/charoite/charoite-gallery-3.svg" alt="Charoite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">

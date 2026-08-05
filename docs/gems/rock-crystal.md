@@ -66,6 +66,5 @@ Rock crystal was long thought to be frozen ice (Greek 'krystallos'). Distributed
 
 ## Gallery
 
-<img src="../images/gems/rock-crystal/rock-crystal-gallery-1.svg" alt="Rock Crystal" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/rock-crystal/rock-crystal-gallery-2.svg" alt="Rock Crystal" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/rock-crystal/rock-crystal-gallery-3.svg" alt="Rock Crystal" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/rock-crystal/rock-crystal-gallery-1.jpg" alt="Rock Crystal" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<img src="../images/gems/rock-crystal/rock-crystal-gallery-2.jpg" alt="Rock Crystal" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
