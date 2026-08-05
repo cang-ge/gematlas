@@ -8,24 +8,23 @@ Every gemstone begins as a mineral — a naturally occurring, inorganic solid wi
 
 The primary classification of gemstones follows mineral species, based on chemical composition and crystal structure.
 
-<div v-pre><pre class="mermaid">
-%%{init: {'theme':'base', 'themeVariables': {'fontSize': '18px'}}}%%
-graph TD
-  A[Gem materials] --> B[Natural minerals]
-  A --> C[Organic materials]
-  A --> D[Synthetic]
-  B --> E[Corundum — Ruby · Sapphire]
-  B --> F[Beryl — Emerald · Aquamarine]
-  B --> G[Quartz — Amethyst · Citrine]
-  B --> H[Garnet — Tsavorite · Demantoid]
-  B --> I[Tourmaline — Paraíba]
-  B --> J[Spinel]
-  B --> K[Diamond]
-  B --> L[Feldspar — Moonstone · Labradorite]
-  B --> M[Opal]
-  C --> N[Pearl · Amber · Coral]
-  D --> O[Lab-grown · Simulants]
-</pre></div>
+| Material | Mineral Family | Representative Gems |
+|---|---|---|
+| **Natural minerals** | Corundum | Ruby · Sapphire |
+| | Beryl | Emerald · Aquamarine · Morganite |
+| | Quartz | Amethyst · Citrine · Rock Crystal |
+| | Garnet | Tsavorite · Demantoid · Almandine |
+| | Tourmaline | Paraíba · Watermelon |
+| | Spinel | Red · Blue Spinel |
+| | Diamond | Colourless · Fancy colours |
+| | Feldspar | Moonstone · Labradorite · Amazonite |
+| | Zoisite | Tanzanite |
+| | Opal | Precious opal · Fire opal |
+| **Organic materials** | Biogenic | Pearl · Amber · Coral |
+| **Synthetic** | Lab-grown | Flux ruby · Hydrothermal emerald · CVD diamond |
+| | Simulants | Cubic zirconia · Glass · Moissanite |
+
+> **→ 60 species**, from Diamond to Chrysoprase. Browse the [full list](#all-60-gem-species) below, or explore by [mineral group](mineral-groups/intro), [crystal system](crystal-systems/cubic), or [optical phenomenon](optical-phenomena/intro).
 
 ## Traditional Classification
 
@@ -94,6 +93,6 @@ Gems are often classified by their primary color for practical identification:
 
 Each gem in this collection has a dedicated page with its physical properties, optical characteristics, treatments, and references. Browse the full list below, or use the sidebar to explore by mineral group, crystal system, or optical phenomenon.
 
-## All 50 Gem Species
+## All 60 Gem Species
 
 <GemGallery locale="en" />
