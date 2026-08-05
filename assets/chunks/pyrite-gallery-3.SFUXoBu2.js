@@ -1,1 +1,0 @@
-const s="/gematlas/assets/pyrite.Bl8bIuue.jpg",t="/gematlas/assets/pyrite-gallery-1.DYiiBM-C.jpg",a="/gematlas/assets/pyrite-gallery-2.BWbUKYrJ.jpg",e="/gematlas/assets/pyrite-gallery-3.h7deR3Yn.jpg";export{s as _,t as a,a as b,e as c};

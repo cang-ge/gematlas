@@ -1,1 +1,0 @@
-const s="/gematlas/assets/dioptase.7znNN5r3.jpg",a="/gematlas/assets/dioptase-gallery-1.DxyuEeCH.jpg",t="/gematlas/assets/dioptase-gallery-1.DxyuEeCH.jpg",e="/gematlas/assets/dioptase.7znNN5r3.jpg";export{s as _,a,t as b,e as c};

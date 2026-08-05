@@ -1,1 +1,0 @@
-const s="/gematlas/assets/peridot.C8_u0kWu.jpg",t="/gematlas/assets/peridot-gallery-2.DxzbkGAF.jpg",a="/gematlas/assets/peridot-gallery-3.D_QUUy7i.jpg",e="/gematlas/assets/peridot-gallery-1.CN6EWdjR.jpg";export{s as _,t as a,a as b,e as c};

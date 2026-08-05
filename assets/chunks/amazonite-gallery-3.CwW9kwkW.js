@@ -1,1 +1,0 @@
-const a="/gematlas/assets/amazonite-gallery-1.mNUF6GN-.jpg",s="/gematlas/assets/amazonite-gallery-2.GCKB5xsC.jpg",t="/gematlas/assets/amazonite-gallery-3.CYURuEjn.jpg",e="/gematlas/assets/amazonite-gallery-3.dbef2SQx.png";export{a as _,s as a,t as b,e as c};

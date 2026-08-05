@@ -1,1 +1,0 @@
-const s="/gematlas/assets/alexandrite-gallery-1.B-AJsTnu.jpg",a="/gematlas/assets/alexandrite-gallery-2.BfIyeRsG.jpg",t="/gematlas/assets/alexandrite-gallery-3.b9TuWmZm.jpg",e="/gematlas/assets/alexandrite.DMOtsHYE.jpg";export{s as _,a,t as b,e as c};

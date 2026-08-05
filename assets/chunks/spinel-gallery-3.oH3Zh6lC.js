@@ -1,0 +1,1 @@
+const s="/gematlas/assets/spinel.4UqCoBPY.jpg",a="/gematlas/assets/spinel-gallery-1.-QGICJfV.jpg",t="/gematlas/assets/spinel-gallery-2.Du4_l43l.jpg",e="/gematlas/assets/spinel-gallery-3.DE1a0Gmo.jpg";export{s as _,a,t as b,e as c};

@@ -1,0 +1,1 @@
+const s="/gematlas/assets/garnet-spessartine.zboL5qvp.jpg",a="/gematlas/assets/garnet-almandine-gallery-3.CDHcY8yl.jpg",t="/gematlas/assets/garnet-spessartine-gallery-2.Bhpzl2fz.jpg";export{s as _,a,t as b};

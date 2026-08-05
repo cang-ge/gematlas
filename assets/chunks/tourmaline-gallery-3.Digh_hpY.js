@@ -1,1 +1,0 @@
-const s="/gematlas/assets/tourmaline.Ck3ngD0i.jpg",a="/gematlas/assets/tourmaline-gallery-1.3l_P3QDk.jpg",t="/gematlas/assets/tourmaline-gallery-2.CCxpOP0Q.jpg",e="/gematlas/assets/tourmaline-gallery-3.BxHjpFXL.jpg";export{s as _,a,t as b,e as c};
