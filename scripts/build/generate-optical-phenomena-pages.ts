@@ -5,8 +5,8 @@
  * Output:
  *   docs/optical-phenomena/{id}.md          (EN, root locale)
  *   docs/zh/optical-phenomena/{id}.md      (ZH)
- *   docs/optical-phenomena/intro.md
- *   docs/zh/optical-phenomena/intro.md
+ *   docs/classification/optical-phenomena/intro.md
+ *   docs/zh/classification/optical-phenomena/intro.md
  */
 import yaml from 'js-yaml'
 import fs from 'node:fs'
@@ -14,10 +14,10 @@ import path from 'node:path'
 import { OpticalPhenomenaFile } from './schema'
 
 const SHARED = 'data/shared/optical-phenomena.yaml'
-const OUT_EN_INTRO = 'docs/optical-phenomena/intro.md'
-const OUT_ZH_INTRO = 'docs/zh/optical-phenomena/intro.md'
-const OUT_EN_DIR = 'docs/optical-phenomena'
-const OUT_ZH_DIR = 'docs/zh/optical-phenomena'
+const OUT_EN_INTRO = 'docs/classification/optical-phenomena/intro.md'
+const OUT_ZH_INTRO = 'docs/zh/classification/optical-phenomena/intro.md'
+const OUT_EN_DIR = 'docs/classification/optical-phenomena'
+const OUT_ZH_DIR = 'docs/zh/classification/optical-phenomena'
 
 const raw = yaml.load(fs.readFileSync(SHARED, 'utf8'))
 const parsed = OpticalPhenomenaFile.parse(raw)

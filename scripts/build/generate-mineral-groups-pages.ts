@@ -8,10 +8,10 @@ import path from 'node:path'
 import { MineralGroupsFile } from './schema'
 
 const SHARED = 'data/shared/mineral-groups.yaml'
-const OUT_EN_INTRO = 'docs/mineral-groups/intro.md'
-const OUT_ZH_INTRO = 'docs/zh/mineral-groups/intro.md'
-const OUT_EN_DIR = 'docs/mineral-groups'
-const OUT_ZH_DIR = 'docs/zh/mineral-groups'
+const OUT_EN_INTRO = 'docs/classification/mineral-groups/intro.md'
+const OUT_ZH_INTRO = 'docs/zh/classification/mineral-groups/intro.md'
+const OUT_EN_DIR = 'docs/classification/mineral-groups'
+const OUT_ZH_DIR = 'docs/zh/classification/mineral-groups'
 
 const raw = yaml.load(fs.readFileSync(SHARED, 'utf8'))
 const parsed = MineralGroupsFile.parse(raw)

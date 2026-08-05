@@ -3,8 +3,8 @@
  * from data/shared/color-causes.yaml. Output:
  *   docs/color-causes/{id}.md        (EN, root locale)
  *   docs/zh/color-causes/{id}.md    (ZH)
- *   docs/color-causes/intro.md
- *   docs/zh/color-causes/intro.md
+ *   docs/classification/color-causes/intro.md
+ *   docs/zh/classification/color-causes/intro.md
  *
  * Usage: tsx scripts/build/generate-color-causes-pages.ts
  */
@@ -14,10 +14,10 @@ import path from 'node:path'
 import { ColorCausesFile } from './schema'
 
 const SHARED = 'data/shared/color-causes.yaml'
-const OUT_EN_INTRO = 'docs/color-causes/intro.md'
-const OUT_ZH_INTRO = 'docs/zh/color-causes/intro.md'
-const OUT_EN_DIR = 'docs/color-causes'
-const OUT_ZH_DIR = 'docs/zh/color-causes'
+const OUT_EN_INTRO = 'docs/classification/color-causes/intro.md'
+const OUT_ZH_INTRO = 'docs/zh/classification/color-causes/intro.md'
+const OUT_EN_DIR = 'docs/classification/color-causes'
+const OUT_ZH_DIR = 'docs/zh/classification/color-causes'
 
 const raw = yaml.load(fs.readFileSync(SHARED, 'utf8'))
 const parsed = ColorCausesFile.parse(raw)
