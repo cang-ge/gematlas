@@ -213,9 +213,11 @@ optical:
     txt += "  color_causes_zh: {}\n  color_causes_en: {}\n".format(d["cause_zh"], d["cause_en"])
     txt += "treatments:\n  common: [{}]\n  disclosure_required: {}\n  note_zh: {}\n  note_en: {}\n".format(
         ", ".join(d["treat"]), str(d["disclose"]).lower(), sq(d["note_zh"]), sq(d["note_en"]))
-    txt += "images:\n  main: {}.svg\n  gallery: [{}-gallery-1.svg, {}-gallery-2.svg, {}-gallery-3.svg]\n".format(gid, gid, gid, gid)
+    # NOTE: images block goes LAST (after origin/history) so the downloader's
+    # strip-anywhere logic always leaves exactly one block.
     txt += "\norigin:\n" + "".join('  - { zh: "%s", en: "%s" }\n' % (z, e) for z, e in d["origin"])
     txt += "history_zh: |\n  {}\nhistory_en: |\n  {}\n".format(d["hz"], d["he"])
+    txt += "images:\n  main: {}.svg\n  gallery: [{}-gallery-1.svg, {}-gallery-2.svg, {}-gallery-3.svg]\n".format(gid, gid, gid, gid)
     p.write_text(txt, encoding="utf-8")
     return True
 

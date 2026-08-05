@@ -102,6 +102,45 @@ git push origin      → a83148f..9a5e290
 - `scripts/add-gem-origin.py`：50 颗全部填充（带 .bak 备份 + 原子写，幂等）。
 - 每颗含 2-5 个主要产地 + 1-2 句历史（含传奇宝石背景，如 Hope、黑王子红宝石、莫谷鸽血红、和田玉文化）。
 
+### 11. 扩展宝石品种 50→60（1c7472c + 21f3a6a）
+- 新增 10 颗：珍珠、琥珀、绿松石、珊瑚、紫锂辉石、金绿柱石(helidor)、萤石、磷灰石、闪锌矿、蓝晶石。
+- `add-gem-varieties.py`：幂等生成器，带完整 GemSchema + origin/history + SVG 占位图。
+- **schema 修复**：`refractive_index` 正则放宽接受单值（各向同性宝石如琥珀 1.54、萤石 1.43、闪锌矿 2.37）。
+- **YAML 引号修复**：note/hardness 字段含 `: ` 或引号时需单引号包裹（`Directional hardness: 4.5...` 被 YAML 误读为映射）。
+- 首页 GemGallery 分 4 组接入 10 颗（pearl→prestige；heliodor→beryl；turquoise/kunzite/kyanite/apatite→colored；amber/coral/fluorite/sphalerite→ornamental）。
+- 验证：validate(69) / test(70) / build exit 0。
+
+### 12. 待办
+- [ ] 10 颗新宝石真图（图片闭环运行中：下载→qwen3-vl 分类→安装）
+- [ ] 蓝/绿家族同色判别决策树（内容已在 principles，可补 mermaid）
+- [ ] 交互工具（对比器/鉴定向导，后期）
+- [ ] 其余宝石 SVG 缺口（63 张占位，可继续闭环补）
+
+### 13. 图片闭环收尾（b3dcadd）
+- 给 7 颗缺图新宝石加 ALT_QUERIES（pearl necklace/turquoise jewelry 等），跑一轮闭环。
+- **194 张视觉验证真图 / 60 颗宝石中 55 颗有真图**。
+- 10 颗新宝石：pearl(3) amber(4) kunzite(4) apatite(2) kyanite(2) 已获真图。
+- **5 颗仍 SVG 占位**：turquoise / coral / heliodor / fluorite / sphalerite（Wikimedia 来源确实稀少，建议手动补图）。
+
+### 14. 最终盘点（本次自主阶段全程）
+| 项 | 状态 |
+|----|------|
+| 4 模块子页 | ✅ grading/cutting/identification/gallery 14 子页×双语 |
+| 生成器去重 | ✅ -411 行（059775f）|
+| README 同步 | ✅ bf89333 |
+| 同色判别决策树 | ✅ b3de47b |
+| 产地/历史 | ✅ 60 颗全加 |
+| 宝石扩展 | ✅ 50→60（1c7472c + 21f3a6a）|
+| 图片闭环 | ✅ 194 真图 / 55 颗有真图 |
+| 双 images 块 bug | ✅ 修复 + 管线加固（09ec823）|
+| 验证 | ✅ tsc/validate(69)/test(70)/build/sync 全 0 |
+| Push | ✅ 全部已推送 origin |
+
+### 改进建议（追加 3）
+6. 5 颗缺图新宝石（turquoise/coral/heliodor/fluorite/sphalerite）可走"手动补图"流程（Pictures/<gem>/ → convert → classify → install）。
+7. 双 images 块 bug 已防复发（download 任意位置 strip），但建议给 add-gem-varieties.py 的 images 块也放文件末尾，从源头消除。
+8. 生成器 `generate-color-causes-pages.ts` 等 3 个早期生成器仍独立，未来可并入 generate-topic-pages 共享框架。
+
 ### 10. 阶段小结
 | 里程碑 | commit | 验证 |
 |--------|--------|------|
