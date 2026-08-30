@@ -155,6 +155,44 @@ export const CuttingTopicsFile = TopicFile
 export const IdentificationTopicsFile = TopicFile
 export const GalleryTopicsFile = TopicFile
 
+/* ─── Maison gallery archive (data/shared/maison-works.yaml) ────── */
+
+export const MaisonWorkType = z.enum(['heritage', 'craft', 'gem-focus'])
+export const MaisonName = z.enum([
+  'Cartier',
+  'Van Cleef & Arpels',
+  'Boucheron',
+  'Tiffany & Co.',
+  'Harry Winston',
+  'Graff',
+  'Chaumet',
+])
+
+export const MaisonWorkEntry = z.object({
+  id: z.string().regex(/^[a-z][a-z0-9-]*$/, 'kebab-case id'),
+  maison: MaisonName,
+  name_zh: z.string().min(1),
+  name_en: z.string().min(1),
+  type: MaisonWorkType,
+  year: z.string().min(1),
+  gems: z.array(z.string().min(1)).min(1),
+  craft: z.string().min(1),
+  craft_zh: z.string().optional(),
+  style: z.string().min(1),
+  style_zh: z.string().optional(),
+  summary_zh: z.string().min(1),
+  summary_en: z.string().min(1),
+  image: z.string().regex(/^images\//),
+  source_url: z.string().url(),
+  image_source_url: z.string().url().optional(),
+  image_credit: z.string().optional(),
+  rights: z.enum(['cc-by-2.0', 'cc-by-sa-2.0', 'cc-by-3.0', 'cc-by-sa-3.0', 'cc-by-sa-4.0', 'cc0', 'public-domain']),
+})
+
+export const MaisonWorksFile = z.object({
+  works: z.array(MaisonWorkEntry).length(21),
+})
+
 /* ─── Gem (data/gemstones/v1/*.yaml) — core 5 modules ───────── */
 
 /** Each gem's mineralogical / chemical identity. */
@@ -201,6 +239,7 @@ export const SharedSchema = z.object({
   cutting_topics: CuttingTopicsFile.optional(),
   identification_topics: IdentificationTopicsFile.optional(),
   gallery_topics: GalleryTopicsFile.optional(),
+  maison_works: MaisonWorksFile.optional(),
 })
 
 /** The full Gem YAML shape. */

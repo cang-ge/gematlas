@@ -192,6 +192,8 @@ pnpm preview
 - [SSEF](https://www.ssef.ch/) —— 产地与处理研究
 - [Gübelin](https://www.gubelin.com/) —— 宝石学研究与历史背景
 
+图片来源与授权记录见 [`docs/image-credits.md`](./docs/image-credits.md)。
+
 本项目是教育性参考资料，不能替代专业宝石鉴定师的检测或独立实验室报告。对于处理方式、产地和鉴定结论，应结合来源说明以及现有证据范围进行理解。
 
 ## 贡献

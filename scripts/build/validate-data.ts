@@ -22,6 +22,7 @@ import {
   CuttingTopicsFile,
   IdentificationTopicsFile,
   GalleryTopicsFile,
+  MaisonWorksFile,
 } from './schema'
 
 const GEM_DIR = 'data/gems/v1'
@@ -79,6 +80,11 @@ if (fs.existsSync(identificationPath)) {
 const galleryPath = path.join(SHARED_DIR, 'gallery.yaml')
 if (fs.existsSync(galleryPath)) {
   validate(galleryPath, GalleryTopicsFile, 'shared: gallery.yaml')
+}
+
+const maisonWorksPath = path.join(SHARED_DIR, 'maison-works.yaml')
+if (fs.existsSync(maisonWorksPath)) {
+  validate(maisonWorksPath, MaisonWorksFile, 'shared: maison-works.yaml')
 }
 
 console.log(`\nResult: ${pass}/${pass + fail} files valid`)

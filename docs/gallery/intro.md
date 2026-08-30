@@ -1,16 +1,16 @@
 ---
-title: Cutting
+title: Gallery
 ---
 
-# Cutting
+# Gallery
 
 The gallery views finished jewelry through three lenses — the great
 maisons, the style eras that shaped design, and the legendary stones
 whose fame outlived their owners. Together with the GalleryGrid's
-18 signature pieces, this forms a narrative from workshop to icon.
+21 maison works and five legendary stones, this forms a narrative from workshop to icon.
 
 
-## Cutting Topics
+## Gallery Topics
 
 | Topic | Summary |
 |---|---|

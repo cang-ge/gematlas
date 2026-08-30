@@ -10,6 +10,7 @@ import {
   CuttingTopicsFile,
   IdentificationTopicsFile,
   GalleryTopicsFile,
+  MaisonWorksFile,
 } from '../scripts/build/schema'
 
 const GEM_DIR = 'data/gems/v1'
@@ -84,6 +85,27 @@ describe('Shared YAML validation', () => {
     for (const t of parsed.topics) {
       expect(t.name_en.length).toBeGreaterThan(0)
       expect(t.name_zh.length).toBeGreaterThan(0)
+    }
+  })
+
+  it('maison-works.yaml parses (7 maisons × 3 works)', () => {
+    const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'maison-works.yaml'), 'utf8'))
+    const parsed = MaisonWorksFile.parse(raw)
+    expect(parsed.works).toHaveLength(21)
+    expect(new Set(parsed.works.map(w => w.id)).size).toBe(21)
+    const counts = new Map<string, number>()
+    for (const work of parsed.works) counts.set(work.maison, (counts.get(work.maison) || 0) + 1)
+    expect(counts.size).toBe(7)
+    expect([...counts.values()].every(count => count === 3)).toBe(true)
+    expect(new Set(parsed.works.map(w => w.type))).toEqual(new Set(['heritage', 'craft', 'gem-focus']))
+    for (const work of parsed.works) {
+      expect(work.name_zh.length).toBeGreaterThan(0)
+      expect(work.name_en.length).toBeGreaterThan(0)
+      expect(work.summary_zh.length).toBeGreaterThan(0)
+      expect(work.summary_en.length).toBeGreaterThan(0)
+      expect(work.source_url.startsWith('http')).toBe(true)
+      expect(work.image).toBeTruthy()
+      expect(fs.existsSync(path.join('docs', work.image))).toBe(true)
     }
   })
 })

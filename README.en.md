@@ -192,6 +192,8 @@ Mineralogical, grading, and gemological background is curated from public-domain
 - [SSEF](https://www.ssef.ch/) — origin and treatment research
 - [Gübelin](https://www.gubelin.com/) — gemological research and historical context
 
+Image sources and license records are listed in [`docs/image-credits.md`](./docs/image-credits.md).
+
 The project is an educational reference and does not replace an examination by a qualified gemologist or an independent laboratory report. Treatment, origin, and identification content should be interpreted with the source notes and the limits of the available evidence.
 
 ## Contributing

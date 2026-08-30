@@ -26,6 +26,59 @@ interface ModuleConfig {
   seeAlsoZH: (id: string) => string
 }
 
+const LEGENDARY_STONES = [
+  {
+    image: 'images/gallery/legendary/hope-diamond.jpg',
+    nameEN: 'Hope Diamond',
+    nameZH: 'Hope 蓝钻',
+    detailEN: '45.52 ct · blue diamond',
+    detailZH: '45.52 ct · 蓝钻',
+    noteEN: 'Smithsonian display; ex-French Blue',
+    noteZH: '史密森尼展柜 · 法国王室蓝钻前身',
+    source: 'https://commons.wikimedia.org/wiki/File:Hope_Diamond_Smithsonian.jpg',
+  },
+  {
+    image: 'images/gallery/legendary/koh-i-noor.jpg',
+    nameEN: 'Koh-i-Noor',
+    nameZH: 'Koh-i-Noor 光之山',
+    detailEN: '105.6 ct · historical diamond',
+    detailZH: '105.6 ct · 历史钻石',
+    noteEN: 'Historical illustration; original setting',
+    noteZH: '历史插图 · 原始镶嵌状态',
+    source: 'https://commons.wikimedia.org/wiki/File:Kohinoor.jpg',
+  },
+  {
+    image: 'images/gallery/legendary/cullinan-i.jpg',
+    nameEN: 'Cullinan I',
+    nameZH: 'Cullinan I 非洲之星',
+    detailEN: '530.2 ct · D-colour diamond',
+    detailZH: '530.2 ct · D 色钻石',
+    noteEN: "The Great Star of Africa; Sovereign's Sceptre",
+    noteZH: '非洲之星 · 英王权杖',
+    source: 'https://commons.wikimedia.org/wiki/File:Cullinan_Diamond_and_some_of_its_cuts_-_copy.jpg',
+  },
+  {
+    image: 'images/gallery/legendary/regent-diamond.jpg',
+    nameEN: 'Regent Diamond',
+    nameZH: 'Regent 钻石',
+    detailEN: '140.6 ct · historic diamond',
+    detailZH: '140.6 ct · 历史钻石',
+    noteEN: "Louis XV's crown; Louvre collection",
+    noteZH: '路易十五王冠 · 卢浮宫馆藏',
+    source: 'https://commons.wikimedia.org/wiki/File:Diamant_le_R%C3%A9gent_%28Louvre%29.jpg',
+  },
+  {
+    image: 'images/gallery/legendary/star-of-india.jpg',
+    nameEN: 'Star of India',
+    nameZH: 'Star of India 印度之星',
+    detailEN: '563 ct · star sapphire',
+    detailZH: '563 ct · 星光蓝宝石',
+    noteEN: 'American Museum of Natural History',
+    noteZH: '美国自然史博物馆馆藏',
+    source: 'https://commons.wikimedia.org/wiki/File:Star_Of_India_Gem2.jpg',
+  },
+] as const
+
 const MODULES: ModuleConfig[] = [
   {
     id: 'grading',
@@ -84,6 +137,36 @@ function mdExamplesTable(
   return [header, sep, ...rows].join('\n')
 }
 
+function mdLegendaryArchive(locale: 'en' | 'zh'): string[] {
+  const isZh = locale === 'zh'
+  const imagePrefix = isZh ? '../../' : '../'
+  const creditsLink = isZh ? '../../image-credits' : '../image-credits'
+  const title = isZh ? '## 图像档案' : '## Visual Archive'
+  const intro = isZh
+    ? `下列图片对应本页列出的五件传奇宝石；图片均已本地收录，来源与授权见[图片署名页](${creditsLink})。`
+    : `The five local images below correspond to the stones listed on this page. See the [image credits](${creditsLink}) page for source and reuse details.`
+  const cards = LEGENDARY_STONES.map(stone => {
+    const name = isZh ? stone.nameZH : stone.nameEN
+    const detail = isZh ? stone.detailZH : stone.detailEN
+    const note = isZh ? stone.noteZH : stone.noteEN
+    const sourceLabel = isZh ? '查看原始文件页' : 'View source file'
+    return [
+      '<article class="maison-work-card">',
+      `  <a class="maison-work-card__media" href="${stone.source}" target="_blank" rel="noreferrer">`,
+      `    <img src="${imagePrefix}${stone.image}" alt="${name}" loading="lazy" />`,
+      '  </a>',
+      '  <div class="maison-work-card__body">',
+      `    <div class="maison-work-card__eyebrow"><span>${detail}</span></div>`,
+      `    <h3>${name}</h3>`,
+      `    <p>${note}</p>`,
+      `    <p class="maison-work-card__source"><a href="${stone.source}" target="_blank" rel="noreferrer">${sourceLabel}</a></p>`,
+      '  </div>',
+      '</article>',
+    ].join('\n')
+  })
+  return [title, '', intro, '', '<div class="maison-work-grid legendary-stones-grid">', cards.join('\n'), '</div>']
+}
+
 function detailPage(topic: ReturnType<typeof TopicFile.parse>['topics'][number], cfg: ModuleConfig, locale: 'en' | 'zh'): string {
   const isZh = locale === 'zh'
   const name = isZh ? topic.name_zh : topic.name_en
@@ -115,6 +198,7 @@ function detailPage(topic: ReturnType<typeof TopicFile.parse>['topics'][number],
     '',
     mdList(principles),
     '',
+    ...(cfg.id === 'gallery' && topic.id === 'legendary-stones' ? [...mdLegendaryArchive(locale), ''] : []),
     examplesTitle,
     '',
     mdExamplesTable(topic.examples, cfg, isZh),

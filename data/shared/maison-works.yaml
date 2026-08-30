@@ -1,0 +1,402 @@
+# Curated first edition: 7 maisons × 3 editorial roles.
+# Every archive card bundles a locally stored image with a clearly recorded
+# source page and reuse terms.
+works:
+  - id: cartier-tutti-frutti
+    maison: Cartier
+    name_zh: Tutti Frutti 彩宝手镯
+    name_en: Tutti Frutti Bracelet
+    type: heritage
+    year: '1928'
+    gems: [ruby, emerald, sapphire]
+    craft: carved coloured gemstones
+    craft_zh: 雕刻彩色宝石
+    style: Art Deco botanical
+    style_zh: 装饰艺术植物纹样
+    summary_zh: 将雕刻红宝石、祖母绿与蓝宝石组合为植物纹样，是 Cartier 彩宝语言的标志性样本。
+    summary_en: Carved rubies, emeralds, and sapphires form a botanical composition that defines Cartier's coloured-gem vocabulary.
+    image: images/gallery/maisons/cartier-tutti-frutti.jpg
+    source_url: https://www.cartier.com/en-gb/maison/the-story/living-heritage/the-cartier-collection/jewellery
+    image_source_url: https://commons.wikimedia.org/wiki/File:Tutti_frutti_bracelet_-_Cartier_(25802475508).jpg
+    image_credit: Tim Evanson
+    rights: cc-by-sa-2.0
+
+  - id: cartier-linked-bracelet
+    maison: Cartier
+    name_zh: 几何链节手镯
+    name_en: Linked Bracelet
+    type: craft
+    year: '1920s'
+    gems: [diamond]
+    craft: articulated platinum links
+    craft_zh: 铂金活动链节
+    style: Jazz Age geometry
+    style_zh: 爵士时代几何构成
+    summary_zh: 以活动链节和几何节奏组织佩戴结构，体现 Cartier 对柔性结构与装饰艺术比例的处理。
+    summary_en: Articulated links turn a geometric Art Deco rhythm into a wearable, flexible structure.
+    image: images/gallery/maisons/cartier-linked-bracelet.jpg
+    source_url: https://www.cartier.com/en-gb/maison/the-story/living-heritage/the-cartier-collection/jewellery
+    image_source_url: https://commons.wikimedia.org/wiki/File:Linked_bracelet_-_Cartier_(25891095068).jpg
+    image_credit: Tim Evanson
+    rights: cc-by-sa-2.0
+
+  - id: cartier-coloured-gemstone-archive
+    maison: Cartier
+    name_zh: 蕾丝结钻石胸针
+    name_en: Lace-Knot Diamond Brooch
+    type: gem-focus
+    year: '1906'
+    gems: [diamond]
+    craft: lace-knot diamond setting
+    craft_zh: 蕾丝结钻石镶嵌
+    style: Belle Époque formal jewellery
+    style_zh: 美好年代礼仪珠宝
+    summary_zh: 以蕾丝结般的镂空轮廓组织钻石与金属，适合作为 Cartier 历史珠宝中“轻盈结构”的观察样本。
+    summary_en: A lace-like openwork silhouette organises diamonds and metal into a study of Cartier's light, formal structure.
+    image: images/gallery/maisons/cartier-lace-knot-brooch.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Joyaux_dynastiques_H%C3%B4tel_de_la_Marine_broche_noeud_dentelle_diamants_platine_or.jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Joyaux_dynastiques_H%C3%B4tel_de_la_Marine_broche_noeud_dentelle_diamants_platine_or.jpg
+    image_credit: Chatsam; Wikimedia Commons
+    rights: cc-by-sa-4.0
+
+  - id: vca-loop-bracelet
+    maison: Van Cleef & Arpels
+    name_zh: Loop 几何手镯
+    name_en: Loop Bracelet
+    type: heritage
+    year: '1929'
+    gems: [diamond]
+    craft: platinum and diamond geometry
+    craft_zh: 铂金与钻石几何镶嵌
+    style: Cubist Art Deco
+    style_zh: 立体主义装饰艺术
+    summary_zh: 1920 年代的几何手镯，将阶梯式切工与铂金结构结合，呈现 VCA 早期现代主义面貌。
+    summary_en: A 1920s geometric bracelet pairing step-cut stones with platinum structure and early VCA modernism.
+    image: images/gallery/maisons/vca-loop-bracelet.jpg
+    source_url: https://www.vam.ac.uk/collections/jewellery
+    image_source_url: https://commons.wikimedia.org/wiki/File:Loop_bracelet_-_Van_Cleef_and_Arpels_(39055602034).jpg
+    image_credit: Tim Evanson
+    rights: cc-by-sa-2.0
+
+  - id: vca-ruby-necklace
+    maison: Van Cleef & Arpels
+    name_zh: 红宝石项链
+    name_en: Ruby Necklace
+    type: gem-focus
+    year: '20th century'
+    gems: [ruby, diamond]
+    craft: articulated necklace construction
+    craft_zh: 可活动项链结构
+    style: colour-led high jewellery
+    style_zh: 色彩主导的高级珠宝
+    summary_zh: 以红宝石的饱和度建立视觉重心，并用钻石衬托色彩层次，适合观察彩宝与金属的关系。
+    summary_en: Saturated ruby colour establishes the focal point while diamonds control contrast and visual layering.
+    image: images/gallery/maisons/vca-ruby-necklace.jpg
+    source_url: https://www.vam.ac.uk/collections/jewellery
+    image_source_url: https://commons.wikimedia.org/wiki/File:Ruby_necklace_-_Van_Cleef_and_Arpels_(38965252754).jpg
+    image_credit: Tim Evanson
+    rights: cc-by-sa-2.0
+
+  - id: vca-pendant-watch
+    maison: Van Cleef & Arpels
+    name_zh: 几何吊坠腕表
+    name_en: Pendant Watch
+    type: craft
+    year: '1927'
+    gems: [diamond, pearl]
+    craft: concealed watch movement and chatelaine form
+    craft_zh: 隐藏式机芯与链饰结构
+    style: Jazz Age Cubism
+    style_zh: 爵士时代立体主义
+    summary_zh: 将微型腕表、珍珠与链饰结构整合为吊坠，展示珠宝作品跨越装饰与功能的能力。
+    summary_en: A miniature watch, pearls, and chatelaine-like chains merge decoration with function in one compact object.
+    image: images/gallery/maisons/vca-pendant-watch.jpg
+    source_url: https://www.vam.ac.uk/collections/jewellery
+    image_source_url: https://commons.wikimedia.org/wiki/File:Pendant_watch_-_Van_Cleef_and_Arpels_(38772069405).jpg
+    image_credit: Tim Evanson
+    rights: cc-by-sa-2.0
+
+  - id: boucheron-mackay-necklace
+    maison: Boucheron
+    name_zh: Mackay 蓝宝石钻石项链
+    name_en: Mackay Sapphire and Diamond Necklace
+    type: heritage
+    year: '1877'
+    gems: [sapphire, diamond]
+    craft: sapphire and diamond necklace composition
+    craft_zh: 蓝宝石与钻石项链构成
+    style: Belle Époque historic jewellery
+    style_zh: 美好年代历史珠宝
+    summary_zh: 为 1878 年巴黎世界博览会而作的历史项链，体现 Boucheron 早期对蓝宝石与钻石对比的运用。
+    summary_en: A historic necklace made for the 1878 Paris exposition, showing Boucheron's early contrast between sapphire and diamond.
+    image: images/gallery/maisons/boucheron-mackay-necklace.png
+    source_url: https://commons.wikimedia.org/wiki/File:Mackay_Necklace_Boucheron_1877.png
+    image_source_url: https://commons.wikimedia.org/wiki/File:Mackay_Necklace_Boucheron_1877.png
+    image_credit: Boucheron; Wikimedia Commons upload by Spiessens
+    rights: public-domain
+
+  - id: boucheron-question-mark
+    maison: Boucheron
+    name_zh: 管道造型钻石项链
+    name_en: Gas-Pipe Diamond Necklace
+    type: craft
+    year: '1945–1950'
+    gems: [diamond]
+    craft: articulated tubular necklace with diamond ribbon
+    craft_zh: 活动管状结构与钻石缎带
+    style: mid-century architectural jewellery
+    style_zh: 中世纪建筑感珠宝
+    summary_zh: Petit Palais 藏品中的 Boucheron 管道项链，以轻量活动结构叠加钻石缎带，体现品牌对结构与反光的处理。
+    summary_en: A Petit Palais Boucheron necklace layers a lightweight articulated tube with a diamond ribbon to study structure and reflection.
+    image: images/gallery/maisons/boucheron-gas-pipe-necklace.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Collier_tuyau_%C3%A0_gaz,_PPO03791(1).jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Collier_tuyau_%C3%A0_gaz,_PPO03791(1).jpg
+    image_credit: Paris Musées; Wikimedia Commons
+    rights: cc0
+
+  - id: boucheron-greville-ruby
+    maison: Boucheron
+    name_zh: 1925 彩色宝石胸饰
+    name_en: 1925 Coloured-Gemstone Corsage Ornament
+    type: gem-focus
+    year: '1925'
+    gems: [lapis-lazuli, coral, jade, onyx, turquoise]
+    craft: multi-material corsage ornament construction
+    craft_zh: 多材料胸饰构成
+    style: Art Deco colour blocking
+    style_zh: 装饰艺术色块构成
+    summary_zh: 以青金石、珊瑚、翡翠、黑玉和绿松石组织多色层次，适合作为 Boucheron“宝石先行”设计的观察样本。
+    summary_en: Lapis lazuli, coral, jade, onyx, and turquoise create layered colour blocks in a Boucheron stone-first study.
+    image: images/gallery/maisons/boucheron-colour-corsage.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Boucheron,_devant_de_corsage,_1925,_oro_al_palladio,_lapislazzuli,_corallo,_giada,_onice,_turchese,_strass_(parigi,_coll._boucheron).jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Boucheron,_devant_de_corsage,_1925,_oro_al_palladio,_lapislazzuli,_corallo,_giada,_onice,_turchese,_strass_(parigi,_coll._boucheron).jpg
+    image_credit: Sailko; Wikimedia Commons
+    rights: cc-by-3.0
+
+  - id: tiffany-six-prong-setting
+    maison: Tiffany & Co.
+    name_zh: Tiffany 六爪镶嵌
+    name_en: Tiffany Setting
+    type: heritage
+    year: '1886'
+    gems: [diamond]
+    craft: six-prong solitaire setting
+    craft_zh: 六爪单石镶嵌
+    style: modern engagement icon
+    style_zh: 现代订婚戒指图标
+    summary_zh: 将钻石抬离戒圈并最大化进光面，是现代订婚戒指产品形态的重要起点。
+    summary_en: Raising the stone above the band to maximise light became a foundational product form for modern engagement rings.
+    image: images/gallery/maisons/tiffany-setting.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Tiffany_setting.jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Tiffany_setting.jpg
+    image_credit: AdrianaGórak; Wikimedia Commons
+    rights: cc-by-sa-3.0
+
+  - id: tiffany-schlumberger-bow
+    maison: Tiffany & Co.
+    name_zh: Schlumberger 蝴蝶结胸针
+    name_en: Schlumberger Bow Brooch
+    type: craft
+    year: '20th century'
+    gems: [aquamarine, diamond]
+    craft: sculptural platinum ribbon setting
+    craft_zh: 雕塑感铂金丝带镶嵌
+    style: organic modernism
+    style_zh: 有机现代主义
+    summary_zh: 以铂金丝带般的结构包裹主石，体现 Schlumberger 对自然形态、动势与结构张力的处理。
+    summary_en: A platinum ribbon-like structure wraps the centre stone, turning movement and tension into a sculptural setting.
+    image: images/gallery/maisons/tiffany-schlumberger-bow.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Jean_schlumberger_per_tiffany_%26_co.,_spilla_fiocco_schlumberger,_con_acquamarina_da_148,5_carati,_diamanti,_platino_e_oro.jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Jean_schlumberger_per_tiffany_%26_co.,_spilla_fiocco_schlumberger,_con_acquamarina_da_148,5_carati,_diamanti,_platino_e_oro.jpg
+    image_credit: Sailko; Wikimedia Commons
+    rights: cc-by-3.0
+
+  - id: tiffany-bird-on-a-rock
+    maison: Tiffany & Co.
+    name_zh: Tiffany 黄钻
+    name_en: Tiffany Yellow Diamond
+    type: gem-focus
+    year: '1877'
+    gems: [yellow-diamond]
+    craft: cushion-cut diamond presentation
+    craft_zh: 垫形切工钻石展示
+    style: iconic coloured diamond
+    style_zh: 标志性彩钻
+    summary_zh: 以公开授权的 Tiffany 黄钻图像补充宝石主角视角，聚焦品牌如何围绕单颗高价值彩钻建立叙事。
+    summary_en: An open-license view of the Tiffany Yellow Diamond foregrounds how a maison builds a narrative around one exceptional coloured stone.
+    image: images/gallery/maisons/tiffany-yellow-diamond.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Tiffany_Diamond.jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Tiffany_Diamond.jpg
+    image_credit: Shipguy; Wikimedia Commons
+    rights: cc-by-sa-3.0
+
+  - id: harry-winston-spanish-inquisition
+    maison: Harry Winston
+    name_zh: Spanish Inquisition 项链
+    name_en: Spanish Inquisition Necklace
+    type: heritage
+    year: 'before 1926'
+    gems: [emerald, diamond]
+    craft: graduated emerald and diamond necklace
+    craft_zh: 渐变祖母绿与钻石项链
+    style: historic Indian-inspired grandeur
+    style_zh: 印度宫廷式历史华丽感
+    summary_zh: 由祖母绿与钻石构成的历史项链，后由 Harry Winston 命名并进入史密森尼收藏体系。
+    summary_en: An emerald-and-diamond historic necklace later named by Harry Winston and documented through the Smithsonian collection.
+    image: images/gallery/maisons/harry-winston-spanish-inquisition.jpg
+    source_url: https://naturalhistory.si.edu/explore/collections/geogallery/10002801
+    image_source_url: https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace.jpg
+    image_credit: dbking / Cliff; Wikimedia Commons
+    rights: cc-by-2.0
+
+  - id: harry-winston-cluster
+    maison: Harry Winston
+    name_zh: Cluster 锦簇镶嵌
+    name_en: Cluster Setting
+    type: craft
+    year: '1940s'
+    gems: [diamond]
+    craft: floating cluster arrangement
+    craft_zh: 悬浮式锦簇排列
+    style: diamond-led naturalism
+    style_zh: 钻石主导的自然主义
+    summary_zh: 以不同角度排列的钻石制造花簇般的连续闪光，是 Harry Winston 识别度最高的设计语言之一。
+    summary_en: Diamonds set at varied angles create a continuous floral sparkle, one of Harry Winston's most recognisable design languages.
+    image: images/gallery/maisons/harry-winston-spanish-detail.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace_2.jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace_2.jpg
+    image_credit: dbking; Wikimedia Commons
+    rights: cc-by-2.0
+
+  - id: harry-winston-diamond-archive
+    maison: Harry Winston
+    name_zh: Hope Diamond · Winston 档案
+    name_en: Hope Diamond · Winston Archive
+    type: gem-focus
+    year: '1949–1958'
+    gems: [diamond]
+    craft: historic diamond presentation and provenance
+    craft_zh: 历史钻石展示与溯源
+    style: diamond-led institutional archive
+    style_zh: 钻石主导的机构档案
+    summary_zh: Harry Winston 于 1949 年购入 Hope Diamond，并于 1958 年捐赠给 Smithsonian；该档案图像用于观察宝石、展陈与品牌叙事的关系。
+    summary_en: Harry Winston acquired the Hope Diamond in 1949 and donated it to the Smithsonian in 1958; this archive view links stone, display, and brand narrative.
+    image: images/gallery/maisons/harry-winston-hope-diamond.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:The_Hope_Diamond_(107006041).jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:The_Hope_Diamond_(107006041).jpg
+    image_credit: dbking; Wikimedia Commons
+    rights: cc-by-2.0
+
+  - id: graff-wittelsbach
+    maison: Graff
+    name_zh: Wittelsbach-Graff 钻石
+    name_en: Wittelsbach-Graff Diamond
+    type: gem-focus
+    year: '17th century / recut 2008'
+    gems: [blue-diamond]
+    craft: historical diamond recutting
+    craft_zh: 历史钻石再切割
+    style: exceptional coloured diamond
+    style_zh: 传奇彩钻
+    summary_zh: 以 Wittelsbach 钻石再切割前的公开图像作为档案参照，讨论宝石历史、切工决策与品牌叙事之间的关系。
+    summary_en: A public-domain archival view before recutting, useful for discussing gemstone history, cutting decisions, and brand narrative.
+    image: images/gallery/maisons/graff-wittelsbach.png
+    source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png
+    image_source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png
+    image_credit: Physolamuse; Wikimedia Commons
+    rights: public-domain
+
+  - id: graff-venus
+    maison: Graff
+    name_zh: Wittelsbach-Graff 成品钻石
+    name_en: Wittelsbach-Graff Diamond · After Recut
+    type: craft
+    year: '2008 recut'
+    gems: [blue-diamond]
+    craft: historical diamond recutting
+    craft_zh: 历史钻石再切割
+    style: exceptional coloured diamond
+    style_zh: 传奇彩钻
+    summary_zh: 公开授权的再切割后图像与前期档案形成对照，适合观察 Graff 如何通过切工更新宝石的视觉与品牌价值。
+    summary_en: An open-license post-recut view pairs with the archival stone to study how Graff used cutting to renew visual and brand value.
+    image: images/gallery/maisons/graff-wittelsbach-after.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG
+    image_source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG
+    image_credit: 350z33; Wikimedia Commons
+    rights: cc-by-sa-3.0
+
+  - id: graff-lesedi-la-rona
+    maison: Graff
+    name_zh: Wittelsbach-Graff 切工细节
+    name_en: Wittelsbach-Graff Diamond · Cut Detail
+    type: heritage
+    year: '2008 recut'
+    gems: [blue-diamond]
+    craft: precision faceting and provenance
+    craft_zh: 精密切磨与宝石溯源
+    style: provenance-led luxury
+    style_zh: 产地与溯源叙事
+    summary_zh: 以公开授权的成品图像补足 Graff 工坊的切工研究视角，并与再切割前图像共同构成档案对读。
+    summary_en: An open-license finished view completes the Graff cutting study and creates a before/after archival reading with the earlier image.
+    image: images/gallery/maisons/graff-wittelsbach-after.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG
+    image_source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG
+    image_credit: 350z33; Wikimedia Commons
+    rights: cc-by-sa-3.0
+
+  - id: chaumet-egyptian-brooch
+    maison: Chaumet
+    name_zh: 埃及风格胸针
+    name_en: Egyptian Brooch
+    type: heritage
+    year: '1920s'
+    gems: [diamond, emerald]
+    craft: geometric brooch construction
+    craft_zh: 几何胸针结构
+    style: Egyptian Revival
+    style_zh: 埃及复兴风格
+    summary_zh: 将埃及复兴风格与几何宝石构成结合，体现 Chaumet 对历史图像和时代装饰风格的转译。
+    summary_en: Egyptian Revival imagery meets geometric gemstone construction in a concise example of Chaumet's historical translation.
+    image: images/gallery/maisons/chaumet-egyptian-brooch.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Egyptian_brooch_-_Chaumet_(39643558802).jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Egyptian_brooch_-_Chaumet_(39643558802).jpg
+    image_credit: Tim Evanson
+    rights: cc-by-sa-2.0
+
+  - id: chaumet-josephine
+    maison: Chaumet
+    name_zh: 蔷薇与茉莉皇冠
+    name_en: Brier Rose and Jasmine Tiara
+    type: craft
+    year: '1830'
+    gems: [diamond, sapphire]
+    craft: floral tiara architecture
+    craft_zh: 花卉皇冠结构
+    style: Romantic historic jewellery
+    style_zh: 浪漫主义历史珠宝
+    summary_zh: 1830 年由 Jean-Baptiste Fossin 制作的 Chaumet 皇冠，以蔷薇与茉莉花卉展开宫廷珠宝传统。
+    summary_en: A 1830 Chaumet tiara by Jean-Baptiste Fossin translates brier rose and jasmine into a court-jewellery structure.
+    image: images/gallery/maisons/chaumet-josephine-tiara.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Tiara_with_brier_rose_and_jasmine_by_Chaumet.jpg
+    image_source_url: https://commons.wikimedia.org/wiki/File:Tiara_with_brier_rose_and_jasmine_by_Chaumet.jpg
+    image_credit: AmberLocket; Wikimedia Commons
+    rights: cc0
+
+  - id: chaumet-bee-my-love
+    maison: Chaumet
+    name_zh: Vendôme 钻石珠宝
+    name_en: Chaumet Vendôme Jewellery
+    type: gem-focus
+    year: '20th century'
+    gems: [diamond]
+    craft: diamond necklace construction
+    craft_zh: 钻石项链构成
+    style: Place Vendôme formal jewellery
+    style_zh: 旺多姆广场礼仪珠宝
+    summary_zh: 以公开授权的 Chaumet 成品图像补充品牌的钻石珠宝样本，聚焦项链比例、光泽和佩戴轮廓。
+    summary_en: An open-license finished Chaumet view adds a diamond-jewellery sample focused on necklace proportion, reflection, and wearability.
+    image: images/gallery/maisons/chaumet-vendome-jewelry.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Chaumet_vendome.JPG
+    image_source_url: https://commons.wikimedia.org/wiki/File:Chaumet_vendome.JPG
+    image_credit: Carolus; Wikimedia Commons
+    rights: cc-by-3.0

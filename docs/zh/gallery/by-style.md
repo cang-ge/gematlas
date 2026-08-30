@@ -27,4 +27,4 @@ Art Deco 的几何对称、Modernist 的极简，每个风格都反映其时代�
 | Art Nouveau | René Lalique Dragonfly | — |
 | Contemporary | VCA 'Ludo' zip necklace (1951) | — |
 
-*详见[切割总览](intro)。*
+*详见[画廊总览](intro)。*
