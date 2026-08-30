@@ -1,0 +1,204 @@
+<svg viewBox="0 0 1315 452" role="img" lang="zh-CN" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase">
+        <title id="archify-diagram-title">GemAtlas 内容产品架构</title>
+        <desc id="archify-diagram-description">YAML 数据源经过校验与页面生成，交付双语静态知识站</desc>
+        <!-- Definitions -->
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" class="m-default" />
+          </marker>
+          <marker id="arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" class="m-emphasis" />
+          </marker>
+          <marker id="arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" class="m-security" />
+          </marker>
+          <marker id="arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" class="m-dashed" />
+          </marker>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" class="c-grid" stroke-width="0.5"/>
+          </pattern>
+        </defs>
+
+        <!-- Background Grid -->
+        <rect width="100%" height="100%" fill="url(#grid)" />
+
+        <!-- Boundaries (behind everything) -->
+        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="0" data-composition-frame-label="GemAtlas repository" x="232" y="107" width="861" height="277" rx="12" class="c-region" stroke-width="1"/>
+
+        <!-- Connection paths (before components for correct z-order) -->
+        <path data-edge-from="curators" data-edge-to="yaml" data-edge-label="维护内容" data-edge-key="0" data-edge-id="curators-yaml" data-composition-points="190,332;260,332" d="M 190 332 L 260 332" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        <path data-edge-from="yaml" data-edge-to="schema" data-edge-label="读取并校验" data-edge-key="1" data-edge-id="yaml-schema" data-composition-points="420,332;480,332" d="M 420 332 L 480 332" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="schema" data-edge-to="generator" data-edge-label="通过后生成" data-edge-key="2" data-edge-id="schema-generator" data-composition-points="625,332;685,332" d="M 625 332 L 685 332" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="generator" data-edge-to="site" data-edge-label="生成 Markdown" data-edge-key="3" data-edge-id="generator-site" data-composition-points="845,332;905,332" d="M 845 332 L 905 332" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="site" data-edge-to="pages" data-edge-label="静态发布" data-edge-key="4" data-edge-id="site-pages" data-composition-points="1065,332;1125,332" d="M 1065 332 L 1125 332" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="yaml" data-edge-to="tests" data-edge-label="数据 / i18n 检查" data-edge-key="5" data-edge-id="yaml-tests" data-composition-points="340,300;340,249.5;560,249.5;560,199" d="M 340 300 L 340 257.5 Q 340 249.5 348 249.5 L 552 249.5 Q 560 249.5 560 241.5 L 560 199" class="a-security" stroke-width="1.5" marker-end="url(#arrowhead-security)"/>
+        <path data-edge-from="tests" data-edge-to="ci" data-edge-label="门禁通过" data-edge-key="6" data-edge-id="tests-ci" data-composition-points="640,167;905,167" d="M 640 167 L 905 167" class="a-security" stroke-width="1.5" marker-end="url(#arrowhead-security)"/>
+        <path data-edge-from="ci" data-edge-to="pages" data-edge-label="构建并部署" data-edge-key="7" data-edge-id="ci-pages" data-composition-points="985,199;985,249.5;1200,249.5;1200,300" d="M 985 199 L 985 241.5 Q 985 249.5 993 249.5 L 1192 249.5 Q 1200 249.5 1200 257.5 L 1200 300" class="a-dashed" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+
+        <!-- Components -->
+        <g id="node-curators" data-node-id="curators" data-node-label="内容维护者" tabindex="0" role="button" aria-label="聚焦内容维护者，双语内容 / 素材, 架构组件" aria-pressed="false" data-node-kind="external" data-node-sublabel="双语内容 / 素材" data-node-context="架构组件">
+          <title>内容维护者 · 双语内容 / 素材 · 架构组件</title>
+          <rect x="40" y="300" width="150" height="64" rx="6" class="c-mask"/>
+          <rect x="40" y="300" width="150" height="64" rx="6" class="c-external" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="external" class="semantic-sigil s-external" transform="translate(46 306) scale(0.6875)">
+            <rect x="2.5" y="5" width="8.5" height="8" rx="1.5"/>
+            <path d="M8 2.5h5.5V8M13.5 2.5 7.5 8.5"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="115" y="330" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">内容维护者</text>
+        <text data-detail="context" x="115" y="346" class="t-muted" font-size="9" text-anchor="middle">双语内容 / 素材</text>
+        </g>
+
+        <g id="node-yaml" data-node-id="yaml" data-node-label="YAML 数据源" tabindex="0" role="button" aria-label="聚焦YAML 数据源，data/gems/v1 + shared, GemAtlas repository" aria-pressed="false" data-node-kind="database" data-node-sublabel="data/gems/v1 + shared" data-node-tag="single source of truth" data-node-context="GemAtlas repository">
+          <title>YAML 数据源 · data/gems/v1 + shared · GemAtlas repository · single source of truth</title>
+          <rect x="260" y="300" width="160" height="64" rx="6" class="c-mask"/>
+          <rect x="260" y="300" width="160" height="64" rx="6" class="c-database" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="database" class="semantic-sigil s-database" transform="translate(266 306) scale(0.6875)">
+            <ellipse cx="8" cy="4" rx="5" ry="2"/>
+            <path d="M3 4v8c0 1.1 2.2 2 5 2s5-.9 5-2V4M3 8c0 1.1 2.2 2 5 2s5-.9 5-2"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="340" y="330" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">YAML 数据源</text>
+        <text data-detail="context" x="340" y="346" class="t-muted" font-size="9" text-anchor="middle">data/gems/v1 + shared</text>
+        <text data-detail="fine" x="340" y="356" class="t-database" font-size="7" text-anchor="middle">single source of truth</text>
+        </g>
+
+        <g id="node-schema" data-node-id="schema" data-node-label="数据校验" tabindex="0" role="button" aria-label="聚焦数据校验，Zod schema, GemAtlas repository" aria-pressed="false" data-node-kind="backend" data-node-sublabel="Zod schema" data-node-context="GemAtlas repository">
+          <title>数据校验 · Zod schema · GemAtlas repository</title>
+          <rect x="480" y="300" width="145" height="64" rx="6" class="c-mask"/>
+          <rect x="480" y="300" width="145" height="64" rx="6" class="c-backend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(486 306) scale(0.6875)">
+            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="552.5" y="330" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">数据校验</text>
+        <text data-detail="context" x="552.5" y="346" class="t-muted" font-size="9" text-anchor="middle">Zod schema</text>
+        </g>
+
+        <g id="node-generator" data-node-id="generator" data-node-label="页面生成器" tabindex="0" role="button" aria-label="聚焦页面生成器，tsx build scripts, GemAtlas repository" aria-pressed="false" data-node-kind="backend" data-node-sublabel="tsx build scripts" data-node-context="GemAtlas repository">
+          <title>页面生成器 · tsx build scripts · GemAtlas repository</title>
+          <rect x="685" y="300" width="160" height="64" rx="6" class="c-mask"/>
+          <rect x="685" y="300" width="160" height="64" rx="6" class="c-backend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(691 306) scale(0.6875)">
+            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="765" y="330" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">页面生成器</text>
+        <text data-detail="context" x="765" y="346" class="t-muted" font-size="9" text-anchor="middle">tsx build scripts</text>
+        </g>
+
+        <g id="node-site" data-node-id="site" data-node-label="VitePress 站点" tabindex="0" role="button" aria-label="聚焦VitePress 站点，Vue 3 / EN + 中文, GemAtlas repository" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="Vue 3 / EN + 中文" data-node-context="GemAtlas repository">
+          <title>VitePress 站点 · Vue 3 / EN + 中文 · GemAtlas repository</title>
+          <rect x="905" y="300" width="160" height="64" rx="6" class="c-mask"/>
+          <rect x="905" y="300" width="160" height="64" rx="6" class="c-frontend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="frontend" class="semantic-sigil s-frontend" transform="translate(911 306) scale(0.6875)">
+            <rect x="2" y="3" width="12" height="10" rx="2"/>
+            <path d="M2 6.5h12"/>
+            <circle cx="4.1" cy="4.8" r=".7" class="sigil-fill"/>
+            <circle cx="6.3" cy="4.8" r=".7" class="sigil-fill"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="985" y="330" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">VitePress 站点</text>
+        <text data-detail="context" x="985" y="346" class="t-muted" font-size="9" text-anchor="middle">Vue 3 / EN + 中文</text>
+        </g>
+
+        <g id="node-pages" data-node-id="pages" data-node-label="GitHub Pages" tabindex="0" role="button" aria-label="聚焦GitHub Pages，静态站点交付, 架构组件" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="静态站点交付" data-node-context="架构组件">
+          <title>GitHub Pages · 静态站点交付 · 架构组件</title>
+          <rect x="1125" y="300" width="150" height="64" rx="6" class="c-mask"/>
+          <rect x="1125" y="300" width="150" height="64" rx="6" class="c-cloud" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="cloud" class="semantic-sigil s-cloud" transform="translate(1131 306) scale(0.6875)">
+            <path d="M4.3 12.5h7.3a2.4 2.4 0 0 0 .2-4.8 4 4 0 0 0-7.5-1.3A3.1 3.1 0 0 0 4.3 12.5Z"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="1200" y="330" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">GitHub Pages</text>
+        <text data-detail="context" x="1200" y="346" class="t-muted" font-size="9" text-anchor="middle">静态站点交付</text>
+        </g>
+
+        <g id="node-tests" data-node-id="tests" data-node-label="自动化测试" tabindex="0" role="button" aria-label="聚焦自动化测试，67 数据 + 3 双语, GemAtlas repository" aria-pressed="false" data-node-kind="security" data-node-sublabel="67 数据 + 3 双语" data-node-tag="70 passed" data-node-context="GemAtlas repository">
+          <title>自动化测试 · 67 数据 + 3 双语 · GemAtlas repository · 70 passed</title>
+          <rect x="480" y="135" width="160" height="64" rx="6" class="c-mask"/>
+          <rect x="480" y="135" width="160" height="64" rx="6" class="c-security" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="security" class="semantic-sigil s-security" transform="translate(486 141) scale(0.6875)">
+            <path d="M8 2.2 13 4v3.5c0 3.1-1.8 5.4-5 6.5-3.2-1.1-5-3.4-5-6.5V4Z"/>
+            <path d="m5.8 8 1.5 1.5 3-3"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="560" y="165" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">自动化测试</text>
+        <text data-detail="context" x="560" y="181" class="t-muted" font-size="9" text-anchor="middle">67 数据 + 3 双语</text>
+        <text data-detail="fine" x="560" y="191" class="t-security" font-size="7" text-anchor="middle">70 passed</text>
+        </g>
+
+        <g id="node-ci" data-node-id="ci" data-node-label="CI/CD" tabindex="0" role="button" aria-label="聚焦CI/CD，test → build → deploy, 架构组件" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="test → build → deploy" data-node-context="架构组件">
+          <title>CI/CD · test → build → deploy · 架构组件</title>
+          <rect x="905" y="135" width="160" height="64" rx="6" class="c-mask"/>
+          <rect x="905" y="135" width="160" height="64" rx="6" class="c-cloud" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="cloud" class="semantic-sigil s-cloud" transform="translate(911 141) scale(0.6875)">
+            <path d="M4.3 12.5h7.3a2.4 2.4 0 0 0 .2-4.8 4 4 0 0 0-7.5-1.3A3.1 3.1 0 0 0 4.3 12.5Z"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="985" y="165" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">CI/CD</text>
+        <text data-detail="context" x="985" y="181" class="t-muted" font-size="9" text-anchor="middle">test → build → deploy</text>
+        </g>
+
+        <!-- Connection labels -->
+        <g data-detail="context" data-edge-from="curators" data-edge-to="yaml" data-edge-label="维护内容" data-edge-key="0" data-edge-id="curators-yaml">
+          <rect x="200.8" y="312" width="48.4" height="14" rx="3" class="c-mask"/>
+          <text x="225" y="322" class="t-backend" font-size="8" text-anchor="middle">维护内容</text>
+        </g>
+        <g data-detail="context" data-edge-from="yaml" data-edge-to="schema" data-edge-label="读取并校验" data-edge-key="1" data-edge-id="yaml-schema">
+          <rect x="421" y="312" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="450" y="322" class="t-muted" font-size="8" text-anchor="middle">读取并校验</text>
+        </g>
+        <g data-detail="context" data-edge-from="schema" data-edge-to="generator" data-edge-label="通过后生成" data-edge-key="2" data-edge-id="schema-generator">
+          <rect x="626" y="312" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="655" y="322" class="t-muted" font-size="8" text-anchor="middle">通过后生成</text>
+        </g>
+        <g data-detail="context" data-edge-from="generator" data-edge-to="site" data-edge-label="生成 Markdown" data-edge-key="3" data-edge-id="generator-site">
+          <rect x="838.8" y="286" width="72.4" height="14" rx="3" class="c-mask"/>
+          <text x="875" y="296" class="t-muted" font-size="8" text-anchor="middle">生成 Markdown</text>
+        </g>
+        <g data-detail="context" data-edge-from="site" data-edge-to="pages" data-edge-label="静态发布" data-edge-key="4" data-edge-id="site-pages">
+          <rect x="1070.8" y="312" width="48.4" height="14" rx="3" class="c-mask"/>
+          <text x="1095" y="322" class="t-muted" font-size="8" text-anchor="middle">静态发布</text>
+        </g>
+        <g data-detail="context" data-edge-from="yaml" data-edge-to="tests" data-edge-label="数据 / i18n 检查" data-edge-key="5" data-edge-id="yaml-tests">
+          <rect x="406.6" y="229.5" width="86.8" height="14" rx="3" class="c-mask"/>
+          <text x="450" y="239.5" class="t-security" font-size="8" text-anchor="middle">数据 / i18n 检查</text>
+        </g>
+        <g data-detail="context" data-edge-from="tests" data-edge-to="ci" data-edge-label="门禁通过" data-edge-key="6" data-edge-id="tests-ci">
+          <rect x="748.3" y="147" width="48.4" height="14" rx="3" class="c-mask"/>
+          <text x="772.5" y="157" class="t-security" font-size="8" text-anchor="middle">门禁通过</text>
+        </g>
+        <g data-detail="context" data-edge-from="ci" data-edge-to="pages" data-edge-label="构建并部署" data-edge-key="7" data-edge-id="ci-pages">
+          <rect x="1063.5" y="229.5" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="1092.5" y="239.5" class="t-messagebus" font-size="8" text-anchor="middle">构建并部署</text>
+        </g>
+
+        <!-- Boundary labels (foreground masks keep routes out of titles) -->
+        <g data-graph-role="structural-frame-label" data-composition-frame-id="0" data-composition-frame-kind="region" data-composition-frame-label="GemAtlas repository">
+          <rect data-graph-role="structural-frame-label-mask" x="236" y="115" width="112.6" height="16" rx="3" class="c-mask"/>
+          <text data-boundary-label="" x="240" y="128" class="t-cloud" font-size="9" font-weight="600">GemAtlas repository</text>
+        </g>
+
+        <!-- Legend -->
+        <g data-legend="" data-legend-bridge="">
+          <text x="40" y="416" class="t-primary" font-size="12" font-weight="650">图例</text>
+          <g data-legend-semantic-kind="frontend" data-legend-kind="frontend" data-legend-label="前端" data-legend-x="40" data-legend-baseline="436" data-legend-width="63">
+            <rect x="40" y="427" width="16" height="10" rx="2.5" class="c-frontend" stroke-width="1"/>
+            <text x="62" y="436" class="t-muted" font-size="10" font-weight="500">前端</text>
+          </g>
+          <g data-legend-semantic-kind="backend" data-legend-kind="backend" data-legend-label="后端" data-legend-x="125" data-legend-baseline="436" data-legend-width="63">
+            <rect x="125" y="427" width="16" height="10" rx="2.5" class="c-backend" stroke-width="1"/>
+            <text x="147" y="436" class="t-muted" font-size="10" font-weight="500">后端</text>
+          </g>
+          <g data-legend-semantic-kind="database" data-legend-kind="database" data-legend-label="数据库" data-legend-x="210" data-legend-baseline="436" data-legend-width="73">
+            <rect x="210" y="427" width="16" height="10" rx="2.5" class="c-database" stroke-width="1"/>
+            <text x="232" y="436" class="t-muted" font-size="10" font-weight="500">数据库</text>
+          </g>
+          <g data-legend-semantic-kind="cloud" data-legend-kind="cloud" data-legend-label="云服务" data-legend-x="305" data-legend-baseline="436" data-legend-width="73">
+            <rect x="305" y="427" width="16" height="10" rx="2.5" class="c-cloud" stroke-width="1"/>
+            <text x="327" y="436" class="t-muted" font-size="10" font-weight="500">云服务</text>
+          </g>
+          <g data-legend-semantic-kind="security" data-legend-kind="security" data-legend-label="安全" data-legend-x="400" data-legend-baseline="436" data-legend-width="63">
+            <rect x="400" y="427" width="16" height="10" rx="2.5" class="c-security" stroke-width="1"/>
+            <text x="422" y="436" class="t-muted" font-size="10" font-weight="500">安全</text>
+          </g>
+          <g data-legend-semantic-kind="external" data-legend-kind="external" data-legend-label="外部系统" data-legend-x="485" data-legend-baseline="436" data-legend-width="83">
+            <rect x="485" y="427" width="16" height="10" rx="2.5" class="c-external" stroke-width="1"/>
+            <text x="507" y="436" class="t-muted" font-size="10" font-weight="500">外部系统</text>
+          </g>
+        </g>
+      </svg>

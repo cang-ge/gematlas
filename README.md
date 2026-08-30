@@ -43,6 +43,12 @@ docs/                       # VitePress site (en/ + zh/)
 tests/                      # vitest suite
 ```
 
+## Architecture
+
+![GemAtlas content architecture](./docs/architecture/gematlas-architecture.svg)
+
+The diagram summarizes the source-of-truth data flow: YAML content is validated and transformed into bilingual VitePress pages, then deployed to GitHub Pages.
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
