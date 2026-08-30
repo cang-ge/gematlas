@@ -6,11 +6,11 @@
 
 ---
 
-V1.0 — 5 modules · 50 gem species · 7 crystal systems · 18 maison pieces · 13 module subpages.
+V1.0 — 5 modules · 60 gem species · 7 crystal systems · 18 maison pieces.
 
 **Tech:** VitePress 1.6 · Vue 3 · TypeScript · pnpm
 
-**License:** [MIT](./LICENSE) · **Live site:** `https://<owner>.github.io/gematlas/`
+**License:** [MIT](./LICENSE) · **Live site:** `https://cang-ge.github.io/gematlas/`
 
 ---
 
@@ -20,7 +20,7 @@ V1.0 — 5 modules · 50 gem species · 7 crystal systems · 18 maison pieces ·
 pnpm install
 pnpm dev        # → http://localhost:5173
 pnpm build      # → docs/.vitepress/dist/
-pnpm test       # 60 tests across data + i18n
+pnpm test       # 70 tests: 67 data + 3 bilingual consistency
 ```
 
 ## Repo layout

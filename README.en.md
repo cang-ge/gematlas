@@ -2,7 +2,7 @@
 
 > A bilingual open-source gemstone knowledge platform, covering the full vertical of gemology — from mineralogy and identification to cutting, grading, and luxury maison craftsmanship.
 
-![Status](https://img.shields.io/badge/status-50%20gem%20species-9b7e3b)
+![Status](https://img.shields.io/badge/status-60%20gem%20species-9b7e3b)
 ![License: MIT](https://img.shields.io/badge/license-MIT-0d0c0a)
 ![i18n](https://img.shields.io/badge/i18n-EN%20%2F%20%E4%B8%AD%E6%96%87-1a1814)
 
@@ -20,7 +20,7 @@
 | ④ | **Grading** | GIA 4Cs · coloured-stone grading · clarity types · origin disclosure |
 | ⑥ | **Gallery** | 18 signature pieces · by maison · style eras · legendary stones |
 
-**50 gem species** across all major mineral families — from Diamond to Chrysoprase.
+**60 gem species** across all major mineral families — from Diamond to Chrysoprase.
 
 ---
 
@@ -30,7 +30,7 @@
 pnpm install
 pnpm dev        # → http://localhost:5173
 pnpm build      # → docs/.vitepress/dist/
-pnpm test       # 60 tests across data + i18n
+pnpm test       # 70 tests: 67 data + 3 bilingual consistency
 ```
 
 Requires **Node 20+** and **pnpm 9+** (via corepack: `corepack enable`).
@@ -86,7 +86,7 @@ We welcome issues and pull requests. See **[CONTRIBUTING.md](./CONTRIBUTING.md)*
 
 | Phase | Scope |
 |-------|-------|
-| **Current** | 50 gems · 5 modules · 13 subpages · bilingual · CI/CD |
+| **Current** | 60 gems · 5 modules · bilingual · CI/CD |
 | **V1.1** | Expand to 100+ gems · price reference · references module · AI assistant |
 
 ---

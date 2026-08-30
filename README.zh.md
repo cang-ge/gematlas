@@ -2,7 +2,7 @@
 
 > 双语开源宝石知识平台，覆盖宝石学完整垂直领域——从矿物学、鉴定到切割、分级与奢侈品工艺。
 
-![Status](https://img.shields.io/badge/status-50%20gem%20species-9b7e3b)
+![Status](https://img.shields.io/badge/status-60%20gem%20species-9b7e3b)
 ![License: MIT](https://img.shields.io/badge/license-MIT-0d0c0a)
 ![i18n](https://img.shields.io/badge/i18n-EN%20%2F%20%E4%B8%AD%E6%96%87-1a1814)
 
@@ -20,7 +20,7 @@
 | ④ | **分级** | GIA 4Cs · 彩色宝石分级 · 瑕疵类型 · 产地与处理披露 |
 | ⑥ | **画廊** | 18 件标志作品 · 顶级工坊 · 风格史 · 传奇宝石 |
 
-**收录 50 种宝石**，涵盖钻石到绿玉髓等全矿物组。
+**收录 60 种宝石**，涵盖钻石到绿玉髓等主要矿物组。
 
 ---
 
@@ -30,7 +30,7 @@
 pnpm install
 pnpm dev        # → http://localhost:5173
 pnpm build      # → docs/.vitepress/dist/
-pnpm test       # 15 项数据 + 双语一致性测试
+pnpm test       # 70 项测试（数据校验 67 + 双语一致性 3）
 ```
 
 需要 **Node 20+** 与 **pnpm 9+**（通过 corepack：`corepack enable`）。
@@ -86,7 +86,7 @@ data/shared/*.yaml        ─┴─► scripts/build/
 
 | 阶段 | 范围 |
 |------|------|
-| **当前版本** | 50 种宝石 · 5 模块 · 双语 · CI/CD |
+| **当前版本** | 60 种宝石 · 5 模块 · 双语 · CI/CD |
 | **V1.1** | 扩至 100+ 种宝石 · 价格参考 · 参考文献模块 · AI 助手 |
 
 ---

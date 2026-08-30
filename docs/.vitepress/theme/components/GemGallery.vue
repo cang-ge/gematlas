@@ -1,5 +1,5 @@
 <!--
-GemGallery — Tabbed gallery of all 50 gem species, grouped by mineral family.
+GemGallery — Tabbed gallery of all 60 gem species, grouped by mineral family.
 Props:
   locale — 'en' (default) or 'zh'
 
