@@ -55,7 +55,7 @@ data/shared/*.yaml        ─┴─► scripts/build/
 - **i18n is structural.** English at root, Chinese at `/zh/`. Same content tree.
 - **Theme is dark + brass + serif.** Brand voice: gemological museum, not e-commerce.
 
-![GemAtlas content architecture](./docs/architecture/gematlas-architecture.svg)
+![GemAtlas content architecture](./docs/architecture/gematlas-architecture.png)
 
 ---
 

@@ -55,7 +55,7 @@ data/shared/*.yaml        ─┴─► scripts/build/
 - **i18n 是结构性的。** 英文在根，中文在 `/zh/`。同一内容树。
 - **主题：深色 + 古铜金 + 衬线。** 品牌语气：宝石学博物馆，非电商。
 
-![GemAtlas 内容架构](./docs/architecture/gematlas-architecture.svg)
+![GemAtlas 内容架构](./docs/architecture/gematlas-architecture.png)
 
 ---
 
