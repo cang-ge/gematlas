@@ -1,0 +1,1 @@
+const s="/gematlas/assets/morganite.ChIP0B7a.png",a="/gematlas/assets/morganite-gallery-1.6VrTGmGP.jpg",t="/gematlas/assets/morganite-gallery-2.CakeJ6es.jpg",e="/gematlas/assets/morganite-gallery-3.DwfAGi4c.jpg";export{s as _,a,t as b,e as c};

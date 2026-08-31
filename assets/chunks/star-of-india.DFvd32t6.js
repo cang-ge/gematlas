@@ -1,0 +1,1 @@
+const s="/gematlas/assets/hope-diamond.lU0YMmn1.jpg",a="/gematlas/assets/koh-i-noor.NA375GDN.jpg",t="/gematlas/assets/cullinan-i.B-VyAzD6.jpg",o="/gematlas/assets/regent-diamond.DPt1YU4z.jpg",e="/gematlas/assets/star-of-india.rFuWaiyP.jpg";export{s as _,a,t as b,o as c,e as d};

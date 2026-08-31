@@ -1,1 +1,0 @@
-const s="/gematlas/assets/amber.DT-naHwt.jpg",a="/gematlas/assets/amber-gallery-1.BDfMLaa_.jpg",t="/gematlas/assets/amber-gallery-2._rnLQPn2.jpg",e="/gematlas/assets/amber-gallery-3.BvJuQFII.jpg";export{s as _,a,t as b,e as c};
