@@ -118,7 +118,7 @@
   --font-display: 'Cormorant Garamond', 'Playfair Display', Georgia, 'Noto Serif SC', serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-zh-display: 'Noto Serif SC', 'Cormorant Garamond', serif;
-  --font-art-display: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+  --font-art-display: 'STKaiti', 'KaiTi', 'Kaiti SC', 'BiauKai', 'Noto Serif SC', 'Songti SC', 'STSong', serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
 }
 
@@ -362,6 +362,16 @@ code {
   border-color: var(--card-border-hover);
   transform: translateY(-2px);
 }
+.gem-modules .gem-module,
+.gem-modules .gem-module:hover,
+.gem-modules .gem-module:focus-visible {
+  border-bottom: 0;
+  text-decoration: none;
+}
+.gem-modules .gem-module__title,
+.gem-modules .gem-module__desc {
+  text-decoration: none;
+}
 .gem-module__index {
   font-family: var(--font-display);
   font-size: var(--text-2xl);
@@ -381,7 +391,7 @@ code {
 }
 :lang(zh) .gem-modules .gem-module__title {
   font-family: var(--font-art-display);
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.045em;
 }
 .gem-module__desc {
@@ -739,7 +749,16 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   font-size: clamp(0.88rem, 1vw, 1.05rem);
   white-space: nowrap;
   position: relative;
+  text-decoration: none;
+  border-bottom: 0;
   transition: color 0.18s ease, opacity 0.18s ease, transform 0.18s var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1));
+}
+
+.gem-landing .gem-landing__module,
+.gem-landing .gem-landing__module:hover,
+.gem-landing .gem-landing__module:focus-visible {
+  border-bottom: 0;
+  text-decoration: none;
 }
 
 .gem-landing__module:hover,
@@ -757,17 +776,6 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   opacity: 0.78;
 }
 
-.gem-landing__module.is-featured::after,
-.gem-landing__module:focus-visible::after {
-  content: '';
-  position: absolute;
-  right: 0.5rem;
-  bottom: 0.15rem;
-  left: 0.5rem;
-  height: 1px;
-  background: var(--color-accent);
-}
-
 .gem-landing__module:focus-visible {
   outline: 1px solid rgba(200, 168, 104, 0.72);
   outline-offset: 0.25rem;
@@ -781,7 +789,7 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 
 .gem-landing__module b {
   font-family: var(--font-art-display);
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.045em;
   font-synthesis: none;
 }
@@ -867,7 +875,7 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   color: var(--color-fg-primary);
   font-family: var(--font-art-display);
   font-size: clamp(3.35rem, 6.6vw, 7rem);
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.02;
   letter-spacing: 0.012em;
   font-synthesis: none;
@@ -895,6 +903,7 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   line-height: var(--lh-relaxed);
   text-shadow: 0 0.15rem 1.2rem rgba(0, 0, 0, 0.65);
   animation: gem-copy-arrive 0.75s var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)) 0.1s both;
+  text-decoration: none;
 }
 
 :lang(zh) .gem-landing__lede {
@@ -915,6 +924,7 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   border-radius: 999px;
   color: var(--color-fg-primary);
   background: rgba(236, 228, 210, 0.06);
+  text-decoration: none;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.11);
   backdrop-filter: blur(8px);
   font-family: var(--font-body);
