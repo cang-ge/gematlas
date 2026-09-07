@@ -14,6 +14,7 @@ import ColorWheel from './components/ColorWheel.vue'
 import GalleryGrid from './components/GalleryGrid.vue'
 import GemGallery from './components/GemGallery.vue'
 import ModuleGrid from './components/ModuleGrid.vue'
+import GemAtlasLanding from './components/GemAtlasLanding.vue'
 import './custom.css'
 
 /**
@@ -29,7 +30,7 @@ export default {
     for (const [name, comp] of Object.entries({
       GemCard, MohsScale, CrystalDiagram, PropertyTable, FacetDiagram,
       FancyCutGrid, ColorGradeTable, ClarityScale, ColorWheel, GalleryGrid,
-      GemGallery, ModuleGrid,
+      GemGallery, ModuleGrid, GemAtlasLanding,
     })) {
       app.component(name, comp)
     }

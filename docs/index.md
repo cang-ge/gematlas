@@ -3,4 +3,4 @@ layout: home
 title: Home
 ---
 
-<ModuleGrid locale="en" />
+<GemAtlasLanding locale="en" />

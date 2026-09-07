@@ -68,9 +68,15 @@ const SHARED_FM_KEYS = ['gem', 'crystalSystem'] as const
 
 export function findErrors(): I18nError[] {
   const errors: I18nError[] = []
-  // ponytail: EN root is now docs/ (not docs/en/) — exclude zh/ and framework dirs
-  const enFiles = new Set([...listMd(EN)].filter(r => !r.startsWith('zh/') && !r.startsWith('.vitepress/') && !r.startsWith('public/')))
-  const zhFiles = listMd(ZH)
+  // ponytail: EN root is now docs/ (not docs/en/) — exclude zh/, framework,
+  // and internal design/spec directories from the locale comparison.
+  const enFiles = new Set([...listMd(EN)].filter(r =>
+    !r.startsWith('zh/') &&
+    !r.startsWith('.vitepress/') &&
+    !r.startsWith('public/') &&
+    !r.startsWith('superpowers/'),
+  ))
+  const zhFiles = new Set([...listMd(ZH)].filter(r => !r.startsWith('superpowers/')))
   const all = new Set<string>([...enFiles, ...zhFiles])
 
   // 1. File-existence cross-check.

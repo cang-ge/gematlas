@@ -31,6 +31,7 @@ The following GemAtlas images were sourced from Wikimedia Commons. Each file pag
 | `docs/images/gems/turquoise/turquoise.jpg` | Existing GemAtlas `turquoise-gallery-1.jpg` | Existing repository asset | Existing repository attribution | Re-encoded from the existing gallery asset to improve subject scale. |
 | `docs/images/gems/zircon/zircon-gallery-2.jpg` | Existing GemAtlas `zircon.jpg` | Existing repository asset | Existing repository attribution | Square crop of the verified zircon specimen to remove the previous extreme aspect ratio. |
 | `docs/images/gems/tourmaline/tourmaline.jpg` | [Tourmaline Gemstones.JPG](https://commons.wikimedia.org/wiki/File:Tourmaline_Gemstones.JPG) | Michelle Jo | Public domain | Facet-cut tourmaline gemstones in various colours; resized and optimized locally. |
+| `docs/public/images/home/opal-pendant.jpg` | [Rainbow Shield Opal Pendant Jewelry.jpg](https://commons.wikimedia.org/wiki/File:Rainbow_Shield_Opal_Pendant_Jewelry.jpg) | Dpulitzer | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Downloaded from Wikimedia Commons for the landing-page hero; used as a local full-resolution exhibit image with a CSS light-reveal treatment. |
 
 All other image assets should retain their own source and license records. Before adding new external assets, verify the individual file page rather than relying on a search-result license label.
 

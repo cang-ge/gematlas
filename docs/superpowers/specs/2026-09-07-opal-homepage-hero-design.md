@@ -2,7 +2,7 @@
 
 ## 状态
 
-- 状态：设计已获用户确认，等待实现前文档复核。
+- 状态：实现完成，等待用户体验复核。
 - 日期：2026-09-07
 - 范围：独立首页 Hero 与进入知识百科主页的入口体验。
 - 当前项目约束：GemAtlas 当前使用 VitePress + Vue 3 + TypeScript，不迁移到 React/Tailwind/shadcn。
