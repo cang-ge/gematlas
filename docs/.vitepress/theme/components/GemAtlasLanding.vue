@@ -6,10 +6,7 @@ const props = withDefaults(defineProps<{ locale?: 'en' | 'zh' }>(), {
   locale: 'en',
 })
 
-const replayKey = ref(0)
 const imageFailed = ref(false)
-const isReplaying = ref(false)
-let replayTimer: number | undefined
 
 const isZh = props.locale === 'zh'
 const localePrefix = isZh ? '/zh' : ''
@@ -30,26 +27,13 @@ const modules = isZh
       { index: '05', label: 'Gallery', link: '/gallery/intro' },
     ]
 
-function replayReveal() {
-  if (replayTimer !== undefined) {
-    window.clearTimeout(replayTimer)
-  }
-
-  isReplaying.value = true
-  replayKey.value += 1
-  replayTimer = window.setTimeout(() => {
-    isReplaying.value = false
-    replayTimer = undefined
-  }, 20_000)
-}
-
 function markImageFailed() {
   imageFailed.value = true
 }
 </script>
 
 <template>
-  <section class="gem-landing" :class="{ 'is-replaying': isReplaying }" :lang="isZh ? 'zh-CN' : 'en'" :aria-labelledby="isZh ? 'gem-landing-title-zh' : 'gem-landing-title-en'">
+  <section class="gem-landing" :lang="isZh ? 'zh-CN' : 'en'" :aria-labelledby="isZh ? 'gem-landing-title-zh' : 'gem-landing-title-en'">
     <div class="gem-landing__backdrop" aria-hidden="true"></div>
     <div class="gem-landing__light" aria-hidden="true"></div>
 
@@ -67,7 +51,7 @@ function markImageFailed() {
       </nav>
     </header>
 
-    <div class="gem-landing__scene" :class="{ 'is-failed': imageFailed }" :key="replayKey">
+    <div class="gem-landing__scene" :class="{ 'is-failed': imageFailed }">
       <div class="gem-landing__opal-frame">
         <img
           class="gem-landing__opal"
@@ -79,7 +63,6 @@ function markImageFailed() {
       </div>
 
       <div class="gem-landing__copy">
-        <p class="gem-landing__eyebrow">{{ isZh ? 'PRECIOUS OPAL · A STUDY OF LIGHT' : 'PRECIOUS OPAL · A STUDY OF LIGHT' }}</p>
         <h1 :id="isZh ? 'gem-landing-title-zh' : 'gem-landing-title-en'">
           <template v-if="isZh">从一束光，认识<br /><em>一颗宝石。</em></template>
           <template v-else>From one beam of light,<br /><em>meet a gemstone.</em></template>
@@ -93,16 +76,6 @@ function markImageFailed() {
         </a>
       </div>
     </div>
-
-    <footer class="gem-landing__meta">
-      <div>
-        <span>{{ isZh ? 'HERO STUDY / 01' : 'HERO STUDY / 01' }}</span>
-        <strong>{{ isZh ? '欧珀 · Play-of-color' : 'Opal · Play-of-color' }}</strong>
-      </div>
-      <button class="gem-landing__replay" type="button" @click="replayReveal">
-        {{ isZh ? '重播光线揭示' : 'Replay light reveal' }}
-      </button>
-    </footer>
 
     <p v-if="imageFailed" class="gem-landing__fallback">
       {{ isZh ? '展品暂时无法载入，仍可进入 GemAtlas 知识主页。' : 'The exhibit is temporarily unavailable. You can still enter the GemAtlas compendium.' }}
