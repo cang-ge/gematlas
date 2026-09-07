@@ -43,7 +43,7 @@ function markImageFailed() {
       </a>
 
       <nav class="gem-landing__modules" :aria-label="isZh ? '学习模块' : 'Learning modules'">
-        <a v-for="module in modules" :key="module.index" :href="withBase(`${localePrefix}${module.link}.html`)" :class="['gem-landing__module', { 'is-featured': module.index === '01' }]">
+        <a v-for="module in modules" :key="module.index" :href="withBase(`${localePrefix}${module.link}.html`)" class="gem-landing__module">
           <span>{{ module.index }}</span>
           <b>{{ module.label }}</b>
         </a>
@@ -51,18 +51,26 @@ function markImageFailed() {
     </header>
 
     <div class="gem-landing__scene" :class="{ 'is-failed': imageFailed }">
-      <div class="gem-landing__light" aria-hidden="true"></div>
+      <div class="gem-landing__light gem-landing__light--spill" aria-hidden="true"></div>
+      <div class="gem-landing__light gem-landing__light--core" aria-hidden="true"></div>
       <div class="gem-landing__opal-frame">
         <img
           class="gem-landing__opal"
           :src="withBase('/images/home/opal-pendant.jpg')"
           :alt="isZh ? '镶嵌在钻石与黄金中的欧珀吊坠' : 'An opal pendant set in diamonds and gold'"
+          decoding="async"
+          fetchpriority="high"
+          loading="eager"
           @error="markImageFailed"
         />
         <span class="gem-landing__color-field"></span>
+        <span class="gem-landing__opal-sheen" aria-hidden="true"></span>
       </div>
 
       <div class="gem-landing__copy">
+        <p class="gem-landing__eyebrow">
+          {{ isZh ? '展品 01 / 欧珀 / 游彩' : 'EXHIBIT 01 / OPAL / PLAY-OF-COLOR' }}
+        </p>
         <h1 :id="isZh ? 'gem-landing-title-zh' : 'gem-landing-title-en'">
           <template v-if="isZh"><span class="gem-landing__title-line">从一束光，认识</span><br /><em>一颗宝石。</em></template>
           <template v-else><span class="gem-landing__title-line">From one beam of light,</span><br /><em>meet a gemstone.</em></template>
