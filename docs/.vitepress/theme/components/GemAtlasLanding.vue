@@ -35,7 +35,6 @@ function markImageFailed() {
 <template>
   <section class="gem-landing" :lang="isZh ? 'zh-CN' : 'en'" :aria-labelledby="isZh ? 'gem-landing-title-zh' : 'gem-landing-title-en'">
     <div class="gem-landing__backdrop" aria-hidden="true"></div>
-    <div class="gem-landing__light" aria-hidden="true"></div>
 
     <header class="gem-landing__nav">
       <a class="gem-landing__brand" :href="withBase(isZh ? '/zh/' : '/')" :aria-label="isZh ? '返回 GemAtlas 首页' : 'Return to the GemAtlas home page'">
@@ -52,6 +51,7 @@ function markImageFailed() {
     </header>
 
     <div class="gem-landing__scene" :class="{ 'is-failed': imageFailed }">
+      <div class="gem-landing__light" aria-hidden="true"></div>
       <div class="gem-landing__opal-frame">
         <img
           class="gem-landing__opal"

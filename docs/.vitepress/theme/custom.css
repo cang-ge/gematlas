@@ -647,14 +647,14 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 
 .gem-landing__light {
   position: absolute;
-  z-index: -1;
-  top: -28%;
-  left: -52vw;
-  width: 48vw;
-  height: 160%;
-  transform: rotate(18deg);
-  background: linear-gradient(90deg, transparent, rgba(255, 247, 210, 0.18) 42%, rgba(255, 247, 210, 0.58) 50%, rgba(255, 247, 210, 0.12) 58%, transparent);
-  filter: blur(24px);
+  z-index: 3;
+  top: 42%;
+  left: -72vw;
+  width: 72vw;
+  height: 26vh;
+  transform: translateX(0);
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 247, 210, 0.08) 38%, rgba(255, 247, 210, 0.58) 50%, rgba(255, 247, 210, 0.08) 62%, transparent 100%);
+  filter: blur(22px);
   mix-blend-mode: screen;
   opacity: 0;
   animation: gem-light-sweep 12s linear infinite;
@@ -756,9 +756,10 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 
 .gem-landing__scene {
   position: relative;
+  z-index: 1;
   display: grid;
   min-height: 100svh;
-  place-items: center;
+  place-items: center start;
   padding: clamp(8rem, 16vh, 10rem) var(--space-6) clamp(8rem, 16vh, 10rem);
   overflow: hidden;
 }
@@ -813,8 +814,9 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 .gem-landing__copy {
   position: relative;
   z-index: 5;
-  width: min(100%, 52rem);
-  text-align: center;
+  width: min(46vw, 42rem);
+  margin-left: clamp(1rem, 7vw, 7rem);
+  text-align: left;
 }
 
 .gem-landing__copy::before {
@@ -832,10 +834,10 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   margin: 0;
   color: var(--color-fg-primary);
   font-family: var(--font-zh-display);
-  font-size: clamp(2.75rem, 6.8vw, 6.75rem);
-  font-weight: var(--fw-regular);
-  line-height: 0.98;
-  letter-spacing: -0.07em;
+  font-size: clamp(3rem, 6vw, 6.5rem);
+  font-weight: 300;
+  line-height: 1.02;
+  letter-spacing: -0.055em;
   text-shadow: 0 0.25rem 2rem rgba(0, 0, 0, 0.34);
   animation: gem-copy-arrive 0.75s var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)) both;
 }
@@ -847,12 +849,13 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 
 .gem-landing[lang='en'] .gem-landing__copy h1 {
   font-family: var(--font-display);
-  letter-spacing: -0.045em;
+  font-weight: var(--fw-regular);
+  letter-spacing: -0.04em;
 }
 
 .gem-landing__lede {
   max-width: 34rem;
-  margin: var(--space-6) auto 0;
+  margin: var(--space-6) 0 0;
   color: var(--color-fg-secondary);
   font-family: var(--font-body);
   font-size: clamp(0.82rem, 1.25vw, 1rem);
@@ -923,22 +926,22 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 }
 
 @keyframes gem-light-sweep {
-  0%, 17% { opacity: 0; transform: translateX(0) rotate(18deg); }
+  0%, 17% { opacity: 0; transform: translateX(0); }
   23% { opacity: 0.42; }
-  75% { opacity: 0.5; transform: translateX(205vw) rotate(18deg); }
-  86%, 100% { opacity: 0; transform: translateX(235vw) rotate(18deg); }
+  75% { opacity: 0.5; transform: translateX(205vw); }
+  86%, 100% { opacity: 0; transform: translateX(235vw); }
 }
 
 @keyframes gem-light-pulse {
-  0%, 12%, 100% { opacity: 0.06; }
-  50% { opacity: 0.2; }
-  75% { opacity: 0.12; }
+  0%, 12%, 100% { opacity: 0.16; }
+  50% { opacity: 0.46; }
+  75% { opacity: 0.26; }
 }
 
 @keyframes gem-color-pulse {
-  0%, 12%, 100% { opacity: 0.08; }
-  50% { opacity: 0.2; }
-  75% { opacity: 0.14; }
+  0%, 12%, 100% { opacity: 0.16; }
+  50% { opacity: 0.38; }
+  75% { opacity: 0.24; }
 }
 
 @keyframes gem-opal-pulse {
@@ -953,6 +956,10 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 }
 
 @media (max-width: 760px) {
+  .gem-landing__scene {
+    place-items: center;
+  }
+
   .gem-landing__nav {
     align-items: flex-start;
   }
@@ -982,7 +989,15 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   }
 
   .gem-landing__copy {
+    width: min(100%, 34rem);
+    margin-left: 0;
     padding-bottom: 4rem;
+    text-align: center;
+  }
+
+  .gem-landing__lede {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -996,6 +1011,11 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 @media (prefers-reduced-motion: reduce) {
   .gem-landing__light {
     display: block;
+    top: 42%;
+    left: 35%;
+    width: 65%;
+    height: 26vh;
+    transform: none;
     animation: gem-light-pulse 12s ease-in-out infinite;
     animation-duration: 12s !important;
     animation-iteration-count: infinite !important;
