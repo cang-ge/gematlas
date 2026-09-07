@@ -64,8 +64,8 @@ function markImageFailed() {
 
       <div class="gem-landing__copy">
         <h1 :id="isZh ? 'gem-landing-title-zh' : 'gem-landing-title-en'">
-          <template v-if="isZh">从一束光，认识<br /><em>一颗宝石。</em></template>
-          <template v-else>From one beam of light,<br /><em>meet a gemstone.</em></template>
+          <template v-if="isZh"><span class="gem-landing__title-line">从一束光，认识</span><br /><em>一颗宝石。</em></template>
+          <template v-else><span class="gem-landing__title-line">From one beam of light,</span><br /><em>meet a gemstone.</em></template>
         </h1>
         <p class="gem-landing__lede">
           {{ isZh ? '光线掠过欧珀的微小结构，沉睡的色彩开始显现。进入 GemAtlas，从看见开始学习。' : 'As light crosses opal’s microscopic structure, hidden colour begins to appear. Enter GemAtlas and start with what you can see.' }}
