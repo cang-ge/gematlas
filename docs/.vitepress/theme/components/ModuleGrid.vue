@@ -22,7 +22,7 @@ const MODULES = [
   { index: '02', titleEn: 'Identification', titleZh: '鉴定', descEn: 'Physical properties, Mohs scale, inclusions, spectra.', descZh: '物理性质、莫氏硬度、内含物、吸收光谱。', link: '/identification/intro' },
   { index: '03', titleEn: 'Cutting', titleZh: '切割', descEn: 'Faceting geometry, fancy cuts, cabochons, cameos.', descZh: '刻面几何、异形切、蛋面、雕刻。', link: '/cutting/intro' },
   { index: '04', titleEn: 'Grading', titleZh: '分级', descEn: 'GIA 4Cs, fancy color grading, treatment disclosure.', descZh: 'GIA 4Cs、有色宝石分级、处理披露。', link: '/grading/intro' },
-  { index: '06', titleEn: 'Gallery', titleZh: '画廊', descEn: 'Signature pieces from seven leading maisons.', descZh: '七家顶级珠宝世家的标志性作品。', link: '/gallery/intro' },
+  { index: '05', titleEn: 'Gallery', titleZh: '画廊', descEn: 'Signature pieces from seven leading maisons.', descZh: '七家顶级珠宝世家的标志性作品。', link: '/gallery/intro' },
 ]
 </script>
 

@@ -10,17 +10,17 @@
  * background, brass accent for hover and dividers, serif display
  * faces for authority, sans body for legibility.
  *
- * WCAG: ink-900 (#0d0c0a) vs ivory-50 (#ece4d2) → ~14:1 (AAA).
+ * Deep blue-green ink preserves high contrast with warm ivory text.
  * ============================================================ */
 
 /* ─── 1. PRIMITIVE TOKENS ───────────────────────────────────── */
 :root {
-  /* Neutrals — warm-shifted ink (no pure black) */
-  --ink-950: #07060a;
-  --ink-900: #0d0c0a;          /* page background */
-  --ink-800: #1a1814;          /* card / surface */
-  --ink-700: #25221c;          /* elevated / hover */
-  --ink-600: #38342a;          /* pressed */
+  /* Neutrals — deep blue-green ink (no pure black) */
+  --ink-950: #03080b;
+  --ink-900: #071116;          /* page background */
+  --ink-800: #0d1b20;          /* card / surface */
+  --ink-700: #153038;          /* elevated / hover */
+  --ink-600: #1d4148;          /* pressed */
 
   /* Foreground — warm ivory, never pure white */
   --ivory-50: #ece4d2;         /* primary text */
@@ -225,7 +225,7 @@ code {
  * LAYOUT: NAV BAR
  * ============================================================ */
 .VPNavBar {
-  background: rgba(13, 12, 10, 0.85);
+  background: rgba(7, 17, 22, 0.9);
   backdrop-filter: blur(8px);
   border-bottom: var(--brass-line);
 }
@@ -1046,6 +1046,28 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
     opacity: 0.68;
     transform: none;
     animation: none;
+  }
+
+  /* Explicit replay is an intentional opt-in, so reduced-motion users can
+     still inspect the educational light-reveal sequence on demand. */
+  .gem-landing.is-replaying .gem-landing__light {
+    display: block;
+    animation: gem-light-sweep 20s linear 1;
+    animation-duration: 20s !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .gem-landing.is-replaying .gem-landing__color-field {
+    display: block;
+    animation: gem-color-reveal 20s linear 1;
+    animation-duration: 20s !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .gem-landing.is-replaying .gem-landing__opal {
+    animation: gem-opal-reveal 20s linear 1;
+    animation-duration: 20s !important;
+    animation-iteration-count: 1 !important;
   }
 
   .gem-landing__copy h1,

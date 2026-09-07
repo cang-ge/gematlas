@@ -8,6 +8,8 @@ const props = withDefaults(defineProps<{ locale?: 'en' | 'zh' }>(), {
 
 const replayKey = ref(0)
 const imageFailed = ref(false)
+const isReplaying = ref(false)
+let replayTimer: number | undefined
 
 const isZh = props.locale === 'zh'
 const localePrefix = isZh ? '/zh' : ''
@@ -29,7 +31,16 @@ const modules = isZh
     ]
 
 function replayReveal() {
+  if (replayTimer !== undefined) {
+    window.clearTimeout(replayTimer)
+  }
+
+  isReplaying.value = true
   replayKey.value += 1
+  replayTimer = window.setTimeout(() => {
+    isReplaying.value = false
+    replayTimer = undefined
+  }, 20_000)
 }
 
 function markImageFailed() {
@@ -38,12 +49,12 @@ function markImageFailed() {
 </script>
 
 <template>
-  <section class="gem-landing" :lang="isZh ? 'zh-CN' : 'en'" :aria-labelledby="isZh ? 'gem-landing-title-zh' : 'gem-landing-title-en'">
+  <section class="gem-landing" :class="{ 'is-replaying': isReplaying }" :lang="isZh ? 'zh-CN' : 'en'" :aria-labelledby="isZh ? 'gem-landing-title-zh' : 'gem-landing-title-en'">
     <div class="gem-landing__backdrop" aria-hidden="true"></div>
     <div class="gem-landing__light" aria-hidden="true"></div>
 
     <header class="gem-landing__nav">
-      <a class="gem-landing__brand" :href="withBase(isZh ? '/zh/' : '/')" :aria-label="isZh ? '返回 GemAtlas 知识主页' : 'Return to the GemAtlas compendium'">
+      <a class="gem-landing__brand" :href="withBase(isZh ? '/zh/' : '/')" :aria-label="isZh ? '返回 GemAtlas 首页' : 'Return to the GemAtlas home page'">
         <span>GemAtlas</span>
         <small>{{ isZh ? '从一束光开始' : 'A study of light' }}</small>
       </a>
@@ -76,7 +87,7 @@ function markImageFailed() {
         <p class="gem-landing__lede">
           {{ isZh ? '光线掠过欧珀的微小结构，沉睡的色彩开始显现。进入 GemAtlas，从看见开始学习。' : 'As light crosses opal’s microscopic structure, hidden colour begins to appear. Enter GemAtlas and start with what you can see.' }}
         </p>
-        <a class="gem-landing__cta" :href="withBase(isZh ? '/zh/' : '/')">
+        <a class="gem-landing__cta" :href="withBase(isZh ? '/zh/compendium/' : '/compendium/')">
           {{ isZh ? '开始探索' : 'Begin exploring' }}
           <span aria-hidden="true">↗</span>
         </a>
