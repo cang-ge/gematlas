@@ -330,15 +330,18 @@ code {
 
 .gem-modules__grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: var(--space-4);
 }
 
-@media (max-width: 1024px) {
-  .gem-modules__grid { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 1100px) {
+  .gem-modules__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
-@media (max-width: 600px) {
-  .gem-modules__grid { grid-template-columns: 1fr; }
+@media (max-width: 760px) {
+  .gem-modules__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .gem-modules__grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 .gem-module {
@@ -352,6 +355,8 @@ code {
   transition: border-color 0.3s ease, transform 0.3s ease;
   text-decoration: none;
   position: relative;
+  min-width: 0;
+  overflow: hidden;
 }
 .gem-module:hover {
   border-color: var(--card-border-hover);
@@ -365,15 +370,19 @@ code {
   letter-spacing: 0.05em;
   margin-bottom: var(--space-4);
 }
-.gem-module__title {
+.gem-modules .gem-module__title {
   font-family: var(--font-display);
-  font-size: var(--text-xl);
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
   color: var(--color-fg-primary);
   margin: 0 0 var(--space-2);
-  font-weight: var(--fw-semibold);
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
 }
-:lang(zh) .gem-module__title {
+:lang(zh) .gem-modules .gem-module__title {
   font-family: var(--font-art-display);
+  font-weight: 300;
+  letter-spacing: 0.045em;
 }
 .gem-module__desc {
   font-family: var(--font-body);
@@ -381,6 +390,7 @@ code {
   color: var(--color-fg-muted);
   line-height: var(--lh-normal);
   margin: 0;
+  overflow-wrap: anywhere;
 }
 :lang(zh) .gem-module__desc {
   font-family: var(--font-zh-display);
@@ -735,7 +745,7 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   border-radius: 999px;
   color: var(--color-fg-muted);
   font-family: var(--font-body);
-  font-size: 0.7rem;
+  font-size: clamp(0.76rem, 0.9vw, 0.9rem);
   white-space: nowrap;
   transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease, transform 0.18s var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1));
 }
@@ -756,8 +766,9 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 
 .gem-landing__module b {
   font-family: var(--font-art-display);
-  font-weight: 400;
-  letter-spacing: 0.03em;
+  font-weight: 300;
+  letter-spacing: 0.045em;
+  font-synthesis: none;
 }
 
 .gem-landing__scene {
@@ -840,10 +851,11 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   margin: 0;
   color: var(--color-fg-primary);
   font-family: var(--font-art-display);
-  font-size: clamp(3rem, 6vw, 6.5rem);
-  font-weight: 300;
+  font-size: clamp(3.35rem, 6.6vw, 7rem);
+  font-weight: 200;
   line-height: 1.02;
-  letter-spacing: -0.025em;
+  letter-spacing: 0.012em;
+  font-synthesis: none;
   text-shadow: 0 0.25rem 2rem rgba(0, 0, 0, 0.34);
   animation: gem-copy-arrive 0.75s var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)) both;
 }
@@ -961,13 +973,18 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 760px) {
-  .gem-landing__scene {
-    place-items: center;
+@media (max-width: 900px) {
+  .gem-landing__nav {
+    position: relative;
+    padding: 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .gem-landing__nav {
-    align-items: flex-start;
+  .gem-landing__scene {
+    place-items: center;
+    min-height: 34rem;
+    padding: 4rem 1.25rem 6rem;
   }
 
   .gem-landing__brand {
@@ -976,12 +993,18 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   }
 
   .gem-landing__modules {
-    max-width: 65vw;
+    width: 100%;
+    max-width: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    overflow: visible;
+    border-radius: 1.25rem;
   }
 
   .gem-landing__module {
-    min-width: 4.5rem;
+    min-width: 0;
     padding: 0 0.65rem;
+    font-size: 0.88rem;
   }
 
   .gem-landing__opal-frame {
@@ -1004,6 +1027,16 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   .gem-landing__lede {
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .gem-landing__modules {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gem-landing__module {
+    padding-inline: 0.5rem;
   }
 }
 
