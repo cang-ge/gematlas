@@ -599,7 +599,7 @@ code {
  * LANDING: OPAL LIGHT REVEAL
  * ------------------------------------------------------------
  * The landing page is deliberately isolated from VitePress chrome.
- * The media layer moves on a 20s linear timeline: 15s reveal + 5s hold.
+ * The media layer moves on a 12s linear timeline: 7s reveal + 3s hold.
  * ============================================================ */
 body:has(.gem-landing) {
   overflow-x: hidden;
@@ -657,7 +657,7 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   filter: blur(24px);
   mix-blend-mode: screen;
   opacity: 0;
-  animation: gem-light-sweep 20s linear infinite;
+  animation: gem-light-sweep 12s linear infinite;
   pointer-events: none;
 }
 
@@ -793,7 +793,7 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   mix-blend-mode: screen;
   -webkit-mask-image: radial-gradient(ellipse at 78% 48%, #000 0 30%, rgba(0, 0, 0, 0.7) 50%, transparent 78%);
   mask-image: radial-gradient(ellipse at 78% 48%, #000 0 30%, rgba(0, 0, 0, 0.7) 50%, transparent 78%);
-  animation: gem-opal-reveal 20s linear infinite;
+  animation: gem-opal-reveal 12s linear infinite;
 }
 
 .gem-landing__color-field {
@@ -807,7 +807,7 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
   mix-blend-mode: screen;
   opacity: 0;
   clip-path: ellipse(43% 47% at 50% 50%);
-  animation: gem-color-reveal 20s linear infinite;
+  animation: gem-color-reveal 12s linear infinite;
 }
 
 .gem-landing__copy {
@@ -911,20 +911,20 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 }
 
 @keyframes gem-opal-reveal {
-  0%, 12% { opacity: 0.16; transform: translate3d(0, 1.5%, 0) scale(1.02); }
+  0%, 17% { opacity: 0.16; transform: translate3d(0, 1.5%, 0) scale(1.02); }
   75% { opacity: 0.68; transform: translate3d(4vw, 0, 0) scale(1.07); }
   100% { opacity: 0.68; transform: translate3d(4vw, 0, 0) scale(1.07); }
 }
 
 @keyframes gem-color-reveal {
-  0%, 12% { opacity: 0; transform: scale(0.78); }
+  0%, 17% { opacity: 0; transform: scale(0.78); }
   75% { opacity: 0.52; transform: scale(1); }
   100% { opacity: 0.42; transform: scale(1); }
 }
 
 @keyframes gem-light-sweep {
-  0%, 12% { opacity: 0; transform: translateX(0) rotate(18deg); }
-  18% { opacity: 0.42; }
+  0%, 17% { opacity: 0; transform: translateX(0) rotate(18deg); }
+  23% { opacity: 0.42; }
   75% { opacity: 0.5; transform: translateX(205vw) rotate(18deg); }
   86%, 100% { opacity: 0; transform: translateX(235vw) rotate(18deg); }
 }
@@ -996,21 +996,21 @@ body:has(.gem-landing) .VPHome .vp-doc.container {
 @media (prefers-reduced-motion: reduce) {
   .gem-landing__light {
     display: block;
-    animation: gem-light-pulse 20s ease-in-out infinite;
-    animation-duration: 20s !important;
+    animation: gem-light-pulse 12s ease-in-out infinite;
+    animation-duration: 12s !important;
     animation-iteration-count: infinite !important;
   }
 
   .gem-landing__color-field {
     display: block;
-    animation: gem-color-pulse 20s ease-in-out infinite;
-    animation-duration: 20s !important;
+    animation: gem-color-pulse 12s ease-in-out infinite;
+    animation-duration: 12s !important;
     animation-iteration-count: infinite !important;
   }
 
   .gem-landing__opal {
-    animation: gem-opal-pulse 20s ease-in-out infinite;
-    animation-duration: 20s !important;
+    animation: gem-opal-pulse 12s ease-in-out infinite;
+    animation-duration: 12s !important;
     animation-iteration-count: infinite !important;
     transform: none;
   }
