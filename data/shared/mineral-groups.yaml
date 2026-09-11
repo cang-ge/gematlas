@@ -1,5 +1,5 @@
 # Mineral group taxonomy for gems.
-# Eight groups, structured by chemistry + structure (Strunz classification,
+# Nine groups, structured by chemistry + structure (Strunz classification,
 # simplified). Each entry provides composition, key gem species, and
 # representative examples.
 # Reference: Strunz H. (1970) *Mineralogical Tables*, Schumann W.
@@ -73,6 +73,7 @@ groups:
       - { name: 'Hematite / 赤铁矿',               formula: 'Fe₂O₃', subgroup: 'hematite' }
       - { name: 'Rutile / 金红石',                 formula: 'TiO₂', subgroup: 'rutile' }
       - { name: 'Diaspore / 水铝石',               formula: 'AlO(OH)', subgroup: 'boehmite' }
+      - { name: 'Chrysoberyl / 金绿宝石',            formula: 'BeAl₂O₄', subgroup: 'chrysoberyl' }
       - { name: 'Cassiterite / 锡石',              formula: 'SnO₂', subgroup: 'rutile' }
       - { name: 'Spinel (cobalt-blue) / 钴蓝尖晶石', formula: 'CoAl₂O₄', subgroup: 'spinel' }
 
@@ -194,7 +195,6 @@ groups:
       - { name: 'Peridot / 橄榄石',                  formula: '(Mg,Fe)₂SiO₄', subgroup: 'olivine' }
       - { name: 'Zircon / 锆石',                     formula: 'ZrSiO₄', subgroup: 'zircon' }
       - { name: 'Topaz / 黄玉',                      formula: 'Al₂SiO₄(F,OH)₂', subgroup: 'topaz' }
-      - { name: 'Chrysoberyl / 金绿宝石',            formula: 'BeAl₂O₄', subgroup: 'chrysoberyl' }
       - { name: 'Tourmaline (Elbaite) / 碧玺',       formula: 'Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃', subgroup: 'cyclosilicate' }
       - { name: 'Iolite (Cordierite) / 堇青石',     formula: 'Mg₂Al₄Si₅O₁₈', subgroup: 'cyclosilicate' }
 

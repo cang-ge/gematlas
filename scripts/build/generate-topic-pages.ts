@@ -121,7 +121,7 @@ function mdList(items: string[] | string | undefined): string {
 }
 
 function mdExamplesTable(
-  examples: { gem: string; value: string; note_zh?: string; note_en?: string }[] | undefined,
+  examples: { gem: string; value: string; gem_zh?: string; value_zh?: string; note_zh?: string; note_en?: string }[] | undefined,
   cfg: ModuleConfig,
   isZh: boolean,
 ): string {
@@ -132,7 +132,9 @@ function mdExamplesTable(
   const sep = '|' + Array(nCols).fill('---').join('|') + '|'
   const rows = examples.map(e => {
     const note = isZh ? (e.note_zh || '—') : (e.note_en || '—')
-    return `| ${e.gem} | ${e.value} | ${note} |`
+    const gem = isZh ? (e.gem_zh || e.gem) : e.gem
+    const value = isZh ? (e.value_zh || e.value) : e.value
+    return `| ${gem} | ${value} | ${note} |`
   })
   return [header, sep, ...rows].join('\n')
 }
@@ -216,7 +218,8 @@ function overviewPage(parsed: ReturnType<typeof TopicFile.parse>, cfg: ModuleCon
   const rows = parsed.topics.map(t => {
     const name = isZh ? t.name_zh : t.name_en
     const summary = isZh ? t.summary_zh : t.summary_en
-    return `| [${name}](${t.id}) | ${summary.split('\n')[0]} |`
+    const summaryLine = summary.replace(/\s*\n\s*/g, ' ').trim()
+    return `| [${name}](${t.id}) | ${summaryLine} |`
   }).join('\n')
   // Per-module section heading (matches legacy per-module generators)
   const sectionHeadingEN = `## ${title} Topics`

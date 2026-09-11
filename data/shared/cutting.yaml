@@ -7,15 +7,43 @@
 
 overview_zh: |
   切割是把原石转化为宝石的工艺与科学。本模块讲解三类主切割路线——
-  刻面切割（faceting，面向透明宝石）、蛋面/雕刻（cabochon & carving，
-  面向不透明或具光学效应宝石），以及花式切工的历史与参数。
+  刻面切割（faceting）、蛋面/雕刻（cabochon & carving），以及花式切工的
+  历史与参数。路线选择还要综合透明度、包裹体、耐久性、光学效应与原石形状。
 overview_en: |
-  Cutting transforms rough into a gem. This module covers the three main
-  cutting routes — faceting (for transparent stones), cabochon & carving
-  (for opaque or phenomena stones), and the history and parameters of
-  fancy cuts.
+  Cutting transforms rough into a gem. This module covers three main routes —
+  faceting, cabochon & carving, and the history and parameters of fancy cuts.
+  The choice also depends on transparency, inclusions, durability, phenomena,
+  and the shape of the rough.
 
 topics:
+  - id: rough-planning
+    name_zh: 原石规划与定向
+    name_en: Rough Planning & Orientation
+    summary_zh: |
+      切工不是从“选择一个漂亮轮廓”开始，而是先读懂原石：观察体色分布、裂隙、
+      包裹体、透明度、晶体方向与潜在光学效应，再在重量保留、视觉效果和耐久性之间
+      做出取舍。规划图应记录台面方向、预计轮廓、主要风险和允许的损耗范围。
+    summary_en: |
+      Cutting does not begin with choosing an attractive outline. The cutter first reads the
+      rough: color zoning, fractures, inclusions, transparency, crystallographic direction,
+      and possible optical phenomena. A plan balances weight retention, appearance, and
+      durability, recording the table orientation, target outline, risks, and acceptable loss.
+    principles_zh: |
+      - 先观察再下料：清洁、测量并在不同光线与方向下检查原石，标记裂隙、包体和色带。
+      - 定向优先：有色带、猫眼、星光或变彩时，台面方向会直接影响颜色与现象的呈现。
+      - 取舍要透明：保留重量不等于保留价值；过度追重可能牺牲亮度、对称性或耐久性。
+      - 规划需留安全边界：尖角、薄腰棱、深裂隙和应力集中区域应在设计阶段避开或加固。
+      - 最终方案应能解释“为什么这样切”，而不只是记录成品的形状。
+    principles_en: |
+      - Inspect before sawing: clean, measure, and examine the rough under different lights and directions; mark fractures, inclusions, and color bands.
+      - Prioritize orientation: with zoning, chatoyancy, asterism, or play of color, table direction controls how the effect is seen.
+      - Make trade-offs explicit: retaining weight does not guarantee value; chasing weight can sacrifice brightness, symmetry, or durability.
+      - Reserve a safety margin: avoid or reinforce corners, thin girdles, deep fractures, and stress concentrations in the design stage.
+      - The final plan should explain why the stone was cut that way, not only describe its finished outline.
+    examples:
+      - { gem: "opal", gem_zh: "欧泊", value: "orient the face toward the strongest play of color", value_zh: "台面朝向最强变彩区域", note_zh: "优先呈现变彩区域", note_en: "prioritise the strongest color patches" }
+      - { gem: "star sapphire", gem_zh: "星光蓝宝石", value: "align the dome with the intersecting silk", value_zh: "让弧顶对准交叉的丝状包体", note_zh: "使星线集中于弧顶", note_en: "centre the star at the dome" }
+
   - id: brilliant-cut
     name_zh: 圆明亮式切工
     name_en: Round Brilliant Cut
@@ -32,11 +60,13 @@ topics:
       - 台面直径比约 53–58%；冠角 34–35°；亭角 40.75–41.2°。
       - 腰棱厚度适中——过薄易崩，过厚浪费重量。
       - 全反射率 (total internal reflection) 依赖比例精确；比例失调导致"漏光窗"。
+      - 这些比例是分析起点而非所有宝石的固定处方；折射率、色散、形状和耐久性都会改变最佳方案。
     principles_en: |
       - Standard 57 facets: 1 table + 33 crown + 24 pavilion (+ optional culet = 58).
       - Table diameter ~53–58%; crown angle 34–35°; pavilion angle 40.75–41.2°.
       - Girdle must balance durability against weight retention.
       - Brilliance depends on precise proportions; errors create "windows" of light leakage.
+      - These proportions are a starting point, not a prescription for every gem; RI, dispersion, shape, and durability change the target.
     examples:
       - { gem: "diamond", value: "Round Brilliant, 57f", note_en: "auction standard" }
       - { gem: "zircon", value: "Round Brilliant", note_en: "high dispersion" }
@@ -45,7 +75,7 @@ topics:
     name_zh: 花式切工
     name_en: Fancy Cuts
     summary_zh: |
-      除圆明亮式外的所有切工统称花式切工——公主方、祖母绿切、梨形、
+      非圆明亮式的异形、阶梯式与改良明亮式切工通常归入花式切工——公主方、祖母绿切、梨形、
       椭圆形、马眼形、心形、祖母绿阶梯切等。每种依原石形状、内含物
       位置与审美偏好而选。
     summary_en: |
@@ -56,12 +86,12 @@ topics:
       - 公主方 (princess)：方形，保留圆明亮火彩，现代婚戒主流。
       - 祖母绿切 (emerald)：阶梯式刻面，突出净度——适合高净度大石。
       - 梨形/马眼/心形：异形轮廓，需冠亭比例对称避免"蝴蝶结效应"。
-      - 花式切工按尺寸定价时单克拉价常低于圆明亮（切工损耗与需求差异）。
+      - 部分市场中，花式切工的单克拉价格可能低于同品质圆明亮式，但品种、比例与需求会改变结果。
     principles_en: |
       - Princess: square, retains round-brilliant fire; modern bridal staple.
       - Emerald: step facets, showcases clarity — suited to clean large stones.
       - Pear / marquise / heart: elongated silhouettes; need symmetric crown-pavilion to avoid bow-tie.
-      - Fancy cuts often price lower per carat than rounds (cutting waste + demand).
+      - In some markets, fancy cuts may price below comparable rounds per carat; species, proportions, and demand can reverse the result.
     examples:
       - { gem: "diamond", value: "Emerald step cut", note_en: "historic, elegant" }
       - { gem: "diamond", value: "Princess", note_en: "most popular modern square" }
@@ -70,22 +100,26 @@ topics:
     name_zh: 蛋面与雕刻
     name_en: Cabochon & Carving
     summary_zh: |
-      不透明或具特殊光学效应的宝石不适合刻面——改用蛋面（凸圆打磨）或
-      雕刻。蛋面完美呈现星光、猫眼、月光效应；玉石、玛瑙则走雕刻路线。
+      当透明度、包裹体、耐久性或特殊光学效应更适合弧面时，宝石常采用蛋面
+      （凸圆打磨）或雕刻；这不是对所有材料的绝对限制。蛋面可突出星光、
+      猫眼、月光等现象，玉石与玛瑙也常见雕刻路线。
     summary_en: |
-      Opaque or phenomena stones are polished en cabochon (domed) or
-      carved instead of faceted. Cabochons reveal asterism, chatoyancy,
-      and adularescence; jade and agate are carved.
+      When transparency, inclusions, durability, or an optical phenomenon
+      favors a dome, a stone may be polished en cabochon or carved. This is
+      not an absolute ban on faceting. Cabochons can reveal asterism,
+      chatoyancy, and adularescence; jade and agate are also often carved.
     principles_zh: |
       - 单蛋面/双蛋面 (single/double cabochon)：决定星光与猫眼清晰度。
       - 星光效应需定向打磨——使金红石针平行台面。
       - 猫眼效应同理，针状包裹体需定向于弧面轴线。
       - 玉石雕刻（翡翠、软玉、绿松石）考验材料纹理与色彩层次运用。
+      - 蛋面高度、弧面连续性与抛光质量共同影响光带宽度、亮度和均匀性。
     principles_en: |
       - Single / double cabochon: height controls star and cat's-eye definition.
       - Asterism requires oriented polishing — rutile needles parallel to the table.
       - Chatoyancy likewise: needle inclusions must align to the dome axis.
       - Jade carving (jadeite, nephrite, turquoise) exploits texture and colour zoning.
+      - Dome height, curvature, and polish together affect the width, brightness, and evenness of the band.
     examples:
       - { gem: "ruby", value: "Star cabochon", note_en: "6-ray asterism" }
       - { gem: "tigers-eye", value: "Cat's-eye cabochon", note_en: "chatoyancy" }

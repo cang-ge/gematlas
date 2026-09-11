@@ -4,9 +4,9 @@ title: Mineral Groups
 
 # Mineral Groups
 
-Natural gems fall into distinct families by chemistry and crystal structure. The eight below are the most important in gemology:
+Natural gems fall into distinct families by chemistry and crystal structure. The nine below are the most important in gemology:
 
-## Eight Major Groups
+## Nine Major Groups
 
 | Group | Formula Class |
 |---|---|

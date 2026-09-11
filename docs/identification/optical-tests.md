@@ -8,8 +8,8 @@ identification: optical-tests
 ## Overview
 
 Birefringence (polariscope), pleochroism (dichroscope), and UV
-fluorescence (UV lamp) reveal optical symmetry and chemistry —
-fast screens for species and treatments.
+fluorescence (UV lamp) provide optical and material clues — useful
+for screening species and deciding what to test next.
 
 
 ## Core Principles

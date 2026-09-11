@@ -90,6 +90,7 @@ export const OpticalPhenomenonEntry = z.object({
     incandescent: z.string().optional(),
     base: z.string().optional(),
     colors: z.string().optional(),
+    structure: z.string().optional(),
   })).optional(),
 })
 export const OpticalPhenomenaFile = z.object({
@@ -123,6 +124,8 @@ export const MineralGroupsFile = z.object({
 export const TopicExample = z.object({
   gem: z.string().min(1),
   value: z.string().min(1),
+  gem_zh: z.string().optional(),
+  value_zh: z.string().optional(),
   note_zh: z.string().optional(),
   note_en: z.string().optional(),
 })
@@ -182,6 +185,8 @@ export const MaisonWorkEntry = z.object({
   style_zh: z.string().optional(),
   summary_zh: z.string().min(1),
   summary_en: z.string().min(1),
+  archive_relation_zh: z.string().optional(),
+  archive_relation_en: z.string().optional(),
   image: z.string().regex(/^images\//),
   source_url: z.string().url(),
   image_source_url: z.string().url().optional(),

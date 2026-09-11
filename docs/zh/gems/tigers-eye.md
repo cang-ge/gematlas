@@ -4,68 +4,77 @@ gem: tigers-eye
 ---
 
 
-# 虎眼石
-<img src="../../images/gems/tigers-eye/tigers-eye.jpg" alt="虎眼石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 石英族（假象）
-
-<!-- language switcher hint -->
-English: [Tiger's Eye](/gems/tigers-eye)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>虎眼石</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-tigers-eye">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 55</p>
+    <h1 id="gem-detail-title-tigers-eye">虎眼石<span>Tiger&#39;s Eye</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>石英族（假象）</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>SiO₂ (pseudomorph after crocidolite)</dd></div>
+      <div><dt>晶系</dt><dd>三方晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>7</dd></div>
+      <div><dt>比重</dt><dd>2.64</dd></div>
+      <div><dt>折射率</dt><dd>1.544-1.553</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/tigers-eye.html" hreflang="en">English: Tiger&#39;s Eye <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/tigers-eye/tigers-eye.jpg" alt="虎眼石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 石英族（假象） |
-| 化学式 | SiO₂ (pseudomorph after crocidolite) |
-| 晶系 | trigonal |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>石英族（假象）</td></tr><tr><th scope="row">化学式</th><td>SiO₂ (pseudomorph after crocidolite)</td></tr><tr><th scope="row">晶系</th><td>三方晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 7 |
-| 比重 | 2.64 |
-| 折射率 | 1.544-1.553 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>7</td></tr><tr><th scope="row">比重</th><td>2.64</td></tr><tr><th scope="row">折射率</th><td>1.544-1.553</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | none |
-| 典型颜色 | 金棕色（虎眼）, 蓝灰色（鹰眼）, 红棕色 |
-| 致色原因 | 青石棉纤维氧化为针铁矿呈金棕色；未氧化呈蓝灰色 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>无</td></tr><tr><th scope="row">典型颜色</th><td>金棕色（虎眼）、蓝灰色（鹰眼）、红棕色</td></tr><tr><th scope="row">致色原因</th><td>青石棉纤维氧化为针铁矿呈金棕色；未氧化呈蓝灰色</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | heat-treatment, dyeing |
-| 需披露 | 是 |
-| 备注 | 加热可增强红棕色；鹰眼石为未氧化变种 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>热处理、染色</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>加热可增强红棕色；鹰眼石为未氧化变种</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 南非 |
-| 澳大利亚 |
-| 印度 |
-| 巴西 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>南非</li><li>澳大利亚</li><li>印度</li><li>巴西</li></ul></div>
 
 ## 历史与传说
 
-虎眼石是硅化青石棉，鹰眼/牛眼为其变种。古罗马武士用作护身符。
+<div class="gem-detail__prose">虎眼石是硅化青石棉，鹰眼/牛眼为其变种。古罗马武士用作护身符。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/tigers-eye/tigers-eye-gallery-1.jpg" alt="虎眼石" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/tigers-eye/tigers-eye-gallery-2.jpg" alt="虎眼石" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+<figure><img src="../../images/gems/tigers-eye/tigers-eye-gallery-3.jpg" alt="虎眼石" loading="lazy" decoding="async"><figcaption>证据 03</figcaption></figure>
+</div>
 
-<img src="../../images/gems/tigers-eye/tigers-eye-gallery-1.jpg" alt="虎眼石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/tigers-eye/tigers-eye-gallery-2.jpg" alt="虎眼石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/tigers-eye/tigers-eye-gallery-3.jpg" alt="虎眼石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./tanzanite.html" aria-label="上一颗 坦桑石"><i aria-hidden="true">←</i><span>上一颗</span><strong>坦桑石</strong><small>Tanzanite</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>55 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./topaz.html" aria-label="下一颗 黄玉"><span>下一颗</span><strong>黄玉</strong><small>Topaz</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

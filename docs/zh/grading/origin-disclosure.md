@@ -13,10 +13,10 @@ grading: origin-disclosure
 
 ## 核心要点
 
-- 无处理 (untreated / "no indication")：价格最高，须出具权威实验室证书。
+- “No Indications of Treatment”表示未观察到处理迹象，不等于绝对证明从未处理；价格也不能仅凭这一项确定。
 - 一般处理 (常规)：如红/蓝宝石热处理，行业普遍接受，**必须披露**。
 - 优化处理 (enhancement)：如浸油 (emerald) / 染色 / 填充——价值显著降低。
-- 产地判定 (origin)：基于包裹体组合 + 微量元素图谱，权威实验室分级。
+- 产地意见 (origin opinion)：结合包裹体组合与微量元素等证据，由实验室出具意见，不是宝石分级。
 
 ## 示例
 
@@ -24,6 +24,6 @@ grading: origin-disclosure
 |---|---|---|
 | ruby | heated (H) | 常规 — 价格上限定 |
 | emerald | minor oil (Cedarwood) | — |
-| sapphire | unheated, Kashmir | 价格 5–10× 热处理 |
+| sapphire | unheated, Kashmir | 价格差异因品种、产地、质量与市场而异 |
 
 *详见[分级总览](intro)。*

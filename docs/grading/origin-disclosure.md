@@ -14,10 +14,10 @@ Common treatments are tier-ranked by their impact on value.
 
 ## Core Principles
 
-- Untreated ("No Indications of Treatment"): top tier; requires a respected lab report.
+- “No Indications of Treatment” means no treatment indications were observed; it is not absolute proof of never-treated, and price is not determined by this alone.
 - Routine (e.g. heat on sapphire / ruby): widely accepted; **must be disclosed**.
 - Enhancement (oil/resin in emerald, dye, fracture filling): large value hit.
-- Origin opinion: based on inclusion suite + trace chemistry; only reputable labs.
+- Origin opinion: based on inclusion suites and trace chemistry; it is a laboratory opinion, not a grade.
 
 ## Examples
 
@@ -25,6 +25,6 @@ Common treatments are tier-ranked by their impact on value.
 |---|---|---|
 | ruby | heated (H) | routine — caps price |
 | emerald | minor oil (Cedarwood) | accepted with disclosure |
-| sapphire | unheated, Kashmir | 5–10× price of heated |
+| sapphire | unheated, Kashmir | price varies by species, origin, quality, and market |
 
 *See the [grading overview](intro).*

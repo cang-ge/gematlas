@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Compendium
+title: Read the Gemstone Through Light
 ---
 
 <ModuleGrid locale="en" />

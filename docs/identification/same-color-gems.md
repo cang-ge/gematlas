@@ -20,23 +20,23 @@ families: red, blue, and green.
 | RI reading | Likely family | Next |
 |---|---|---|
 | 1.76 | Corundum (ruby / sapphire) | Step 2 |
-| 1.71–1.72 | Spinel | ✅ identified |
-| 1.74–1.89 | Garnet | ✅ identified |
+| 1.71–1.72 | Possible spinel | Cross-check SG, inclusions, and spectroscopy |
+| 1.74–1.89 | Possible garnet | Cross-check SG, inclusions, and spectroscopy |
 | 1.5–1.7, glassy | Possible glass | Step 3 |
 
 **2. For corundum, check UV fluorescence** under a LW lamp.
 
 | Fluorescence | Conclusion |
 |---|---|
-| Strong red | Ruby |
-| Weak or none | Needs spectroscopy |
+| Strong red | Supports a ruby candidate; cross-check |
+| Weak or none | Does not exclude ruby; test further |
 
 **3. For a glassy stone, look for bubbles / swirls.**
 
 | Observation | Conclusion |
 |---|---|
-| Bubbles or flow lines | Glass imitation |
-| None | Re-check the refractometer |
+| Bubbles or flow lines | Supports a glass imitation candidate |
+| None | Does not exclude an imitation; re-check and add tests |
 
 
 ## Core Principles
@@ -44,7 +44,8 @@ families: red, blue, and green.
 - Red: ruby RI 1.76 + strong red fluor.; spinel 1.71–1.72 none; garnet 1.74–1.89.
 - Blue: sapphire 1.76 dichroic blue/green; tanzanite 1.69–1.70 strongly trichroic; iolite 1.54 trichroism extreme.
 - Green: emerald 1.57–1.58 (oiled fissures); tsavorite 1.89 high dispersion; peridot 1.65–1.69 (doubling).
-- Fluorescence is the fast screen: natural ruby strong LW red; flame-fusion synthetic often stronger and whitish.
+- Fluorescence is only a screening clue: natural ruby may show strong LW red, but intensity varies with origin, treatment, and sample; synthetics can overlap.
+- No single observation replaces laboratory identification; use UV, scratch, and liquid tests only with appropriate equipment and safety procedures.
 
 ## Examples
 

@@ -38,6 +38,7 @@ subgroup: cubic.
 | Hematite / 赤铁矿 | Fe₂O₃ | hematite |
 | Rutile / 金红石 | TiO₂ | rutile |
 | Diaspore / 水铝石 | AlO(OH) | boehmite |
+| Chrysoberyl / 金绿宝石 | BeAl₂O₄ | chrysoberyl |
 | Cassiterite / 锡石 | SnO₂ | rutile |
 | Spinel (cobalt-blue) / 钴蓝尖晶石 | CoAl₂O₄ | spinel |
 

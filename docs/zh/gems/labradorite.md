@@ -4,66 +4,76 @@ gem: labradorite
 ---
 
 
-# 拉长石
-<img src="../../images/gems/labradorite/labradorite.jpg" alt="拉长石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 长石族
-
-<!-- language switcher hint -->
-English: [Labradorite](/gems/labradorite)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>拉长石</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-labradorite">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 25</p>
+    <h1 id="gem-detail-title-labradorite">拉长石<span>Labradorite</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>长石族</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>(Ca,Na)(Si,Al)₄O₈</dd></div>
+      <div><dt>晶系</dt><dd>三斜晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>6.25</dd></div>
+      <div><dt>比重</dt><dd>2.7</dd></div>
+      <div><dt>折射率</dt><dd>1.560-1.572</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/labradorite.html" hreflang="en">English: Labradorite <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/labradorite/labradorite.jpg" alt="拉长石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 长石族 |
-| 化学式 | (Ca,Na)(Si,Al)₄O₈ |
-| 晶系 | triclinic |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>长石族</td></tr><tr><th scope="row">化学式</th><td>(Ca,Na)(Si,Al)₄O₈</td></tr><tr><th scope="row">晶系</th><td>三斜晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 6.25 |
-| 比重 | 2.7 |
-| 折射率 | 1.560-1.572 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>6.25</td></tr><tr><th scope="row">比重</th><td>2.7</td></tr><tr><th scope="row">折射率</th><td>1.560-1.572</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | none |
-| 典型颜色 | 灰蓝色带晕彩, 暗灰色带蓝/绿闪, 光谱色 |
-| 致色原因 | 纳米级成分层状结构产生干涉色（见光学现象-拉长晕彩） |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>无</td></tr><tr><th scope="row">典型颜色</th><td>灰蓝色带晕彩、暗灰色带蓝/绿闪、光谱色</td></tr><tr><th scope="row">致色原因</th><td>纳米级成分层状结构产生干涉色（见光学现象-拉长晕彩）</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | surface-coating |
-| 需披露 | 是 |
-| 备注 | 拉长石的晕彩是结构效应，不可人造优化 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>表面涂层</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>拉长石的晕彩是结构效应，不可人造优化</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 加拿大拉布拉多 |
-| 马达加斯加 |
-| 芬兰 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>加拿大拉布拉多</li><li>马达加斯加</li><li>芬兰</li></ul></div>
 
 ## 历史与传说
 
-拉长石拉长光（labradorescence）由层状双晶干涉产生。芬兰变种称"光谱石"。
+<div class="gem-detail__prose">拉长石拉长光（labradorescence）由层状双晶干涉产生。芬兰变种称&quot;光谱石&quot;。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/labradorite/labradorite-gallery-1.jpg" alt="拉长石" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/labradorite/labradorite-gallery-2.jpg" alt="拉长石" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+</div>
 
-<img src="../../images/gems/labradorite/labradorite-gallery-1.jpg" alt="拉长石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/labradorite/labradorite-gallery-2.jpg" alt="拉长石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./kyanite.html" aria-label="上一颗 蓝晶石"><i aria-hidden="true">←</i><span>上一颗</span><strong>蓝晶石</strong><small>Kyanite</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>25 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./lapis-lazuli.html" aria-label="下一颗 青金石"><span>下一颗</span><strong>青金石</strong><small>Lapis Lazuli</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

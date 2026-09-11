@@ -1,98 +1,124 @@
-# Classification
+---
+title: Find a Gemstone's Coordinates
+description: Build a first map of gemstone classification through materials, structure, optical phenomena, and color causes.
+---
 
-> *From mineral species to the gem we set in a ring.*
+# Find a Gemstone's Coordinates
 
-Every gemstone begins as a mineral — a naturally occurring, inorganic solid with a definite chemical composition and ordered atomic structure. Classification is the first step in understanding gemstones: where they come from, how they behave, and what makes each one unique.
+> From materials and structure to optical phenomena, a first map of the gemstone world.
 
-## Mineralogical Classification
+Classification is not a label placed on a stone. It answers four questions: what it is, how it formed, how it presents light, and where to look next.
 
-The primary classification of gemstones follows mineral species, based on chemical composition and crystal structure.
+<div class="classification-map" role="list" aria-label="Four ways to observe a gemstone">
+  <a class="classification-map__item" href="./mineral-groups/intro" role="listitem">
+    <span class="classification-map__index">01</span>
+    <strong>Material</strong>
+    <span>What it is</span>
+  </a>
+  <a class="classification-map__item" href="./crystal-systems/cubic" role="listitem">
+    <span class="classification-map__index">02</span>
+    <strong>Structure</strong>
+    <span>How it is arranged</span>
+  </a>
+  <a class="classification-map__item" href="./optical-phenomena/intro" role="listitem">
+    <span class="classification-map__index">03</span>
+    <strong>Optics</strong>
+    <span>How it shows light</span>
+  </a>
+  <a class="classification-map__item" href="./color-causes/intro" role="listitem">
+    <span class="classification-map__index">04</span>
+    <strong>Color</strong>
+    <span>Why it is colored</span>
+  </a>
+</div>
 
-| Material | Mineral Family | Representative Gems |
+## 01 · What is it? Materials and origins
+
+Many natural gemstones are minerals, but gem materials are not limited to minerals. GemAtlas first separates materials by origin and properties, then relates them to crystal structure, optical phenomena, and color causes.
+
+| Material category | What to ask | Representative materials |
 |---|---|---|
-| **Natural minerals** | Corundum | Ruby · Sapphire |
-| | Beryl | Emerald · Aquamarine · Morganite |
-| | Quartz | Amethyst · Citrine · Rock Crystal |
-| | Garnet | Tsavorite · Demantoid · Almandine |
-| | Tourmaline | Paraíba · Watermelon |
-| | Spinel | Red · Blue Spinel |
-| | Diamond | Colourless · Fancy colours |
-| | Feldspar | Moonstone · Labradorite · Amazonite |
-| | Zoisite | Tanzanite |
-| | Opal | Precious opal · Fire opal |
-| **Organic materials** | Biogenic | Pearl · Amber · Coral |
-| **Synthetic** | Lab-grown | Flux ruby · Hydrothermal emerald · CVD diamond |
-| | Simulants | Cubic zirconia · Glass · Moissanite |
+| Natural minerals | Naturally formed with a defined composition and crystal structure | Corundum, beryl, quartz, diamond |
+| Mineraloids / amorphous materials | Gem materials without a complete long-range crystal structure | Opal, obsidian |
+| Organic materials | Formed through biological activity or biogenic processes | Pearl, amber, coral |
+| Synthetic materials | Made in a laboratory and comparable to a natural counterpart | Synthetic ruby, synthetic emerald, CVD diamond |
+| Simulants | Another material used to imitate a target gem's appearance | Cubic zirconia, glass, moissanite |
 
-> **→ 60 species**, from Diamond to Chrysoprase. Browse the [full list](#all-60-gem-species) below, or explore by [mineral group](mineral-groups/intro), [crystal system](crystal-systems/cubic), or [optical phenomenon](optical-phenomena/intro).
+### Representative mineral families
 
-## Traditional Classification
-
-Historically, gems were divided into **precious** and **semi-precious** — a holdover from 19th-century European marketing rather than any scientific distinction.
-
-| Traditional Category | Examples | Modern View |
-|---|---|---|
-| **Precious** | Diamond, Ruby, Sapphire, Emerald | These four remain the most commercially significant, but modern gemology no longer uses this ranking. |
-| **Semi-precious** | Everything else | Misleading — many "semi-precious" stones (Tsavorite, Paraíba Tourmaline, Alexandrite) are rarer and more valuable than "precious" stones. |
-
-> **Modern gemology does not use the "precious vs. semi-precious" distinction.** Scarcity, beauty, and durability are what determine a gem's value, not an inherited label.
-
-## Classification by Crystal System
-
-There are seven crystal systems (plus amorphous). Each gem crystallizes in one:
-
-- **Cubic** — Diamond, Spinel, Garnet
-- **Tetragonal** — Zircon, Rutile
-- **Orthorhombic** — Tanzanite, Alexandrite, Topaz
-- **Hexagonal** — Beryl (Emerald, Aquamarine), Apatite
-- **Trigonal** — Ruby, Sapphire, Quartz, Tourmaline
-- **Monoclinic** — Orthoclase, Spodumene
-- **Triclinic** — Kyanite, Turquoise
-- **Amorphous** — Opal, Obsidian, Amber
-
-*Begin with the [cubic (isometric) system](crystal-systems/cubic).*
-
-## Classification by Mineral Group
-
-For a chemistry-structured view, see [**Mineral Groups**](mineral-groups/intro) — eight families covering native elements, oxides, three silicate subclasses, plus phosphates, carbonates, sulfides, and halides.
-
-## Classification by Optical Phenomena
-
-Beyond the catalog of phenomena below, see [**Optical Phenomena**](optical-phenomena/intro) — detailed pages on six observable effects (star, cat's-eye, color change, moonstone sheen, labradorite schiller, sunstone glitter).
-
-## Classification by Optical Phenomena
-
-| Phenomenon | Description | Examples |
-|---|---|---|
-| **Asterism** | Star-shaped light reflection | Star Ruby, Star Sapphire |
-| **Chatoyancy** | Cat's-eye band of light | Cat's-eye Chrysoberyl, Tiger's Eye |
-| **Color Change** | Different colors under different light | Alexandrite, Color-change Sapphire |
-| **Play of Color** | Rainbow spectral flash | Opal |
-| **Iridescence** | Pearly or rainbow sheen | Moonstone, Labradorite |
-| **Adularescence** | Blue-white floating glow | Moonstone |
-| **Labradorescence** | Metallic schiller | Labradorite |
-| **Aventurescence** | Sparkly metallic inclusions | Aventurine, Sunstone |
-
-For the underlying **physical causes of color**, see [**Color Cause**](color-causes/intro) — transition-metal ions, color centers, and charge transfer.
-
-## Classification by Color
-
-Gems are often classified by their primary color for practical identification:
-
-| Color | Typical Gems |
+| Mineral family | Representative gems |
 |---|---|
-| Red | Ruby, Spinel, Garnet |
-| Blue | Sapphire, Tanzanite, Topaz |
-| Green | Emerald, Tsavorite, Peridot |
-| Yellow | Citrine, Yellow Sapphire, Heliodor |
-| Pink | Morganite, Pink Sapphire, Kunzite |
-| Purple | Amethyst, Purple Sapphire |
-| Colorless | Diamond, Zircon, Colorless Sapphire |
+| Corundum | Ruby, sapphire |
+| Beryl | Emerald, aquamarine, morganite |
+| Quartz | Amethyst, citrine, rock crystal |
+| Garnet | Tsavorite, demantoid, almandine |
+| Tourmaline | Paraíba, watermelon tourmaline |
+| Spinel | Red and blue spinel |
+| Diamond | Colourless diamond, fancy-colour diamond |
+| Feldspar | Moonstone, labradorite, amazonite |
+| Zoisite | Tanzanite |
+| Opal | Precious opal, fire opal |
 
-## How gems are organized in GemAtlas
+> “Precious” and “semi-precious” are traditional commercial terms, not strict modern gemological categories. Value is better discussed through rarity, beauty, durability, treatment, and market demand.
 
-Each gem in this collection has a dedicated page with its physical properties, optical characteristics, treatments, and references. Browse the full list below, or use the sidebar to explore by mineral group, crystal system, or optical phenomenon.
+## 02 · How is it arranged? Crystal systems and structure
 
-## All 60 Gem Species
+Crystal structure describes the ordered arrangement of atoms or ions in space. Gemology commonly uses seven crystal systems to describe crystal symmetry. Opal, obsidian, and amber need a separate treatment as amorphous or mineraloid materials.
 
-<GemGallery locale="en" />
+| Crystal system | Representative gems | Observation cue |
+|---|---|---|
+| Cubic / isometric | Diamond, spinel, garnet | Three equal axes with high symmetry |
+| Tetragonal | Zircon, rutile | Two equal axes and a distinct third axis |
+| Orthorhombic | Tanzanite, chrysoberyl, topaz | Three unequal, mutually perpendicular axes |
+| Hexagonal | Beryl, apatite | A sixfold symmetry axis is characteristic |
+| Trigonal | Ruby, sapphire, quartz, tourmaline | Threefold symmetry is a key feature |
+| Monoclinic | Orthoclase, spodumene | Axes are not all at right angles |
+| Triclinic | Kyanite, turquoise | The lowest symmetry; axes are unequal and oblique |
+| Amorphous / mineraloid | Opal, obsidian, amber | No complete long-range crystal order |
+
+*Begin with the [cubic system](crystal-systems/cubic), then compare how symmetry relates to gem properties.*
+
+## 03 · How does it show light? Optical phenomena
+
+Optical phenomena are an important observational entry point, but a visible effect, its cause, and its trade name should not be treated as the same thing. GemAtlas records the appearance separately from the structures or inclusions that produce it.
+
+| Phenomenon | Visible expression | Representative materials |
+|---|---|---|
+| Asterism | Intersecting rays form a star | Star ruby, star sapphire |
+| Chatoyancy | A movable band of light appears | Cat's-eye chrysoberyl, tiger's eye |
+| Color change | Color shifts under different light sources | Alexandrite, color-change sapphire |
+| Play of color | Angle-dependent spectral flashes | Opal |
+| Iridescence | Thin or layered structures produce interference colors | Labradorite and related materials |
+| Adularescence | A soft blue-white floating glow | Moonstone |
+| Aventurescence | Plate-like inclusions create sparkle | Aventurine, sunstone |
+
+*Enter [Optical Phenomena](optical-phenomena/intro) for causes, observation methods, and identification notes.*
+
+## 04 · Why is it colored? Causes of color
+
+Color is not an isolated surface label. It is the result of light interacting with matter. Three important mechanisms are:
+
+| Mechanism | Core question | Representative direction |
+|---|---|---|
+| Transition-metal ions | Which wavelengths are selectively absorbed by ions in the lattice? | Chromium, iron, manganese, cobalt, copper |
+| Color centers | How do lattice defects change light absorption? | Vacancies, interstitials, irradiation-related defects |
+| Charge transfer | How do electrons move between neighboring ions or energy levels? | Metal–metal and oxygen–metal transfer |
+
+Color grouping is useful for observation and search, but it cannot replace identification. A proper color description also considers hue, tone, saturation, lighting, and viewing direction.
+
+*See [Color Causes](color-causes/intro) to connect visible color with physical and chemical mechanisms.*
+
+## 05 · From coordinates to the Gemstone Index
+
+A single gemstone can occupy several coordinates. Opal, for example, is an amorphous or mineraloid material and may display play of color. Sapphire belongs to the corundum family and has trigonal symmetry. Classification is not one box; it is a multidimensional index.
+
+Every GemAtlas entry has its own page with physical properties, optical characteristics, treatments, and references. Continue through [Mineral Groups](mineral-groups/intro), [Crystal Systems](crystal-systems/cubic), or [Optical Phenomena](optical-phenomena/intro). When you are ready to browse the complete collection, open the [Gemstone Index](../gems/).
+
+<div class="classification-index-cta">
+  <span class="classification-index-cta__count">60</span>
+  <div>
+    <strong>Gemstone Index · The Stone Index</strong>
+    <p>All 60 species in one searchable learning entry — from name and mineral family to the full reference page.</p>
+  </div>
+  <a href="../gems/">Browse the collection ↗</a>
+</div>

@@ -4,7 +4,8 @@ title: 分级
 
 # 分级
 
-分级是把宝石的价格、外观、保真性量化成可比较数字的行业惯例。
+分级是把宝石的外观、重量与报告特征组织成可比较描述的行业惯例；
+真实性由鉴定与处理披露支持，而不是由分级单独证明。
 本模块讲解 GIA 4C 钻石分级框架（Carat / Color / Clarity / Cut），
 以及彩色宝石独立的 hue-tone-saturation 模型，
 并列出每类瑕疵 / 处理 / 产地披露的规范。
@@ -14,7 +15,7 @@ title: 分级
 
 | 主题 | 概述 |
 |---|---|
-| [GIA 4C 钻石分级](diamond-4cs) | GIA 于 1953 年确立的全球通用钻石分级标准。四要素——克拉、颜色、 |
-| [彩色宝石分级（hue / tone / saturation）](colored-stones) | 彩色宝石不像钻石有标准化 4C，而是用三维度描述颜色——hue（色相）、tone |
-| [净度瑕疵类型 (inclusion / blemish)](clarity-types) | 宝石内含物 (inclusion) 与表面瑕疵 (blemish) 的种类、位置、数量、 |
-| [产地 / 处理披露](origin-disclosure) | 行业规范 (CIBJO / FTC / AGTA) 要求销售方明示宝石是否经过处理以及是否 |
+| [GIA 4C 钻石分级](diamond-4cs) | GIA 于 1953 年确立并广泛采用的钻石分级框架。四要素——克拉、颜色、 净度、切工——相互独立又联合决定钻石价格。 |
+| [彩色宝石分级（hue / tone / saturation）](colored-stones) | 彩色宝石不像钻石有标准化 4C，而是用三维度描述颜色——hue（色相）、tone （色调明暗）、saturation（饱和度）。许多实验室会使用这组描述维度， 但具体报告术语与阈值可能不同。 |
+| [净度瑕疵类型 (inclusion / blemish)](clarity-types) | 宝石内含物 (inclusion) 与表面瑕疵 (blemish) 的种类、位置、数量、 可见性共同决定净度等级。同种瑕疵在不同宝石中影响不同—— 祖母绿中的"花园"是常态，钻石中却致命。 |
+| [产地 / 处理披露](origin-disclosure) | 行业规范 (CIBJO / FTC / AGTA) 要求销售方明示宝石是否经过处理以及是否 经过产地判定。常见处理类型依价格影响分级。 |

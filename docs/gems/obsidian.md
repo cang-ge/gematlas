@@ -4,67 +4,76 @@ gem: obsidian
 ---
 
 
-# Obsidian
-<img src="../images/gems/obsidian/obsidian.jpg" alt="Obsidian" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> Volcanic glass
-
-<!-- language switcher hint -->
-中文: [黑曜石](/zh/gems/obsidian)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">Gemstone Index</a><span aria-hidden="true">/</span><span>Obsidian</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-obsidian">
+  <div class="gem-detail__identity">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 31</p>
+    <h1 id="gem-detail-title-obsidian">Obsidian<span>黑曜石</span></h1>
+    <p class="gem-detail__species"><span>Mineral identity</span>Volcanic glass</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>Formula</dt><dd>SiO₂ (amorphous)</dd></div>
+      <div><dt>Crystal system</dt><dd>Amorphous</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>Mohs</dt><dd>5.5</dd></div>
+      <div><dt>Specific gravity</dt><dd>2.4</dd></div>
+      <div><dt>Refractive index</dt><dd>1.48-1.51</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../zh/gems/obsidian.html" hreflang="zh-CN">中文: 黑曜石 <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/obsidian/obsidian.jpg" alt="Obsidian" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+</div>
 
 ## Classification
 
-| Property | Value |
-|---|---|
-| Mineral Family | Volcanic glass |
-| Formula | SiO₂ (amorphous) |
-| Crystal System | amorphous |
+<p class="gem-detail__section-kicker">IDENTITY / SPECIES RECORD</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Mineral Family</th><td>Volcanic glass</td></tr><tr><th scope="row">Formula</th><td>SiO₂ (amorphous)</td></tr><tr><th scope="row">Crystal System</th><td>Amorphous</td></tr></tbody>
+</table>
 
 ## Physical Properties
 
-| Property | Value |
-|---|---|
-| Mohs Hardness | 5.5 |
-| Specific Gravity | 2.4 |
-| Refractive Index | 1.48-1.51 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Mohs Hardness</th><td>5.5</td></tr><tr><th scope="row">Specific Gravity</th><td>2.4</td></tr><tr><th scope="row">Refractive Index</th><td>1.48-1.51</td></tr></tbody>
+</table>
 
 ## Optical Properties
 
-| Property | Value |
-|---|---|
-| Pleochroism | none |
-| Typical Colors | Black, Brown (mahogany), Silver/gold sheen, Rainbow (iridescent) |
-| Color Cause | Trace Fe/Mg produces black; gas bubbles / crystallites produce iridescence |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Pleochroism</th><td>None</td></tr><tr><th scope="row">Typical Colors</th><td>Black, Brown (mahogany), Silver/gold sheen, Rainbow (iridescent)</td></tr><tr><th scope="row">Color Cause</th><td>Trace Fe/Mg produces black; gas bubbles / crystallites produce iridescence</td></tr></tbody>
+</table>
 
 ## Treatments & Disclosure
 
-| Treatment | Details |
-|-----------|---------|
-| Common Methods | heat-treatment |
-| Disclosure Required | No |
-| Note | Natural glass, not a crystalline mineral; heat treatment can enhance silver/gold sheen |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>Common methods</span><strong>Heat treatment</strong></div>
+  <div class="gem-detail__treatment-row"><span>Disclosure required</span><strong class="">No</strong></div>
+  <p class="gem-detail__treatment-note"><span>Note</span>Natural glass, not a crystalline mineral; heat treatment can enhance silver/gold sheen</p>
+</div>
 
 ## Origin
 
-| Region |
-|---|
-| Oregon, USA |
-| Mexico |
-| Iceland |
-| Hokkaido, Japan |
+<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Oregon, USA</li><li>Mexico</li><li>Iceland</li><li>Hokkaido, Japan</li></ul></div>
 
 ## History & Lore
 
-Obsidian is volcanic glass; the Aztecs made blades and mirrors from it. Rainbow and silver sheen are prized variants.
+<div class="gem-detail__prose">Obsidian is volcanic glass; the Aztecs made blades and mirrors from it. Rainbow and silver sheen are prized variants.<br /></div>
 
+## Image Evidence
 
-## Gallery
+<div class="gem-detail__gallery" aria-label="Image evidence gallery">
+<figure><img src="../images/gems/obsidian/obsidian-gallery-1.jpg" alt="Obsidian" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/obsidian/obsidian-gallery-2.jpg" alt="Obsidian" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+</div>
 
-<img src="../images/gems/obsidian/obsidian-gallery-1.jpg" alt="Obsidian" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/obsidian/obsidian-gallery-2.jpg" alt="Obsidian" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>
+<nav class="gem-detail__pager" aria-label="Gemstone record navigation">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./nephrite.html" aria-label="Previous Nephrite (Hetian Jade)"><i aria-hidden="true">←</i><span>Previous</span><strong>Nephrite (Hetian Jade)</strong><small>软玉</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="Return to gemstone index"><span>Return to index</span><strong>31 / 60</strong><small>All species</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./opal.html" aria-label="Next Opal"><span>Next</span><strong>Opal</strong><small>欧泊</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

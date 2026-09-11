@@ -9,7 +9,8 @@ grading: colored-stones
 
 Coloured gems lack a single 4C scheme. Instead, colour is graded on
 three axes—hue (position on the colour wheel), tone (lightness), and
-saturation (intensity). GIA, AGL, and Gübelin all use this model.
+saturation (intensity). Many laboratories use these descriptive dimensions,
+but report terms and thresholds can differ.
 
 
 ## Core Principles
@@ -17,7 +18,7 @@ saturation (intensity). GIA, AGL, and Gübelin all use this model.
 - Hue: position on the colour wheel. Top stones are close to a pure hue.
 - Tone: lightness in 6 grades (very light → very dark); best in medium / medium-light.
 - Saturation: vividness. Browns and greys depress value; vivid / strong is best.
-- Cut & clarity still matter, but colour dominates price for coloured gems.
+- Colour is often important, but cut, clarity, durability, treatment, and supply also affect value.
 
 ## Examples
 

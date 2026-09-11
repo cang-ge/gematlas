@@ -1,5 +1,5 @@
 /**
- * generate-optical-phenomena-pages — produce overview + 6 detail pages
+ * generate-optical-phenomena-pages — produce overview + 7 detail pages
  * from data/shared/optical-phenomena.yaml.
  *
  * Output:
@@ -48,6 +48,14 @@ function pickColumns(ex: any, id: string, isZh: boolean): { headers: string[]; r
       rows: [{
         gem: ex.gem, day: ex.day ?? '—', incandescent: ex.incandescent ?? '—',
       }].map(r => [r.gem, r.day, r.incandescent]),
+    }
+  }
+  if (id === 'play-of-color') {
+    return {
+      headers: isZh ? ['宝石', '微结构', '色彩表现'] : ['Gem', 'Microstructure', 'Color Expression'],
+      rows: [{
+        gem: ex.gem, structure: ex.structure ?? '—', colors: ex.colors ?? '—',
+      }].map(r => [r.gem, r.structure, r.colors]),
     }
   }
   if (id === 'adularescence') {
@@ -122,8 +130,8 @@ function overviewPage(locale: 'en' | 'zh'): string {
   const isZh = locale === 'zh'
   const title = isZh ? '光学现象' : 'Optical Phenomena'
   const lede = isZh
-    ? '除了基础颜色，天然宝石可通过内部结构展示多种独特的光学效应。以下六种是最具代表性、也最容易在鉴定中观察到的现象：'
-    : 'Beyond base color, gems exhibit distinct optical phenomena through internal structure. The six below are the most representative and observable during identification:'
+    ? '除了基础颜色，天然宝石可通过内部结构展示多种独特的光学效应。以下七种是最具代表性、也最容易在鉴定中观察到的现象：'
+    : 'Beyond base color, gems exhibit distinct optical phenomena through internal structure. The seven below are the most representative and observable during identification:'
   const rows = phenomena.map(p =>
     `| [${isZh ? p.name_zh : p.name_en}](${p.id}) | ${isZh ? p.short_zh : p.short_en} |`
   ).join('\n')
@@ -137,7 +145,7 @@ function overviewPage(locale: 'en' | 'zh'): string {
     '',
     lede,
     '',
-    isZh ? '## 六种主要现象' : '## Six Major Phenomena',
+    isZh ? '## 七种主要现象' : '## Seven Major Phenomena',
     '',
     isZh ? '| 现象 | 一句话概述 |' : '| Phenomenon | One-line Summary |',
     '|---|---|',

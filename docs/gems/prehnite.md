@@ -4,68 +4,77 @@ gem: prehnite
 ---
 
 
-# Prehnite
-<img src="../images/gems/prehnite/prehnite.jpg" alt="Prehnite" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> Phyllosilicate
-
-<!-- language switcher hint -->
-中文: [葡萄石](/zh/gems/prehnite)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">Gemstone Index</a><span aria-hidden="true">/</span><span>Prehnite</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-prehnite">
+  <div class="gem-detail__identity">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 36</p>
+    <h1 id="gem-detail-title-prehnite">Prehnite<span>葡萄石</span></h1>
+    <p class="gem-detail__species"><span>Mineral identity</span>Phyllosilicate</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>Formula</dt><dd>Ca₂Al(AlSi₃O₁₀)(OH)₂</dd></div>
+      <div><dt>Crystal system</dt><dd>Orthorhombic</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>Mohs</dt><dd>6.25</dd></div>
+      <div><dt>Specific gravity</dt><dd>2.9</dd></div>
+      <div><dt>Refractive index</dt><dd>1.611-1.672</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../zh/gems/prehnite.html" hreflang="zh-CN">中文: 葡萄石 <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/prehnite/prehnite.jpg" alt="Prehnite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+</div>
 
 ## Classification
 
-| Property | Value |
-|---|---|
-| Mineral Family | Phyllosilicate |
-| Formula | Ca₂Al(AlSi₃O₁₀)(OH)₂ |
-| Crystal System | orthorhombic |
+<p class="gem-detail__section-kicker">IDENTITY / SPECIES RECORD</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Mineral Family</th><td>Phyllosilicate</td></tr><tr><th scope="row">Formula</th><td>Ca₂Al(AlSi₃O₁₀)(OH)₂</td></tr><tr><th scope="row">Crystal System</th><td>Orthorhombic</td></tr></tbody>
+</table>
 
 ## Physical Properties
 
-| Property | Value |
-|---|---|
-| Mohs Hardness | 6.25 |
-| Specific Gravity | 2.9 |
-| Refractive Index | 1.611-1.672 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Mohs Hardness</th><td>6.25</td></tr><tr><th scope="row">Specific Gravity</th><td>2.9</td></tr><tr><th scope="row">Refractive Index</th><td>1.611-1.672</td></tr></tbody>
+</table>
 
 ## Optical Properties
 
-| Property | Value |
-|---|---|
-| Pleochroism | weak |
-| Typical Colors | Pale green, Yellow-green, Colorless to white |
-| Color Cause | Fe³⁺ produces pale to yellow-green |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Pleochroism</th><td>Weak</td></tr><tr><th scope="row">Typical Colors</th><td>Pale green, Yellow-green, Colorless to white</td></tr><tr><th scope="row">Color Cause</th><td>Fe³⁺ produces pale to yellow-green</td></tr></tbody>
+</table>
 
 ## Treatments & Disclosure
 
-| Treatment | Details |
-|-----------|---------|
-| Common Methods | None / Typically untreated |
-| Disclosure Required | No |
-| Note | Named for its botryoidal (grape-like) habit; primarily used in pendants and carvings |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>Common methods</span><strong>None / typically untreated</strong></div>
+  <div class="gem-detail__treatment-row"><span>Disclosure required</span><strong class="">No</strong></div>
+  <p class="gem-detail__treatment-note"><span>Note</span>Named for its botryoidal (grape-like) habit; primarily used in pendants and carvings</p>
+</div>
 
 ## Origin
 
-| Region |
-|---|
-| South Africa |
-| Australia |
-| China |
-| New Jersey, USA |
+<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>South Africa</li><li>Australia</li><li>China</li><li>New Jersey, USA</li></ul></div>
 
 ## History & Lore
 
-Prehnite was named for Dutch colonist Hendrik von Prehn — the first mineral named after a person.
+<div class="gem-detail__prose">Prehnite was named for Dutch colonist Hendrik von Prehn — the first mineral named after a person.<br /></div>
 
+## Image Evidence
 
-## Gallery
+<div class="gem-detail__gallery" aria-label="Image evidence gallery">
+<figure><img src="../images/gems/prehnite/prehnite-gallery-1.png" alt="Prehnite" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/prehnite/prehnite-gallery-2.jpg" alt="Prehnite" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/prehnite/prehnite-gallery-3.jpg" alt="Prehnite" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
+</div>
 
-<img src="../images/gems/prehnite/prehnite-gallery-1.png" alt="Prehnite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/prehnite/prehnite-gallery-2.jpg" alt="Prehnite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/prehnite/prehnite-gallery-3.jpg" alt="Prehnite" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>
+<nav class="gem-detail__pager" aria-label="Gemstone record navigation">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./peridot.html" aria-label="Previous Peridot"><i aria-hidden="true">←</i><span>Previous</span><strong>Peridot</strong><small>橄榄石</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="Return to gemstone index"><span>Return to index</span><strong>36 / 60</strong><small>All species</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./pyrite.html" aria-label="Next Pyrite"><span>Next</span><strong>Pyrite</strong><small>黄铁矿</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

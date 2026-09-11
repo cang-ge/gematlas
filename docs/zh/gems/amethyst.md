@@ -4,62 +4,69 @@ gem: amethyst
 ---
 
 
-# 紫晶
-<img src="../../images/gems/amethyst/amethyst.jpg" alt="紫晶" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 石英族
-
-<!-- language switcher hint -->
-English: [Amethyst](/gems/amethyst)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>紫晶</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-amethyst">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 05</p>
+    <h1 id="gem-detail-title-amethyst">紫晶<span>Amethyst</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>石英族</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>SiO₂</dd></div>
+      <div><dt>晶系</dt><dd>三方晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>7</dd></div>
+      <div><dt>比重</dt><dd>2.65</dd></div>
+      <div><dt>折射率</dt><dd>1.544-1.553</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/amethyst.html" hreflang="en">English: Amethyst <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/amethyst/amethyst.jpg" alt="紫晶" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 石英族 |
-| 化学式 | SiO₂ |
-| 晶系 | trigonal |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>石英族</td></tr><tr><th scope="row">化学式</th><td>SiO₂</td></tr><tr><th scope="row">晶系</th><td>三方晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 7 |
-| 比重 | 2.65 |
-| 折射率 | 1.544-1.553 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>7</td></tr><tr><th scope="row">比重</th><td>2.65</td></tr><tr><th scope="row">折射率</th><td>1.544-1.553</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | weak |
-| 典型颜色 | 紫罗兰, 深紫, 淡紫 |
-| 致色原因 | Fe⁴⁺ 色心 + Fe²⁺ → Fe⁴⁺ 电荷转移 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>弱</td></tr><tr><th scope="row">典型颜色</th><td>紫罗兰、深紫、淡紫</td></tr><tr><th scope="row">致色原因</th><td>Fe⁴⁺ 色心 + Fe²⁺ → Fe⁴⁺ 电荷转移</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | heat-treatment |
-| 需披露 | 是 |
-| 备注 | 加热可转为黄色（黄水晶）或绿色（绿水晶） |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>热处理</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>加热可转为黄色（黄水晶）或绿色（绿水晶）</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 巴西 |
-| 乌拉圭 |
-| 赞比亚 |
-| 俄罗斯 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>巴西</li><li>乌拉圭</li><li>赞比亚</li><li>俄罗斯</li></ul></div>
 
 ## 历史与传说
 
-紫晶自古象征王权与清醒，希腊语意为"不醉"。圣路易斯安那曾是重要产地；乌拉圭深紫最受追捧。
+<div class="gem-detail__prose">紫晶自古象征王权与清醒，希腊语意为&quot;不醉&quot;。圣路易斯安那曾是重要产地；乌拉圭深紫最受追捧。<br /></div>
 
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./amber.html" aria-label="上一颗 琥珀"><i aria-hidden="true">←</i><span>上一颗</span><strong>琥珀</strong><small>Amber</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>05 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./apatite.html" aria-label="下一颗 磷灰石"><span>下一颗</span><strong>磷灰石</strong><small>Apatite</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

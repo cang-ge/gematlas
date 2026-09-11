@@ -1,5 +1,5 @@
 /**
- * generate-mineral-groups-pages — produce overview + 8 detail pages
+ * generate-mineral-groups-pages — produce overview + 9 detail pages
  * from data/shared/mineral-groups.yaml.
  */
 import yaml from 'js-yaml'
@@ -60,8 +60,8 @@ function overviewPage(locale: 'en' | 'zh'): string {
   const isZh = locale === 'zh'
   const title = isZh ? '矿物分类组' : 'Mineral Groups'
   const lede = isZh
-    ? '天然宝石按化学成分与结构可分为多个族。以下是宝石学中最重要的八个组：'
-    : 'Natural gems fall into distinct families by chemistry and crystal structure. The eight below are the most important in gemology:'
+    ? '天然宝石按化学成分与结构可分为多个族。以下是宝石学中最重要的九个组：'
+    : 'Natural gems fall into distinct families by chemistry and crystal structure. The nine below are the most important in gemology:'
   const rows = groups.map(g =>
     `| [${isZh ? g.name_zh : g.name_en}](${g.id}) | ${isZh ? g.formula_class : g.formula_class_en} |`
   ).join('\n')
@@ -75,7 +75,7 @@ function overviewPage(locale: 'en' | 'zh'): string {
     '',
     lede,
     '',
-    isZh ? '## 八个主要组' : '## Eight Major Groups',
+    isZh ? '## 九个主要组' : '## Nine Major Groups',
     '',
     isZh ? '| 组 | 化学式类型 |' : '| Group | Formula Class |',
     '|---|---|',

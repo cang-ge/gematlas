@@ -4,62 +4,69 @@ gem: peridot
 ---
 
 
-# Peridot
-<img src="../images/gems/peridot/peridot.jpg" alt="Peridot" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> Olivine
-
-<!-- language switcher hint -->
-中文: [橄榄石](/zh/gems/peridot)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">Gemstone Index</a><span aria-hidden="true">/</span><span>Peridot</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-peridot">
+  <div class="gem-detail__identity">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 35</p>
+    <h1 id="gem-detail-title-peridot">Peridot<span>橄榄石</span></h1>
+    <p class="gem-detail__species"><span>Mineral identity</span>Olivine</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>Formula</dt><dd>(Mg,Fe)₂SiO₄</dd></div>
+      <div><dt>Crystal system</dt><dd>Orthorhombic</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>Mohs</dt><dd>6.75</dd></div>
+      <div><dt>Specific gravity</dt><dd>3.28</dd></div>
+      <div><dt>Refractive index</dt><dd>1.635-1.690</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../zh/gems/peridot.html" hreflang="zh-CN">中文: 橄榄石 <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/peridot/peridot.jpg" alt="Peridot" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+</div>
 
 ## Classification
 
-| Property | Value |
-|---|---|
-| Mineral Family | Olivine |
-| Formula | (Mg,Fe)₂SiO₄ |
-| Crystal System | orthorhombic |
+<p class="gem-detail__section-kicker">IDENTITY / SPECIES RECORD</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Mineral Family</th><td>Olivine</td></tr><tr><th scope="row">Formula</th><td>(Mg,Fe)₂SiO₄</td></tr><tr><th scope="row">Crystal System</th><td>Orthorhombic</td></tr></tbody>
+</table>
 
 ## Physical Properties
 
-| Property | Value |
-|---|---|
-| Mohs Hardness | 6.75 |
-| Specific Gravity | 3.28 |
-| Refractive Index | 1.635-1.690 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Mohs Hardness</th><td>6.75</td></tr><tr><th scope="row">Specific Gravity</th><td>3.28</td></tr><tr><th scope="row">Refractive Index</th><td>1.635-1.690</td></tr></tbody>
+</table>
 
 ## Optical Properties
 
-| Property | Value |
-|---|---|
-| Pleochroism | weak |
-| Typical Colors | Olive green, Yellowish green, Brownish green |
-| Color Cause | Fe²⁺ produces yellow-green to olive-green |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Pleochroism</th><td>Weak</td></tr><tr><th scope="row">Typical Colors</th><td>Olive green, Yellowish green, Brownish green</td></tr><tr><th scope="row">Color Cause</th><td>Fe²⁺ produces yellow-green to olive-green</td></tr></tbody>
+</table>
 
 ## Treatments & Disclosure
 
-| Treatment | Details |
-|-----------|---------|
-| Common Methods | None / Typically untreated |
-| Disclosure Required | No |
-| Note | Peridot is typically untreated; rare meteoritic origin commands premium prices |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>Common methods</span><strong>None / typically untreated</strong></div>
+  <div class="gem-detail__treatment-row"><span>Disclosure required</span><strong class="">No</strong></div>
+  <p class="gem-detail__treatment-note"><span>Note</span>Peridot is typically untreated; rare meteoritic origin commands premium prices</p>
+</div>
 
 ## Origin
 
-| Region |
-|---|
-| St. John's Island, Egypt |
-| China |
-| Pakistan |
-| Arizona, USA |
+<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>St. John&#39;s Island, Egypt</li><li>China</li><li>Pakistan</li><li>Arizona, USA</li></ul></div>
 
 ## History & Lore
 
-Among the oldest gemstones, peridot was Egypt's 'gem of the sun'. China and Pakistan now lead supply.
+<div class="gem-detail__prose">Among the oldest gemstones, peridot was Egypt&#39;s &#39;gem of the sun&#39;. China and Pakistan now lead supply.<br /></div>
 
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>
+<nav class="gem-detail__pager" aria-label="Gemstone record navigation">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./pearl.html" aria-label="Previous Pearl"><i aria-hidden="true">←</i><span>Previous</span><strong>Pearl</strong><small>珍珠</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="Return to gemstone index"><span>Return to index</span><strong>35 / 60</strong><small>All species</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./prehnite.html" aria-label="Next Prehnite"><span>Next</span><strong>Prehnite</strong><small>葡萄石</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

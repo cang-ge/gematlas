@@ -30,7 +30,7 @@ export default defineConfig({
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@200;300;400;500;600;700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@400;500;600;700&family=Long+Cang&family=Noto+Serif+SC:wght@200;300;400;500;600;700&display=swap',
       },
     ],
   ],
@@ -54,6 +54,8 @@ export default defineConfig({
       themeConfig: {
         nav: navZh(),
         sidebar: sidebarZh(),
+        outline: { level: [2, 3], label: '本页内容' },
+        docFooter: { prev: '上一页', next: '下一页' },
       },
     },
   },
@@ -98,6 +100,7 @@ function navEn() {
     { text: 'Cutting', link: '/cutting/intro' },
     { text: 'Grading', link: '/grading/intro' },
     { text: 'Gallery', link: '/gallery/intro' },
+    { text: 'Gemstone Index', link: '/gems/' },
   ]
 }
 
@@ -108,6 +111,7 @@ function navZh() {
     { text: '切割', link: '/zh/cutting/intro' },
     { text: '分级', link: '/zh/grading/intro' },
     { text: '画廊', link: '/zh/gallery/intro' },
+    { text: '宝石名录', link: '/zh/gems/' },
   ]
 }
 
@@ -115,9 +119,12 @@ function navZh() {
 
 function sidebarEn() {
   return {
+    '/gems/': [{ text: 'Gemstone Index', items: [
+      { text: 'All 60 Species', link: '/gems/' },
+    ] }],
     '/classification/': [{ text: 'Classification', items: [
       { text: 'Overview', link: '/classification/intro' },
-      { text: 'Crystal Systems', items: [
+      { text: 'Crystal Systems', collapsed: true, items: [
         { text: 'Cubic (Isometric)', link: '/classification/crystal-systems/cubic' },
         { text: 'Tetragonal', link: '/classification/crystal-systems/tetragonal' },
         { text: 'Orthorhombic', link: '/classification/crystal-systems/orthorhombic' },
@@ -126,7 +133,7 @@ function sidebarEn() {
         { text: 'Monoclinic', link: '/classification/crystal-systems/monoclinic' },
         { text: 'Triclinic', link: '/classification/crystal-systems/triclinic' },
       ] },
-      { text: 'Mineral Groups', items: [
+      { text: 'Mineral Groups', collapsed: true, items: [
         { text: 'Overview', link: '/classification/mineral-groups/intro' },
         { text: 'Native Elements', link: '/classification/mineral-groups/native-elements' },
         { text: 'Oxides', link: '/classification/mineral-groups/oxides' },
@@ -138,16 +145,17 @@ function sidebarEn() {
         { text: 'Sulfides', link: '/classification/mineral-groups/sulfides' },
         { text: 'Halides', link: '/classification/mineral-groups/halides' },
       ] },
-      { text: 'Optical Phenomena', items: [
+      { text: 'Optical Phenomena', collapsed: true, items: [
         { text: 'Overview', link: '/classification/optical-phenomena/intro' },
         { text: 'Asterism (Star)', link: '/classification/optical-phenomena/asterism' },
         { text: 'Chatoyancy (Cat\'s-Eye)', link: '/classification/optical-phenomena/chatoyancy' },
         { text: 'Color Change', link: '/classification/optical-phenomena/color-change' },
+        { text: 'Play of Color (Opal)', link: '/classification/optical-phenomena/play-of-color' },
         { text: 'Adularescence (Moonstone)', link: '/classification/optical-phenomena/adularescence' },
         { text: 'Labradorescence (Spectrolite)', link: '/classification/optical-phenomena/labradorescence' },
         { text: 'Aventurescence (Sunstone)', link: '/classification/optical-phenomena/aventurescence' },
       ] },
-      { text: 'Color Cause', items: [
+      { text: 'Color Cause', collapsed: true, items: [
         { text: 'Overview', link: '/classification/color-causes/intro' },
         { text: 'Transition-Metal Ions', link: '/classification/color-causes/transition-metal' },
         { text: 'Color Centers', link: '/classification/color-causes/color-centers' },
@@ -156,6 +164,7 @@ function sidebarEn() {
     ] }],
     '/identification/': [{ text: 'Identification', items: [
       { text: 'Overview', link: '/identification/intro' },
+      { text: 'Identification Workflow & Documentation', link: '/identification/identification-workflow' },
       { text: 'Physical Tests', link: '/identification/physical-tests' },
       { text: 'Optical Tests', link: '/identification/optical-tests' },
       { text: 'Synthetics & Imitations', link: '/identification/synthetic-and-imitation' },
@@ -163,6 +172,7 @@ function sidebarEn() {
     ] }],
     '/cutting/':         [{ text: 'Cutting', items: [
       { text: 'Overview', link: '/cutting/intro' },
+      { text: 'Rough Planning & Orientation', link: '/cutting/rough-planning' },
       { text: 'Round Brilliant Cut', link: '/cutting/brilliant-cut' },
       { text: 'Fancy Cuts', link: '/cutting/fancy-cuts' },
       { text: 'Cabochon & Carving', link: '/cutting/cabochon-and-carving' },
@@ -178,6 +188,7 @@ function sidebarEn() {
       { text: 'Overview', link: '/gallery/intro' },
       { text: 'By Maison', link: '/gallery/by-house' },
       { text: 'By Style Era', link: '/gallery/by-style' },
+      { text: 'Object Records & Image Evidence', link: '/gallery/archive-reading' },
       { text: 'Legendary Stones', link: '/gallery/legendary-stones' },
     ] }],
   }
@@ -185,9 +196,12 @@ function sidebarEn() {
 
 function sidebarZh() {
   return {
+    '/zh/gems/': [{ text: '宝石名录', items: [
+      { text: '全部 60 种宝石', link: '/zh/gems/' },
+    ] }],
     '/zh/classification/': [{ text: '分类', items: [
       { text: '总览', link: '/zh/classification/intro' },
-      { text: '晶系', items: [
+      { text: '晶系', collapsed: true, items: [
         { text: '等轴晶系', link: '/zh/classification/crystal-systems/cubic' },
         { text: '四方晶系', link: '/zh/classification/crystal-systems/tetragonal' },
         { text: '斜方晶系', link: '/zh/classification/crystal-systems/orthorhombic' },
@@ -196,7 +210,7 @@ function sidebarZh() {
         { text: '单斜晶系', link: '/zh/classification/crystal-systems/monoclinic' },
         { text: '三斜晶系', link: '/zh/classification/crystal-systems/triclinic' },
       ] },
-      { text: '矿物分类组', items: [
+      { text: '矿物分类组', collapsed: true, items: [
         { text: '总览', link: '/zh/classification/mineral-groups/intro' },
         { text: '单质（原生元素）', link: '/zh/classification/mineral-groups/native-elements' },
         { text: '氧化物', link: '/zh/classification/mineral-groups/oxides' },
@@ -208,16 +222,17 @@ function sidebarZh() {
         { text: '硫化物', link: '/zh/classification/mineral-groups/sulfides' },
         { text: '卤化物', link: '/zh/classification/mineral-groups/halides' },
       ] },
-      { text: '光学现象', items: [
+      { text: '光学现象', collapsed: true, items: [
         { text: '总览', link: '/zh/classification/optical-phenomena/intro' },
         { text: '星光效应', link: '/zh/classification/optical-phenomena/asterism' },
         { text: '猫眼效应', link: '/zh/classification/optical-phenomena/chatoyancy' },
         { text: '变色效应', link: '/zh/classification/optical-phenomena/color-change' },
+        { text: '变彩（欧泊）', link: '/zh/classification/optical-phenomena/play-of-color' },
         { text: '月光效应', link: '/zh/classification/optical-phenomena/adularescence' },
         { text: '拉长晕彩', link: '/zh/classification/optical-phenomena/labradorescence' },
         { text: '砂金效应', link: '/zh/classification/optical-phenomena/aventurescence' },
       ] },
-      { text: '颜色成因', items: [
+      { text: '颜色成因', collapsed: true, items: [
         { text: '总览', link: '/zh/classification/color-causes/intro' },
         { text: '过渡金属离子', link: '/zh/classification/color-causes/transition-metal' },
         { text: '色心致色', link: '/zh/classification/color-causes/color-centers' },
@@ -226,6 +241,7 @@ function sidebarZh() {
     ] }],
     '/zh/identification/': [{ text: '鉴定', items: [
       { text: '总览', link: '/zh/identification/intro' },
+      { text: '鉴定工作流与记录', link: '/zh/identification/identification-workflow' },
       { text: '物理性质测试', link: '/zh/identification/physical-tests' },
       { text: '光学测试', link: '/zh/identification/optical-tests' },
       { text: '合成品与仿品鉴别', link: '/zh/identification/synthetic-and-imitation' },
@@ -233,6 +249,7 @@ function sidebarZh() {
     ] }],
     '/zh/cutting/':        [{ text: '切割', items: [
       { text: '总览', link: '/zh/cutting/intro' },
+      { text: '原石规划与定向', link: '/zh/cutting/rough-planning' },
       { text: '圆明亮式切工', link: '/zh/cutting/brilliant-cut' },
       { text: '花式切工', link: '/zh/cutting/fancy-cuts' },
       { text: '蛋面与雕刻', link: '/zh/cutting/cabochon-and-carving' },
@@ -248,6 +265,7 @@ function sidebarZh() {
       { text: '总览', link: '/zh/gallery/intro' },
       { text: '顶级珠宝工坊', link: '/zh/gallery/by-house' },
       { text: '设计风格史', link: '/zh/gallery/by-style' },
+      { text: '作品档案与图像证据', link: '/zh/gallery/archive-reading' },
       { text: '传奇宝石', link: '/zh/gallery/legendary-stones' },
     ] }],
   }

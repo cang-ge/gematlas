@@ -4,67 +4,77 @@ gem: moonstone
 ---
 
 
-# 月光石
-<img src="../../images/gems/moonstone/moonstone.png" alt="月光石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 长石族
-
-<!-- language switcher hint -->
-English: [Moonstone](/gems/moonstone)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>月光石</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-moonstone">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 28</p>
+    <h1 id="gem-detail-title-moonstone">月光石<span>Moonstone</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>长石族</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>(K,Na)AlSi₃O₈ (with albite lamellae)</dd></div>
+      <div><dt>晶系</dt><dd>单斜晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>6.25</dd></div>
+      <div><dt>比重</dt><dd>2.57</dd></div>
+      <div><dt>折射率</dt><dd>1.518-1.530</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/moonstone.html" hreflang="en">English: Moonstone <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/moonstone/moonstone.png" alt="月光石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 长石族 |
-| 化学式 | (K,Na)AlSi₃O₈ (with albite lamellae) |
-| 晶系 | monoclinic |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>长石族</td></tr><tr><th scope="row">化学式</th><td>(K,Na)AlSi₃O₈ (with albite lamellae)</td></tr><tr><th scope="row">晶系</th><td>单斜晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 6.25 |
-| 比重 | 2.57 |
-| 折射率 | 1.518-1.530 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>6.25</td></tr><tr><th scope="row">比重</th><td>2.57</td></tr><tr><th scope="row">折射率</th><td>1.518-1.530</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | none |
-| 典型颜色 | 白色带蓝光, 白色带银光, 白色带彩光 |
-| 致色原因 | 钠长石/正长石层状散射（见光学现象-月光效应） |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>无</td></tr><tr><th scope="row">典型颜色</th><td>白色带蓝光、白色带银光、白色带彩光</td></tr><tr><th scope="row">致色原因</th><td>钠长石/正长石层状散射（见光学现象-月光效应）</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | wax-impregnation, surface-coating |
-| 需披露 | 是 |
-| 备注 | 薄层间隙充填可改善月光效应 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>蜡浸渍、表面涂层</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>薄层间隙充填可改善月光效应</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 斯里兰卡 |
-| 印度 |
-| 马达加斯加 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>斯里兰卡</li><li>印度</li><li>马达加斯加</li></ul></div>
 
 ## 历史与传说
 
-月光石月光效应来自长石层状结构散射，古罗马人认为其凝结了月光。
+<div class="gem-detail__prose">月光石月光效应来自长石层状结构散射，古罗马人认为其凝结了月光。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/moonstone/moonstone-gallery-1.jpg" alt="月光石" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/moonstone/moonstone-gallery-2.jpg" alt="月光石" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+<figure><img src="../../images/gems/moonstone/moonstone-gallery-3.jpg" alt="月光石" loading="lazy" decoding="async"><figcaption>证据 03</figcaption></figure>
+</div>
 
-<img src="../../images/gems/moonstone/moonstone-gallery-1.jpg" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/moonstone/moonstone-gallery-2.jpg" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/moonstone/moonstone-gallery-3.jpg" alt="月光石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./malachite.html" aria-label="上一颗 孔雀石"><i aria-hidden="true">←</i><span>上一颗</span><strong>孔雀石</strong><small>Malachite</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>28 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./morganite.html" aria-label="下一颗 摩根石"><span>下一颗</span><strong>摩根石</strong><small>Morganite</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

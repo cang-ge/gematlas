@@ -48,9 +48,13 @@ function renderCard(work: ReturnType<typeof MaisonWorksFile.parse>['works'][numb
   const craft = isZh ? (work.craft_zh || work.craft) : work.craft
   const style = isZh ? (work.style_zh || work.style) : work.style
   const summary = isZh ? work.summary_zh : work.summary_en
+  const archiveRelation = isZh ? work.archive_relation_zh : work.archive_relation_en
   const gems = work.gems.join(' · ')
   const sourceText = isZh ? '查看资料来源 ↗' : 'Open source ↗'
   const image = `<a class="maison-work-card__media" href="${escapeHtml(work.image_source_url || work.source_url)}" target="_blank" rel="noreferrer"><img src="${escapeHtml(imageSrc(work.image, locale))}" alt="${escapeHtml(title)}" loading="lazy"></a>`
+  const relation = archiveRelation
+    ? `    <p class="maison-work-card__relation"><strong>${isZh ? '档案关系' : 'Archive relation'}</strong>${escapeHtml(archiveRelation)}</p>`
+    : ''
 
   return `<article class="maison-work-card">
   ${image}
@@ -63,6 +67,7 @@ function renderCard(work: ReturnType<typeof MaisonWorksFile.parse>['works'][numb
       <div><dt>${isZh ? '风格' : 'Style'}</dt><dd>${escapeHtml(style)}</dd></div>
     </dl>
     <p>${escapeHtml(summary)}</p>
+${relation}
     <a class="maison-work-card__source" href="${escapeHtml(work.source_url)}" target="_blank" rel="noreferrer">${sourceText}</a>
   </div>
 </article>`
@@ -72,11 +77,11 @@ function renderPage(works: ReturnType<typeof MaisonWorksFile.parse>['works'], lo
   const isZh = locale === 'zh'
   const title = isZh ? '顶级珠宝工坊' : 'The Maison Archive'
   const lead = isZh
-    ? '首期以七家传奇工坊为线索，每家选取三件作品：一件看传承、一件看工艺、一件看宝石。所有图像均在本地保存，并记录可追溯的来源与授权信息。'
-    : 'A first-edition archive of seven legendary maisons. Each house is represented by three works: one for heritage, one for signature craft, and one for the gemstone itself. Every bundled image has a traceable source and recorded reuse terms.'
+    ? '首期以七家传奇工坊为线索，每家选取三条作品档案：一条看传承、一条看工艺、一条看宝石。相关卡片可能指向同一对象的不同状态或观察角度；所有图像均记录可追溯的来源与授权信息。'
+    : 'A first-edition archive of seven legendary maisons. Each house is represented by three object records: one for heritage, one for signature craft, and one for the gemstone itself. Related cards may describe the same object from different states or viewpoints; every bundled image has a traceable source and recorded reuse terms.'
   const guide = isZh
-    ? '按工坊浏览 21 件作品。点击图片可打开原始文件页，查看作者、机构与授权信息。'
-    : 'Browse 21 works by maison. Open any image to inspect its original file page, author, institution, and reuse terms.'
+    ? '按工坊浏览 21 条档案。点击图片可打开原始文件页，查看作者、机构与授权信息；看到“档案关系”时，请将它理解为同一对象的关联记录，而非自动新增一件作品。'
+    : 'Browse 21 object records by maison. Open any image to inspect its original file page, author, institution, and reuse terms; an “Archive relation” note marks a related view, not automatically a separate work.'
   const roleLegend = isZh ? '选品规则：历史代表作 · 招牌工艺作 · 宝石主角作' : 'Selection rule: heritage · signature craft · gemstone focus'
   const nav = HOUSES.map(h => `<a href="#${h.id}">${h.name}</a>`).join('')
   const sections = HOUSES.map(h => {
@@ -113,7 +118,7 @@ ${sections}
 
 <div class="maison-archive-note">
 <strong>${isZh ? '资料边界' : 'Editorial boundary'}</strong>
-<p>${isZh ? '本页将作品资料来源与图片授权来源分开记录。所有卡片均使用本地图片，授权信息集中维护在[图片署名页](../image-credits)。' : 'Work sources and image-rights sources are recorded separately. Every card uses a local image, with reuse details maintained on the [image credits page](../image-credits).'}</p>
+<p>${isZh ? '本页将对象/作品资料来源与图片授权来源分开记录。所有卡片均使用本地图片，授权信息集中维护在[图片署名页](../image-credits)；同一对象的关联档案会在卡片中明确标出。' : 'Object or work sources and image-rights sources are recorded separately. Every card uses a local image, with reuse details maintained on the [image credits page](../image-credits); related records for one object are labelled on the card.'}</p>
 </div>
 
 *${isZh ? '返回[画廊总览](intro)。' : 'Return to the [gallery overview](intro).'}*

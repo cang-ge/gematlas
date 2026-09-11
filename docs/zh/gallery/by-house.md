@@ -6,13 +6,13 @@ gallery: by-house
 # 顶级珠宝工坊
 
 <div class="maison-archive-hero">
-<p>首期以七家传奇工坊为线索，每家选取三件作品：一件看传承、一件看工艺、一件看宝石。所有图像均在本地保存，并记录可追溯的来源与授权信息。</p>
+<p>首期以七家传奇工坊为线索，每家选取三条作品档案：一条看传承、一条看工艺、一条看宝石。相关卡片可能指向同一对象的不同状态或观察角度；所有图像均记录可追溯的来源与授权信息。</p>
 <div class="maison-archive-hero__meta"><span>21 件作品</span><span>7 家工坊</span><span>选品规则：历史代表作 · 招牌工艺作 · 宝石主角作</span></div>
 </div>
 
 ## 按工坊浏览
 
-<p class="maison-archive-guide">按工坊浏览 21 件作品。点击图片可打开原始文件页，查看作者、机构与授权信息。</p>
+<p class="maison-archive-guide">按工坊浏览 21 条档案。点击图片可打开原始文件页，查看作者、机构与授权信息；看到“档案关系”时，请将它理解为同一对象的关联记录，而非自动新增一件作品。</p>
 <nav class="maison-index" aria-label="工坊索引"><a href="#cartier">Cartier</a><a href="#vca">Van Cleef & Arpels</a><a href="#boucheron">Boucheron</a><a href="#tiffany">Tiffany & Co.</a><a href="#harry-winston">Harry Winston</a><a href="#graff">Graff</a><a href="#chaumet">Chaumet</a></nav>
 
 <section class="maison-section" id="cartier">
@@ -31,6 +31,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>装饰艺术植物纹样</dd></div>
     </dl>
     <p>将雕刻红宝石、祖母绿与蓝宝石组合为植物纹样，是 Cartier 彩宝语言的标志性样本。</p>
+
     <a class="maison-work-card__source" href="https://www.cartier.com/en-gb/maison/the-story/living-heritage/the-cartier-collection/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -45,6 +46,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>爵士时代几何构成</dd></div>
     </dl>
     <p>以活动链节和几何节奏组织佩戴结构，体现 Cartier 对柔性结构与装饰艺术比例的处理。</p>
+
     <a class="maison-work-card__source" href="https://www.cartier.com/en-gb/maison/the-story/living-heritage/the-cartier-collection/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -59,6 +61,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>美好年代礼仪珠宝</dd></div>
     </dl>
     <p>以蕾丝结般的镂空轮廓组织钻石与金属，适合作为 Cartier 历史珠宝中“轻盈结构”的观察样本。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Joyaux_dynastiques_H%C3%B4tel_de_la_Marine_broche_noeud_dentelle_diamants_platine_or.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article></div>
@@ -79,6 +82,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>立体主义装饰艺术</dd></div>
     </dl>
     <p>1920 年代的几何手镯，将阶梯式切工与铂金结构结合，呈现 VCA 早期现代主义面貌。</p>
+
     <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -93,6 +97,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>色彩主导的高级珠宝</dd></div>
     </dl>
     <p>以红宝石的饱和度建立视觉重心，并用钻石衬托色彩层次，适合观察彩宝与金属的关系。</p>
+
     <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -107,6 +112,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>爵士时代立体主义</dd></div>
     </dl>
     <p>将微型腕表、珍珠与链饰结构整合为吊坠，展示珠宝作品跨越装饰与功能的能力。</p>
+
     <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article></div>
@@ -127,6 +133,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>美好年代历史珠宝</dd></div>
     </dl>
     <p>为 1878 年巴黎世界博览会而作的历史项链，体现 Boucheron 早期对蓝宝石与钻石对比的运用。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Mackay_Necklace_Boucheron_1877.png" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -141,6 +148,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>中世纪建筑感珠宝</dd></div>
     </dl>
     <p>Petit Palais 藏品中的 Boucheron 管道项链，以轻量活动结构叠加钻石缎带，体现品牌对结构与反光的处理。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Collier_tuyau_%C3%A0_gaz,_PPO03791(1).jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -155,6 +163,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>装饰艺术色块构成</dd></div>
     </dl>
     <p>以青金石、珊瑚、翡翠、黑玉和绿松石组织多色层次，适合作为 Boucheron“宝石先行”设计的观察样本。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Boucheron,_devant_de_corsage,_1925,_oro_al_palladio,_lapislazzuli,_corallo,_giada,_onice,_turchese,_strass_(parigi,_coll._boucheron).jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article></div>
@@ -175,6 +184,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>现代订婚戒指图标</dd></div>
     </dl>
     <p>将钻石抬离戒圈并最大化进光面，是现代订婚戒指产品形态的重要起点。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiffany_setting.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -189,6 +199,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>有机现代主义</dd></div>
     </dl>
     <p>以铂金丝带般的结构包裹主石，体现 Schlumberger 对自然形态、动势与结构张力的处理。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Jean_schlumberger_per_tiffany_%26_co.,_spilla_fiocco_schlumberger,_con_acquamarina_da_148,5_carati,_diamanti,_platino_e_oro.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -203,6 +214,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>标志性彩钻</dd></div>
     </dl>
     <p>以公开授权的 Tiffany 黄钻图像补充宝石主角视角，聚焦品牌如何围绕单颗高价值彩钻建立叙事。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiffany_Diamond.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article></div>
@@ -223,6 +235,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>印度宫廷式历史华丽感</dd></div>
     </dl>
     <p>由祖母绿与钻石构成的历史项链，后由 Harry Winston 命名并进入史密森尼收藏体系。</p>
+
     <a class="maison-work-card__source" href="https://naturalhistory.si.edu/explore/collections/geogallery/10002801" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -237,6 +250,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>钻石主导的自然主义</dd></div>
     </dl>
     <p>以不同角度排列的钻石制造花簇般的连续闪光，是 Harry Winston 识别度最高的设计语言之一。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace_2.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -251,6 +265,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>钻石主导的机构档案</dd></div>
     </dl>
     <p>Harry Winston 于 1949 年购入 Hope Diamond，并于 1958 年捐赠给 Smithsonian；该档案图像用于观察宝石、展陈与品牌叙事的关系。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:The_Hope_Diamond_(107006041).jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article></div>
@@ -261,44 +276,47 @@ gallery: by-house
     <p>稀有宝石 · 溯源叙事</p>
   </header>
   <div class="maison-work-grid"><article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach.png" alt="Wittelsbach-Graff 钻石" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach.png" alt="Wittelsbach 钻石 · 再切割前档案" loading="lazy"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>宝石主角作</span><time>17th century / recut 2008</time></div>
-    <h3>Wittelsbach-Graff 钻石</h3>
+    <h3>Wittelsbach 钻石 · 再切割前档案</h3>
     <dl class="maison-work-card__facts">
       <div><dt>宝石</dt><dd>blue-diamond</dd></div>
       <div><dt>工艺</dt><dd>历史钻石再切割</dd></div>
       <div><dt>风格</dt><dd>传奇彩钻</dd></div>
     </dl>
     <p>以 Wittelsbach 钻石再切割前的公开图像作为档案参照，讨论宝石历史、切工决策与品牌叙事之间的关系。</p>
+    <p class="maison-work-card__relation"><strong>档案关系</strong>与 Graff 的再切割后记录属于同一颗宝石的前后对读。</p>
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach-after.jpg" alt="Wittelsbach-Graff 成品钻石" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach-after.jpg" alt="Wittelsbach 钻石 · 再切割后档案" loading="lazy"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>招牌工艺作</span><time>2008 recut</time></div>
-    <h3>Wittelsbach-Graff 成品钻石</h3>
+    <h3>Wittelsbach 钻石 · 再切割后档案</h3>
     <dl class="maison-work-card__facts">
       <div><dt>宝石</dt><dd>blue-diamond</dd></div>
       <div><dt>工艺</dt><dd>历史钻石再切割</dd></div>
       <div><dt>风格</dt><dd>传奇彩钻</dd></div>
     </dl>
-    <p>公开授权的再切割后图像与前期档案形成对照，适合观察 Graff 如何通过切工更新宝石的视觉与品牌价值。</p>
+    <p>公开授权的再切割后图像与前期档案形成对照，适合观察 Graff 如何通过切工更新宝石的视觉与品牌价值；它不是另一颗独立宝石。</p>
+    <p class="maison-work-card__relation"><strong>档案关系</strong>与上一条记录为同一颗宝石的再切割后状态，共同构成前后对照。</p>
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach-after.jpg" alt="Wittelsbach-Graff 切工细节" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach-after.jpg" alt="Wittelsbach 钻石 · 切工观察档案" loading="lazy"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>历史代表作</span><time>2008 recut</time></div>
-    <h3>Wittelsbach-Graff 切工细节</h3>
+    <h3>Wittelsbach 钻石 · 切工观察档案</h3>
     <dl class="maison-work-card__facts">
       <div><dt>宝石</dt><dd>blue-diamond</dd></div>
       <div><dt>工艺</dt><dd>精密切磨与宝石溯源</dd></div>
       <div><dt>风格</dt><dd>产地与溯源叙事</dd></div>
     </dl>
-    <p>以公开授权的成品图像补足 Graff 工坊的切工研究视角，并与再切割前图像共同构成档案对读。</p>
+    <p>以同一公开授权成品图像建立切工观察索引，帮助读者把“工坊记录”与“宝石对象”分开理解；它不代表另一件独立作品。</p>
+    <p class="maison-work-card__relation"><strong>档案关系</strong>与再切割后档案共用同一图像来源，仅作为关联的切工观察视角。</p>
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article></div>
@@ -319,6 +337,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>埃及复兴风格</dd></div>
     </dl>
     <p>将埃及复兴风格与几何宝石构成结合，体现 Chaumet 对历史图像和时代装饰风格的转译。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Egyptian_brooch_-_Chaumet_(39643558802).jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -333,6 +352,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>浪漫主义历史珠宝</dd></div>
     </dl>
     <p>1830 年由 Jean-Baptiste Fossin 制作的 Chaumet 皇冠，以蔷薇与茉莉花卉展开宫廷珠宝传统。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiara_with_brier_rose_and_jasmine_by_Chaumet.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article>
@@ -347,6 +367,7 @@ gallery: by-house
       <div><dt>风格</dt><dd>旺多姆广场礼仪珠宝</dd></div>
     </dl>
     <p>以公开授权的 Chaumet 成品图像补充品牌的钻石珠宝样本，聚焦项链比例、光泽和佩戴轮廓。</p>
+
     <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Chaumet_vendome.JPG" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
   </div>
 </article></div>
@@ -354,7 +375,7 @@ gallery: by-house
 
 <div class="maison-archive-note">
 <strong>资料边界</strong>
-<p>本页将作品资料来源与图片授权来源分开记录。所有卡片均使用本地图片，授权信息集中维护在[图片署名页](../image-credits)。</p>
+<p>本页将对象/作品资料来源与图片授权来源分开记录。所有卡片均使用本地图片，授权信息集中维护在[图片署名页](../image-credits)；同一对象的关联档案会在卡片中明确标出。</p>
 </div>
 
 *返回[画廊总览](intro)。*

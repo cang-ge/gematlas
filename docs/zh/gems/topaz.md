@@ -4,67 +4,76 @@ gem: topaz
 ---
 
 
-# 黄玉
-<img src="../../images/gems/topaz/topaz.jpg" alt="黄玉" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 黄玉族
-
-<!-- language switcher hint -->
-English: [Topaz](/gems/topaz)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>黄玉</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-topaz">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 56</p>
+    <h1 id="gem-detail-title-topaz">黄玉<span>Topaz</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>黄玉族</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>Al₂SiO₄(F,OH)₂</dd></div>
+      <div><dt>晶系</dt><dd>斜方晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>8</dd></div>
+      <div><dt>比重</dt><dd>3.54</dd></div>
+      <div><dt>折射率</dt><dd>1.609-1.643</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/topaz.html" hreflang="en">English: Topaz <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/topaz/topaz.jpg" alt="黄玉" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 黄玉族 |
-| 化学式 | Al₂SiO₄(F,OH)₂ |
-| 晶系 | orthorhombic |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>黄玉族</td></tr><tr><th scope="row">化学式</th><td>Al₂SiO₄(F,OH)₂</td></tr><tr><th scope="row">晶系</th><td>斜方晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 8 |
-| 比重 | 3.54 |
-| 折射率 | 1.609-1.643 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>8</td></tr><tr><th scope="row">比重</th><td>3.54</td></tr><tr><th scope="row">折射率</th><td>1.609-1.643</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | weak |
-| 典型颜色 | 帝国黄, 蓝色, 粉色, 无色, 雪莉酒色 |
-| 致色原因 | 黄色：色心；蓝色 / 粉色：色心 + 辐照 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>弱</td></tr><tr><th scope="row">典型颜色</th><td>帝国黄、蓝色、粉色、无色、雪莉酒色</td></tr><tr><th scope="row">致色原因</th><td>黄色：色心；蓝色 / 粉色：色心 + 辐照</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | heat-treatment, irradiation |
-| 需披露 | 是 |
-| 备注 | 市售蓝色托帕石多为辐照 + 加热处理 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>热处理、辐照</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>市售蓝色托帕石多为辐照 + 加热处理</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 巴西米纳斯吉拉斯 |
-| 俄罗斯乌拉尔 |
-| 美国犹他 |
-| 尼日利亚 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>巴西米纳斯吉拉斯</li><li>俄罗斯乌拉尔</li><li>美国犹他</li><li>尼日利亚</li></ul></div>
 
 ## 历史与传说
 
-帝王托帕石（黄橙）最珍贵，古埃及传说源于太阳岛。蓝托帕石多经辐照改色。
+<div class="gem-detail__prose">帝王托帕石（黄橙）最珍贵，古埃及传说源于太阳岛。蓝托帕石多经辐照改色。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/topaz/topaz-gallery-1.jpg" alt="黄玉" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/topaz/topaz-gallery-2.jpg" alt="黄玉" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+</div>
 
-<img src="../../images/gems/topaz/topaz-gallery-1.jpg" alt="黄玉" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/topaz/topaz-gallery-2.jpg" alt="黄玉" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./tigers-eye.html" aria-label="上一颗 虎眼石"><i aria-hidden="true">←</i><span>上一颗</span><strong>虎眼石</strong><small>Tiger&#39;s Eye</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>56 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./tourmaline.html" aria-label="下一颗 碧玺"><span>下一颗</span><strong>碧玺</strong><small>Tourmaline</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

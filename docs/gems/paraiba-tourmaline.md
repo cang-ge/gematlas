@@ -4,66 +4,76 @@ gem: paraiba-tourmaline
 ---
 
 
-# Paraíba Tourmaline
-<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline.jpg" alt="Paraíba Tourmaline" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> Tourmaline
-
-<!-- language switcher hint -->
-中文: [帕拉伊巴碧玺](/zh/gems/paraiba-tourmaline)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">Gemstone Index</a><span aria-hidden="true">/</span><span>Paraíba Tourmaline</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-paraiba-tourmaline">
+  <div class="gem-detail__identity">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 33</p>
+    <h1 id="gem-detail-title-paraiba-tourmaline">Paraíba Tourmaline<span>帕拉伊巴碧玺</span></h1>
+    <p class="gem-detail__species"><span>Mineral identity</span>Tourmaline</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>Formula</dt><dd>Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃</dd></div>
+      <div><dt>Crystal system</dt><dd>Trigonal</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>Mohs</dt><dd>7.5</dd></div>
+      <div><dt>Specific gravity</dt><dd>3.06</dd></div>
+      <div><dt>Refractive index</dt><dd>1.614-1.666</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../zh/gems/paraiba-tourmaline.html" hreflang="zh-CN">中文: 帕拉伊巴碧玺 <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline.jpg" alt="Paraíba Tourmaline" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+</div>
 
 ## Classification
 
-| Property | Value |
-|---|---|
-| Mineral Family | Tourmaline |
-| Formula | Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃ |
-| Crystal System | trigonal |
+<p class="gem-detail__section-kicker">IDENTITY / SPECIES RECORD</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Mineral Family</th><td>Tourmaline</td></tr><tr><th scope="row">Formula</th><td>Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃</td></tr><tr><th scope="row">Crystal System</th><td>Trigonal</td></tr></tbody>
+</table>
 
 ## Physical Properties
 
-| Property | Value |
-|---|---|
-| Mohs Hardness | 7.5 |
-| Specific Gravity | 3.06 |
-| Refractive Index | 1.614-1.666 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Mohs Hardness</th><td>7.5</td></tr><tr><th scope="row">Specific Gravity</th><td>3.06</td></tr><tr><th scope="row">Refractive Index</th><td>1.614-1.666</td></tr></tbody>
+</table>
 
 ## Optical Properties
 
-| Property | Value |
-|---|---|
-| Pleochroism | strong |
-| Typical Colors | Neon Blue, Blue-Green, Violet |
-| Color Cause | Cu²⁺ trace ions cause neon hues (origin premium driver) |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
+  <tbody><tr><th scope="row">Pleochroism</th><td>Strong</td></tr><tr><th scope="row">Typical Colors</th><td>Neon Blue, Blue-Green, Violet</td></tr><tr><th scope="row">Color Cause</th><td>Cu²⁺ trace ions cause neon hues (origin premium driver)</td></tr></tbody>
+</table>
 
 ## Treatments & Disclosure
 
-| Treatment | Details |
-|-----------|---------|
-| Common Methods | heat-treatment |
-| Disclosure Required | Yes |
-| Note | Original Brazilian Paraíba is scarce; Mozambique material trades at lower premium |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>Common methods</span><strong>Heat treatment</strong></div>
+  <div class="gem-detail__treatment-row"><span>Disclosure required</span><strong class="is-required">Yes</strong></div>
+  <p class="gem-detail__treatment-note"><span>Note</span>Original Brazilian Paraíba is scarce; Mozambique material trades at lower premium</p>
+</div>
 
 ## Origin
 
-| Region |
-|---|
-| Paraíba, Brazil |
-| Nigeria |
-| Mozambique |
+<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Paraíba, Brazil</li><li>Nigeria</li><li>Mozambique</li></ul></div>
 
 ## History & Lore
 
-Discovered in Paraíba (Brazil) in 1989; copper gives its electric neon blue. Instantly iconic and among the priciest tourmalines.
+<div class="gem-detail__prose">Discovered in Paraíba (Brazil) in 1989; copper gives its electric neon blue. Instantly iconic and among the priciest tourmalines.<br /></div>
 
+## Image Evidence
 
-## Gallery
+<div class="gem-detail__gallery" aria-label="Image evidence gallery">
+<figure><img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-1.jpg" alt="Paraíba Tourmaline" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-2.jpg" alt="Paraíba Tourmaline" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+</div>
 
-<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-1.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../images/gems/paraiba-tourmaline/paraiba-tourmaline-gallery-2.jpg" alt="Paraíba Tourmaline" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>
+<nav class="gem-detail__pager" aria-label="Gemstone record navigation">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./opal.html" aria-label="Previous Opal"><i aria-hidden="true">←</i><span>Previous</span><strong>Opal</strong><small>欧泊</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="Return to gemstone index"><span>Return to index</span><strong>33 / 60</strong><small>All species</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./pearl.html" aria-label="Next Pearl"><span>Next</span><strong>Pearl</strong><small>珍珠</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

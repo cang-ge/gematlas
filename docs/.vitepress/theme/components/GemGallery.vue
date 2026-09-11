@@ -7,12 +7,28 @@ Usage:
   <GemGallery locale="en" />
 -->
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { computed, ref } from 'vue'
+import { withBase } from 'vitepress'
 
-defineProps<{ locale?: 'en' | 'zh' }>()
+type Locale = 'en' | 'zh'
+type Gem = {
+  id: string
+  en: string
+  zh: string
+  mineral: string
+  h: number
+}
+type GemGroup = {
+  id: string
+  name_zh: string
+  name_en: string
+  gems: Gem[]
+}
+
+const props = defineProps<{ locale?: Locale }>()
 
 // ponytail: data grouped directly, no runtime fetch.
-const GROUPS = [
+const GROUPS: GemGroup[] = [
   {
     id: 'prestige',
     name_zh: '经典名贵宝石',
@@ -117,40 +133,196 @@ const GROUPS = [
   },
 ]
 
-const activeTab = ref(GROUPS[0].id)
+const ALL_GEMS = GROUPS.flatMap(group => group.gems.map(gem => ({ ...gem, groupId: group.id })))
+const totalCount = ALL_GEMS.length
+const query = ref('')
+const activeGroup = ref('all')
+const sortBy = ref<'curated' | 'name' | 'hardness'>('curated')
 
-const currentGroup = computed(() => GROUPS.find(g => g.id === activeTab.value) || GROUPS[0])
+const mineralNamesZh: Record<string, string> = {
+  Diamond: '金刚石',
+  Corundum: '刚玉',
+  Beryl: '绿柱石',
+  Chrysoberyl: '金绿宝石',
+  Spinel: '尖晶石',
+  Zoisite: '黝帘石',
+  Opal: '蛋白石',
+  Organic: '有机材料',
+  Quartz: '石英',
+  Garnet: '石榴石',
+  Olivine: '橄榄石',
+  Cordierite: '堇青石',
+  Zircon: '锆石',
+  Feldspar: '长石',
+  Jadeite: '硬玉',
+  Nephrite: '软玉',
+  Serpentine: '蛇纹石',
+  Prehnite: '葡萄石',
+  Tourmaline: '电气石',
+  Topaz: '黄玉',
+  Sugilite: '苏纪石',
+  Charoite: '紫硅碱钙石',
+  Lazurite: '青金石',
+  Sodalite: '方钠石',
+  Turquoise: '绿松石',
+  Spodumene: '锂辉石',
+  Kyanite: '蓝晶石',
+  Apatite: '磷灰石',
+  Malachite: '孔雀石',
+  Rhodochrosite: '菱锰矿',
+  Rhodonite: '蔷薇辉石',
+  Dioptase: '透视石',
+  Pyrite: '黄铁矿',
+  Obsidian: '黑曜石',
+  'Organic resin': '有机树脂',
+  Fluorite: '萤石',
+  Sphalerite: '闪锌矿',
+}
+
+const imageExtensions: Record<string, string> = {
+  morganite: 'png',
+  moonstone: 'png',
+  apatite: 'png',
+}
+
+const currentLocale = computed<Locale>(() => props.locale || 'en')
+const currentGroup = computed(() => GROUPS.find(group => group.id === activeGroup.value))
+const visibleGems = computed(() => {
+  const term = query.value.trim().toLocaleLowerCase()
+  const filtered = ALL_GEMS.filter(gem => {
+    const inGroup = activeGroup.value === 'all' || gem.groupId === activeGroup.value
+    const localizedMineral = mineralNamesZh[gem.mineral] || ''
+    const searchable = `${gem.en} ${gem.zh} ${gem.mineral} ${localizedMineral}`.toLocaleLowerCase()
+    return inGroup && (!term || searchable.includes(term))
+  })
+
+  if (sortBy.value === 'name') {
+    return [...filtered].sort((a, b) => {
+      const aName = currentLocale.value === 'zh' ? a.zh : a.en
+      const bName = currentLocale.value === 'zh' ? b.zh : b.en
+      return aName.localeCompare(bName, currentLocale.value === 'zh' ? 'zh-CN' : 'en')
+    })
+  }
+  if (sortBy.value === 'hardness') {
+    return [...filtered].sort((a, b) => b.h - a.h || a.en.localeCompare(b.en))
+  }
+  return filtered
+})
+
+function groupName(group: GemGroup): string {
+  return currentLocale.value === 'zh' ? group.name_zh : group.name_en
+}
+
+function groupCount(group: GemGroup): number {
+  return group.gems.length
+}
+
+function mineralName(mineral: string): string {
+  return currentLocale.value === 'zh' ? (mineralNamesZh[mineral] || mineral) : mineral
+}
+
+function imageLink(id: string): string {
+  const extension = imageExtensions[id] || 'jpg'
+  return withBase(`/images/gems/${id}/${id}.${extension}`)
+}
+
+function resultSummary(): string {
+  const count = visibleGems.value.length
+  if (currentLocale.value === 'zh') {
+    return query.value.trim() || activeGroup.value !== 'all' ? `找到 ${count} 种宝石` : `全部 ${count} 种宝石`
+  }
+  return query.value.trim() || activeGroup.value !== 'all' ? `${count} species found` : `All ${count} species`
+}
+
+function resetFilters(): void {
+  query.value = ''
+  activeGroup.value = 'all'
+  sortBy.value = 'curated'
+}
 </script>
 
 <template>
-  <div class="gem-gallery" :lang="locale || 'en'">
-    <!-- Tab bar -->
-    <nav class="gem-gallery__tabs" role="tablist">
+  <div class="gem-gallery" :lang="currentLocale">
+    <div class="gem-gallery__toolbar">
+      <label class="gem-gallery__search">
+        <span class="gem-gallery__search-label">{{ currentLocale === 'zh' ? '搜索名录' : 'Search the index' }}</span>
+        <input
+          v-model="query"
+          type="search"
+          :placeholder="currentLocale === 'zh' ? '名称、矿物族或英文名' : 'Name, mineral family, or synonym'"
+          :aria-label="currentLocale === 'zh' ? '搜索 60 种宝石' : 'Search 60 gemstone species'"
+        >
+        <button
+          v-if="query"
+          type="button"
+          class="gem-gallery__clear"
+          :aria-label="currentLocale === 'zh' ? '清除搜索' : 'Clear search'"
+          @click="query = ''"
+        >
+          ×
+        </button>
+      </label>
+
+      <label class="gem-gallery__sort">
+        <span>{{ currentLocale === 'zh' ? '排序' : 'Sort' }}</span>
+        <select v-model="sortBy">
+          <option value="curated">{{ currentLocale === 'zh' ? '编辑顺序' : 'Curated order' }}</option>
+          <option value="name">{{ currentLocale === 'zh' ? '名称 A–Z' : 'Name A–Z' }}</option>
+          <option value="hardness">{{ currentLocale === 'zh' ? '硬度高 → 低' : 'Hardness high → low' }}</option>
+        </select>
+      </label>
+    </div>
+
+    <nav class="gem-gallery__filters" :aria-label="currentLocale === 'zh' ? '按编辑分类筛选' : 'Filter by editorial group'">
       <button
-        v-for="g in GROUPS"
-        :key="g.id"
-        class="gem-gallery__tab"
-        :class="{ 'gem-gallery__tab--active': activeTab === g.id }"
-        role="tab"
-        :aria-selected="activeTab === g.id"
-        @click="activeTab = g.id"
+        type="button"
+        class="gem-gallery__filter"
+        :class="{ 'gem-gallery__filter--active': activeGroup === 'all' }"
+        :aria-pressed="activeGroup === 'all'"
+        @click="activeGroup = 'all'"
       >
-        {{ locale === 'zh' ? g.name_zh : g.name_en }}
+        {{ currentLocale === 'zh' ? '全部宝石' : 'All stones' }}
+        <span>· {{ totalCount }}</span>
+      </button>
+      <button
+        v-for="group in GROUPS"
+        :key="group.id"
+        type="button"
+        class="gem-gallery__filter"
+        :class="{ 'gem-gallery__filter--active': activeGroup === group.id }"
+        :aria-pressed="activeGroup === group.id"
+        @click="activeGroup = group.id"
+      >
+        {{ groupName(group) }}
+        <span>· {{ groupCount(group) }}</span>
       </button>
     </nav>
 
-    <!-- Active group gems -->
-    <div class="gem-gallery__grid" role="tabpanel">
+    <div class="gem-gallery__summary" role="status" aria-live="polite">
+      <span>{{ resultSummary() }}</span>
+      <span v-if="currentGroup" class="gem-gallery__summary-group">{{ groupName(currentGroup) }}</span>
+    </div>
+
+    <div v-if="visibleGems.length" class="gem-gallery__grid">
       <GemCard
-        v-for="gem in currentGroup.gems"
+        v-for="gem in visibleGems"
         :key="gem.id"
         :id="gem.id"
         :name-zh="gem.zh"
         :name-en="gem.en"
-        :mineral="gem.mineral"
+        :mineral="mineralName(gem.mineral)"
+        :group-label="groupName(GROUPS.find(group => group.id === gem.groupId) || GROUPS[0])"
         :hardness="gem.h"
-        :locale="locale || 'en'"
+        :image-src="imageLink(gem.id)"
+        :locale="currentLocale"
       />
+    </div>
+
+    <div v-else class="gem-gallery__empty">
+      <p>{{ currentLocale === 'zh' ? '没有找到匹配的宝石。' : 'No gemstone matches this search.' }}</p>
+      <button type="button" @click="resetFilters">
+        {{ currentLocale === 'zh' ? '清除筛选' : 'Clear filters' }}
+      </button>
     </div>
   </div>
 </template>
@@ -162,41 +334,167 @@ const currentGroup = computed(() => GROUPS.find(g => g.id === activeTab.value) |
   gap: var(--space-6, 1.5rem);
 }
 
-.gem-gallery__tabs {
+.gem-gallery__toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  border-block: var(--brass-line, 1px solid rgba(184, 146, 75, 0.22));
+}
+
+.gem-gallery__search,
+.gem-gallery__sort {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  color: var(--color-fg-muted, #a89e8a);
+  font-family: var(--font-body, Inter, sans-serif);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gem-gallery__search {
+  position: relative;
+}
+
+.gem-gallery__search input,
+.gem-gallery__sort select {
+  min-height: 2.75rem;
+  border: 1px solid rgba(184, 146, 75, 0.32);
+  border-radius: var(--radius-sm, 2px);
+  background: rgba(13, 25, 29, 0.86);
+  color: var(--color-fg-primary, #ece4d2);
+  font: inherit;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.gem-gallery__search input {
+  width: 100%;
+  padding: 0.7rem 2.5rem 0.7rem 0.9rem;
+  font-size: 0.95rem;
+}
+
+.gem-gallery__search input::placeholder { color: var(--color-fg-muted, #a89e8a); }
+.gem-gallery__sort select { padding: 0 2.2rem 0 0.8rem; }
+.gem-gallery__search input:focus-visible,
+.gem-gallery__sort select:focus-visible,
+.gem-gallery__filter:focus-visible,
+.gem-gallery__clear:focus-visible,
+.gem-gallery__empty button:focus-visible {
+  outline: 2px solid var(--color-accent, #b8924b);
+  outline-offset: 2px;
+}
+
+.gem-gallery__clear {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.35rem;
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  background: transparent;
+  color: var(--color-accent, #b8924b);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.gem-gallery__filters {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-2, 0.5rem);
-  border-bottom: var(--brass-line, 1px solid rgba(184,146,75,0.22));
-  padding-bottom: var(--space-3, 0.75rem);
+  gap: 0.45rem;
 }
 
-.gem-gallery__tab {
-  padding: var(--space-2, 0.5rem) var(--space-4, 1rem);
-  background: transparent;
+.gem-gallery__filter {
+  min-height: 2.5rem;
+  padding: 0.5rem 0.85rem;
   border: 1px solid transparent;
-  border-radius: var(--radius-sm, 2px);
+  border-radius: 999px;
+  background: transparent;
   color: var(--color-fg-secondary, #d6cdb8);
   font-family: var(--font-body, Inter, sans-serif);
-  font-size: var(--text-sm, 0.875rem);
+  font-size: 0.82rem;
   cursor: pointer;
-  transition: color 0.2s, border-color 0.2s, background 0.2s;
-  white-space: nowrap;
+  transition: color 180ms ease, border-color 180ms ease, background-color 180ms ease;
 }
 
-.gem-gallery__tab:hover {
-  color: var(--color-accent-hover, #c8a868);
-  border-color: var(--color-divider, rgba(184,146,75,0.22));
+.gem-gallery__filter span {
+  color: var(--color-fg-muted, #a89e8a);
+  font-variant-numeric: tabular-nums;
 }
 
-.gem-gallery__tab--active {
-  color: var(--color-accent, #b8924b);
+.gem-gallery__filter:hover,
+.gem-gallery__filter--active {
   border-color: var(--color-accent, #b8924b);
-  background: var(--color-accent-soft, rgba(184,146,75,0.18));
+  background: var(--color-accent-soft, rgba(184, 146, 75, 0.18));
+  color: var(--color-accent-hover, #c8a868);
 }
+
+.gem-gallery__summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--color-fg-secondary, #d6cdb8);
+  font-family: var(--font-body, Inter, sans-serif);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.gem-gallery__summary-group { color: var(--color-accent, #b8924b); }
 
 .gem-gallery__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: var(--space-4, 1rem);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.gem-gallery__empty {
+  padding: 4rem 1rem;
+  border-block: var(--brass-line, 1px solid rgba(184, 146, 75, 0.22));
+  text-align: center;
+}
+
+.gem-gallery__empty button {
+  min-height: 2.75rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--color-accent, #b8924b);
+  background: transparent;
+  color: var(--color-accent, #b8924b);
+  cursor: pointer;
+}
+
+:lang(zh) .gem-gallery__search,
+:lang(zh) .gem-gallery__sort,
+:lang(zh) .gem-gallery__filter,
+:lang(zh) .gem-gallery__summary {
+  font-family: var(--font-zh-display, 'Noto Serif SC', serif);
+  text-transform: none;
+  letter-spacing: 0.04em;
+}
+
+:lang(zh) .gem-gallery__search input,
+:lang(zh) .gem-gallery__sort select { font-family: var(--font-zh-display, 'Noto Serif SC', serif); }
+
+@media (max-width: 1100px) {
+  .gem-gallery__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 760px) {
+  .gem-gallery__toolbar { grid-template-columns: 1fr; }
+  .gem-gallery__sort { width: min(100%, 16rem); }
+  .gem-gallery__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 520px) {
+  .gem-gallery__grid { grid-template-columns: minmax(0, 1fr); }
+  .gem-gallery__summary { align-items: flex-start; flex-direction: column; gap: 0.3rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gem-gallery__filter { transition: none; }
 }
 </style>

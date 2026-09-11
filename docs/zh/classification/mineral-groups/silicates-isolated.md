@@ -41,7 +41,6 @@ M₃Al₂(SiO₄)₃ / M₃(SiO₄) + Si₃O₉
 | Peridot / 橄榄石 | (Mg,Fe)₂SiO₄ | olivine |
 | Zircon / 锆石 | ZrSiO₄ | zircon |
 | Topaz / 黄玉 | Al₂SiO₄(F,OH)₂ | topaz |
-| Chrysoberyl / 金绿宝石 | BeAl₂O₄ | chrysoberyl |
 | Tourmaline (Elbaite) / 碧玺 | Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃ | cyclosilicate |
 | Iolite (Cordierite) / 堇青石 | Mg₂Al₄Si₅O₁₈ | cyclosilicate |
 

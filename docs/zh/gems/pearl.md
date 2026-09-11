@@ -4,67 +4,76 @@ gem: pearl
 ---
 
 
-# 珍珠
-<img src="../../images/gems/pearl/pearl.jpg" alt="珍珠" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 有机宝石（碳酸钙）
-
-<!-- language switcher hint -->
-English: [Pearl](/gems/pearl)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>珍珠</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-pearl">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 34</p>
+    <h1 id="gem-detail-title-pearl">珍珠<span>Pearl</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>有机宝石（碳酸钙）</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>CaCO₃ (aragonite + conchiolin)</dd></div>
+      <div><dt>晶系</dt><dd>非晶质</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>2.5</dd></div>
+      <div><dt>比重</dt><dd>2.7</dd></div>
+      <div><dt>折射率</dt><dd>1.52-1.69</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/pearl.html" hreflang="en">English: Pearl <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/pearl/pearl.jpg" alt="珍珠" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 有机宝石（碳酸钙） |
-| 化学式 | CaCO₃ (aragonite + conchiolin) |
-| 晶系 | amorphous |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>有机宝石（碳酸钙）</td></tr><tr><th scope="row">化学式</th><td>CaCO₃ (aragonite + conchiolin)</td></tr><tr><th scope="row">晶系</th><td>非晶质</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 2.5（软——需佩戴呵护） |
-| 比重 | 2.7 |
-| 折射率 | 1.52-1.69 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>2.5（软——需佩戴呵护）</td></tr><tr><th scope="row">比重</th><td>2.7</td></tr><tr><th scope="row">折射率</th><td>1.52-1.69</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | none |
-| 典型颜色 | 白色, 奶油色, 金色, 黑色（大溪地） |
-| 致色原因 | 珍珠层 (nacre) 的干涉与散射 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>无</td></tr><tr><th scope="row">典型颜色</th><td>白色、奶油色、金色、黑色（大溪地）</td></tr><tr><th scope="row">致色原因</th><td>珍珠层 (nacre) 的干涉与散射</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | bleaching, dyeing |
-| 需披露 | 是 |
-| 备注 | 天然 vs 养殖需 X 光或专业检测；仿品为玻璃/塑料珠 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>漂白、染色</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>天然 vs 养殖需 X 光或专业检测；仿品为玻璃/塑料珠</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 波斯湾 |
-| 大溪地 |
-| 日本 |
-| 澳大利亚 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>波斯湾</li><li>大溪地</li><li>日本</li><li>澳大利亚</li></ul></div>
 
 ## 历史与传说
 
-珍珠是唯一由生物体产生的宝石，数千年来象征纯洁。波斯湾天然珍珠与日本御木本养殖珍珠开创现代产业。
+<div class="gem-detail__prose">珍珠是唯一由生物体产生的宝石，数千年来象征纯洁。波斯湾天然珍珠与日本御木本养殖珍珠开创现代产业。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/pearl/pearl-gallery-1.jpg" alt="珍珠" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/pearl/pearl-gallery-2.jpg" alt="珍珠" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+</div>
 
-<img src="../../images/gems/pearl/pearl-gallery-1.jpg" alt="珍珠" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/pearl/pearl-gallery-2.jpg" alt="珍珠" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./paraiba-tourmaline.html" aria-label="上一颗 帕拉伊巴碧玺"><i aria-hidden="true">←</i><span>上一颗</span><strong>帕拉伊巴碧玺</strong><small>Paraíba Tourmaline</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>34 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./peridot.html" aria-label="下一颗 橄榄石"><span>下一颗</span><strong>橄榄石</strong><small>Peridot</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

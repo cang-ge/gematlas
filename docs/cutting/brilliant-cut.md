@@ -18,6 +18,7 @@ and pavilion proportions maximise internal reflection and fire.
 - Table diameter ~53–58%; crown angle 34–35°; pavilion angle 40.75–41.2°.
 - Girdle must balance durability against weight retention.
 - Brilliance depends on precise proportions; errors create "windows" of light leakage.
+- These proportions are a starting point, not a prescription for every gem; RI, dispersion, shape, and durability change the target.
 
 ## Examples
 

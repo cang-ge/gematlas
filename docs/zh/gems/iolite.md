@@ -4,68 +4,77 @@ gem: iolite
 ---
 
 
-# 堇青石
-<img src="../../images/gems/iolite/iolite.jpg" alt="堇青石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 堇青石族
-
-<!-- language switcher hint -->
-English: [Iolite](/gems/iolite)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>堇青石</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-iolite">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 21</p>
+    <h1 id="gem-detail-title-iolite">堇青石<span>Iolite</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>堇青石族</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>Mg₂Al₄Si₅O₁₈</dd></div>
+      <div><dt>晶系</dt><dd>斜方晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>7.25</dd></div>
+      <div><dt>比重</dt><dd>2.6</dd></div>
+      <div><dt>折射率</dt><dd>1.522-1.578</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/iolite.html" hreflang="en">English: Iolite <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/iolite/iolite.jpg" alt="堇青石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 堇青石族 |
-| 化学式 | Mg₂Al₄Si₅O₁₈ |
-| 晶系 | orthorhombic |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>堇青石族</td></tr><tr><th scope="row">化学式</th><td>Mg₂Al₄Si₅O₁₈</td></tr><tr><th scope="row">晶系</th><td>斜方晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 7.25 |
-| 比重 | 2.6 |
-| 折射率 | 1.522-1.578 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>7.25</td></tr><tr><th scope="row">比重</th><td>2.6</td></tr><tr><th scope="row">折射率</th><td>1.522-1.578</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | strong |
-| 典型颜色 | 紫蓝色, 蓝紫色, 灰蓝色 |
-| 致色原因 | Fe²⁺ 致色，强三色性（不同方向显示不同色） |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>强</td></tr><tr><th scope="row">典型颜色</th><td>紫蓝色、蓝紫色、灰蓝色</td></tr><tr><th scope="row">致色原因</th><td>Fe²⁺ 致色，强三色性（不同方向显示不同色）</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | 无 / 通常无处理 |
-| 需披露 | 否 |
-| 备注 | 无已知优化处理；维京人曾用作偏振导航仪 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>无 / 通常无处理</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="">否</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>无已知优化处理；维京人曾用作偏振导航仪</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 印度 |
-| 斯里兰卡 |
-| 马达加斯加 |
-| 坦桑尼亚 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>印度</li><li>斯里兰卡</li><li>马达加斯加</li><li>坦桑尼亚</li></ul></div>
 
 ## 历史与传说
 
-堇青石因强三色性被维京航海家用作偏振罗盘，又称"水蓝宝石"。
+<div class="gem-detail__prose">堇青石因强三色性被维京航海家用作偏振罗盘，又称&quot;水蓝宝石&quot;。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/iolite/iolite-gallery-1.jpg" alt="堇青石" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/iolite/iolite-gallery-2.jpg" alt="堇青石" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+<figure><img src="../../images/gems/iolite/iolite-gallery-3.jpg" alt="堇青石" loading="lazy" decoding="async"><figcaption>证据 03</figcaption></figure>
+</div>
 
-<img src="../../images/gems/iolite/iolite-gallery-1.jpg" alt="堇青石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/iolite/iolite-gallery-2.jpg" alt="堇青石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/iolite/iolite-gallery-3.jpg" alt="堇青石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./heliodor.html" aria-label="上一颗 金绿柱石（金绿玉）"><i aria-hidden="true">←</i><span>上一颗</span><strong>金绿柱石（金绿玉）</strong><small>Heliodor (golden beryl)</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>21 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./jadeite.html" aria-label="下一颗 翡翠"><span>下一颗</span><strong>翡翠</strong><small>Jadeite (Burmese Jade)</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

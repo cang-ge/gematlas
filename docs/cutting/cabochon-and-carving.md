@@ -7,9 +7,10 @@ cutting: cabochon-and-carving
 
 ## Overview
 
-Opaque or phenomena stones are polished en cabochon (domed) or
-carved instead of faceted. Cabochons reveal asterism, chatoyancy,
-and adularescence; jade and agate are carved.
+When transparency, inclusions, durability, or an optical phenomenon
+favors a dome, a stone may be polished en cabochon or carved. This is
+not an absolute ban on faceting. Cabochons can reveal asterism,
+chatoyancy, and adularescence; jade and agate are also often carved.
 
 
 ## Core Principles
@@ -18,6 +19,7 @@ and adularescence; jade and agate are carved.
 - Asterism requires oriented polishing — rutile needles parallel to the table.
 - Chatoyancy likewise: needle inclusions must align to the dome axis.
 - Jade carving (jadeite, nephrite, turquoise) exploits texture and colour zoning.
+- Dome height, curvature, and polish together affect the width, brightness, and evenness of the band.
 
 ## Examples
 

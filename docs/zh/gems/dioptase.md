@@ -4,66 +4,76 @@ gem: dioptase
 ---
 
 
-# 透视石
-<img src="../../images/gems/dioptase/dioptase.jpg" alt="透视石" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 硅酸盐（环状）
-
-<!-- language switcher hint -->
-English: [Dioptase](/gems/dioptase)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>透视石</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-dioptase">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 17</p>
+    <h1 id="gem-detail-title-dioptase">透视石<span>Dioptase</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>硅酸盐（环状）</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>CuSiO₂(OH)₂  [Cu₆Si₆O₁₈·6H₂O]</dd></div>
+      <div><dt>晶系</dt><dd>三方晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>5.5</dd></div>
+      <div><dt>比重</dt><dd>3.3</dd></div>
+      <div><dt>折射率</dt><dd>1.644-1.709</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/dioptase.html" hreflang="en">English: Dioptase <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/dioptase/dioptase.jpg" alt="透视石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 硅酸盐（环状） |
-| 化学式 | CuSiO₂(OH)₂  [Cu₆Si₆O₁₈·6H₂O] |
-| 晶系 | trigonal |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>硅酸盐（环状）</td></tr><tr><th scope="row">化学式</th><td>CuSiO₂(OH)₂  [Cu₆Si₆O₁₈·6H₂O]</td></tr><tr><th scope="row">晶系</th><td>三方晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 5.5 |
-| 比重 | 3.3 |
-| 折射率 | 1.644-1.709 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>5.5</td></tr><tr><th scope="row">比重</th><td>3.3</td></tr><tr><th scope="row">折射率</th><td>1.644-1.709</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | weak |
-| 典型颜色 | 翠绿色，极高饱和度, 蓝绿色 |
-| 致色原因 | Cu²⁺ 致鲜艳翠绿 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>弱</td></tr><tr><th scope="row">典型颜色</th><td>翠绿色，极高饱和度、蓝绿色</td></tr><tr><th scope="row">致色原因</th><td>Cu²⁺ 致鲜艳翠绿</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | 无 / 通常无处理 |
-| 需披露 | 否 |
-| 备注 | 颜色与祖母绿相似但更艳；硬度较低（5.5），不适合日常佩戴 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>无 / 通常无处理</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="">否</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>颜色与祖母绿相似但更艳；硬度较低（5.5），不适合日常佩戴</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 纳米比亚 |
-| 刚果（金） |
-| 俄罗斯 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>纳米比亚</li><li>刚果（金）</li><li>俄罗斯</li></ul></div>
 
 ## 历史与传说
 
-透视石翠绿色晶体极美但硬度低，多作矿物标本而非宝石。
+<div class="gem-detail__prose">透视石翠绿色晶体极美但硬度低，多作矿物标本而非宝石。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/dioptase/dioptase-gallery-1.jpg" alt="透视石" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/dioptase/dioptase-gallery-2.jpg" alt="透视石" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+</div>
 
-<img src="../../images/gems/dioptase/dioptase-gallery-1.jpg" alt="透视石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/dioptase/dioptase-gallery-2.jpg" alt="透视石" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./diamond.html" aria-label="上一颗 钻石"><i aria-hidden="true">←</i><span>上一颗</span><strong>钻石</strong><small>Diamond</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>17 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./emerald.html" aria-label="下一颗 祖母绿"><span>下一颗</span><strong>祖母绿</strong><small>Emerald</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

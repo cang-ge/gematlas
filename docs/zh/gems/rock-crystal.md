@@ -4,67 +4,76 @@ gem: rock-crystal
 ---
 
 
-# 水晶
-<img src="../../images/gems/rock-crystal/rock-crystal.jpg" alt="水晶" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 石英族
-
-<!-- language switcher hint -->
-English: [Rock Crystal](/gems/rock-crystal)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>水晶</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-rock-crystal">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 42</p>
+    <h1 id="gem-detail-title-rock-crystal">水晶<span>Rock Crystal</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>石英族</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>SiO₂</dd></div>
+      <div><dt>晶系</dt><dd>三方晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>7</dd></div>
+      <div><dt>比重</dt><dd>2.65</dd></div>
+      <div><dt>折射率</dt><dd>1.544-1.553</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/rock-crystal.html" hreflang="en">English: Rock Crystal <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/rock-crystal/rock-crystal.jpg" alt="水晶" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 石英族 |
-| 化学式 | SiO₂ |
-| 晶系 | trigonal |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>石英族</td></tr><tr><th scope="row">化学式</th><td>SiO₂</td></tr><tr><th scope="row">晶系</th><td>三方晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 7 |
-| 比重 | 2.65 |
-| 折射率 | 1.544-1.553 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>7</td></tr><tr><th scope="row">比重</th><td>2.65</td></tr><tr><th scope="row">折射率</th><td>1.544-1.553</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | none |
-| 典型颜色 | 无色透明 |
-| 致色原因 | 无致色元素 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>无</td></tr><tr><th scope="row">典型颜色</th><td>无色透明</td></tr><tr><th scope="row">致色原因</th><td>无致色元素</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | heat-treatment, irradiation |
-| 需披露 | 否 |
-| 备注 | 最常见天然宝石原料，全球广泛分布；含发晶、水胆水晶等变种 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>热处理、辐照</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="">否</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>最常见天然宝石原料，全球广泛分布；含发晶、水胆水晶等变种</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 巴西 |
-| 中国 |
-| 马达加斯加 |
-| 美国阿肯色 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>巴西</li><li>中国</li><li>马达加斯加</li><li>美国阿肯色</li></ul></div>
 
 ## 历史与传说
 
-水晶自古被视为冰之凝晶，希腊语"krystallos"即冰。全球广泛分布。
+<div class="gem-detail__prose">水晶自古被视为冰之凝晶，希腊语&quot;krystallos&quot;即冰。全球广泛分布。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/rock-crystal/rock-crystal-gallery-1.jpg" alt="水晶" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/rock-crystal/rock-crystal-gallery-2.jpg" alt="水晶" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+</div>
 
-<img src="../../images/gems/rock-crystal/rock-crystal-gallery-1.jpg" alt="水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/rock-crystal/rock-crystal-gallery-2.jpg" alt="水晶" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./rhodonite.html" aria-label="上一颗 蔷薇辉石"><i aria-hidden="true">←</i><span>上一颗</span><strong>蔷薇辉石</strong><small>Rhodonite</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>42 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./rose-quartz.html" aria-label="下一颗 粉晶"><span>下一颗</span><strong>粉晶</strong><small>Rose Quartz</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

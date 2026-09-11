@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 知识百科
+title: 沿着光，读懂宝石
 ---
 
 <ModuleGrid locale="zh" />

@@ -4,65 +4,75 @@ gem: quartz-catseye
 ---
 
 
-# 石英猫眼
-<img src="../../images/gems/quartz-catseye/quartz-catseye.jpg" alt="石英猫眼" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 石英族
-
-<!-- language switcher hint -->
-English: [Quartz Cat's-eye](/gems/quartz-catseye)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>石英猫眼</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-quartz-catseye">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 39</p>
+    <h1 id="gem-detail-title-quartz-catseye">石英猫眼<span>Quartz Cat&#39;s-eye</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>石英族</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>SiO2 + crocidolite fibers</dd></div>
+      <div><dt>晶系</dt><dd>三方晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>7</dd></div>
+      <div><dt>比重</dt><dd>2.65</dd></div>
+      <div><dt>折射率</dt><dd>1.544-1.553</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/quartz-catseye.html" hreflang="en">English: Quartz Cat&#39;s-eye <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/quartz-catseye/quartz-catseye.jpg" alt="石英猫眼" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 石英族 |
-| 化学式 | SiO2 + crocidolite fibers |
-| 晶系 | trigonal |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>石英族</td></tr><tr><th scope="row">化学式</th><td>SiO2 + crocidolite fibers</td></tr><tr><th scope="row">晶系</th><td>三方晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 7 |
-| 比重 | 2.65 |
-| 折射率 | 1.544-1.553 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>7</td></tr><tr><th scope="row">比重</th><td>2.65</td></tr><tr><th scope="row">折射率</th><td>1.544-1.553</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | none |
-| 典型颜色 | 黄绿色带猫眼, 灰绿色, 棕色 |
-| 致色原因 | 石棉纤维包裹体产生猫眼效应 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>无</td></tr><tr><th scope="row">典型颜色</th><td>黄绿色带猫眼、灰绿色、棕色</td></tr><tr><th scope="row">致色原因</th><td>石棉纤维包裹体产生猫眼效应</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | heat-treatment |
-| 需披露 | 是 |
-| 备注 | 与金绿猫眼不同，石英猫眼的猫眼带较宽、效果较弱 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>热处理</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>与金绿猫眼不同，石英猫眼的猫眼带较宽、效果较弱</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 斯里兰卡 |
-| 印度 |
-| 巴西 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>斯里兰卡</li><li>印度</li><li>巴西</li></ul></div>
 
 ## 历史与传说
 
-石英猫眼含平行针状包体产生猫眼效应，比金绿猫眼便宜但同样迷人。
+<div class="gem-detail__prose">石英猫眼含平行针状包体产生猫眼效应，比金绿猫眼便宜但同样迷人。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/quartz-catseye/quartz-catseye-gallery-1.jpg" alt="石英猫眼" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+</div>
 
-<img src="../../images/gems/quartz-catseye/quartz-catseye-gallery-1.jpg" alt="石英猫眼" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./garnet-pyrope.html" aria-label="上一颗 镁铝榴石"><i aria-hidden="true">←</i><span>上一颗</span><strong>镁铝榴石</strong><small>Pyrope (Garnet)</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>39 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./rhodochrosite.html" aria-label="下一颗 菱锰矿"><span>下一颗</span><strong>菱锰矿</strong><small>Rhodochrosite</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

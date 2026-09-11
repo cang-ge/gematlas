@@ -14,21 +14,82 @@ const OUT_EN   = 'docs/gems'
 const OUT_ZH   = 'docs/zh/gems'
 
 /* ─── Template helpers ─────────────────────────────────────── */
-// ponytail: no i18n helper import; inline ternary is clearer in <100 lines.
+
+type Locale = 'en' | 'zh'
+type ParsedGem = ReturnType<typeof GemSchema.parse>
 
 function valOrDash(x: unknown): string {
   return x == null || x === '' ? '—' : String(x)
 }
 
-/** Bilingual value getter — returns a plain string (never null). */
-function bi(v: { zh?: string; en?: string }, locale: 'en' | 'zh'): string {
+function html(x: unknown): string {
+  return valOrDash(x)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
+
+function bi(v: { zh?: string; en?: string }, locale: Locale): string {
   return valOrDash(locale === 'en' ? v.en : v.zh)
 }
 
-/** Full-bleed property table rows for a given locale. */
+function list(items: string[], locale: Locale): string {
+  return items.length ? items.map(html).join(locale === 'zh' ? '、' : ', ') : '—'
+}
+
+const CRYSTAL_SYSTEM_NAMES: Record<string, { zh: string; en: string }> = {
+  cubic: { zh: '立方晶系', en: 'Cubic' },
+  tetragonal: { zh: '四方晶系', en: 'Tetragonal' },
+  orthorhombic: { zh: '斜方晶系', en: 'Orthorhombic' },
+  hexagonal: { zh: '六方晶系', en: 'Hexagonal' },
+  trigonal: { zh: '三方晶系', en: 'Trigonal' },
+  monoclinic: { zh: '单斜晶系', en: 'Monoclinic' },
+  triclinic: { zh: '三斜晶系', en: 'Triclinic' },
+  amorphous: { zh: '非晶质', en: 'Amorphous' },
+}
+
+const PLEOCHROISM_NAMES: Record<string, { zh: string; en: string }> = {
+  none: { zh: '无', en: 'None' },
+  weak: { zh: '弱', en: 'Weak' },
+  moderate: { zh: '中等', en: 'Moderate' },
+  strong: { zh: '强', en: 'Strong' },
+}
+
+const TREATMENT_NAMES: Record<string, { zh: string; en: string }> = {
+  'high-pressure-high-temperature': { zh: '高温高压处理（HPHT）', en: 'High pressure–high temperature (HPHT)' },
+  'heat-treatment': { zh: '热处理', en: 'Heat treatment' },
+  heating: { zh: '加热', en: 'Heating' },
+  'sugar-acid-treatment': { zh: '糖酸处理', en: 'Sugar-acid treatment' },
+  'cedar-oil-filling': { zh: '雪松油充填', en: 'Cedar-oil filling' },
+  'wax-impregnation': { zh: '蜡浸渍', en: 'Wax impregnation' },
+  'polymer-impregnation': { zh: '聚合物充填', en: 'Polymer impregnation' },
+  dyeing: { zh: '染色', en: 'Dyeing' },
+  waxing: { zh: '上蜡', en: 'Waxing' },
+  irradiation: { zh: '辐照', en: 'Irradiation' },
+  'surface-coating': { zh: '表面涂层', en: 'Surface coating' },
+  bleaching: { zh: '漂白', en: 'Bleaching' },
+  stabilisation: { zh: '稳定化处理', en: 'Stabilisation' },
+}
+
+function crystalName(id: string, locale: Locale): string {
+  return CRYSTAL_SYSTEM_NAMES[id]?.[locale] || id
+}
+
+function pleochroismName(value: string | undefined, locale: Locale): string {
+  return value && PLEOCHROISM_NAMES[value]?.[locale] ? PLEOCHROISM_NAMES[value][locale] : '—'
+}
+
+function treatmentName(value: string, locale: Locale): string {
+  return TREATMENT_NAMES[value]?.[locale] || value
+}
+
 function table(header: [string, string], rowsItems: [string, string][]): string {
-  return `| ${header[0]} | ${header[1]} |
-|---|---|\n` + rowsItems.map(([k, v]) => `| ${k} | ${v} |`).join('\n')
+  return `<table class="gem-detail__table">
+  <thead><tr><th scope="col">${html(header[0])}</th><th scope="col">${html(header[1])}</th></tr></thead>
+  <tbody>${rowsItems.map(([k, v]) => `<tr><th scope="row">${html(k)}</th><td>${html(v)}</td></tr>`).join('')}</tbody>
+</table>`
 }
 
 function mdFrontmatter(id: string, name: string): string {
@@ -39,22 +100,22 @@ gem: ${id}
 `
 }
 
-function mdCategory(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+function mdCategory(gem: ParsedGem, locale: Locale): string {
   if (locale === 'en') {
     return table(['Property', 'Value'], [
       ['Mineral Family', gem.category.mineral_en],
       ['Formula', gem.category.chemical_formula],
-      ['Crystal System', gem.category.crystal_system],
+      ['Crystal System', crystalName(gem.category.crystal_system, locale)],
     ])
   }
   return table(['属性', '值'], [
     ['矿物族', gem.category.mineral_zh],
     ['化学式', gem.category.chemical_formula],
-    ['晶系', gem.category.crystal_system],
+    ['晶系', crystalName(gem.category.crystal_system, locale)],
   ])
 }
 
-function mdPhysical(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+function mdPhysical(gem: ParsedGem, locale: Locale): string {
   const p = gem.physical
   if (locale === 'en') {
     return table(['Property', 'Value'], [
@@ -70,144 +131,193 @@ function mdPhysical(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'
   ])
 }
 
-function mdOptical(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+function mdOptical(gem: ParsedGem, locale: Locale): string {
   const o = gem.optical
-  const colors = o.typical_colors?.map(c => bi(c, locale)).join(', ') || '—'
+  const colors = o.typical_colors?.map(c => bi(c, locale)).join(locale === 'zh' ? '、' : ', ') || '—'
   if (locale === 'en') {
     return table(['Property', 'Value'], [
-      ['Pleochroism', valOrDash(o.pleochroism)],
+      ['Pleochroism', pleochroismName(o.pleochroism, locale)],
       ['Typical Colors', colors],
       ['Color Cause', o.color_causes_en],
     ])
   }
   return table(['属性', '值'], [
-    ['多色性', valOrDash(o.pleochroism)],
+    ['多色性', pleochroismName(o.pleochroism, locale)],
     ['典型颜色', colors],
     ['致色原因', o.color_causes_zh],
   ])
 }
 
-function mdTreatments(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+function mdTreatments(gem: ParsedGem, locale: Locale): string {
   const t = gem.treatments
-  const methods = t.common?.length ? t.common.join(', ') : (locale === 'en' ? 'None / Typically untreated' : '无 / 通常无处理')
-  if (locale === 'en') {
-    return `| Treatment | Details |
-|-----------|---------|
-| Common Methods | ${methods} |
-| Disclosure Required | ${t.disclosure_required ? 'Yes' : 'No'} |
-| Note | ${t.note_en || '—'} |`
-  }
-  return `| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | ${methods} |
-| 需披露 | ${t.disclosure_required ? '是' : '否'} |
-| 备注 | ${t.note_zh || '—'} |`
+  const methods = t.common?.length
+    ? t.common.map(method => treatmentName(method, locale))
+    : [locale === 'en' ? 'None / typically untreated' : '无 / 通常无处理']
+  const labels = locale === 'en'
+    ? { methods: 'Common methods', disclosure: 'Disclosure required', yes: 'Yes', no: 'No', note: 'Note' }
+    : { methods: '常见处理', disclosure: '需要披露', yes: '是', no: '否', note: '说明' }
+  return `<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>${labels.methods}</span><strong>${list(methods, locale)}</strong></div>
+  <div class="gem-detail__treatment-row"><span>${labels.disclosure}</span><strong class="${t.disclosure_required ? 'is-required' : ''}">${t.disclosure_required ? labels.yes : labels.no}</strong></div>
+  <p class="gem-detail__treatment-note"><span>${labels.note}</span>${html(locale === 'en' ? t.note_en : t.note_zh)}</p>
+</div>`
 }
 
-function mdOrigin(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+function mdOrigin(gem: ParsedGem, locale: Locale): string {
   if (!gem.origin || gem.origin.length === 0) return ''
-  const title = locale === 'en' ? '## Origin' : '## 主要产地'
-  const col = locale === 'en' ? '| Region |' : '| 产地 |'
-  const rows = gem.origin.map(o => `| ${locale === 'en' ? o.en : o.zh} |`).join('\n')
-  return [title, '', col, '|---|', rows, ''].join('\n')
+  const label = locale === 'en' ? 'Recorded localities' : '记录产地'
+  return `<div class="gem-detail__origins"><span>${label}</span><ul>${gem.origin.map(o => `<li>${html(locale === 'en' ? o.en : o.zh)}</li>`).join('')}</ul></div>`
 }
 
-function mdHistory(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+function mdHistory(gem: ParsedGem, locale: Locale): string {
   const text = locale === 'en' ? gem.history_en : gem.history_zh
   if (!text) return ''
-  const title = locale === 'en' ? '## History & Lore' : '## 历史与传说'
-  return [title, '', text, ''].join('\n')
+  return `<div class="gem-detail__prose">${html(text).replace(/\n/g, '<br />')}</div>`
 }
 
-function pageBody(gem: ReturnType<typeof GemSchema.parse>, locale: 'en' | 'zh'): string {
+function hero(gem: ParsedGem, locale: Locale, position: number): string {
   const name = locale === 'en' ? gem.names.en : gem.names.zh
   const otherName = locale === 'en' ? gem.names.zh : gem.names.en
-
-  // Main hero image (if YAML specifies images.main). Image files stored at
-  // docs/images/gems/{id}/*.png, accessed via locale-aware relative path.
   const imgRel = locale === 'en' ? `../images/gems/${gem.id}` : `../../images/gems/${gem.id}`
-  const heroSection = gem.images?.main
-    ? `<img src="${imgRel}/${gem.images.main}" alt="${name}" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">\n\n`
-    : ''
+  const image = gem.images?.main
+    ? `<figure class="gem-detail__hero-media"><img src="${imgRel}/${html(gem.images.main)}" alt="${html(name)}" loading="eager" decoding="async"><figcaption><span>${locale === 'en' ? 'Primary view' : '主视图'}</span><span>${locale === 'en' ? 'Visual identification' : '视觉识别'}</span></figcaption></figure>`
+    : `<div class="gem-detail__hero-media gem-detail__hero-media--empty"><span>${locale === 'en' ? 'Image pending' : '图片待补充'}</span></div>`
+  const labels = locale === 'en'
+    ? { atlas: 'GEM ATLAS', mineral: 'Mineral identity', formula: 'Formula', crystal: 'Crystal system', hardness: 'Mohs', sg: 'Specific gravity', ri: 'Refractive index', switcher: '中文' }
+    : { atlas: 'GEM ATLAS', mineral: '矿物身份', formula: '化学式', crystal: '晶系', hardness: '硬度', sg: '比重', ri: '折射率', switcher: 'English' }
+  const identityClass = locale === 'zh' && name.length <= 4 ? ' gem-detail__identity--compact-name' : ''
+
+  return `<div class="gem-detail__hero" aria-labelledby="gem-detail-title-${html(gem.id)}">
+  <div class="gem-detail__identity${identityClass}">
+    <p class="gem-detail__eyebrow">${labels.atlas} / ${String(position).padStart(2, '0')}</p>
+    <h1 id="gem-detail-title-${html(gem.id)}">${html(name)}<span>${html(otherName)}</span></h1>
+    <p class="gem-detail__species"><span>${labels.mineral}</span>${html(locale === 'en' ? gem.category.mineral_en : gem.category.mineral_zh)}</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>${labels.formula}</dt><dd>${html(gem.category.chemical_formula)}</dd></div>
+      <div><dt>${labels.crystal}</dt><dd>${html(crystalName(gem.category.crystal_system, locale))}</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>${labels.hardness}</dt><dd>${html(gem.physical.hardness_mohs)}</dd></div>
+      <div><dt>${labels.sg}</dt><dd>${html(gem.physical.specific_gravity)}</dd></div>
+      <div><dt>${labels.ri}</dt><dd>${html(gem.physical.refractive_index)}</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="${locale === 'en' ? `../zh/gems/${gem.id}.html` : `../../gems/${gem.id}.html`}" hreflang="${locale === 'en' ? 'zh-CN' : 'en'}">${labels.switcher}: ${html(otherName)} <span aria-hidden="true">↗</span></a>
+  </div>
+  ${image}
+</div>`
+}
+
+function pageBody(gem: ParsedGem, locale: Locale, allGems: ParsedGem[]): string {
+  const name = locale === 'en' ? gem.names.en : gem.names.zh
+  const index = allGems.findIndex(item => item.id === gem.id)
+  const previous = index > 0 ? allGems[index - 1] : undefined
+  const next = index >= 0 && index < allGems.length - 1 ? allGems[index + 1] : undefined
+  const categoryTitle = locale === 'en' ? 'Classification' : '分类'
+  const physicalTitle = locale === 'en' ? 'Physical Properties' : '物理性质'
+  const opticalTitle = locale === 'en' ? 'Optical Properties' : '光学性质'
+  const treatmentTitle = locale === 'en' ? 'Treatments & Disclosure' : '处理与披露'
+  const originTitle = locale === 'en' ? 'Origin' : '主要产地'
+  const historyTitle = locale === 'en' ? 'History & Lore' : '历史与传说'
+  const galleryTitle = locale === 'en' ? 'Image Evidence' : '图像证据'
+  const imgRel = locale === 'en' ? `../images/gems/${gem.id}` : `../../images/gems/${gem.id}`
 
   const lines: string[] = [
     mdFrontmatter(gem.id, name),
     '',
-    heroSection ? `# ${name}` : '',
-    heroSection || '',
+    `<div class="gem-detail__breadcrumb"><a href="./">${locale === 'en' ? 'Gemstone Index' : '宝石名录'}</a><span aria-hidden="true">/</span><span>${html(name)}</span></div>`,
+    hero(gem, locale, index + 1),
     '',
-    !heroSection ? `# ${name}` : '',
+    `## ${categoryTitle}`,
     '',
-
-    `> ${locale === 'en' ? gem.category.mineral_en : gem.category.mineral_zh}`,
-    '',
-
-    '<!-- language switcher hint -->',
-    `${locale === 'en' ? '中文' : 'English'}: [${otherName}](${locale === 'en' ? '/zh/gems/' : '/gems/'}${gem.id})`,
-    '',
-
-    '---',
-    '',
-
-    `## ${locale === 'en' ? 'Classification' : '分类'}`,
-    '',
+    `<p class="gem-detail__section-kicker">${locale === 'en' ? 'IDENTITY / SPECIES RECORD' : '身份 / 宝石档案'}</p>`,
     mdCategory(gem, locale),
     '',
-
-    `## ${locale === 'en' ? 'Physical Properties' : '物理性质'}`,
+    `## ${physicalTitle}`,
     '',
     mdPhysical(gem, locale),
     '',
-
-    `## ${locale === 'en' ? 'Optical Properties' : '光学性质'}`,
+    `## ${opticalTitle}`,
     '',
     mdOptical(gem, locale),
     '',
-
-    `## ${locale === 'en' ? 'Treatments & Disclosure' : '处理与披露'}`,
+    `## ${treatmentTitle}`,
     '',
     mdTreatments(gem, locale),
     '',
-    mdOrigin(gem, locale),
-    mdHistory(gem, locale),
   ]
 
-  // Append gallery section if YAML has images.gallery
+  if (gem.origin?.length) {
+    lines.push(`## ${originTitle}`, '', mdOrigin(gem, locale), '')
+  }
+  if (gem.history_zh || gem.history_en) {
+    lines.push(`## ${historyTitle}`, '', mdHistory(gem, locale), '')
+  }
   if (gem.images?.gallery && gem.images.gallery.length > 0) {
-    const imgRel = locale === 'en' ? `../images/gems/${gem.id}` : `../../images/gems/${gem.id}`
     lines.push(
-      `## ${locale === 'en' ? 'Gallery' : '图库'}`,
+      `## ${galleryTitle}`,
       '',
-      ...gem.images.gallery.map(f => `<img src="${imgRel}/${f}" alt="${name}" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">`),
+      `<div class="gem-detail__gallery" aria-label="${locale === 'en' ? 'Image evidence gallery' : '图像证据画廊'}">`,
+      ...gem.images.gallery.map((file, galleryIndex) => `<figure><img src="${imgRel}/${html(file)}" alt="${html(name)}" loading="lazy" decoding="async"><figcaption>${locale === 'en' ? 'Evidence' : '证据'} ${String(galleryIndex + 1).padStart(2, '0')}</figcaption></figure>`),
+      '</div>',
       '',
     )
   }
+
+  const gemLink = (item: ParsedGem) => `./${item.id}.html`
+  const pagerText = locale === 'en'
+    ? { previous: 'Previous', next: 'Next', index: 'Return to index', all: 'All species', ariaIndex: 'Return to gemstone index', continue: 'CONTINUE EXPLORING', continueAlt: '继续阅读' }
+    : { previous: '上一颗', next: '下一颗', index: '返回名录', all: '全部宝石', ariaIndex: '返回宝石名录', continue: '继续阅读', continueAlt: 'CONTINUE EXPLORING' }
+  const previousName = previous ? (locale === 'en' ? previous.names.en : previous.names.zh) : ''
+  const previousAltName = previous ? (locale === 'en' ? previous.names.zh : previous.names.en) : ''
+  const nextName = next ? (locale === 'en' ? next.names.en : next.names.zh) : ''
+  const nextAltName = next ? (locale === 'en' ? next.names.zh : next.names.en) : ''
+  const previousLink = previous
+    ? `<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="${gemLink(previous)}" aria-label="${html(`${pagerText.previous} ${previousName}`)}"><i aria-hidden="true">←</i><span>${pagerText.previous}</span><strong>${html(previousName)}</strong><small>${html(previousAltName)}</small></a>`
+    : '<span class="gem-detail__pager-placeholder" aria-hidden="true"></span>'
+  const nextLink = next
+    ? `<a class="gem-detail__pager-link gem-detail__pager-link--next" href="${gemLink(next)}" aria-label="${html(`${pagerText.next} ${nextName}`)}"><span>${pagerText.next}</span><strong>${html(nextName)}</strong><small>${html(nextAltName)}</small><i aria-hidden="true">→</i></a>`
+    : '<span class="gem-detail__pager-placeholder" aria-hidden="true"></span>'
+  lines.push(
+    `<div class="gem-detail__pager-shell">`,
+    `<p class="gem-detail__pager-heading"><span>${pagerText.continue}</span><i aria-hidden="true">/</i><small>${pagerText.continueAlt}</small></p>`,
+    `<nav class="gem-detail__pager" aria-label="${locale === 'en' ? 'Gemstone record navigation' : '宝石记录导航'}">`,
+    previousLink,
+    `<a class="gem-detail__pager-index" href="./" aria-label="${pagerText.ariaIndex}"><span>${pagerText.index}</span><strong>${String(index + 1).padStart(2, '0')} / ${allGems.length}</strong><small>${pagerText.all}</small></a>`,
+    nextLink,
+    '</nav>',
+    '</div>',
+  )
 
   return lines.join('\n')
 }
 
 /* ─── Main ──────────────────────────────────────────────────── */
 
-const allGems = fs.existsSync(GEM_DIR) ? fs.readdirSync(GEM_DIR).filter(f => f.endsWith('.yaml')) : []
-let ok = 0
-if (allGems.length === 0) {
+const gemFiles = fs.existsSync(GEM_DIR) ? fs.readdirSync(GEM_DIR).filter(f => f.endsWith('.yaml')) : []
+const parsedGems: ParsedGem[] = []
+if (gemFiles.length === 0) {
   console.error(`  ✗ no YAML files found in ${GEM_DIR}`)
 }
-for (const file of allGems) {
+for (const file of gemFiles) {
   try {
     const raw = yaml.load(fs.readFileSync(path.join(GEM_DIR, file), 'utf8'))
     const gem = GemSchema.parse(raw)
-
-    // ponytail: mkdirSync every time = idempotent, no check needed
-    fs.mkdirSync(OUT_EN, { recursive: true })
-    fs.mkdirSync(OUT_ZH, { recursive: true })
-    fs.writeFileSync(path.join(OUT_EN, `${gem.id}.md`), pageBody(gem, 'en'), 'utf8')
-    fs.writeFileSync(path.join(OUT_ZH, `${gem.id}.md`), pageBody(gem, 'zh'), 'utf8')
-    ok++
-    console.log(`  ✓ ${gem.id} → gems/{root,zh}/${gem.id}.md`)
+    parsedGems.push(gem)
   } catch (e) {
     console.error(`  ✗ ${file}: ${(e as Error).message}`)
   }
+}
+
+parsedGems.sort((a, b) => a.names.en.localeCompare(b.names.en))
+let ok = 0
+for (const gem of parsedGems) {
+  // ponytail: mkdirSync every time = idempotent, no check needed
+  fs.mkdirSync(OUT_EN, { recursive: true })
+  fs.mkdirSync(OUT_ZH, { recursive: true })
+  fs.writeFileSync(path.join(OUT_EN, `${gem.id}.md`), pageBody(gem, 'en', parsedGems), 'utf8')
+  fs.writeFileSync(path.join(OUT_ZH, `${gem.id}.md`), pageBody(gem, 'zh', parsedGems), 'utf8')
+  ok++
+  console.log(`  ✓ ${gem.id} → gems/{root,zh}/${gem.id}.md`)
 }
 
 /* ─── Crystal system pages ────────────────────────────────── */
@@ -324,7 +434,7 @@ try {
   console.error(`  ✗ crystal-systems: ${(e as Error).message}`)
 }
 
-const gemOk = ok === allGems.length
+const gemOk = ok === gemFiles.length
 const csOkFlag = csOk === allSystems.length
-console.log(`\nGenerated ${ok}/${allGems.length} gem pages + ${csOk}/${allSystems.length} crystal system pages`)
+console.log(`\nGenerated ${ok}/${gemFiles.length} gem pages + ${csOk}/${allSystems.length} crystal system pages`)
 process.exit(gemOk && csOkFlag ? 0 : 1)

@@ -13,7 +13,7 @@ Art Deco 的几何对称、Modernist 的极简，每个风格都反映其时代�
 
 ## 核心要点
 
-- 浪漫主义 (Pre-1900)：自然花叶、浮雕、珍珠——维多利亚与爱德华时代。
+- 浪漫主义 / 维多利亚与爱德华时期（约 19 世纪中后期—1910 年）：自然花叶、浮雕、珍珠。
 - Art Nouveau (1890–1910)：新艺术曲线、蜻蜓发饰、麦浪。
 - Art Deco (1920–1935)：几何对称、黑玛瑙/钻石对比、雕刻宝石。
 - Mid-Century (1950–1980)：立体主义、异域题材（印度/中国元素）。
@@ -25,6 +25,6 @@ Art Deco 的几何对称、Modernist 的极简，每个风格都反映其时代�
 |---|---|---|
 | Art Deco | Boucheron 'Chimère' Belt (1920s) | — |
 | Art Nouveau | René Lalique Dragonfly | — |
-| Contemporary | VCA 'Ludo' zip necklace (1951) | — |
+| Mid-Century | VCA 'Ludo' zip necklace (1951) | — |
 
 *详见[画廊总览](intro)。*

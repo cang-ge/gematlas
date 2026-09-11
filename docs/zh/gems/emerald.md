@@ -4,66 +4,76 @@ gem: emerald
 ---
 
 
-# 祖母绿
-<img src="../../images/gems/emerald/emerald.jpg" alt="祖母绿" style="max-width:100%;border-radius:var(--radius-md,4px);margin-bottom:1rem">
-
-
-
-
-
-> 绿柱石族
-
-<!-- language switcher hint -->
-English: [Emerald](/gems/emerald)
-
----
+<div class="gem-detail__breadcrumb"><a href="./">宝石名录</a><span aria-hidden="true">/</span><span>祖母绿</span></div>
+<div class="gem-detail__hero" aria-labelledby="gem-detail-title-emerald">
+  <div class="gem-detail__identity gem-detail__identity--compact-name">
+    <p class="gem-detail__eyebrow">GEM ATLAS / 18</p>
+    <h1 id="gem-detail-title-emerald">祖母绿<span>Emerald</span></h1>
+    <p class="gem-detail__species"><span>矿物身份</span>绿柱石族</p>
+    <dl class="gem-detail__identity-facts">
+      <div><dt>化学式</dt><dd>Be₃Al₂Si₆O₁₈</dd></div>
+      <div><dt>晶系</dt><dd>六方晶系</dd></div>
+    </dl>
+    <dl class="gem-detail__quick-facts">
+      <div><dt>硬度</dt><dd>7.75</dd></div>
+      <div><dt>比重</dt><dd>2.72</dd></div>
+      <div><dt>折射率</dt><dd>1.577-1.583</dd></div>
+    </dl>
+    <a class="gem-detail__language" href="../../gems/emerald.html" hreflang="en">English: Emerald <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/emerald/emerald.jpg" alt="祖母绿" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+</div>
 
 ## 分类
 
-| 属性 | 值 |
-|---|---|
-| 矿物族 | 绿柱石族 |
-| 化学式 | Be₃Al₂Si₆O₁₈ |
-| 晶系 | hexagonal |
+<p class="gem-detail__section-kicker">身份 / 宝石档案</p>
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">矿物族</th><td>绿柱石族</td></tr><tr><th scope="row">化学式</th><td>Be₃Al₂Si₆O₁₈</td></tr><tr><th scope="row">晶系</th><td>六方晶系</td></tr></tbody>
+</table>
 
 ## 物理性质
 
-| 属性 | 值 |
-|---|---|
-| 莫氏硬度 | 7.75（性脆，避免撞击） |
-| 比重 | 2.72 |
-| 折射率 | 1.577-1.583 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>7.75（性脆，避免撞击）</td></tr><tr><th scope="row">比重</th><td>2.72</td></tr><tr><th scope="row">折射率</th><td>1.577-1.583</td></tr></tbody>
+</table>
 
 ## 光学性质
 
-| 属性 | 值 |
-|---|---|
-| 多色性 | weak |
-| 典型颜色 | 木佐绿, 哥伦比亚绿 |
-| 致色原因 | Cr³⁺ 与 V³⁺ 离子致色 |
+<table class="gem-detail__table">
+  <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
+  <tbody><tr><th scope="row">多色性</th><td>弱</td></tr><tr><th scope="row">典型颜色</th><td>木佐绿、哥伦比亚绿</td></tr><tr><th scope="row">致色原因</th><td>Cr³⁺ 与 V³⁺ 离子致色</td></tr></tbody>
+</table>
 
 ## 处理与披露
 
-| 处理方式 | 详情 |
-|---------|------|
-| 常见方法 | cedar-oil-filling |
-| 需披露 | 是 |
-| 备注 | 注油（雪松油）属行业可接受处理；无油溢价显著 |
+<div class="gem-detail__treatment">
+  <div class="gem-detail__treatment-row"><span>常见处理</span><strong>雪松油充填</strong></div>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>注油（雪松油）属行业可接受处理；无油溢价显著</p>
+</div>
 
 ## 主要产地
 
-| 产地 |
-|---|
-| 哥伦比亚（木佐/契沃尔） |
-| 赞比亚 |
-| 巴西 |
+<div class="gem-detail__origins"><span>记录产地</span><ul><li>哥伦比亚（木佐/契沃尔）</li><li>赞比亚</li><li>巴西</li></ul></div>
 
 ## 历史与传说
 
-哥伦比亚木佐（Muzo）祖母绿绿中带蓝最受珍视，西班牙殖民者16世纪即开始开采。埃及克利奥帕特拉矿是已知最早产地。
+<div class="gem-detail__prose">哥伦比亚木佐（Muzo）祖母绿绿中带蓝最受珍视，西班牙殖民者16世纪即开始开采。埃及克利奥帕特拉矿是已知最早产地。<br /></div>
 
+## 图像证据
 
-## 图库
+<div class="gem-detail__gallery" aria-label="图像证据画廊">
+<figure><img src="../../images/gems/emerald/emerald-gallery-1.jpg" alt="祖母绿" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/emerald/emerald-gallery-2.jpg" alt="祖母绿" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+</div>
 
-<img src="../../images/gems/emerald/emerald-gallery-1.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
-<img src="../../images/gems/emerald/emerald-gallery-2.jpg" alt="祖母绿" style="max-width:32%;border-radius:var(--radius-md,4px);margin:0.25rem">
+<div class="gem-detail__pager-shell">
+<p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>
+<nav class="gem-detail__pager" aria-label="宝石记录导航">
+<a class="gem-detail__pager-link gem-detail__pager-link--previous" href="./dioptase.html" aria-label="上一颗 透视石"><i aria-hidden="true">←</i><span>上一颗</span><strong>透视石</strong><small>Dioptase</small></a>
+<a class="gem-detail__pager-index" href="./" aria-label="返回宝石名录"><span>返回名录</span><strong>18 / 60</strong><small>全部宝石</small></a>
+<a class="gem-detail__pager-link gem-detail__pager-link--next" href="./fluorite.html" aria-label="下一颗 萤石"><span>下一颗</span><strong>萤石</strong><small>Fluorite</small><i aria-hidden="true">→</i></a>
+</nav>
+</div>

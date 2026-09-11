@@ -289,8 +289,8 @@ works:
 
   - id: graff-wittelsbach
     maison: Graff
-    name_zh: Wittelsbach-Graff 钻石
-    name_en: Wittelsbach-Graff Diamond
+    name_zh: Wittelsbach 钻石 · 再切割前档案
+    name_en: Wittelsbach Diamond · Before Recut
     type: gem-focus
     year: '17th century / recut 2008'
     gems: [blue-diamond]
@@ -300,6 +300,8 @@ works:
     style_zh: 传奇彩钻
     summary_zh: 以 Wittelsbach 钻石再切割前的公开图像作为档案参照，讨论宝石历史、切工决策与品牌叙事之间的关系。
     summary_en: A public-domain archival view before recutting, useful for discussing gemstone history, cutting decisions, and brand narrative.
+    archive_relation_zh: 与 Graff 的再切割后记录属于同一颗宝石的前后对读。
+    archive_relation_en: Read this with the Graff post-recut records as one stone across two cutting states.
     image: images/gallery/maisons/graff-wittelsbach.png
     source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png
     image_source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png
@@ -308,8 +310,8 @@ works:
 
   - id: graff-venus
     maison: Graff
-    name_zh: Wittelsbach-Graff 成品钻石
-    name_en: Wittelsbach-Graff Diamond · After Recut
+    name_zh: Wittelsbach 钻石 · 再切割后档案
+    name_en: Wittelsbach Diamond · After Recut
     type: craft
     year: '2008 recut'
     gems: [blue-diamond]
@@ -317,8 +319,10 @@ works:
     craft_zh: 历史钻石再切割
     style: exceptional coloured diamond
     style_zh: 传奇彩钻
-    summary_zh: 公开授权的再切割后图像与前期档案形成对照，适合观察 Graff 如何通过切工更新宝石的视觉与品牌价值。
-    summary_en: An open-license post-recut view pairs with the archival stone to study how Graff used cutting to renew visual and brand value.
+    summary_zh: 公开授权的再切割后图像与前期档案形成对照，适合观察 Graff 如何通过切工更新宝石的视觉与品牌价值；它不是另一颗独立宝石。
+    summary_en: An open-license post-recut view pairs with the earlier archive to study how Graff used cutting to renew visual and brand value; it is not a separate stone.
+    archive_relation_zh: 与上一条记录为同一颗宝石的再切割后状态，共同构成前后对照。
+    archive_relation_en: Same stone as the preceding record, shown after recutting as a before/after comparison.
     image: images/gallery/maisons/graff-wittelsbach-after.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG
     image_source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG
@@ -327,8 +331,8 @@ works:
 
   - id: graff-lesedi-la-rona
     maison: Graff
-    name_zh: Wittelsbach-Graff 切工细节
-    name_en: Wittelsbach-Graff Diamond · Cut Detail
+    name_zh: Wittelsbach 钻石 · 切工观察档案
+    name_en: Wittelsbach Diamond · Cutting Study Record
     type: heritage
     year: '2008 recut'
     gems: [blue-diamond]
@@ -336,8 +340,10 @@ works:
     craft_zh: 精密切磨与宝石溯源
     style: provenance-led luxury
     style_zh: 产地与溯源叙事
-    summary_zh: 以公开授权的成品图像补足 Graff 工坊的切工研究视角，并与再切割前图像共同构成档案对读。
-    summary_en: An open-license finished view completes the Graff cutting study and creates a before/after archival reading with the earlier image.
+    summary_zh: 以同一公开授权成品图像建立切工观察索引，帮助读者把“工坊记录”与“宝石对象”分开理解；它不代表另一件独立作品。
+    summary_en: The same open-license finished image is indexed here for a cutting study, separating a workshop record from the gemstone object; it is not another independent work.
+    archive_relation_zh: 与再切割后档案共用同一图像来源，仅作为关联的切工观察视角。
+    archive_relation_en: Shares the post-recut image source as a related cutting-study view, not a separate object.
     image: images/gallery/maisons/graff-wittelsbach-after.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG
     image_source_url: https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG

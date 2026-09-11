@@ -17,7 +17,7 @@ Choice follows rough shape, inclusion placement, and aesthetic taste.
 - Princess: square, retains round-brilliant fire; modern bridal staple.
 - Emerald: step facets, showcases clarity — suited to clean large stones.
 - Pear / marquise / heart: elongated silhouettes; need symmetric crown-pavilion to avoid bow-tie.
-- Fancy cuts often price lower per carat than rounds (cutting waste + demand).
+- In some markets, fancy cuts may price below comparable rounds per carat; species, proportions, and demand can reverse the result.
 
 ## Examples
 

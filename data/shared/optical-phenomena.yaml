@@ -1,5 +1,5 @@
 # Optical phenomena taxonomy for gems.
-# Six distinct phenomena that go beyond base color: structural
+# Seven distinct phenomena that go beyond base color: structural
 # effects of internal geometry, inclusions, or layering.
 # Reference: Schumann W. *Gemstones of the World*, Nassau K. *The Physics
 #            and Chemistry of Color*, GIA gemology articles.
@@ -119,7 +119,35 @@ phenomena:
       - { gem: 'Color-change Spinel / 变色尖晶石',  day: 'blue',    incandescent: 'violet' }
       - { gem: 'Color-change Fluorite / 变色萤石',  day: 'blue',    incandescent: 'purple' }
 
-  # ─── 4. Adularescence ──────────────────────────────────
+  # ─── 4. Play of color ─────────────────────────────────
+  - id: play-of-color
+    name_zh: 变彩（游彩）
+    name_en: Play of Color
+    short_zh: 角度变化时出现跳动的光谱色斑
+    short_en: Angle-dependent spectral flashes shift across the surface
+    summary_zh: |
+      变彩是欧泊最具代表性的视觉现象。白光进入欧泊内部由规则排列的二氧化硅小球形成的微结构时，
+      不同波长的光会发生衍射与干涉；当观察角度改变，呈现跳动、游移的光谱色斑。变彩的强弱、颜色范围
+      与分布受微结构有序程度、体色、切磨方式和观察光线共同影响。
+    summary_en: |
+      Play of color is opal's signature visual phenomenon. When white light enters ordered domains formed by
+      silica spheres, different wavelengths diffract and interfere; changing the viewing angle shifts the
+      spectral flashes across the surface. Strength, color range, and distribution depend on structural order,
+      body tone, cut, and lighting.
+    mechanism_zh: |
+      微结构衍射与干涉：欧泊中规则排列的二氧化硅小球及其间隙形成周期性结构。白光进入后，不同波长
+      沿不同方向增强或减弱，因此观察方向变化时会连续看到不同的色彩组合。这里的“游彩”描述的是视觉
+      表现，不等同于普通的体色或单一光源下的闪光。
+    mechanism_en: |
+      Diffraction and interference within ordered silica-sphere domains create angle-dependent spectral flashes.
+      As the viewing direction changes, different wavelengths are reinforced or suppressed, so the visible color
+      pattern appears to move. “Play of color” describes the appearance, not a base body color or a single-source sparkle.
+    examples:
+      - { gem: 'Precious Opal / 贵欧泊', structure: 'ordered silica-sphere domains', colors: 'angular spectral flashes' }
+      - { gem: 'Black Opal / 黑欧泊', structure: 'dark body tone + silica-sphere domains', colors: 'red, green, blue' }
+      - { gem: 'White Opal / 白欧泊', structure: 'silica-sphere domains', colors: 'green, blue, orange' }
+
+  # ─── 5. Adularescence ──────────────────────────────────
   - id: adularescence
     name_zh: 月光效应
     name_en: Adularescence (Moonstone Sheen)
@@ -159,7 +187,7 @@ phenomena:
       - { gem: 'White Moonstone / 白月光石', layers: 'orthoclase + albite (coarser)', base: 'feldspar' }
       - { gem: "Cat's-eye Moonstone / 猫眼月光石", layers: 'orthoclase + albite + oriented needles', base: 'feldspar' }
 
-  # ─── 5. Labradorescence ────────────────────────────────
+  # ─── 6. Labradorescence ────────────────────────────────
   - id: labradorescence
     name_zh: 拉长晕彩
     name_en: Labradorescence (Spectrolite)
@@ -201,7 +229,7 @@ phenomena:
       - { gem: 'Andesine-Labradorite / 安山-拉长石', host: 'Plagioclase', colors: 'green to red' }
       - { gem: 'Spectrolite (Madagascar)', host: 'Plagioclase', colors: 'vivid blue-green' }
 
-  # ─── 6. Aventurescence ─────────────────────────────────
+  # ─── 7. Aventurescence ─────────────────────────────────
   - id: aventurescence
     name_zh: 砂金效应
     name_en: Aventurescence (Sunstone Glitter)

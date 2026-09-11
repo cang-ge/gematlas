@@ -8,8 +8,9 @@ identification: physical-tests
 ## Overview
 
 Refractive index, specific gravity, hardness, and cleavage are the
-most basic identification tools — fixed by chemistry and crystal
-structure, so each species has a characteristic, repeatable value.
+most basic identification tools — influenced by chemistry and crystal
+structure, so each species tends to fall within a comparable range; conditions,
+orientation, treatment, and sample state can shift the reading.
 
 
 ## Core Principles

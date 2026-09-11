@@ -61,16 +61,6 @@ describe('Shared YAML validation', () => {
   it('cutting.yaml parses (3 cutting topics)', () => {
     const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'cutting.yaml'), 'utf8'))
     const parsed = CuttingTopicsFile.parse(raw)
-    expect(parsed.topics).toHaveLength(3)
-    for (const t of parsed.topics) {
-      expect(t.name_en.length).toBeGreaterThan(0)
-      expect(t.name_zh.length).toBeGreaterThan(0)
-    }
-  })
-
-  it('identification.yaml parses (4 identification topics)', () => {
-    const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'identification.yaml'), 'utf8'))
-    const parsed = IdentificationTopicsFile.parse(raw)
     expect(parsed.topics).toHaveLength(4)
     for (const t of parsed.topics) {
       expect(t.name_en.length).toBeGreaterThan(0)
@@ -78,10 +68,20 @@ describe('Shared YAML validation', () => {
     }
   })
 
-  it('gallery.yaml parses (3 gallery topics)', () => {
+  it('identification.yaml parses (5 identification topics)', () => {
+    const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'identification.yaml'), 'utf8'))
+    const parsed = IdentificationTopicsFile.parse(raw)
+    expect(parsed.topics).toHaveLength(5)
+    for (const t of parsed.topics) {
+      expect(t.name_en.length).toBeGreaterThan(0)
+      expect(t.name_zh.length).toBeGreaterThan(0)
+    }
+  })
+
+  it('gallery.yaml parses (4 gallery topics)', () => {
     const raw = yaml.load(fs.readFileSync(path.join(SHARED_DIR, 'gallery.yaml'), 'utf8'))
     const parsed = GalleryTopicsFile.parse(raw)
-    expect(parsed.topics).toHaveLength(3)
+    expect(parsed.topics).toHaveLength(4)
     for (const t of parsed.topics) {
       expect(t.name_en.length).toBeGreaterThan(0)
       expect(t.name_zh.length).toBeGreaterThan(0)

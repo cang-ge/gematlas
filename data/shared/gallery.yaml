@@ -7,14 +7,14 @@
 # Hope; the Cullinan and Koh-i-Noor records).
 
 overview_zh: |
-  画廊模块把成品珠宝按三种维度展示——顶级珠宝工坊（maison）、
-  设计风格史（style era）、以及传奇宝石（legendary stones）。
-  配合 GalleryGrid 的 21 件工坊作品与 5 件传奇宝石，形成从工坊到名钻的完整叙事。
+  画廊模块把珠宝作品与传奇宝石档案按四种维度展示——顶级珠宝工坊（maison）、
+  设计风格史（style era）、作品档案与图像证据、以及传奇宝石（legendary stones）。
+  21 条工坊档案与 5 件传奇宝石共同构成从工坊、对象到历史图像的学习路径。
 overview_en: |
-  The gallery views finished jewelry through three lenses — the great
-  maisons, the style eras that shaped design, and the legendary stones
-  whose fame outlived their owners. Together with the GalleryGrid's
-  21 maison works and five legendary stones, this forms a narrative from workshop to icon.
+  The gallery views jewelry works and legendary-stone archives through four lenses — the great
+  maisons, the style eras that shaped design, object records and image evidence, and the legendary
+  stones whose fame outlived their owners. Together with the GalleryGrid's 21 maison records and
+  five legendary stones, this forms a learning path from workshop to object to historical image.
 
 topics:
   - id: by-house
@@ -59,13 +59,13 @@ topics:
       Nouveau's organic curves, Art Deco's geometry, Modernist restraint —
       each style mirrors its era.
     principles_zh: |
-      - 浪漫主义 (Pre-1900)：自然花叶、浮雕、珍珠——维多利亚与爱德华时代。
+      - 浪漫主义 / 维多利亚与爱德华时期（约 19 世纪中后期—1910 年）：自然花叶、浮雕、珍珠。
       - Art Nouveau (1890–1910)：新艺术曲线、蜻蜓发饰、麦浪。
       - Art Deco (1920–1935)：几何对称、黑玛瑙/钻石对比、雕刻宝石。
       - Mid-Century (1950–1980)：立体主义、异域题材（印度/中国元素）。
       - Contemporary (2000+)：创新镶嵌、有机造型、彩色宝石高珠。
     principles_en: |
-      - Romanticism (Pre-1900): floral carving, cameos, pearls — Victorian & Edwardian.
+      - Romanticism / Victorian & Edwardian (roughly late 19th century–1910): floral carving, cameos, pearls.
       - Art Nouveau (1890–1910): whiplash curves, dragonfly tiaras, wheat motifs.
       - Art Deco (1920–1935): geometry, black-onyx/diamond contrast, carved gems.
       - Mid-Century (1950–1980): Cubism, exotic themes (Indian/Chinese motifs).
@@ -73,7 +73,32 @@ topics:
     examples:
       - { gem: "Art Deco", value: "Boucheron 'Chimère' Belt (1920s)", note_en: "mystery-set motif" }
       - { gem: "Art Nouveau", value: "René Lalique Dragonfly", note_en: "enamel + gem" }
-      - { gem: "Contemporary", value: "VCA 'Ludo' zip necklace (1951)", note_en: "zips into bracelet" }
+      - { gem: "Mid-Century", value: "VCA 'Ludo' zip necklace (1951)", note_en: "zips into bracelet" }
+
+  - id: archive-reading
+    name_zh: 作品档案与图像证据
+    name_en: Object Records & Image Evidence
+    summary_zh: |
+      一张图片不一定等于一件独立作品：它可能是展柜照片、历史插图、同一宝石的另一状态，
+      也可能只是为了观察工艺而建立的关联视角。本页提供阅读画廊档案的基本方法。
+    summary_en: |
+      One image does not always equal one independent work: it may be a display photograph,
+      historical illustration, another state of the same stone, or a related view created for
+      studying craft. This page gives a basic method for reading gallery records.
+    principles_zh: |
+      - 先分清对象来源与图像来源：前者回答“这是什么”，后者回答“这张图由谁拍摄、以何种许可使用”。
+      - 年代字段描述对象、设计或再切割事件时，会明确写出对应关系；它不自动等于照片拍摄年份。
+      - 标有“档案关系”的卡片可能共享同一对象或图像，应按关联记录阅读，不重复计算为独立作品。
+      - 传奇宝石的重量、历史与馆藏信息属于档案事实；它们不能替代现代鉴定报告、分级报告或估值意见。
+    principles_en: |
+      - Separate the object source from the image source: one answers “what is this?” and the other records who made the image and how it may be reused.
+      - A year may describe the object, design, or a recutting event; it is not automatically the photograph date.
+      - Cards marked “Archive relation” may share an object or image. Read them as linked records, not duplicate independent works.
+      - Weight, history, and institutional custody are archive facts; they do not replace a modern identification, grading report, or valuation.
+    examples:
+      - { gem: "Wittelsbach", gem_zh: "Wittelsbach 钻石", value: "before / after recut", value_zh: "再切割前 / 后", note_en: "one stone, linked archive states", note_zh: "同一颗宝石的关联档案状态" }
+      - { gem: "Display photograph", gem_zh: "展柜照片", value: "image evidence", value_zh: "图像证据", note_en: "not automatically the object source", note_zh: "不自动等于对象来源" }
+      - { gem: "Historical illustration", gem_zh: "历史插图", value: "documentary record", value_zh: "文献记录", note_en: "record its source and date separately", note_zh: "单独记录来源与年代" }
 
   - id: legendary-stones
     name_zh: 传奇宝石
