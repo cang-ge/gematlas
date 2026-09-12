@@ -54,9 +54,9 @@ gem: chalcedony
   <p class="gem-detail__treatment-note"><span>说明</span>玛瑙的染色技术已有数千年历史；几乎市场上的所有黑玛瑙和蓝玛瑙都是染色产物</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>巴西</li><li>印度</li><li>美国俄勒冈</li><li>马达加斯加</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>巴西</li><li>印度</li><li>美国俄勒冈</li><li>马达加斯加</li></ul></div>
 
 ## 历史与传说
 

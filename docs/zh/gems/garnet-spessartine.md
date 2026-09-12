@@ -54,9 +54,9 @@ gem: garnet-spessartine
   <p class="gem-detail__treatment-note"><span>说明</span>著名&quot;芬达石&quot;为含 Fe 的锰铝榴石</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>中国新疆</li><li>纳米比亚</li><li>马达加斯加</li><li>美国</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>中国新疆</li><li>纳米比亚</li><li>马达加斯加</li><li>美国</li></ul></div>
 
 ## 历史与传说
 

@@ -54,9 +54,9 @@ gem: tsavorite-garnet
   <p class="gem-detail__treatment-note"><span>说明</span>无处理需求；稀缺性来自肯尼亚/坦桑尼亚小矿脉</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>肯尼亚</li><li>坦桑尼亚</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>肯尼亚</li><li>坦桑尼亚</li></ul></div>
 
 ## 历史与传说
 

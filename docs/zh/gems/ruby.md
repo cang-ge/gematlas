@@ -54,9 +54,9 @@ gem: ruby
   <p class="gem-detail__treatment-note"><span>说明</span>绝大多数商业红宝石经过热处理，市场可接受；无处理溢价显著</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>缅甸莫谷</li><li>莫桑比克</li><li>泰国</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>缅甸莫谷</li><li>莫桑比克</li><li>泰国</li></ul></div>
 
 ## 历史与传说
 

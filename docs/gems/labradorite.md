@@ -54,9 +54,9 @@ gem: labradorite
   <p class="gem-detail__treatment-note"><span>Note</span>Labradorescence is a structural effect and cannot be artificially enhanced; surface coating sometimes used to add color</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Labrador, Canada</li><li>Madagascar</li><li>Finland</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Labrador, Canada</li><li>Madagascar</li><li>Finland</li></ul></div>
 
 ## History & Lore
 

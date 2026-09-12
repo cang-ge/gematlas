@@ -54,9 +54,9 @@ gem: sodalite
   <p class="gem-detail__treatment-note"><span>Note</span>Often mistaken for lapis lazuli; sodalite has more white veining and less pyrite</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Canada</li><li>Brazil</li><li>Kola Peninsula, Russia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Canada</li><li>Brazil</li><li>Kola Peninsula, Russia</li></ul></div>
 
 ## History & Lore
 

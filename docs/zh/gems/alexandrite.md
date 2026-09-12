@@ -54,9 +54,9 @@ gem: alexandrite
   <p class="gem-detail__treatment-note"><span>说明</span>几乎无处理；产地溢价显著（俄罗斯/巴西/斯里兰卡）</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>俄罗斯乌拉尔</li><li>巴西</li><li>斯里兰卡</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>俄罗斯乌拉尔</li><li>巴西</li><li>斯里兰卡</li></ul></div>
 
 ## 历史与传说
 

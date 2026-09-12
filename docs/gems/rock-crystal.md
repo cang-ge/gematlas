@@ -54,9 +54,9 @@ gem: rock-crystal
   <p class="gem-detail__treatment-note"><span>Note</span>The most common natural gem material, distributed worldwide; includes rutilated quartz and enhydro varieties</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Brazil</li><li>China</li><li>Madagascar</li><li>Arkansas, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Brazil</li><li>China</li><li>Madagascar</li><li>Arkansas, USA</li></ul></div>
 
 ## History & Lore
 

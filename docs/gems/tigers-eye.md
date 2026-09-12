@@ -54,9 +54,9 @@ gem: tigers-eye
   <p class="gem-detail__treatment-note"><span>Note</span>Heat treatment can enhance red-brown; Hawk-eye is the unoxidized variety</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>South Africa</li><li>Australia</li><li>India</li><li>Brazil</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>South Africa</li><li>Australia</li><li>India</li><li>Brazil</li></ul></div>
 
 ## History & Lore
 

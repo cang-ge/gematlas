@@ -54,9 +54,9 @@ gem: lapis-lazuli
   <p class="gem-detail__treatment-note"><span>说明</span>优质品含少量金色黄铁矿斑点（&quot;星辉&quot;）；阿富汗为最著名产地</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>阿富汗巴达赫尚</li><li>智利</li><li>俄罗斯贝加尔</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>阿富汗巴达赫尚</li><li>智利</li><li>俄罗斯贝加尔</li></ul></div>
 
 ## 历史与传说
 

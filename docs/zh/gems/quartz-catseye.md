@@ -54,9 +54,9 @@ gem: quartz-catseye
   <p class="gem-detail__treatment-note"><span>说明</span>与金绿猫眼不同，石英猫眼的猫眼带较宽、效果较弱</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>斯里兰卡</li><li>印度</li><li>巴西</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>斯里兰卡</li><li>印度</li><li>巴西</li></ul></div>
 
 ## 历史与传说
 

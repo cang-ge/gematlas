@@ -54,9 +54,9 @@ gem: obsidian
   <p class="gem-detail__treatment-note"><span>Note</span>Natural glass, not a crystalline mineral; heat treatment can enhance silver/gold sheen</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Oregon, USA</li><li>Mexico</li><li>Iceland</li><li>Hokkaido, Japan</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Oregon, USA</li><li>Mexico</li><li>Iceland</li><li>Hokkaido, Japan</li></ul></div>
 
 ## History & Lore
 

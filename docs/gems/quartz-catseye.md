@@ -54,9 +54,9 @@ gem: quartz-catseye
   <p class="gem-detail__treatment-note"><span>Note</span>Distinct from chrysoberyl cat&#39;s-eye; quartz cat&#39;s-eye has a wider, less distinct eye</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Sri Lanka</li><li>India</li><li>Brazil</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Sri Lanka</li><li>India</li><li>Brazil</li></ul></div>
 
 ## History & Lore
 

@@ -54,9 +54,9 @@ gem: serpentine
   <p class="gem-detail__treatment-note"><span>说明</span>中国岫玉（蛇纹石玉）有数千年开采史；与和田玉不同矿物</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>中国</li><li>南非</li><li>美国加州</li><li>英国康沃尔</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>中国</li><li>南非</li><li>美国加州</li><li>英国康沃尔</li></ul></div>
 
 ## 历史与传说
 

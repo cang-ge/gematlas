@@ -54,9 +54,9 @@ gem: ruby
   <p class="gem-detail__treatment-note"><span>Note</span>Most commercial rubies are heat-treated; untreated stones command significant premiums</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Mogok, Myanmar</li><li>Mozambique</li><li>Thailand</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Mogok, Myanmar</li><li>Mozambique</li><li>Thailand</li></ul></div>
 
 ## History & Lore
 

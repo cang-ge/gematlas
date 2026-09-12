@@ -54,9 +54,9 @@ gem: jadeite
   <p class="gem-detail__treatment-note"><span>Note</span>B+C jade uses acid-bleaching + polymer filling; strict disclosure required</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Myanmar</li><li>Guatemala</li><li>Japan</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Myanmar</li><li>Guatemala</li><li>Japan</li></ul></div>
 
 ## History & Lore
 

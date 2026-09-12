@@ -54,9 +54,9 @@ gem: dioptase
   <p class="gem-detail__treatment-note"><span>说明</span>颜色与祖母绿相似但更艳；硬度较低（5.5），不适合日常佩戴</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>纳米比亚</li><li>刚果（金）</li><li>俄罗斯</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>纳米比亚</li><li>刚果（金）</li><li>俄罗斯</li></ul></div>
 
 ## 历史与传说
 

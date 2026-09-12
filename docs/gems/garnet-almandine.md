@@ -54,9 +54,9 @@ gem: garnet-almandine
   <p class="gem-detail__treatment-note"><span>Note</span>Most common commercial garnet, typically untreated</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>India</li><li>Sri Lanka</li><li>USA</li><li>Madagascar</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>India</li><li>Sri Lanka</li><li>USA</li><li>Madagascar</li></ul></div>
 
 ## History & Lore
 

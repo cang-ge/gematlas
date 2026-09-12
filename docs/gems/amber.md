@@ -54,9 +54,9 @@ gem: amber
   <p class="gem-detail__treatment-note"><span>Note</span>Baltic amber most common; insect inclusions most prized</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Baltic Sea</li><li>Myanmar</li><li>Dominican Republic</li><li>Mexico</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Baltic Sea</li><li>Myanmar</li><li>Dominican Republic</li><li>Mexico</li></ul></div>
 
 ## History & Lore
 

@@ -54,9 +54,9 @@ gem: sapphire
   <p class="gem-detail__treatment-note"><span>说明</span>热处理普遍，无处理稀少</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>克什米尔</li><li>斯里兰卡</li><li>马达加斯加</li><li>缅甸</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>克什米尔</li><li>斯里兰卡</li><li>马达加斯加</li><li>缅甸</li></ul></div>
 
 ## 历史与传说
 

@@ -54,9 +54,9 @@ gem: tanzanite
   <p class="gem-detail__treatment-note"><span>说明</span>几乎所有坦桑石均经热处理以增强蓝紫调</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>坦桑尼亚（梅雷拉尼山）</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>坦桑尼亚（梅雷拉尼山）</li></ul></div>
 
 ## 历史与传说
 

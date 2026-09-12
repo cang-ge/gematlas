@@ -54,9 +54,9 @@ gem: rhodonite
   <p class="gem-detail__treatment-note"><span>说明</span>俄罗斯&quot;苏联石&quot;（Rhodonite）是最著名产地品种</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>俄罗斯乌拉尔</li><li>瑞典</li><li>澳大利亚</li><li>美国马萨诸塞</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>俄罗斯乌拉尔</li><li>瑞典</li><li>澳大利亚</li><li>美国马萨诸塞</li></ul></div>
 
 ## 历史与传说
 

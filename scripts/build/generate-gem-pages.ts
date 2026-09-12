@@ -165,7 +165,7 @@ function mdTreatments(gem: ParsedGem, locale: Locale): string {
 
 function mdOrigin(gem: ParsedGem, locale: Locale): string {
   if (!gem.origin || gem.origin.length === 0) return ''
-  const label = locale === 'en' ? 'Recorded localities' : '记录产地'
+  const label = locale === 'en' ? 'Representative localities' : '代表性产地'
   return `<div class="gem-detail__origins"><span>${label}</span><ul>${gem.origin.map(o => `<li>${html(locale === 'en' ? o.en : o.zh)}</li>`).join('')}</ul></div>`
 }
 
@@ -216,7 +216,7 @@ function pageBody(gem: ParsedGem, locale: Locale, allGems: ParsedGem[]): string 
   const physicalTitle = locale === 'en' ? 'Physical Properties' : '物理性质'
   const opticalTitle = locale === 'en' ? 'Optical Properties' : '光学性质'
   const treatmentTitle = locale === 'en' ? 'Treatments & Disclosure' : '处理与披露'
-  const originTitle = locale === 'en' ? 'Origin' : '主要产地'
+  const originTitle = locale === 'en' ? 'Origin Records' : '产地记录'
   const historyTitle = locale === 'en' ? 'History & Lore' : '历史与传说'
   const galleryTitle = locale === 'en' ? 'Image Evidence' : '图像证据'
   const imgRel = locale === 'en' ? `../images/gems/${gem.id}` : `../../images/gems/${gem.id}`

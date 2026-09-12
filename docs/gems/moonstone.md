@@ -54,9 +54,9 @@ gem: moonstone
   <p class="gem-detail__treatment-note"><span>Note</span>Impregnation can enhance the adularescent sheen</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Sri Lanka</li><li>India</li><li>Madagascar</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Sri Lanka</li><li>India</li><li>Madagascar</li></ul></div>
 
 ## History & Lore
 

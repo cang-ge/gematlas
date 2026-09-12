@@ -54,9 +54,9 @@ gem: opal
   <p class="gem-detail__treatment-note"><span>Note</span>Sugar-acid treatment simulates black opal; must be disclosed</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Andamooka / Lightning Ridge, Australia</li><li>Ethiopia</li><li>Mexico</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Andamooka / Lightning Ridge, Australia</li><li>Ethiopia</li><li>Mexico</li></ul></div>
 
 ## History & Lore
 

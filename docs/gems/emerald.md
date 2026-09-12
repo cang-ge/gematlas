@@ -54,9 +54,9 @@ gem: emerald
   <p class="gem-detail__treatment-note"><span>Note</span>Cedar-oil filling is industry standard; &quot;no oil&quot; commands significant premiums</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Muzo / Chivor, Colombia</li><li>Zambia</li><li>Brazil</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Muzo / Chivor, Colombia</li><li>Zambia</li><li>Brazil</li></ul></div>
 
 ## History & Lore
 

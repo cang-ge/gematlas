@@ -54,9 +54,9 @@ gem: sunstone
   <p class="gem-detail__treatment-note"><span>说明</span>美国俄勒冈太阳石以含天然铜片（无需优化）而闻名</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>美国俄勒冈</li><li>印度</li><li>挪威</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>美国俄勒冈</li><li>印度</li><li>挪威</li></ul></div>
 
 ## 历史与传说
 

@@ -54,9 +54,9 @@ gem: zircon
   <p class="gem-detail__treatment-note"><span>Note</span>Commercial blue zircon is usually heat-treated brown-yellow rough; not to be confused with cubic zirconia (CZ)</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Cambodia</li><li>Sri Lanka</li><li>Thailand</li><li>Australia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Cambodia</li><li>Sri Lanka</li><li>Thailand</li><li>Australia</li></ul></div>
 
 ## History & Lore
 

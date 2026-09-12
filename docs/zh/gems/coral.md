@@ -54,9 +54,9 @@ gem: coral
   <p class="gem-detail__treatment-note"><span>说明</span>深血红日本阿卡珊瑚最贵；忌酸与高温</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>日本</li><li>地中海</li><li>中国台湾</li><li>夏威夷</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>日本</li><li>地中海</li><li>中国台湾</li><li>夏威夷</li></ul></div>
 
 ## 历史与传说
 

@@ -54,9 +54,9 @@ gem: garnet-almandine
   <p class="gem-detail__treatment-note"><span>说明</span>商业最常见石榴石，通常无处理</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>印度</li><li>斯里兰卡</li><li>美国</li><li>马达加斯加</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>印度</li><li>斯里兰卡</li><li>美国</li><li>马达加斯加</li></ul></div>
 
 ## 历史与传说
 

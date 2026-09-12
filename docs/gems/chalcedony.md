@@ -54,9 +54,9 @@ gem: chalcedony
   <p class="gem-detail__treatment-note"><span>Note</span>Agate dyeing techniques are thousands of years old; nearly all black and blue agate on the market is dyed</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Brazil</li><li>India</li><li>Oregon, USA</li><li>Madagascar</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Brazil</li><li>India</li><li>Oregon, USA</li><li>Madagascar</li></ul></div>
 
 ## History & Lore
 

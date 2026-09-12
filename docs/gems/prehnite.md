@@ -54,9 +54,9 @@ gem: prehnite
   <p class="gem-detail__treatment-note"><span>Note</span>Named for its botryoidal (grape-like) habit; primarily used in pendants and carvings</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>South Africa</li><li>Australia</li><li>China</li><li>New Jersey, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>South Africa</li><li>Australia</li><li>China</li><li>New Jersey, USA</li></ul></div>
 
 ## History & Lore
 

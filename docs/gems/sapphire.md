@@ -54,9 +54,9 @@ gem: sapphire
   <p class="gem-detail__treatment-note"><span>Note</span>Heat treatment is industry standard; untreated is rare</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Kashmir</li><li>Sri Lanka</li><li>Madagascar</li><li>Myanmar</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Kashmir</li><li>Sri Lanka</li><li>Madagascar</li><li>Myanmar</li></ul></div>
 
 ## History & Lore
 

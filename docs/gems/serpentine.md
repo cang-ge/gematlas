@@ -54,9 +54,9 @@ gem: serpentine
   <p class="gem-detail__treatment-note"><span>Note</span>Xiuyan jade (serpentine jade) from China has been mined for thousands of years; distinct mineral from nephrite</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>China</li><li>South Africa</li><li>California, USA</li><li>Cornwall, UK</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>China</li><li>South Africa</li><li>California, USA</li><li>Cornwall, UK</li></ul></div>
 
 ## History & Lore
 

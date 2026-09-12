@@ -54,9 +54,9 @@ gem: smoky-quartz
   <p class="gem-detail__treatment-note"><span>Note</span>Natural smoky quartz forms from nearby radioactive minerals; artificial irradiation can replicate the effect</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Swiss Alps</li><li>Brazil</li><li>Colorado, USA</li><li>Cairngorm, Scotland</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Swiss Alps</li><li>Brazil</li><li>Colorado, USA</li><li>Cairngorm, Scotland</li></ul></div>
 
 ## History & Lore
 

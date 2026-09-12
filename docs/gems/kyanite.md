@@ -54,9 +54,9 @@ gem: kyanite
   <p class="gem-detail__treatment-note"><span>Note</span>Rarely anisotropic hardness; orange kyanite (Mn) pricier</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Brazil</li><li>Nepal</li><li>Myanmar</li><li>North Carolina, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Brazil</li><li>Nepal</li><li>Myanmar</li><li>North Carolina, USA</li></ul></div>
 
 ## History & Lore
 

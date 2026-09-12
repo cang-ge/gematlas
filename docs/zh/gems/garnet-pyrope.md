@@ -54,9 +54,9 @@ gem: garnet-pyrope
   <p class="gem-detail__treatment-note"><span>说明</span>著名&quot;波西米亚石榴石&quot;多为镁铝-铁铝榴石混合体</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>捷克波西米亚</li><li>南非</li><li>坦桑尼亚</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>捷克波西米亚</li><li>南非</li><li>坦桑尼亚</li></ul></div>
 
 ## 历史与传说
 

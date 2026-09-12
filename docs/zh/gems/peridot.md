@@ -54,9 +54,9 @@ gem: peridot
   <p class="gem-detail__treatment-note"><span>说明</span>橄榄石通常无处理；稀有陨石来源橄榄石价值更高</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>埃及圣约翰岛</li><li>中国</li><li>巴基斯坦</li><li>美国亚利桑那</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>埃及圣约翰岛</li><li>中国</li><li>巴基斯坦</li><li>美国亚利桑那</li></ul></div>
 
 ## 历史与传说
 

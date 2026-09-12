@@ -54,9 +54,9 @@ gem: smoky-quartz
   <p class="gem-detail__treatment-note"><span>说明</span>天然烟晶由放射性矿物辐照形成；人工辐照也可产生</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>瑞士阿尔卑斯</li><li>巴西</li><li>美国科罗拉多</li><li>苏格兰凯恩戈姆</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>瑞士阿尔卑斯</li><li>巴西</li><li>美国科罗拉多</li><li>苏格兰凯恩戈姆</li></ul></div>
 
 ## 历史与传说
 

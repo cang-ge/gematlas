@@ -54,9 +54,9 @@ gem: obsidian
   <p class="gem-detail__treatment-note"><span>说明</span>天然玻璃，非矿物晶体；加热可改善银曜/金曜效果</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>美国俄勒冈</li><li>墨西哥</li><li>冰岛</li><li>日本北海道</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>美国俄勒冈</li><li>墨西哥</li><li>冰岛</li><li>日本北海道</li></ul></div>
 
 ## 历史与传说
 

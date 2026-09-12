@@ -54,9 +54,9 @@ gem: citrine
   <p class="gem-detail__treatment-note"><span>Note</span>Most commercial citrine is heat-treated amethyst</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Brazil</li><li>Spain</li><li>Scotland</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Brazil</li><li>Spain</li><li>Scotland</li></ul></div>
 
 ## History & Lore
 

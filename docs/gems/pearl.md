@@ -54,9 +54,9 @@ gem: pearl
   <p class="gem-detail__treatment-note"><span>Note</span>Natural vs cultured needs X-ray; imitations are glass/plastic beads</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Persian Gulf</li><li>Tahiti</li><li>Japan</li><li>Australia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Persian Gulf</li><li>Tahiti</li><li>Japan</li><li>Australia</li></ul></div>
 
 ## History & Lore
 

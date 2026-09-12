@@ -54,9 +54,9 @@ gem: rhodonite
   <p class="gem-detail__treatment-note"><span>Note</span>Russian &quot;Rhodonite&quot; from the Ural Mountains is the most famous source variety</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Urals, Russia</li><li>Sweden</li><li>Australia</li><li>Massachusetts, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Urals, Russia</li><li>Sweden</li><li>Australia</li><li>Massachusetts, USA</li></ul></div>
 
 ## History & Lore
 

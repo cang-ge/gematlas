@@ -54,9 +54,9 @@ gem: paraiba-tourmaline
   <p class="gem-detail__treatment-note"><span>Note</span>Original Brazilian Paraíba is scarce; Mozambique material trades at lower premium</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Paraíba, Brazil</li><li>Nigeria</li><li>Mozambique</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Paraíba, Brazil</li><li>Nigeria</li><li>Mozambique</li></ul></div>
 
 ## History & Lore
 

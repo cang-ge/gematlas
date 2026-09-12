@@ -54,9 +54,9 @@ gem: garnet-demantoid
   <p class="gem-detail__treatment-note"><span>Note</span>Russian Ural Mountains are the most famous source; &quot;horsetail&quot; inclusions are characteristic</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Urals, Russia</li><li>Namibia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Urals, Russia</li><li>Namibia</li></ul></div>
 
 ## History & Lore
 

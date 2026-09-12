@@ -54,9 +54,9 @@ gem: lapis-lazuli
   <p class="gem-detail__treatment-note"><span>Note</span>Fine quality contains small golden pyrite specks (&quot;stardust&quot;); Afghanistan is the most famous source</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Badakhshan, Afghanistan</li><li>Chile</li><li>Lake Baikal, Russia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Badakhshan, Afghanistan</li><li>Chile</li><li>Lake Baikal, Russia</li></ul></div>
 
 ## History & Lore
 

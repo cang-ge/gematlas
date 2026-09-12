@@ -54,9 +54,9 @@ gem: amber
   <p class="gem-detail__treatment-note"><span>说明</span>波罗的海琥珀最常见；含昆虫内含物最珍贵</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>波罗的海</li><li>缅甸</li><li>多米尼加</li><li>墨西哥</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>波罗的海</li><li>缅甸</li><li>多米尼加</li><li>墨西哥</li></ul></div>
 
 ## 历史与传说
 

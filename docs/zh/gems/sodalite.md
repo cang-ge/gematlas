@@ -54,9 +54,9 @@ gem: sodalite
   <p class="gem-detail__treatment-note"><span>说明</span>常被误认为青金石；方钠石白纹更多、黄铁矿斑更少</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>加拿大</li><li>巴西</li><li>俄罗斯科拉半岛</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>加拿大</li><li>巴西</li><li>俄罗斯科拉半岛</li></ul></div>
 
 ## 历史与传说
 

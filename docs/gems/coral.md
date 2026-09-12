@@ -54,9 +54,9 @@ gem: coral
   <p class="gem-detail__treatment-note"><span>Note</span>Japanese aka deep-red priciest; avoid acid and heat</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Japan</li><li>Mediterranean</li><li>Taiwan</li><li>Hawaii</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Japan</li><li>Mediterranean</li><li>Taiwan</li><li>Hawaii</li></ul></div>
 
 ## History & Lore
 

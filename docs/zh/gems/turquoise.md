@@ -54,9 +54,9 @@ gem: turquoise
   <p class="gem-detail__treatment-note"><span>说明</span>高瓷蓝（睡美人矿）最贵；稳定处理常见</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>中国湖北</li><li>伊朗尼沙普尔</li><li>美国亚利桑那</li><li>墨西哥</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>中国湖北</li><li>伊朗尼沙普尔</li><li>美国亚利桑那</li><li>墨西哥</li></ul></div>
 
 ## 历史与传说
 

@@ -54,9 +54,9 @@ gem: pyrite
   <p class="gem-detail__treatment-note"><span>Note</span>Known as &quot;fool&#39;s gold,&quot; often confused with real gold; widely used in decorative jewelry</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Spain</li><li>Peru</li><li>Illinois, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Spain</li><li>Peru</li><li>Illinois, USA</li></ul></div>
 
 ## History & Lore
 

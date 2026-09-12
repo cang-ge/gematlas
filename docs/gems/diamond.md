@@ -54,9 +54,9 @@ gem: diamond
   <p class="gem-detail__treatment-note"><span>Note</span>HPHT treatment must be disclosed; natural vs. synthetic distinguished by laser inscription</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Golconda, India</li><li>South Africa</li><li>Yakutia, Russia</li><li>Botswana</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Golconda, India</li><li>South Africa</li><li>Yakutia, Russia</li><li>Botswana</li></ul></div>
 
 ## History & Lore
 

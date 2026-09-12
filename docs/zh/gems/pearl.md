@@ -54,9 +54,9 @@ gem: pearl
   <p class="gem-detail__treatment-note"><span>说明</span>天然 vs 养殖需 X 光或专业检测；仿品为玻璃/塑料珠</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>波斯湾</li><li>大溪地</li><li>日本</li><li>澳大利亚</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>波斯湾</li><li>大溪地</li><li>日本</li><li>澳大利亚</li></ul></div>
 
 ## 历史与传说
 

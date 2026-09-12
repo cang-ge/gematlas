@@ -54,9 +54,9 @@ gem: nephrite
   <p class="gem-detail__treatment-note"><span>说明</span>与翡翠（硬玉）属不同矿物种；新疆和田为最著名产地</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>中国新疆和田</li><li>加拿大不列颠哥伦比亚</li><li>俄罗斯</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>中国新疆和田</li><li>加拿大不列颠哥伦比亚</li><li>俄罗斯</li></ul></div>
 
 ## 历史与传说
 

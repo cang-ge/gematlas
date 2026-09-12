@@ -54,9 +54,9 @@ gem: iolite
   <p class="gem-detail__treatment-note"><span>说明</span>无已知优化处理；维京人曾用作偏振导航仪</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>印度</li><li>斯里兰卡</li><li>马达加斯加</li><li>坦桑尼亚</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>印度</li><li>斯里兰卡</li><li>马达加斯加</li><li>坦桑尼亚</li></ul></div>
 
 ## 历史与传说
 

@@ -54,9 +54,9 @@ gem: amazonite
   <p class="gem-detail__treatment-note"><span>Note</span>Famous sources include Miass (Russia) and Pikes Peak (USA)</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Brazil</li><li>Colorado, USA</li><li>Russia</li><li>Madagascar</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Brazil</li><li>Colorado, USA</li><li>Russia</li><li>Madagascar</li></ul></div>
 
 ## History & Lore
 

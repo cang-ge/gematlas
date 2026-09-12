@@ -54,9 +54,9 @@ gem: morganite
   <p class="gem-detail__treatment-note"><span>说明</span>加热或辐照可增强黄色或粉色饱和度</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>巴西</li><li>马达加斯加</li><li>阿富汗</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>巴西</li><li>马达加斯加</li><li>阿富汗</li></ul></div>
 
 ## 历史与传说
 

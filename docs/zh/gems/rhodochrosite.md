@@ -54,9 +54,9 @@ gem: rhodochrosite
   <p class="gem-detail__treatment-note"><span>说明</span>阿根廷&quot;印加玫瑰&quot;为最著名品种，具同心圆条带</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>阿根廷卡皮利亚</li><li>南非</li><li>美国科罗拉多</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>阿根廷卡皮利亚</li><li>南非</li><li>美国科罗拉多</li></ul></div>
 
 ## 历史与传说
 

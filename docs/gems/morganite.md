@@ -54,9 +54,9 @@ gem: morganite
   <p class="gem-detail__treatment-note"><span>Note</span>Heat or irradiation can intensify yellow or pink saturation</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Brazil</li><li>Madagascar</li><li>Afghanistan</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Brazil</li><li>Madagascar</li><li>Afghanistan</li></ul></div>
 
 ## History & Lore
 

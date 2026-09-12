@@ -54,9 +54,9 @@ gem: sphalerite
   <p class="gem-detail__treatment-note"><span>说明</span>色散 0.156 超过钻石——&#39;火彩之王&#39;；极软仅藏家</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>西班牙</li><li>墨西哥</li><li>美国</li><li>中国</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>西班牙</li><li>墨西哥</li><li>美国</li><li>中国</li></ul></div>
 
 ## 历史与传说
 

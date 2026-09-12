@@ -54,9 +54,9 @@ gem: garnet-demantoid
   <p class="gem-detail__treatment-note"><span>说明</span>俄罗斯乌拉尔山为最著名产地；马尾状包体为特征</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>俄罗斯乌拉尔</li><li>纳米比亚</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>俄罗斯乌拉尔</li><li>纳米比亚</li></ul></div>
 
 ## 历史与传说
 

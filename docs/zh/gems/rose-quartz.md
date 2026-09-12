@@ -54,9 +54,9 @@ gem: rose-quartz
   <p class="gem-detail__treatment-note"><span>说明</span>通常无处理；大量用于雕刻与首饰；少有完好晶形</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>巴西</li><li>马达加斯加</li><li>南非</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>巴西</li><li>马达加斯加</li><li>南非</li></ul></div>
 
 ## 历史与传说
 

@@ -54,9 +54,9 @@ gem: heliodor
   <p class="gem-detail__treatment-note"><span>Note</span>Beryl&#39;s yellow member; heat can improve tone</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Namibia</li><li>Brazil</li><li>Madagascar</li><li>Ukraine</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Namibia</li><li>Brazil</li><li>Madagascar</li><li>Ukraine</li></ul></div>
 
 ## History & Lore
 

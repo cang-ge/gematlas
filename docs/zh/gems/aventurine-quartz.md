@@ -54,9 +54,9 @@ gem: aventurine-quartz
   <p class="gem-detail__treatment-note"><span>说明</span>商业蓝色变种多为染色产物；绿色最常见，源自印度市场</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>印度</li><li>巴西</li><li>西班牙</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>印度</li><li>巴西</li><li>西班牙</li></ul></div>
 
 ## 历史与传说
 

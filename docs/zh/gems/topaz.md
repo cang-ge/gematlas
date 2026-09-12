@@ -54,9 +54,9 @@ gem: topaz
   <p class="gem-detail__treatment-note"><span>说明</span>市售蓝色托帕石多为辐照 + 加热处理</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>巴西米纳斯吉拉斯</li><li>俄罗斯乌拉尔</li><li>美国犹他</li><li>尼日利亚</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>巴西米纳斯吉拉斯</li><li>俄罗斯乌拉尔</li><li>美国犹他</li><li>尼日利亚</li></ul></div>
 
 ## 历史与传说
 

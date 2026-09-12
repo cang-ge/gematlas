@@ -54,9 +54,9 @@ gem: aventurine-quartz
   <p class="gem-detail__treatment-note"><span>Note</span>Commercial blue varieties are often dyed; green is the most common natural color, sourced mainly from India</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>India</li><li>Brazil</li><li>Spain</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>India</li><li>Brazil</li><li>Spain</li></ul></div>
 
 ## History & Lore
 

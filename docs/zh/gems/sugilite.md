@@ -54,9 +54,9 @@ gem: sugilite
   <p class="gem-detail__treatment-note"><span>说明</span>南非北开普省为最重要产地（1973 年发现）</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>南非温贝</li><li>日本</li><li>加拿大</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>南非温贝</li><li>日本</li><li>加拿大</li></ul></div>
 
 ## 历史与传说
 

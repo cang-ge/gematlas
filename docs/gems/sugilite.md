@@ -54,9 +54,9 @@ gem: sugilite
   <p class="gem-detail__treatment-note"><span>Note</span>Northern Cape, South Africa is the most important source (discovered 1973)</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Wessels, South Africa</li><li>Japan</li><li>Canada</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Wessels, South Africa</li><li>Japan</li><li>Canada</li></ul></div>
 
 ## History & Lore
 

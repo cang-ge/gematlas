@@ -54,9 +54,9 @@ gem: rhodochrosite
   <p class="gem-detail__treatment-note"><span>Note</span>Argentina&#39;s &quot;Inca Rose&quot; is the most famous variety with concentric banding</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Capillitas, Argentina</li><li>South Africa</li><li>Colorado, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Capillitas, Argentina</li><li>South Africa</li><li>Colorado, USA</li></ul></div>
 
 ## History & Lore
 

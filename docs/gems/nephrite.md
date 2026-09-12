@@ -54,9 +54,9 @@ gem: nephrite
   <p class="gem-detail__treatment-note"><span>Note</span>Different mineral species from jadeite (pyroxene); Xinjiang Hetian is the most famous source</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Hetian, Xinjiang, China</li><li>British Columbia, Canada</li><li>Russia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Hetian, Xinjiang, China</li><li>British Columbia, Canada</li><li>Russia</li></ul></div>
 
 ## History & Lore
 

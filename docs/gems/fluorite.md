@@ -54,9 +54,9 @@ gem: fluorite
   <p class="gem-detail__treatment-note"><span>Note</span>&#39;Rainbow&#39; fluorite fluoresces; glass imitations common</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>China</li><li>Mexico</li><li>South Africa</li><li>Derbyshire, UK</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>China</li><li>Mexico</li><li>South Africa</li><li>Derbyshire, UK</li></ul></div>
 
 ## History & Lore
 

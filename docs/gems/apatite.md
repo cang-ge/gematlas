@@ -54,9 +54,9 @@ gem: apatite
   <p class="gem-detail__treatment-note"><span>Note</span>Burmese Paraíba-blue apatite prized by collectors</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Myanmar</li><li>Madagascar</li><li>Brazil</li><li>Mexico</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Myanmar</li><li>Madagascar</li><li>Brazil</li><li>Mexico</li></ul></div>
 
 ## History & Lore
 

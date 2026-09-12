@@ -54,9 +54,9 @@ gem: chrysoberyl
   <p class="gem-detail__treatment-note"><span>Note</span>Same mineral species as alexandrite; cymophane (cat&#39;s-eye) is the prized variety</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Brazil</li><li>Sri Lanka</li><li>Madagascar</li><li>Urals, Russia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Brazil</li><li>Sri Lanka</li><li>Madagascar</li><li>Urals, Russia</li></ul></div>
 
 ## History & Lore
 

@@ -54,9 +54,9 @@ gem: tourmaline
   <p class="gem-detail__treatment-note"><span>Note</span>Heat improves color; irradiation deepens light varieties</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Brazil</li><li>Afghanistan</li><li>Mozambique</li><li>Maine / California, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Brazil</li><li>Afghanistan</li><li>Mozambique</li><li>Maine / California, USA</li></ul></div>
 
 ## History & Lore
 

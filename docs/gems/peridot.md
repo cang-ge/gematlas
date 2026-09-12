@@ -54,9 +54,9 @@ gem: peridot
   <p class="gem-detail__treatment-note"><span>Note</span>Peridot is typically untreated; rare meteoritic origin commands premium prices</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>St. John&#39;s Island, Egypt</li><li>China</li><li>Pakistan</li><li>Arizona, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>St. John&#39;s Island, Egypt</li><li>China</li><li>Pakistan</li><li>Arizona, USA</li></ul></div>
 
 ## History & Lore
 

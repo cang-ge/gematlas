@@ -54,9 +54,9 @@ gem: sphalerite
   <p class="gem-detail__treatment-note"><span>Note</span>Dispersion 0.156 exceeds diamond — &#39;fire king&#39;; too soft for wear</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Spain</li><li>Mexico</li><li>USA</li><li>China</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Spain</li><li>Mexico</li><li>USA</li><li>China</li></ul></div>
 
 ## History & Lore
 

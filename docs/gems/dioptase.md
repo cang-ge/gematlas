@@ -54,9 +54,9 @@ gem: dioptase
   <p class="gem-detail__treatment-note"><span>Note</span>Color rivals emerald but is even more saturated; lower hardness (5.5) limits everyday wear</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Namibia</li><li>DR Congo</li><li>Russia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Namibia</li><li>DR Congo</li><li>Russia</li></ul></div>
 
 ## History & Lore
 

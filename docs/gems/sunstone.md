@@ -54,9 +54,9 @@ gem: sunstone
   <p class="gem-detail__treatment-note"><span>Note</span>Oregon sunstone is famous for natural copper platelets that need no enhancement</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Oregon, USA</li><li>India</li><li>Norway</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Oregon, USA</li><li>India</li><li>Norway</li></ul></div>
 
 ## History & Lore
 

@@ -54,9 +54,9 @@ gem: turquoise
   <p class="gem-detail__treatment-note"><span>Note</span>China-blue &#39;Sleeping Beauty&#39; priciest; stabilisation common</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Hubei, China</li><li>Nishapur, Iran</li><li>Arizona, USA</li><li>Mexico</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Hubei, China</li><li>Nishapur, Iran</li><li>Arizona, USA</li><li>Mexico</li></ul></div>
 
 ## History & Lore
 

@@ -54,9 +54,9 @@ gem: malachite
   <p class="gem-detail__treatment-note"><span>Note</span>Low toughness; carved pieces typically treated with protective wax</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>DR Congo</li><li>Zambia</li><li>Urals, Russia</li><li>Australia</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>DR Congo</li><li>Zambia</li><li>Urals, Russia</li><li>Australia</li></ul></div>
 
 ## History & Lore
 

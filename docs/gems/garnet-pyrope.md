@@ -54,9 +54,9 @@ gem: garnet-pyrope
   <p class="gem-detail__treatment-note"><span>Note</span>Famous &quot;Bohemian garnets&quot; are mostly pyrope-almandine mixes</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Bohemia, Czech Republic</li><li>South Africa</li><li>Tanzania</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Bohemia, Czech Republic</li><li>South Africa</li><li>Tanzania</li></ul></div>
 
 ## History & Lore
 

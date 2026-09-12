@@ -54,9 +54,9 @@ gem: chrysoprase
   <p class="gem-detail__treatment-note"><span>说明</span>颜色在长时间日晒下可能褪色；与染色绿玛瑙不同</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>澳大利亚昆士兰</li><li>波兰</li><li>美国加州</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>澳大利亚昆士兰</li><li>波兰</li><li>美国加州</li></ul></div>
 
 ## 历史与传说
 

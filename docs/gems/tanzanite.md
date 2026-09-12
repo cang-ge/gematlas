@@ -54,9 +54,9 @@ gem: tanzanite
   <p class="gem-detail__treatment-note"><span>Note</span>Almost all tanzanite is heat-treated to enhance blue-violet</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Merelani Hills, Tanzania</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Merelani Hills, Tanzania</li></ul></div>
 
 ## History & Lore
 

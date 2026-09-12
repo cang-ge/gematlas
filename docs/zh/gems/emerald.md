@@ -54,9 +54,9 @@ gem: emerald
   <p class="gem-detail__treatment-note"><span>说明</span>注油（雪松油）属行业可接受处理；无油溢价显著</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>哥伦比亚（木佐/契沃尔）</li><li>赞比亚</li><li>巴西</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>哥伦比亚（木佐/契沃尔）</li><li>赞比亚</li><li>巴西</li></ul></div>
 
 ## 历史与传说
 

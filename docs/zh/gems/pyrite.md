@@ -54,9 +54,9 @@ gem: pyrite
   <p class="gem-detail__treatment-note"><span>说明</span>别名&quot;愚人金&quot;，易与真金混淆；常作为装饰材料</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>西班牙</li><li>秘鲁</li><li>美国伊利诺伊</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>西班牙</li><li>秘鲁</li><li>美国伊利诺伊</li></ul></div>
 
 ## 历史与传说
 

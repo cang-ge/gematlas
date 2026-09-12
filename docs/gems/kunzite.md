@@ -54,9 +54,9 @@ gem: kunzite
   <p class="gem-detail__treatment-note"><span>Note</span>Named 1902 for G.F. Kunz; colour fades in strong light</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Afghanistan</li><li>Brazil</li><li>Madagascar</li><li>California, USA</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Afghanistan</li><li>Brazil</li><li>Madagascar</li><li>California, USA</li></ul></div>
 
 ## History & Lore
 

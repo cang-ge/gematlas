@@ -54,9 +54,9 @@ gem: iolite
   <p class="gem-detail__treatment-note"><span>Note</span>No known treatments; Vikings used it as a polarization navigation aid</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>India</li><li>Sri Lanka</li><li>Madagascar</li><li>Tanzania</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>India</li><li>Sri Lanka</li><li>Madagascar</li><li>Tanzania</li></ul></div>
 
 ## History & Lore
 

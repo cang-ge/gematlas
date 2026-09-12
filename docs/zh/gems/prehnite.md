@@ -54,9 +54,9 @@ gem: prehnite
   <p class="gem-detail__treatment-note"><span>说明</span>常与葡萄状晶形关联；镶嵌以吊坠/雕刻为主</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>南非</li><li>澳大利亚</li><li>中国</li><li>美国新泽西</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>南非</li><li>澳大利亚</li><li>中国</li><li>美国新泽西</li></ul></div>
 
 ## 历史与传说
 

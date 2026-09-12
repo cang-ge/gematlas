@@ -54,9 +54,9 @@ gem: paraiba-tourmaline
   <p class="gem-detail__treatment-note"><span>说明</span>巴西 Paraiba 州原产稀缺，莫桑比克产替代但溢价低</p>
 </div>
 
-## 主要产地
+## 产地记录
 
-<div class="gem-detail__origins"><span>记录产地</span><ul><li>巴西帕拉伊巴州</li><li>尼日利亚</li><li>莫桑比克</li></ul></div>
+<div class="gem-detail__origins"><span>代表性产地</span><ul><li>巴西帕拉伊巴州</li><li>尼日利亚</li><li>莫桑比克</li></ul></div>
 
 ## 历史与传说
 

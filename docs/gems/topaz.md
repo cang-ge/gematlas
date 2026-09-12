@@ -54,9 +54,9 @@ gem: topaz
   <p class="gem-detail__treatment-note"><span>Note</span>Commercial blue topaz is typically irradiated + heat treated</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Minas Gerais, Brazil</li><li>Urals</li><li>Utah, USA</li><li>Nigeria</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Minas Gerais, Brazil</li><li>Urals</li><li>Utah, USA</li><li>Nigeria</li></ul></div>
 
 ## History & Lore
 

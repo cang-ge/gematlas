@@ -54,9 +54,9 @@ gem: alexandrite
   <p class="gem-detail__treatment-note"><span>Note</span>Virtually untreated; origin commands significant premium</p>
 </div>
 
-## Origin
+## Origin Records
 
-<div class="gem-detail__origins"><span>Recorded localities</span><ul><li>Ural Mountains, Russia</li><li>Brazil</li><li>Sri Lanka</li></ul></div>
+<div class="gem-detail__origins"><span>Representative localities</span><ul><li>Ural Mountains, Russia</li><li>Brazil</li><li>Sri Lanka</li></ul></div>
 
 ## History & Lore
 
