@@ -10,6 +10,14 @@ Usage:
 import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
 
+// Let Vite fingerprint and emit the gallery assets. Runtime-built absolute
+// paths such as /images/gems/... are not part of VitePress's asset graph.
+const GEM_IMAGE_URLS = import.meta.glob<string>('../../../images/gems/*/*', {
+  eager: true,
+  import: 'default',
+  query: '?url',
+})
+
 type Locale = 'en' | 'zh'
 type Gem = {
   id: string
@@ -223,7 +231,8 @@ function mineralName(mineral: string): string {
 
 function imageLink(id: string): string {
   const extension = imageExtensions[id] || 'jpg'
-  return withBase(`/images/gems/${id}/${id}.${extension}`)
+  const sourcePath = `../../../images/gems/${id}/${id}.${extension}`
+  return GEM_IMAGE_URLS[sourcePath] || withBase(`/images/gems/${id}/${id}.${extension}`)
 }
 
 function resultSummary(): string {
