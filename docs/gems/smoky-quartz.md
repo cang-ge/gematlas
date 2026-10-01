@@ -21,8 +21,10 @@ gem: smoky-quartz
     </dl>
     <a class="gem-detail__language" href="../zh/gems/smoky-quartz.html" hreflang="zh-CN">中文: 烟晶 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/smoky-quartz/smoky-quartz.jpg" alt="Smoky Quartz" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/smoky-quartz/smoky-quartz.png" alt="Smoky Quartz" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="smoky-quartz" current-gem-label="Smoky Quartz" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: smoky-quartz
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Quartz</td></tr><tr><th scope="row">Formula</th><td>SiO₂</td></tr><tr><th scope="row">Crystal System</th><td>Trigonal</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/trigonal">Trigonal</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -61,6 +71,10 @@ gem: smoky-quartz
 ## History & Lore
 
 <div class="gem-detail__prose">Smoky quartz&#39;s colour comes from natural radiation; Scotland&#39;s Cairngorm was traditional, used in Victorian mourning jewelry.<br /></div>
+
+## Image Evidence
+
+<p class="gem-detail__gallery-empty">No independent image evidence is recorded yet. The primary view is for visual reference and does not replace a traceable specimen image or a professional identification.</p>
 
 <div class="gem-detail__pager-shell">
 <p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>

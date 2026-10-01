@@ -12,11 +12,20 @@
   },
   "scripts": {
     "dev": "vitepress dev docs",
+    "prebuild": "pnpm generate:comparison-data",
     "build": "vitepress build docs",
+    "check-links": "python scripts/check-links.py",
     "preview": "vitepress preview docs",
+    "generate:comparison-data": "tsx scripts/build/generate-comparison-data.ts",
+    "pretest": "pnpm generate:comparison-data",
     "validate:data": "tsx scripts/build/validate-data.ts",
     "sync:content": "tsx scripts/build/sync-content.ts",
-    "generate:pages": "tsx scripts/build/generate-gem-pages.ts && tsx scripts/build/generate-color-causes-pages.ts && tsx scripts/build/generate-optical-phenomena-pages.ts && tsx scripts/build/generate-mineral-groups-pages.ts && tsx scripts/build/generate-topic-pages.ts && tsx scripts/build/generate-maison-gallery.ts",
+    "assist:mock": "tsx scripts/assist/server.ts --mock",
+    "assist:real": "tsx scripts/assist/server.ts --real",
+    "assist:eval": "tsx scripts/assist/run-eval.ts",
+    "curation:mock": "tsx scripts/curation/server.ts --mock",
+    "curation:real": "tsx scripts/curation/server.ts --real",
+    "generate:pages": "pnpm generate:comparison-data && tsx scripts/build/generate-gem-pages.ts && tsx scripts/build/generate-color-causes-pages.ts && tsx scripts/build/generate-optical-phenomena-pages.ts && tsx scripts/build/generate-mineral-groups-pages.ts && tsx scripts/build/generate-topic-pages.ts && tsx scripts/build/generate-maison-gallery.ts",
     "test": "vitest run"
   },
   "devDependencies": {

@@ -13,8 +13,10 @@ import ClarityScale from './components/ClarityScale.vue'
 import ColorWheel from './components/ColorWheel.vue'
 import GalleryGrid from './components/GalleryGrid.vue'
 import GemGallery from './components/GemGallery.vue'
+import GemCompare from './components/GemCompare.vue'
 import ModuleGrid from './components/ModuleGrid.vue'
 import GemAtlasLanding from './components/GemAtlasLanding.vue'
+import GemAssistPanel from './components/GemAssistPanel.vue'
 import './custom.css'
 
 /**
@@ -30,7 +32,8 @@ export default {
     for (const [name, comp] of Object.entries({
       GemCard, MohsScale, CrystalDiagram, PropertyTable, FacetDiagram,
       FancyCutGrid, ColorGradeTable, ClarityScale, ColorWheel, GalleryGrid,
-      GemGallery, ModuleGrid, GemAtlasLanding,
+      GemGallery, GemCompare, ModuleGrid, GemAtlasLanding,
+      GemAssistPanel,
     })) {
       app.component(name, comp)
     }
@@ -38,6 +41,34 @@ export default {
     // Init mermaid on client only — dynamic import to avoid
     // polluting Vite dev server's module graph.
     if (typeof window !== 'undefined') {
+      let searchTrigger: HTMLButtonElement | null = null
+      let searchWasOpen = false
+
+      const focusAfterClose = (target: HTMLButtonElement | null) => {
+        if (!target) return
+        const delay = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 280
+        window.setTimeout(() => {
+          if (target.isConnected) target.focus()
+        }, delay)
+      }
+
+      document.addEventListener('click', (event) => {
+        const target = event.target as HTMLElement | null
+        const searchButton = target?.closest<HTMLButtonElement>('.DocSearch-Button')
+        const hamburger = target?.closest<HTMLButtonElement>('.VPNavBarHamburger')
+        if (searchButton) searchTrigger = searchButton
+        if (hamburger && hamburger.getAttribute('aria-expanded') === 'true') {
+          focusAfterClose(hamburger)
+        }
+      }, true)
+
+      const focusObserver = new MutationObserver(() => {
+        const searchOpen = Boolean(document.querySelector('.VPLocalSearchBox'))
+        if (searchWasOpen && !searchOpen) focusAfterClose(searchTrigger)
+        searchWasOpen = searchOpen
+      })
+      focusObserver.observe(document.body, { childList: true, subtree: true })
+
       import('mermaid').then(({ default: mermaid }) => {
         mermaid.initialize({
           startOnLoad: false,

@@ -7,7 +7,7 @@ Usage:
   <GemGallery locale="en" />
 -->
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
 
 // Let Vite fingerprint and emit the gallery assets. Runtime-built absolute
@@ -25,6 +25,7 @@ type Gem = {
   zh: string
   mineral: string
   h: number
+  crystal?: string
 }
 type GemGroup = {
   id: string
@@ -141,11 +142,67 @@ const GROUPS: GemGroup[] = [
   },
 ]
 
-const ALL_GEMS = GROUPS.flatMap(group => group.gems.map(gem => ({ ...gem, groupId: group.id })))
+// Keep this map aligned with data/gems/v1/*.yaml category.crystal_system. The
+// gallery remains a curated editorial list, while the crystal coordinate is
+// the canonical cross-index used for filtering.
+const CRYSTAL_BY_ID: Record<string, string> = {
+  alexandrite: 'orthorhombic', amazonite: 'triclinic', amber: 'amorphous',
+  amethyst: 'trigonal', apatite: 'hexagonal', aquamarine: 'hexagonal',
+  'aventurine-quartz': 'trigonal', chalcedony: 'trigonal', charoite: 'monoclinic',
+  chrysoberyl: 'orthorhombic', chrysoprase: 'trigonal', citrine: 'trigonal',
+  coral: 'amorphous', diamond: 'cubic', dioptase: 'trigonal', emerald: 'hexagonal',
+  fluorite: 'cubic', 'garnet-almandine': 'cubic', 'garnet-demantoid': 'cubic',
+  'garnet-pyrope': 'cubic', 'garnet-spessartine': 'cubic', heliodor: 'hexagonal',
+  iolite: 'orthorhombic', jadeite: 'monoclinic', kunzite: 'monoclinic',
+  kyanite: 'triclinic', labradorite: 'triclinic', 'lapis-lazuli': 'cubic',
+  malachite: 'monoclinic', moonstone: 'monoclinic', morganite: 'hexagonal',
+  nephrite: 'monoclinic', obsidian: 'amorphous', opal: 'amorphous',
+  'paraiba-tourmaline': 'trigonal', pearl: 'amorphous', peridot: 'orthorhombic',
+  prehnite: 'orthorhombic', pyrite: 'cubic', 'quartz-catseye': 'trigonal',
+  rhodochrosite: 'trigonal', rhodonite: 'triclinic', 'rock-crystal': 'trigonal',
+  'rose-quartz': 'trigonal', ruby: 'trigonal', sapphire: 'trigonal',
+  serpentine: 'monoclinic', 'smoky-quartz': 'trigonal', sodalite: 'cubic',
+  sphalerite: 'cubic', spinel: 'cubic', sugilite: 'hexagonal', sunstone: 'triclinic',
+  tanzanite: 'orthorhombic', 'tigers-eye': 'trigonal', topaz: 'orthorhombic',
+  tourmaline: 'trigonal', 'tsavorite-garnet': 'cubic', turquoise: 'triclinic', zircon: 'tetragonal',
+}
+
+const ALL_GEMS = GROUPS.flatMap(group => group.gems.map(gem => ({
+  ...gem,
+  groupId: group.id,
+  crystal: CRYSTAL_BY_ID[gem.id] || 'unknown',
+})))
 const totalCount = ALL_GEMS.length
 const query = ref('')
 const activeGroup = ref('all')
+const activeCrystal = ref('all')
 const sortBy = ref<'curated' | 'name' | 'hardness'>('curated')
+
+const crystalNamesZh: Record<string, string> = {
+  cubic: '等轴晶系',
+  tetragonal: '四方晶系',
+  orthorhombic: '斜方晶系',
+  hexagonal: '六方晶系',
+  trigonal: '三方晶系',
+  monoclinic: '单斜晶系',
+  triclinic: '三斜晶系',
+  amorphous: '非晶质',
+}
+
+const crystalNamesEn: Record<string, string> = {
+  cubic: 'Cubic / Isometric',
+  tetragonal: 'Tetragonal',
+  orthorhombic: 'Orthorhombic',
+  hexagonal: 'Hexagonal',
+  trigonal: 'Trigonal',
+  monoclinic: 'Monoclinic',
+  triclinic: 'Triclinic',
+  amorphous: 'Amorphous / mineraloid',
+}
+
+const crystalIds = ['cubic', 'tetragonal', 'orthorhombic', 'hexagonal', 'trigonal', 'monoclinic', 'triclinic', 'amorphous']
+const groupIds = ['all', ...GROUPS.map(group => group.id)]
+const sortIds = ['curated', 'name', 'hardness'] as const
 
 const mineralNamesZh: Record<string, string> = {
   Diamond: '金刚石',
@@ -187,21 +244,16 @@ const mineralNamesZh: Record<string, string> = {
   Sphalerite: '闪锌矿',
 }
 
-const imageExtensions: Record<string, string> = {
-  morganite: 'png',
-  moonstone: 'png',
-  apatite: 'png',
-}
-
 const currentLocale = computed<Locale>(() => props.locale || 'en')
 const currentGroup = computed(() => GROUPS.find(group => group.id === activeGroup.value))
 const visibleGems = computed(() => {
   const term = query.value.trim().toLocaleLowerCase()
   const filtered = ALL_GEMS.filter(gem => {
     const inGroup = activeGroup.value === 'all' || gem.groupId === activeGroup.value
+    const inCrystal = activeCrystal.value === 'all' || gem.crystal === activeCrystal.value
     const localizedMineral = mineralNamesZh[gem.mineral] || ''
     const searchable = `${gem.en} ${gem.zh} ${gem.mineral} ${localizedMineral}`.toLocaleLowerCase()
-    return inGroup && (!term || searchable.includes(term))
+    return inGroup && inCrystal && (!term || searchable.includes(term))
   })
 
   if (sortBy.value === 'name') {
@@ -229,25 +281,82 @@ function mineralName(mineral: string): string {
   return currentLocale.value === 'zh' ? (mineralNamesZh[mineral] || mineral) : mineral
 }
 
+function crystalName(crystal: string): string {
+  return currentLocale.value === 'zh'
+    ? (crystalNamesZh[crystal] || crystal)
+    : (crystalNamesEn[crystal] || crystal)
+}
+
 function imageLink(id: string): string {
-  const extension = imageExtensions[id] || 'jpg'
-  const sourcePath = `../../../images/gems/${id}/${id}.${extension}`
-  return GEM_IMAGE_URLS[sourcePath] || withBase(`/images/gems/${id}/${id}.${extension}`)
+  const candidates = ['jpg', 'png'].map(extension => `../../../images/gems/${id}/${id}.${extension}`)
+  const sourcePath = candidates.find(path => GEM_IMAGE_URLS[path])
+  if (sourcePath) return GEM_IMAGE_URLS[sourcePath]
+  return withBase(`/images/gems/${id}/${id}.jpg`)
+}
+
+function imageEvidenceCount(id: string): number {
+  return Object.keys(GEM_IMAGE_URLS).filter(path => path.includes(`/${id}/${id}-gallery-`)).length
 }
 
 function resultSummary(): string {
   const count = visibleGems.value.length
   if (currentLocale.value === 'zh') {
-    return query.value.trim() || activeGroup.value !== 'all' ? `找到 ${count} 种宝石` : `全部 ${count} 种宝石`
+    return query.value.trim() || activeGroup.value !== 'all' || activeCrystal.value !== 'all' ? `找到 ${count} 种宝石` : `全部 ${count} 种宝石`
   }
-  return query.value.trim() || activeGroup.value !== 'all' ? `${count} species found` : `All ${count} species`
+  return query.value.trim() || activeGroup.value !== 'all' || activeCrystal.value !== 'all' ? `${count} entries found` : `All ${count} entries`
 }
 
 function resetFilters(): void {
   query.value = ''
   activeGroup.value = 'all'
+  activeCrystal.value = 'all'
   sortBy.value = 'curated'
 }
+
+function readFiltersFromUrl(): void {
+  if (typeof window === 'undefined') return
+  const params = new URL(window.location.href).searchParams
+  const group = params.get('group') || ''
+  const crystal = params.get('crystal') || ''
+  const sort = params.get('sort') || ''
+  query.value = params.get('q') || ''
+  activeGroup.value = groupIds.includes(group) ? group : 'all'
+  activeCrystal.value = crystalIds.includes(crystal) ? crystal : 'all'
+  sortBy.value = sortIds.includes(sort as typeof sortIds[number])
+    ? sort as typeof sortIds[number]
+    : 'curated'
+}
+
+function syncFiltersToUrl(): void {
+  if (typeof window === 'undefined') return
+  const url = new URL(window.location.href)
+  const values: Record<string, string> = {
+    q: query.value.trim(),
+    group: activeGroup.value === 'all' ? '' : activeGroup.value,
+    crystal: activeCrystal.value === 'all' ? '' : activeCrystal.value,
+    sort: sortBy.value === 'curated' ? '' : sortBy.value,
+  }
+  for (const [key, value] of Object.entries(values)) {
+    if (value) url.searchParams.set(key, value)
+    else url.searchParams.delete(key)
+  }
+  window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`)
+}
+
+function handlePopState(): void {
+  readFiltersFromUrl()
+}
+
+watch([query, activeGroup, activeCrystal, sortBy], syncFiltersToUrl)
+
+onMounted(() => {
+  readFiltersFromUrl()
+  window.addEventListener('popstate', handlePopState)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('popstate', handlePopState)
+})
 </script>
 
 <template>
@@ -280,6 +389,16 @@ function resetFilters(): void {
           <option value="hardness">{{ currentLocale === 'zh' ? '硬度高 → 低' : 'Hardness high → low' }}</option>
         </select>
       </label>
+
+      <label class="gem-gallery__sort">
+        <span>{{ currentLocale === 'zh' ? '晶系坐标' : 'Crystal system' }}</span>
+        <select v-model="activeCrystal">
+          <option value="all">{{ currentLocale === 'zh' ? '全部晶系' : 'All systems' }}</option>
+          <option v-for="crystal in crystalIds" :key="crystal" :value="crystal">
+            {{ crystalName(crystal) }}
+          </option>
+        </select>
+      </label>
     </div>
 
     <nav class="gem-gallery__filters" :aria-label="currentLocale === 'zh' ? '按编辑分类筛选' : 'Filter by editorial group'">
@@ -310,6 +429,7 @@ function resetFilters(): void {
     <div class="gem-gallery__summary" role="status" aria-live="polite">
       <span>{{ resultSummary() }}</span>
       <span v-if="currentGroup" class="gem-gallery__summary-group">{{ groupName(currentGroup) }}</span>
+      <span v-if="activeCrystal !== 'all'" class="gem-gallery__summary-group">{{ crystalName(activeCrystal) }}</span>
     </div>
 
     <div v-if="visibleGems.length" class="gem-gallery__grid">
@@ -321,8 +441,10 @@ function resetFilters(): void {
         :name-en="gem.en"
         :mineral="mineralName(gem.mineral)"
         :group-label="groupName(GROUPS.find(group => group.id === gem.groupId) || GROUPS[0])"
+        :crystal="crystalName(gem.crystal)"
         :hardness="gem.h"
         :image-src="imageLink(gem.id)"
+        :image-evidence-count="imageEvidenceCount(gem.id)"
         :locale="currentLocale"
       />
     </div>
@@ -345,7 +467,7 @@ function resetFilters(): void {
 
 .gem-gallery__toolbar {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto auto;
   align-items: end;
   gap: 1rem;
   padding: 1.25rem 0;

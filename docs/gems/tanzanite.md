@@ -21,8 +21,10 @@ gem: tanzanite
     </dl>
     <a class="gem-detail__language" href="../zh/gems/tanzanite.html" hreflang="zh-CN">中文: 坦桑石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/tanzanite/tanzanite.jpg" alt="Tanzanite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/tanzanite/tanzanite.jpg" alt="Tanzanite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="tanzanite" current-gem-label="Tanzanite" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: tanzanite
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Zoisite</td></tr><tr><th scope="row">Formula</th><td>Ca₂Al₃(SiO₄)₃(OH)</td></tr><tr><th scope="row">Crystal System</th><td>Orthorhombic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/orthorhombic">Orthorhombic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -65,8 +75,8 @@ gem: tanzanite
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/tanzanite/tanzanite-gallery-1.jpg" alt="Tanzanite" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/tanzanite/tanzanite-gallery-2.jpg" alt="Tanzanite" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/tanzanite/tanzanite-gallery-1.png" alt="Tanzanite" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/tanzanite/tanzanite-gallery-2.png" alt="Tanzanite" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

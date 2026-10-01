@@ -17,12 +17,14 @@ gem: spinel
     <dl class="gem-detail__quick-facts">
       <div><dt>Mohs</dt><dd>8</dd></div>
       <div><dt>Specific gravity</dt><dd>3.6</dd></div>
-      <div><dt>Refractive index</dt><dd>1.712-1.762</dd></div>
+      <div><dt>Refractive index</dt><dd>1.718</dd></div>
     </dl>
     <a class="gem-detail__language" href="../zh/gems/spinel.html" hreflang="zh-CN">中文: 尖晶石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/spinel/spinel.jpg" alt="Spinel" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/spinel/spinel.jpg" alt="Spinel" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="spinel" current-gem-label="Spinel" />
 
 ## Classification
 
@@ -31,12 +33,20 @@ gem: spinel
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Spinel</td></tr><tr><th scope="row">Formula</th><td>MgAl₂O₄</td></tr><tr><th scope="row">Crystal System</th><td>Cubic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/cubic">Cubic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
 <table class="gem-detail__table">
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
-  <tbody><tr><th scope="row">Mohs Hardness</th><td>8</td></tr><tr><th scope="row">Specific Gravity</th><td>3.6</td></tr><tr><th scope="row">Refractive Index</th><td>1.712-1.762</td></tr></tbody>
+  <tbody><tr><th scope="row">Mohs Hardness</th><td>8</td></tr><tr><th scope="row">Specific Gravity</th><td>3.6</td></tr><tr><th scope="row">Refractive Index</th><td>1.718</td></tr></tbody>
 </table>
 
 ## Optical Properties
@@ -50,8 +60,8 @@ gem: spinel
 
 <div class="gem-detail__treatment">
   <div class="gem-detail__treatment-row"><span>Common methods</span><strong>None / typically untreated</strong></div>
-  <div class="gem-detail__treatment-row"><span>Disclosure required</span><strong class="">No</strong></div>
-  <p class="gem-detail__treatment-note"><span>Note</span>Spinel is typically untreated; synthetic spinel is common in jewelry and requires lab identification</p>
+  <div class="gem-detail__treatment-row"><span>Disclosure required</span><strong class="is-required">Yes</strong></div>
+  <p class="gem-detail__treatment-note"><span>Note</span>Spinel is rarely treated, but heat treatment, diffusion treatment, and fracture filling have been documented. If treatment is identified, disclose it as required by applicable local rules and trade practice. Natural/synthetic status and specific treatment cannot be confirmed by appearance alone; consult an independent laboratory report for significant transactions.</p>
 </div>
 
 ## Origin Records

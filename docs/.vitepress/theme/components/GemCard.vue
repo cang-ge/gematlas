@@ -10,8 +10,10 @@ const props = defineProps<{
   nameEn: string
   mineral: string
   groupLabel?: string
+  crystal?: string
   hardness: number
   imageSrc: string
+  imageEvidenceCount?: number
   locale?: 'en' | 'zh'
 }>()
 
@@ -63,6 +65,18 @@ const cardLabel = props.locale === 'zh'
       </div>
       <p v-if="groupLabel" class="gem-card__group">{{ groupLabel }}</p>
       <p class="gem-card__mineral">{{ mineral }}</p>
+      <p v-if="crystal" class="gem-card__crystal">{{ crystal }}</p>
+      <p
+        class="gem-card__evidence"
+        :class="{ 'gem-card__evidence--empty': !imageEvidenceCount }"
+        :aria-label="locale === 'zh'
+          ? (imageEvidenceCount ? `图像证据 ${imageEvidenceCount} 张` : '暂无独立图像证据')
+          : (imageEvidenceCount ? `${imageEvidenceCount} image evidence items` : 'No independent image evidence')"
+      >
+        {{ locale === 'zh'
+          ? (imageEvidenceCount ? `图像证据 · ${imageEvidenceCount} 张` : '暂无独立图像证据')
+          : (imageEvidenceCount ? `Image evidence · ${imageEvidenceCount}` : 'No independent image evidence') }}
+      </p>
     </div>
   </a>
 </template>
@@ -80,10 +94,14 @@ const cardLabel = props.locale === 'zh'
   transition: border-color 240ms ease, transform 240ms ease, background-color 240ms ease;
 }
 
-.gem-card:hover {
+.gem-card:active { transform: scale(0.99); }
+
+@media (hover: hover) and (pointer: fine) {
+  .gem-card:hover {
   border-color: rgba(184, 146, 75, 0.52);
   background: #142126;
   transform: translateY(-2px);
+  }
 }
 
 .gem-card:focus-visible {
@@ -104,13 +122,19 @@ const cardLabel = props.locale === 'zh'
   height: 100%;
   object-fit: cover;
   filter: saturate(0.88) contrast(0.96);
-  transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1), filter 420ms ease;
+  transition: transform 220ms cubic-bezier(0.23, 1, 0.32, 1), filter 220ms ease;
 }
 
-.gem-card:hover .gem-card__image,
 .gem-card:focus-visible .gem-card__image {
   transform: scale(1.045);
   filter: saturate(1.04) contrast(1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .gem-card:hover .gem-card__image {
+    transform: scale(1.045);
+    filter: saturate(1.04) contrast(1);
+  }
 }
 
 .gem-card__hardness {
@@ -174,8 +198,11 @@ const cardLabel = props.locale === 'zh'
   transition: transform 240ms ease;
 }
 
-.gem-card:hover .gem-card__arrow,
 .gem-card:focus-visible .gem-card__arrow { transform: translate(2px, -2px); }
+
+@media (hover: hover) and (pointer: fine) {
+  .gem-card:hover .gem-card__arrow { transform: translate(2px, -2px); }
+}
 
 .gem-card__group,
 .gem-card__mineral {
@@ -198,9 +225,18 @@ const cardLabel = props.locale === 'zh'
   text-transform: uppercase;
 }
 
+.gem-card__crystal {
+  margin: 0.2rem 0 0;
+  color: var(--color-fg-muted, #a89e8a);
+  font-family: var(--font-body, Inter, sans-serif);
+  font-size: 0.68rem;
+  line-height: 1.4;
+}
+
 :lang(zh) .gem-card__name--primary,
 :lang(zh) .gem-card__group,
-:lang(zh) .gem-card__mineral { font-family: var(--font-zh-display, 'Noto Serif SC', serif); }
+:lang(zh) .gem-card__mineral,
+:lang(zh) .gem-card__crystal { font-family: var(--font-zh-display, 'Noto Serif SC', serif); }
 
 :lang(zh) .gem-card__name--primary { letter-spacing: 0.06em; }
 :lang(zh) .gem-card__name--secondary { font-family: var(--font-display, 'Cormorant Garamond', serif); letter-spacing: 0.04em; }

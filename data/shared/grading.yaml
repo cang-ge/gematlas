@@ -12,14 +12,120 @@ overview_zh: |
   真实性由鉴定与处理披露支持，而不是由分级单独证明。
   本模块讲解 GIA 4C 钻石分级框架（Carat / Color / Clarity / Cut），
   以及彩色宝石独立的 hue-tone-saturation 模型，
-  并列出每类瑕疵 / 处理 / 产地披露的规范。
+  并说明净度特征、处理披露与产地意见之间的边界。
 overview_en: |
   Grading organizes a stone's weight, appearance, and report characteristics
   into comparable descriptions. Identification and disclosure support claims
   about identity, treatment, and authenticity.
   This module covers the GIA 4C diamond framework (Carat / Color / Clarity /
-  Cut), the hue-tone-saturation model for coloured gems, and the disclosure
-  norms for clarity types, treatments, and origin reports.
+  Cut), the hue-tone-saturation model for coloured gems, and the boundaries
+  between clarity features, treatment disclosure, and origin opinions.
+boundary_zh: |
+  本模块用于学习分级描述、报告术语和证据边界，不是在线评级、估价或样品鉴定工具。
+  分级不能单独证明天然/合成、处理状态、产地或市场价格；正式报告和交易披露应以适用的实验室、规则与司法辖区为准。
+boundary_en: |
+  This module teaches grading descriptions, report terms, and evidence boundaries; it is not an online grading, valuation, or specimen-identification tool.
+  Grading alone cannot establish natural/synthetic status, treatment, geographic origin, or market price. Formal reports and disclosures depend on the applicable laboratory, rules, and jurisdiction.
+
+references:
+  - id: gia-diamond-quality
+    title_zh: 'GIA：钻石质量要素'
+    title_en: 'GIA: Diamond Quality Factors'
+    url: 'https://www.gia.edu/diamond-quality-factor'
+    scope_zh: '钻石颜色、净度、切工与克拉重量等质量描述因素；不作为价格公式'
+    scope_en: 'Diamond quality factors including color, clarity, cut, and carat weight; not a price formula'
+  - id: gia-diamond-clarity
+    title_zh: 'GIA 4Cs：钻石净度'
+    title_en: 'GIA 4Cs: Diamond Clarity'
+    url: 'https://4cs.gia.edu/en-us/diamond-clarity/'
+    scope_zh: 'FL–I3 净度等级和 10× 观察条件的入门说明'
+    scope_en: 'Introductory explanation of FL–I3 clarity grades and the 10× observation condition'
+  - id: gia-coloured-value
+    title_zh: 'GIA：有色宝石价值要素与切工质量'
+    title_en: 'GIA: Colored Gemstone Value Factors'
+    url: 'https://www.gia.edu/gia-news-research/value-factors-design-cut-quality-colored-gemstone-value-factors'
+    scope_zh: '不同品种的颜色、切工、净度、耐久性与市场因素需要综合理解'
+    scope_en: 'Colour, cut, clarity, durability, and market factors vary by gemstone species'
+  - id: gia-emerald-quality
+    title_zh: 'GIA：祖母绿质量要素'
+    title_en: 'GIA: Emerald Quality Factors'
+    url: 'https://www.gia.edu/UK-EN/emerald-quality-factor'
+    scope_zh: '祖母绿颜色、透明度、内含物和处理语境的品种化示例'
+    scope_en: 'Species-specific context for emerald colour, transparency, inclusions, and treatment'
+  - id: gia-origin-methods
+    title_zh: 'GIA：宝石产地分析方法'
+    title_en: 'GIA: Analytical Methods Used in Geographic Origin Determination'
+    url: 'https://www.gia.edu/gems-gemology/winter-2019-analytical-methods-geographic-origin-determination-gemstones'
+    scope_zh: '产地意见需要包裹体、微量元素等多维证据，并可能无法判定'
+    scope_en: 'Origin opinions use multiple evidence types and may remain inconclusive'
+  - id: ftc-jewelry-guides
+    title_zh: 'FTC：珠宝、贵金属与宝石指南'
+    title_en: 'FTC: Jewelry, Precious Metals, and Pewter Industries Guides'
+    url: 'https://www.ftc.gov/news-events/topics/tools-consumers/jewelry-guides'
+    scope_zh: '美国消费者与营销披露指南；不自动等同于所有地区的法律要求'
+    scope_en: 'US consumer and marketing disclosure guidance; not automatically the law of every jurisdiction'
+
+evidence_ledger:
+  - id: diamond-4c-is-framework
+    topic_id: diamond-4cs
+    claim_zh: '4C 是钻石质量描述框架，不是独立的价格公式或真实性证明。'
+    claim_en: 'The 4Cs describe diamond quality; they are not an independent price formula or proof of authenticity.'
+    status: source-supported
+    source_ids: [gia-diamond-quality]
+  - id: diamond-clarity-conditions
+    topic_id: diamond-4cs
+    claim_zh: '钻石净度等级需要在规定观察条件下结合内含物与表面特征理解。'
+    claim_en: 'Diamond clarity grades must be understood with the specified observation conditions, inclusions, and blemishes.'
+    status: source-supported
+    source_ids: [gia-diamond-clarity]
+  - id: diamond-cut-not-one-cause
+    topic_id: diamond-4cs
+    claim_zh: '切工表现不能简化为比例单独决定火彩，还应结合亮度、闪烁、对称性、抛光和耐久性等因素。'
+    claim_en: 'Cut performance is not determined by proportion alone; brightness, scintillation, symmetry, polish, and durability also matter.'
+    status: teaching-summary
+    source_ids: [gia-diamond-quality]
+  - id: coloured-hue-tone-saturation-conditional
+    topic_id: colored-stones
+    claim_zh: 'hue、tone、saturation 是常用描述维度，但具体优选区间会因宝石品种和报告体系而异。'
+    claim_en: 'Hue, tone, and saturation are common descriptive dimensions, but preferred ranges vary by species and reporting system.'
+    status: source-supported
+    source_ids: [gia-coloured-value, gia-emerald-quality]
+  - id: coloured-trade-terms-need-context
+    topic_id: colored-stones
+    claim_zh: '鸽血红、royal、cornflower 等术语需要结合品种、实验室体系和市场语境，不能直接当作统一等级。'
+    claim_en: 'Terms such as pigeon-blood, royal, and cornflower require species, laboratory, and market context; they are not universal grades.'
+    status: teaching-summary
+    source_ids: [gia-coloured-value]
+  - id: clarity-species-context
+    topic_id: clarity-types
+    claim_zh: '同一种内含物在不同宝石中的意义不同，应结合品种、位置、可见性、耐久性和观察条件判断。'
+    claim_en: 'The same inclusion can mean different things across species and must be assessed with position, visibility, durability, and observation conditions.'
+    status: source-supported
+    source_ids: [gia-diamond-clarity, gia-emerald-quality]
+  - id: clarity-feather-conditional
+    topic_id: clarity-types
+    claim_zh: '羽状裂隙是否影响耐久性取决于位置、是否达到表面、方向、大小和宝石品种，不能仅凭名称断定。'
+    claim_en: 'A feather may affect durability depending on position, surface reach, direction, size, and species; its name alone is insufficient.'
+    status: teaching-summary
+    source_ids: [gia-diamond-clarity, gia-emerald-quality]
+  - id: origin-is-opinion
+    topic_id: origin-disclosure
+    claim_zh: '产地是实验室依据多维证据给出的意见，可能出现无法判定，不是宝石分级。'
+    claim_en: 'Origin is a laboratory opinion based on multiple evidence types, may be inconclusive, and is not a gemstone grade.'
+    status: source-supported
+    source_ids: [gia-origin-methods]
+  - id: disclosure-is-jurisdictional
+    topic_id: origin-disclosure
+    claim_zh: '处理披露要求取决于适用的司法辖区、规则、报告和交易语境，不能概括为全球统一的法律结论。'
+    claim_en: 'Treatment disclosure requirements depend on the applicable jurisdiction, rules, report, and transaction context; they are not one universal legal conclusion.'
+    status: source-supported
+    source_ids: [ftc-jewelry-guides]
+  - id: treatment-not-price-cap
+    topic_id: origin-disclosure
+    claim_zh: '处理状态会影响报告解读、稳定性、护理和市场评价，但不能仅凭处理标签推出价格上限。'
+    claim_en: 'Treatment status can affect report interpretation, stability, care, and market assessment, but a treatment label alone does not set a price cap.'
+    status: teaching-summary
+    source_ids: [gia-emerald-quality, ftc-jewelry-guides]
 
 topics:
   - id: diamond-4cs
@@ -27,23 +133,27 @@ topics:
     name_en: GIA 4Cs (Diamond)
     summary_zh: |
       GIA 于 1953 年确立并广泛采用的钻石分级框架。四要素——克拉、颜色、
-      净度、切工——相互独立又联合决定钻石价格。
+      净度、切工——用于组织钻石质量描述，不等同于价格公式。
     summary_en: |
       A diamond-grading framework established by GIA in 1953 and widely adopted.
       Four independent measurements—carat, color, clarity, cut—jointly
       determine a polished diamond's market value.
     principles_zh: |
-      - 克拉 (ct)：1 ct = 0.2 g；1 point = 0.01 ct。重量越大稀有度指数级上升。
+      - 克拉 (ct)：1 ct = 0.2 g；1 point = 0.01 ct。重量是计量字段，不是统一的稀有度或价格公式。
       - 颜色：D–Z 色级，仅指黄/棕色调，从完全无色到浅黄/浅棕。
       - 净度：FL–I3 共 11 个等级，10× 放大镜下由内含物与表面特征决定。
-      - 切工：Excellent / Very Good / Good / Fair / Poor 五级，比例决定火彩。
+      - 切工：Excellent / Very Good / Good / Fair / Poor 五级；比例、对称性、抛光与光学表现需要结合理解。
     principles_en: |
-      - Carat (ct): 1 ct = 0.2 g; 1 point = 0.01 ct. Rarity rises exponentially.
+      - Carat (ct): 1 ct = 0.2 g; 1 point = 0.01 ct. Weight is a measurement, not a universal price or rarity formula.
       - Color: D–Z scale, only the yellow/brown tint. D = colorless; Z = light.
       - Clarity: FL–I3 has 11 grades under 10×; inclusions and blemishes determine the grade.
-      - Cut: Excellent → Poor. Proportions, symmetry, polish drive brilliance.
+      - Cut: Excellent → Poor. Proportions, symmetry, polish, brightness, fire, and scintillation must be read together.
+    boundary_zh: |
+      本页用于理解标准钻石报告中的 4C 术语，重点是入门描述框架；D–Z 也不是所有彩色钻石语境的完整颜色体系。4C 不能单独证明天然/合成、处理、产地或价格。
+    boundary_en: |
+      This page explains 4C terms in standard diamond reports as an introductory description framework; D–Z is not the complete colour language for every coloured diamond context. The 4Cs alone do not prove natural/synthetic status, treatment, origin, or price.
     examples:
-      - { gem: "diamond", value: "D/IF/Excellent", note_zh: "拍卖级", note_en: "auction-grade" }
+      - { gem: "diamond", gem_zh: "钻石", value: "D/IF/Excellent", note_zh: "报告字段示例，不等同于拍卖等级", note_en: "Report-field example; not an auction grade" }
 
   - id: colored-stones
     name_zh: 彩色宝石分级（hue / tone / saturation）
@@ -58,70 +168,82 @@ topics:
       saturation (intensity). Many laboratories use these descriptive dimensions,
       but report terms and thresholds can differ.
     principles_zh: |
-      - hue：色相在色环上的位置；理想宝石色通常纯度高（无偏色）。
-      - tone：色调明暗，从 very light 到 very dark 六档；常见优选区间会因品种而异。
-      - saturation：色彩饱和度，灰/棕色调降级；vivid / strong 最佳。
-      - 颜色通常是重要价格因素，但切工、净度、耐久性、处理和供需同样会改变价值。
+      - hue：色相在色环上的位置；具体优选色相会因宝石品种和报告体系而异。
+      - tone：色调明暗；有些体系会使用分档描述，但档位和优选区间不应被视为所有实验室的统一规则。
+      - saturation：色彩饱和度；高饱和度并非所有品种或市场的统一最佳条件。
+      - 颜色通常是重要质量因素，但切工、净度、耐久性、处理、尺寸和供需也会影响市场评价。
     principles_en: |
-      - Hue: position on the colour wheel. Top stones are close to a pure hue.
-      - Tone: lightness in 6 grades (very light → very dark); best in medium / medium-light.
-      - Saturation: vividness. Browns and greys depress value; vivid / strong is best.
+      - Hue: position on the colour wheel; preferred ranges vary by species and reporting system.
+      - Tone: lightness; some systems use named bands, but bands and preferred ranges are not universal.
+      - Saturation: vividness; high saturation is not a universal best condition for every species or market.
       - Colour is often important, but cut, clarity, durability, treatment, and supply also affect value.
     examples:
-      - { gem: "ruby", value: "vivid red, medium tone", note_zh: "鸽血红", note_en: "pigeon-blood red" }
-      - { gem: "emerald", value: "vivid green, slightly bluish", note_en: "top Muzo / Chivor" }
-      - { gem: "sapphire", value: "vivid blue, medium-dark", note_en: "royal / cornflower" }
+      - { gem: "ruby", gem_zh: "红宝石", value: "vivid red, medium tone", note_zh: "“鸽血红”需结合品种、实验室体系和语境", note_en: "Pigeon-blood red requires species, lab, and context" }
+      - { gem: "emerald", gem_zh: "祖母绿", value: "vivid green, slightly bluish", note_zh: "Muzo / Chivor 可能涉及产地或商业语境，不是统一等级", note_en: "Muzo / Chivor may be origin or trade context, not a universal grade" }
+      - { gem: "sapphire", gem_zh: "蓝宝石", value: "vivid blue, medium-dark", note_zh: "royal / cornflower 需核对报告体系和使用范围", note_en: "Royal / cornflower require a stated report system and scope" }
+    boundary_zh: |
+      本页用于描述彩色宝石颜色，不提供跨品种的统一打分器。先确认宝石品种和实验室体系，再解释 hue、tone、saturation 或贸易术语；颜色描述不能单独证明产地、处理或价格。
+    boundary_en: |
+      This page describes coloured-gem colour and is not a universal cross-species scorecard. Confirm the species and reporting system before interpreting hue, tone, saturation, or trade terms; colour alone does not prove origin, treatment, or price.
 
   - id: clarity-types
     name_zh: 净度瑕疵类型 (inclusion / blemish)
     name_en: Clarity Inclusion Types
     summary_zh: |
       宝石内含物 (inclusion) 与表面瑕疵 (blemish) 的种类、位置、数量、
-      可见性共同决定净度等级。同种瑕疵在不同宝石中影响不同——
-      祖母绿中的"花园"是常态，钻石中却致命。
+      可见性共同参与净度描述。同种特征在不同宝石中的意义不同，需要结合品种、
+      位置、耐久性和观察条件理解。
     summary_en: |
       The type, position, quantity, and visibility of inclusions and blemishes
-      determine the clarity grade. The same feature matters differently in
-      different gems—a "jardin" is normal in emerald but critical in diamond.
+      contribute to clarity descriptions. The same feature can matter differently
+      across species and must be read with position, durability, and conditions.
     principles_zh: |
-      - feather：羽状裂隙，最影响耐久性。
+      - feather：羽状裂隙；耐久性影响取决于位置、是否达到表面、方向、大小和宝石品种。
       - cloud：云状包体，密集时影响透明度。
       - crystal / mineral：结晶包裹体（金红石、锆石、方解石）。
       - needle：金红石针状——蓝宝石"丝绒感"的关键。
       - blemish / chip / scratch：表面瑕疵。
-      - 位置比类型更关键——亭部深处 vs 台面正中可见，影响差几倍。
+      - 位置会改变可见性、净度判断和耐久性风险，不能用单一倍数概括。
     principles_en: |
-      - Feather: fracture; worst for durability.
+      - Feather: fracture; durability impact depends on position, surface reach, direction, size, and species.
       - Cloud: hazy cluster; degrades transparency if dense.
       - Crystal / mineral: trapped inclusions (rutile, zircon, calcite).
       - Needle: rutile silk; gives sapphire its velvety look.
       - Blemish: surface chip / scratch / pit.
-      - Location dominates type—a feather under the table is much worse than one in the pavilion.
+      - Location changes visibility, clarity interpretation, and durability risk; no single multiplier applies.
     examples:
-      - { gem: "emerald", value: "jardin (3-phase)", note_zh: "公认美感一部分", note_en: "accepted aesthetic feature" }
-      - { gem: "ruby", value: "silk (rutile needles)", note_zh: "星光效应来源", note_en: "source of asterism" }
+      - { gem: "emerald", gem_zh: "祖母绿", value: "jardin (3-phase)", note_zh: "品种语境中的内含物描述，仍需结合透明度和耐久性", note_en: "Species-specific inclusion description; read with transparency and durability" }
+      - { gem: "ruby", gem_zh: "红宝石", value: "silk (rutile needles)", note_zh: "可能与星光效应相关，需结合方向、密度和切磨", note_en: "May relate to asterism; read with orientation, density, and cut" }
+    boundary_zh: |
+      本页用于理解净度术语和观察维度，不提供仅凭某一种内含物判断价值或耐久性的结论。是否影响安全、透明度或市场评价，需要结合品种、位置、大小、方向和实际观察条件。
+    boundary_en: |
+      This page explains clarity terms and observation dimensions; it does not infer value or durability from one inclusion name. Safety, transparency, and market interpretation depend on species, position, size, direction, and observation conditions.
 
   - id: origin-disclosure
     name_zh: 产地 / 处理披露
     name_en: Origin & Treatment Disclosure
     summary_zh: |
-      行业规范 (CIBJO / FTC / AGTA) 要求销售方明示宝石是否经过处理以及是否
-      经过产地判定。常见处理类型依价格影响分级。
+      处理状态和产地意见属于披露与实验室报告语境，适用要求取决于司法辖区、
+      规则、报告和交易场景；它们不是同一套分级指标。
     summary_en: |
-      Trade rules (CIBJO Blue Books; FTC Guides; AGTA Disclosure) require
-      sellers to declare treatments and, when claimed, geographic origin.
-      Common treatments are tier-ranked by their impact on value.
+      Treatment status and origin opinions belong to disclosure and laboratory-report
+      contexts. Requirements depend on jurisdiction, rules, reports, and transaction
+      context; they are not one grading scale.
     principles_zh: |
       - “No Indications of Treatment”表示未观察到处理迹象，不等于绝对证明从未处理；价格也不能仅凭这一项确定。
-      - 一般处理 (常规)：如红/蓝宝石热处理，行业普遍接受，**必须披露**。
-      - 优化处理 (enhancement)：如浸油 (emerald) / 染色 / 填充——价值显著降低。
-      - 产地意见 (origin opinion)：结合包裹体组合与微量元素等证据，由实验室出具意见，不是宝石分级。
+      - 一般处理 (常规)：如红/蓝宝石热处理，是否需要披露取决于适用规则、报告和交易语境；不能作全球统一法律结论。
+      - 优化处理 (enhancement)：如祖母绿浸油 / 染色 / 填充，需同时说明稳定性、护理、报告用语和适用披露规则。
+      - 产地意见 (origin opinion)：结合包裹体组合与微量元素等证据，由实验室出具意见，可能无法判定，也不是宝石分级。
     principles_en: |
       - “No Indications of Treatment” means no treatment indications were observed; it is not absolute proof of never-treated, and price is not determined by this alone.
-      - Routine (e.g. heat on sapphire / ruby): widely accepted; **must be disclosed**.
-      - Enhancement (oil/resin in emerald, dye, fracture filling): large value hit.
-      - Origin opinion: based on inclusion suites and trace chemistry; it is a laboratory opinion, not a grade.
+      - Routine treatment (e.g. heat on sapphire / ruby): disclosure depends on the applicable rules, report, and transaction context.
+      - Enhancement (oil/resin in emerald, dye, fracture filling): explain stability, care, report wording, and disclosure scope together.
+      - Origin opinion: based on inclusion suites and trace chemistry, may be inconclusive, and is not a grade.
     examples:
-      - { gem: "ruby", value: "heated (H)", note_zh: "常规 — 价格上限定", note_en: "routine — caps price" }
-      - { gem: "emerald", value: "minor oil (Cedarwood)", note_en: "accepted with disclosure" }
-      - { gem: "sapphire", value: "unheated, Kashmir", note_zh: "价格差异因品种、产地、质量与市场而异", note_en: "price varies by species, origin, quality, and market" }
+      - { gem: "ruby", gem_zh: "红宝石", value: "heated (H)", note_zh: "处理披露示例；不单独推出价格上限", note_en: "Treatment-disclosure example; does not set a price cap alone" }
+      - { gem: "emerald", gem_zh: "祖母绿", value: "minor oil (Cedarwood)", note_zh: "需结合稳定性、护理、报告用语和适用规则", note_en: "Read with stability, care, report wording, and applicable rules" }
+      - { gem: "sapphire", gem_zh: "蓝宝石", value: "unheated, Kashmir", note_zh: "未观察到处理迹象与产地意见是两个独立维度", note_en: "No treatment indication and origin opinion are separate dimensions" }
+    boundary_zh: |
+      本页用于区分处理披露与产地意见，不提供法律意见、价格预测或具体样品的最终披露结论。任何“必须披露”都必须绑定适用司法辖区、规则、报告和交易语境；高价值交易应以合格实验室和专业顾问意见为准。
+    boundary_en: |
+      This page separates treatment disclosure from origin opinions; it does not provide legal advice, price forecasts, or a final disclosure conclusion for a specimen. Any “must disclose” statement must be tied to a jurisdiction, rule, report, and transaction context; high-value transactions should use qualified laboratory and professional advice.

@@ -21,8 +21,10 @@ gem: tourmaline
     </dl>
     <a class="gem-detail__language" href="../zh/gems/tourmaline.html" hreflang="zh-CN">中文: 碧玺 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/tourmaline/tourmaline.jpg" alt="Tourmaline" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/tourmaline/tourmaline.jpg" alt="Tourmaline" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="tourmaline" current-gem-label="Tourmaline" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: tourmaline
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Elbaite (tourmaline group)</td></tr><tr><th scope="row">Formula</th><td>Na(Li,Al)₃Al₆(BO₃)₃Si₆O₁₈(OH)₃</td></tr><tr><th scope="row">Crystal System</th><td>Trigonal</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/trigonal">Trigonal</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -61,6 +71,10 @@ gem: tourmaline
 ## History & Lore
 
 <div class="gem-detail__prose">Tourmaline shows the widest colour range of any gem; watermelon bicolour is prized. Sinhalese for &#39;mixed coloured stone&#39;.<br /></div>
+
+## Image Evidence
+
+<p class="gem-detail__gallery-empty">No independent image evidence is recorded yet. The primary view is for visual reference and does not replace a traceable specimen image or a professional identification.</p>
 
 <div class="gem-detail__pager-shell">
 <p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>

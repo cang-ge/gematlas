@@ -35,4 +35,12 @@ colorCause: color-centers
 | Yellow Diamond / 黄钻 | N + vacancy (H3) | C (diamond) | yellow |
 | Pink Diamond / 粉钻 | N + plastic deformation | C (diamond) | pink |
 
+<aside class="gem-reference-block" aria-labelledby="gem-reference-title">
+  <p class="gem-reference-block__eyebrow">SOURCE TRACE</p>
+  <h2 id="gem-reference-title">参考依据与证据边界</h2>
+  <p class="gem-reference-block__intro">本页内容用于学习与检索；来源用于说明知识依据，不代表仅凭本页即可完成具体样品鉴定。</p>
+  <ul><li><a href="https://www.gia.edu/gems-gemology" target="_blank" rel="noreferrer">GIA：宝石与颜色研究</a><span>宝石颜色、光学表现与宝石学研究背景</span><small>打开来源 ↗</small></li>
+<li><a href="https://www.gia.edu/gems-gemology/summer-2025-phenomenal-gemstones" target="_blank" rel="noreferrer">GIA：现象宝石的结构</a><span>结构型光学色与微结构观察线索</span><small>打开来源 ↗</small></li></ul>
+</aside>
+
 *详见[颜色成因总览](intro)。*

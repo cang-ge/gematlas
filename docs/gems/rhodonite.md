@@ -21,8 +21,10 @@ gem: rhodonite
     </dl>
     <a class="gem-detail__language" href="../zh/gems/rhodonite.html" hreflang="zh-CN">中文: 蔷薇辉石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/rhodonite/rhodonite.jpg" alt="Rhodonite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/rhodonite/rhodonite.jpg" alt="Rhodonite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="rhodonite" current-gem-label="Rhodonite" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: rhodonite
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Pyroxenoid</td></tr><tr><th scope="row">Formula</th><td>MnSiO₃</td></tr><tr><th scope="row">Crystal System</th><td>Triclinic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/triclinic">Triclinic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 

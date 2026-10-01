@@ -21,8 +21,10 @@ gem: garnet-almandine
     </dl>
     <a class="gem-detail__language" href="../../gems/garnet-almandine.html" hreflang="en">English: Almandine (Garnet) <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../../images/gems/garnet-almandine/garnet-almandine.jpg" alt="铁铝榴石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/garnet-almandine/garnet-almandine.jpg" alt="铁铝榴石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉参考 · 不等同于鉴定证据</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="zh" current-gem="garnet-almandine" current-gem-label="铁铝榴石" />
 
 ## 分类
 
@@ -31,6 +33,14 @@ gem: garnet-almandine
   <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
   <tbody><tr><th scope="row">矿物族</th><td>石榴石族</td></tr><tr><th scope="row">化学式</th><td>Fe₃Al₂(SiO₄)₃</td></tr><tr><th scope="row">晶系</th><td>立方晶系</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="分类坐标">
+  <span>分类坐标</span>
+  <a href="/gematlas/zh/classification/intro">分类总览</a>
+  <a href="/gematlas/zh/classification/mineral-groups/intro">矿物分类组</a>
+  <a href="/gematlas/zh/classification/crystal-systems/cubic">立方晶系</a>
+  <a href="/gematlas/zh/classification/optical-phenomena/intro">光学现象</a>
+  <a href="/gematlas/zh/classification/color-causes/intro">颜色成因</a>
+</nav>
 
 ## 物理性质
 

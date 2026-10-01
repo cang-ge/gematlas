@@ -38,4 +38,12 @@ Spectrolite / 光谱石 | Plagioclase | full spectrum (Finland origin)
 Andesine-Labradorite / 安山-拉长石 | Plagioclase | green to red
 Spectrolite (Madagascar) | Plagioclase | vivid blue-green
 
+<aside class="gem-reference-block" aria-labelledby="gem-reference-title">
+  <p class="gem-reference-block__eyebrow">SOURCE TRACE</p>
+  <h2 id="gem-reference-title">References & Evidence Boundary</h2>
+  <p class="gem-reference-block__intro">This page supports learning and retrieval; the sources document the knowledge basis and do not make this page sufficient for identifying a specific specimen.</p>
+  <ul><li><a href="https://www.gia.edu/articles/gems-gemology-summary-guide-to-phenomenal-gems" target="_blank" rel="noreferrer">GIA: Guide to Phenomenal Gems</a><span>Observation methods and gemological context for optical phenomena</span><small>Open source ↗</small></li>
+<li><a href="https://www.gia.edu/gia-news-research/optical-effects-phenomenal-cabochons" target="_blank" rel="noreferrer">GIA: Optical Effects of Phenomenal Cabochons</a><span>Cabochon cuts, lighting, viewing angle, and optical appearance</span><small>Open source ↗</small></li></ul>
+</aside>
+
 *See the [optical phenomena overview](intro).*

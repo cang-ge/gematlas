@@ -12,6 +12,7 @@ import yaml from 'js-yaml'
 import fs from 'node:fs'
 import path from 'node:path'
 import { ColorCausesFile } from './schema'
+import { renderReferences } from './render-references'
 
 const SHARED = 'data/shared/color-causes.yaml'
 const OUT_EN_INTRO = 'docs/classification/color-causes/intro.md'
@@ -58,6 +59,8 @@ function detailPage(cause: typeof causes[number], locale: 'en' | 'zh'): string {
       '|---|---|---|---|',
       rows,
       '',
+      renderReferences(parsed.references, locale),
+      '',
       isZh ? '*详见[颜色成因总览](intro)。*' : '*See the [color cause overview](intro).*',
     ].join('\n')
   }
@@ -87,6 +90,8 @@ function detailPage(cause: typeof causes[number], locale: 'en' | 'zh'): string {
       hdr,
       '|---|---|---|---|',
       rows,
+      '',
+      renderReferences(parsed.references, locale),
       '',
       isZh ? '*详见[颜色成因总览](intro)。*' : '*See the [color cause overview](intro).*',
     ].join('\n')
@@ -118,6 +123,8 @@ function detailPage(cause: typeof causes[number], locale: 'en' | 'zh'): string {
     '|---|---|---|---|',
     rows,
     '',
+    renderReferences(parsed.references, locale),
+    '',
     isZh ? '*详见[颜色成因总览](intro)。*' : '*See the [color cause overview](intro).*',
   ].join('\n')
 }
@@ -130,8 +137,18 @@ function overviewPage(locale: 'en' | 'zh'): string {
   ).join('\n')
 
   const lede = isZh
-    ? '珠宝的颜色并非孤立现象，而是由背后的物理化学机制决定。本分类模块介绍天然宝石中最重要的三种致色机制：'
-    : 'Color in gems is never arbitrary. Three primary mechanisms account for nearly all natural colored stones:'
+    ? '颜色不是孤立的外观标签，而是光与物质相互作用后的结果。本分类模块从吸收型体色与结构型光学色两条路径，进入三种常见的致色机制：'
+    : 'Color is not an isolated visual label. It is the result of light interacting with matter. This module separates body color from structural optical color, then introduces three common coloration mechanisms:'
+
+  const paths = isZh
+    ? [
+        '| 吸收型体色 | 宝石选择性吸收部分可见光，剩余光线进入眼睛 | 红宝石、祖母绿、蓝宝石的体色 |',
+        '| 结构型光学色 | 微结构使光发生散射、干涉或衍射，颜色随角度或光源改变 | 欧泊变彩、月光石月光效应、拉长石晕彩 |',
+      ]
+    : [
+        '| Absorption-based body color | The gem selectively absorbs visible wavelengths; the remainder reaches the eye | Ruby, emerald, and sapphire body color |',
+        '| Structural optical color | Microstructure scatters, interferes with, or diffracts light; color changes with angle or source | Opal play-of-color, moonstone sheen, labradorite flash |',
+      ]
 
   return [
     '---',
@@ -142,14 +159,25 @@ function overviewPage(locale: 'en' | 'zh'): string {
     '',
     lede,
     '',
+    isZh ? '## 先分清两条路径' : '## First Separate the Two Paths',
+    '',
+    isZh ? '| 路径 | 光与物质的关系 | 典型结果 |' : '| Path | What happens to light | Typical result |',
+    '|---|---|---|',
+    ...paths,
+    '',
     isZh ? '## 三种主要机制' : '## Three Primary Mechanisms',
     '',
     isZh ? '| 机制 | 概述 |' : '| Mechanism | Summary |',
     '|---|---|',
     rows,
     '',
-    isZh ? '*参见[分类总览](../classification/intro)了解矿物分类框架。*'
-         : '*See the [classification overview](../classification/intro) for the mineralogical framework.*',
+    isZh ? '颜色分类适合帮助观察和检索，但不能替代鉴定。同一种颜色可能来自不同机制；进入具体机制时，还应结合色相、明度、饱和度、光源和观察方向。'
+         : 'Color categories support observation and retrieval, but they do not replace identification. The same color may arise from different mechanisms; evaluate hue, tone, saturation, lighting, and viewing direction together.',
+    '',
+    renderReferences(parsed.references, locale),
+    '',
+    isZh ? '*参见[分类总览](../intro)了解矿物分类框架。*'
+         : '*See the [classification overview](../intro) for the mineralogical framework.*',
   ].join('\n')
 }
 

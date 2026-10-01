@@ -21,8 +21,10 @@ gem: amazonite
     </dl>
     <a class="gem-detail__language" href="../zh/gems/amazonite.html" hreflang="zh-CN">中文: 天河石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/amazonite/amazonite.jpg" alt="Amazonite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/amazonite/amazonite.jpg" alt="Amazonite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="amazonite" current-gem-label="Amazonite" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: amazonite
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Feldspar (Microcline)</td></tr><tr><th scope="row">Formula</th><td>KAlSi₃O₈</td></tr><tr><th scope="row">Crystal System</th><td>Triclinic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/triclinic">Triclinic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -66,8 +76,8 @@ gem: amazonite
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
 <figure><img src="../images/gems/amazonite/amazonite-gallery-1.jpg" alt="Amazonite" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/amazonite/amazonite-gallery-2.jpg" alt="Amazonite" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
-<figure><img src="../images/gems/amazonite/amazonite-gallery-3.jpg" alt="Amazonite" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
+<figure><img src="../images/gems/amazonite/amazonite-gallery-2.png" alt="Amazonite" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/amazonite/amazonite-gallery-3.png" alt="Amazonite" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

@@ -21,8 +21,10 @@ gem: chrysoprase
     </dl>
     <a class="gem-detail__language" href="../zh/gems/chrysoprase.html" hreflang="zh-CN">中文: 绿玉髓 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/chrysoprase/chrysoprase.jpg" alt="Chrysoprase" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/chrysoprase/chrysoprase.png" alt="Chrysoprase" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="chrysoprase" current-gem-label="Chrysoprase" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: chrysoprase
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Quartz (microcrystalline chalcedony)</td></tr><tr><th scope="row">Formula</th><td>SiO₂ + Ni</td></tr><tr><th scope="row">Crystal System</th><td>Trigonal</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/trigonal">Trigonal</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -61,6 +71,10 @@ gem: chrysoprase
 ## History & Lore
 
 <div class="gem-detail__prose">Chrysoprase&#39;s apple-green comes from nickel; it is the most precious translucent quartz, collected by Frederick the Great.<br /></div>
+
+## Image Evidence
+
+<p class="gem-detail__gallery-empty">No independent image evidence is recorded yet. The primary view is for visual reference and does not replace a traceable specimen image or a professional identification.</p>
 
 <div class="gem-detail__pager-shell">
 <p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>

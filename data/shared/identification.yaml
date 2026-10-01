@@ -5,17 +5,203 @@
 # Schumann, *Gemstones of the World*; Nassau, *Gemstone Enhancement*;
 # AGL / GIA / SSEF identification procedures.
 
+references:
+  - id: gia-lab-analysis
+    title_zh: 'GIA：宝石实验室分析流程'
+    title_en: 'GIA: Analysis of Gemstones at GIA Laboratories'
+    url: 'https://www.gia.edu/gems-gemology/winter-2024-gemstone-analysis'
+    scope_zh: 标准宝石学测试、实验室工作流与实验室培育钻石分析示例
+    scope_en: Standard gemological testing, laboratory workflow, and laboratory-grown diamond analysis examples
+  - id: gia-origin-methods
+    title_zh: 'GIA：宝石产地分析方法综述'
+    title_en: 'GIA: Analytical Methods Used in Geographic Origin Determination'
+    url: 'https://www.gia.edu/gems-gemology/winter-2019-analytical-methods-geographic-origin-determination-gemstones'
+    scope_zh: RI/SG 作为鉴定起点，以及产地判断所需的后续分析
+    scope_en: RI/SG as an identification starting point and further analysis for origin opinions
+  - id: gia-infrared
+    title_zh: 'GIA：红外光谱在宝石学中的应用'
+    title_en: 'GIA: Infrared Spectroscopy and Its Use in Gemology'
+    url: 'https://www.gia.edu/gems-gemology/winter-2024-infrared-spectroscopy'
+    scope_zh: 光谱与原子结构、天然/合成/处理线索之间的关系
+    scope_en: Spectroscopy and its relationship to atomic structure and natural/synthetic/treatment clues
+  - id: gia-ruby
+    title_zh: 'GIA 宝石百科：红宝石'
+    title_en: 'GIA Gem Encyclopedia: Ruby'
+    url: 'https://www.gia.edu/ruby'
+    scope_zh: 红宝石的典型 RI、双折射、比重和硬度参考
+    scope_en: Typical ruby RI, birefringence, specific gravity, and hardness references
+  - id: gia-sapphire
+    title_zh: 'GIA 宝石百科：蓝宝石'
+    title_en: 'GIA Gem Encyclopedia: Sapphire'
+    url: 'https://www.gia.edu/sapphire'
+    scope_zh: 蓝宝石的典型 RI、双折射、比重和硬度参考
+    scope_en: Typical sapphire RI, birefringence, specific gravity, and hardness references
+  - id: gia-emerald
+    title_zh: 'GIA 宝石百科：祖母绿'
+    title_en: 'GIA Gem Encyclopedia: Emerald'
+    url: 'https://www.gia.edu/emerald'
+    scope_zh: 祖母绿的典型 RI、双折射、比重、硬度与处理/合成/仿品边界
+    scope_en: Typical emerald RI, birefringence, specific gravity, hardness, and treatment/synthetic/imitation context
+  - id: gia-spinel
+    title_zh: 'GIA 宝石百科：尖晶石'
+    title_en: 'GIA Gem Encyclopedia: Spinel'
+    url: 'https://www.gia.edu/spinel'
+    scope_zh: 尖晶石的典型 RI、均质性、比重和硬度参考
+    scope_en: Typical spinel RI, isotropy, specific gravity, and hardness references
+  - id: gia-diamond
+    title_zh: 'GIA 宝石百科：钻石'
+    title_en: 'GIA Gem Encyclopedia: Diamond'
+    url: 'https://www.gia.edu/diamond'
+    scope_zh: 钻石的典型 RI、比重和硬度参考
+    scope_en: Typical diamond RI, specific gravity, and hardness references
+  - id: gia-zircon
+    title_zh: 'GIA 宝石百科：锆石'
+    title_en: 'GIA Gem Encyclopedia: Zircon'
+    url: 'https://www.gia.edu/zircon'
+    scope_zh: 锆石的典型 RI、双折射、比重和硬度参考
+    scope_en: Typical zircon RI, birefringence, specific gravity, and hardness references
+  - id: gia-iolite
+    title_zh: 'GIA：堇青石（Iolite）描述'
+    title_en: 'GIA: Iolite Description'
+    url: 'https://www.gia.edu/articles/iolite-description'
+    scope_zh: 堇青石的强多色性与观察方向提示
+    scope_en: Iolite pleochroism and viewing-direction context
+  - id: gia-tanzanite
+    title_zh: 'GIA：坦桑石描述'
+    title_en: 'GIA: Tanzanite Description'
+    url: 'https://www.gia.edu/tanzanite-description'
+    scope_zh: 坦桑石的多色性、切磨方向、光源与热处理背景
+    scope_en: Tanzanite pleochroism, orientation, lighting, and heat-treatment context
+  - id: gia-peridot
+    title_zh: 'GIA 宝石百科：橄榄石'
+    title_en: 'GIA Gem Encyclopedia: Peridot'
+    url: 'https://www.gia.edu/peridot'
+    scope_zh: 橄榄石典型 RI、双折射、比重和硬度参考
+    scope_en: Typical peridot RI, birefringence, specific gravity, and hardness references
+  - id: gia-tsavorite
+    title_zh: 'GIA FAQ：沙弗莱石与翠榴石的区别'
+    title_en: 'GIA FAQ: Tsavorite and Demantoid'
+    url: 'https://my.gia.edu/FAQ/gia-faq-two-green-garnet'
+    scope_zh: 绿色石榴石颜色重叠与矿物差异提示
+    scope_en: Green garnet colour overlap and mineral distinction context
+
+evidence_ledger:
+  - id: identification-is-evidence-chain
+    topic_id: identification-workflow
+    claim_zh: 鉴定从样品观察、RI/SG 等标准测试开始，并需要根据问题升级证据。
+    claim_en: Identification starts with observation and standard tests such as RI/SG, then escalates evidence according to the question.
+    status: source-supported
+    source_ids: [gia-lab-analysis, gia-origin-methods]
+  - id: physical-reference-values-are-typical
+    topic_id: physical-tests
+    claim_zh: 宝石百科中的 RI、SG 和硬度是典型参考，不能脱离样品与仪器条件作为绝对判据。
+    claim_en: Gem Encyclopedia RI, SG, and hardness values are typical references, not absolute predicates outside sample and instrument conditions.
+    status: source-supported
+    source_ids: [gia-diamond, gia-ruby, gia-sapphire, gia-emerald, gia-spinel]
+  - id: hardness-is-relative
+    topic_id: physical-tests
+    claim_zh: 莫氏硬度表示相对刻划抗性，不能直接推出真伪、耐久性或价值。
+    claim_en: Mohs hardness expresses relative scratch resistance and does not directly establish authenticity, durability, or value.
+    status: teaching-summary
+    source_ids: [gia-ruby, gia-sapphire, gia-emerald]
+  - id: optical-results-need-context
+    topic_id: optical-tests
+    claim_zh: 双折射、多色性、荧光和吸收带都需要结合方向、光源、仪器与其他证据解释。
+    claim_en: Birefringence, pleochroism, fluorescence, and absorption bands require interpretation with direction, light, instrument, and other evidence.
+    status: source-supported
+    source_ids: [gia-lab-analysis, gia-infrared]
+  - id: spectroscopy-is-not-origin-proof
+    topic_id: optical-tests
+    claim_zh: 光谱是材料结构和处理/生长线索的模式证据，不是独立的产地证明。
+    claim_en: Spectroscopy provides pattern evidence about material structure and treatment/growth clues, not independent proof of origin.
+    status: source-supported
+    source_ids: [gia-infrared, gia-origin-methods]
+  - id: optical-zircon-birefringence-example
+    topic_id: optical-tests
+    claim_zh: 锆石可作为双折射观察示例，但 DR 需要结合方向、类型和其他证据解释。
+    claim_en: Zircon can illustrate birefringence, but DR must be interpreted with type, direction, and other evidence.
+    status: source-supported
+    source_ids: [gia-zircon]
+  - id: optical-iolite-pleochroism-example
+    topic_id: optical-tests
+    claim_zh: 堇青石的强多色性可作为方向性观察示例，但观察结果仍受切磨与光源影响。
+    claim_en: Iolite's strong pleochroism can illustrate directional observation, while results still depend on cut and light.
+    status: source-supported
+    source_ids: [gia-iolite]
+  - id: synthetic-and-imitation-are-distinct
+    topic_id: synthetic-and-imitation
+    claim_zh: 合成品与仿品是不同概念，天然、处理、合成和复合结构还需要分别披露。
+    claim_en: Synthetics and imitations are distinct concepts; natural, treatment, synthetic, and composite dimensions need separate disclosure.
+    status: source-supported
+    source_ids: [gia-diamond, gia-emerald]
+  - id: synthetic-diamond-needs-lab-context
+    topic_id: synthetic-and-imitation
+    claim_zh: CVD/HPHT 钻石的分析需要结合具体仪器和实验室流程，不存在适用于所有样品的固定两项测试。
+    claim_en: CVD/HPHT diamond analysis depends on instruments and laboratory workflow; no fixed two-test set applies to every specimen.
+    status: source-supported
+    source_ids: [gia-lab-analysis, gia-infrared]
+  - id: disclosure-dimensions-are-independent
+    topic_id: synthetic-and-imitation
+    claim_zh: 材料身份、生长来源、处理状态和复合结构应分别记录；一个维度的结论不能替代其他维度的披露。
+    claim_en: Material identity, growth origin, treatment status, and composite structure should be recorded separately; one dimension cannot replace disclosure of the others.
+    status: source-supported
+    source_ids: [gia-diamond, gia-emerald]
+  - id: synthetic-clues-need-cross-checking
+    topic_id: synthetic-and-imitation
+    claim_zh: 生长特征、包裹体、紫外和光谱等是可能线索，缺失或重叠时需要结合样品条件与交叉检测解释。
+    claim_en: Growth features, inclusions, UV reactions, and spectra are possible clues that require sample context and cross-checking when absent or overlapping.
+    status: teaching-summary
+    source_ids: [gia-lab-analysis, gia-infrared]
+  - id: composite-structure-needs-explicit-referral
+    topic_id: synthetic-and-imitation
+    claim_zh: 怀疑双层石、三层石或其他复合结构时，应记录接合面和样品限制，并把正式结构披露升级给专业实验室。
+    claim_en: Suspected doublets, triplets, or other composites require recording junctions and sample limits, with formal structure disclosure escalated to a qualified laboratory.
+    status: teaching-summary
+    source_ids: [gia-lab-analysis]
+  - id: red-case-is-partial
+    topic_id: same-color-gems
+    claim_zh: 红、蓝、绿色案例均已提供最小教育性分流，但仍不是覆盖所有样品与仪器条件的完整鉴定决策树。
+    claim_en: Red, blue, and green cases now provide minimal educational branches, but they are not complete identification decision trees for every specimen and instrument condition.
+    status: pending-review
+    source_ids: [gia-lab-analysis, gia-origin-methods]
+  - id: blue-colour-candidate-branch
+    topic_id: same-color-gems
+    claim_zh: 蓝色外观可对应蓝宝石、坦桑石或堇青石等不同材料，多色性与方向观察可帮助提出下一步问题，但不能单独命名。
+    claim_en: Blue appearance can correspond to different materials such as sapphire, tanzanite, and iolite; pleochroism and direction observation can guide the next question but cannot name a specimen alone.
+    status: source-supported
+    source_ids: [gia-sapphire, gia-tanzanite, gia-iolite]
+  - id: green-colour-candidate-branch
+    topic_id: same-color-gems
+    claim_zh: 绿色外观可对应祖母绿、沙弗莱石或橄榄石等不同材料，RI/SG 与光学线索需要结合样品状态和来源解释。
+    claim_en: Green appearance can correspond to materials such as emerald, tsavorite, and peridot; RI/SG and optical clues require sample and source context.
+    status: source-supported
+    source_ids: [gia-emerald, gia-peridot, gia-tsavorite]
+
 overview_zh: |
-  鉴定是一门测量物理与光学性质来区分天然宝石、合成品与仿品的学科。
-  本模块介绍三类基础测试——物理性质测试（RI / SG / 硬度 / 解理）、
-  光学测试（双折射 / 多色性 / 紫外荧光）、以及合成品与仿品的鉴别；
-  另以同色宝石判别作为综合应用练习。
+  鉴定是通过可记录、可复核的物理与光学证据，逐步缩小材料候选范围的工作。
+  本模块适合学习观察、基础筛分和证据记录，不把外观或单项读数包装成确定答案。
+  推荐路径是：先记录样品与任务边界，再做低风险观察，之后按风险递进进行物理/光学测试，
+  最后区分“支持候选”“与候选一致”和“无法排除”，必要时转交专业实验室。
+
+  **你可以用本模块做什么：** 学会描述样品状态、记录测试条件、理解 RI / SG / 光学现象
+  在证据链中的作用，并形成一份教育性的筛分记录。
+
+  **你不能仅凭本模块做什么：** 不能仅凭照片、外观、单个仪器读数或 Assist 判断具体样品的
+  天然/合成身份、处理状态、产地、分级或价值；涉及高价值交易、保险、产地意见或天然/合成
+  披露时，应保留原始记录并交由具备资质的实验室完成检测。
 overview_en: |
-  Identification measures physical and optical properties to separate
-  natural gems, synthetics, and imitations. This module covers three foundational test
-  groups — physical tests (RI / SG / hardness / cleavage), optical tests
-  (birefringence / pleochroism / UV fluorescence), and distinguishing
-  synthetics and imitations, with same-colour comparison as an applied case.
+  Identification uses recorded, reproducible physical and optical evidence to narrow a material
+  candidate. This module supports observation, basic screening, and evidence documentation; it does
+  not turn appearance or one reading into a certain answer. Follow this path: record the sample and
+  scope, start with low-risk observation, escalate physical and optical tests by risk, distinguish
+  “supports a candidate”, “consistent with a candidate”, and “cannot exclude”, then refer to a lab when needed.
+
+  **What this module can do:** teach observation, test-condition logging, and the role of RI / SG / optical
+  observations in an evidence chain, producing an educational screening record.
+
+  **What it cannot do:** a photo, appearance, single reading, or Assist response cannot establish a specific
+  sample's natural/synthetic identity, treatment, origin, grade, or value. Preserve raw records and refer high-value,
+  insurance, origin, or disclosure decisions to a qualified laboratory.
 
 topics:
   - id: identification-workflow
@@ -30,6 +216,10 @@ topics:
       reproducible chain of evidence. Record the sample first, begin with low-risk
       observations, combine physical, optical, and inclusion clues, then state the
       confidence limits, treatment disclosure, and whether a laboratory report is needed.
+    boundary_zh: |
+      本页用于学习如何组织证据，不是样品鉴定表。任何结论都必须说明观察条件、未完成的测试和样品限制；不能仅凭照片或单项读数确认天然、合成、处理、产地或价值。涉及高价值或正式披露时停止自行判断并送检。
+    boundary_en: |
+      This page teaches evidence organization, not specimen certification. State observation conditions, incomplete tests, and sample limits; do not establish natural, synthetic, treatment, origin, or value from a photo or single reading. Refer high-value or formal disclosure decisions to a qualified lab.
     steps_zh: |
       **1. 先记录样品与任务边界**
 
@@ -55,6 +245,18 @@ topics:
 
       涉及天然/合成判断、产地意见、重大交易或保险用途时，应保留原始记录并交由具备资质的
       实验室完成更高阶检测。
+
+      **可复制鉴定记录卡（最小版）**
+
+      | 区块 | 记录内容 |
+      |---|---|
+      | 样品与任务 | 样品编号、日期、操作者、送检目的、裸石/镶嵌/复合材料 |
+      | 外观事实 | 光源、观察方向、颜色、透明度、光泽、切工、可见包裹体与损伤 |
+      | 仪器与条件 | 仪器名称/型号、校准或检查状态、接触状态、环境与安全限制 |
+      | 原始读数 | 每次读数、范围、方向、重复次数、异常或无法读数的原因 |
+      | 解释与边界 | 支持候选、排除候选、无法排除项、未完成测试、是否送检 |
+
+      **停止条件：** 样品不可接触、存在表面/结构风险、读数不稳定或结论涉及天然/合成、处理、产地与价值时，不为了“得到一个名称”继续增加风险测试。
     steps_en: |
       **1. Record the sample and scope**
 
@@ -105,19 +307,157 @@ topics:
       most basic identification tools — influenced by chemistry and crystal
       structure, so each species tends to fall within a comparable range; conditions,
       orientation, treatment, and sample state can shift the reading.
+    boundary_zh: |
+      本页只介绍教育性测试框架，不提供脱离仪器说明、培训和样品条件的操作授权。RI/SG 应记录为典型范围或实测范围，硬度测试可能损伤样品；镶嵌、微小、多孔、易损或高价值样品应跳过不适用测试并考虑送检。
+    boundary_en: |
+      This page is an educational testing framework, not an operating authorization outside instrument instructions, training, and sample conditions. Record RI/SG as typical or measured ranges; hardness testing can damage a specimen. Skip unsuitable tests for mounted, tiny, porous, fragile, or high-value samples and consider lab referral.
+    steps_zh: |
+      **统一教学协议**
+
+      每项测试都按同一顺序阅读：目的 → 适用条件 → 操作与记录 → 结果解释 → 异常处理 → 风险/送检。参考值用于缩小候选范围，不是样品的“密码”。
+
+      | 测试 | 主要输出 | 典型限制 |
+      |---|---|---|
+      | RI | 单值/范围、方向、读数质量 | 弧面、尺寸、透明度、接触状态和量程 |
+      | SG | 方法、数值、重复结果 | 镶嵌、孔隙、吸液、气泡和样品重量 |
+      | 莫氏硬度 | 是否出现刻划现象 | 有损、相对值，不等于真伪或耐久性 |
+      | 解理 | 结构性风险记录 | 不通过敲击或劈开验证 |
+
+      ### 1. 折射率（RI）
+
+      **目的：** 用折射率和光性信息缩小材料候选范围。
+
+      **适用条件：** 先确认折射仪可用，清洁样品和接触面，并判断样品尺寸、弧面和透明度是否适合测量。镶嵌石、过小样品或无法形成可靠接触时，应记录为不适用。
+
+      **操作与记录：** 记录单值还是范围、观察方向、接触状态、读数质量和重复稳定性。原始读数应保留，不要只记录一个经过四舍五入的“结论值”。
+
+      **结果解释：** 将读数与候选的典型范围、双折射和样品状态一起比较；RI 只能支持或排除部分候选，不能单独证明天然、合成或处理状态。
+
+      **异常处理：** 出现超出量程、边界模糊、接触不良或读数不稳定时，记录“无法可靠读数”和原因，改用适合样品的下一项非破坏性观察。
+
+      **风险/送检：** 不为了得到名称而反复施压或污染样品；涉及高价值、正式披露或读数冲突时保留原始记录并送检。
+
+      ### 2. 比重（SG）
+
+      **目的：** 将质量与体积关系作为候选材料的补充证据。
+
+      **适用条件：** 先判断样品是否适合液体或静水法。镶嵌、孔隙、吸液、表面损伤、极小样品或复合结构都可能使结果失真。
+
+      **操作与记录：** 只按设备、液体和实验室安全说明操作，记录方法、样品状态、环境、重复结果、气泡/接触器具情况和必要修正。不要把未经检查的单次称重写成确定值。
+
+      **结果解释：** SG 只能与 RI、光性、显微观察和候选范围交叉解释；单个 SG 数值不能直接等同于宝石名称。
+
+      **异常处理：** 气泡、液体污染、样品吸液、接触器具干扰或重复结果差异明显时，标记结果不可靠，不继续用它排除候选。
+
+      **风险/送检：** 液体、样品表面和废液按器材说明及安全数据处理；样品不适用或价值较高时跳过液体测试并考虑送检。
+
+      ### 3. 莫氏硬度
+
+      **目的：** 在明确授权和风险可接受时，记录相对刻划抗性。
+
+      **适用条件：** 莫氏硬度不是第一选择。高价值、镶嵌、裂隙明显、易损或表面处理样品默认不做刻划测试。
+
+      **操作与记录：** 若经授权实施，只记录测试位置、工具、方向和是否出现刻划现象；不能把“没有划痕”写成真品证明。
+
+      **结果解释：** 莫氏硬度是相对刻划抗性，不等于真伪、耐久性、透明度或价值；不同操作者和表面状态也会影响观察。
+
+      **异常处理：** 结果不清晰、样品表面已有损伤或工具状态不明时，记录“未获得可靠硬度结果”，不要重复施加损伤。
+
+      **风险/送检：** 只要测试风险超过教育性筛分价值，就停止；正式鉴定和披露交给专业实验室。
+
+      ### 4. 解理与破裂风险
+
+      **目的：** 识别结构性破裂风险，而不是主动制造破裂证据。
+
+      **适用条件：** 根据已知矿物结构、外观裂隙和样品状态做风险记录；解理、断口、裂隙和已有损伤分开描述。
+
+      **操作与记录：** 记录可见的方向性结构线索、既有损伤和不可测试原因，不通过敲击、劈开或强行施力验证解理。
+
+      **结果解释：** 解理是结构性破裂倾向，不能默认它在成品外观上可见，也不能单独用于命名。
+
+      **异常处理：** 结构风险不明确或样品出现松动、裂隙扩展迹象时，立即停止接触性测试并记录状态。
+
+      **风险/送检：** 对钻石等存在明显破裂风险的样品，把解理作为停止信号，交给专业人员评估。
+    steps_en: |
+      **Shared teaching protocol**
+
+      Read every test in the same order: purpose → suitability → operation and record → interpretation → exception handling → risk/lab referral. Reference values narrow candidates; they are not a specimen “code”.
+
+      | Test | Primary output | Typical limits |
+      |---|---|---|
+      | RI | Point/range, direction, reading quality | Curvature, size, transparency, contact, and range |
+      | SG | Method, value, repeats | Mounting, porosity, absorption, bubbles, and mass |
+      | Mohs hardness | Scratch observation | Destructive and relative; not authenticity or durability |
+      | Cleavage | Structural risk record | Never verify by striking or splitting |
+
+      ### 1. Refractive index (RI)
+
+      **Purpose:** Narrow material candidates with RI and optical information.
+
+      **Suitability:** Confirm the refractometer is usable, clean the specimen and contact surface, and check whether size, curvature, and transparency suit the measurement. Record mounted, tiny, or inaccessible specimens as unsuitable when reliable contact is not possible.
+
+      **Operation and record:** Record a point or range, viewing direction, contact state, reading quality, and repeat stability. Preserve raw readings instead of recording only a rounded “answer”.
+
+      **Interpretation:** Compare the reading with typical candidate ranges, birefringence, and sample state. RI can support or exclude candidates; it cannot by itself establish natural, synthetic, or treatment status.
+
+      **Exception handling:** If the reading is out of range, blurred, poorly contacted, or unstable, record that it is unreliable and why, then choose a suitable non-destructive observation.
+
+      **Risk/referral:** Do not repeatedly press or contaminate a specimen just to obtain a name. Preserve raw records and refer high-value, formal-disclosure, or conflicting cases.
+
+      ### 2. Specific gravity (SG)
+
+      **Purpose:** Use the mass-to-volume relationship as supporting evidence for a candidate.
+
+      **Suitability:** Decide whether a liquid or hydrostatic method suits the sample. Mounting, porosity, absorption, surface damage, very small size, and composite structure can distort the result.
+
+      **Operation and record:** Follow equipment, liquid, and laboratory safety instructions. Record method, sample state, environment, repeats, bubbles, contact fixtures, and corrections. Do not turn one unchecked weighing into a certain value.
+
+      **Interpretation:** Cross-check SG with RI, optical behavior, microscopy, and candidate ranges; one SG value does not map directly to a gem name.
+
+      **Exception handling:** If bubbles, contamination, absorption, fixture interference, or large repeat differences occur, mark the result unreliable and stop using it to exclude candidates.
+
+      **Risk/referral:** Handle liquids, specimens, and waste according to equipment instructions and safety data. Skip liquid testing for unsuitable or valuable specimens and consider referral.
+
+      ### 3. Mohs hardness
+
+      **Purpose:** When explicitly authorized and risk is acceptable, record relative scratch resistance.
+
+      **Suitability:** Hardness is not a first choice. Default to no scratch test for valuable, mounted, visibly fractured, fragile, or surface-treated samples.
+
+      **Operation and record:** If authorized, record location, tool, direction, and whether a scratch was observed; absence of a scratch is not proof of authenticity.
+
+      **Interpretation:** Mohs hardness is relative scratch resistance, not authenticity, durability, transparency, or value; operator and surface conditions affect observations.
+
+      **Exception handling:** If the result is unclear, the surface is already damaged, or the tool condition is unknown, record that no reliable hardness result was obtained and do not add damage.
+
+      **Risk/referral:** Stop whenever risk exceeds the value of educational screening; formal identification and disclosure belong to a qualified laboratory.
+
+      ### 4. Cleavage and breakage risk
+
+      **Purpose:** Recognize structural breakage risk, not create a fracture as evidence.
+
+      **Suitability:** Record structural clues, visible fissures, and sample state; describe cleavage, fracture, fissures, and existing damage separately.
+
+      **Operation and record:** Record directional structural clues, existing damage, and inaccessible tests. Never strike, split, or force a specimen to verify cleavage.
+
+      **Interpretation:** Cleavage is a structural breakage tendency; it is not necessarily visible in a finished gem and cannot name a specimen alone.
+
+      **Exception handling:** If structural risk is unclear or looseness/fissure growth appears, stop contact tests immediately and record the state.
+
+      **Risk/referral:** For diamond and other high-risk specimens, treat cleavage as a stop signal and refer the sample to a qualified professional.
     principles_zh: |
-      - 折射率 (RI)：折射仪读数，钻石 2.42、刚玉 1.76、石英 1.54 等。
-      - 比重 (SG)：空气中与水中称重比，可区分同色不同种宝石。
-      - 硬度：莫氏 1–10，划痕测试是破坏性的，只在必要时用。
-      - 解理：沿原子面断裂的倾向，钻石八面体解理、宝石级可见。
+      - 折射率（RI）和比重（SG）应视为带条件的典型参考范围；方向、仪器、接触状态、处理和样品状态都会影响读数。
+      - 硬度是相对刻划抗性，不等于真伪、耐久性或价值；划痕测试可能损伤样品。
+      - 解理是结构性破裂倾向，不应通过敲击或劈开验证，也不应默认它在外观上可见。
+      - 任何读数都要与样品状态、重复结果和其他证据一起解释，不能脱离上下文比较。
     principles_en: |
-      - Refractive index: refractometer reading; diamond 2.42, corundum 1.76, quartz 1.54.
-      - Specific gravity: weigh in air vs water; separates same-colour species.
-      - Hardness: Mohs 1–10; scratch tests are destructive — use only when needed.
-      - Cleavage: tendency to break along atomic planes; octahedral in diamond.
+      - RI and SG are conditional typical references or measured ranges; direction, instrument, contact, treatment, and sample state affect readings.
+      - Hardness is relative scratch resistance, not authenticity, durability, or value; scratch testing can damage a specimen.
+      - Cleavage is a structural breakage tendency; never verify it by striking or splitting and do not assume it is visibly present.
+      - Interpret every reading with sample state, repeats, and other evidence; never compare it without context.
     examples:
-      - { gem: "diamond", value: "RI 2.42, SG 3.52", note_en: "highest RI of gems" }
-      - { gem: "ruby", value: "RI 1.76, SG 4.00", note_en: "corundum signature" }
+      - { gem: "diamond", gem_zh: "钻石", value: "RI 2.42; SG 3.52", value_zh: "RI 2.42；SG 3.52", note_zh: "典型参考，需结合条件与其他证据", note_en: "Typical reference; combine with conditions and other evidence" }
+      - { gem: "ruby", gem_zh: "红宝石", value: "RI 1.762–1.770; SG 4.00 ± 0.05", value_zh: "RI 1.762–1.770；SG 4.00 ± 0.05", note_zh: "刚玉典型参考，不能单独命名", note_en: "Typical corundum reference; not a standalone ID" }
 
   - id: optical-tests
     name_zh: 光学测试
@@ -129,116 +469,462 @@ topics:
       Birefringence (polariscope), pleochroism (dichroscope), and UV
       fluorescence (UV lamp) provide optical and material clues — useful
       for screening species and deciding what to test next.
+    boundary_zh: |
+      光学现象是证据链中的线索，不是“看见现象就能命名”的捷径。偏光镜、二色镜、紫外灯和光谱仪都需要合适的样品方向、光源/仪器条件与安全操作；荧光和吸收带不能单独证明天然、合成、处理或产地。
+    boundary_en: |
+      Optical phenomena are clues in an evidence chain, not shortcuts from an observation to a name. Polariscope, dichroscope, UV, and spectroscopy require suitable orientation, lighting/instrument conditions, and safe operation; fluorescence and absorption bands cannot alone prove natural, synthetic, treatment, or origin.
+    steps_zh: |
+      **统一教学协议**
+
+      每项光学测试都按同一顺序阅读：目的 → 适用条件 → 操作与记录 → 结果解释 → 异常处理 → 风险/送检。光学反应受样品方向、切磨、光源、透明度和仪器影响，必须保留观察上下文。
+
+      | 测试 | 主要输出 | 典型限制 |
+      |---|---|---|
+      | 偏光镜 | 光性、消光与异常反应 | 方向、集合体、多晶结构和透明度 |
+      | 二色镜 | 颜色变化、方向和强度 | 光源、切磨方向与观察方向 |
+      | 紫外荧光 | LW/SW、颜色和强度 | 灯具、距离、背景与样品重叠 |
+      | 光谱 | 吸收模式、仪器与读数质量 | 校准、光路、方向和解释经验 |
+
+      ### 1. 偏光镜：先确认光性，再记录反应
+
+      **目的：** 观察样品在偏振条件下的光学反应，为候选分组提供线索。
+
+      **适用条件：** 按仪器说明放置样品，确认样品透明度、形状和内部结构适合观察；集合体、多晶结构或应力可能造成复杂反应，应提前标记。
+
+      **操作与记录：** 记录观察方向、旋转样品时的明暗变化、消光是否整体或局部、是否出现异常反应以及仪器设置。不要只写“有双折射”，要保留观察条件。
+
+      **结果解释：** 双折射、消光和异常反应要结合切磨方向、透明度和其他物性解释；数值高不自动等于更容易识别，也不能单独命名。
+
+      **异常处理：** 反应不稳定、样品内部复杂或无法判断是样品反应还是仪器误差时，记录不确定性并改用其他证据，不强行归类。
+
+      **风险/送检：** 不为获取光学反应强行挤压或改变样品；结果冲突或涉及正式鉴定时保留记录并送检。
+
+      ### 2. 二色镜：记录方向与颜色变化
+
+      **目的：** 观察多色性及其方向性，为候选筛分提供补充线索。
+
+      **适用条件：** 使用稳定光源，从不同方向观察；注明样品是刻面、弧面、透明还是半透明，因为切磨与透光路径会改变观察。
+
+      **操作与记录：** 分别记录看到的颜色、强弱、观察方向和光源，不把“颜色不同”与“宝石名称”写在同一栏。
+
+      **结果解释：** 多色性受晶体方向、切磨和光源影响；“没有明显变化”只是当前条件下的观察结果，不能直接排除某个品种。
+
+      **异常处理：** 颜色变化很弱、视野不稳定或光源不一致时，标记观察质量不足，不用主观色名替代记录。
+
+      **风险/送检：** 二色镜通常用于低风险观察，但仍应避免对镶嵌或易损样品施加不必要的操作；需要正式披露时升级送检。
+
+      ### 3. 紫外荧光：记录波段和条件
+
+      **目的：** 记录样品在不同紫外波段下的反应，为下一步检测提供筛分线索。
+
+      **适用条件：** 区分 LW/SW 条件，记录灯具、观察距离、环境背景和样品状态；确认设备符合安全要求。
+
+      **操作与记录：** 记录反应颜色、强度、均匀性和观察条件；把“未观察到”与“设备未能稳定观察”区分开。
+
+      **结果解释：** 荧光可帮助决定下一步检测，但天然、合成和处理样品之间可能重叠，不能单独作身份、处理或产地结论。
+
+      **异常处理：** 环境光过强、样品位置变化、灯具状态不明或反应难以重复时，标记结果质量，不凭印象补写。
+
+      **风险/送检：** 遵守紫外灯的眼睛与皮肤防护要求，不直视光源；高价值、异常或需要正式披露的样品交由专业人员处理。
+
+      ### 4. 光谱：把吸收带当作模式证据
+
+      **目的：** 记录吸收模式，为材料结构、致色因素和生长/处理线索提供补充证据。
+
+      **适用条件：** 记录光源、仪器、校准/检查状态、样品方向和光路；样品厚度、透明度和表面状态会影响读数质量。
+
+      **操作与记录：** 记录可见吸收带、谱形、读数质量和重复结果；无法稳定读谱时写“未获得可靠光谱”，不要凭记忆补全。
+
+      **结果解释：** 吸收模式要与 RI、SG、包裹体、处理线索和样品限制交叉解释。它不是独立的产地指纹，也不能由单一谱带推出天然/合成结论。
+
+      **异常处理：** 基线漂移、噪声、光路不稳定或不同方向结果冲突时，保留原始状态并标记待复核，不挑选最符合预期的谱图。
+
+      **风险/送检：** 光谱仪的校准、光源和软件输出应按设备规范管理；涉及产地、天然/合成或处理意见时必须升级到专业实验室。
+    steps_en: |
+      **Shared teaching protocol**
+
+      Read every optical test in the same order: purpose → suitability → operation and record → interpretation → exception handling → risk/lab referral. Optical reactions depend on direction, cut, light, transparency, and instrument; preserve that context.
+
+      | Test | Primary output | Typical limits |
+      |---|---|---|
+      | Polariscope | Optical character, extinction, and abnormal reaction | Direction, aggregates, polycrystalline structure, transparency |
+      | Dichroscope | Colour change, direction, and strength | Light source, cut, and viewing direction |
+      | UV fluorescence | LW/SW, colour, and intensity | Lamp, distance, background, and sample overlap |
+      | Spectroscopy | Absorption pattern, instrument, and reading quality | Calibration, optical path, direction, and interpretation |
+
+      ### 1. Polariscope: establish optical behavior before recording it
+
+      **Purpose:** Observe polarized-light reactions as clues for grouping candidates.
+
+      **Suitability:** Place the specimen according to instrument instructions and confirm that shape, transparency, and internal structure suit observation. Mark aggregates, polycrystalline structures, and possible strain because they can create complex reactions.
+
+      **Operation and record:** Record viewing direction, light/dark changes while rotating, whole or partial extinction, abnormal reactions, and instrument settings. Do not reduce the record to “birefringent”.
+
+      **Interpretation:** Interpret birefringence, extinction, and abnormal reactions with cut, direction, transparency, and other properties. A higher value does not automatically make identification easier and cannot name a specimen alone.
+
+      **Exception handling:** If the reaction is unstable, the internal structure is complex, or instrument and sample effects cannot be separated, record the uncertainty and use another evidence source.
+
+      **Risk/referral:** Do not press or alter a specimen to obtain a reaction. Preserve conflicting results and refer formal-identification cases.
+
+      ### 2. Dichroscope: record direction and colour changes
+
+      **Purpose:** Observe pleochroism and directionality as supporting screening clues.
+
+      **Suitability:** Use a stable light source and more than one viewing direction. Note whether the specimen is faceted, cabochon, transparent, or translucent because cut and light paths affect observations.
+
+      **Operation and record:** Record colours, strength, direction, and light source separately from the candidate name.
+
+      **Interpretation:** Pleochroism depends on crystal direction, cut, and light. No obvious change is an observation under current conditions, not a direct exclusion.
+
+      **Exception handling:** If the change is weak, the field is unstable, or the light source differs, mark observation quality as limited rather than replacing it with a subjective colour label.
+
+      **Risk/referral:** Avoid unnecessary manipulation of mounted or fragile specimens. Escalate formal disclosure to a qualified laboratory.
+
+      ### 3. UV fluorescence: record band and conditions
+
+      **Purpose:** Record reactions under different UV bands to guide the next screening step.
+
+      **Suitability:** Distinguish LW/SW conditions and record lamp, viewing distance, background, and sample state; confirm that the device meets its safety requirements.
+
+      **Operation and record:** Record reaction colour, intensity, uniformity, and conditions. Distinguish “not observed” from “not stably observable with this setup”.
+
+      **Interpretation:** Fluorescence can guide the next test, but natural, synthetic, and treated samples can overlap; it cannot alone establish identity, treatment, or origin.
+
+      **Exception handling:** If ambient light, sample position, lamp condition, or repeatability is poor, mark the result quality and do not fill the gap from memory.
+
+      **Risk/referral:** Follow UV eye and skin protection requirements and never stare at the source. Refer high-value, abnormal, or formal-disclosure cases.
+
+      ### 4. Spectroscopy: treat absorption bands as pattern evidence
+
+      **Purpose:** Record absorption patterns as supporting evidence about structure, colour causes, and growth/treatment clues.
+
+      **Suitability:** Record light source, instrument, calibration/check state, orientation, and optical path; thickness, transparency, and surface state affect reading quality.
+
+      **Operation and record:** Record visible bands, overall pattern, reading quality, and repeats. If no stable spectrum is obtained, record that result instead of reconstructing it from memory.
+
+      **Interpretation:** Cross-check patterns with RI, SG, inclusions, treatment clues, and sample limits. A spectrum is not an independent origin fingerprint, and one band cannot establish natural or synthetic identity.
+
+      **Exception handling:** Preserve baseline drift, noise, unstable optical paths, and direction conflicts as unresolved evidence rather than selecting the expected plot.
+
+      **Risk/referral:** Manage calibration, light source, and software output according to equipment requirements. Origin, natural/synthetic, and treatment opinions require a qualified laboratory.
     principles_zh: |
-      - 双折射：光在非均质宝石中分裂，值越高（如锆石 0.059）越易识别。
-      - 多色性：二色镜观察，堇青石三色性强、红宝石紫红/橙红。
-      - 紫外荧光：LW/SW 紫外灯下反应，帮助区分天然 vs 合成、产地线索。
-      - 光谱 (spectroscope)：吸收谱带是"指纹"，鉴定变色宝石与产地。
+      - 双折射与偏光反应需要结合各向异性、观察方向、切磨和透明度解释；不能按数值高低直接判断难易。
+      - 多色性必须注明光源、观察方向和颜色变化强度；二色镜结果只是候选支持或排除线索。
+      - 紫外荧光可用于筛分和选择下一步测试，但天然、合成和处理样品可能出现重叠反应。
+      - 光谱中的吸收带是需要校准、记录并交叉验证的模式证据，不是独立的产地指纹。
     principles_en: |
-      - Birefringence: light splits in anisotropic gems; zircon 0.059 is distinctive.
-      - Pleochroism: dichroscope shows colour variation; iolite strongly trichroic.
-      - UV fluorescence: LW/SW lamp reaction helps separate natural vs synthetic.
-      - Spectroscope: absorption bands are a fingerprint for species and origin.
+      - Interpret birefringence and polariscope reactions with anisotropy, direction, cut, and transparency; do not equate higher values with easier identification.
+      - Pleochroism requires a stated light source, viewing direction, and colour-change strength; dichroscope results are candidate clues.
+      - UV screening can guide the next test, but natural, synthetic, and treated samples can show overlapping reactions.
+      - Spectral absorption is calibrated, recorded, cross-checked pattern evidence, not an independent fingerprint of origin.
     examples:
-      - { gem: "zircon", value: "DR 0.059", note_en: "double image visible" }
-      - { gem: "iolite", value: "strong trichroism", note_en: "blue/violet/yellow" }
+      - { gem: "zircon", gem_zh: "锆石", value: "DR 0.059", value_zh: "双折射示例：DR 0.059", note_zh: "仅作光学现象示例，需结合方向与其他证据", note_en: "Optical example; combine with direction and other evidence" }
+      - { gem: "iolite", gem_zh: "堇青石", value: "strong pleochroism", value_zh: "强多色性", note_zh: "需记录光源与观察方向", note_en: "Record the light source and viewing direction" }
 
   - id: synthetic-and-imitation
     name_zh: 合成品与仿品鉴别
     name_en: Synthetics & Imitations
     summary_zh: |
-      合成宝石（同化学成分，如焰熔法红宝石、水热法祖母绿、CVD 钻石）与
-      仿品（不同成分，如玻璃、立方氧化锆、仿祖母绿双层石）需要不同的
-      鉴别路径。
+      判断材料时至少要分别记录四个维度：天然或人工生长、是否经过处理、是否为不同材料仿品，
+      以及是否存在双层石/三层石等复合结构。合成宝石、仿品、处理品和复合材料的证据路径不同，
+      典型线索都只能支持候选，不能替代实验室披露。
     summary_en: |
-      Synthetics (same chemistry — flux ruby, hydrothermal emerald, CVD
-      diamond) and imitations (different chemistry — glass, cubic zirconia,
-      doublets) demand different identification routes.
+      Record at least four separate dimensions: natural or laboratory-grown, treated or not,
+      a different-material imitation, and any doublet/triplet or composite structure.
+      Synthetics, imitations, treated materials, and composites require different evidence paths;
+      typical clues support candidates but do not replace laboratory disclosure.
+    boundary_zh: |
+      本页不把“天然”与“未处理”当成同义词，也不把所有非天然材料都称为“假货”。生长纹、气泡、荧光、光谱和密度等线索可能缺失、重叠或受处理影响；涉及正式披露时，应使用“支持/无法排除”表述并送专业实验室。
+    boundary_en: |
+      This page does not treat “natural” and “untreated” as synonyms, nor label every non-natural material as “fake”. Growth features, bubbles, fluorescence, spectra, and density clues may be absent, overlapping, or treatment-dependent. Use “supports/cannot exclude” language and refer formal disclosure to a qualified lab.
+    steps_zh: |
+      **四维披露协议**
+
+      | 维度 | 要回答的问题 | 记录输出 |
+      |---|---|---|
+      | 材料身份 | 它是什么材料或矿物？ | 候选名称、支持/冲突证据、未完成项目 |
+      | 生长来源 | 是天然形成还是人工生长？ | 生长线索、观察条件、无法确认项 |
+      | 处理状态 | 是否可能加热、充填、染色、辐照等？ | 处理线索、未核验项、披露风险 |
+      | 结构披露 | 是否为仿品或双层/三层/复合材料？ | 接合面、不同材料线索、可接触范围 |
+
+      四个维度必须分开写。比如“材料是祖母绿”不等于“天然祖母绿”，“实验室培育”也不等于“未处理”；“仿品”说明材料关系，不等于对样品价值或品质的判断。
+
+      **证据分层矩阵**
+
+      | 证据层 | 可以支持什么 | 不能独立证明什么 | 记录要求 |
+      |---|---|---|---|
+      | 外观/照片 | 形成候选、发现明显结构异常 | 天然、合成、处理、产地 | 光线、背景、是否镶嵌 |
+      | 显微观察 | 记录包裹体、生长或接合面线索 | 没看见就排除某类材料 | 倍率、光源、方向、照片编号 |
+      | RI/SG/光学反应 | 缩小材料候选范围 | 单独完成天然/合成披露 | 仪器、读数质量、重复结果 |
+      | 光谱/高级仪器 | 提示结构、生长或处理线索 | 脱离校准和实验室流程，不能独立作出最终结论 | 仪器、校准、光路、原始文件 |
+      | 实验室报告 | 形成正式身份与披露意见 | 把报告范围外的结论继续外推 | 报告编号、范围和限制 |
+
+      **线索的正确用法**
+
+      曲线生长纹、气泡、铂片样包裹体、流动纹、异常色散、紫外分带和光谱模式都只能写成“可能支持线索”，并注明显微倍率、光源、方向、仪器和重复情况。没有观察到某个特征，只能说明本次条件下未观察到，不能反向证明天然或排除合成。
+
+      **场景矩阵：先问问题，再选证据**
+
+      | 场景 | 首要问题 | 教育性下一步 | 升级信号 |
+      |---|---|---|---|
+      | CVD/HPHT 钻石 | 材料是否为钻石，生长来源能否披露？ | 记录外观/显微线索，核对仪器适用性 | 天然/实验室培育或正式披露需求 |
+      | 合成刚玉 | 是否为刚玉，是否存在人工生长线索？ | 结合 RI、光性、显微和光谱候选 | 线索重叠、处理状态不明 |
+      | 水热祖母绿 | 材料身份与生长方式是否能分开确认？ | 记录包裹体、光学和设备条件 | 需要天然/合成或处理披露 |
+      | 玻璃 / 立方氧化锆 | 是否为不同材料仿品？ | 先记录结构和适用的物性线索 | 样品镶嵌、复合或结果冲突 |
+      | 双层石 / 三层石 | 是否存在接合面和多种材料？ | 只做低风险观察并标出不可见区域 | 任何正式结构和交易披露 |
+
+      **推荐工作流**
+
+      1. 明确任务：是学习筛分、材料候选，还是正式交易/披露。
+      2. 记录样品：照片、镶嵌状态、尺寸、可接触面、已有损伤和疑似复合结构。
+      3. 先做低风险观察，再选择适用的物性、光学或仪器证据；不为了验证假设强行增加有损测试。
+      4. 对每条线索写“支持候选 / 与候选一致 / 无法排除 / 结果不可靠”，并保留条件和原始记录。
+      5. 四个披露维度分别给出结论；一个维度缺证据时写“待核验”，不补写成确定答案。
+      6. 一旦出现结果冲突、样品不可接触、高价值或正式披露需求，停止继续推断并送专业实验室。
+
+      **停止条件**
+
+      不把“看起来像”“没有看到异常”“某个数值接近”写成天然或合成结论。对 CVD/HPHT、合成刚玉、水热祖母绿、玻璃、立方氧化锆和复合结构，不存在一组固定测试对所有样品都充分。
+    steps_en: |
+      **Four-dimensional disclosure protocol**
+
+      | Dimension | Question | Recorded output |
+      |---|---|---|
+      | Material identity | What material or mineral is it? | Candidate, supporting/conflicting evidence, unresolved items |
+      | Growth origin | Natural formation or laboratory growth? | Growth clues, observation conditions, unresolved items |
+      | Treatment status | Could it be heated, filled, dyed, irradiated, or otherwise treated? | Treatment clues, unverified items, disclosure risk |
+      | Structure disclosure | Is it an imitation, doublet, triplet, or composite? | Junctions, material clues, and accessible areas |
+
+      Keep the four dimensions separate. “Emerald” does not mean “natural emerald”; “laboratory-grown” does not mean “untreated”; and “imitation” describes a material relationship, not quality or value.
+
+      **Evidence-layer matrix**
+
+      | Evidence layer | Can support | Cannot establish alone | Record |
+      |---|---|---|---|
+      | Appearance/photos | Candidate formation and visible anomalies | Natural, synthetic, treatment, or origin | Light, background, mounting |
+      | Microscopy | Inclusion, growth, or junction clues | Absence does not exclude a category | Magnification, light, direction, image ID |
+      | RI/SG/optical reactions | Narrowing a material candidate | Natural/synthetic disclosure alone | Instrument, quality, repeats |
+      | Spectroscopy/advanced instruments | Structural, growth, or treatment clues | Final conclusions without calibration/workflow | Instrument, calibration, optical path, raw file |
+      | Laboratory report | Formal identity and disclosure opinion | Claims outside the report scope | Report ID, scope, limitations |
+
+      **How to use clues correctly**
+
+      Curved growth lines, bubbles, platinum-like inclusions, flow lines, unusual dispersion, UV zoning, and spectral patterns are possible supporting clues. Record magnification, light, direction, instrument, and repeats. Not seeing a feature means it was not observed under this setup; it does not prove natural origin or exclude synthesis.
+
+      **Scenario matrix: ask the question before selecting evidence**
+
+      | Scenario | Primary question | Educational next step | Escalation signal |
+      |---|---|---|---|
+      | CVD/HPHT diamond | Is the material diamond, and can growth origin be disclosed? | Record visual/microscopy clues and check instrument suitability | Natural/laboratory-grown or formal disclosure needed |
+      | Synthetic corundum | Is it corundum, and are there laboratory-growth clues? | Cross-check RI, optical behavior, microscopy, and spectra | Overlapping clues or unclear treatment |
+      | Hydrothermal emerald | Can material identity and growth method be separated? | Record inclusions, optics, and equipment conditions | Natural/synthetic or treatment disclosure needed |
+      | Glass / cubic zirconia | Is it an imitation made from a different material? | Record structure and suitable physical clues | Mounted, composite, or conflicting results |
+      | Doublet / triplet | Is there a junction between different materials? | Use low-risk observation and mark inaccessible areas | Any formal structure or transaction disclosure |
+
+      **Recommended workflow**
+
+      1. Define the task: educational screening, material candidate, or formal transaction/disclosure.
+      2. Record the specimen: photos, mounting, size, accessible surfaces, existing damage, and suspected composite structure.
+      3. Start with low-risk observation, then choose suitable physical, optical, or instrument evidence; do not add destructive tests just to confirm a hypothesis.
+      4. Label each clue as “supports candidate”, “consistent with candidate”, “cannot exclude”, or “unreliable”, preserving conditions and raw records.
+      5. Conclude separately across the four disclosure dimensions; write “pending verification” when evidence is missing.
+      6. Stop and refer to a qualified laboratory when results conflict, the specimen is inaccessible, value is high, or formal disclosure is required.
+
+      **Stop conditions**
+
+      Do not turn “looks like”, “no anomaly observed”, or “one value is close” into a natural/synthetic conclusion. No fixed test set is sufficient for every CVD/HPHT, synthetic corundum, hydrothermal emerald, glass, cubic zirconia, or composite specimen.
     principles_zh: |
-      - 合成红/蓝宝石：焰熔法曲线生长纹、气泡；水热法含铂片/不规则包裹体。
-      - CVD/HPHT 钻石：与天然钻石同为碳，需紫外荧光分带 + 光谱仪判断。
-      - 立方氧化锆 (CZ)：SG 5.65、异常色散、棱角锋利——与钻石区别明显。
-      - 玻璃仿品：气泡、旋涡纹、流动纹；折射率常在 1.5–1.7 区间。
+      - 天然、处理、合成、仿品和复合材料是不同披露维度，不能压缩成一个“真/假”标签。
+      - 生长纹、气泡、铂片、流动纹、异常色散、紫外分带和光谱模式都是可能线索，不是每颗样品的必备特征。
+      - CVD/HPHT、合成刚玉和水热祖母绿需要根据样品与设备选择交叉检测，不存在固定两项测试即可充分判断的通用规则。
+      - 典型 SG、RI 或外观差异应标注条件与来源；单值、棱角或“玻璃感”不能独立完成排除。
     principles_en: |
-      - Synthetic ruby/sapphire: flux curved striae and bubbles; hydrothermal has platinum flakes.
-      - CVD/HPHT diamond: chemically identical to natural — needs UV banding + spectroscopy.
-      - Cubic zirconia: SG 5.65, excessive dispersion, sharp facet edges — clearly not diamond.
-      - Glass imitations: bubbles, swirls, flow lines; RI usually 1.5–1.7.
+      - Natural, treated, synthetic, imitation, and composite are separate disclosure dimensions, not one true/false label.
+      - Growth lines, bubbles, platinum-like inclusions, flow lines, unusual dispersion, UV zoning, and spectra are possible clues, not mandatory features.
+      - CVD/HPHT, synthetic corundum, and hydrothermal emerald require cross-testing chosen for the sample and equipment; no universal two-test shortcut is sufficient.
+      - Typical SG, RI, or visual differences need conditions and sources; one value, facet edge, or “glassy” appearance cannot independently exclude a candidate.
     examples:
-      - { gem: "diamond", value: "CZ (cubic zirconia)", note_en: "SG 5.65 vs 3.52" }
-      - { gem: "emerald", value: "hydrothermal", note_en: "needs lab verification" }
+      - { gem: "diamond", gem_zh: "钻石", value: "cubic zirconia (CZ)", value_zh: "立方氧化锆（CZ）", note_zh: "不同材料仿品候选，需结合测试与正式披露", note_en: "Different-material imitation candidate; combine testing with formal disclosure" }
+      - { gem: "emerald", gem_zh: "祖母绿", value: "hydrothermal synthetic", value_zh: "水热合成", note_zh: "生长来源需要实验室核验", note_en: "Growth origin needs laboratory verification" }
 
   - id: same-color-gems
     name_zh: 同色宝石判别
     name_en: Same-Colour Gems
     summary_zh: |
       同一种颜色可能对应多种宝石——红色可能是红宝石、尖晶石、石榴石或玻璃。
-      结合 RI / SG / 多色性 / 包裹体，可把同色宝石逐一排除。以下流程图
-      覆盖红色、蓝色、绿色三大最易混淆家族。
+      结合 RI / SG / 多色性 / 包裹体，可以逐步缩小候选范围，但重叠与无法排除是正常结果。
+      当前提供红、蓝、绿三个最小教育性分流案例；它们用于训练“候选—证据—下一步”，不是覆盖所有材料的完整决策树。
     summary_en: |
       One colour can hide many species — red may be ruby, spinel, garnet,
-      or glass. Combining RI / SG / pleochroism / inclusions eliminates
-      candidates one by one. The trees below cover the three most confusing
-      families: red, blue, and green.
+      or glass. Combining RI / SG / pleochroism / inclusions narrows the
+      candidate set, but overlap and unresolved results are normal. The red
+      case is expanded alongside minimal blue and green educational branches;
+      none is a complete decision tree for every material.
+    boundary_zh: |
+      同色案例用于练习“候选—证据—下一步”的思路，不是按颜色和单个 RI 读数自动命名。红、蓝、绿分支都是最小教育性案例，不能覆盖所有材料、处理和仪器条件。无法排除或结果冲突时应停止过度推断并送检。
+    boundary_en: |
+      Same-colour cases practise the candidate–evidence–next-step loop; they do not name a stone from colour or one RI reading. The red, blue, and green branches are minimal educational cases, not coverage of every material, treatment, or instrument condition. When candidates cannot be excluded or results conflict, stop over-interpreting and refer the sample.
     steps_zh: |
-      **1. 用折射仪测量折射率（RI）**
+      **统一阅读协议**
 
-      | RI 读数 | 可能家族 | 下一步 |
+      每个颜色案例都按同一顺序处理：先固定观察条件 → 形成候选集 → 选择适用的低风险证据 → 记录支持/冲突/无法排除 → 决定是否升级。颜色只负责提出问题，不能直接给出名称。
+
+      ## 一、蓝色候选分流
+
+      **1. 固定颜色与观察条件**
+
+      在记录“蓝色”前注明光源、背景、是否镶嵌、透明度和切磨。坦桑石的蓝紫外观会随晶体方向、切磨取向和光源变化；堇青石也可能因方向显示蓝紫、灰蓝或近无色/黄色线索。因此，先记录“在什么条件下看到什么颜色”，不要只记录一个色名。
+
+      **2. 用 RI 形成候选集**
+
+      | 典型参考 | 候选方向 | 下一步 |
       |---|---|---|
-      | 1.76 | 刚玉（红宝石/蓝宝石）| 第 2 步 |
-      | 1.71–1.72 | 尖晶石候选 | 需结合 SG、包裹体与光谱复核 |
-      | 1.74–1.89 | 石榴石候选 | 需结合 SG、包裹体与光谱复核 |
-      | 1.5–1.7，玻璃感 | 疑似玻璃 | 第 3 步 |
+      | 1.762–1.770 | 刚玉族蓝宝石候选 | 记录双折射、多色性、样品状态和处理线索 |
+      | 1.691–1.700 | 坦桑石候选 | 结合方向性多色性、切磨和热处理背景复核 |
+      | 约 1.54–1.55 | 堇青石候选 | 用二色镜记录方向颜色，不与蓝宝石名称绑定 |
+      | 读数不稳定/无法接触 | 暂不分流 | 记录“不适用/不可靠”，不要用外观补结论 |
 
-      **2. 对刚玉检测紫外荧光（LW 紫外灯）**
+      上表是典型参考范围，不是硬阈值。样品状态、接触质量、方向和仪器条件可能使读数缺失或偏离；同一颜色下仍可能存在重叠候选。
 
-      | 荧光 | 结论 |
+      **3. 用多色性提出下一步问题**
+
+      | 观察 | 能支持什么 | 不能证明什么 |
+      |---|---|---|
+      | 颜色随方向明显变化 | 支持具有方向性光学反应的候选 | 不能单独证明是坦桑石或堇青石 |
+      | 颜色变化弱或未观察到 | 当前条件下的观察记录 | 不能直接排除蓝宝石、坦桑石或堇青石 |
+      | 光源改变后颜色变化明显 | 提醒记录光源与颜色条件 | 不能直接推出处理或产地 |
+
+      **4. 蓝色分支的升级条件**
+
+      出现 RI 与多色性冲突、样品镶嵌/弧面导致方向不可控、需要判断热处理或需要正式产地/天然披露时，停止继续凭颜色推断，保留原始观察并送专业实验室。
+
+      ## 二、绿色候选分流
+
+      **1. 先区分颜色观察和材料判断**
+
+      绿色可能来自祖母绿、沙弗莱石、橄榄石、绿色碧玺、翡翠或仿品。色调、透明度和“油润/玻璃感”只能用来建立候选集，不能作为排除依据。
+
+      **2. 用 RI/SG 形成候选集**
+
+      | 典型参考 | 候选方向 | 下一步 |
+      |---|---|---|
+      | RI 1.577–1.583；SG 约 2.72 | 祖母绿候选 | 结合包裹体、处理线索和生长来源问题 |
+      | RI 1.739–1.744；SG 约 3.61 | 沙弗莱石候选 | 与其他绿色石榴石和颜色重叠保持区分 |
+      | RI 约 1.65–1.69；双折射明显 | 橄榄石候选 | 结合 SG、双折射、颜色和包裹体复核 |
+      | 读数不稳定/样品不可接触 | 暂不分流 | 标记限制，不能用绿色外观填补证据 |
+
+      这些数值是典型参考，不是自动命名规则。绿色石榴石之间可能出现颜色重叠，橄榄石的 RI/SG 也可能随颜色与包裹体变化；任何偏离都要保留条件，而不是强行选择最接近的名称。
+
+      **3. 把处理与生长来源分开**
+
+      祖母绿的“材料身份”与“是否注油/充填”是两个问题；绿色石榴石或橄榄石的“颜色相似”也不能推出同一矿物。处理、天然/合成、产地和价值必须分别记录，不能用一个 RI 或一个外观词替代。
+
+      **4. 绿色分支的升级条件**
+
+      若需要确认注油/充填、天然与合成、翡翠与其他绿色材料的身份、复合结构或正式交易披露，应停止教育性分流并送检。若 RI、SG、光学反应和显微线索互相冲突，也应把冲突作为结果记录。
+
+      ## 三、统一结果记录模板
+
+      | 字段 | 示例 |
       |---|---|
-      | 强红 | 支持红宝石候选，仍需复核 |
-      | 弱或无 | 不能单独排除红宝石，需进一步检测 |
+      | 任务边界 | 学习筛分 / 购买前复核 / 正式披露 |
+      | 样品限制 | 镶嵌、弧面、尺寸、裂隙、可接触面 |
+      | 候选集 | 蓝宝石、坦桑石；或祖母绿、沙弗莱石、橄榄石 |
+      | 证据状态 | 支持候选 / 与候选一致 / 无法排除 / 不可靠 |
+      | 下一步 | 补充适用证据 / 保留冲突 / 送专业实验室 |
 
-      **3. 对疑似玻璃观察气泡 / 旋涡纹**
+      **案例边界**
 
-      | 观察 | 结论 |
-      |---|---|
-      | 有气泡或流动纹 | 支持玻璃仿品候选 |
-      | 无 | 不能排除仿品，复查读数并补充检测 |
+      红、蓝、绿三条路径都只是最小教育性案例。镶嵌、弧面、表面裂隙、透明度低、无法接触或高价值样品不应强行套用；任何“支持候选”的结果都必须保留测试条件，结果冲突时优先记录冲突，而不是选择最符合直觉的名称。
     steps_en: |
-      **1. Measure the refractive index (RI)** with a refractometer.
+      **Shared reading protocol**
 
-      | RI reading | Likely family | Next |
+      Use the same order for every colour case: fix observation conditions → form candidates → choose suitable low-risk evidence → record support/conflict/unresolved status → decide whether to escalate. Colour raises a question; it does not provide a name.
+
+      ## 1. Blue candidate branch
+
+      **1. Fix colour and observation conditions**
+
+      Record light source, background, mounting, transparency, and cut before recording “blue”. Tanzanite appearance changes with crystal direction, cut orientation, and light; iolite can also show blue-violet, grey-blue, or near-colourless/yellow clues by direction. Record what was seen and under which conditions instead of one colour label.
+
+      **2. Form candidates with RI**
+
+      | Typical reference | Candidate direction | Next |
       |---|---|---|
-      | 1.76 | Corundum (ruby / sapphire) | Step 2 |
-      | 1.71–1.72 | Possible spinel | Cross-check SG, inclusions, and spectroscopy |
-      | 1.74–1.89 | Possible garnet | Cross-check SG, inclusions, and spectroscopy |
-      | 1.5–1.7, glassy | Possible glass | Step 3 |
+      | 1.762–1.770 | Corundum / sapphire candidate | Record birefringence, pleochroism, sample state, and treatment clues |
+      | 1.691–1.700 | Tanzanite candidate | Cross-check directional pleochroism, cut, and treatment context |
+      | About 1.54–1.55 | Iolite candidate | Record directional colours with a dichroscope; do not bind it to sapphire |
+      | Unstable or inaccessible | Do not branch yet | Record unsuitable/unreliable rather than filling the gap from appearance |
 
-      **2. For corundum, check UV fluorescence** under a LW lamp.
+      These are typical reference ranges, not hard thresholds. Sample state, contact, direction, and instrument conditions can make readings unavailable or different; colour candidates can still overlap.
 
-      | Fluorescence | Conclusion |
+      **3. Use pleochroism to ask the next question**
+
+      | Observation | Can support | Cannot establish |
+      |---|---|---|
+      | Clear directional colour change | A candidate with directional optical behavior | Tanzanite or iolite identity alone |
+      | Weak or unobserved change | An observation under the current setup | Exclusion of sapphire, tanzanite, or iolite |
+      | Change after lighting changes | Need to record lighting and colour conditions | Treatment or origin by itself |
+
+      **4. Blue escalation conditions**
+
+      Stop colour-based inference when RI and pleochroism conflict, mounting/cut makes direction uncontrolled, or heat-treatment, origin, natural/synthetic, or formal disclosure is required. Preserve raw observations and refer to a qualified laboratory.
+
+      ## 2. Green candidate branch
+
+      **1. Separate colour observation from material identity**
+
+      Green may correspond to emerald, tsavorite, peridot, green tourmaline, jadeite, or an imitation. Hue, transparency, and “oily/glassy” appearance form candidates only; they do not exclude materials.
+
+      **2. Form candidates with RI/SG**
+
+      | Typical reference | Candidate direction | Next |
+      |---|---|---|
+      | RI 1.577–1.583; SG about 2.72 | Emerald candidate | Cross-check inclusions, treatment clues, and growth-origin questions |
+      | RI 1.739–1.744; SG about 3.61 | Tsavorite candidate | Keep separate from other green garnets and colour overlap |
+      | RI about 1.65–1.69; marked birefringence | Peridot candidate | Cross-check SG, birefringence, colour, and inclusions |
+      | Unstable or inaccessible | Do not branch yet | Record limits; do not use green appearance as evidence |
+
+      These are typical references, not automatic naming rules. Green garnets can overlap in colour, and peridot RI/SG can vary with colour and inclusions; preserve conditions instead of choosing the nearest name.
+
+      **3. Keep treatment and growth origin separate**
+
+      Emerald material identity and oil/filling status are different questions; colour similarity between green garnet and peridot does not make them the same mineral. Treatment, natural/synthetic status, origin, and value must be recorded separately.
+
+      **4. Green escalation conditions**
+
+      Stop educational branching when oil/filling, natural versus synthetic, jadeite versus another green material, composite structure, or formal transaction disclosure must be established. Also refer conflicting RI, SG, optical, and microscopy results rather than hiding the conflict.
+
+      ## 3. Shared result template
+
+      | Field | Example |
       |---|---|
-      | Strong red | Supports a ruby candidate; cross-check |
-      | Weak or none | Does not exclude ruby; test further |
+      | Task boundary | Educational screening / pre-purchase review / formal disclosure |
+      | Sample limits | Mounted, cabochon, size, fissures, accessible surfaces |
+      | Candidate set | Sapphire, tanzanite; or emerald, tsavorite, peridot |
+      | Evidence status | Supports / consistent / cannot exclude / unreliable |
+      | Next step | Add suitable evidence / preserve conflict / laboratory referral |
 
-      **3. For a glassy stone, look for bubbles / swirls.**
+      **Case boundary**
 
-      | Observation | Conclusion |
-      |---|---|
-      | Bubbles or flow lines | Supports a glass imitation candidate |
-      | None | Does not exclude an imitation; re-check and add tests |
+      All red, blue, and green paths are minimal educational cases. Do not force them onto mounted, cabochon, fractured, opaque, inaccessible, or valuable specimens. Preserve conditions for every “supports a candidate” result; if results conflict, record the conflict instead of selecting the most intuitive name.
     principles_zh: |
-      - 红：红宝石 RI 1.76 + 强红荧光；尖晶石 1.71–1.72 无荧光；石榴石 1.74–1.89。
-      - 蓝：蓝宝石约 1.76，可能见二色性；坦桑石 1.69–1.70 强三色性；堇青石 1.54 三色性极强。
-      - 绿：祖母绿 1.57–1.58（浸油裂隙）；翠榴石 1.89 高色散；橄榄石 1.65–1.69（双影）。
+      - 红色案例：红宝石的 RI 与荧光结果只能共同支持候选；尖晶石、石榴石和玻璃的范围可能与其他材料重叠。
+      - 蓝色案例：蓝宝石、坦桑石和堇青石的 RI 与多色性可用于提出下一步问题，但仍不是完整鉴定决策树。
+      - 绿色案例：祖母绿、沙弗莱石和橄榄石的物性与光学线索可用于候选分流，但必须保留条件和重叠项。
       - 荧光只能作为筛分线索：天然红宝石常见 LW 红色反应，但强弱受产地、处理与样品影响；合成品也可能出现相近反应。
       - 任何单一观察都不能替代实验室鉴定；紫外灯、划痕和液体测试须按器材安全规范操作。
     principles_en: |
-      - Red: ruby RI 1.76 + strong red fluor.; spinel 1.71–1.72 none; garnet 1.74–1.89.
-      - Blue: sapphire 1.76 dichroic blue/green; tanzanite 1.69–1.70 strongly trichroic; iolite 1.54 trichroism extreme.
-      - Green: emerald 1.57–1.58 (oiled fissures); tsavorite 1.89 high dispersion; peridot 1.65–1.69 (doubling).
+      - Red case: ruby RI and fluorescence can support a candidate together; spinel, garnet, and glass ranges may overlap with other materials.
+      - Blue case: sapphire, tanzanite, and iolite RI/pleochroism clues can suggest the next question, but this is not a complete identification tree.
+      - Green case: emerald, tsavorite, and peridot properties and optical clues can branch candidates, while conditions and overlap must remain explicit.
       - Fluorescence is only a screening clue: natural ruby may show strong LW red, but intensity varies with origin, treatment, and sample; synthetics can overlap.
       - No single observation replaces laboratory identification; use UV, scratch, and liquid tests only with appropriate equipment and safety procedures.
     examples:
-      - { gem: "ruby", value: "RI 1.76 + red fluor.", note_en: "vs spinel 1.72" }
-      - { gem: "sapphire", value: "RI 1.76, no pleochroism", note_en: "vs tanzanite 1.69 trichroic" }
-      - { gem: "emerald", value: "RI 1.57 + oil fissures", note_en: "vs tsavorite 1.89" }
+      - { gem: "ruby", gem_zh: "红宝石", value: "RI 1.76 + red fluor.", value_zh: "RI 1.76 + 红色荧光", note_zh: "支持刚玉/红宝石候选，仍需交叉复核", note_en: "Supports a corundum/ruby candidate; cross-check required" }
+      - { gem: "sapphire", gem_zh: "蓝宝石", value: "RI about 1.76; directional pleochroism", value_zh: "RI 约 1.76；记录方向性多色性", note_zh: "与坦桑石、堇青石分流时需保留光源和方向", note_en: "Preserve light and direction when branching against tanzanite or iolite" }
+      - { gem: "tanzanite", gem_zh: "坦桑石", value: "RI 1.691–1.700; pleochroism", value_zh: "RI 1.691–1.700；多色性", note_zh: "典型参考，切磨和光源会影响外观", note_en: "Typical reference; cut and lighting affect appearance" }
+      - { gem: "iolite", gem_zh: "堇青石", value: "RI about 1.54–1.55; strong pleochroism", value_zh: "RI 约 1.54–1.55；强多色性", note_zh: "需按方向记录颜色变化，不能单独命名", note_en: "Record colour change by direction; not a standalone ID" }
+      - { gem: "emerald", gem_zh: "祖母绿", value: "RI 1.577–1.583; SG about 2.72", value_zh: "RI 1.577–1.583；SG 约 2.72", note_zh: "与处理、生长来源分开记录", note_en: "Record treatment and growth origin separately" }
+      - { gem: "tsavorite-garnet", gem_zh: "沙弗莱石榴石", value: "RI 1.739–1.744; SG about 3.61", value_zh: "RI 1.739–1.744；SG 约 3.61", note_zh: "绿色重叠候选，不能仅凭颜色命名", note_en: "Green overlap candidate; colour alone cannot name it" }
+      - { gem: "peridot", gem_zh: "橄榄石", value: "RI about 1.65–1.69; marked birefringence", value_zh: "RI 约 1.65–1.69；双折射明显", note_zh: "典型参考，需结合样品和包裹体条件", note_en: "Typical reference; combine with sample and inclusion context" }

@@ -3,6 +3,17 @@ import { BilingualName } from '../utils/i18n-helpers'
 
 /* ─── Shared taxonomies (data/shared/*.yaml) ─────────────────── */
 
+/** A source record rendered on generated knowledge pages. */
+export const ReferenceEntry = z.object({
+  title_zh: z.string().min(1),
+  title_en: z.string().min(1),
+  url: z.string().url(),
+  scope_zh: z.string().min(1),
+  scope_en: z.string().min(1),
+})
+export type ReferenceEntry = z.infer<typeof ReferenceEntry>
+export const ReferenceList = z.array(ReferenceEntry).min(1)
+
 export const CrystalSystemEntry = z.object({
   id: z.enum([
     'cubic', 'tetragonal', 'orthorhombic',
@@ -32,6 +43,7 @@ export const CrystalSystemEntry = z.object({
 })
 export const CrystalSystemsFile = z.object({
   systems: z.array(CrystalSystemEntry).length(7),
+  references: ReferenceList,
 })
 
 export const MohsEntry = z.object({
@@ -64,6 +76,7 @@ export const ColorCauseEntry = z.object({
 })
 export const ColorCausesFile = z.object({
   causes: z.array(ColorCauseEntry).min(1),
+  references: ReferenceList,
 })
 
 // Phase C: optical phenomena taxonomy
@@ -95,6 +108,7 @@ export const OpticalPhenomenonEntry = z.object({
 })
 export const OpticalPhenomenaFile = z.object({
   phenomena: z.array(OpticalPhenomenonEntry).min(1),
+  references: ReferenceList,
 })
 
 // Phase B: mineral group taxonomy (chemistry-based, Strunz)
@@ -116,6 +130,7 @@ export const MineralGroupEntry = z.object({
 })
 export const MineralGroupsFile = z.object({
   groups: z.array(MineralGroupEntry).min(1),
+  references: ReferenceList,
 })
 
 // Phase E–H: module topic taxonomy (grading / cutting / identification /
@@ -137,6 +152,9 @@ export const TopicEntry = z.object({
   summary_en: z.string().min(1),
   principles_zh: z.union([z.array(z.string()), z.string()]).optional(),
   principles_en: z.union([z.array(z.string()), z.string()]).optional(),
+  // Safety and evidence boundary shown before procedural detail.
+  boundary_zh: z.string().optional(),
+  boundary_en: z.string().optional(),
   examples: z.array(TopicExample).optional(),
   // Optional mermaid decision-tree / diagram (rendered as a fenced block)
   mermaid_zh: z.string().optional(),
@@ -149,13 +167,54 @@ export const TopicEntry = z.object({
 export const TopicFile = z.object({
   overview_zh: z.string().min(1),
   overview_en: z.string().min(1),
+  boundary_zh: z.string().optional(),
+  boundary_en: z.string().optional(),
   topics: z.array(TopicEntry).min(1),
 })
 
-// Back-compat aliases — generators and tests still reference these names.
-export const GradingTopicsFile = TopicFile
-export const CuttingTopicsFile = TopicFile
-export const IdentificationTopicsFile = TopicFile
+// Evidence records keep a short, reviewable link between a teaching claim and
+// the references rendered on the same page. The status is intentionally
+// explicit: a teaching summary is useful, but is not presented as a direct
+// quotation or a complete professional standard.
+export const CuttingEvidenceEntry = z.object({
+  id: z.string().min(1),
+  topic_id: z.string().min(1),
+  claim_zh: z.string().min(1),
+  claim_en: z.string().min(1),
+  status: z.enum(['source-supported', 'teaching-summary', 'pending-review']),
+  source_ids: z.array(z.string().min(1)).min(1),
+})
+export type CuttingEvidenceEntry = z.infer<typeof CuttingEvidenceEntry>
+export const CuttingReferenceEntry = ReferenceEntry.extend({
+  id: z.string().min(1),
+})
+export type CuttingReferenceEntry = z.infer<typeof CuttingReferenceEntry>
+export const CuttingTopicsFile = TopicFile.extend({
+  references: z.array(CuttingReferenceEntry).min(1),
+  evidence_ledger: z.array(CuttingEvidenceEntry).min(1),
+})
+
+// Grading uses the same topic shape as the other modules, but its sources and
+// claim ledger are required before the content can be published.
+export const GradingTopicsFile = TopicFile.extend({
+  references: z.array(CuttingReferenceEntry).min(1),
+  evidence_ledger: z.array(CuttingEvidenceEntry).min(1),
+})
+export const IdentificationEvidenceEntry = z.object({
+  id: z.string().min(1),
+  topic_id: z.string().min(1),
+  claim_zh: z.string().min(1),
+  claim_en: z.string().min(1),
+  status: z.enum(['source-supported', 'teaching-summary', 'pending-review']),
+  source_ids: z.array(z.string().min(1)).min(1),
+})
+export const IdentificationReferenceEntry = ReferenceEntry.extend({
+  id: z.string().min(1),
+})
+export const IdentificationTopicsFile = TopicFile.extend({
+  references: z.array(IdentificationReferenceEntry).min(1),
+  evidence_ledger: z.array(IdentificationEvidenceEntry).min(1),
+})
 export const GalleryTopicsFile = TopicFile
 
 /* ─── Maison gallery archive (data/shared/maison-works.yaml) ────── */
@@ -189,8 +248,8 @@ export const MaisonWorkEntry = z.object({
   archive_relation_en: z.string().optional(),
   image: z.string().regex(/^images\//),
   source_url: z.string().url(),
-  image_source_url: z.string().url().optional(),
-  image_credit: z.string().optional(),
+  image_source_url: z.string().url(),
+  image_credit: z.string().min(1),
   rights: z.enum(['cc-by-2.0', 'cc-by-sa-2.0', 'cc-by-3.0', 'cc-by-sa-3.0', 'cc-by-sa-4.0', 'cc0', 'public-domain']),
 })
 

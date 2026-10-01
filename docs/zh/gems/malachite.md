@@ -21,8 +21,10 @@ gem: malachite
     </dl>
     <a class="gem-detail__language" href="../../gems/malachite.html" hreflang="en">English: Malachite <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../../images/gems/malachite/malachite.jpg" alt="孔雀石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/malachite/malachite.jpg" alt="孔雀石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉参考 · 不等同于鉴定证据</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="zh" current-gem="malachite" current-gem-label="孔雀石" />
 
 ## 分类
 
@@ -31,6 +33,14 @@ gem: malachite
   <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
   <tbody><tr><th scope="row">矿物族</th><td>碳酸盐</td></tr><tr><th scope="row">化学式</th><td>Cu₂CO₃(OH)₂</td></tr><tr><th scope="row">晶系</th><td>单斜晶系</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="分类坐标">
+  <span>分类坐标</span>
+  <a href="/gematlas/zh/classification/intro">分类总览</a>
+  <a href="/gematlas/zh/classification/mineral-groups/intro">矿物分类组</a>
+  <a href="/gematlas/zh/classification/crystal-systems/monoclinic">单斜晶系</a>
+  <a href="/gematlas/zh/classification/optical-phenomena/intro">光学现象</a>
+  <a href="/gematlas/zh/classification/color-causes/intro">颜色成因</a>
+</nav>
 
 ## 物理性质
 

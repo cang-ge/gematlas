@@ -28,6 +28,7 @@ jobs:
       - run: pnpm validate:data
       - run: pnpm test
       - run: pnpm build
+      - run: pnpm check-links
 
       # Deploy to GitHub Pages on push to default branch only.
       # ponytail: match against github.event.repository.default_branch rather than

@@ -21,8 +21,10 @@ gem: ruby
     </dl>
     <a class="gem-detail__language" href="../zh/gems/ruby.html" hreflang="zh-CN">中文: 红宝石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/ruby/ruby.jpg" alt="Ruby" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/ruby/ruby.png" alt="Ruby" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="ruby" current-gem-label="Ruby" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: ruby
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Corundum</td></tr><tr><th scope="row">Formula</th><td>Al₂O₃</td></tr><tr><th scope="row">Crystal System</th><td>Trigonal</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/trigonal">Trigonal</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -51,7 +61,7 @@ gem: ruby
 <div class="gem-detail__treatment">
   <div class="gem-detail__treatment-row"><span>Common methods</span><strong>Heat treatment</strong></div>
   <div class="gem-detail__treatment-row"><span>Disclosure required</span><strong class="is-required">Yes</strong></div>
-  <p class="gem-detail__treatment-note"><span>Note</span>Most commercial rubies are heat-treated; untreated stones command significant premiums</p>
+  <p class="gem-detail__treatment-note"><span>Note</span>GIA notes that rubies with an independent lab report confirming no evidence of heat treatment command a premium due to rarity; an individual stone's value also depends on color, clarity, size, origin, and other treatments.</p>
 </div>
 
 ## Origin Records
@@ -65,8 +75,8 @@ gem: ruby
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/ruby/ruby-gallery-1.jpg" alt="Ruby" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/ruby/ruby-gallery-2.jpg" alt="Ruby" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/ruby/ruby-gallery-1.png" alt="Ruby" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/ruby/ruby-gallery-2.png" alt="Ruby" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

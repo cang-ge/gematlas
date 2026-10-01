@@ -1,19 +1,44 @@
 # Gem cutting taxonomy — how rough becomes a polished gem.
 #
 # Each entry is one cutting topic. Generator emits a bilingual subpage per
-# entry plus the overview. References: GIA Cutting & Faceting; AGTA Cutting
-# Guide; Schumann, *Gemstones of the World*; the gem-cutting literature on
-# proportion theory (Tolkowsky, 1919 round-brilliant proportions).
+# entry plus the overview. Claims below are mapped to the references and
+# evidence status at the end of this file.
 
 overview_zh: |
-  切割是把原石转化为宝石的工艺与科学。本模块讲解三类主切割路线——
-  刻面切割（faceting）、蛋面/雕刻（cabochon & carving），以及花式切工的
-  历史与参数。路线选择还要综合透明度、包裹体、耐久性、光学效应与原石形状。
+  切割是把原石转化为宝石的工艺与科学，可以从两个层面理解：一是成品形态，
+  如刻面、蛋面与雕刻；二是刻面内部的轮廓与切面风格，如圆明亮式、祖母绿式、
+  公主方、梨形和马眼形。路线选择还要综合透明度、包裹体、耐久性、光学效应与原石形状。
 overview_en: |
-  Cutting transforms rough into a gem. This module covers three main routes —
-  faceting, cabochon & carving, and the history and parameters of fancy cuts.
-  The choice also depends on transparency, inclusions, durability, phenomena,
-  and the shape of the rough.
+  Cutting transforms rough into a gem and can be understood on two levels: finished form,
+  such as faceted, cabochon, or carved; and, within faceting, outline and facet style,
+  such as round brilliant, emerald step, princess, pear, or marquise. Choice also depends
+  on transparency, inclusions, durability, phenomena, and the shape of the rough.
+
+references:
+  - id: cutting-styles
+    title_zh: 'GIA：宝石切工风格定义'
+    title_en: 'GIA: Gem Cutting Styles — Definitions'
+    url: 'https://www.gia.edu/gia-news-research-value-factors-gem-cutting-styles-definitions'
+    scope_zh: '轮廓、刻面排列、阶梯式、蛋面与雕刻等切工风格的定义'
+    scope_en: 'Definitions of outlines, facet arrangements, step cuts, cabochons, and carving styles'
+  - id: cutting-quality
+    title_zh: 'GIA：有色宝石价值要素与切工质量'
+    title_en: 'GIA: Colored Gemstone Value Factors and Cut Quality'
+    url: 'https://www.gia.edu/gia-news-research/value-factors-design-cut-quality-colored-gemstone-value-factors'
+    scope_zh: '比例、对称性、抛光、原石限制与视觉表现之间的切工取舍'
+    scope_en: 'Cut trade-offs among proportions, symmetry, polish, rough limitations, and appearance'
+  - id: diamond-cut
+    title_zh: 'GIA：钻石切工与明亮度'
+    title_en: 'GIA: Diamond Cut'
+    url: 'https://4cs.gia.edu/en-us/diamond-cut/'
+    scope_zh: '圆明亮式的台面、冠部、腰棱、亭部，以及 57/58 面计数说明'
+    scope_en: 'Round-brilliant table, crown, girdle, pavilion, and the 57/58-facet count'
+  - id: emerald-quality
+    title_zh: 'GIA：祖母绿质量要素'
+    title_en: 'GIA: Emerald Quality Factors'
+    url: 'https://www.gia.edu/emerald-quality-factor'
+    scope_zh: '有色宝石切割对颜色、耐久性、包裹体与裂隙的综合考量'
+    scope_en: 'How colored-stone cutting weighs color, durability, inclusions, and fractures'
 
 topics:
   - id: rough-planning
@@ -28,6 +53,15 @@ topics:
       rough: color zoning, fractures, inclusions, transparency, crystallographic direction,
       and possible optical phenomena. A plan balances weight retention, appearance, and
       durability, recording the table orientation, target outline, risks, and acceptable loss.
+    boundary_zh: |
+      本页用于理解原石规划的观察维度与设计取舍，不提供可直接执行的下料处方，
+      也不保证成品的安全性、耐久性、价值或商业等级。真实定向与加工应由受训
+      切割师根据原石、设备和现场风险判断。
+    boundary_en: |
+      This page explains observation dimensions and design trade-offs in rough planning;
+      it is not a cutting prescription and does not guarantee safety, durability, value,
+      or commercial grade. A trained cutter must make the final orientation and process
+      decision from the rough, equipment, and on-site risks.
     principles_zh: |
       - 先观察再下料：清洁、测量并在不同光线与方向下检查原石，标记裂隙、包体和色带。
       - 定向优先：有色带、猫眼、星光或变彩时，台面方向会直接影响颜色与现象的呈现。
@@ -40,6 +74,48 @@ topics:
       - Make trade-offs explicit: retaining weight does not guarantee value; chasing weight can sacrifice brightness, symmetry, or durability.
       - Reserve a safety margin: avoid or reinforce corners, thin girdles, deep fractures, and stress concentrations in the design stage.
       - The final plan should explain why the stone was cut that way, not only describe its finished outline.
+    steps_zh: |
+      > 教学案例（演示）：以下是一条记录方法，不是真实样品的加工指令。
+
+      ### 1. 输入观察
+
+      先记录重量、外形、透明度、体色分布、可见裂隙、包裹体、晶体方向和可能的光学效应；
+      对不确定的区域标记“待复核”，不直接把照片或肉眼印象写成结论。
+
+      ### 2. 形成两个候选方案
+
+      至少保留一个“保重优先”和一个“表现/耐久优先”的方案，分别写明预计轮廓、台面方向、
+      主要损耗、风险区域与放弃条件。这样能解释取舍，而不是只展示最终形状。
+
+      ### 3. 复核与记录
+
+      用同一光源、同一观察方向和同一记录模板比较候选方案；重新检查尖角、薄腰棱、裂隙延伸
+      与应力集中位置。若信息不足以判断，应保留候选，不强行进入加工。
+
+      ### 4. 停止条件
+
+      无法确认裂隙风险、光学效应方向或设备安全范围时，停止下料并交由受训切割师复核。
+    steps_en: |
+      > Teaching case (demonstration): this is a recording method, not a cutting instruction for a real specimen.
+
+      ### 1. Observe the input
+
+      Record weight, outline, transparency, zoning, visible fractures, inclusions, crystallographic direction,
+      and possible phenomena. Mark uncertain areas as “pending review” instead of turning a photo or impression into a conclusion.
+
+      ### 2. Keep two candidate plans
+
+      Keep at least a weight-first plan and an appearance/durability-first plan. Record target outline, table direction,
+      expected loss, risk zones, and rejection conditions for each so the trade-off is explainable.
+
+      ### 3. Review and record
+
+      Compare candidates under the same light, viewing direction, and record template. Re-check corners, thin girdles,
+      fracture extension, and stress concentration. If the evidence is insufficient, keep the candidates open and do not cut.
+
+      ### 4. Stop conditions
+
+      Stop and ask a trained cutter to review when fracture risk, phenomenon orientation, or equipment safety cannot be established.
     examples:
       - { gem: "opal", gem_zh: "欧泊", value: "orient the face toward the strongest play of color", value_zh: "台面朝向最强变彩区域", note_zh: "优先呈现变彩区域", note_en: "prioritise the strongest color patches" }
       - { gem: "star sapphire", gem_zh: "星光蓝宝石", value: "align the dome with the intersecting silk", value_zh: "让弧顶对准交叉的丝状包体", note_zh: "使星线集中于弧顶", note_en: "centre the star at the dome" }
@@ -48,28 +124,81 @@ topics:
     name_zh: 圆明亮式切工
     name_en: Round Brilliant Cut
     summary_zh: |
-      现代最经典的钻石切工，标准 57–58 刻面，诞生于 1919 年
-      Marcel Tolkowsky 的比例理论。台面、冠部、腰棱、亭部比例配合
-      最大化内部全反射与火彩。
+      圆明亮式是经典的刻面风格之一，最常见于钻石。1919 年 Marcel Tolkowsky
+      对相关比例体系的研究使其成为讨论台面、冠部、腰棱和亭部关系的经典参考。
+      对于适合该比例体系的透明材料，合理的部位关系有助于提升亮度、闪烁与火彩表现。
     summary_en: |
-      The classic diamond cut — standard 57–58 facets, formalised by
-      Marcel Tolkowsky's 1919 proportion theory. Table, crown, girdle,
-      and pavilion proportions maximise internal reflection and fire.
+      Round brilliant is a classic faceting style, most associated with diamond. Marcel
+      Tolkowsky's 1919 study of related proportions made it a reference for discussing
+      table, crown, girdle, and pavilion relationships. For transparent materials suited
+      to this proportion system, those relationships can improve brightness, scintillation,
+      and fire; they are not a universal prescription.
+    boundary_zh: |
+      本页的比例与面数用于建立术语和分析起点，不是对所有材料的固定加工处方；
+      实际方案还需结合折射率、原石形状、包裹体、耐久性、设备和切割师复核。
+    boundary_en: |
+      The proportions and facet counts here establish terminology and an analysis starting
+      point, not a fixed process recipe for every material. The actual plan requires review
+      against RI, rough shape, inclusions, durability, equipment, and cutter judgement.
     principles_zh: |
-      - 标准 57 面：台面 1 + 冠部 33 + 亭部 24（+ 可选 1 底尖 = 58）。
+      - 常见标准为不计底尖 57 面：台面 1 + 冠部其余 32 + 亭部 24；计入底尖后为 58 面。
       - 台面直径比约 53–58%；冠角 34–35°；亭角 40.75–41.2°。
       - 腰棱厚度适中——过薄易崩，过厚浪费重量。
       - 全反射率 (total internal reflection) 依赖比例精确；比例失调导致"漏光窗"。
       - 这些比例是分析起点而非所有宝石的固定处方；折射率、色散、形状和耐久性都会改变最佳方案。
     principles_en: |
-      - Standard 57 facets: 1 table + 33 crown + 24 pavilion (+ optional culet = 58).
+      - The common count is 57 facets without the culet: 1 table + 32 other crown facets + 24 pavilion facets; including the culet makes 58.
       - Table diameter ~53–58%; crown angle 34–35°; pavilion angle 40.75–41.2°.
       - Girdle must balance durability against weight retention.
       - Brilliance depends on precise proportions; errors create "windows" of light leakage.
       - These proportions are a starting point, not a prescription for every gem; RI, dispersion, shape, and durability change the target.
+    steps_zh: |
+      > 教学案例（演示）：以下用来说明比例如何进入分析，不代表某颗宝石的最终方案。
+
+      ### 1. 先确认材料边界
+
+      记录材料的折射率、透明度、原石形状和耐久性风险；如果材料不适合直接套用圆明亮式，
+      先退回到轮廓与耐久性的比较，不急于套用角度数字。
+
+      ### 2. 建立比例起点
+
+      用台面、冠部、腰棱和亭部关系建立第一版模型，再检查预期的亮度、闪烁和火彩表现。
+      57/58 面用于统一术语，不能单独证明成品质量。
+
+      ### 3. 做可观察验证
+
+      在统一光源、观察方向和背景下记录是否出现漏光、暗区、偏心或腰棱薄弱；把“观察到的现象”
+      与“可能原因”分开记录，避免把一次观察直接写成评级。
+
+      ### 4. 停止条件
+
+      当比例、材料折射率、包裹体或耐久性之间出现冲突时，停止给出单一最佳答案，转为记录候选
+      方案并交由切割师结合设备和原石复核。
+    steps_en: |
+      > Teaching case (demonstration): this shows how proportions enter analysis, not the final plan for a specific stone.
+
+      ### 1. Confirm the material boundary
+
+      Record RI, transparency, rough shape, and durability risks. If the material is not suited to a round-brilliant
+      starting point, return to outline and durability trade-offs instead of forcing angle values.
+
+      ### 2. Establish a proportion starting point
+
+      Use the table, crown, girdle, and pavilion relationships to make a first model, then inspect expected brilliance,
+      scintillation, and fire. The 57/58 count standardizes terminology; it does not prove finished quality.
+
+      ### 3. Verify observable outcomes
+
+      Under consistent light, viewing direction, and background, record leakage, dark zones, asymmetry, or weak girdle areas.
+      Keep observed effects separate from possible causes so one observation is not turned into a grade.
+
+      ### 4. Stop conditions
+
+      When proportions conflict with RI, inclusions, or durability, stop giving one “best” answer. Keep candidate plans
+      and ask a cutter to review them against the rough and equipment.
     examples:
-      - { gem: "diamond", value: "Round Brilliant, 57f", note_en: "auction standard" }
-      - { gem: "zircon", value: "Round Brilliant", note_en: "high dispersion" }
+      - { gem: "diamond", gem_zh: "钻石", value: "Round Brilliant, 57f", value_zh: "圆明亮式，57 面", note_zh: "示例条目", note_en: "Example entry" }
+      - { gem: "zircon", gem_zh: "锆石", value: "Round Brilliant", value_zh: "圆明亮式", note_zh: "高色散材料示例", note_en: "High-dispersion material example" }
 
   - id: fancy-cuts
     name_zh: 花式切工
@@ -79,22 +208,74 @@ topics:
       椭圆形、马眼形、心形、祖母绿阶梯切等。每种依原石形状、内含物
       位置与审美偏好而选。
     summary_en: |
-      Every non-round shape is a fancy cut — princess, emerald, pear,
-      oval, marquise, heart, and the emerald step cut among others.
-      Choice follows rough shape, inclusion placement, and aesthetic taste.
+      Many non-round outlines are commonly grouped as fancy cuts, depending on the
+      faceting pattern and trade usage. Examples include princess, emerald step, pear,
+      oval, marquise, and heart; choice follows rough shape, inclusion placement, and taste.
+    boundary_zh: |
+      本页用于比较轮廓与刻面风格的常见取舍；花式切工的名称、比例和市场评价会随
+      品种与语境变化，不能据此保证视觉效果、价格或成品等级。
+    boundary_en: |
+      This page compares common trade-offs in outline and faceting style. Fancy-cut names,
+      proportions, and market assessments vary by species and context; this page cannot
+      guarantee appearance, price, or finished grade.
     principles_zh: |
       - 公主方 (princess)：方形，保留圆明亮火彩，现代婚戒主流。
       - 祖母绿切 (emerald)：阶梯式刻面，突出净度——适合高净度大石。
       - 梨形/马眼/心形：异形轮廓，需冠亭比例对称避免"蝴蝶结效应"。
-      - 部分市场中，花式切工的单克拉价格可能低于同品质圆明亮式，但品种、比例与需求会改变结果。
+      - 切工质量、轮廓、比例、对称性和抛光会共同影响视觉表现与市场评价，具体价值还会随品种与市场变化。
     principles_en: |
       - Princess: square, retains round-brilliant fire; modern bridal staple.
       - Emerald: step facets, showcases clarity — suited to clean large stones.
       - Pear / marquise / heart: elongated silhouettes; need symmetric crown-pavilion to avoid bow-tie.
-      - In some markets, fancy cuts may price below comparable rounds per carat; species, proportions, and demand can reverse the result.
+      - Cut quality, outline, proportions, symmetry, and polish jointly affect appearance and market assessment; value still varies by species and market.
+    steps_zh: |
+      > 教学案例（演示）：异形轮廓的价值判断不能由轮廓名称单独推出。
+
+      ### 1. 明确目标
+
+      先写清楚目标是最大化原石利用、突出轮廓、降低尖角风险，还是改善视觉表现；目标不同，
+      对长宽比、尖角处理和损耗的容忍度就不同。
+
+      ### 2. 对照轮廓与刻面
+
+      以同一原石分别比较梨形、马眼形或祖母绿阶梯式等候选，记录长宽比、对称性、尖角、
+      阶梯/明亮刻面组织和可能的蝴蝶结暗区。轮廓只是入口，不能代替比例与抛光检查。
+
+      ### 3. 进行视觉复核
+
+      统一旋转样品和光源，观察明暗是否均匀、尖端是否过薄、左右是否失衡；把不同角度看到的
+      结果分别记录，避免用一个角度代表全部表现。
+
+      ### 4. 停止条件
+
+      如果蝴蝶结、尖角耐久性或对称性无法在当前资料下判断，就保留多个方案，不把“更好看”
+      写成确定结论，也不直接推导价格。
+    steps_en: |
+      > Teaching case (demonstration): a market judgement cannot be derived from an outline name alone.
+
+      ### 1. Define the goal
+
+      State whether the goal is rough utilisation, outline character, corner durability, or visual performance.
+      Different goals change tolerance for length-to-width ratio, corner treatment, and loss.
+
+      ### 2. Compare outline and faceting
+
+      Compare pear, marquise, or emerald-step candidates against the same rough. Record length-to-width ratio,
+      symmetry, corners, step/brilliant facet organisation, and possible bow-tie dark zones. Outline is only the entry point;
+      it does not replace proportion or polish review.
+
+      ### 3. Review the visual result
+
+      Rotate the stone under consistent light and record uniformity, overly thin tips, and left-right balance. Keep
+      observations from different angles separate instead of treating one view as the whole result.
+
+      ### 4. Stop conditions
+
+      If bow-tie behaviour, corner durability, or symmetry cannot be judged from the available evidence, keep multiple
+      candidates open. Do not write “looks better” as a certain conclusion or infer price directly.
     examples:
-      - { gem: "diamond", value: "Emerald step cut", note_en: "historic, elegant" }
-      - { gem: "diamond", value: "Princess", note_en: "most popular modern square" }
+      - { gem: "diamond", gem_zh: "钻石", value: "Emerald step cut", value_zh: "祖母绿阶梯切", note_zh: "历史与审美示例", note_en: "Historic, elegant" }
+      - { gem: "diamond", gem_zh: "钻石", value: "Princess", value_zh: "公主方切工", note_zh: "现代方形轮廓示例", note_en: "Modern square example" }
 
   - id: cabochon-and-carving
     name_zh: 蛋面与雕刻
@@ -108,8 +289,15 @@ topics:
       favors a dome, a stone may be polished en cabochon or carved. This is
       not an absolute ban on faceting. Cabochons can reveal asterism,
       chatoyancy, and adularescence; jade and agate are also often carved.
+    boundary_zh: |
+      本页用于理解蛋面、雕刻与光学效应之间的关系，不替代对弧面高度、曲率、包裹体
+      方向、裂隙和抛光状态的实物检查；特殊效应与耐久性应由专业人员复核。
+    boundary_en: |
+      This page explains relationships among cabochons, carving, and optical phenomena; it
+      does not replace specimen checks of dome height, curvature, inclusion orientation,
+      fractures, or polish. A specialist should review unusual phenomena and durability.
     principles_zh: |
-      - 单蛋面/双蛋面 (single/double cabochon)：决定星光与猫眼清晰度。
+      - 单蛋面/双蛋面 (single/double cabochon) 描述蛋面的底部形态；星光与猫眼的清晰度还取决于弧面高度、曲率、包裹体方向与抛光质量。
       - 星光效应需定向打磨——使金红石针平行台面。
       - 猫眼效应同理，针状包裹体需定向于弧面轴线。
       - 玉石雕刻（翡翠、软玉、绿松石）考验材料纹理与色彩层次运用。
@@ -120,7 +308,125 @@ topics:
       - Chatoyancy likewise: needle inclusions must align to the dome axis.
       - Jade carving (jadeite, nephrite, turquoise) exploits texture and colour zoning.
       - Dome height, curvature, and polish together affect the width, brightness, and evenness of the band.
+    steps_zh: |
+      > 教学案例（演示）：以下用于记录蛋面路线的观察逻辑，不替代实物定向和加工。
+
+      ### 1. 确认为什么选择弧面
+
+      说明是透明度、包裹体、耐久性还是星光/猫眼等现象推动了蛋面方案；如果只是因为“更容易切”，
+      不能直接当作充分理由。
+
+      ### 2. 找到现象方向
+
+      在不同方向和光线下记录针状包裹体或光带的方向、连续性与强弱，标出需要让弧顶对准的区域；
+      方向不确定时不做确定性承诺。
+
+      ### 3. 比较弧面方案
+
+      比较单蛋面/双蛋面、弧面高度、曲率连续性和底部稳定性，记录光带宽度、亮度、均匀性以及
+      可能的薄弱区域。结果需要在统一光源下复核。
+
+      ### 4. 停止条件
+
+      如果包裹体方向、裂隙、弧面连续性或抛光状态无法确认，停止将样品命名为“星光”或“猫眼”，
+      转为候选现象记录并寻求专业复核。
+    steps_en: |
+      > Teaching case (demonstration): this records the reasoning for a cabochon route; it does not replace physical orientation or cutting.
+
+      ### 1. Confirm why a dome is being chosen
+
+      State whether transparency, inclusions, durability, or asterism/chatoyancy drives the cabochon route. “It is easier to cut”
+      is not enough on its own.
+
+      ### 2. Find the phenomenon direction
+
+      Under different directions and lights, record the direction, continuity, and strength of needles or bands. Mark the area
+      the dome should align with; do not make a definitive promise when orientation is uncertain.
+
+      ### 3. Compare dome plans
+
+      Compare single/double cabochon, dome height, curvature continuity, and base stability. Record band width, brightness,
+      evenness, and weak areas, then review under consistent light.
+
+      ### 4. Stop conditions
+
+      If inclusion direction, fractures, dome continuity, or polish cannot be confirmed, stop naming the specimen “star” or
+      “cat's-eye”. Record it as a candidate phenomenon and seek specialist review.
     examples:
-      - { gem: "ruby", value: "Star cabochon", note_en: "6-ray asterism" }
-      - { gem: "tigers-eye", value: "Cat's-eye cabochon", note_en: "chatoyancy" }
-      - { gem: "jadeite", value: "Carved pendant", note_en: "imperial jade" }
+      - { gem: "ruby", gem_zh: "红宝石", value: "Star cabochon", value_zh: "星光蛋面", note_zh: "六射星光示例", note_en: "6-ray asterism" }
+      - { gem: "tigers-eye", gem_zh: "虎眼石", value: "Cat's-eye cabochon", value_zh: "猫眼蛋面", note_zh: "猫眼效应示例", note_en: "Chatoyancy" }
+      - { gem: "jadeite", gem_zh: "翡翠", value: "Carved pendant", value_zh: "雕刻挂坠", note_zh: "雕刻路线示例", note_en: "Carved pendant" }
+
+evidence_ledger:
+  - id: rough-planning-tradeoffs
+    topic_id: rough-planning
+    claim_zh: '原石规划需要在重量保留、视觉表现与耐久性之间做取舍。'
+    claim_en: 'Rough planning balances weight retention, appearance, and durability.'
+    status: source-supported
+    source_ids: [cutting-quality, emerald-quality]
+  - id: rough-planning-orientation
+    topic_id: rough-planning
+    claim_zh: '定向会影响体色分布与星光、猫眼、变彩等现象的呈现。'
+    claim_en: 'Orientation affects the presentation of zoning and phenomena such as asterism, chatoyancy, and play of color.'
+    status: teaching-summary
+    source_ids: [cutting-styles]
+  - id: brilliant-facet-count
+    topic_id: brilliant-cut
+    claim_zh: '圆明亮式常见面数为不计底尖 57 面，计入底尖后为 58 面。'
+    claim_en: 'The common round-brilliant count is 57 facets without the culet and 58 including it.'
+    status: source-supported
+    source_ids: [diamond-cut]
+  - id: brilliant-proportions
+    topic_id: brilliant-cut
+    claim_zh: '比例应作为分析起点，而不是对所有宝石固定适用的处方。'
+    claim_en: 'Proportions should be an analysis starting point rather than a fixed prescription for every gem.'
+    status: source-supported
+    source_ids: [diamond-cut, cutting-quality]
+  - id: fancy-outline-style
+    topic_id: fancy-cuts
+    claim_zh: '花式切工通常同时涉及非圆轮廓与具体刻面排列，不能只按外轮廓理解。'
+    claim_en: 'Fancy cuts commonly involve both non-round outlines and specific facet arrangements, not outline alone.'
+    status: source-supported
+    source_ids: [cutting-styles]
+  - id: fancy-market-uncertainty
+    topic_id: fancy-cuts
+    claim_zh: '花式切工的市场评价受品种、比例、对称性、抛光与需求共同影响。'
+    claim_en: 'Market assessment of fancy cuts depends on species, proportions, symmetry, polish, and demand.'
+    status: teaching-summary
+    source_ids: [cutting-quality]
+  - id: cabochon-form
+    topic_id: cabochon-and-carving
+    claim_zh: '蛋面与雕刻是常见的成品形态路线，适用性取决于材料和设计目标。'
+    claim_en: 'Cabochon and carving are common finished-form routes whose suitability depends on the material and design goal.'
+    status: source-supported
+    source_ids: [cutting-styles, cutting-quality]
+  - id: cabochon-phenomena
+    topic_id: cabochon-and-carving
+    claim_zh: '星光、猫眼等现象的呈现需要综合考虑包裹体方向、弧面形态与抛光。'
+    claim_en: 'Presenting phenomena such as asterism and chatoyancy requires considering inclusion orientation, dome geometry, and polish together.'
+    status: teaching-summary
+    source_ids: [cutting-quality, cutting-styles]
+  - id: rough-planning-case-chain
+    topic_id: rough-planning
+    claim_zh: '教学案例使用双方案与停止条件记录原石规划中的不确定性。'
+    claim_en: 'The teaching case records uncertainty in rough planning through two candidate plans and stop conditions.'
+    status: teaching-summary
+    source_ids: [cutting-quality, emerald-quality]
+  - id: brilliant-case-chain
+    topic_id: brilliant-cut
+    claim_zh: '教学案例把比例起点与统一光源下的可观察复核分开记录。'
+    claim_en: 'The teaching case separates a proportion starting point from observable review under consistent conditions.'
+    status: teaching-summary
+    source_ids: [diamond-cut, cutting-quality]
+  - id: fancy-case-chain
+    topic_id: fancy-cuts
+    claim_zh: '教学案例用轮廓、刻面、对称性和观察条件共同比较花式切工。'
+    claim_en: 'The teaching case compares fancy cuts through outline, faceting, symmetry, and viewing conditions together.'
+    status: teaching-summary
+    source_ids: [cutting-styles, cutting-quality]
+  - id: cabochon-case-chain
+    topic_id: cabochon-and-carving
+    claim_zh: '教学案例把现象方向、弧面设计与停止条件串成可复核记录。'
+    claim_en: 'The teaching case connects phenomenon orientation, dome design, and stop conditions into a reviewable record.'
+    status: teaching-summary
+    source_ids: [cutting-styles, cutting-quality]

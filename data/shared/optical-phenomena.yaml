@@ -3,6 +3,17 @@
 # effects of internal geometry, inclusions, or layering.
 # Reference: Schumann W. *Gemstones of the World*, Nassau K. *The Physics
 #            and Chemistry of Color*, GIA gemology articles.
+references:
+  - title_zh: 'GIA：现象宝石指南'
+    title_en: 'GIA: Guide to Phenomenal Gems'
+    url: 'https://www.gia.edu/articles/gems-gemology-summary-guide-to-phenomenal-gems'
+    scope_zh: 光学现象的观察方式与宝石学语境
+    scope_en: Observation methods and gemological context for optical phenomena
+  - title_zh: 'GIA：现象弧面宝石的光学效应'
+    title_en: 'GIA: Optical Effects of Phenomenal Cabochons'
+    url: 'https://www.gia.edu/gia-news-research/optical-effects-phenomenal-cabochons'
+    scope_zh: 弧面切割、光源、角度与光学表现
+    scope_en: Cabochon cuts, lighting, viewing angle, and optical appearance
 phenomena:
   # ─── 1. Asterism ────────────────────────────────────────
   - id: asterism

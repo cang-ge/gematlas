@@ -6,6 +6,22 @@
 # Reference: Schumann W. (2009) *Gemstones of the World* (5th ed.),
 #            IUCr crystallography tables, GIA gemology references,
 #            Webmineral / Mindat mineralogical databases.
+references:
+  - title_zh: 'Open University：晶体系统'
+    title_en: 'Open University: Crystal systems'
+    url: 'https://www.open.edu/openlearn/science-maths-technology/an-introduction-minerals-and-rocks-under-the-microscope/content-section-1.6.3/?tip=linktip'
+    scope_zh: 晶系、晶轴关系与对称性基础
+    scope_en: Crystal systems, axial relationships, and symmetry basics
+  - title_zh: 'Australian Museum：晶体学'
+    title_en: 'Australian Museum: Crystallography'
+    url: 'https://australian.museum/learn/minerals/what-are-minerals/crystallography/'
+    scope_zh: 晶体结构与矿物学分类背景
+    scope_en: Crystal structure and mineralogical classification context
+  - title_zh: 'GIA：现象宝石的结构'
+    title_en: 'GIA: Structures Behind the Spectacle'
+    url: 'https://www.gia.edu/gems-gemology/summer-2025-phenomenal-gemstones'
+    scope_zh: 宝石学中的结构与光学观察线索
+    scope_en: Structural and optical observation clues in gemology
 systems:
   - id: cubic
     name_zh: 等轴晶系
@@ -32,7 +48,8 @@ systems:
       相同，故无双折射亦无多色性。鉴别主要依靠折射率、比重与光谱测试。
     notable_gems:
       - { name: Diamond, ri: '2.417', sg: '3.52' }
-      - { name: Spinel, ri: '1.712–1.762', sg: '3.58–3.65' }
+      # GIA's spinel end-member fact sheet gives RI 1.718; wider values may describe compositionally different spinel-group material.
+      - { name: Spinel, ri: '1.718', sg: '3.58–3.65' }
       - { name: Garnet — Almandine, ri: '1.770–1.820', sg: '3.95–4.20' }
       - { name: Garnet — Pyrope, ri: '1.714–1.940', sg: '3.50–3.90' }
       - { name: Sodalite, ri: '1.483', sg: '2.18–2.30' }

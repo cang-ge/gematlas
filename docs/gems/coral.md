@@ -21,8 +21,10 @@ gem: coral
     </dl>
     <a class="gem-detail__language" href="../zh/gems/coral.html" hreflang="zh-CN">中文: 珊瑚（宝石级） <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/coral/coral.jpg" alt="Coral (gem-grade)" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/coral/coral.png" alt="Coral (gem-grade)" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="coral" current-gem-label="Coral (gem-grade)" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: coral
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Organic (coral skeleton)</td></tr><tr><th scope="row">Formula</th><td>CaCO₃ (calcite)</td></tr><tr><th scope="row">Crystal System</th><td>Amorphous</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/intro#amorphous-materials">Amorphous</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -65,9 +75,9 @@ gem: coral
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/coral/coral-gallery-1.jpg" alt="Coral (gem-grade)" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/coral/coral-gallery-2.jpg" alt="Coral (gem-grade)" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
-<figure><img src="../images/gems/coral/coral-gallery-3.jpg" alt="Coral (gem-grade)" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
+<figure><img src="../images/gems/coral/coral-gallery-1.png" alt="Coral (gem-grade)" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/coral/coral-gallery-2.png" alt="Coral (gem-grade)" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/coral/coral-gallery-3.png" alt="Coral (gem-grade)" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

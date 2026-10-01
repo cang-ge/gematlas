@@ -1,0 +1,39 @@
+<h2>欧珀主角的视觉形态</h2>
+<p class="subtitle">同样是欧珀，体色会决定光束如何出现、网页文字放在哪里，以及首页整体是“夜空展柜”还是“自然博物馆”。</p>
+
+<style>
+  .variants { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+  .variant { border:1px solid #4e4434; background:#171512; padding:14px; cursor:pointer; transition:border-color .2s ease,transform .2s ease; }
+  .variant:hover { border-color:#d2b66e; transform:translateY(-2px); }
+  .variant.selected { outline:2px solid #d2b66e; background:#211c14; }
+  .variant h3 { margin:12px 0 6px; color:#f2eadc; font:24px Georgia,serif; }
+  .variant p { min-height:70px; margin:0; color:#c6bcad; font-size:12px; line-height:1.55; }
+  .opal { height:180px; position:relative; overflow:hidden; clip-path:ellipse(37% 46% at 50% 50%); }
+  .opal:after { content:''; position:absolute; inset:0; background:linear-gradient(135deg,transparent 15%,rgba(255,255,255,.8) 31%,transparent 35%,transparent 48%,rgba(255,255,255,.45) 52%,transparent 58%); mix-blend-mode:screen; }
+  .black { background:radial-gradient(ellipse at 60% 40%,#ff3d70 0 7%,#e5bc28 12%,#0b8c9e 23%,#1d387d 35%,#100e18 68%,#020308 100%); filter:saturate(1.35); }
+  .crystal { background:radial-gradient(ellipse at 55% 35%,#ffe987 0 8%,#ef5eaa 18%,#26b9b7 28%,#68a5e8 40%,rgba(30,47,70,.82) 67%,#09101b 100%); opacity:.9; }
+  .white { background:radial-gradient(ellipse at 54% 37%,#d2f7f7 0 8%,#f2bf3e 16%,#fa6a92 25%,#348eda 36%,#e9e1cd 63%,#97876e 100%); }
+  .label { display:inline-block; margin-top:10px; color:#d3b36a; font:11px ui-monospace,monospace; letter-spacing:.08em; }
+  .decision { margin-top:18px; border-left:2px solid #c8a868; padding:10px 13px; background:#171512; color:#d5ccbd; line-height:1.55; }
+  @media (max-width:760px) { .variants { grid-template-columns:1fr; } .variant p { min-height:auto; } }
+</style>
+
+<div class="variants">
+  <div class="variant selected" data-choice="black-opal" onclick="toggleSelect(this)">
+    <div class="opal black"></div><span class="label">RECOMMENDED / DARK BODY</span>
+    <h3>黑体欧珀</h3>
+    <p>深色底托住红、绿、蓝等变彩，和 GemAtlas 的深色背景、香槟金文字最协调，画面冲击力最高。</p>
+  </div>
+  <div class="variant" data-choice="crystal-opal" onclick="toggleSelect(this)">
+    <div class="opal crystal"></div><span class="label">LIGHT ENTERS THE BODY</span>
+    <h3>晶质欧珀</h3>
+    <p>半透明质感更适合表现光进入内部，但整体对比度较低，需要更谨慎地安排标题安全区。</p>
+  </div>
+  <div class="variant" data-choice="white-opal" onclick="toggleSelect(this)">
+    <div class="opal white"></div><span class="label">NATURAL / SOFT</span>
+    <h3>白体欧珀</h3>
+    <p>柔和、自然、博物馆感强，但在深色页面上不够有冲击力，更适合专题页或画廊中的光线实验。</p>
+  </div>
+</div>
+
+<div class="decision"><strong>我的推荐：</strong>采用黑体欧珀作为首页视频的视觉形态，但文案统一写“欧珀”，不暗示某个产地、等级或商业稀有性。视频用掠光展示变彩，后续专题再解释欧珀的体色与变彩机制。</div>

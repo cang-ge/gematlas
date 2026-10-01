@@ -21,8 +21,10 @@ gem: charoite
     </dl>
     <a class="gem-detail__language" href="../zh/gems/charoite.html" hreflang="zh-CN">中文: 紫硅碱钙石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/charoite/charoite.jpg" alt="Charoite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/charoite/charoite.png" alt="Charoite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="charoite" current-gem-label="Charoite" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: charoite
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Inosilicate</td></tr><tr><th scope="row">Formula</th><td>(K,Sr,Ba,Na)₁₅₋₁₆(Ca,Na)₃₂[Si₆O₁₁(O,OH)₆]₂[Si₈O₂₂]₂(OH,F)₄·~1.5H₂O</td></tr><tr><th scope="row">Crystal System</th><td>Monoclinic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/monoclinic">Monoclinic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -61,6 +71,10 @@ gem: charoite
 ## History & Lore
 
 <div class="gem-detail__prose">Charoite comes only from Siberia&#39;s Chara River, confirmed in the 1970s; its purple silky chatoyancy is one-of-a-kind.<br /></div>
+
+## Image Evidence
+
+<p class="gem-detail__gallery-empty">No independent image evidence is recorded yet. The primary view is for visual reference and does not replace a traceable specimen image or a professional identification.</p>
 
 <div class="gem-detail__pager-shell">
 <p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>

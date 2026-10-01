@@ -4,6 +4,17 @@
 # representative examples.
 # Reference: Strunz H. (1970) *Mineralogical Tables*, Schumann W.
 #            *Gemstones of the World*, Mindat / Webmineral databases.
+references:
+  - title_zh: 'GIA：宝石的矿物种、品种与矿物组'
+    title_en: 'GIA: Gem Species, Varieties, and Groups'
+    url: 'https://elearning-samples.gia.edu/Gem_Identification/Page5.html'
+    scope_zh: 矿物种、宝石品种与矿物组的层级关系
+    scope_en: Relationships among mineral species, gem varieties, and mineral groups
+  - title_zh: 'Mindat 矿物数据库'
+    title_en: Mindat mineral database
+    url: 'https://www.mindat.org/'
+    scope_zh: 矿物名称、化学组成与分类检索
+    scope_en: Mineral names, chemistry, and classification lookup
 groups:
   # ─── 1. Native elements ──────────────────────────────────
   - id: native-elements

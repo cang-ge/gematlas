@@ -11,7 +11,10 @@
 import yaml from 'js-yaml'
 import fs from 'node:fs'
 import path from 'node:path'
-import { TopicFile } from './schema'
+import { CuttingTopicsFile, GradingTopicsFile, IdentificationTopicsFile, TopicFile } from './schema'
+import type { ReferenceEntry, CuttingEvidenceEntry } from './schema'
+import { renderReferences } from './render-references'
+import { renderEvidenceLedger } from './render-evidence'
 
 const ROOT = 'docs'
 
@@ -169,7 +172,13 @@ function mdLegendaryArchive(locale: 'en' | 'zh'): string[] {
   return [title, '', intro, '', '<div class="maison-work-grid legendary-stones-grid">', cards.join('\n'), '</div>']
 }
 
-function detailPage(topic: ReturnType<typeof TopicFile.parse>['topics'][number], cfg: ModuleConfig, locale: 'en' | 'zh'): string {
+function detailPage(
+  topic: ReturnType<typeof TopicFile.parse>['topics'][number],
+  cfg: ModuleConfig,
+  locale: 'en' | 'zh',
+  references?: ReferenceEntry[],
+  evidenceLedger?: CuttingEvidenceEntry[],
+): string {
   const isZh = locale === 'zh'
   const name = isZh ? topic.name_zh : topic.name_en
   const summary = isZh ? topic.summary_zh : topic.summary_en
@@ -178,9 +187,27 @@ function detailPage(topic: ReturnType<typeof TopicFile.parse>['topics'][number],
   const steps = isZh ? topic.steps_zh : topic.steps_en
   const principlesTitle = isZh ? '## 核心要点' : '## Core Principles'
   const overviewTitle = isZh ? '## 概述' : '## Overview'
+  const boundary = isZh ? topic.boundary_zh : topic.boundary_en
+  const boundaryTitle = isZh ? '边界与安全' : 'Boundary & Safety'
+  const boundaryEyebrow = cfg.id === 'grading'
+    ? 'GRADING BOUNDARY'
+    : cfg.id === 'cutting'
+      ? 'CUTTING BOUNDARY'
+      : 'IDENTIFICATION BOUNDARY'
+  const boundaryId = `identification-boundary-${topic.id}-${locale}`
+  const visualAid = cfg.id === 'cutting' && topic.id === 'brilliant-cut'
+    ? '<FacetDiagram locale="' + locale + '" />'
+    : cfg.id === 'cutting' && topic.id === 'fancy-cuts'
+      ? '<FancyCutGrid locale="' + locale + '" />'
+      : ''
+  const visualTitle = topic.id === 'brilliant-cut'
+    ? (isZh ? '## 结构示意' : '## Structural Diagram')
+    : (isZh ? '## 轮廓速览' : '## Outline Gallery')
   const examplesTitle = isZh ? '## 示例' : '## Examples'
   const diagramTitle = isZh ? '## 判别流程' : '## Decision Tree'
-  const stepsTitle = isZh ? '## 鉴定步骤' : '## Identification Steps'
+  const stepsTitle = cfg.id === 'cutting'
+    ? (isZh ? '## 案例流程' : '## Case Flow')
+    : (isZh ? '## 鉴定步骤' : '## Identification Steps')
   const seeAlso = isZh ? cfg.seeAlsoZH(topic.id) : cfg.seeAlsoEN(topic.id)
   return [
     '---',
@@ -194,6 +221,15 @@ function detailPage(topic: ReturnType<typeof TopicFile.parse>['topics'][number],
     '',
     summary,
     '',
+    ...(boundary ? [
+      `<aside class="gem-identification-boundary" aria-labelledby="${boundaryId}">`,
+      `  <p class="gem-identification-boundary__eyebrow">${boundaryEyebrow}</p>`,
+      `  <h2 id="${boundaryId}">${boundaryTitle}</h2>`,
+      `  <p>${boundary}</p>`,
+      `</aside>`,
+      '',
+    ] : []),
+    ...(visualAid ? [visualTitle, '', visualAid, ''] : []),
     ...(steps ? [stepsTitle, '', steps, ''] : []),
     ...(mermaid ? [diagramTitle, '', `<div v-pre><pre class="mermaid">\n${mermaid}\n</pre></div>`, ''] : []),
     principlesTitle,
@@ -205,11 +241,19 @@ function detailPage(topic: ReturnType<typeof TopicFile.parse>['topics'][number],
     '',
     mdExamplesTable(topic.examples, cfg, isZh),
     '',
+    ...(references ? [renderReferences(references, locale, cfg.id === 'grading' ? 'grading' : cfg.id === 'cutting' ? 'cutting' : 'identification'), ''] : []),
+    ...(evidenceLedger && references ? [renderEvidenceLedger(evidenceLedger, references, topic.id, locale), ''] : []),
     seeAlso,
   ].filter(s => s !== undefined).join('\n')
 }
 
-function overviewPage(parsed: ReturnType<typeof TopicFile.parse>, cfg: ModuleConfig, locale: 'en' | 'zh'): string {
+function overviewPage(
+  parsed: ReturnType<typeof TopicFile.parse>,
+  cfg: ModuleConfig,
+  locale: 'en' | 'zh',
+  references?: ReferenceEntry[],
+  evidenceLedger?: CuttingEvidenceEntry[],
+): string {
   const isZh = locale === 'zh'
   const title = isZh
     ? ({ grading: '分级', cutting: '切割', identification: '鉴定', gallery: '画廊' }[cfg.id])
@@ -226,6 +270,11 @@ function overviewPage(parsed: ReturnType<typeof TopicFile.parse>, cfg: ModuleCon
   const sectionHeadingZH = `## ${title}主题`
   const topicHeader = isZh ? sectionHeadingZH : sectionHeadingEN
   const colHeader = isZh ? '| 主题 | 概述 |' : '| Topic | Summary |'
+  const boundary = isZh ? parsed.boundary_zh : parsed.boundary_en
+  const boundaryTitle = isZh ? '阅读边界' : 'Reading Boundary'
+  const boundaryEyebrow = cfg.id === 'grading' ? 'GRADING BOUNDARY' : 'MODULE BOUNDARY'
+  const boundaryId = `${cfg.id}-boundary-${locale}`
+  const referenceContext = cfg.id === 'grading' ? 'grading' : cfg.id === 'cutting' ? 'cutting' : 'identification'
 
   return [
     '---',
@@ -236,18 +285,47 @@ function overviewPage(parsed: ReturnType<typeof TopicFile.parse>, cfg: ModuleCon
     '',
     lede,
     '',
+    ...(boundary ? [
+      `<aside class="gem-identification-boundary gem-module-boundary" aria-labelledby="${boundaryId}">`,
+      `  <p class="gem-identification-boundary__eyebrow">${boundaryEyebrow}</p>`,
+      `  <h2 id="${boundaryId}">${boundaryTitle}</h2>`,
+      `  <p>${boundary}</p>`,
+      `</aside>`,
+      '',
+    ] : []),
     topicHeader,
     '',
     colHeader,
     '|---|---|',
     rows,
     '',
+    ...(references ? [renderReferences(references, locale, referenceContext), ''] : []),
+    ...(evidenceLedger && references ? [renderEvidenceLedger(evidenceLedger, references, undefined, locale), ''] : []),
   ].join('\n')
 }
 
 function processModule(cfg: ModuleConfig): { ok: number; total: number } {
   const raw = yaml.load(fs.readFileSync(cfg.yaml, 'utf8')) as Record<string, unknown>
-  const parsed = TopicFile.parse(raw)
+  let parsed: ReturnType<typeof TopicFile.parse>
+  let references: ReferenceEntry[] | undefined
+  let evidenceLedger: CuttingEvidenceEntry[] | undefined
+  if (cfg.id === 'grading') {
+    const module = GradingTopicsFile.parse(raw)
+    parsed = module
+    references = module.references
+    evidenceLedger = module.evidence_ledger
+  } else if (cfg.id === 'identification') {
+    const module = IdentificationTopicsFile.parse(raw)
+    parsed = module
+    references = module.references
+  } else if (cfg.id === 'cutting') {
+    const module = CuttingTopicsFile.parse(raw)
+    parsed = module
+    references = module.references
+    evidenceLedger = module.evidence_ledger
+  } else {
+    parsed = TopicFile.parse(raw)
+  }
   const topics = parsed.topics
   const outEnDir = path.join(ROOT, cfg.id)
   const outZhDir = path.join(ROOT, 'zh', cfg.id)
@@ -256,8 +334,8 @@ function processModule(cfg: ModuleConfig): { ok: number; total: number } {
 
   let ok = 0
   try {
-    fs.writeFileSync(path.join(outEnDir, 'intro.md'), overviewPage(parsed, cfg, 'en'), 'utf8')
-    fs.writeFileSync(path.join(outZhDir, 'intro.md'), overviewPage(parsed, cfg, 'zh'), 'utf8')
+    fs.writeFileSync(path.join(outEnDir, 'intro.md'), overviewPage(parsed, cfg, 'en', references, evidenceLedger), 'utf8')
+    fs.writeFileSync(path.join(outZhDir, 'intro.md'), overviewPage(parsed, cfg, 'zh', references, evidenceLedger), 'utf8')
     ok++
     console.log(`  ✓ ${cfg.id} intro → {root,zh}/${cfg.id}/intro.md`)
   } catch (e) {
@@ -266,8 +344,8 @@ function processModule(cfg: ModuleConfig): { ok: number; total: number } {
 
   for (const t of topics) {
     try {
-      fs.writeFileSync(path.join(outEnDir, `${t.id}.md`), detailPage(t, cfg, 'en'), 'utf8')
-      fs.writeFileSync(path.join(outZhDir, `${t.id}.md`), detailPage(t, cfg, 'zh'), 'utf8')
+      fs.writeFileSync(path.join(outEnDir, `${t.id}.md`), detailPage(t, cfg, 'en', references, evidenceLedger), 'utf8')
+      fs.writeFileSync(path.join(outZhDir, `${t.id}.md`), detailPage(t, cfg, 'zh', references, evidenceLedger), 'utf8')
       ok++
       console.log(`  ✓ ${cfg.id}/${t.id} → {root,zh}/${cfg.id}/${t.id}.md`)
     } catch (e) {

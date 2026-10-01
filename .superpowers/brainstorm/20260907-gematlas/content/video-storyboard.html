@@ -1,0 +1,34 @@
+<h2>“从一束光，认识一颗宝石”——背景视频分镜</h2>
+<p class="subtitle">这是首页的品牌叙事视频，不承担完整教学；真正的折射、颜色成因和切工原理留给后续可交互的知识页面。</p>
+
+<style>
+  .story { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+  .frame { min-height:250px; position:relative; overflow:hidden; border:1px solid #514735; background:#050b12; padding:12px; }
+  .frame:after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(180deg,transparent 45%,rgba(3,8,14,.78)); }
+  .frame h3 { position:relative; z-index:2; margin:0; color:#d9ba70; font:18px Georgia,serif; }
+  .frame p { position:absolute; z-index:2; left:12px; right:12px; bottom:8px; margin:0; color:#c5cdd2; font-size:11px; line-height:1.4; }
+  .frame small { position:absolute; right:12px; top:14px; z-index:2; color:#9fa9ae; font:11px ui-monospace,monospace; }
+  .dark .beam { position:absolute; width:2px; height:180%; top:-35%; left:48%; background:#d9e9f0; box-shadow:0 0 18px 4px rgba(143,211,241,.8); transform:rotate(21deg); }
+  .raw .stone { position:absolute; width:110px; height:135px; left:50%; top:39%; transform:translate(-50%,-50%) rotate(18deg); background:linear-gradient(145deg,#79c2e0,#0f416d 52%,#061829); clip-path:polygon(17% 7%,83% 0,100% 76%,62% 100%,12% 83%,0 28%); box-shadow:0 0 35px rgba(81,181,236,.35); }
+  .raw .beam { position:absolute; width:2px; height:140%; left:39%; top:-20%; background:#c7eafa; box-shadow:0 0 20px 6px rgba(148,223,250,.65); transform:rotate(48deg); }
+  .refraction .stone { position:absolute; width:118px; height:118px; left:50%; top:44%; transform:translate(-50%,-50%) rotate(12deg); background:linear-gradient(135deg,rgba(156,224,246,.8),rgba(38,108,165,.42) 50%,rgba(239,198,107,.62)); clip-path:polygon(50% 0,94% 25%,82% 78%,50% 100%,14% 76%,4% 25%); filter:drop-shadow(0 0 18px rgba(117,213,255,.65)); }
+  .refraction .ray { position:absolute; width:160%; height:2px; left:-10%; top:54%; background:#f6e7aa; box-shadow:0 0 10px 2px rgba(245,213,128,.8); transform:rotate(-23deg); }
+  .refraction .ray.two { top:64%; background:#8ed6ef; transform:rotate(19deg); }
+  .cut .stone { position:absolute; width:134px; height:110px; left:50%; top:43%; transform:translate(-50%,-50%) rotate(-8deg); background:linear-gradient(140deg,#d8f3fa 0 18%,#427da7 32%,#102e58 58%,#d9b76e 86%); clip-path:polygon(50% 0,95% 22%,82% 78%,50% 100%,18% 78%,5% 22%); filter:drop-shadow(0 0 26px rgba(114,208,246,.62)); }
+  .cut .facet { position:absolute; width:2px; height:150px; left:50%; top:20%; background:rgba(255,255,255,.6); transform:rotate(62deg); box-shadow:0 0 8px rgba(255,255,255,.5); }
+  .cut .facet.two { transform:rotate(-62deg); }
+  .loop { margin-top:14px; display:flex; align-items:center; gap:9px; color:#b7afa1; font-size:12px; }
+  .loop i { display:block; flex:1; height:3px; background:linear-gradient(90deg,#121b25,#d3b367,#68b2d4,#121b25); }
+  .rule { margin-top:16px; border-left:2px solid #c8a868; padding:9px 12px; background:#171512; color:#d1c7b7; line-height:1.55; }
+  @media (max-width:800px) { .story { grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:480px) { .story { grid-template-columns:1fr; } }
+</style>
+
+<div class="story">
+  <div class="frame dark"><small>00–02s</small><h3>一束光</h3><div class="beam"></div><p>深色留白中出现一条窄光，给标题留下清晰的阅读区域。</p></div>
+  <div class="frame raw"><small>02–05s</small><h3>原石</h3><div class="beam"></div><div class="stone"></div><p>镜头缓慢靠近晶体，不展示品牌或具体商品，只建立“矿物身份”的感觉。</p></div>
+  <div class="frame refraction"><small>05–08s</small><h3>折射</h3><div class="stone"></div><div class="ray"></div><div class="ray two"></div><p>用色彩展开暗示光学现象；科学解释放到“分类 / 光学现象”页面。</p></div>
+  <div class="frame cut"><small>08–11s</small><h3>被看见</h3><div class="stone"></div><div class="facet"></div><div class="facet two"></div><p>切磨面和光辉出现，最后回到相近的暗场，方便无缝循环。</p></div>
+</div>
+<div class="loop"><span>无缝循环</span><i></i><span>11s</span></div>
+<div class="rule"><strong>我的推荐：</strong>采用“蓝宝石夜 + 中性透明晶体 + 香槟光”的品牌化视觉，不直接绑定钻石、红宝石或某一个具体品种；这样首页能代表完整的宝石百科，而不是某种商品宣传。</div>

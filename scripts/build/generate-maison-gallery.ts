@@ -28,6 +28,16 @@ const ROLE_LABELS = {
   zh: { heritage: '历史代表作', craft: '招牌工艺作', 'gem-focus': '宝石主角作' },
 } as const
 
+const RIGHTS_LABELS: Record<string, string> = {
+  'cc-by-2.0': 'CC BY 2.0',
+  'cc-by-sa-2.0': 'CC BY-SA 2.0',
+  'cc-by-3.0': 'CC BY 3.0',
+  'cc-by-sa-3.0': 'CC BY-SA 3.0',
+  'cc-by-sa-4.0': 'CC BY-SA 4.0',
+  cc0: 'CC0 1.0',
+  'public-domain': 'Public domain',
+}
+
 function escapeHtml(value: string): string {
   return value
     .replace(/&/g, '&amp;')
@@ -50,8 +60,11 @@ function renderCard(work: ReturnType<typeof MaisonWorksFile.parse>['works'][numb
   const summary = isZh ? work.summary_zh : work.summary_en
   const archiveRelation = isZh ? work.archive_relation_zh : work.archive_relation_en
   const gems = work.gems.join(' · ')
-  const sourceText = isZh ? '查看资料来源 ↗' : 'Open source ↗'
-  const image = `<a class="maison-work-card__media" href="${escapeHtml(work.image_source_url || work.source_url)}" target="_blank" rel="noreferrer"><img src="${escapeHtml(imageSrc(work.image, locale))}" alt="${escapeHtml(title)}" loading="lazy"></a>`
+  const sourceText = isZh ? '查看作品资料 ↗' : 'Open object source ↗'
+  const imageSourceText = isZh ? '图像来源 ↗' : 'Image source ↗'
+  const creditsText = isZh ? '图片署名与授权' : 'Image credits & rights'
+  const rightsLabel = RIGHTS_LABELS[work.rights] || work.rights
+  const image = `<a class="maison-work-card__media" href="${escapeHtml(work.image_source_url || work.source_url)}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(`${isZh ? '查看' : 'Open'} ${isZh ? '图像来源' : 'image source'}: ${title}`)}"><img src="${escapeHtml(imageSrc(work.image, locale))}" alt="${escapeHtml(title)}" loading="lazy" decoding="async"></a>`
   const relation = archiveRelation
     ? `    <p class="maison-work-card__relation"><strong>${isZh ? '档案关系' : 'Archive relation'}</strong>${escapeHtml(archiveRelation)}</p>`
     : ''
@@ -67,8 +80,11 @@ function renderCard(work: ReturnType<typeof MaisonWorksFile.parse>['works'][numb
       <div><dt>${isZh ? '风格' : 'Style'}</dt><dd>${escapeHtml(style)}</dd></div>
     </dl>
     <p>${escapeHtml(summary)}</p>
-${relation}
-    <a class="maison-work-card__source" href="${escapeHtml(work.source_url)}" target="_blank" rel="noreferrer">${sourceText}</a>
+${relation ? `${relation}\n` : ''}    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="${escapeHtml(work.source_url)}" target="_blank" rel="noreferrer">${sourceText}</a>
+      <a class="maison-work-card__source" href="${escapeHtml(work.image_source_url || work.source_url)}" target="_blank" rel="noreferrer">${imageSourceText}</a>
+    </div>
+    <div class="maison-work-card__rights"><span>${escapeHtml(rightsLabel)}</span><a href="${locale === 'zh' ? '../image-credits' : '../image-credits'}">${creditsText}</a></div>
   </div>
 </article>`
 }

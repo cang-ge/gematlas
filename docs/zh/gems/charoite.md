@@ -21,8 +21,10 @@ gem: charoite
     </dl>
     <a class="gem-detail__language" href="../../gems/charoite.html" hreflang="en">English: Charoite <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../../images/gems/charoite/charoite.jpg" alt="紫硅碱钙石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/charoite/charoite.png" alt="紫硅碱钙石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉参考 · 不等同于鉴定证据</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="zh" current-gem="charoite" current-gem-label="紫硅碱钙石" />
 
 ## 分类
 
@@ -31,6 +33,14 @@ gem: charoite
   <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
   <tbody><tr><th scope="row">矿物族</th><td>硅酸盐</td></tr><tr><th scope="row">化学式</th><td>(K,Sr,Ba,Na)₁₅₋₁₆(Ca,Na)₃₂[Si₆O₁₁(O,OH)₆]₂[Si₈O₂₂]₂(OH,F)₄·~1.5H₂O</td></tr><tr><th scope="row">晶系</th><td>单斜晶系</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="分类坐标">
+  <span>分类坐标</span>
+  <a href="/gematlas/zh/classification/intro">分类总览</a>
+  <a href="/gematlas/zh/classification/mineral-groups/intro">矿物分类组</a>
+  <a href="/gematlas/zh/classification/crystal-systems/monoclinic">单斜晶系</a>
+  <a href="/gematlas/zh/classification/optical-phenomena/intro">光学现象</a>
+  <a href="/gematlas/zh/classification/color-causes/intro">颜色成因</a>
+</nav>
 
 ## 物理性质
 
@@ -61,6 +71,10 @@ gem: charoite
 ## 历史与传说
 
 <div class="gem-detail__prose">紫硅碱钙石仅产自俄罗斯恰拉河，20世纪70年代才被确认，紫色丝绢光泽独特。<br /></div>
+
+## 图像证据
+
+<p class="gem-detail__gallery-empty">当前暂无独立图像证据。本页主视图仅用于视觉参考，不能替代可追溯的标本图像或专业鉴定。</p>
 
 <div class="gem-detail__pager-shell">
 <p class="gem-detail__pager-heading"><span>继续阅读</span><i aria-hidden="true">/</i><small>CONTINUE EXPLORING</small></p>

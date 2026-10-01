@@ -21,8 +21,10 @@ gem: emerald
     </dl>
     <a class="gem-detail__language" href="../zh/gems/emerald.html" hreflang="zh-CN">中文: 祖母绿 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/emerald/emerald.jpg" alt="Emerald" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/emerald/emerald.png" alt="Emerald" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="emerald" current-gem-label="Emerald" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: emerald
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Beryl</td></tr><tr><th scope="row">Formula</th><td>Be₃Al₂Si₆O₁₈</td></tr><tr><th scope="row">Crystal System</th><td>Hexagonal</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/hexagonal">Hexagonal</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -65,8 +75,8 @@ gem: emerald
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/emerald/emerald-gallery-1.jpg" alt="Emerald" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/emerald/emerald-gallery-2.jpg" alt="Emerald" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/emerald/emerald-gallery-1.png" alt="Emerald" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/emerald/emerald-gallery-2.png" alt="Emerald" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

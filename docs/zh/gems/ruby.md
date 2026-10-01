@@ -21,8 +21,10 @@ gem: ruby
     </dl>
     <a class="gem-detail__language" href="../../gems/ruby.html" hreflang="en">English: Ruby <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../../images/gems/ruby/ruby.jpg" alt="红宝石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/ruby/ruby.png" alt="红宝石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉参考 · 不等同于鉴定证据</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="zh" current-gem="ruby" current-gem-label="红宝石" />
 
 ## 分类
 
@@ -31,6 +33,14 @@ gem: ruby
   <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
   <tbody><tr><th scope="row">矿物族</th><td>刚玉族</td></tr><tr><th scope="row">化学式</th><td>Al₂O₃</td></tr><tr><th scope="row">晶系</th><td>三方晶系</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="分类坐标">
+  <span>分类坐标</span>
+  <a href="/gematlas/zh/classification/intro">分类总览</a>
+  <a href="/gematlas/zh/classification/mineral-groups/intro">矿物分类组</a>
+  <a href="/gematlas/zh/classification/crystal-systems/trigonal">三方晶系</a>
+  <a href="/gematlas/zh/classification/optical-phenomena/intro">光学现象</a>
+  <a href="/gematlas/zh/classification/color-causes/intro">颜色成因</a>
+</nav>
 
 ## 物理性质
 
@@ -51,7 +61,7 @@ gem: ruby
 <div class="gem-detail__treatment">
   <div class="gem-detail__treatment-row"><span>常见处理</span><strong>热处理</strong></div>
   <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
-  <p class="gem-detail__treatment-note"><span>说明</span>绝大多数商业红宝石经过热处理，市场可接受；无处理溢价显著</p>
+  <p class="gem-detail__treatment-note"><span>说明</span>GIA指出，有独立实验室报告确认未见加热证据的红宝石因稀有性通常有溢价；单颗宝石价值还受颜色、净度、尺寸、产地及其他处理影响。</p>
 </div>
 
 ## 产地记录
@@ -65,8 +75,8 @@ gem: ruby
 ## 图像证据
 
 <div class="gem-detail__gallery" aria-label="图像证据画廊">
-<figure><img src="../../images/gems/ruby/ruby-gallery-1.jpg" alt="红宝石" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
-<figure><img src="../../images/gems/ruby/ruby-gallery-2.jpg" alt="红宝石" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+<figure><img src="../../images/gems/ruby/ruby-gallery-1.png" alt="红宝石" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/ruby/ruby-gallery-2.png" alt="红宝石" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

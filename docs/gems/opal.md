@@ -21,8 +21,10 @@ gem: opal
     </dl>
     <a class="gem-detail__language" href="../zh/gems/opal.html" hreflang="zh-CN">中文: 欧泊 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/opal/opal.jpg" alt="Opal" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/opal/opal.jpg" alt="Opal" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="opal" current-gem-label="Opal" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: opal
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Opal</td></tr><tr><th scope="row">Formula</th><td>SiO₂·nH₂O</td></tr><tr><th scope="row">Crystal System</th><td>Amorphous</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/intro#amorphous-materials">Amorphous</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 

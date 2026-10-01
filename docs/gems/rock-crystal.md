@@ -21,8 +21,10 @@ gem: rock-crystal
     </dl>
     <a class="gem-detail__language" href="../zh/gems/rock-crystal.html" hreflang="zh-CN">中文: 水晶 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/rock-crystal/rock-crystal.jpg" alt="Rock Crystal" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/rock-crystal/rock-crystal.png" alt="Rock Crystal" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="rock-crystal" current-gem-label="Rock Crystal" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: rock-crystal
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Quartz (crystalline)</td></tr><tr><th scope="row">Formula</th><td>SiO₂</td></tr><tr><th scope="row">Crystal System</th><td>Trigonal</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/trigonal">Trigonal</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -65,8 +75,8 @@ gem: rock-crystal
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/rock-crystal/rock-crystal-gallery-1.jpg" alt="Rock Crystal" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/rock-crystal/rock-crystal-gallery-2.jpg" alt="Rock Crystal" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/rock-crystal/rock-crystal-gallery-1.png" alt="Rock Crystal" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/rock-crystal/rock-crystal-gallery-2.png" alt="Rock Crystal" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

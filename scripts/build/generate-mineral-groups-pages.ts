@@ -6,6 +6,7 @@ import yaml from 'js-yaml'
 import fs from 'node:fs'
 import path from 'node:path'
 import { MineralGroupsFile } from './schema'
+import { renderReferences } from './render-references'
 
 const SHARED = 'data/shared/mineral-groups.yaml'
 const OUT_EN_INTRO = 'docs/classification/mineral-groups/intro.md'
@@ -53,6 +54,8 @@ function detailPage(g: typeof groups[number], locale: 'en' | 'zh'): string {
     gemRows,
     '',
     isZh ? '*详见[矿物组总览](intro)。*' : '*See the [mineral group overview](intro).*',
+    '',
+    renderReferences(parsed.references, locale),
   ].join('\n')
 }
 
@@ -81,8 +84,10 @@ function overviewPage(locale: 'en' | 'zh'): string {
     '|---|---|',
     rows,
     '',
-    isZh ? '*参见[分类总览](../classification/intro)了解矿物学分类框架。*'
-         : '*See the [classification overview](../classification/intro) for the mineralogical framework.*',
+    renderReferences(parsed.references, locale),
+    '',
+    isZh ? '*参见[分类总览](../intro)了解矿物学分类框架。*'
+         : '*See the [classification overview](../intro) for the mineralogical framework.*',
   ].join('\n')
 }
 

@@ -1,0 +1,93 @@
+<style>
+  :root {
+    --ink: #071116;
+    --paper: #f4efe6;
+    --muted: rgba(244,239,230,.62);
+    --line: rgba(244,239,230,.18);
+    --gold: #d6b879;
+    --ease-out: cubic-bezier(.23,1,.32,1);
+    --ease-in-out: cubic-bezier(.77,0,.175,1);
+  }
+  * { box-sizing: border-box; }
+  .opal-board { min-height: 100vh; padding: 22px; background: #02090d; color: var(--paper); font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+  .opal-stage { position: relative; min-height: 820px; overflow: hidden; isolation: isolate; border: 1px solid rgba(244,239,230,.2); border-radius: 24px; background: var(--ink); }
+  .opal-stage::before { content: ''; position: absolute; inset: 0; z-index: -3; background: radial-gradient(circle at 50% 56%, rgba(42,92,91,.38), transparent 37%), linear-gradient(180deg, #0a1e26 0%, #061218 57%, #02090d 100%); }
+  .opal-stage::after { content: ''; position: absolute; inset: 0; z-index: 3; pointer-events: none; background: linear-gradient(180deg, rgba(2,9,13,.2), transparent 28%, rgba(2,9,13,.28) 74%, rgba(2,9,13,.72)); }
+  .opal-nav { position: relative; z-index: 8; display: flex; align-items: center; justify-content: space-between; padding: 25px 30px; }
+  .opal-brand { display: flex; align-items: baseline; gap: 10px; color: var(--paper); font-family: Georgia, 'Times New Roman', serif; font-size: 28px; letter-spacing: -.06em; }
+  .opal-brand small { color: var(--gold); font: 10px Inter, sans-serif; letter-spacing: .18em; text-transform: uppercase; }
+  .module-jump { display: flex; gap: 6px; padding: 5px; border: 1px solid rgba(244,239,230,.16); border-radius: 999px; background: rgba(8,22,27,.47); box-shadow: inset 0 1px 0 rgba(255,255,255,.13), 0 12px 35px rgba(0,0,0,.18); backdrop-filter: blur(14px); }
+  .module-jump a { min-height: 40px; display: inline-flex; align-items: center; gap: 9px; padding: 0 13px; border: 1px solid transparent; border-radius: 999px; color: rgba(244,239,230,.62); text-decoration: none; font-size: 11px; letter-spacing: .02em; transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease, transform 180ms var(--ease-out); }
+  .module-jump a span { color: rgba(214,184,121,.7); font-size: 10px; font-variant-numeric: tabular-nums; }
+  .module-jump a:hover, .module-jump a:focus-visible, .module-jump a.active { color: var(--paper); border-color: rgba(214,184,121,.48); background: rgba(214,184,121,.11); outline: none; }
+  .module-jump a:hover { transform: translateY(-2px); }
+  .opal-copy { position: absolute; z-index: 7; inset: 0; display: grid; place-items: center; padding: 125px 24px 185px; text-align: center; pointer-events: none; }
+  .opal-copy-inner { position: relative; max-width: 820px; }
+  .opal-copy-inner::before { content: ''; position: absolute; z-index: -1; inset: -42px -120px; border-radius: 50%; background: radial-gradient(ellipse, rgba(2,9,13,.38), transparent 69%); filter: blur(12px); }
+  .opal-kicker { margin: 0 0 24px; color: var(--gold); font-size: 10px; letter-spacing: .28em; text-transform: uppercase; }
+  .opal-title { margin: 0; color: var(--paper); font: 400 clamp(48px, 7.2vw, 100px)/.94 Georgia, 'Times New Roman', serif; letter-spacing: -.055em; text-wrap: balance; text-shadow: 0 3px 34px rgba(0,0,0,.35); }
+  .opal-title em { color: rgba(244,239,230,.78); font-style: normal; }
+  .opal-lede { max-width: 520px; margin: 27px auto 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
+  .opal-image-wrap { position: absolute; z-index: 1; left: 50%; bottom: -225px; width: min(420px, 50vw); aspect-ratio: .77; transform: translateX(-50%) rotate(-4deg); filter: drop-shadow(0 30px 36px rgba(0,0,0,.42)); }
+  .opal-image { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; border-radius: 46% 46% 18% 18% / 40% 40% 16% 16%; mix-blend-mode: screen; opacity: .95; }
+  .opal-image-wrap::before { content: ''; position: absolute; z-index: 2; inset: -18% -35%; transform: translateX(-80%) rotate(11deg); background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,.03) 38%, rgba(255,247,210,.95) 49%, rgba(255,255,255,.14) 55%, transparent 72%); filter: blur(9px); mix-blend-mode: screen; animation: beam-sweep 6.4s var(--ease-in-out) infinite; pointer-events: none; }
+  .opal-image-wrap::after { content: ''; position: absolute; z-index: 1; inset: 14% 5% 7%; border-radius: 50%; background: conic-gradient(from 220deg, transparent 0 18%, rgba(14,192,255,.28) 27%, rgba(143,64,255,.26) 39%, rgba(255,56,128,.3) 51%, rgba(255,197,49,.31) 64%, transparent 76% 100%); filter: blur(27px); mix-blend-mode: screen; opacity: .55; animation: color-bloom 6.4s var(--ease-in-out) infinite; pointer-events: none; }
+  .beam-line { position: absolute; z-index: 2; top: -10%; left: 50%; width: 2px; height: 120%; transform: translateX(-50%) rotate(24deg); background: linear-gradient(180deg, transparent, rgba(255,247,210,.7), transparent); box-shadow: 0 0 20px 8px rgba(255,247,210,.12); opacity: .42; animation: beam-pulse 6.4s ease-in-out infinite; }
+  .opal-meta { position: absolute; z-index: 7; left: 30px; right: 30px; bottom: 29px; display: flex; align-items: end; justify-content: space-between; color: rgba(244,239,230,.52); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+  .opal-meta strong { display: block; margin-top: 6px; color: var(--paper); font: 400 18px Georgia, serif; letter-spacing: -.02em; text-transform: none; }
+  .opal-action { pointer-events: auto; min-height: 44px; padding: 0 18px; border: 1px solid rgba(244,239,230,.28); border-radius: 999px; color: var(--paper); background: rgba(244,239,230,.05); font: 12px Inter, sans-serif; cursor: pointer; transition: background-color 180ms ease, border-color 180ms ease, transform 180ms var(--ease-out); }
+  .opal-action:hover, .opal-action:focus-visible { border-color: rgba(214,184,121,.65); background: rgba(214,184,121,.14); outline: none; transform: translateY(-2px); }
+  .opal-stage.replay .opal-image-wrap::before, .opal-stage.replay .opal-image-wrap::after, .opal-stage.replay .beam-line { animation-name: none; }
+  .opal-stage.replay .opal-image-wrap::before { animation: beam-sweep 6.4s var(--ease-in-out) 50ms 1; }
+  .opal-stage.replay .opal-image-wrap::after { animation: color-bloom 6.4s var(--ease-in-out) 80ms 1; }
+  .opal-stage.replay .beam-line { animation: beam-pulse 6.4s ease-in-out 1; }
+  @keyframes beam-sweep { 0% { transform: translateX(-80%) rotate(11deg); opacity: 0; } 14% { opacity: .82; } 53% { transform: translateX(80%) rotate(11deg); opacity: .74; } 68%,100% { transform: translateX(120%) rotate(11deg); opacity: 0; } }
+  @keyframes color-bloom { 0%, 12% { transform: scale(.62); opacity: .1; } 48% { transform: scale(1.08); opacity: .78; } 70%,100% { transform: scale(1.2); opacity: .1; } }
+  @keyframes beam-pulse { 0%, 100% { opacity: .08; } 36%, 58% { opacity: .5; } }
+  @media (max-width: 860px) { .opal-nav { align-items: flex-start; gap: 18px; } .module-jump { max-width: 69vw; overflow-x: auto; scrollbar-width: none; } .module-jump::-webkit-scrollbar { display: none; } .module-jump a { flex: 0 0 auto; } .opal-copy { padding-top: 150px; } .opal-title { font-size: clamp(49px, 12vw, 78px); } .opal-lede { font-size: 13px; } .opal-meta { bottom: 22px; } }
+  @media (prefers-reduced-motion: reduce) { .opal-image-wrap::before, .opal-image-wrap::after, .beam-line { animation: none; } .module-jump a, .opal-action { transition: none; } .module-jump a:hover, .opal-action:hover { transform: none; } }
+</style>
+
+<div class="opal-board">
+  <div class="opal-stage" id="opal-stage">
+    <nav class="opal-nav" aria-label="学习模块">
+      <div class="opal-brand">GemAtlas<small>从一束光开始</small></div>
+      <div class="module-jump">
+        <a class="active" href="#classification"><span>01</span>分类</a>
+        <a href="#identification"><span>02</span>鉴定</a>
+        <a href="#cutting"><span>03</span>切割</a>
+        <a href="#grading"><span>04</span>分级</a>
+        <a href="#gallery"><span>05</span>画廊</a>
+      </div>
+    </nav>
+
+    <div class="opal-copy">
+      <div class="opal-copy-inner">
+        <p class="opal-kicker">A quiet study of light · precious opal</p>
+        <h1 class="opal-title">从一束光，认识<br><em>一颗宝石。</em></h1>
+        <p class="opal-lede">光线掠过欧珀的微小结构，沉睡的色彩开始显现。进入 GemAtlas，从看见开始学习。</p>
+      </div>
+    </div>
+
+    <div class="opal-image-wrap" aria-label="真实欧珀照片">
+      <img class="opal-image" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Opal-black.jpg" alt="具有红、绿、蓝变彩的黑体欧珀" />
+      <span class="beam-line" aria-hidden="true"></span>
+    </div>
+
+    <div class="opal-meta">
+      <div>Hero study / 01<br><strong>黑体欧珀 · Play-of-color</strong></div>
+      <button class="opal-action" type="button" onclick="replayReveal()">重播光线揭示</button>
+    </div>
+  </div>
+  <p style="margin:14px 4px 0;color:rgba(244,239,230,.48);font:12px/1.6 Inter,sans-serif;">评判重点：真实欧珀是否足够突出 · 中央标题是否稳定可读 · 光束是否像“揭示原理”而不是装饰 · 顶部模块是否像入口而非普通菜单</p>
+</div>
+
+<script>
+  function replayReveal() {
+    const stage = document.getElementById('opal-stage');
+    stage.classList.remove('replay');
+    void stage.offsetWidth;
+    stage.classList.add('replay');
+    window.setTimeout(() => stage.classList.remove('replay'), 6600);
+  }
+</script>

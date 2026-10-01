@@ -12,6 +12,7 @@ import yaml from 'js-yaml'
 import fs from 'node:fs'
 import path from 'node:path'
 import { OpticalPhenomenaFile } from './schema'
+import { renderReferences } from './render-references'
 
 const SHARED = 'data/shared/optical-phenomena.yaml'
 const OUT_EN_INTRO = 'docs/classification/optical-phenomena/intro.md'
@@ -122,6 +123,8 @@ function detailPage(p: typeof phenomena[number], locale: 'en' | 'zh'): string {
     tableSep,
     ...tableRows,
     '',
+    renderReferences(parsed.references, locale),
+    '',
     isZh ? '*详见[光学现象总览](intro)。*' : '*See the [optical phenomena overview](intro).*',
   ].join('\n')
 }
@@ -135,6 +138,20 @@ function overviewPage(locale: 'en' | 'zh'): string {
   const rows = phenomena.map(p =>
     `| [${isZh ? p.name_zh : p.name_en}](${p.id}) | ${isZh ? p.short_zh : p.short_en} |`
   ).join('\n')
+  const observationTips: Record<string, { zh: [string, string]; en: [string, string] }> = {
+    asterism: { zh: ['单点光源直射并缓慢转动弧面宝石', '定向针状或管状包裹体'], en: ['Use a point light and slowly rotate the cabochon', 'Oriented needles or tubes'] },
+    chatoyancy: { zh: ['移动光源或转动弧面宝石，追踪亮带', '平行纤维、管状包裹体或通道'], en: ['Move the light or cabochon and track the band', 'Parallel fibers, tubes, or channels'] },
+    'color-change': { zh: ['分别在日光与暖色光源下比较', '不同光源光谱与选择性吸收'], en: ['Compare daylight with a warm incandescent source', 'Source spectrum and selective absorption'] },
+    'play-of-color': { zh: ['缓慢倾斜，观察色斑移动与分布', '有序二氧化硅微球结构'], en: ['Tilt slowly and watch flashes move across the surface', 'Ordered silica-sphere domains'] },
+    adularescence: { zh: ['转动弧面宝石，观察漂浮光晕', '长石内部交替层状结构'], en: ['Rotate the cabochon and watch the floating sheen', 'Alternating feldspar lamellae'] },
+    labradorescence: { zh: ['改变角度，观察金属感色彩闪烁', '长石成分层状结构'], en: ['Change the angle and observe metallic flashes', 'Compositional feldspar lamellae'] },
+    aventurescence: { zh: ['倾斜宝石，让片状包裹体依次反光', '定向金属片状包裹体'], en: ['Tilt the gem so platelets reflect in sequence', 'Oriented metallic platelets'] },
+  }
+  const guideRows = phenomena.map(p => {
+    const tip = observationTips[p.id]
+    const [observe, structure] = tip ? (isZh ? tip.zh : tip.en) : ['—', '—']
+    return `| ${isZh ? p.name_zh : p.name_en} | ${observe} | ${structure} |`
+  }).join('\n')
 
   return [
     '---',
@@ -145,14 +162,25 @@ function overviewPage(locale: 'en' | 'zh'): string {
     '',
     lede,
     '',
+    isZh ? '## 先学会观察' : '## Start with Observation',
+    '',
+    isZh ? '| 现象 | 建议观察方式 | 优先寻找的结构线索 |' : '| Phenomenon | Suggested observation | Structural clue to look for |',
+    '|---|---|---|',
+    guideRows,
+    '',
     isZh ? '## 七种主要现象' : '## Seven Major Phenomena',
     '',
     isZh ? '| 现象 | 一句话概述 |' : '| Phenomenon | One-line Summary |',
     '|---|---|',
     rows,
     '',
-    isZh ? '*参见[分类总览](../classification/intro)了解矿物学分类框架。*'
-         : '*See the [classification overview](../classification/intro) for the mineralogical framework.*',
+    isZh ? '观察到一个现象，只能说明宝石呈现了某种光学表现，不能单独作为最终鉴定结论。光源、切磨形状、观察角度和内部包裹体都会影响结果。'
+         : 'An observed phenomenon describes an optical appearance, not a final identification by itself. Lighting, cut, viewing angle, and inclusions all affect the result.',
+    '',
+    renderReferences(parsed.references, locale),
+    '',
+    isZh ? '*参见[分类总览](../intro)了解矿物学分类框架。*'
+         : '*See the [classification overview](../intro) for the mineralogical framework.*',
   ].join('\n')
 }
 

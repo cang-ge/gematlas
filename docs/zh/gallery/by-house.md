@@ -21,7 +21,7 @@ gallery: by-house
     <p>雕刻彩宝 · 猎豹 · 装饰艺术</p>
   </header>
   <div class="maison-work-grid"><article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Tutti_frutti_bracelet_-_Cartier_(25802475508).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/cartier-tutti-frutti.jpg" alt="Tutti Frutti 彩宝手镯" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Tutti_frutti_bracelet_-_Cartier_(25802475508).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Tutti Frutti 彩宝手镯"><img src="../../images/gallery/maisons/cartier-tutti-frutti.jpg" alt="Tutti Frutti 彩宝手镯" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>历史代表作</span><time>1928</time></div>
     <h3>Tutti Frutti 彩宝手镯</h3>
@@ -31,12 +31,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>装饰艺术植物纹样</dd></div>
     </dl>
     <p>将雕刻红宝石、祖母绿与蓝宝石组合为植物纹样，是 Cartier 彩宝语言的标志性样本。</p>
-
-    <a class="maison-work-card__source" href="https://www.cartier.com/en-gb/maison/the-story/living-heritage/the-cartier-collection/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://www.cartier.com/en-gb/maison/the-story/living-heritage/the-cartier-collection/jewellery" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tutti_frutti_bracelet_-_Cartier_(25802475508).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Linked_bracelet_-_Cartier_(25891095068).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/cartier-linked-bracelet.jpg" alt="几何链节手镯" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Linked_bracelet_-_Cartier_(25891095068).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: 几何链节手镯"><img src="../../images/gallery/maisons/cartier-linked-bracelet.jpg" alt="几何链节手镯" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>招牌工艺作</span><time>1920s</time></div>
     <h3>几何链节手镯</h3>
@@ -46,12 +49,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>爵士时代几何构成</dd></div>
     </dl>
     <p>以活动链节和几何节奏组织佩戴结构，体现 Cartier 对柔性结构与装饰艺术比例的处理。</p>
-
-    <a class="maison-work-card__source" href="https://www.cartier.com/en-gb/maison/the-story/living-heritage/the-cartier-collection/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://www.cartier.com/en-gb/maison/the-story/living-heritage/the-cartier-collection/jewellery" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Linked_bracelet_-_Cartier_(25891095068).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Joyaux_dynastiques_H%C3%B4tel_de_la_Marine_broche_noeud_dentelle_diamants_platine_or.jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/cartier-lace-knot-brooch.jpg" alt="蕾丝结钻石胸针" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Joyaux_dynastiques_H%C3%B4tel_de_la_Marine_broche_noeud_dentelle_diamants_platine_or.jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: 蕾丝结钻石胸针"><img src="../../images/gallery/maisons/cartier-lace-knot-brooch.jpg" alt="蕾丝结钻石胸针" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>宝石主角作</span><time>1906</time></div>
     <h3>蕾丝结钻石胸针</h3>
@@ -61,8 +67,11 @@ gallery: by-house
       <div><dt>风格</dt><dd>美好年代礼仪珠宝</dd></div>
     </dl>
     <p>以蕾丝结般的镂空轮廓组织钻石与金属，适合作为 Cartier 历史珠宝中“轻盈结构”的观察样本。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Joyaux_dynastiques_H%C3%B4tel_de_la_Marine_broche_noeud_dentelle_diamants_platine_or.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Joyaux_dynastiques_H%C3%B4tel_de_la_Marine_broche_noeud_dentelle_diamants_platine_or.jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Joyaux_dynastiques_H%C3%B4tel_de_la_Marine_broche_noeud_dentelle_diamants_platine_or.jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 4.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article></div>
 </section>
@@ -72,7 +81,7 @@ gallery: by-house
     <p>隐密式镶嵌 · 自然 · 活动结构</p>
   </header>
   <div class="maison-work-grid"><article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Loop_bracelet_-_Van_Cleef_and_Arpels_(39055602034).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/vca-loop-bracelet.jpg" alt="Loop 几何手镯" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Loop_bracelet_-_Van_Cleef_and_Arpels_(39055602034).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Loop 几何手镯"><img src="../../images/gallery/maisons/vca-loop-bracelet.jpg" alt="Loop 几何手镯" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>历史代表作</span><time>1929</time></div>
     <h3>Loop 几何手镯</h3>
@@ -82,12 +91,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>立体主义装饰艺术</dd></div>
     </dl>
     <p>1920 年代的几何手镯，将阶梯式切工与铂金结构结合，呈现 VCA 早期现代主义面貌。</p>
-
-    <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Loop_bracelet_-_Van_Cleef_and_Arpels_(39055602034).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Ruby_necklace_-_Van_Cleef_and_Arpels_(38965252754).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/vca-ruby-necklace.jpg" alt="红宝石项链" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Ruby_necklace_-_Van_Cleef_and_Arpels_(38965252754).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: 红宝石项链"><img src="../../images/gallery/maisons/vca-ruby-necklace.jpg" alt="红宝石项链" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>宝石主角作</span><time>20th century</time></div>
     <h3>红宝石项链</h3>
@@ -97,12 +109,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>色彩主导的高级珠宝</dd></div>
     </dl>
     <p>以红宝石的饱和度建立视觉重心，并用钻石衬托色彩层次，适合观察彩宝与金属的关系。</p>
-
-    <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Ruby_necklace_-_Van_Cleef_and_Arpels_(38965252754).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Pendant_watch_-_Van_Cleef_and_Arpels_(38772069405).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/vca-pendant-watch.jpg" alt="几何吊坠腕表" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Pendant_watch_-_Van_Cleef_and_Arpels_(38772069405).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: 几何吊坠腕表"><img src="../../images/gallery/maisons/vca-pendant-watch.jpg" alt="几何吊坠腕表" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>招牌工艺作</span><time>1927</time></div>
     <h3>几何吊坠腕表</h3>
@@ -112,8 +127,11 @@ gallery: by-house
       <div><dt>风格</dt><dd>爵士时代立体主义</dd></div>
     </dl>
     <p>将微型腕表、珍珠与链饰结构整合为吊坠，展示珠宝作品跨越装饰与功能的能力。</p>
-
-    <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://www.vam.ac.uk/collections/jewellery" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Pendant_watch_-_Van_Cleef_and_Arpels_(38772069405).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article></div>
 </section>
@@ -123,7 +141,7 @@ gallery: by-house
     <p>开放结构 · 动物 · 色彩</p>
   </header>
   <div class="maison-work-grid"><article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Mackay_Necklace_Boucheron_1877.png" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/boucheron-mackay-necklace.png" alt="Mackay 蓝宝石钻石项链" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Mackay_Necklace_Boucheron_1877.png" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Mackay 蓝宝石钻石项链"><img src="../../images/gallery/maisons/boucheron-mackay-necklace.png" alt="Mackay 蓝宝石钻石项链" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>历史代表作</span><time>1877</time></div>
     <h3>Mackay 蓝宝石钻石项链</h3>
@@ -133,12 +151,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>美好年代历史珠宝</dd></div>
     </dl>
     <p>为 1878 年巴黎世界博览会而作的历史项链，体现 Boucheron 早期对蓝宝石与钻石对比的运用。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Mackay_Necklace_Boucheron_1877.png" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Mackay_Necklace_Boucheron_1877.png" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Mackay_Necklace_Boucheron_1877.png" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>Public domain</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Collier_tuyau_%C3%A0_gaz,_PPO03791(1).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/boucheron-gas-pipe-necklace.jpg" alt="管道造型钻石项链" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Collier_tuyau_%C3%A0_gaz,_PPO03791(1).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: 管道造型钻石项链"><img src="../../images/gallery/maisons/boucheron-gas-pipe-necklace.jpg" alt="管道造型钻石项链" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>招牌工艺作</span><time>1945–1950</time></div>
     <h3>管道造型钻石项链</h3>
@@ -148,12 +169,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>中世纪建筑感珠宝</dd></div>
     </dl>
     <p>Petit Palais 藏品中的 Boucheron 管道项链，以轻量活动结构叠加钻石缎带，体现品牌对结构与反光的处理。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Collier_tuyau_%C3%A0_gaz,_PPO03791(1).jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Collier_tuyau_%C3%A0_gaz,_PPO03791(1).jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Collier_tuyau_%C3%A0_gaz,_PPO03791(1).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC0 1.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Boucheron,_devant_de_corsage,_1925,_oro_al_palladio,_lapislazzuli,_corallo,_giada,_onice,_turchese,_strass_(parigi,_coll._boucheron).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/boucheron-colour-corsage.jpg" alt="1925 彩色宝石胸饰" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Boucheron,_devant_de_corsage,_1925,_oro_al_palladio,_lapislazzuli,_corallo,_giada,_onice,_turchese,_strass_(parigi,_coll._boucheron).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: 1925 彩色宝石胸饰"><img src="../../images/gallery/maisons/boucheron-colour-corsage.jpg" alt="1925 彩色宝石胸饰" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>宝石主角作</span><time>1925</time></div>
     <h3>1925 彩色宝石胸饰</h3>
@@ -163,8 +187,11 @@ gallery: by-house
       <div><dt>风格</dt><dd>装饰艺术色块构成</dd></div>
     </dl>
     <p>以青金石、珊瑚、翡翠、黑玉和绿松石组织多色层次，适合作为 Boucheron“宝石先行”设计的观察样本。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Boucheron,_devant_de_corsage,_1925,_oro_al_palladio,_lapislazzuli,_corallo,_giada,_onice,_turchese,_strass_(parigi,_coll._boucheron).jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Boucheron,_devant_de_corsage,_1925,_oro_al_palladio,_lapislazzuli,_corallo,_giada,_onice,_turchese,_strass_(parigi,_coll._boucheron).jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Boucheron,_devant_de_corsage,_1925,_oro_al_palladio,_lapislazzuli,_corallo,_giada,_onice,_turchese,_strass_(parigi,_coll._boucheron).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY 3.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article></div>
 </section>
@@ -174,7 +201,7 @@ gallery: by-house
     <p>进光 · 比例 · Blue Book</p>
   </header>
   <div class="maison-work-grid"><article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Tiffany_setting.jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/tiffany-setting.jpg" alt="Tiffany 六爪镶嵌" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Tiffany_setting.jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Tiffany 六爪镶嵌"><img src="../../images/gallery/maisons/tiffany-setting.jpg" alt="Tiffany 六爪镶嵌" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>历史代表作</span><time>1886</time></div>
     <h3>Tiffany 六爪镶嵌</h3>
@@ -184,12 +211,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>现代订婚戒指图标</dd></div>
     </dl>
     <p>将钻石抬离戒圈并最大化进光面，是现代订婚戒指产品形态的重要起点。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiffany_setting.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiffany_setting.jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiffany_setting.jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 3.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Jean_schlumberger_per_tiffany_%26_co.,_spilla_fiocco_schlumberger,_con_acquamarina_da_148,5_carati,_diamanti,_platino_e_oro.jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/tiffany-schlumberger-bow.jpg" alt="Schlumberger 蝴蝶结胸针" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Jean_schlumberger_per_tiffany_%26_co.,_spilla_fiocco_schlumberger,_con_acquamarina_da_148,5_carati,_diamanti,_platino_e_oro.jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Schlumberger 蝴蝶结胸针"><img src="../../images/gallery/maisons/tiffany-schlumberger-bow.jpg" alt="Schlumberger 蝴蝶结胸针" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>招牌工艺作</span><time>20th century</time></div>
     <h3>Schlumberger 蝴蝶结胸针</h3>
@@ -199,12 +229,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>有机现代主义</dd></div>
     </dl>
     <p>以铂金丝带般的结构包裹主石，体现 Schlumberger 对自然形态、动势与结构张力的处理。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Jean_schlumberger_per_tiffany_%26_co.,_spilla_fiocco_schlumberger,_con_acquamarina_da_148,5_carati,_diamanti,_platino_e_oro.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Jean_schlumberger_per_tiffany_%26_co.,_spilla_fiocco_schlumberger,_con_acquamarina_da_148,5_carati,_diamanti,_platino_e_oro.jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Jean_schlumberger_per_tiffany_%26_co.,_spilla_fiocco_schlumberger,_con_acquamarina_da_148,5_carati,_diamanti,_platino_e_oro.jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY 3.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Tiffany_Diamond.jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/tiffany-yellow-diamond.jpg" alt="Tiffany 黄钻" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Tiffany_Diamond.jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Tiffany 黄钻"><img src="../../images/gallery/maisons/tiffany-yellow-diamond.jpg" alt="Tiffany 黄钻" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>宝石主角作</span><time>1877</time></div>
     <h3>Tiffany 黄钻</h3>
@@ -214,8 +247,11 @@ gallery: by-house
       <div><dt>风格</dt><dd>标志性彩钻</dd></div>
     </dl>
     <p>以公开授权的 Tiffany 黄钻图像补充宝石主角视角，聚焦品牌如何围绕单颗高价值彩钻建立叙事。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiffany_Diamond.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiffany_Diamond.jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiffany_Diamond.jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 3.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article></div>
 </section>
@@ -225,7 +261,7 @@ gallery: by-house
     <p>钻石 · 锦簇 · 尺度</p>
   </header>
   <div class="maison-work-grid"><article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace.jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/harry-winston-spanish-inquisition.jpg" alt="Spanish Inquisition 项链" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace.jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Spanish Inquisition 项链"><img src="../../images/gallery/maisons/harry-winston-spanish-inquisition.jpg" alt="Spanish Inquisition 项链" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>历史代表作</span><time>before 1926</time></div>
     <h3>Spanish Inquisition 项链</h3>
@@ -235,12 +271,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>印度宫廷式历史华丽感</dd></div>
     </dl>
     <p>由祖母绿与钻石构成的历史项链，后由 Harry Winston 命名并进入史密森尼收藏体系。</p>
-
-    <a class="maison-work-card__source" href="https://naturalhistory.si.edu/explore/collections/geogallery/10002801" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://naturalhistory.si.edu/explore/collections/geogallery/10002801" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace.jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace_2.jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/harry-winston-spanish-detail.jpg" alt="Cluster 锦簇镶嵌" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace_2.jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Cluster 锦簇镶嵌"><img src="../../images/gallery/maisons/harry-winston-spanish-detail.jpg" alt="Cluster 锦簇镶嵌" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>招牌工艺作</span><time>1940s</time></div>
     <h3>Cluster 锦簇镶嵌</h3>
@@ -250,12 +289,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>钻石主导的自然主义</dd></div>
     </dl>
     <p>以不同角度排列的钻石制造花簇般的连续闪光，是 Harry Winston 识别度最高的设计语言之一。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace_2.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace_2.jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Spanish_Inquisition_Necklace_2.jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:The_Hope_Diamond_(107006041).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/harry-winston-hope-diamond.jpg" alt="Hope Diamond · Winston 档案" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:The_Hope_Diamond_(107006041).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Hope Diamond · Winston 档案"><img src="../../images/gallery/maisons/harry-winston-hope-diamond.jpg" alt="Hope Diamond · Winston 档案" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>宝石主角作</span><time>1949–1958</time></div>
     <h3>Hope Diamond · Winston 档案</h3>
@@ -265,8 +307,11 @@ gallery: by-house
       <div><dt>风格</dt><dd>钻石主导的机构档案</dd></div>
     </dl>
     <p>Harry Winston 于 1949 年购入 Hope Diamond，并于 1958 年捐赠给 Smithsonian；该档案图像用于观察宝石、展陈与品牌叙事的关系。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:The_Hope_Diamond_(107006041).jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:The_Hope_Diamond_(107006041).jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:The_Hope_Diamond_(107006041).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article></div>
 </section>
@@ -276,7 +321,7 @@ gallery: by-house
     <p>稀有宝石 · 溯源叙事</p>
   </header>
   <div class="maison-work-grid"><article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach.png" alt="Wittelsbach 钻石 · 再切割前档案" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Wittelsbach 钻石 · 再切割前档案"><img src="../../images/gallery/maisons/graff-wittelsbach.png" alt="Wittelsbach 钻石 · 再切割前档案" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>宝石主角作</span><time>17th century / recut 2008</time></div>
     <h3>Wittelsbach 钻石 · 再切割前档案</h3>
@@ -287,11 +332,15 @@ gallery: by-house
     </dl>
     <p>以 Wittelsbach 钻石再切割前的公开图像作为档案参照，讨论宝石历史、切工决策与品牌叙事之间的关系。</p>
     <p class="maison-work-card__relation"><strong>档案关系</strong>与 Graff 的再切割后记录属于同一颗宝石的前后对读。</p>
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_diamond,_before_beeing_recut_by_Graff.png" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>Public domain</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach-after.jpg" alt="Wittelsbach 钻石 · 再切割后档案" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Wittelsbach 钻石 · 再切割后档案"><img src="../../images/gallery/maisons/graff-wittelsbach-after.jpg" alt="Wittelsbach 钻石 · 再切割后档案" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>招牌工艺作</span><time>2008 recut</time></div>
     <h3>Wittelsbach 钻石 · 再切割后档案</h3>
@@ -302,11 +351,15 @@ gallery: by-house
     </dl>
     <p>公开授权的再切割后图像与前期档案形成对照，适合观察 Graff 如何通过切工更新宝石的视觉与品牌价值；它不是另一颗独立宝石。</p>
     <p class="maison-work-card__relation"><strong>档案关系</strong>与上一条记录为同一颗宝石的再切割后状态，共同构成前后对照。</p>
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 3.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/graff-wittelsbach-after.jpg" alt="Wittelsbach 钻石 · 切工观察档案" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Wittelsbach 钻石 · 切工观察档案"><img src="../../images/gallery/maisons/graff-wittelsbach-after.jpg" alt="Wittelsbach 钻石 · 切工观察档案" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>历史代表作</span><time>2008 recut</time></div>
     <h3>Wittelsbach 钻石 · 切工观察档案</h3>
@@ -317,7 +370,11 @@ gallery: by-house
     </dl>
     <p>以同一公开授权成品图像建立切工观察索引，帮助读者把“工坊记录”与“宝石对象”分开理解；它不代表另一件独立作品。</p>
     <p class="maison-work-card__relation"><strong>档案关系</strong>与再切割后档案共用同一图像来源，仅作为关联的切工观察视角。</p>
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Wittelsbach_Graff_Diamond.JPG" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 3.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article></div>
 </section>
@@ -327,7 +384,7 @@ gallery: by-house
     <p>皇冠 · 历史 · 几何</p>
   </header>
   <div class="maison-work-grid"><article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Egyptian_brooch_-_Chaumet_(39643558802).jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/chaumet-egyptian-brooch.jpg" alt="埃及风格胸针" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Egyptian_brooch_-_Chaumet_(39643558802).jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: 埃及风格胸针"><img src="../../images/gallery/maisons/chaumet-egyptian-brooch.jpg" alt="埃及风格胸针" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>历史代表作</span><time>1920s</time></div>
     <h3>埃及风格胸针</h3>
@@ -337,12 +394,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>埃及复兴风格</dd></div>
     </dl>
     <p>将埃及复兴风格与几何宝石构成结合，体现 Chaumet 对历史图像和时代装饰风格的转译。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Egyptian_brooch_-_Chaumet_(39643558802).jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Egyptian_brooch_-_Chaumet_(39643558802).jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Egyptian_brooch_-_Chaumet_(39643558802).jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY-SA 2.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Tiara_with_brier_rose_and_jasmine_by_Chaumet.jpg" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/chaumet-josephine-tiara.jpg" alt="蔷薇与茉莉皇冠" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Tiara_with_brier_rose_and_jasmine_by_Chaumet.jpg" target="_blank" rel="noreferrer" aria-label="查看 图像来源: 蔷薇与茉莉皇冠"><img src="../../images/gallery/maisons/chaumet-josephine-tiara.jpg" alt="蔷薇与茉莉皇冠" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>招牌工艺作</span><time>1830</time></div>
     <h3>蔷薇与茉莉皇冠</h3>
@@ -352,12 +412,15 @@ gallery: by-house
       <div><dt>风格</dt><dd>浪漫主义历史珠宝</dd></div>
     </dl>
     <p>1830 年由 Jean-Baptiste Fossin 制作的 Chaumet 皇冠，以蔷薇与茉莉花卉展开宫廷珠宝传统。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiara_with_brier_rose_and_jasmine_by_Chaumet.jpg" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiara_with_brier_rose_and_jasmine_by_Chaumet.jpg" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Tiara_with_brier_rose_and_jasmine_by_Chaumet.jpg" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC0 1.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article>
 <article class="maison-work-card">
-  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Chaumet_vendome.JPG" target="_blank" rel="noreferrer"><img src="../../images/gallery/maisons/chaumet-vendome-jewelry.jpg" alt="Vendôme 钻石珠宝" loading="lazy"></a>
+  <a class="maison-work-card__media" href="https://commons.wikimedia.org/wiki/File:Chaumet_vendome.JPG" target="_blank" rel="noreferrer" aria-label="查看 图像来源: Vendôme 钻石珠宝"><img src="../../images/gallery/maisons/chaumet-vendome-jewelry.jpg" alt="Vendôme 钻石珠宝" loading="lazy" decoding="async"></a>
   <div class="maison-work-card__body">
     <div class="maison-work-card__eyebrow"><span>宝石主角作</span><time>20th century</time></div>
     <h3>Vendôme 钻石珠宝</h3>
@@ -367,8 +430,11 @@ gallery: by-house
       <div><dt>风格</dt><dd>旺多姆广场礼仪珠宝</dd></div>
     </dl>
     <p>以公开授权的 Chaumet 成品图像补充品牌的钻石珠宝样本，聚焦项链比例、光泽和佩戴轮廓。</p>
-
-    <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Chaumet_vendome.JPG" target="_blank" rel="noreferrer">查看资料来源 ↗</a>
+    <div class="maison-work-card__source-row">
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Chaumet_vendome.JPG" target="_blank" rel="noreferrer">查看作品资料 ↗</a>
+      <a class="maison-work-card__source" href="https://commons.wikimedia.org/wiki/File:Chaumet_vendome.JPG" target="_blank" rel="noreferrer">图像来源 ↗</a>
+    </div>
+    <div class="maison-work-card__rights"><span>CC BY 3.0</span><a href="../image-credits">图片署名与授权</a></div>
   </div>
 </article></div>
 </section>

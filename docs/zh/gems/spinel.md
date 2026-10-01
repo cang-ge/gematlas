@@ -17,12 +17,14 @@ gem: spinel
     <dl class="gem-detail__quick-facts">
       <div><dt>硬度</dt><dd>8</dd></div>
       <div><dt>比重</dt><dd>3.6</dd></div>
-      <div><dt>折射率</dt><dd>1.712-1.762</dd></div>
+      <div><dt>折射率</dt><dd>1.718</dd></div>
     </dl>
     <a class="gem-detail__language" href="../../gems/spinel.html" hreflang="en">English: Spinel <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../../images/gems/spinel/spinel.jpg" alt="尖晶石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/spinel/spinel.jpg" alt="尖晶石" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉参考 · 不等同于鉴定证据</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="zh" current-gem="spinel" current-gem-label="尖晶石" />
 
 ## 分类
 
@@ -31,12 +33,20 @@ gem: spinel
   <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
   <tbody><tr><th scope="row">矿物族</th><td>尖晶石族</td></tr><tr><th scope="row">化学式</th><td>MgAl₂O₄</td></tr><tr><th scope="row">晶系</th><td>立方晶系</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="分类坐标">
+  <span>分类坐标</span>
+  <a href="/gematlas/zh/classification/intro">分类总览</a>
+  <a href="/gematlas/zh/classification/mineral-groups/intro">矿物分类组</a>
+  <a href="/gematlas/zh/classification/crystal-systems/cubic">立方晶系</a>
+  <a href="/gematlas/zh/classification/optical-phenomena/intro">光学现象</a>
+  <a href="/gematlas/zh/classification/color-causes/intro">颜色成因</a>
+</nav>
 
 ## 物理性质
 
 <table class="gem-detail__table">
   <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
-  <tbody><tr><th scope="row">莫氏硬度</th><td>8</td></tr><tr><th scope="row">比重</th><td>3.6</td></tr><tr><th scope="row">折射率</th><td>1.712-1.762</td></tr></tbody>
+  <tbody><tr><th scope="row">莫氏硬度</th><td>8</td></tr><tr><th scope="row">比重</th><td>3.6</td></tr><tr><th scope="row">折射率</th><td>1.718</td></tr></tbody>
 </table>
 
 ## 光学性质
@@ -50,8 +60,8 @@ gem: spinel
 
 <div class="gem-detail__treatment">
   <div class="gem-detail__treatment-row"><span>常见处理</span><strong>无 / 通常无处理</strong></div>
-  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="">否</strong></div>
-  <p class="gem-detail__treatment-note"><span>说明</span>尖晶石通常无处理；合成尖晶石多见于珠宝，需专业仪器鉴别</p>
+  <div class="gem-detail__treatment-row"><span>需要披露</span><strong class="is-required">是</strong></div>
+  <p class="gem-detail__treatment-note"><span>说明</span>尖晶石通常少见处理，但已有少量热处理、扩散处理及裂隙充填记录；如确认经过处理，应按销售地法规和交易规则披露。天然/合成及具体处理状态不能仅凭外观确认，重要交易应查验独立实验室报告。</p>
 </div>
 
 ## 产地记录

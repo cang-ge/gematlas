@@ -21,8 +21,10 @@ gem: zircon
     </dl>
     <a class="gem-detail__language" href="../zh/gems/zircon.html" hreflang="zh-CN">中文: 锆石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/zircon/zircon.jpg" alt="Zircon" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/zircon/zircon.jpg" alt="Zircon" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="zircon" current-gem-label="Zircon" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: zircon
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Zircon</td></tr><tr><th scope="row">Formula</th><td>ZrSiO₄</td></tr><tr><th scope="row">Crystal System</th><td>Tetragonal</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/tetragonal">Tetragonal</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 

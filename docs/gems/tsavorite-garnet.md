@@ -21,8 +21,10 @@ gem: tsavorite-garnet
     </dl>
     <a class="gem-detail__language" href="../zh/gems/tsavorite-garnet.html" hreflang="zh-CN">中文: 沙弗莱石榴石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/tsavorite-garnet/tsavorite-garnet.jpg" alt="Tsavorite Garnet" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/tsavorite-garnet/tsavorite-garnet.png" alt="Tsavorite Garnet" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="tsavorite-garnet" current-gem-label="Tsavorite Garnet" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: tsavorite-garnet
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Garnet</td></tr><tr><th scope="row">Formula</th><td>Ca₃Al₂(SiO₄)₃</td></tr><tr><th scope="row">Crystal System</th><td>Cubic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/cubic">Cubic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -65,9 +75,9 @@ gem: tsavorite-garnet
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-1.jpg" alt="Tsavorite Garnet" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-2.jpg" alt="Tsavorite Garnet" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
-<figure><img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-3.jpg" alt="Tsavorite Garnet" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
+<figure><img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-1.png" alt="Tsavorite Garnet" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-2.png" alt="Tsavorite Garnet" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/tsavorite-garnet/tsavorite-garnet-gallery-3.png" alt="Tsavorite Garnet" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

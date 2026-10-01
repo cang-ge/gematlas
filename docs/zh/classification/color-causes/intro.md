@@ -4,7 +4,14 @@ title: 颜色成因
 
 # 颜色成因
 
-珠宝的颜色并非孤立现象，而是由背后的物理化学机制决定。本分类模块介绍天然宝石中最重要的三种致色机制：
+颜色不是孤立的外观标签，而是光与物质相互作用后的结果。本分类模块从吸收型体色与结构型光学色两条路径，进入三种常见的致色机制：
+
+## 先分清两条路径
+
+| 路径 | 光与物质的关系 | 典型结果 |
+|---|---|---|
+| 吸收型体色 | 宝石选择性吸收部分可见光，剩余光线进入眼睛 | 红宝石、祖母绿、蓝宝石的体色 |
+| 结构型光学色 | 微结构使光发生散射、干涉或衍射，颜色随角度或光源改变 | 欧泊变彩、月光石月光效应、拉长石晕彩 |
 
 ## 三种主要机制
 
@@ -14,7 +21,7 @@ title: 颜色成因
 或 f 电子层。当这些离子进入晶格取代主晶格中的位置（如 Al、Si、
 Mg）时，其能级被晶场劈裂为多组 d-d 跃迁。吸收可见光特定波段后，
 透射或反射光中残留的颜色即为我们看到的颜色。这是宝石界最重要
-的致色机制，约 70% 的有色宝石属此类。
+的致色机制，在许多常见有色宝石中都很重要。
  |
 | [色心致色](color-centers) | 色心是晶格中能选择性吸收可见光的点缺陷。当晶格缺少某个离子
 （空位）、多出一个离子（间隙），或含有杂质离子改变局部电荷平衡
@@ -29,4 +36,14 @@ Mg）时，其能级被晶场劈裂为多组 d-d 跃迁。吸收可见光特定�
 **金属-配体电荷转移（MLCT）**。
  |
 
-*参见[分类总览](../classification/intro)了解矿物分类框架。*
+颜色分类适合帮助观察和检索，但不能替代鉴定。同一种颜色可能来自不同机制；进入具体机制时，还应结合色相、明度、饱和度、光源和观察方向。
+
+<aside class="gem-reference-block" aria-labelledby="gem-reference-title">
+  <p class="gem-reference-block__eyebrow">SOURCE TRACE</p>
+  <h2 id="gem-reference-title">参考依据与证据边界</h2>
+  <p class="gem-reference-block__intro">本页内容用于学习与检索；来源用于说明知识依据，不代表仅凭本页即可完成具体样品鉴定。</p>
+  <ul><li><a href="https://www.gia.edu/gems-gemology" target="_blank" rel="noreferrer">GIA：宝石与颜色研究</a><span>宝石颜色、光学表现与宝石学研究背景</span><small>打开来源 ↗</small></li>
+<li><a href="https://www.gia.edu/gems-gemology/summer-2025-phenomenal-gemstones" target="_blank" rel="noreferrer">GIA：现象宝石的结构</a><span>结构型光学色与微结构观察线索</span><small>打开来源 ↗</small></li></ul>
+</aside>
+
+*参见[分类总览](../intro)了解矿物分类框架。*

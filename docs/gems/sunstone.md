@@ -21,8 +21,10 @@ gem: sunstone
     </dl>
     <a class="gem-detail__language" href="../zh/gems/sunstone.html" hreflang="zh-CN">中文: 太阳石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/sunstone/sunstone.jpg" alt="Sunstone" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/sunstone/sunstone.png" alt="Sunstone" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="sunstone" current-gem-label="Sunstone" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: sunstone
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Feldspar (Oligoclase / Labradorite)</td></tr><tr><th scope="row">Formula</th><td>(Na,Ca)(Si,Al)₄O₈ + Cu/Fe platelets</td></tr><tr><th scope="row">Crystal System</th><td>Triclinic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/triclinic">Triclinic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -65,7 +75,7 @@ gem: sunstone
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/sunstone/sunstone-gallery-1.jpg" alt="Sunstone" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/sunstone/sunstone-gallery-1.png" alt="Sunstone" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

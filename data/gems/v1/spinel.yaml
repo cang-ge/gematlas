@@ -1,3 +1,4 @@
+# Sources: GIA Spinel facts (https://www.gia.edu/spinel); treatment context: GIA care guide (https://www.gia.edu/spinel-care-cleaning), nickel diffusion report (https://www.gia.edu/gia-news-press/gia-researchers-identify-new-spinel-treatment).
 id: spinel
 names: { zh: 尖晶石, en: Spinel }
 category:
@@ -8,7 +9,7 @@ category:
 physical:
   hardness_mohs: 8
   specific_gravity: 3.60
-  refractive_index: 1.712-1.762
+  refractive_index: "1.718"
 optical:
   typical_colors:
     - { zh: 绝地武士红, en: Jedi Red }
@@ -18,9 +19,9 @@ optical:
   color_causes_en: Cr³⁺ (red); Fe²⁺ (blue); V (varied)
 treatments:
   common: []
-  disclosure_required: false
-  note_zh: 尖晶石通常无处理；合成尖晶石多见于珠宝，需专业仪器鉴别
-  note_en: Spinel is typically untreated; synthetic spinel is common in jewelry and requires lab identification
+  disclosure_required: true
+  note_zh: 尖晶石通常少见处理，但已有少量热处理、扩散处理及裂隙充填记录；如确认经过处理，应按销售地法规和交易规则披露。天然/合成及具体处理状态不能仅凭外观确认，重要交易应查验独立实验室报告。
+  note_en: Spinel is rarely treated, but heat treatment, diffusion treatment, and fracture filling have been documented. If treatment is identified, disclose it as required by applicable local rules and trade practice. Natural/synthetic status and specific treatment cannot be confirmed by appearance alone; consult an independent laboratory report for significant transactions.
 
 
 origin:

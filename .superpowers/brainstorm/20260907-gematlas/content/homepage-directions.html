@@ -1,0 +1,66 @@
+<h2>GemAtlas 首页应该先回答什么？</h2>
+<p class="subtitle">当前版本已经有稳定的深色金色基调和五大板块，但首页首屏几乎只承担导航。请比较下面三种“百科首页”方向：你更希望访客先做哪件事？</p>
+
+<style>
+  .ga-note { color:#bcb5aa; margin: 0 0 18px; }
+  .ga-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+  .ga-card { min-height:330px; border:1px solid #4c453c; background:#171512; padding:16px; cursor:pointer; transition:.18s ease; }
+  .ga-card:hover { transform:translateY(-3px); border-color:#c8a96b; }
+  .ga-card.selected { outline:2px solid #d7b76e; background:#211d16; }
+  .ga-kicker { color:#d4b56c; font:12px ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing:.12em; }
+  .ga-title { color:#f3ead7; font-size:20px; margin:10px 0 6px; }
+  .ga-desc { color:#c3bbb0; font-size:13px; line-height:1.55; min-height:60px; }
+  .ga-wire { border:1px solid #403a33; background:#0d0c0b; padding:10px; margin:14px 0; color:#8d877d; font-size:11px; }
+  .ga-hero { border:1px solid #645435; color:#d4b56c; padding:14px 10px; margin-bottom:9px; }
+  .ga-row { display:grid; grid-template-columns:1fr 1fr; gap:7px; margin-top:8px; }
+  .ga-box { border:1px solid #37322c; padding:10px 7px; color:#aaa398; }
+  .ga-track { display:flex; gap:5px; align-items:center; margin:14px 0; }
+  .ga-step { flex:1; height:32px; border:1px solid #62502d; display:grid; place-items:center; color:#d4b56c; }
+  .ga-rail { height:5px; background:linear-gradient(90deg,#5c91b0,#d9a84a,#a65f61); margin:8px 0 11px; }
+  .ga-chips { display:flex; flex-wrap:wrap; gap:5px; }
+  .ga-chip { border:1px solid #38352f; padding:4px 7px; color:#bdb3a5; }
+  @media (max-width:760px) { .ga-grid { grid-template-columns:1fr; } .ga-card { min-height:auto; } }
+</style>
+
+<div class="ga-grid">
+  <div class="ga-card" data-choice="directory" onclick="toggleSelect(this)">
+    <div class="ga-kicker">A / ATLAS FIRST</div>
+    <div class="ga-title">先找一颗宝石</div>
+    <div class="ga-desc">把首页做成高质量目录：搜索、颜色、硬度、家族和热门宝石直接进入。</div>
+    <div class="ga-wire">
+      <div class="ga-hero">搜索“红色 + 玻璃光泽 + 硬度 7–8”</div>
+      <div class="ga-rail"></div>
+      <div class="ga-row"><div class="ga-box">钻石 · 4C</div><div class="ga-box">红宝石 · 刚玉</div></div>
+      <div class="ga-row"><div class="ga-box">按颜色</div><div class="ga-box">按晶系</div></div>
+    </div>
+    <div class="ga-note">适合：查资料、横向比较、快速定位</div>
+  </div>
+
+  <div class="ga-card" data-choice="learning" onclick="toggleSelect(this)">
+    <div class="ga-kicker">B / LEARNING PATH</div>
+    <div class="ga-title">从看见到理解</div>
+    <div class="ga-desc">把首页做成学习入口：先认识矿物，再理解颜色/光学，再到鉴定、切工和分级。</div>
+    <div class="ga-wire">
+      <div class="ga-hero">宝石学入门路径 · 预计 20 分钟</div>
+      <div class="ga-track"><div class="ga-step">01 识别</div><div class="ga-step">02 原理</div><div class="ga-step">03 判断</div></div>
+      <div class="ga-box">今天的知识卡：为什么蓝宝石和红宝石属于同一矿物族？</div>
+      <div class="ga-chips"><span class="ga-chip">继续学习</span><span class="ga-chip">随机一颗</span><span class="ga-chip">挑战题</span></div>
+    </div>
+    <div class="ga-note">适合：科普、系统学习、形成记忆</div>
+  </div>
+
+  <div class="ga-card" data-choice="museum" onclick="toggleSelect(this)">
+    <div class="ga-kicker">C / OPEN MUSEUM</div>
+    <div class="ga-title">先被宝石吸引</div>
+    <div class="ga-desc">把首页做成数字博物馆：用大图、传奇宝石、切工和现象吸引，再把兴趣导回百科。</div>
+    <div class="ga-wire">
+      <div class="ga-hero">本周展柜 · 蓝色来自什么？</div>
+      <div class="ga-row"><div class="ga-box">海蓝宝 / 色彩成因</div><div class="ga-box">Hope Diamond / 历史</div></div>
+      <div class="ga-row"><div class="ga-box">切工观察台</div><div class="ga-box">显微世界</div></div>
+      <div class="ga-chips"><span class="ga-chip">看画廊</span><span class="ga-chip">读原理</span></div>
+    </div>
+    <div class="ga-note">适合：视觉传播、分享、培养项目气质</div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top:20px">我的初步判断：以 B 为主线、吸收 A 的搜索/筛选、用 C 作为首页的视觉层和画廊入口，最符合“学习科普大百科”而不把项目做成单纯图片展。</p>

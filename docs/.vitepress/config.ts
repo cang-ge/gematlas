@@ -69,7 +69,7 @@ export default defineConfig({
     logo: { src: '/logo.svg', alt: 'GemAtlas' },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/<owner>/gematlas' },
+      { icon: 'github', link: 'https://github.com/cang-ge/gematlas' },
     ],
 
     footer: {
@@ -101,6 +101,7 @@ function navEn() {
     { text: 'Grading', link: '/grading/intro' },
     { text: 'Gallery', link: '/gallery/intro' },
     { text: 'Gemstone Index', link: '/gems/' },
+    { text: 'Compare', link: '/compare.html' },
   ]
 }
 
@@ -112,6 +113,7 @@ function navZh() {
     { text: '分级', link: '/zh/grading/intro' },
     { text: '画廊', link: '/zh/gallery/intro' },
     { text: '宝石名录', link: '/zh/gems/' },
+    { text: '对比', link: '/zh/compare.html' },
   ]
 }
 

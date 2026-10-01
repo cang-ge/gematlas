@@ -21,8 +21,10 @@ gem: turquoise
     </dl>
     <a class="gem-detail__language" href="../zh/gems/turquoise.html" hreflang="zh-CN">中文: 绿松石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/turquoise/turquoise.jpg" alt="Turquoise" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/turquoise/turquoise.jpg" alt="Turquoise" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="turquoise" current-gem-label="Turquoise" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: turquoise
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Hydrous copper aluminium phosphate</td></tr><tr><th scope="row">Formula</th><td>CuAl₆(PO₄)₄(OH)₈·4H₂O</td></tr><tr><th scope="row">Crystal System</th><td>Triclinic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/triclinic">Triclinic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -65,9 +75,9 @@ gem: turquoise
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/turquoise/turquoise-gallery-1.jpg" alt="Turquoise" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/turquoise/turquoise-gallery-2.jpg" alt="Turquoise" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
-<figure><img src="../images/gems/turquoise/turquoise-gallery-3.jpg" alt="Turquoise" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
+<figure><img src="../images/gems/turquoise/turquoise-gallery-1.png" alt="Turquoise" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/turquoise/turquoise-gallery-2.png" alt="Turquoise" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/turquoise/turquoise-gallery-3.png" alt="Turquoise" loading="lazy" decoding="async"><figcaption>Evidence 03</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

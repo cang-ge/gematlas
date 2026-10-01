@@ -1,4 +1,4 @@
-# Ruby (corundum family). Source: GIA Encyclopedia + Schumann (2009).
+# Ruby (corundum family). Sources: GIA Encyclopedia + Schumann (2009); treatment note: https://www.gia.edu/cn/FAQ/gia-faq-heat-treatment-ruby and https://www.gia.edu/ruby/buyers-guide.
 id: ruby
 names:
   zh: 红宝石
@@ -26,8 +26,8 @@ treatments:
   common:
     - heat-treatment
   disclosure_required: true
-  note_zh: 绝大多数商业红宝石经过热处理，市场可接受；无处理溢价显著
-  note_en: Most commercial rubies are heat-treated; untreated stones command significant premiums
+  note_zh: GIA指出，有独立实验室报告确认未见加热证据的红宝石因稀有性通常有溢价；单颗宝石价值还受颜色、净度、尺寸、产地及其他处理影响。
+  note_en: GIA notes that rubies with an independent lab report confirming no evidence of heat treatment command a premium due to rarity; an individual stone's value also depends on color, clarity, size, origin, and other treatments.
 
 
 origin:
@@ -39,5 +39,5 @@ history_zh: |
 history_en: |
   Ruby is the king of coloured gems; Mogok (Myanmar) 'pigeon-blood' stones set the benchmark. Revered in India as the 'lord of gems', it reached Europe along the Silk Road.
 images:
-  main: ruby.jpg
-  gallery: [ruby-gallery-1.jpg, ruby-gallery-2.jpg]
+  main: ruby.png
+  gallery: [ruby-gallery-1.png, ruby-gallery-2.png]

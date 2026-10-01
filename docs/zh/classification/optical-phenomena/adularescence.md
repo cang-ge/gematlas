@@ -31,4 +31,12 @@ Rainbow Moonstone / 彩虹月光石 | fine alternating (rainbow CT interference)
 White Moonstone / 白月光石 | orthoclase + albite (coarser) | feldspar
 Cat's-eye Moonstone / 猫眼月光石 | orthoclase + albite + oriented needles | feldspar
 
+<aside class="gem-reference-block" aria-labelledby="gem-reference-title">
+  <p class="gem-reference-block__eyebrow">SOURCE TRACE</p>
+  <h2 id="gem-reference-title">参考依据与证据边界</h2>
+  <p class="gem-reference-block__intro">本页内容用于学习与检索；来源用于说明知识依据，不代表仅凭本页即可完成具体样品鉴定。</p>
+  <ul><li><a href="https://www.gia.edu/articles/gems-gemology-summary-guide-to-phenomenal-gems" target="_blank" rel="noreferrer">GIA：现象宝石指南</a><span>光学现象的观察方式与宝石学语境</span><small>打开来源 ↗</small></li>
+<li><a href="https://www.gia.edu/gia-news-research/optical-effects-phenomenal-cabochons" target="_blank" rel="noreferrer">GIA：现象弧面宝石的光学效应</a><span>弧面切割、光源、角度与光学表现</span><small>打开来源 ↗</small></li></ul>
+</aside>
+
 *详见[光学现象总览](intro)。*

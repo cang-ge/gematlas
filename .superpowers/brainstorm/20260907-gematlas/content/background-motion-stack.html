@@ -1,0 +1,47 @@
+<h2>建议的 GemAtlas 背景动效层</h2>
+<p class="subtitle">动效只服务于“进入一座宝石知识博物馆”这个目的。持续运动交给视频，界面动效保持克制，跳转只发生一次。</p>
+
+<style>
+  .stack { position:relative; min-height:510px; overflow:hidden; border:1px solid #4f4638; background:#071523; }
+  .stack__video { position:absolute; inset:0; background:
+    radial-gradient(circle at 18% 35%, rgba(110,184,230,.48) 0 2px, transparent 3px),
+    radial-gradient(circle at 74% 24%, rgba(217,184,104,.72) 0 2px, transparent 3px),
+    radial-gradient(circle at 58% 78%, rgba(77,143,190,.5) 0 3px, transparent 4px),
+    linear-gradient(135deg,#05111f 0%,#0b3451 48%,#050b15 100%); background-size:180px 150px,260px 180px,220px 200px,100% 100%; animation:drift 11s ease-in-out infinite alternate; }
+  .stack__video:after { content:''; position:absolute; inset:0; background:linear-gradient(115deg,transparent 20%,rgba(255,255,255,.12) 42%,transparent 56%); transform:translateX(-50%); animation:glint 8s ease-in-out infinite; }
+  .stack__copy { position:absolute; inset:0; display:grid; place-items:center; text-align:center; padding:36px; background:rgba(3,10,18,.14); }
+  .stack__copy h1 { max-width:850px; margin:0; color:#f5eddf; font:normal clamp(38px,7vw,86px)/.96 Georgia,serif; letter-spacing:-.04em; }
+  .stack__copy em { color:#aebdca; font-style:normal; }
+  .stack__copy p { max-width:560px; color:#d0d7dc; line-height:1.6; margin:22px auto 0; }
+  .stack__cta { display:inline-flex; margin-top:24px; padding:13px 28px; border:1px solid rgba(255,255,255,.44); border-radius:999px; color:#fff; background:rgba(255,255,255,.08); }
+  .stack__nav { position:absolute; inset:0 0 auto; display:flex; justify-content:space-between; align-items:center; padding:18px 24px; color:#f6eee0; background:rgba(5,12,20,.24); backdrop-filter:blur(8px); }
+  .stack__brand { font:24px Georgia,serif; }
+  .stack__links { display:flex; gap:18px; color:#d0d7dc; font-size:12px; }
+  .stack__badge { position:absolute; left:18px; bottom:18px; padding:9px 11px; border:1px solid rgba(255,255,255,.25); background:rgba(2,9,16,.48); color:#c9d4db; font-size:11px; line-height:1.45; }
+  .stack__badge strong { color:#d7b76e; }
+  .stack__pause { position:absolute; right:18px; bottom:18px; width:38px; height:38px; border:1px solid rgba(255,255,255,.42); border-radius:50%; color:#fff; background:rgba(2,9,16,.42); display:grid; place-items:center; }
+  .stack__timeline { display:flex; gap:6px; margin-top:14px; }
+  .stack__timeline span { height:3px; flex:1; background:#876e3d; }
+  .stack__timeline span:nth-child(2) { background:#357aa5; }
+  @keyframes drift { from { background-position:180px 150px,260px 180px,220px 200px,0 0; } to { background-position:210px 133px,232px 200px,245px 182px,0 0; } }
+  @keyframes glint { 0%,45% { transform:translateX(-55%); opacity:0; } 58%,73% { transform:translateX(55%); opacity:1; } 88%,100% { transform:translateX(90%); opacity:0; } }
+  @media (prefers-reduced-motion: reduce) { .stack__video, .stack__video:after { animation:none; } }
+  @media (max-width:700px) { .stack__links { display:none; } .stack { min-height:560px; } }
+</style>
+
+<div class="stack">
+  <div class="stack__video" aria-label="此处代表宝石微距背景视频"></div>
+  <nav class="stack__nav"><div class="stack__brand">GemAtlas</div><div class="stack__links"><span>图典</span><span>五大板块</span><span>画廊</span><span>GitHub</span></div><span>中 / EN</span></nav>
+  <div class="stack__copy">
+    <div>
+      <h1>从一束光，<em>认识一颗宝石。</em></h1>
+      <p>从矿物结构、颜色成因到切工与鉴定，建立你的宝石学地图。</p>
+      <div class="stack__cta">进入宝石图典</div>
+      <div class="stack__timeline"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+  <div class="stack__badge"><strong>媒体层</strong><br>MP4/WebM + poster<br>失败时仍可读、可跳过</div>
+  <div class="stack__pause" aria-label="暂停背景视频">Ⅱ</div>
+</div>
+
+<p class="subtitle" style="margin-top:18px">实现顺序：① 先用 poster 做静态首屏和真实跳转；② 接入视频并控制体积；③ 加入文字淡入与导航玻璃层；④ 最后再评估是否需要一次性的进入过渡。不要先做鼠标跟随、视差或持续闪烁。</p>

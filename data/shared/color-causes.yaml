@@ -3,6 +3,17 @@
 # transition-metal ions, color centers, and charge transfer.
 # Reference: Nassau K. (1983) *The Physics and Chemistry of Color*,
 #            GIA gemology articles, Schumann W. *Gemstones of the World*.
+references:
+  - title_zh: 'GIA：宝石与颜色研究'
+    title_en: 'GIA: Gems & Gemology research'
+    url: 'https://www.gia.edu/gems-gemology'
+    scope_zh: 宝石颜色、光学表现与宝石学研究背景
+    scope_en: Gem color, optical appearance, and gemological research context
+  - title_zh: 'GIA：现象宝石的结构'
+    title_en: 'GIA: Structures Behind the Spectacle'
+    url: 'https://www.gia.edu/gems-gemology/summer-2025-phenomenal-gemstones'
+    scope_zh: 结构型光学色与微结构观察线索
+    scope_en: Structural optical color and microstructure observation clues
 causes:
   # ─── 1. Transition-metal ions ───────────────────────────────
   - id: transition-metal
@@ -13,14 +24,14 @@ causes:
       或 f 电子层。当这些离子进入晶格取代主晶格中的位置（如 Al、Si、
       Mg）时，其能级被晶场劈裂为多组 d-d 跃迁。吸收可见光特定波段后，
       透射或反射光中残留的颜色即为我们看到的颜色。这是宝石界最重要
-      的致色机制，约 70% 的有色宝石属此类。
+      的致色机制，在许多常见有色宝石中都很重要。
     summary_en: |
       Transition-metal ions (Cr, Fe, Mn, Co, Ni, V, Cu, Ti) have
       partially filled d or f orbitals. When substituted into a host
       lattice, crystal-field splitting creates d-d absorption bands
       in the visible spectrum. The unabsorbed wavelengths produce
       the gem's color. This is the dominant cause of color in
-      gemstones — roughly 70% of colored gems owe their hue to it.
+      gemstones and is important in many common colored stones.
     mechanism_zh: |
       **晶场理论**：过渡金属离子周围配位阴离子（O²⁻、OH⁻、F⁻）产生
       静电场，使简并的 d 轨道分裂为不同能级。电子在这些分裂能级之间

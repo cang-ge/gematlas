@@ -8,6 +8,7 @@ import yaml from 'js-yaml'
 import fs from 'node:fs'
 import path from 'node:path'
 import { GemSchema, CrystalSystemsFile } from './schema'
+import { renderReferences } from './render-references'
 
 const GEM_DIR = 'data/gems/v1'
 const OUT_EN   = 'docs/gems'
@@ -115,6 +116,27 @@ function mdCategory(gem: ParsedGem, locale: Locale): string {
   ])
 }
 
+function taxonomyLinks(gem: ParsedGem, locale: Locale): string {
+  const isZh = locale === 'zh'
+  const prefix = isZh ? '/gematlas/zh/classification' : '/gematlas/classification'
+  const crystal = gem.category.crystal_system
+  const crystalLabel = crystalName(crystal, locale)
+  const labels = isZh
+    ? { title: '分类坐标', overview: '分类总览', mineral: '矿物分类组', crystal: crystalLabel, optical: '光学现象', color: '颜色成因' }
+    : { title: 'Classification coordinates', overview: 'Classification overview', mineral: 'Mineral groups', crystal: crystalLabel, optical: 'Optical phenomena', color: 'Color causes' }
+  const crystalHref = crystal === 'amorphous'
+    ? `${prefix}/intro#amorphous-materials`
+    : `${prefix}/crystal-systems/${html(crystal)}`
+  return `<nav class="gem-detail__taxonomy" aria-label="${labels.title}">
+  <span>${labels.title}</span>
+  <a href="${prefix}/intro">${labels.overview}</a>
+  <a href="${prefix}/mineral-groups/intro">${labels.mineral}</a>
+  <a href="${crystalHref}">${labels.crystal}</a>
+  <a href="${prefix}/optical-phenomena/intro">${labels.optical}</a>
+  <a href="${prefix}/color-causes/intro">${labels.color}</a>
+</nav>`
+}
+
 function mdPhysical(gem: ParsedGem, locale: Locale): string {
   const p = gem.physical
   if (locale === 'en') {
@@ -180,7 +202,7 @@ function hero(gem: ParsedGem, locale: Locale, position: number): string {
   const otherName = locale === 'en' ? gem.names.zh : gem.names.en
   const imgRel = locale === 'en' ? `../images/gems/${gem.id}` : `../../images/gems/${gem.id}`
   const image = gem.images?.main
-    ? `<figure class="gem-detail__hero-media"><img src="${imgRel}/${html(gem.images.main)}" alt="${html(name)}" loading="eager" decoding="async"><figcaption><span>${locale === 'en' ? 'Primary view' : '主视图'}</span><span>${locale === 'en' ? 'Visual identification' : '视觉识别'}</span></figcaption></figure>`
+    ? `<figure class="gem-detail__hero-media"><img src="${imgRel}/${html(gem.images.main)}" alt="${html(name)}" loading="eager" decoding="async"><figcaption><span>${locale === 'en' ? 'Primary view' : '主视图'}</span><span>${locale === 'en' ? 'Visual reference · not identification evidence' : '视觉参考 · 不等同于鉴定证据'}</span></figcaption></figure>`
     : `<div class="gem-detail__hero-media gem-detail__hero-media--empty"><span>${locale === 'en' ? 'Image pending' : '图片待补充'}</span></div>`
   const labels = locale === 'en'
     ? { atlas: 'GEM ATLAS', mineral: 'Mineral identity', formula: 'Formula', crystal: 'Crystal system', hardness: 'Mohs', sg: 'Specific gravity', ri: 'Refractive index', switcher: '中文' }
@@ -227,10 +249,13 @@ function pageBody(gem: ParsedGem, locale: Locale, allGems: ParsedGem[]): string 
     `<div class="gem-detail__breadcrumb"><a href="./">${locale === 'en' ? 'Gemstone Index' : '宝石名录'}</a><span aria-hidden="true">/</span><span>${html(name)}</span></div>`,
     hero(gem, locale, index + 1),
     '',
+    `<GemAssistPanel locale="${locale}" current-gem="${html(gem.id)}" current-gem-label="${html(name)}" />`,
+    '',
     `## ${categoryTitle}`,
     '',
     `<p class="gem-detail__section-kicker">${locale === 'en' ? 'IDENTITY / SPECIES RECORD' : '身份 / 宝石档案'}</p>`,
     mdCategory(gem, locale),
+    taxonomyLinks(gem, locale),
     '',
     `## ${physicalTitle}`,
     '',
@@ -259,6 +284,13 @@ function pageBody(gem: ParsedGem, locale: Locale, allGems: ParsedGem[]): string 
       `<div class="gem-detail__gallery" aria-label="${locale === 'en' ? 'Image evidence gallery' : '图像证据画廊'}">`,
       ...gem.images.gallery.map((file, galleryIndex) => `<figure><img src="${imgRel}/${html(file)}" alt="${html(name)}" loading="lazy" decoding="async"><figcaption>${locale === 'en' ? 'Evidence' : '证据'} ${String(galleryIndex + 1).padStart(2, '0')}</figcaption></figure>`),
       '</div>',
+      '',
+    )
+  } else {
+    lines.push(
+      `## ${galleryTitle}`,
+      '',
+      `<p class="gem-detail__gallery-empty">${locale === 'en' ? 'No independent image evidence is recorded yet. The primary view is for visual reference and does not replace a traceable specimen image or a professional identification.' : '当前暂无独立图像证据。本页主视图仅用于视觉参考，不能替代可追溯的标本图像或专业鉴定。'}</p>`,
       '',
     )
   }
@@ -325,11 +357,10 @@ for (const gem of parsedGems) {
 /** Load crystal systems from shared YAML with Zod validation. */
 function loadCrystalSystems() {
   const raw = yaml.load(fs.readFileSync('data/shared/crystal-systems.yaml', 'utf8'))
-  const parsed = CrystalSystemsFile.parse(raw)
-  return parsed.systems
+  return CrystalSystemsFile.parse(raw)
 }
 
-function crystalPage(sys: ReturnType<typeof loadCrystalSystems>[number], locale: 'en' | 'zh'): string {
+function crystalPage(sys: ReturnType<typeof loadCrystalSystems>['systems'][number], references: ReturnType<typeof loadCrystalSystems>['references'], locale: 'en' | 'zh'): string {
   const name = locale === 'en' ? sys.name_en : sys.name_zh
   const description = locale === 'en' ? sys.description_en : sys.description_zh
   const habit = locale === 'en' ? sys.habit_en : sys.habit_zh
@@ -414,19 +445,22 @@ ${separatorRow}
 ${paramRows}
 
 ${gemsTable}${backRef}
+
+${renderReferences(references, locale)}
 `
 }
 
 const CRYSTAL_EN = 'docs/classification/crystal-systems'
 const CRYSTAL_ZH = 'docs/zh/classification/crystal-systems'
-const allSystems = loadCrystalSystems()
+const crystalFile = loadCrystalSystems()
+const allSystems = crystalFile.systems
 let csOk = 0
 try {
   for (const sys of allSystems) {
     fs.mkdirSync(CRYSTAL_EN, { recursive: true })
     fs.mkdirSync(CRYSTAL_ZH, { recursive: true })
-    fs.writeFileSync(path.join(CRYSTAL_EN, `${sys.id}.md`), crystalPage(sys, 'en'), 'utf8')
-    fs.writeFileSync(path.join(CRYSTAL_ZH, `${sys.id}.md`), crystalPage(sys, 'zh'), 'utf8')
+    fs.writeFileSync(path.join(CRYSTAL_EN, `${sys.id}.md`), crystalPage(sys, crystalFile.references, 'en'), 'utf8')
+    fs.writeFileSync(path.join(CRYSTAL_ZH, `${sys.id}.md`), crystalPage(sys, crystalFile.references, 'zh'), 'utf8')
     csOk++
     console.log(`  ✓ ${sys.id} → crystal-systems/{root,zh}/${sys.id}.md`)
   }

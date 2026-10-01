@@ -21,8 +21,10 @@ gem: coral
     </dl>
     <a class="gem-detail__language" href="../../gems/coral.html" hreflang="en">English: Coral (gem-grade) <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../../images/gems/coral/coral.jpg" alt="珊瑚（宝石级）" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉识别</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../../images/gems/coral/coral.png" alt="珊瑚（宝石级）" loading="eager" decoding="async"><figcaption><span>主视图</span><span>视觉参考 · 不等同于鉴定证据</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="zh" current-gem="coral" current-gem-label="珊瑚（宝石级）" />
 
 ## 分类
 
@@ -31,6 +33,14 @@ gem: coral
   <thead><tr><th scope="col">属性</th><th scope="col">值</th></tr></thead>
   <tbody><tr><th scope="row">矿物族</th><td>有机宝石（珊瑚虫骨骼）</td></tr><tr><th scope="row">化学式</th><td>CaCO₃ (calcite)</td></tr><tr><th scope="row">晶系</th><td>非晶质</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="分类坐标">
+  <span>分类坐标</span>
+  <a href="/gematlas/zh/classification/intro">分类总览</a>
+  <a href="/gematlas/zh/classification/mineral-groups/intro">矿物分类组</a>
+  <a href="/gematlas/zh/classification/intro#amorphous-materials">非晶质</a>
+  <a href="/gematlas/zh/classification/optical-phenomena/intro">光学现象</a>
+  <a href="/gematlas/zh/classification/color-causes/intro">颜色成因</a>
+</nav>
 
 ## 物理性质
 
@@ -65,9 +75,9 @@ gem: coral
 ## 图像证据
 
 <div class="gem-detail__gallery" aria-label="图像证据画廊">
-<figure><img src="../../images/gems/coral/coral-gallery-1.jpg" alt="珊瑚（宝石级）" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
-<figure><img src="../../images/gems/coral/coral-gallery-2.jpg" alt="珊瑚（宝石级）" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
-<figure><img src="../../images/gems/coral/coral-gallery-3.jpg" alt="珊瑚（宝石级）" loading="lazy" decoding="async"><figcaption>证据 03</figcaption></figure>
+<figure><img src="../../images/gems/coral/coral-gallery-1.png" alt="珊瑚（宝石级）" loading="lazy" decoding="async"><figcaption>证据 01</figcaption></figure>
+<figure><img src="../../images/gems/coral/coral-gallery-2.png" alt="珊瑚（宝石级）" loading="lazy" decoding="async"><figcaption>证据 02</figcaption></figure>
+<figure><img src="../../images/gems/coral/coral-gallery-3.png" alt="珊瑚（宝石级）" loading="lazy" decoding="async"><figcaption>证据 03</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

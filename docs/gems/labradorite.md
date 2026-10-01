@@ -21,8 +21,10 @@ gem: labradorite
     </dl>
     <a class="gem-detail__language" href="../zh/gems/labradorite.html" hreflang="zh-CN">中文: 拉长石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/labradorite/labradorite.jpg" alt="Labradorite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/labradorite/labradorite.png" alt="Labradorite" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="labradorite" current-gem-label="Labradorite" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: labradorite
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Feldspar (Plagioclase)</td></tr><tr><th scope="row">Formula</th><td>(Ca,Na)(Si,Al)₄O₈</td></tr><tr><th scope="row">Crystal System</th><td>Triclinic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/triclinic">Triclinic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -65,8 +75,8 @@ gem: labradorite
 ## Image Evidence
 
 <div class="gem-detail__gallery" aria-label="Image evidence gallery">
-<figure><img src="../images/gems/labradorite/labradorite-gallery-1.jpg" alt="Labradorite" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
-<figure><img src="../images/gems/labradorite/labradorite-gallery-2.jpg" alt="Labradorite" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
+<figure><img src="../images/gems/labradorite/labradorite-gallery-1.png" alt="Labradorite" loading="lazy" decoding="async"><figcaption>Evidence 01</figcaption></figure>
+<figure><img src="../images/gems/labradorite/labradorite-gallery-2.png" alt="Labradorite" loading="lazy" decoding="async"><figcaption>Evidence 02</figcaption></figure>
 </div>
 
 <div class="gem-detail__pager-shell">

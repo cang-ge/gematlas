@@ -21,8 +21,10 @@ gem: lapis-lazuli
     </dl>
     <a class="gem-detail__language" href="../zh/gems/lapis-lazuli.html" hreflang="zh-CN">中文: 青金石 <span aria-hidden="true">↗</span></a>
   </div>
-  <figure class="gem-detail__hero-media"><img src="../images/gems/lapis-lazuli/lapis-lazuli.jpg" alt="Lapis Lazuli" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual identification</span></figcaption></figure>
+  <figure class="gem-detail__hero-media"><img src="../images/gems/lapis-lazuli/lapis-lazuli.jpg" alt="Lapis Lazuli" loading="eager" decoding="async"><figcaption><span>Primary view</span><span>Visual reference · not identification evidence</span></figcaption></figure>
 </div>
+
+<GemAssistPanel locale="en" current-gem="lapis-lazuli" current-gem-label="Lapis Lazuli" />
 
 ## Classification
 
@@ -31,6 +33,14 @@ gem: lapis-lazuli
   <thead><tr><th scope="col">Property</th><th scope="col">Value</th></tr></thead>
   <tbody><tr><th scope="row">Mineral Family</th><td>Lazurite (rock)</td></tr><tr><th scope="row">Formula</th><td>(Na,Ca)₈(AlSiO₄)₆(S,SO₄,Cl)₂</td></tr><tr><th scope="row">Crystal System</th><td>Cubic</td></tr></tbody>
 </table>
+<nav class="gem-detail__taxonomy" aria-label="Classification coordinates">
+  <span>Classification coordinates</span>
+  <a href="/gematlas/classification/intro">Classification overview</a>
+  <a href="/gematlas/classification/mineral-groups/intro">Mineral groups</a>
+  <a href="/gematlas/classification/crystal-systems/cubic">Cubic</a>
+  <a href="/gematlas/classification/optical-phenomena/intro">Optical phenomena</a>
+  <a href="/gematlas/classification/color-causes/intro">Color causes</a>
+</nav>
 
 ## Physical Properties
 
@@ -61,6 +71,10 @@ gem: lapis-lazuli
 ## History & Lore
 
 <div class="gem-detail__prose">Lapis lazuli supplied the pharaohs and Renaissance ultramarine. Afghanistan&#39;s Sar-e-Sang mine has run for 6,000 years.<br /></div>
+
+## Image Evidence
+
+<p class="gem-detail__gallery-empty">No independent image evidence is recorded yet. The primary view is for visual reference and does not replace a traceable specimen image or a professional identification.</p>
 
 <div class="gem-detail__pager-shell">
 <p class="gem-detail__pager-heading"><span>CONTINUE EXPLORING</span><i aria-hidden="true">/</i><small>继续阅读</small></p>

@@ -1,0 +1,56 @@
+<style>
+  :root { --ink:#071116; --paper:#f4efe6; --muted:rgba(244,239,230,.58); --gold:#d6b879; --line:rgba(244,239,230,.18); --ease:cubic-bezier(.23,1,.32,1); }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#02090d; color:var(--paper); font-family:Inter,ui-sans-serif,system-ui,sans-serif; }
+  .directions { padding:28px; min-height:100vh; background:radial-gradient(circle at 50% 0%,#13313a 0,#02090d 58%); }
+  header { display:flex; align-items:end; justify-content:space-between; gap:24px; max-width:1400px; margin:0 auto 24px; }
+  h1 { margin:0; font:400 clamp(35px,5vw,68px)/.96 Georgia,serif; letter-spacing:-.06em; }
+  header p { max-width:430px; margin:0; color:var(--muted); font-size:12px; line-height:1.7; }
+  .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; max-width:1400px; margin:auto; }
+  .direction { position:relative; min-height:690px; overflow:hidden; isolation:isolate; border:1px solid var(--line); border-radius:20px; background:#08141a; }
+  .direction::after { content:''; position:absolute; inset:0; z-index:3; pointer-events:none; background:linear-gradient(180deg,rgba(2,9,13,.1),transparent 35%,rgba(2,9,13,.72)); }
+  .direction img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:transform 700ms var(--ease),filter 700ms ease; }
+  .direction:hover img { transform:scale(1.04); filter:saturate(1.14) contrast(1.05); }
+  .direction::before { content:''; position:absolute; z-index:2; top:-25%; left:-35%; width:34%; height:155%; transform:rotate(18deg); background:linear-gradient(90deg,transparent,rgba(255,244,202,.8),transparent); filter:blur(18px); mix-blend-mode:screen; animation:slow-scan 15s var(--ease) infinite; opacity:.45; }
+  .direction:nth-child(2)::before { animation-delay:-5s; }
+  .direction:nth-child(3)::before { animation-delay:-10s; }
+  .label { position:absolute; z-index:5; left:22px; right:22px; top:20px; display:flex; align-items:center; justify-content:space-between; color:rgba(244,239,230,.7); font-size:10px; letter-spacing:.14em; text-transform:uppercase; }
+  .label strong { color:var(--gold); font-weight:500; }
+  .copy { position:absolute; z-index:5; left:22px; right:22px; bottom:22px; }
+  .copy h2 { margin:0; font:400 34px/.98 Georgia,serif; letter-spacing:-.05em; }
+  .copy p { max-width:320px; margin:12px 0 0; color:var(--muted); font-size:12px; line-height:1.65; }
+  .tag { display:inline-flex; margin-top:15px; padding:7px 10px; border:1px solid rgba(214,184,121,.4); border-radius:999px; color:var(--gold); font-size:10px; }
+  .direction.a img { object-position:center 20%; }
+  .direction.b img { object-position:center 56%; }
+  .direction.c img { object-position:center 42%; }
+  .recommend { max-width:1400px; margin:18px auto 0; padding:16px 18px; border:1px solid rgba(214,184,121,.3); border-radius:14px; background:rgba(214,184,121,.06); color:rgba(244,239,230,.7); font-size:12px; line-height:1.7; }
+  .recommend strong { color:var(--paper); }
+  @keyframes slow-scan { 0%,13% { transform:translateX(-85%) rotate(18deg); opacity:0; } 22% { opacity:.55; } 75% { transform:translateX(410%) rotate(18deg); opacity:.45; } 86%,100% { transform:translateX(480%) rotate(18deg); opacity:0; } }
+  @media (prefers-reduced-motion:reduce) { .direction::before { animation:none; } .direction img { transition:none; } }
+  @media (max-width:900px) { .directions { padding:16px; } header { display:block; } header p { margin-top:14px; } .grid { grid-template-columns:1fr; } .direction { min-height:520px; } }
+</style>
+
+<main class="directions">
+  <header>
+    <div><div style="margin-bottom:13px;color:var(--gold);font-size:10px;letter-spacing:.24em;text-transform:uppercase;">GemAtlas / Opal hero study</div><h1>让成品成为<br>光线的舞台。</h1></div>
+    <p>这次不把欧珀“贴”在页面下方。三种方向都让成品占据主要视觉重量，光束以 15 秒慢扫描覆盖画面，并在色彩显现后保留停留时间。</p>
+  </header>
+  <section class="grid" aria-label="欧珀成品构图方向">
+    <article class="direction a">
+      <div class="label"><span>Direction A</span><strong>展柜正面</strong></div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Rainbow_Shield_Opal_Pendant_Jewelry.jpg" alt="欧珀与钻石黄金吊坠" />
+      <div class="copy"><h2>一件被光<br>唤醒的作品。</h2><p>主体接近满屏，中央标题落在暗部留白中；适合做首页第一眼的“展品”。</p><span class="tag">推荐：最有首页冲击力</span></div>
+    </article>
+    <article class="direction b">
+      <div class="label"><span>Direction B</span><strong>佩戴语境</strong></div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Fire_Opal_ring.jpg" alt="博物馆收藏的欧珀戒指" />
+      <div class="copy"><h2>从一枚戒指<br>认识变彩。</h2><p>成品更容易让普通访客理解“宝石如何进入生活”，但画面冲击力略弱于吊坠。</p><span class="tag">适合：科普入口</span></div>
+    </article>
+    <article class="direction c">
+      <div class="label"><span>Direction C</span><strong>暗场微距</strong></div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Schmuckanh%C3%A4nger_mit_gr%C3%BCnden_Stein.JPG" alt="金色欧珀吊坠" />
+      <div class="copy"><h2>让色彩<br>慢慢浮现。</h2><p>保留暗场和长停留，光束的解释性最强；需要后续精修主体抠图与构图。</p><span class="tag">适合：沉浸式实验</span></div>
+    </article>
+  </section>
+  <div class="recommend"><strong>我的建议：</strong>先采用 A 的叙事骨架，但将实际主体做成“展柜正面 + 微距缓慢推进”：标题始终居中，成品从暗场中逐渐显现；光线不是左侧一根竖线，而是 15 秒内从全屏暗部缓慢扫过，经过欧珀时出现变彩，随后停留约 5 秒再循环。这样既有冲击力，也不会把色彩变成突然闪烁。</div>
+</main>

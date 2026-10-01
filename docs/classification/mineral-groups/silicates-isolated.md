@@ -46,3 +46,11 @@ Cyclosilicates contain [Si₃O₉]⁶⁻ (three-member) or [Si₆O₁₈]¹²⁻
 | Iolite (Cordierite) / 堇青石 | Mg₂Al₄Si₅O₁₈ | cyclosilicate |
 
 *See the [mineral group overview](intro).*
+
+<aside class="gem-reference-block" aria-labelledby="gem-reference-title">
+  <p class="gem-reference-block__eyebrow">SOURCE TRACE</p>
+  <h2 id="gem-reference-title">References & Evidence Boundary</h2>
+  <p class="gem-reference-block__intro">This page supports learning and retrieval; the sources document the knowledge basis and do not make this page sufficient for identifying a specific specimen.</p>
+  <ul><li><a href="https://elearning-samples.gia.edu/Gem_Identification/Page5.html" target="_blank" rel="noreferrer">GIA: Gem Species, Varieties, and Groups</a><span>Relationships among mineral species, gem varieties, and mineral groups</span><small>Open source ↗</small></li>
+<li><a href="https://www.mindat.org/" target="_blank" rel="noreferrer">Mindat mineral database</a><span>Mineral names, chemistry, and classification lookup</span><small>Open source ↗</small></li></ul>
+</aside>

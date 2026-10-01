@@ -37,3 +37,12 @@ including the chrysoberyl and olivine groups, belong here.
 | Iolite (Cordierite) | 1.522–1.578 | 2.57–2.66 |
 | Danburite | 1.630–1.636 | 2.97–3.03 |
 *See the [classification overview](../intro) for all crystal systems.*
+
+<aside class="gem-reference-block" aria-labelledby="gem-reference-title">
+  <p class="gem-reference-block__eyebrow">SOURCE TRACE</p>
+  <h2 id="gem-reference-title">References & Evidence Boundary</h2>
+  <p class="gem-reference-block__intro">This page supports learning and retrieval; the sources document the knowledge basis and do not make this page sufficient for identifying a specific specimen.</p>
+  <ul><li><a href="https://www.open.edu/openlearn/science-maths-technology/an-introduction-minerals-and-rocks-under-the-microscope/content-section-1.6.3/?tip=linktip" target="_blank" rel="noreferrer">Open University: Crystal systems</a><span>Crystal systems, axial relationships, and symmetry basics</span><small>Open source ↗</small></li>
+<li><a href="https://australian.museum/learn/minerals/what-are-minerals/crystallography/" target="_blank" rel="noreferrer">Australian Museum: Crystallography</a><span>Crystal structure and mineralogical classification context</span><small>Open source ↗</small></li>
+<li><a href="https://www.gia.edu/gems-gemology/summer-2025-phenomenal-gemstones" target="_blank" rel="noreferrer">GIA: Structures Behind the Spectacle</a><span>Structural and optical observation clues in gemology</span><small>Open source ↗</small></li></ul>
+</aside>
