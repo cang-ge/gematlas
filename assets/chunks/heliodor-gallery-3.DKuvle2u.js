@@ -1,0 +1,1 @@
+const s="/gematlas/assets/heliodor.D29o0iy7.jpg",a="/gematlas/assets/heliodor-gallery-1.BtnyxtlC.png",t="/gematlas/assets/heliodor-gallery-2.hZ7EivxS.png",o="/gematlas/assets/heliodor-gallery-3.BtFEDzf_.png";export{s as _,a,t as b,o as c};

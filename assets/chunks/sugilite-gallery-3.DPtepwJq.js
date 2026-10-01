@@ -1,1 +1,0 @@
-const s="/gematlas/assets/sugilite.DnS292ec.jpg",t="/gematlas/assets/sugilite-gallery-1.Bi3-hFHn.jpg",a="/gematlas/assets/sugilite-gallery-2._C6ezxhJ.jpg",e="/gematlas/assets/sugilite-gallery-3.BdKcXn_p.jpg";export{s as _,t as a,a as b,e as c};
